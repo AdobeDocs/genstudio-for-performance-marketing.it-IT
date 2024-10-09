@@ -3,9 +3,9 @@ title: Convalida del marchio in Adobe GenStudio per Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;ident
 
 **Per migliorare l&#39;allineamento del brand per le varianti di contenuto generato**:
 
-1. Fare clic sull&#39;icona di controllo **[!UICONTROL [!DNL Brand]]** delle linee guida per una singola variante.
+1. Fare clic sull&#39;icona di controllo **[!UICONTROL [!DNL Brand]]** delle linee guida per una singola variante. Il controllo delle linee guida di [!DNL Brand] mostra un numero percentuale di allineamento del brand per una variante.
 
    Consulta un riepilogo di quante linee guida per il brand sono conformi alla convalida del brand o richiedono maggiore attenzione.
 
 1. Per ottenere i dettagli delle sezioni e delle linee guida che richiedono miglioramenti, fai clic su **[!UICONTROL Rivedi]** _o_ fai clic sull&#39;icona _Convalida marchio_ nella barra dei menu superiore per aprire il pannello _Convalida marchio_.
 
-   Consulta tutte le sezioni e le linee guida per il brand che richiedono la tua attenzione. <!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   Consulta tutte le sezioni e le linee guida per il brand che richiedono la tua attenzione.
 
    >[!NOTE]
    >
    > La linea guida di _Brand voice_ indicata nel _pannello di convalida del brand_ si applica all&#39;intera variante, non a una singola sezione. L’intera variante di contenuto è evidenziata per suggerire un miglioramento.
 
-1. Rivedi manualmente le sezioni delle varianti per ottenere l’allineamento più sicuro al tuo marchio.
+1. Fai clic sulle linee guida che richiedono attenzione, utilizzando i pulsanti **[!UICONTROL Successivo]** e **[!UICONTROL Precedente]**.
+
+1. Utilizza il ragionamento riportato per ogni linea guida per informare eventuali revisioni alle sezioni delle varianti al fine di ottenere il massimo allineamento al tuo marchio.
+
 
 1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Controlla di nuovo]** per verificare e convalidare di nuovo le modifiche per assicurarti che siano più strettamente allineate con la tua identità del brand.
 

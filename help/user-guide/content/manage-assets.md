@@ -3,7 +3,7 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -28,9 +28,11 @@ Per impostazione predefinita, le risorse aggiunte a [!DNL Content] tramite il pr
 
 L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta sul lato destro consente di selezionare dagli archivi Adobe Experience Manager (AEM) [!DNL Assets Content Hub] connessi. Quando selezioni un archivio AEM, la galleria mostra un inventario delle risorse provenienti da tale archivio, che ti consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuti. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
 
+Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing, vedere [Connettere un archivio AEM](connect-aem-repo.md).
+
 L’archivio AEM è di sola lettura, il che significa che non è possibile salvare bozze, nuove risorse o metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
 
-Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing, vedere [Connettere un archivio AEM](connect-aem-repo.md).
+{{note-aem-assets}}
 
 ## Gestione di Assets
 

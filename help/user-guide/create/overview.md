@@ -3,7 +3,7 @@ title: Panoramica di GenStudio for Performance Marketing [!DNL Create]
 description: Genera rapidamente contenuti a elevate prestazioni e sul marchio con IA generativa in Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 7c1ea8d2738da39521f3ec26d69982ef64b2576e
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -141,7 +141,3 @@ Le bozze in corso vengono salvate automaticamente. Quando si torna alla home di 
 GenStudio for Performance Marketing consente un controllo [completo sulle sezioni di singole varianti](/help/user-guide/create/manage-variants.md).
 
 Puoi rivedere le sezioni di una singola variante, rigenerare il contenuto di singole sezioni e utilizzare le modifiche suggerite per migliorare il messaggio, ridimensionare le risorse e altro all’interno dell’area di lavoro.
-
-<!-- ### Anatomy of an email experience
-
-## Prerequisites for using Create -->

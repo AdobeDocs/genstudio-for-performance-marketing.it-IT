@@ -3,9 +3,9 @@ title: Creare modelli accessibili
 description: Crea in Adobe GenStudio for Performance Marketing modelli in grado di raggiungere più tipi di pubblico e fornire un’esperienza ottimale.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ Fornisci alternative testuali per il contenuto non testuale, ad esempio le immag
 
 ![Collage di idee, libri, uomo con matita gigante, computer](../../assets/card-create-assets.png){width="400"}
 
-## Rapporti di contrasto
+## Font
 
-Fornire un contrasto appropriato tra testo e sfondo. Usare i seguenti rapporti di contrasto minimi:
+Utilizza caratteri di facile lettura. Ad esempio, i font Sans Serif hanno un aspetto pulito, simile a un blocco, che contribuisce a una maggiore leggibilità.
+
+Fornire un contrasto appropriato tra testo e sfondo. Evitare di utilizzare colori di carattere che producono testo scuro su uno sfondo scuro e testo chiaro su uno sfondo chiaro. Considera le linee guida di contrasto per un rapporto ottimale:
 
 - Testo e immagini di testo: rapporto di contrasto di almeno 4,5:1
 - Testo e immagini di grandi dimensioni di testo: rapporto di contrasto di almeno 3:1

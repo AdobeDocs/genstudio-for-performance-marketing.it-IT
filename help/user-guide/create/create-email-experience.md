@@ -4,12 +4,11 @@ description: Scopri come creare esperienze e-mail in Adobe GenStudio for Perform
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Fai clic su **[!UICONTROL Seleziona contenuto]** per aggiungere contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto.
-   * Per selezionare le risorse (immagini) dall&#39;archivio [!DNL Content], fare clic su **[!UICONTROL Seleziona dal contenuto]**. Filtra e seleziona una o più immagini.
+1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
+   * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
 
      Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
 
-   * Per caricare una o più nuove risorse, fai clic su **[!UICONTROL Carica]**, sfoglia i file e scegli le risorse da utilizzare. Oltre a sfogliare il dispositivo, è possibile importare da Microsoft OneDrive o Dropbox. Fai clic su per selezionare le immagini desiderate.
-   * Trascina le risorse nella sezione _Contenuto_.
+   * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
 1. Fai clic su **[!UICONTROL Usa]**.
 
 >[!NOTE]
@@ -124,7 +122,7 @@ Per ulteriori informazioni, vedere [Recensioni e approvazioni](/help/user-guide/
 
 Per rendere le e-mail generate disponibili per l&#39;uso corrente e futuro, pubblicale in [!UICONTROL Contenuto] ed esportalo per utilizzarlo nelle campagne di marketing.
 
-1. **Per pubblicare le nuove esperienze e-mail**, fai clic su **[!UICONTROL Publish]** nella barra degli strumenti superiore.
+1. **Per pubblicare le nuove esperienze e-mail**, fai clic su **[!UICONTROL Publish]** nella barra degli strumenti superiore o nel flusso di approvazioni.
 1. **Per esportare le nuove esperienze e-mail**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
    1. Seleziona il formato (solo CSV e immagini o HTML) e fai clic su **[!UICONTROL Esporta]**.
 

@@ -4,12 +4,11 @@ description: Scopri come creare esperienze di annunci Meta per il marchio, per F
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Fai clic su **[!UICONTROL Seleziona contenuto]** per aggiungere contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto.
-   * Per selezionare le risorse (immagini) già pubblicate in [!DNL Content], fare clic su **[!UICONTROL Seleziona dal contenuto]** e fare clic per selezionare le immagini desiderate. Utilizza i filtri per restringere ulteriormente i risultati della ricerca.
+1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
+   * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
 
-     Se desideri utilizzare le risorse già presenti in un archivio Content Hub AEM connesso, seleziona la posizione applicabile dal menu a discesa _Posizione_ e fai clic per selezionare le immagini desiderate.
+     Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
 
-   * Fai clic su **[!UICONTROL Carica]** per sfogliare i file e scegliere le risorse da utilizzare. Oltre a sfogliare il dispositivo, è anche possibile importare da Microsoft OneDrive o Dropbox. Fai clic su per selezionare le immagini desiderate.
-   * Trascina le risorse nella sezione _Contenuto_.
+   * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
 1. Fai clic su **[!UICONTROL Usa]**.
 
 Dopo aver aggiunto i parametri, è possibile comprimere l&#39;area del prompt facendo nuovamente clic sull&#39;icona _Parametri_.
@@ -88,7 +86,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 * **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante di invito all&#39;azione e selezionare una delle opzioni di testo disponibili per il pulsante. In _[!UICONTROL Collegamento]_, immettere un URL per il testo dell&#39;invito all&#39;azione.
 * **Per [modificare le dimensioni e le proporzioni dell&#39;annuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, fare clic sul pulsante _[!UICONTROL Ridimensiona]_ (casella con l&#39;icona di un pulsante sul lato sinistro dell&#39;area di lavoro) e selezionare nuove dimensioni e proporzioni da applicare a tutte le varianti. Le varianti vengono duplicate e ridimensionate.
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine. Fai clic su **[!UICONTROL Applica]**.
 * **Per [eliminare un Meta Ad](/help/user-guide/create/manage-variants.md#delete-variant)**, fai clic sul titolo dell&#39;annuncio (ad esempio, &quot;Meta 4&quot;) e fai clic su **[!UICONTROL Elimina variante]**.
 
 ## Invia feedback generazione
@@ -126,7 +124,7 @@ Per ulteriori informazioni, vedere [Recensioni e approvazioni](/help/user-guide/
 
 Per rendere i Meta Ads generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
-1. **Per pubblicare le nuove esperienze di annunci multimediali**, fai clic su **[!UICONTROL Publish]** nella barra degli strumenti superiore.
+1. **Per pubblicare le nuove esperienze di annunci multimediali**, fai clic su **[!UICONTROL Publish]** nella barra degli strumenti superiore o nel flusso di approvazioni.
 1. **Per esportare le nuove esperienze di annunci multimediali**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
    1. Seleziona il formato (solo CSV e immagini o HTML) e fai clic su **[!UICONTROL Esporta]**.
 

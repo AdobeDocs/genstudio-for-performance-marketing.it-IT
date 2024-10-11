@@ -3,7 +3,7 @@ title: Panoramica di GenStudio for Performance Marketing [!DNL Create]
 description: Genera rapidamente contenuti a elevate prestazioni e sul marchio con IA generativa in Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -25,42 +25,75 @@ Oltre alla potenza di [linee guida](/help/user-guide/guidelines/overview.md)—[
 ## Casi di utilizzo di [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Creare un'esperienza e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <!-- <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/content/overview.md">
+
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/content/overview.md">
+
          <strong>Re-use existing content</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../create/generate-variants.md">
+
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../create/generate-variants.md">
+
          <strong>Generate variants of approved content</strong>
+
          </a>
+
       </div>
+
    </td> -->
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing consente agli addetti al marketing di **creare nuovi contenuti di marketing**. In questo caso d&#39;uso, utilizza le [linee guida](/help/user-guide/guidelines/overview.md) definite e le immagini di ispirazione per creare contenuti allineati al brand.
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content. 
+<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content.
 * **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## Funzionalità di [!DNL Create]
@@ -75,7 +108,7 @@ I modelli sono [caricati e archiviati in [!DNL Content]](/help/user-guide/conten
 
 ### Parametri
 
-Nell&#39;area dei prompt è possibile aggiungere _parametri_ quali [!DNL Brands], [!DNL Products] e [!DNL Personas] (linee guida) e [!DNL Content] (risorse) per modellare l&#39;esperienza generata.
+Nel cassetto dei prompt, puoi aggiungere _Parametri_ come [!DNL Brands], [!DNL Products] e [!DNL Personas] (linee guida) e [!DNL Content] (risorse) per modellare l&#39;esperienza generata.
 
 Questi parametri aggiunti inseriscono [linee guida](/help/user-guide/guidelines/overview.md) e risorse nel processo di generazione, garantendo che il contenuto sia personalizzato in modo da essere allineato all&#39;identità completa di un brand. Si consiglia di aggiungere linee guida al GenStudio per il marketing delle prestazioni e di utilizzarle durante il processo di generazione dei contenuti, in quanto migliorano notevolmente la creazione di contenuti adatti per il brand.
 
@@ -85,7 +118,7 @@ Il contenuto (risorse immagine caricate o aggiunte) in _Parametri_ viene utilizz
 
 [La creazione di prompt effettivi](/help/user-guide/effective-prompts.md) è una parte importante del processo di generazione in [!DNL Create].
 
-Per creare contenuti generati da IA, immetti un [prompt descrittivo](/help/user-guide/effective-prompts.md) che descriva il contesto o l&#39;esperienza che intendi generare, insieme a [linee guida](/help/user-guide/guidelines/overview.md) e [_parametri_](#parameters), nell&#39;area del prompt e fai clic su **[!UICONTROL Genera]**.
+Per creare contenuti generati da IA, immetti un [prompt descrittivo](/help/user-guide/effective-prompts.md) che descriva il contesto o l&#39;esperienza che intendi generare, insieme a [linee guida](/help/user-guide/guidelines/overview.md) e [_parametri_](#parameters), nel cassetto dei prompt e fai clic su **[!UICONTROL Genera]**.
 
 ### Convalida del brand
 

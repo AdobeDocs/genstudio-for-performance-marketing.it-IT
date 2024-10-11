@@ -4,7 +4,7 @@ description: Scopri come configurare il GenStudio for Performance Marketing per 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Tre tipi di ruoli utente di GenStudio for Performance Marketing supportano quest
 
 **Gli editor** dispongono delle autorizzazioni di base necessarie per creare risorse GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] e [!DNL Content]. Possono anche modificare ed eliminare le risorse create. GenStudio for Performance Marketing supporta la creazione rapida di centinaia di contenuti. Questi utenti possono generare sezioni di contenuto o intere esperienze che orchestrano parti discrete di contenuto approvato per soddisfare le esigenze di specifiche campagne di marketing.
 
-Gli editor interagiscono con le tecnologie di intelligenza artificiale generativa di GenStudio for Performance Marketing tramite _prompt_. L’area dei prompt nell’area di lavoro fornisce gli strumenti per inserire i prompt nel contesto delle linee guida di una campagna specifica. Di conseguenza, la qualità e il successo dei contenuti generati dipendono in parte dalla qualità delle linee guida del brand caricate dalla tua organizzazione e dalla specificità del prompt.
+Gli editor interagiscono con le tecnologie di intelligenza artificiale generativa di GenStudio for Performance Marketing tramite _prompt_. Il cassetto dei prompt nell’area di lavoro fornisce gli strumenti per inserire i prompt nel contesto delle linee guida di una campagna specifica. Di conseguenza, la qualità e il successo dei contenuti generati dipendono in parte dalla qualità delle linee guida del brand caricate dalla tua organizzazione e dalla specificità del prompt.
 
 Vedere [Scrivi prompt effettivi](effective-prompts.md).
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Per creare una nuova esperienza e-mail, utilizza un modello disponibile per forn
 
 ## Aggiungi parametri
 
-L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nell&#39;area dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza e-mail.
+L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza e-mail.
 
 **Per aggiungere parametri e risorse**:
 
-1. Fai clic sull&#39;icona _Parametri_ per espandere l&#39;area del prompt.
+1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
@@ -54,7 +54,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 >
 >Se il modello di posta elettronica include più sezioni, selezionare [!DNL Products] e contenuto (risorse visive) per ogni sezione di posta elettronica in _Messaggi di posta elettronica con più sezioni_. Le e-mail con più sezioni supportano una risorsa visiva per sezione.
 
-Dopo aver aggiunto i parametri, è possibile comprimere l&#39;area del prompt facendo nuovamente clic sull&#39;icona _Parametri_.
+Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
 
 ## Immetti un prompt
 

@@ -1,11 +1,11 @@
 ---
 title: Creare un’esperienza di visualizzazione annuncio
-description: Scopri come creare esperienze di annunci di visualizzazione in Adobe [!DNL GenStudio] per gli esperti di marketing delle prestazioni.
+description: Scopri come creare esperienze di annunci display in Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disp
 
 ## Aggiungi parametri
 
-L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nell&#39;area dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza di visualizzazione annuncio.
+L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza di visualizzazione annuncio.
 
 **Per aggiungere parametri e risorse**:
 
-1. Fai clic sull&#39;icona _Parametri_ per espandere l&#39;area del prompt.
+1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
-   Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi le linee guida al tuo GenStudio for Performance Marketers](/help/user-guide/guidelines/add-guidelines.md).
+   Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Per aggiungere contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
    * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
@@ -50,7 +50,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
    * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
 1. Fai clic su **[!UICONTROL Usa]**.
 
-Al termine dell&#39;aggiunta dei parametri, comprimere l&#39;area del prompt facendo nuovamente clic sull&#39;icona _Parametri_.
+Al termine dell&#39;aggiunta dei parametri, comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
 
 ## Immetti un prompt
 

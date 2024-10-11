@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza 
 
 ## Aggiungi parametri
 
-L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nell&#39;area di richiesta migliora il processo di generazione dei contenuti ed è un passaggio fondamentale nella preparazione alla generazione di un Meta Ad.
+L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt migliora il processo di generazione dei contenuti ed è un passaggio fondamentale nella preparazione alla generazione di un Meta Ad.
 
 **Per aggiungere parametri e risorse**:
 
-1. Fai clic sull&#39;icona _Parametri_ per espandere l&#39;area del prompt.
+1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
@@ -50,7 +50,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
    * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
 1. Fai clic su **[!UICONTROL Usa]**.
 
-Dopo aver aggiunto i parametri, è possibile comprimere l&#39;area del prompt facendo nuovamente clic sull&#39;icona _Parametri_.
+Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
 
 ## Immetti un prompt
 

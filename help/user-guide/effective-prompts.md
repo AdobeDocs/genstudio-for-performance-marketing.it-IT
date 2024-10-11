@@ -3,7 +3,7 @@ title: Scrivi prompt effettivi
 description: Scopri come scrivere prompt efficaci per Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Criteri di richiesta
 
-In GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) è possibile utilizzare **[!UICONTROL Criteri prompt]** ([_Parametri_](/help/user-guide/create/overview.md#parameters) e un prompt) nell&#39;area dei prompt per aggiungere dettagli tramite la selezione per migliorare l&#39;interpretazione di IA.
+In GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), è possibile utilizzare **[!UICONTROL Criteri prompt]** ([_Parametri_](/help/user-guide/create/overview.md#parameters) e un prompt) nel cassetto dei prompt per aggiungere dettagli tramite la selezione per migliorare l&#39;interpretazione di IA.
 
 Per [e-mail](/help/user-guide/create/email-experiences.md), i criteri di richiesta potrebbero includere l&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) in _Parametri_, il caricamento di una risorsa da utilizzare nelle varianti di e-mail e un prompt descrittivo. Per un [Meta ad](/help/user-guide/create/create-meta-ad.md), i criteri di richiesta potrebbero includere una linea guida del brand in _Parametri_, la selezione o il caricamento di una risorsa esistente, impostazioni relative a immagini o risorse quali proporzioni e un prompt. La potenza effettiva inizia con [le linee guida per la configurazione](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Se le linee guida vengono aggiunte in _Parametri_ nell&#39;area dei prompt, non è necessario includervi un riferimento. GenStudio for Performance Marketing sfrutta questi elementi [!DNL Brands], [!DNL Products] e [!DNL Personas] nella generazione dei contenuti.
+>Se le linee guida vengono aggiunte in _Parametri_ nel cassetto dei prompt, non è necessario includervi un riferimento. GenStudio for Performance Marketing sfrutta questi elementi [!DNL Brands], [!DNL Products] e [!DNL Personas] nella generazione dei contenuti.
 
 ### Linee guida
 

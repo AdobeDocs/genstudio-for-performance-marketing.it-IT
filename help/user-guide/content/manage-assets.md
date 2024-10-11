@@ -3,7 +3,7 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ L’archivio AEM è di sola lettura, il che significa che non è possibile salva
 
 ## Gestione di Assets
 
-In [!UICONTROL Content], gli addetti al marketing delle prestazioni possono archiviare, recuperare e gestire facilmente le risorse digitali. Sfruttando sia l&#39;archivio `GenStudio assets` che gli archivi AEM, gli utenti possono garantire che le proprie risorse siano ben organizzate e accessibili per varie campagne di marketing. Questo approccio con più repository offre flessibilità e controllo sull’utilizzo delle risorse in ambienti diversi, garantendo che solo le risorse approvate e aggiornate vengano utilizzate nelle attività di marketing.
+In [!UICONTROL Content], Performance Marketing può archiviare, recuperare e gestire facilmente le risorse digitali. Sfruttando sia l&#39;archivio `GenStudio assets` che gli archivi AEM, gli utenti possono garantire che le proprie risorse siano ben organizzate e accessibili per varie campagne di marketing. Questo approccio con più repository offre flessibilità e controllo sull’utilizzo delle risorse in ambienti diversi, garantendo che solo le risorse approvate e aggiornate vengano utilizzate nelle attività di marketing.
 
 ### Aggiungere risorse
 
@@ -66,7 +66,7 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 1. Per visualizzare le nuove risorse caricate, fai clic su **[!UICONTROL Aggiorna]** dalla notifica _Nuove risorse disponibili_ nella parte inferiore dell&#39;area di lavoro.
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

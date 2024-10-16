@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Vedere [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
 1. Seleziona il pulsante **[!UICONTROL Aggiungi utente tipo]** e scegli **Carica PDF**.
 1. Fai clic su **[!UICONTROL Continua]**.
-1. Nella finestra a comparsa _Aggiungi utente tipo, allega o trascina il documento utente.
+1. Nel popup _Aggiungi l&#39;utente tipo_, allega o trascina il documento utente tipo.
 
    È possibile allegare fino a cinque file PDF con un massimo di 500 MG combinati.
 

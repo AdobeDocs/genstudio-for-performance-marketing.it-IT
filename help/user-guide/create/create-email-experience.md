@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 
 >[!NOTE]
 >
->Se il modello di posta elettronica include più sezioni, selezionare [!DNL Products] e contenuto (risorse visive) per ogni sezione di posta elettronica in _Messaggi di posta elettronica con più sezioni_. Le e-mail con più sezioni supportano una risorsa visiva per sezione.
+>Se il modello di posta elettronica include più sezioni, selezionare [!DNL Products] e contenuto (risorse visive) per ogni sezione di posta elettronica in _Messaggi di posta elettronica con più sezioni_. Le e-mail con più sezioni supportano una risorsa visiva per sezione. È possibile aggiungere solo risorse visive alle e-mail con più sezioni da [!DNL Content]. Non è possibile trascinare e rilasciare o caricare risorse dall&#39;origine locale.
 
 Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
 

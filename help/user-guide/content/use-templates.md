@@ -3,9 +3,9 @@ title: Utilizzare i modelli
 description: Scopri come utilizzare i modelli in modo efficace per semplificare il processo creativo in Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 3a361134a0b56a2973399e38e62f4ab345a3dbc8
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Utilizza [Personalizza modelli](customize-template.md) come guida per la prepara
    Sono richiesti il nome del modello e il tipo di canale. Ulteriori requisiti possono includere:
 
    - **Meta**: richiede proporzioni
-   <!-- - **Display ads**: requires Dimensions -->
+   - **Annunci visualizzati**: richiede Dimension
 
 1. Aggiungi tutti i dettagli possibili per migliorare l’identificazione dei modelli nelle ricerche e nei filtri.
 

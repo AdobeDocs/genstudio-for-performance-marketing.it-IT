@@ -2,9 +2,9 @@
 title: Panoramica sulle esperienze
 description: Guarda una panoramica del coinvolgimento dei clienti, del budget e delle spese per esperienze e prestazioni di posizionamento degli annunci in Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Una _esperienza_ è una risorsa promozionale che include contenuti visivi e inte
 
 Seleziona un’esperienza (nome annuncio) e visualizza le metriche delle prestazioni, gli attributi di testo e i posizionamenti associati a ciascun annuncio. Nella vista dei dettagli, puoi analizzare le metriche di un’esperienza in base al posizionamento degli annunci e alle attività di marketing all’interno di un intervallo di date specificato.
 
-La visualizzazione dei dettagli include una metrica complessiva dell&#39;annuncio `click-through rate`, `cost per click` e la quantità di budget `spent` presente nell&#39;annuncio. Poiché gli annunci possono avere più posizionamenti, ad esempio un feed o un banner, puoi visualizzare un raggruppamento delle stesse metriche per ogni posizionamento di annuncio. Utilizza le frecce sinistra e destra in **[!UICONTROL Prestazioni per posizionamento annuncio]** per scorrere le metriche di posizionamento dell&#39;annuncio.
+La visualizzazione dei dettagli include una metrica complessiva dell&#39;annuncio `click-through rate`, `cost per action` e `spend`, ovvero la quantità di budget presente nell&#39;annuncio. Poiché gli annunci possono avere più posizionamenti, ad esempio un feed o un banner, puoi visualizzare un raggruppamento delle stesse metriche per ogni posizionamento di annuncio. Utilizza le frecce sinistra e destra in **[!UICONTROL Prestazioni per posizionamento annuncio]** per scorrere le metriche di posizionamento.
 
 ![Dettagli annuncio con metriche e posizionamenti annuncio](/help/assets/insights-experience-details.png){zoomable="yes"}
 
@@ -49,17 +49,18 @@ Le metriche di Insights possono aiutarti a valutare quali esperienze contribuisc
 
 ### Dettagli delle metriche
 
-La tabella seguente fornisce definizioni e informazioni approfondite per le metriche chiave del marketing digitale nella visualizzazione [!UICONTROL Esperienze]. Ogni metrica include una breve definizione relativa ai nomi degli annunci, al modo in cui viene calcolata la metrica e una o più informazioni utili per comprenderne il significato e l’impatto su un’esperienza.
+La tabella seguente fornisce definizioni e informazioni approfondite per le metriche chiave del marketing digitale nella visualizzazione per tabella [!UICONTROL Esperienze]. Ogni metrica include una breve definizione relativa ai nomi degli annunci, al modo in cui viene calcolata la metrica e una o più informazioni utili per comprenderne il significato e l’impatto su un’esperienza.
 
 | Metrica | Definizione | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
-| **[!UICONTROL Nome annuncio]** | Un elenco di esperienze per l’account del canale connesso. Filtra gli annunci selezionando una campagna. | Ordina l’elenco degli annunci facendo clic su una qualsiasi delle metriche chiave. |
+| **[!UICONTROL Nome esperienza]** | Un elenco di esperienze per l’account del canale connesso. Filtra gli annunci selezionando una campagna. | Ordina l’elenco delle esperienze facendo clic su una qualsiasi delle metriche chiave. |
 | **[!UICONTROL Campagna]** | Una campagna è un insieme di esperienze progettate per raggiungere un obiettivo specifico. | |
-| **[!UICONTROL Posizionamenti di annunci]** | Un conteggio di [posizionamenti di annunci](#ad-placements), dove eseguire l&#39;annuncio, per l&#39;annuncio o l&#39;esperienza. | Il posizionamento degli annunci aumenta la portata del pubblico. |
+| **[!UICONTROL Posizionamenti]** | Un conteggio di [posizionamenti](#ad-placements) di annunci, posizioni in cui è apparsa un&#39;esperienza nella campagna. | I posizionamenti aumentano la portata del pubblico. |
 | **[!UICONTROL Assets]** | Un conteggio delle risorse utilizzate nell’annuncio o nell’esperienza. | |
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che il posizionamento dell’annuncio o l’esperienza viene caricato nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per informazioni approfondite sulle prestazioni, considera con altre metriche di coinvolgimento. |
-| **[!UICONTROL Clic]** | Numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante di invito all’azione, in un’esperienza. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sull’esperienza all’interno di una campagna.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
-| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille ad impression per l’esperienza o il posizionamento dell’annuncio.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
-| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio ($) associato a ciascun clic in un’esperienza o posizionamento di annunci.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL Clic]** | Numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante di invito all’azione, in un posizionamento di esperienza. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sul posizionamento dell’esperienza all’interno di una campagna.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille ad impression per il posizionamento dell’esperienza.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio ($) speso per ottenere un&#39;azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Utilizza per monitorare la spesa per esperienze che si traducono in azioni preziose per il cliente. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio ($) associato a ciascun clic in un posizionamento esperienza.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Spesa]** | L&#39;importo ($) speso dal budget per un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |

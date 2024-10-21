@@ -3,9 +3,9 @@ title: Panoramica dei canali
 description: Guarda una panoramica del coinvolgimento dei clienti, delle prestazioni, del budget e delle spese per le campagne di marketing in Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 2e1ef218bbdccc3c48cf402a7fb3916a570369e5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL Impression]** | Un conteggio di ogni caricamento di contenuto nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per informazioni approfondite sulle prestazioni, considera con altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante di invito all’azione, all’interno della campagna pubblicitaria. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
 | **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sulla campagna all’interno di un canale.<br>**Calcolo**: (`clicks` diviso per `impressions`) x 100 = % | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
-| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille impression pubblicitarie per la campagna pubblicitaria. <br>**Calcolo**: (importo totale `spent` diviso per `impressions`) x 1000 = $ | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille impression pubblicitarie per la campagna pubblicitaria. <br>**Calcolo**: (importo totale `spent` diviso per `impressions`) x 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
 | **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio ($) associato a ciascun clic in una campagna pubblicitaria.<br>**Calcolo**: importo totale `spent` diviso per `clicks` = $ | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Riproduzioni video]** | Percentuale (%) di spettatori che hanno guardato un video fino alla fine. | Un numero elevato di riproduzioni video può indicare che il video sta catturando l’attenzione e può indicare che la miniatura, il titolo o il posizionamento stanno effettivamente disegnando negli spettatori. Tassi elevati di completamento della riproduzione suggeriscono che il contenuto video è coinvolgente e rilevante. |
 | **[!UICONTROL Budget]** | Totale dei fondi ($) assegnati a una campagna pubblicitaria per raggiungere gli obiettivi della campagna. | Un bilancio elevato implica maggiori risorse per una portata più ampia e un impatto potenzialmente maggiore. |

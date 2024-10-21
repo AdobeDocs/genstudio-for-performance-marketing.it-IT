@@ -2,9 +2,9 @@
 title: Panoramica di Assets
 description: Scopri come valutare le prestazioni delle risorse in Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,10 @@ La visualizzazione [!DNL Insights] _[!UICONTROL Assets]_ mostra un elenco di ris
 
 La raccolta _[!UICONTROL Assets]_ è la visualizzazione predefinita che mostra un collage di anteprime di risorse e una metrica, ad esempio il tasso di click-through. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della galleria per attivare o disattivare una delle tre metriche visualizzabili:
 
-- `click-through rate` (CTR)
-- `cost per click` (CPC)
-- `spend`
+- CPA (Costo per azione)
+- CTR (tasso di click-through)
+- CPC (costo per clic)
+- Spesa
 
 La tabella _[!UICONTROL Assets]_ è organizzata utilizzando [!UICONTROL ID risorsa]. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi.
 
@@ -39,7 +40,7 @@ Le metriche di Insights possono aiutarti a valutare quali risorse contribuiscono
 
 ### Dettagli delle metriche
 
-La tabella seguente fornisce definizioni e informazioni approfondite per le metriche chiave del marketing digitale nella visualizzazione [!UICONTROL Assets]. Ogni metrica include una breve definizione di come si riferisce a una risorsa, del modo in cui viene calcolata e una o più informazioni per comprenderne il significato e l’impatto su una risorsa.
+La tabella seguente fornisce definizioni e informazioni approfondite per le metriche di marketing digitale chiave nella vista tabella [!UICONTROL Assets]. Ogni metrica include una breve definizione di come si riferisce a una risorsa, del modo in cui viene calcolata e una o più informazioni per comprenderne il significato e l’impatto su una risorsa.
 
 | Metrica | Definizione | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
@@ -48,6 +49,8 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL Clic]** | Numero di volte in cui gli utenti interagiscono con un elemento cliccabile sulla risorsa, ad esempio un collegamento. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
 | **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic su risorse all’interno di un’esperienza.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
 | **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille ad impression della risorsa.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio ($) speso per ottenere un&#39;azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Aiuta a identificare le risorse che si traducono in azioni preziose per i clienti. |
 | **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio ($) associato a ciascun clic su una risorsa.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Spesa]** | L&#39;importo ($) speso dal bilancio in relazione a singoli beni in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
+| **[!UICONTROL Conteggio esperienze]** | Il numero di esperienze che utilizzano questa risorsa. | |
 | **[!UICONTROL Attributi]** | Elenco di attributi rilevati e applicati alla risorsa. | |

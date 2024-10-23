@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
+   ![Scegli utente tipo](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
    * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
+
+     ![Scegli contenuto visivo](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
 
@@ -102,6 +106,8 @@ Per ottimizzare gli annunci generati e garantire una rigorosa aderenza all&#39;i
 1. Fai clic sull&#39;icona [**[!UICONTROL [!DNL Brand] controllo delle linee guida]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) per una variante e visualizza un riepilogo delle prestazioni della variante quando questa viene confrontata con il tuo marchio.
 1. Per ottenere i dettagli delle sezioni e delle linee guida che necessitano di miglioramenti, fai clic su **[!UICONTROL Rivedi]** _o_ fai clic sull&#39;icona Convalida marchio nella barra dei menu superiore per aprire il [_pannello di convalida marchio_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
+   ![Pannello di convalida del marchio](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. Passa da un annuncio all’altro per vedere come migliorare i contenuti generati per allinearli maggiormente al marchio.
 1. [Rivedi manualmente gli annunci](#revise-generated-meta-ads) per assicurarti che siano strettamente allineati al tuo marchio.
 
@@ -114,6 +120,9 @@ Utilizza il pannello Approvazioni, accessibile nella barra dei menu superiore de
 **Per ottenere revisioni e approvazioni**:
 
 1. [Avvia una richiesta di approvazione](/help/user-guide/approvals/request-review.md) per richiedere una [approvazione delle esperienze di annunci multimediali bozza](/help/user-guide/approvals/approve-content.md).
+
+   ![Invia bozze per revisione e approvazione](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. [Rimuovere o aggiungere revisori](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante il processo di revisione.
 1. [Accedere al contenuto per la revisione](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e visualizzare le richieste di revisione.
 1. Modifica le bozze in base ai commenti di revisione e [pubblica le tue esperienze di Meta Ad](#publish-and-export-experience).

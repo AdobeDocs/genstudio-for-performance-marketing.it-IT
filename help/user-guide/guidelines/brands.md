@@ -3,9 +3,9 @@ title: GenStudio per il marketing delle prestazioni [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] è una raccolta completa di risorse per i marchi, come copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Puoi caricare i documenti sulle linee guida del brand (fino a tre file PDF o DOC
 ## [!DNL Brands] linee guida
 
 Le linee guida forniscono a GenStudio for Performance Marketing un quadro chiaro dell&#39;approccio, del tono, della percezione visiva e altro ancora specifici del tuo marchio.
+
+![Linee guida per il marchio](/help/assets/brands.png){width="600" zoomable="yes"}
 
 Le sezioni delle linee guida riportate di seguito descrivono ogni categoria di linee guida, esempi di linee guida e risultati potenziali. Gli esempi di linee guida sono input di esempio che modellano l’output dei risultati (esempi di risultati sotto) e li utilizzano per informare le linee guida del tuo marchio.
 

@@ -3,9 +3,9 @@ title: Convalida del marchio in Adobe GenStudio per Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ GenStudio for Performance Marketing esegue la convalida del marchio su vari aspe
 * Copia delle linee guida per diverse piattaforme di canale
 * Considerazioni etiche relative a genere, etnia, razza, stato di disabilità ed età nei contenuti generati dall’intelligenza artificiale
 
-## Verifica delle linee guida per i marchi
+## Controllo delle linee guida di [!DNL Brand]
 
-Un riepilogo delle informazioni di convalida del brand per ogni variante di contenuto generata è accessibile tramite l&#39;icona di controllo _Linee guida per il brand_ accanto a ogni variante nell&#39;area di lavoro.
+Un riepilogo delle informazioni di convalida del brand per ogni variante di contenuto generata è accessibile tramite l&#39;icona di controllo _[!DNL Brand]linee guida_ accanto a ogni variante nell&#39;area di lavoro.
 
-Il _controllo delle linee guida per i marchi_ visualizza la percentuale di conformità con il tuo [marchio](brands.md). La percentuale viene calcolata come il numero di [linee guida](overview.md) che hanno superato la convalida rispetto al numero di linee guida testate.
+Il controllo _[!DNL Brand]delle linee guida_ visualizza la percentuale di conformità con il tuo [brand](brands.md). La percentuale viene calcolata come il numero di [linee guida](overview.md) che hanno superato la convalida rispetto al numero di linee guida testate.
+
+Controllo ![[!DNL Brand] linee guida](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 Fai clic sull’icona per vedere quante linee guida sono conformi al tuo marchio e quante linee guida richiedono una revisione.
 
@@ -33,6 +35,8 @@ Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment).
 ## Pannello di convalida del brand
 
 Il pannello _Convalida marchio_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra dei menu superiore _o_ dall&#39;icona _Controllo linee guida marchio_ per una variante. Questo pannello fornisce informazioni dettagliate sulla convalida del marchio e illustra le opportunità di miglioramento per ogni sezione variante.
+
+Pannello di convalida ![[!DNL Brand]](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 Nel pannello _Convalida marchio_ sono visualizzate le informazioni per:
 

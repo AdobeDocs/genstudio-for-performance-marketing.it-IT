@@ -3,9 +3,9 @@ title: GenStudio per il marketing delle prestazioni [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] incorpora tutti gli aspetti del prodotto (immagini, descrizioni e proposte di valore) per creare contenuti rilevanti che mettano in evidenza i punti di forza del prodotto e mantengano la coerenza nella messaggistica del prodotto.
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Products] in GenStudio for Performance Marketing sfrutta una conoscenza approfondita delle specifiche di prodotto, dei vantaggi e dei fattori di differenziazione per generare contenuti di impatto.
 
 [!DNL Products] include tutti gli elementi di un prodotto specifico, ad esempio immagini, descrizioni e proposte di valore, per creare una rappresentazione coerente del marchio. Sfruttando la tecnologia di intelligenza artificiale avanzata di Adobe, le linee guida di GenStudio for Performance Marketing [[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md) collaborano per generare contenuti coinvolgenti che presentino i punti di forza dei tuoi prodotti e garantiscano la coerenza di tutti i messaggi.
-
-![[!DNL Products] linee guida in GenStudio per Performance Marketing](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Per visualizzare o modificare un prodotto**:
 
@@ -29,6 +27,8 @@ Consulta [Aggiungi linee guida](add-guidelines.md) per scoprire come aggiungere 
 ## [!DNL Products] linee guida
 
 Le linee guida per i singoli prodotti forniscono a GenStudio for Performance Marketing un quadro chiaro dei propri prodotti.
+
+![Linee guida del prodotto](/help/assets/products.png){width="600" zoomable="yes"}
 
 Le presenti linee guida descrivono in dettaglio ogni categoria di linee guida e gli esempi correlati. Gli esempi sono input di esempio che modellano l’output del contenuto generato. Utilizzali per informare le linee guida di [!DNL Products].
 

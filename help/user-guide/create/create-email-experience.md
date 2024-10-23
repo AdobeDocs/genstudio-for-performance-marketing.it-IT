@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
+   ![Scegli utente tipo](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
    * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
+
+     ![Scegli contenuto visivo](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
 
@@ -51,8 +55,8 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 1. Fai clic su **[!UICONTROL Usa]**.
 
 >[!NOTE]
->
 >Se il modello di posta elettronica include più sezioni, selezionare [!DNL Products] e contenuto (risorse visive) per ogni sezione di posta elettronica in _Messaggi di posta elettronica con più sezioni_. Le e-mail con più sezioni supportano una risorsa visiva per sezione. È possibile aggiungere solo risorse visive alle e-mail con più sezioni da [!DNL Content]. Non è possibile trascinare e rilasciare o caricare risorse dall&#39;origine locale.
+>![Aggiungi contenuto e parametri per ogni sezione e-mail](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
 
@@ -98,9 +102,15 @@ Per ottimizzare le e-mail generate e garantire una rigorosa aderenza alla brand 
 **Per verificare l&#39;allineamento del brand**:
 
 1. Fai clic sull&#39;icona [**[!UICONTROL [!DNL Brand] controllo delle linee guida]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) per una variante e visualizza un riepilogo delle prestazioni della variante quando questa viene confrontata con il tuo marchio.
+
+   ![Verifica delle linee guida per i marchi](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. Per ottenere i dettagli delle sezioni e delle linee guida che necessitano di miglioramenti, fai clic su **[!UICONTROL Rivedi]** _o_ fai clic sull&#39;icona Convalida marchio nella barra dei menu superiore per aprire il [_pannello di convalida marchio_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passa da un’e-mail all’altra per vedere come migliorare il contenuto generato in modo che sia più allineato al brand.
+
+   ![Pannello di convalida del marchio](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [Rivedi manualmente le e-mail](#revise-generated-emails) per assicurarti che siano strettamente allineate al tuo marchio.
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).

@@ -3,7 +3,7 @@ title: Panoramica di [!DNL Brands], [!DNL Products] e [!DNL Personas]
 description: Aggiungi  [!DNL Brands], [!DNL Products], and [!DNL Personas] a GenStudio for Performance Marketing per creare un profilo di marchio completo che includa tutti gli aspetti della rappresentazione di un marchio.
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Incorporando i dati relativi al marchio, al prodotto e all’utente tipo in GenS
 Le linee guida per [!DNL Brands], [!DNL Products] e [!DNL Personas] consentono due casi d&#39;uso principali per garantire che qualsiasi contenuto generato sia conforme alla rappresentazione desiderata dal brand:
 
 * **Generazione contenuto** in [[!DNL Create]](/help/user-guide/create/overview.md) o [Contenuto](/help/user-guide/content/overview.md)
-* [**Convalida marchio**](#brand-validation), che viene eseguita durante il processo di creazione dei contenuti
+* [**Convalida del marchio**](#brand-validation), che viene eseguita durante il processo di creazione dei contenuti
 
-## Convalida marchio
+## Convalida del brand
 
 In collaborazione con la funzionalità di intelligenza artificiale generativa di Adobe, [!DNL Brands], [!DNL Products] e [!DNL Personas] svolgono un ruolo cruciale nel garantire che tutti i contenuti di GenStudio for Performance Marketing siano allineati alla tua brand identity.
 

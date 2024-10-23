@@ -2,9 +2,9 @@
 title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Content, Assets, Experiences
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,16 @@ GenStudio for Performance Marketing dispone della funzionalità incorporata per 
 
 Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta ad per vedere come si presenta con una risorsa in background specifica utilizzando le _[!UICONTROL Modifiche suggerite]_ opzioni—_[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_—e inserendo un nuovo prompt.
 
+![Rigenera sezioni](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+
 **Per rigenerare singole sezioni di varianti**:
 
 1. Dopo aver generato un set di varianti, fai clic su qualsiasi testo modificabile in una variante.
-1. (_Facoltativo_) Immettere un nuovo prompt per modificare lo stato attivo del contenuto rigenerato.
 1. Seleziona un&#39;opzione _[!UICONTROL Modifiche suggerite]_—_[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_.
-1. Fai clic su **[!UICONTROL Genera]**.
-1. Se si desidera rigenerare i risultati, fare clic sull&#39;icona di rigenerazione accanto a _Risultati_.
+   * Scegli un&#39;opzione disponibile e fai clic su **[!UICONTROL Sostituisci]**.
+1. (_Facoltativo_) Selezionare _[!UICONTROL Genera con prompt] e immettere un nuovo prompt per modificare lo stato attivo del contenuto rigenerato.
+   * Fai clic su **[!UICONTROL Genera]**.
+1. Se desideri rigenerare i risultati per visualizzare altre opzioni, fai clic sull&#39;icona di rigenerazione accanto a _Risultati_.
 1. Dai _risultati_ visualizzati, seleziona l&#39;opzione desiderata e fai clic su **[!UICONTROL Sostituisci]**.
 
    La variante viene aggiornata con il testo rivisto.
@@ -151,6 +154,8 @@ Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md#imp
 ## Feedback sulla generazione
 
 Per migliorare il processo di generazione dei contenuti, è possibile inviare feedback sulla qualità delle risorse allineate al brand generate. Indicare se i risultati sono di alta o bassa qualità aiuta a migliorare la qualità complessiva dei contenuti e la sicurezza degli utenti di GenStudio for Performance Marketing.
+
+![Invia feedback sulla generazione di contenuti](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 Il feedback sulla generazione è applicabile a una singola variante, non per il set di varianti raccolto.
 

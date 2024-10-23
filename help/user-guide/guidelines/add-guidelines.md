@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,10 @@ Puoi aggiungere manualmente i dettagli del brand, invece di caricare i documenti
    Puoi compilare varie linee guida e immagini opzionali per costruire il tuo marchio.
 
 1. Aggiungi informazioni sul tuo marchio nella sezione _Informazioni su_.
-1. Immetti [_Linee guida per la voce del marchio_](brands.md#brand-voice-guidelines).
+1. Immetti [_[!DNL Brand] linee guida vocali _](brands.md#brand-voice-guidelines).
+
+   ![Aggiungi [!DNL Brand] linee guida vocali ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. Immetti [_Linee guida per il canale_](brands.md#channel-guidelines), per ogni canale applicabile.
 1. Immetti [_Linee guida per le immagini_](brands.md#image-guidelines). Espandi ogni categoria nella sezione Linee guida per le immagini per visualizzare tutte le linee guida.
 
@@ -101,7 +104,9 @@ Per aggiungere un prodotto, [carica una guida del prodotto](#upload-a-product) o
 
 Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Products]**. Nel pannello _[!DNL Products]_, seleziona **Aggiungi prodotto**.
 
-È possibile aggiungere [!DNL Products] in GenStudio for Performance Marketing per specificare singole aree di interesse per il prodotto durante la creazione di contenuti. <!-- Add Rename, display, reposition functionality -->
+![Aggiungi [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+È possibile aggiungere [!DNL Products] in GenStudio for Performance Marketing per specificare singole aree di interesse per il prodotto durante la creazione di contenuti.
 
 Vedere [[!DNL Products]](products.md).
 
@@ -212,7 +217,10 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
    Puoi compilare varie linee guida e immagini facoltative per creare il tuo utente tipo.
 
-1. Aggiungi informazioni sul tuo marchio nella sezione _Descrizione_.
+1. Aggiungi informazioni su [!DNL Persona] nella sezione _Descrizione_.
+
+   ![Aggiungi [!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
+
 1. Fai clic su **[!UICONTROL Nuovo nome utente tipo]** e immetti un nome per [!DNL Persona].
 1. Fai clic su _Descrizione_ e immetti una descrizione di [!DNL Persona].
 1. Fai clic su _Preferenze di messaggistica_ e immetti i dettagli di messaggistica per [!DNL Persona].

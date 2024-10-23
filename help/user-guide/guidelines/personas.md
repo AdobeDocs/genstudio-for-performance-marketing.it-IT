@@ -3,9 +3,9 @@ title: GenStudio per il marketing delle prestazioni [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] è una rappresentazione fedele dei segmenti di clienti, che acquisisce i loro interessi, punti critici, preferenze e caratteristiche comportamentali.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Personas] fornisce un&#39;immagine autentica dei segmenti di clienti, che include informazioni, interessi, punti critici, preferenze e caratteristiche comportamentali.
 
 GenStudio for Performance Marketing sfrutta la potenza delle linee guida ([[!DNL Brands], [!DNL Products] e [!DNL Personas]](overview.md)) e la tecnologia AI generativa di Adobe per curare contenuti di marketing personalizzati per i clienti target&#x200B;.
-
-![[!DNL Personas] linee guida in GenStudio per Performance Marketing](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Per visualizzare o modificare un utente tipo**:
 
@@ -29,6 +27,8 @@ Consulta [Aggiungi linee guida](add-guidelines.md) per scoprire come aggiungere 
 ## [!DNL Personas] linee guida
 
 Le singole linee guida per gli utenti tipo forniscono a GenStudio for Performance Marketing un&#39;immagine chiara di [!DNL Personas].
+
+![Linee guida per Persona](/help/assets/personas.png){width="600" zoomable="yes"}
 
 Le presenti linee guida descrivono in dettaglio ogni categoria di linee guida e gli esempi correlati. Gli esempi sono input di esempio che modellano l’output del contenuto generato. Utilizzali per informare le tue linee guida di [!DNL Personas].
 

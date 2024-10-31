@@ -4,9 +4,9 @@ description: Scopri le esperienze e-mail in Adobe GenStudio for Performance Mark
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Ogni campo e sezione di esperienze e-mail viene caricato progressivamente in que
 1. Titoli, corpo dell’e-mail (per e-mail a sezione singola) e inviti all’azione
 1. Corpo dell’e-mail per le sezioni successive (per e-mail con più sezioni)
 1. Il processo di convalida del brand si verifica e il [_controllo delle linee guida per il brand_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) viene compilato per ogni variante.
+
+## Conteggi caratteri
+
+Dopo aver generato un set di varianti e-mail, puoi visualizzare il conteggio dei caratteri per ogni sezione e-mail. Passa il puntatore del mouse o fai clic su una sezione generata, ad esempio l’oggetto o il corpo, quindi vedi il nome della sezione e il numero di caratteri per tale sezione.
+
+![Numero di caratteri](/help/assets/character-count.png){width="500" zoomable="yes"}

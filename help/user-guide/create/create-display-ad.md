@@ -5,7 +5,7 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt eff
 1. Immettere un prompt nella casella di prompt _&quot;Descrivi le esperienze da generare&quot;_.
 1. Fai clic su **[!UICONTROL Genera]**.
 
-Per impostazione predefinita, una variante, alimentata dal prompt, dalle linee guida e dal contenuto aggiunto, viene generata e visualizzata nell’area di lavoro.
+Per impostazione predefinita, quattro varianti (alimentate dal prompt, dalle linee guida e dal contenuto aggiunto) vengono generate e visualizzate nell’area di lavoro.
 
 ## Rivedere gli annunci visualizzati generati
 

@@ -4,9 +4,9 @@ description: Scopri le esperienze e-mail in Adobe GenStudio for Performance Mark
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Con Adobe GenStudio for Performance Marketing, puoi utilizzare l&#39;intelligenza artificiale generativa per semplificare la [creazione di esperienze e-mail ad alto impatto](/help/user-guide/create/create-email-experience.md).
 
 [!DNL Create] consente ai moderni esperti di marketing di utilizzare [linee guida](/help/user-guide/guidelines/overview.md), risorse immagine e un [prompt ben creato](/help/user-guide/effective-prompts.md) per [creare rapidamente esperienze e-mail allineate al brand](/help/user-guide/create/create-email-experience.md).
+
+Durante la generazione di esperienze Meta, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
 Le sezioni modificabili di un’esperienza e-mail includono:
 

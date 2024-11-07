@@ -1,13 +1,13 @@
 ---
-title: Aggiungi linee guida all’Adobe GenStudio per Performance Marketing
+title: Aggiungere linee guida ad Adobe GenStudio for Performance Marketing
 description: Scopri come aggiungere le linee guida—[!DNL Brands], [!DNL Products] e [!DNL Personas]— in Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Consulta la [panoramica delle linee guida](/help/user-guide/guidelines/overview.md).
 
-L’aggiunta di linee guida a GenStudio per il marketing basato sulle prestazioni è un passaggio importante nel processo di creazione. Le linee guida informano il processo di creazione dei contenuti, insieme a prompt definiti dall’utente e tecnologia AI generativa basata su Adobi, per creare risorse di impatto.
+L’aggiunta di linee guida a GenStudio for Performance Marketing è un passaggio importante nel processo di creazione. Le linee guida informano il processo di creazione dei contenuti, insieme a prompt definiti dall’utente e tecnologia AI generativa Adobe, per creare risorse di impatto.
 
 ## Aggiungi [!DNL Brands]
 
@@ -78,25 +78,40 @@ Non devi [pubblicare](#publish-brand) il tuo marchio per rendere accessibili le 
 
 Prima di pubblicare il tuo marchio, fai clic sulle sezioni _Linee guida per la voce del marchio_, _Linee guida per il canale_, _Linee guida per le immagini_ e _Logo_ per esaminare tutte le informazioni popolate. Apporta le modifiche necessarie alle linee guida del brand.
 
-**Per pubblicare il marchio**:
+**Per pubblicare una bozza di linee guida per il brand**:
 
+1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL [!DNL Brands]]**.
+
+   Un distintivo _Published_ è visibile per tutti i brand attualmente pubblicati.
+
+1. Fai clic su per aprire un marchio non pubblicato. Se il brand non è pubblicato, è visibile un pulsante **[!UICONTROL Publish]**.
+1. Nel popup _marchio Publish_, verifica chi ha accesso alla visualizzazione e all&#39;utilizzo del marchio pubblicato.
 1. Seleziona **[!UICONTROL Pubblica]**.
+1. Nel popup _marchio Publish_ visualizzato, selezionare **[!UICONTROL Publish]**.
 
-   Nella finestra a comparsa _Marchio Publish_, verifica chi dispone dell&#39;accesso (per visualizzare e utilizzare) al marchio pubblicato.
+   La finestra a comparsa conferma che il brand è pubblicato: &quot;Il nuovo brand è ora pronto&quot;.
 
-1. Fai clic su **[!UICONTROL Pubblica]**.
+1. Fai clic su **[!UICONTROL Fine]** per uscire dalla finestra a comparsa.
 
-Quando il brand viene pubblicato, viene visualizzato un banner che conferma che il brand è pronto all&#39;uso: &quot;*Brand pubblicato e disponibile all&#39;uso*&quot;.
+Il brand mostra un punto verde e &quot;Pubblicato&quot;, e viene visualizzato un pulsante **[!UICONTROL Publish]**.
+
+**Per annullare la pubblicazione di un marchio pubblicato**, fare clic per aprirlo e fare clic su **[!UICONTROL Publish]**.
 
 Il marchio pubblicato è ora disponibile per l&#39;utilizzo in _[!DNL Create]_o_[!DNL Content]_.
 
 ### Gestisci [!DNL Brands]
 
-Nella home di _[!DNL Brands]_, puoi fare clic per **aprire un marchio già creato**per modificarlo o rivederlo, oppure **rinominarlo**o **eliminare un marchio**dall&#39;elenco dal menu azioni [!DNL Brands]:
+Nella home di _[!DNL Brands]_, puoi fare clic per aprire un brand già creato per gestirlo o pubblicarlo.
 
-* Fai clic su una tessera del brand per aprire un brand.
-* Selezionare **[!UICONTROL Rinomina]** dal menu azioni [!DNL Brands] per rinominare un utente tipo esistente.
-* Per eliminare un marchio, seleziona **[!UICONTROL Elimina]** dal menu azioni [!DNL Brands].
+**Per visualizzare o modificare un marchio**:
+
+1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL [!DNL Brands]]**.
+1. Per visualizzare le informazioni generali su un brand, fai clic su per aprire un brand definito.
+1. Per visualizzare i dettagli individuali o modificare le linee guida per il brand, fai clic su [**[!UICONTROL Linee guida per il brand]**](#brand-voice-guidelines), [**[!UICONTROL Linee guida per il canale]**](#channel-guidelines), **[!UICONTROL Linee guida per le immagini]** o **[!UICONTROL Logo]** nella parte superiore.
+1. Per rinominare un marchio esistente, seleziona **[!UICONTROL Rinomina]** dal menu Azioni [!DNL Brands].
+1. Per eliminare un marchio, seleziona **[!UICONTROL Elimina]** dal menu Azioni [!DNL Brands].
+
+Puoi caricare i documenti sulle linee guida del brand (fino a tre file PDF o DOC) in GenStudio for Performance Marketing per creare automaticamente un brand.
 
 ## Aggiungi [!DNL Products]
 
@@ -176,7 +191,7 @@ Per aggiungere un utente tipo, [carica una guida utente](#upload-a-persona) o [c
 
 Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Personas]**. Nel pannello _[!DNL Personas]_, seleziona **Aggiungi utente tipo**.
 
-È possibile aggiungere [!DNL Persona] in GenStudio for Performance Marketing per indirizzare i contenuti creati al pubblico ideale.
+Puoi aggiungere [!DNL Persona] in GenStudio for Performance Marketing per indirizzare i contenuti creati al tuo pubblico ideale.
 
 Vedere [[!DNL Personas]](personas.md).
 

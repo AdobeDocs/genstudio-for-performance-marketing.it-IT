@@ -1,10 +1,11 @@
 ---
 title: Panoramica sulle esperienze
 description: Guarda una panoramica del coinvolgimento dei clienti, del budget e delle spese per esperienze e prestazioni di posizionamento degli annunci in Adobe GenStudio for Performance Marketing.
-feature: Insights, Experiences
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Experiences, Attributes
+exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
+source-git-commit: 693557104bc880445c021f942b728af10243fe27
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -39,15 +40,20 @@ GenStudio for Performance Marketing supporta formati di annunci, come feed di ri
 
 | Instagram | Facebook/Meta | Messenger | Audience Network |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Esplora<br>Esplora Home<br>Esplora Home Griglia<br>Feed<br>Rulli<br>Feed Profilo<br>Cerca<br>Acquista<br>Storie | Esplora aziende<br>Feed<br>Video in streaming<br>Marketplace<br>Reels<br>Sovrapposizione bobine<br>Colonna destra<br>Risultati ricerca<br>Storie<br>Feed video<br>Annunci su bobine Facebook | Casella in entrata<br>Storie | Video nativo, banner e interstiziale<br>premiato |
+| Esplora<br>Esplora la home<br>Esplora la griglia Home<br>Feed<br>Rulli<br>Feed profilo<br>Cerca<br>Acquista<br>Storie | Business Explore<br>Feed<br>Video in-stream<br>Marketplace<br>Bobine<br>Sovrapposizione bobine<br>Colonna destra<br>Risultati ricerca<br>Storie<br>Feed video<br>Annunci su bobine Facebook | Casella in entrata<br>Storie | Video nativo, banner e interstiziale<br>Premiato |
 
-## Metriche delle esperienze
+#### Posizionamenti non supportati
+
+GenStudio for Performance Marketing non supporta i seguenti posizionamenti di annunci:
+
+- Collaborativo
+- Catalogo/Vantaggio+ catalogo
+- Esperienza istanza
+- Carosello
+
+## Prestazioni dell’esperienza
 
 Le metriche di Insights possono aiutarti a valutare quali esperienze contribuiscono al successo di una campagna e quali posizionamenti di annunci sono più efficaci.
-
-<!-- For example, -->
-
-### Dettagli delle metriche
 
 La tabella seguente fornisce definizioni e informazioni approfondite per le metriche chiave del marketing digitale nella visualizzazione per tabella [!UICONTROL Esperienze]. Ogni metrica include una breve definizione relativa ai nomi degli annunci, al modo in cui viene calcolata la metrica e una o più informazioni utili per comprenderne il significato e l’impatto su un’esperienza.
 
@@ -60,7 +66,18 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che il posizionamento dell’annuncio o l’esperienza viene caricato nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per informazioni approfondite sulle prestazioni, considera con altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante di invito all’azione, in un posizionamento di esperienza. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
 | **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sul posizionamento dell’esperienza all’interno di una campagna.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
-| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ($) per ogni mille ad impression per il posizionamento dell’esperienza.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
-| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio ($) speso per ottenere un&#39;azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Utilizza per monitorare la spesa per esperienze che si traducono in azioni preziose per il cliente. |
-| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio ($) associato a ciascun clic in un posizionamento esperienza.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
-| **[!UICONTROL Spesa]** | L&#39;importo ($) speso dal budget per un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo ogni mille impression pubblicitarie per il posizionamento dell’esperienza.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Utilizza per monitorare la spesa per esperienze che si traducono in azioni preziose per il cliente. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic in un posizionamento esperienza.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
+
+## Prestazioni di posizionamento
+
+Nella visualizzazione _Dettagli esperienza_, le tre metriche principali riflettono le prestazioni complessive dell&#39;esperienza selezionata. Tuttavia, la sezione _Prestazioni per posizionamento_ mostra le metriche dettagliate per ciascun posizionamento dell&#39;annuncio. La tabella seguente fornisce le definizioni per le metriche delle prestazioni di posizionamento:
+
+| Metrica | Definizione | Calcolo |
+| ---------------------- | ----------------------------- | ----------- |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic nel posizionamento dell’annuncio dell’esperienza. | `clicks` diviso per `impressions` |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per il posizionamento dell’annuncio per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento. | totale `spent` diviso per il numero di azioni cliente completate |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic in un posizionamento esperienza. | totale `spent` diviso per `clicks` |
+| **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in un determinato periodo di tempo. | |

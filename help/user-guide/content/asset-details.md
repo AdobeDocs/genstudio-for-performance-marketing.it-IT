@@ -3,9 +3,9 @@ title: Dettagli risorsa
 description: Adobe GenStudio for Performance Marketing archivia i contenuti approvati con metadati avanzati per ricercare e monitorare le prestazioni.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ I metadati predefiniti memorizzati e acquisiti per una risorsa includono il nome
 
 ### Tag generati
 
-Quando memorizzi una risorsa approvata in [!DNL Content], GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare la risorsa e applicare tag in base alle funzioni della risorsa. Ad esempio, un&#39;immagine di un gatto può causare tag attributo come `pet photography` o `cat` e tag colore che identificano i colori dominanti nell&#39;immagine. Non è possibile modificare i tag.
+Quando memorizzi una risorsa approvata in [!DNL Content], GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare la risorsa e applicare i tag in base alle funzioni della risorsa. Ad esempio, un&#39;immagine di un gatto può causare tag attributo come `pet photography` o `cat` e tag colore che identificano i colori dominanti nell&#39;immagine. Non è possibile modificare i tag rilevati e applicati automaticamente.
 
-Consulta [Attributi di Insights](/help/user-guide/insights/attributes.md).
+Consulta [!DNL Insights] [Categorie di attributi](/help/user-guide/insights/attribute-category.md) per un elenco dettagliato delle funzioni immagine, video e testo.
 
 ### Metadati del contenuto generato
 

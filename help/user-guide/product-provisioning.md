@@ -3,16 +3,17 @@ title: Provisioning di Adobe GenStudio for Performance Marketing
 description: Scopri come effettuare il provisioning del prodotto GenStudio for Performance Marketing.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Provisioning di Adobe GenStudio for Performance Marketing
 
-Il provisioning dei prodotti è la configurazione unica dell’istanza GenStudio for Performance Marketing della tua organizzazione. Un amministratore di Adobe esegue queste attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Dall’Admin Console, un amministratore di Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
+Un amministratore di Adobe esegue le attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Dall’Admin Console, un amministratore di Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ All’interno dell’Admin Console, il profilo di prodotto definisce regole e pr
 
    Dopo aver effettuato l&#39;accesso, viene visualizzata la scheda _Panoramica_ di Adobe Admin Console.
 
-1. Passa alla scheda _Prodotti_. In questa scheda vengono visualizzati tutti i prodotti di Adobe acquistati dalla tua organizzazione.
+1. Passa alla scheda _Prodotti_. In questa scheda vengono visualizzati tutti i prodotti Adobe acquistati dalla tua organizzazione.
 
 1. Seleziona **[!UICONTROL GenStudio]** dall&#39;elenco dei prodotti. Nella console viene visualizzato il profilo di prodotto GenStudio, con informazioni chiave sulle licenze di prodotto acquistate dalla tua organizzazione. Fornisce inoltre opzioni per la gestione di queste licenze.
 
@@ -38,7 +39,7 @@ All’interno dell’Admin Console, il profilo di prodotto definisce regole e pr
 
 ## Passaggio 2: assegnare ruoli agli utenti
 
-Il provisioning degli utenti nell’Admin Console consiste nell’assegnare le licenze dei prodotti agli utenti. Questi utenti devono appartenere all’organizzazione IMS specificata nel profilo di prodotto. È possibile assegnare ruoli agli utenti dell’organizzazione GenStudio for Performance Marketing nello stesso modo in cui assegnare ruoli agli utenti di altri prodotti Adobe. Puoi aggiungere utenti manualmente o importare utenti in blocco.
+Il provisioning degli utenti nell’Admin Console consiste nell’assegnare le licenze dei prodotti agli utenti. Questi utenti devono appartenere all’organizzazione IMS specificata nel profilo di prodotto. È possibile assegnare ruoli utente all’organizzazione GenStudio for Performance Marketing nello stesso modo in cui assegnare ruoli utente ad altri prodotti Adobe. Puoi aggiungere utenti manualmente o importare utenti in blocco.
 
 >[!TIP]
 >

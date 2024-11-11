@@ -4,9 +4,9 @@ description: Scopri come iniziare a utilizzare GenStudio for Performance Marketi
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Segui queste best practice durante la preparazione delle linee guida:
 
 * Evita la ridondanza. Potresti essere tentato di ripetere una direttiva più volte, ma la ridondanza nelle linee guida non aiuta l’acquisizione LLM sottostante e l’implementazione delle linee guida del brand.
 
-* Identificare gli elementi che si desidera escludere dal modulo LLM durante la generazione del contenuto (ad esempio, punti esclamativi nel testo)
+* Identificare gli elementi che si desidera escludere dal modulo LLM durante la generazione del contenuto (ad esempio, punti esclamativi nel testo).
 
 È possibile caricare i documenti delle linee guida o consultarli quando si immettono manualmente le informazioni in GenStudio for Performance Marketing. Consulta [Aggiungi linee guida](./guidelines/overview.md) per informazioni su come caricare o immettere queste informazioni.
 
@@ -49,16 +49,28 @@ Segui queste best practice durante la preparazione delle linee guida:
 
 Un manager di sistema GenStudio può preparare il framework generativo di intelligenza artificiale del prodotto inserendo o caricando manualmente i requisiti specifici del marchio della tua organizzazione. Anche se l’impostazione delle linee guida per il marchio di un’organizzazione è un’azione da intraprendere una tantum, è possibile rivedere e migliorare tali linee guida in base alla volatilità, alla crescita e alle mutevoli circostanze di mercato della propria organizzazione.
 
-### Passaggio 2: caricare i modelli
+## Passaggio 2: configurare un progetto Adobe Admin Console per GenStudio [!DNL Brands]
+
+Gli amministratori di sistema devono completare ulteriori attività di configurazione prima che i collaboratori possano modificare o creare [!DNL Brands]. Gli amministratori di Adobe eseguono queste attività in Adobe Admin Console:
+
+* Crea un nuovo gruppo di utenti che include tutti gli utenti che necessitano di modifica e crea [!DNL Brands] adesioni.
+
+* Crea un nuovo progetto in Adobe Admin Console.
+
+Consulta [Assegnare le autorizzazioni del marchio](configure-brand-permissions.md).
+
+### Passaggio 3: Caricare i modelli
 
 I modelli accelerano la creazione dei contenuti. Un modello contiene funzioni approvate, come intestazioni e piè di pagina, ed è ottimizzato per canali specifici. In genere, i responsabili di sistema caricano e gestiscono i modelli per la propria organizzazione. Gli editor di contenuti utilizzano i modelli per avviare rapidamente il processo di creazione dei contenuti entro i limiti stabiliti del brand organizzativo.
 
-Consulta [Utilizzare i modelli](./content/use-templates.md) per le istruzioni su come personalizzare e caricare i modelli.
+Vedi [Utilizzare i modelli](./content/use-templates.md).
 
-### Passaggio 3: caricare le risorse approvate
+### Passaggio 4: caricare le risorse approvate
 
-Le risorse approvate in [!DNL Content] sono disponibili per tutti gli editor di GenStudio for Performance Marketing. È possibile popolare [!DNL Content] con risorse da utilizzare per gli editor di contenuti nella creazione di nuove esperienze o risorse. Consulta [Caricare risorse approvate](./content/manage-assets.md) per informazioni su come caricare e gestire le risorse.
+Le risorse approvate in [!DNL Content] sono disponibili per tutti gli editor di GenStudio for Performance Marketing. È possibile popolare [!DNL Content] con risorse da utilizzare per gli editor di contenuti nella creazione di nuove esperienze o risorse.
 
-### Passaggio 4: connettersi a un account Meta (Facebook)
+Consulta [Caricare risorse approvate](./content/manage-assets.md).
+
+### Passaggio 5: connettersi a un account Meta (Facebook)
 
 Configura una connessione tra GenStudio for Performance Marketing e gli account social della tua organizzazione per ricevere dati da campagne di marketing, risorse ed esperienze attive. [[!DNL Insights]](./insights/overview.md) fornisce gli strumenti per analizzare i dati derivati dal canale. Vedi [Connetti a un account Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).

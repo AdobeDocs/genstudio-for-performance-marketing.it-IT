@@ -4,9 +4,9 @@ description: Scopri come effettuare il provisioning del prodotto GenStudio for P
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Un amministratore di Adobe esegue le attività iniziali di provisioning in [Adob
 >[!NOTE]
 >
 >Solo gli amministratori di Adobe possono implementare attività di abilitazione che richiedono l’accesso a Adobe Admin Console.
+
+>[!IMPORTANT]
+>
+>Non aggiungere, modificare o eliminare profili di prodotto esistenti. La modifica dei profili di prodotto predefiniti può interrompere gravemente l’implementazione di GenStudio for Performance Marketing.
 
 ## Passaggio 1: accedere al profilo di prodotto in Adobe Admin Console
 

@@ -4,9 +4,9 @@ description: Scopri i ruoli utente e le autorizzazioni di GenStudio for Performa
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ Consulta [Ruoli amministrativi](https://helpx.adobe.com/enterprise/using/admin-r
 ## Diritti
 
 _Diritti_ concedere l&#39;autorizzazione per eseguire attività specifiche e accedere a risorse protette. I diritti, o autorizzazioni, sono definiti nel ruolo utente all’interno del profilo di prodotto e gli utenti ricevono tali diritti quando vengono assegnati a tale ruolo.
+
+>[!IMPORTANT]
+>
+>Non aggiungere, modificare o eliminare profili di prodotto esistenti. La modifica dei profili di prodotto predefiniti può interrompere gravemente l’implementazione di GenStudio for Performance Marketing.
 
 ## Ruoli utente
 

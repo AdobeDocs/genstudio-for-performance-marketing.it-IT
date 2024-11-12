@@ -3,9 +3,11 @@ title: Categorie di attributi
 description: Scopri le categorie di attributi utilizzate in GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 Una categoria di attributi è un gruppo di classificazione che organizza attributi correlati che condividono una caratteristica comune. Queste categorie aiutano a semplificare l&#39;individuazione, l&#39;identificazione e la comprensione di attributi specifici fornendo un contesto più ampio e facilitandone l&#39;applicazione e l&#39;utilizzo.
 
-GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare immagini, video e testo e applicare [!UICONTROL attributi di risorse] in base al livello di affidabilità. _Affidabilità_ si riferisce alla probabilità che l&#39;IA assegni a una previsione o classificazione. Nel contesto dell’apprendimento automatico, si tratta di una sorta di punteggio che misura quanto l’intelligenza artificiale sia &quot;sicura&quot; che la classificazione sia corretta. Maggiore è il punteggio di affidabilità, maggiore è la certezza. Ad esempio, durante l’analisi di un’immagine, l’intelligenza artificiale può identificare diverse funzioni e assegnare a ciascuna un punteggio che indica quanto sia sicura che la funzione sia corretta. L’elenco degli attributi di una risorsa non è esaustivo. Assets che contiene un set completo di funzioni può essere limitato a una soglia di affidabilità, ad esempio le tre funzioni più dominanti identificate.
+GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare immagini, video e testo e applicare [!UICONTROL attributi di risorse] in base alla probabilità di correttezza. L’elenco degli attributi di una risorsa non è esaustivo. Assets che contiene un set completo di funzioni può essere limitato alle tre funzioni più dominanti identificate dall’intelligenza artificiale.
 
 ## Funzioni immagine
 

@@ -3,7 +3,7 @@ title: Concetti di Adobe GenStudio for Performance Marketing
 description: Scopri i concetti e la terminologia di Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -25,15 +25,15 @@ Con GenStudio for Performance Marketing è possibile:
 
 GenStudio for Performance Marketing sfrutta la potenza dell’intelligenza artificiale generativa per accelerare il processo di creazione dei contenuti e garantire una generazione di contenuti di alta qualità. Il ciclo di vita iterativo delle risorse creative consente di ottenere contenuti sempre più precisi e allineati al brand, in linea con il pubblico di destinazione.
 
-Inizia con la formazione efficace di GenStudio for Performance Marketing sul branding, sugli utenti tipo e sulle descrizioni dei prodotti della tua organizzazione grazie alla potente funzione di linee guida per il marchio.
+Inizia con la formazione efficace di GenStudio for Performance Marketing sul branding, sugli utenti tipo e sulle descrizioni dei prodotti della tua organizzazione grazie alla potente funzione di linee guida per il marchio. Per informazioni su come preparare e caricare queste linee guida, consulta la [panoramica delle linee guida](../user-guide/guidelines/overview.md).
 
-Per informazioni su come preparare e caricare queste linee guida, consulta la [panoramica delle linee guida](../user-guide/guidelines/overview.md).
+{{in-academy}}
 
 ## Governance dei dati
 
 Quando si lavora con l’intelligenza artificiale per generare contenuti, è essenziale garantire che l’output sia sicuro e inclusivo per tutti gli utenti. Ciò richiede la valutazione del contenuto per potenziali pregiudizi dannosi, incitamento all&#39;odio, materiale offensivo o volgarità. Per evitare che i contenuti dannosi emergano negli output, è importante eseguire test approfonditi da prospettive diverse, una revisione etica completa e l’implementazione di efficaci piani di mitigazione.
 
-Questo approccio rafforza la responsabilità sociale, riduce al minimo i rischi per la reputazione e garantisce l&#39;aderenza alle politiche di Adobe sulla fiducia e la sicurezza e l&#39;etica.
+Questo approccio rafforza la responsabilità sociale, riduce al minimo il rischio per la reputazione e garantisce il rispetto delle politiche di Adobe sulla fiducia e sulla sicurezza ed etica.
 
 GenStudio for Performance Marketing incorpora piani di mitigazione per impedire l’utilizzo di contenuti dannosi o distorti identificati in base agli standard e alle politiche di governance dei dati. Quando viene rilevato tale contenuto, vieni informato che la generazione di risorse è bloccata con un messaggio &quot;Impossibile generare&quot;.
 

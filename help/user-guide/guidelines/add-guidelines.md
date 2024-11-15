@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Consulta la [panoramica delle linee guida](/help/user-guide/guidelines/overview.
 
 L’aggiunta di linee guida a GenStudio for Performance Marketing è un passaggio importante nel processo di creazione. Le linee guida informano il processo di creazione dei contenuti, insieme a prompt definiti dall’utente e tecnologia AI generativa Adobe, per creare risorse di impatto.
 
+{{in-academy}}
+
 ## Aggiungi [!DNL Brands]
 
 Per aggiungere un marchio, [carica una guida del marchio](#upload-a-brand) o [crea manualmente un marchio](#manually-add-brand) selezionando le linee guida e immettendo i dettagli del marchio. [Publish a brand](#publish-brand) in [!DNL Content] per renderlo disponibile per la futura generazione di contenuti.
@@ -27,6 +29,7 @@ Per aggiungere un marchio, [carica una guida del marchio](#upload-a-brand) o [cr
 Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Brands]**. Nel pannello _[!DNL Brands]_, seleziona **Aggiungi marchio**.
 
 >[!TIP]
+>
 >Ogni marchio opera in modo indipendente senza relazioni gerarchiche. Per creare marchi secondari con un marchio principale, includi le informazioni del marchio principale durante il processo di creazione.
 
 ### Carica un marchio

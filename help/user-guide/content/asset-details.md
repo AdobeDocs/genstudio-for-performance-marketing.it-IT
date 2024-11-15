@@ -3,9 +3,9 @@ title: Dettagli risorsa
 description: Adobe GenStudio for Performance Marketing archivia i contenuti approvati con metadati avanzati per ricercare e monitorare le prestazioni.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ A ogni risorsa (inclusi esperienze e modelli) sono associati _dettagli_ (metadat
 ## Modifica in Express
 
 Puoi modificare le risorse immagine (JPG o PNG) direttamente in GenStudio for Performance Marketing utilizzando Adobe Express. L&#39;area di lavoro di _[!UICONTROL Powered by Adobe Express]_ offre funzionalità utili per migliorare le immagini senza uscire dall&#39;applicazione GenStudio. È possibile rimuovere facilmente gli sfondi, applicare riempimenti generativi, regolare gli effetti e ritagliare le immagini.
+
+>[!BEGINSHADEBOX]
+
+Criteri per migliorare le immagini con la funzionalità [!DNL Edit in Adobe Express]:
+
+- I tipi MIME supportati includono `image/png` e `image/jpeg`
+- Le dimensioni minime dell&#39;immagine sono di 50x50 pixel
+- Le dimensioni massime dell&#39;immagine sono 8000x8000 pixel
+- La dimensione massima è di 40 MB (40.000.000 byte)
+
+>[!ENDSHADEBOX]
+
+**Per modificare una risorsa con Express**:
 
 1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
@@ -91,7 +104,7 @@ La tabella seguente descrive i metadati (dettagli risorsa) che puoi definire dur
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) aggiunti a GenStudio for Performance Marketing per l&#39;utilizzo |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) aggiunti a GenStudio for Performance Marketing per l&#39;utilizzo |
 | Canali | Tipi di contenuto in GenStudio for Performance Marketing per cui viene utilizzata la risorsa, ad esempio e-mail e annunci Meta |
-| Intervallo temporale | Intervallo temporale per il quale la risorsa è stata utilizzata, ad esempio trimestre, stagione, anno e così via. Esempio: `Winter 2023` |
+| Intervallo temporale | Intervallo temporale per il quale viene utilizzata la risorsa, ad esempio trimestre, stagione, anno e così via. Esempio: `Winter 2023` |
 | Regione | Aree per le quali viene utilizzata la risorsa. Esempi: `North America`, `APAC`, `Italy` |
 | Lingua | Lingue per cui viene utilizzata la risorsa. Esempio: `Spanish` |
 | Parole chiave | Parole chiave utilizzate per un&#39;ulteriore identificazione delle caratteristiche e dello scopo dell&#39;attività |

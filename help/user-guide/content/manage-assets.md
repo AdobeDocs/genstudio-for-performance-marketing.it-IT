@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
+source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,57 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Content] semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 
-## Galleria Assets
+## Raccolta contenuti
 
-La raccolta [!UICONTROL Assets] mostra un inventario delle risorse approvate. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare diverse categorie per filtrare le risorse visualizzate nella raccolta. Fai clic sull’icona di ricerca (lente di ingrandimento) per trovare una risorsa con una parola chiave.
+Nella galleria viene visualizzato un inventario delle risorse, esperienze o modelli approvati, a seconda della vista selezionata. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]**, in cui è possibile selezionare diverse categorie per filtrare il contenuto visualizzato nella raccolta. Nella visualizzazione _[!UICONTROL Assets]_, fare clic sull&#39;icona di ricerca (lente di ingrandimento) per utilizzare una parola chiave per trovare una risorsa.
+
 
 Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONTROL Assets]:
 
 ![Visualizzazione Assets con ricerca su cane](../../assets/content-assets.png)
 
-### Posizione Assets
+### Cerca contenuto
+
+Il filtro e l’interfaccia di ricerca sono rapidi e reattivi e forniscono un’esperienza di ricerca iniziale produttiva. Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Per risorse ed esperienze, puoi selezionare una campagna e linee guida specifiche, ad esempio contenuti creati per un prodotto specifico.
+
+Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attribute-category.md) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna.
+
+Durante la ricerca di _Esperienze_, puoi utilizzare il filtro **[!UICONTROL Creato da]** per limitare l&#39;elenco in modo da mostrare solo le esperienze create da te o da una persona specifica.
+
+**Per cercare contenuto da riutilizzare**:
+
+1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Assets]**.
+
+1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l&#39;archivio predefinito.
+
+   >[!IMPORTANT]
+   >
+   >L&#39;elenco _Posizione_ è disponibile solo quando si esegue la [connessione a un repository AEM](connect-aem-repo.md).
+
+1. Fare clic su **[!UICONTROL Cerca]** (lente di ingrandimento) per immettere una parola chiave o una descrizione.
+
+1. Restringi la ricerca selezionando una categoria dall&#39;elenco _[!UICONTROL Filtro]_. Ad esempio, se stai cercando un file PNG, fai clic su **[!UICONTROL Formato file]** e scegli **PNG**.
+
+   Più si restringe la ricerca, meno opzioni di filtro disponibili. Fare clic su **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri.
+
+1. Seleziona una risorsa per una visualizzazione completa e un elenco di dettagli.
+
+   Fai clic su **[!UICONTROL Scarica]** (freccia giù) per utilizzare la risorsa nella workstation locale.
+
+### Dove si trova
 
 Per impostazione predefinita, le risorse aggiunte a [!DNL Content] tramite il processo [!DNL Create] o il caricamento vengono archiviate nell&#39;archivio `GenStudio assets`. L&#39;archivio `GenStudio assets` è di lettura/scrittura in GenStudio for Performance Marketing. Ciò significa che è possibile salvare, modificare ed eliminare le risorse nell&#39;archivio `GenStudio assets`.
 
-L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta sul lato destro consente di selezionare dagli archivi Adobe Experience Manager (AEM) [!DNL Assets Content Hub] connessi. Quando selezioni un archivio AEM, la galleria mostra un inventario delle risorse provenienti da tale archivio, che ti consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuti. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
+L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta _[!UICONTROL Assets]_ sul lato destro consente di selezionare dagli archivi [!DNL Assets Content Hub] di Adobe Experience Manager (AEM) connessi.
+
+![Elenco percorsi degli archivi](../../assets/content-location-selection.png){width="350"}
+
+
+Quando selezioni un archivio AEM, la galleria mostra un inventario delle risorse provenienti da tale archivio, che ti consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuti. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
 
 Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing, vedere [Connettere un archivio AEM](connect-aem-repo.md).
 
-L’archivio AEM è di sola lettura, il che significa che non è possibile salvare bozze, nuove risorse o metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
+L’archivio AEM è di sola lettura, il che significa che puoi accedere al contenuto ma non salvare bozze, nuove risorse o metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
 
@@ -42,7 +76,7 @@ In [!UICONTROL Content], Performance Marketing può archiviare, recuperare e ges
 
 Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], queste vengono memorizzate nell&#39;archivio `GenStudio assets`. Il pulsante _[!UICONTROL Aggiungi risorse]_ è disponibile solo quando _[!UICONTROL Posizione]_ è l&#39;archivio `GenStudio assets`.
 
-![Campo posizione](../../assets/content-location.png){width="350" align="center"}
+![Campo posizione](../../assets/content-location.png){width="350"}
 
 **Per aggiungere una o più risorse**:
 
@@ -70,30 +104,61 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-### Cerca contenuto
+### Scaricare le risorse
 
-Il filtro e l’interfaccia di ricerca sono rapidi e reattivi e forniscono un’esperienza di ricerca iniziale produttiva. Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Per risorse ed esperienze, puoi selezionare una campagna e linee guida specifiche, ad esempio contenuti creati per un prodotto specifico.
+**Per scaricare una risorsa**:
 
-Sono presenti filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [attributi](/help/user-guide/insights/attributes.md) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna.
+1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
-Durante la ricerca di _Esperienze_, puoi utilizzare il filtro **[!UICONTROL Creato da]** per limitare l&#39;elenco in modo da mostrare solo le esperienze create da te o da una persona specifica.
+1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Scarica]** (freccia rivolta verso il basso) in alto a destra.
 
-**Per cercare contenuto da riutilizzare**:
+1. Il download inizia inserendo una copia della risorsa nel percorso di download predefinito.
 
-1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Assets]**.
+### Eliminare risorse
 
-1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l&#39;archivio predefinito.
+**Per eliminare una risorsa**:
 
-   >[!IMPORTANT]
+1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
+
+1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Elimina]** (cestino) in alto a destra.
+
+1. Nel popup _Elimina risorsa_, verifica la risorsa e fai clic su **[!UICONTROL Elimina]**.
+
+## Modifica in Express
+
+Puoi modificare le risorse immagine (JPG o PNG) direttamente in GenStudio for Performance Marketing utilizzando Adobe Express. L&#39;area di lavoro di _[!UICONTROL Powered by Adobe Express]_ offre funzionalità utili per migliorare le immagini senza uscire dall&#39;applicazione GenStudio. È possibile rimuovere facilmente gli sfondi, applicare riempimenti generativi, regolare gli effetti e ritagliare le immagini.
+
+>[!BEGINSHADEBOX]
+
+Criteri per migliorare le immagini con la funzionalità [!DNL Edit in Adobe Express]:
+
+- I tipi MIME supportati includono `image/png` e `image/jpeg`
+- Le dimensioni minime dell&#39;immagine sono di 50x50 pixel
+- Le dimensioni massime dell&#39;immagine sono 8000x8000 pixel
+- La dimensione massima è di 40 MB (40.000.000 byte)
+
+>[!ENDSHADEBOX]
+
+**Per modificare una risorsa con Express**:
+
+1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
+
+1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Modifica nell&#39;Adobe Express]** in alto a destra.
+
+1. Nell&#39;area di lavoro di _[!UICONTROL Powered by Adobe Express]_, utilizza i controlli Express nel pannello sinistro per migliorare l&#39;immagine.
+
+1. Quando sei soddisfatto dell&#39;immagine aggiornata, fai clic su **[!UICONTROL Salva una copia]** in alto a destra.
+
+1. Selezionare il formato di file, JPG o PNG, e fare clic su **[!UICONTROL Salva copia]**.
+
+1. Nel popup _[!UICONTROL Salva una copia della risorsa]_, aggiorna **[!UICONTROL Nome risorsa]**.
+
+   - Seleziona **[!UICONTROL Stessi dettagli della risorsa originale]** per trasferire i dettagli della risorsa nella nuova immagine.
+
+   - Espandi la sezione **[!UICONTROL Ulteriori dettagli]** per aggiornare Campaign, Guidelines e altri metadati.
+
+   >[!TIP]
    >
-   >L&#39;elenco _Posizione_ è disponibile solo quando si esegue la [connessione a un repository AEM](connect-aem-repo.md).
+   >Maggiore è il numero di dettagli forniti, maggiori saranno le funzionalità di GenStudio for Performance Marketing. Selezionare uno o più dettagli dall&#39;elenco o immetterne uno nuovo, se applicabile, ad esempio con parole chiave. Ogni dettaglio aggiunto viene visualizzato sotto l&#39;elenco. Fare clic su **`x`** per rimuovere un dettaglio.
 
-1. Fare clic su **[!UICONTROL Cerca]** (lente di ingrandimento) per immettere una parola chiave o una descrizione.
-
-1. Restringi la ricerca selezionando una categoria dall&#39;elenco _[!UICONTROL Filtro]_. Ad esempio, se stai cercando un file PNG, fai clic su **[!UICONTROL Formato file]** e scegli **PNG**.
-
-   Più si restringe la ricerca, meno opzioni di filtro disponibili. Fare clic su **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri.
-
-1. Seleziona una risorsa per una visualizzazione completa e un elenco di dettagli.
-
-   Fai clic su **[!UICONTROL Scarica]** (freccia giù) per utilizzare la risorsa nella workstation locale.
+1. Fai clic su **[!UICONTROL Salva]**.

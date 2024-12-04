@@ -3,9 +3,10 @@ title: Assegna  [!DNL Brand]  autorizzazioni
 description: Informazioni sull'assegnazione di diritti per i creatori e gli editor di GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
 feature: Brands Service, Generative AI
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+exl-id: fc33ecd3-4403-4045-87af-012a0377226c
+source-git-commit: baa225419ba5e851f28d41f829971027655e103e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti 
 
 Consulta [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _Guida all&#39;amministrazione di Enterprise e Teams_.
 
-## Passaggio 2: assegnare un profilo di GenStudio System Manager a un gruppo di utenti
+## Passaggio 2: assegnare un profilo di GenStudio System Manager al gruppo di utenti
 
-Dopo aver creato un nuovo gruppo di utenti e aver aggiunto gli utenti, puoi assegnare il profilo **Adobe GenStudio system manager** a questo gruppo. I diritti associati al profilo assegnato concedono a tutti gli utenti del gruppo le autorizzazioni di GenStudio [!DNL Brands] (creazione, aggiornamento ed eliminazione di marchi).
+Dopo aver creato un nuovo gruppo di utenti e aver aggiunto gli utenti, puoi assegnare il profilo **Adobe GenStudio system manager** a questo gruppo. L&#39;adesione associata al profilo assegnato concede a tutti gli utenti di questo gruppo le autorizzazioni di GenStudio [!DNL Brands] (creazione, aggiornamento ed eliminazione di marchi).
 
 **Per assegnare un profilo al gruppo di utenti**:
 
@@ -54,7 +55,25 @@ Dopo aver creato un nuovo gruppo di utenti e aver aggiunto gli utenti, puoi asse
 
 Consulta [Assegnare profili di prodotto a gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _guida per l&#39;amministrazione di Enterprise e Teams_.
 
-## Passaggio 3: creare un progetto [!DNL Brands]
+## Passaggio 3: aggiungere utenti al gruppo di utenti
+
+Per assegnare agli utenti l&#39;autorizzazione per creare, modificare e pubblicare [!DNL Brands], aggiungerli al gruppo di utenti appena creato.
+
+>[!NOTE]
+>
+>È necessario aggiungere almeno un utente a questo gruppo di utenti prima di aggiungere il gruppo al progetto.
+
+**Per aggiungere utenti al gruppo di utenti**:
+
+1. Dall&#39;_Admin Console_, passa a **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]**.
+
+1. Seleziona il nome del gruppo di utenti creato in precedenza. Viene aperto il popup _Aggiungi utenti a questo gruppo di utenti_.
+
+1. Aggiungi un utente nuovo o esistente tramite nome utente o indirizzo e-mail. Quando immetti un nome o un indirizzo e-mail per un utente esistente, questo campo viene compilato automaticamente con nomi corrispondenti per gli utenti noti che appartengono a questa organizzazione IMS. Scopri come gestire i gruppi di utenti in [Gestire i gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _Guida all&#39;amministrazione di Enterprise e Teams_.
+
+Agli utenti vengono concesse le autorizzazioni di creazione, modifica e pubblicazione di [!DNL Brand] di Adobe GenStudio System Manager quando vengono aggiunti al gruppo. Gli utenti ricevono inoltre un invito e-mail automatico per modificare il progetto Adobe GenStudio for Performance Marketing [!DNL Brands].
+
+## Passaggio 4: creare un progetto [!DNL Brands]
 
 Un _progetto_ fornisce un percorso di archiviazione in cui alcuni utenti possono salvare le risorse, in questo caso [!DNL Brands] risorse.
 
@@ -72,7 +91,7 @@ Un _progetto_ fornisce un percorso di archiviazione in cui alcuni utenti possono
 
 Consulta [Gestione dei progetti](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) nella _Guida all&#39;amministrazione di Enterprise e Team_.
 
-## Passaggio 4: invitare un gruppo di utenti al progetto
+## Passaggio 5: invitare un gruppo di utenti al progetto
 
 È ora possibile aggiungere il gruppo utenti appena creato al progetto `Adobe GenStudio [!DNL Brands]`.
 
@@ -83,17 +102,3 @@ Consulta [Gestione dei progetti](https://helpx.adobe.com/enterprise/using/projec
 1. Scegliere l&#39;opzione di autorizzazione **Può modificare**.
 
 1. Fai clic su **[!UICONTROL Invita]**.
-
-## Passaggio 5: Aggiungere utenti al gruppo di utenti
-
-Per assegnare agli utenti l&#39;autorizzazione per creare, modificare e pubblicare [!DNL Brands], aggiungerli al gruppo di utenti appena creato.
-
-**Per aggiungere utenti al gruppo di utenti**:
-
-1. Dall&#39;_Admin Console_, passa a **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]**.
-
-1. Seleziona il nome del gruppo di utenti creato in precedenza. Viene aperto il popup _Aggiungi utenti a questo gruppo di utenti_.
-
-1. Aggiungi un utente nuovo o esistente tramite nome utente o indirizzo e-mail. Scopri come gestire i gruppi di utenti in [Gestire i gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _Guida all&#39;amministrazione di Enterprise e Teams_.
-
-Agli utenti vengono concesse le autorizzazioni di creazione, modifica e pubblicazione di [!DNL Brand] di Adobe GenStudio System Manager quando vengono aggiunti al gruppo. Gli utenti ricevono inoltre un invito e-mail automatico per modificare il progetto Adobe GenStudio for Performance Marketing [!DNL Brands].

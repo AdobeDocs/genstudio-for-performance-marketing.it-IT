@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 36%
+source-wordcount: '311'
+ht-degree: 35%
 
 ---
 # Documentazione di GenStudio for Performance Marketing
@@ -21,11 +21,11 @@ Le correzioni minori o i chiarimenti inviati per la documentazione e gli esempi 
 
 ### Modifiche principali
 
-Se fai parte della community di Adobi e desideri creare un articolo o inviare modifiche importanti, invia un problema nella scheda _Problemi_ per avviare una conversazione con il team della documentazione. Una volta che tu e lo scrittore concordate un piano, crea e inserisci il contenuto insieme.
+Se fai parte della community Adobe e desideri creare un articolo o inviare modifiche importanti, invia un problema nella scheda _Problemi_ per avviare una conversazione con il team della documentazione. Una volta che tu e lo scrittore concordate un piano, crea e inserisci il contenuto insieme.
 
 ### Modifiche principali da dipendenti Adobe
 
-Se sei un autore tecnico, un responsabile di programma o uno sviluppatore di un team di Adobi e il tuo lavoro consiste nel contribuire a o creare articoli tecnici, utilizza l&#39;archivio privato all&#39;indirizzo `https://git.corp.adobe.com/AdobeDocs`.
+Se sei un autore tecnico, un responsabile di programma o uno sviluppatore di un team di prodotti Adobe e il tuo lavoro consiste nel contribuire a o creare articoli tecnici, utilizza l&#39;archivio privato all&#39;indirizzo `https://git.corp.adobe.com/AdobeDocs`.
 
 ## Strumenti e configurazione
 
@@ -38,7 +38,7 @@ Per maggiori informazioni, consulta la [Guida per i collaboratori di Adobe Docs]
 Tutti gli articoli in questo archivio utilizzano markdown basato su GitHub. Se non hai familiarità con il markdown, vedi le risorse seguenti:
 
 - [Nozioni di base sul markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Opuscolo riassuntivo stampabile sul markdown](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Foglio di riferimento per il markdown stampabile](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Etichette
 

@@ -3,7 +3,7 @@ title: Panoramica di Adobe GenStudio for Performance Marketing [!DNL Content]
 description: Scopri come trovare, modificare, riutilizzare e condividere le risorse approvate dal brand in un portale intuitivo.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -17,58 +17,111 @@ In GenStudio for Performance Marketing [!DNL Content] è disponibile una posizio
 ## Casi di utilizzo di [!DNL Content]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="lente di ingrandimento" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search">
+
          <strong>Trova contenuto</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="immagini con segno più" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>Aggiungi risorse</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/customize-template.md">
+
          <img alt="bullone di schiarimento sulla risorsa" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
+
          <a href="../content/customize-template.md">
+
          <strong>Personalizzare un modello</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/use-templates.md">
+
          <img alt="fulmine sulla risorsa con segno più" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
+
          <a href="../content/use-templates.md#upload-a-template">
+
          <strong>Carica modello</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Modifica in Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Modifica risorse in Adobe Express</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## Funzionalità di [!DNL Content]

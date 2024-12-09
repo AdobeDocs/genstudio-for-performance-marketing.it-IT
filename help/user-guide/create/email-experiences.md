@@ -4,13 +4,13 @@ description: Scopri le esperienze e-mail in Adobe GenStudio for Performance Mark
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
+source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Esperienze e-mail
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 Le esperienze e-mail possono essere suddivise in più sezioni per consentire la personalizzazione completa in base al marchio e agli obiettivi. [Seleziona [!DNL Products] e risorse visive per ogni sezione](/help/user-guide/create/create-email-experience.md#add-parameters) e utilizza [prompt strutturati](/help/user-guide/effective-prompts.md#structured-prompts) per creare contenuto univoco. Ogni sezione supporta una risorsa visiva.
 
-Consulta [Preparare un modello di e-mail](/help/user-guide/content/email-template.md) per scoprire come creare un modello con più sezioni.
+Consulta [personalizzazione dei modelli con sezioni](/help/user-guide/content/customize-template.md#sections-or-groups) per scoprire come creare un modello con più sezioni.
 
 ## Caricamento progressivo
 

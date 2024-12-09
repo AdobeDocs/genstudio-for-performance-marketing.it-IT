@@ -3,9 +3,9 @@ title: Dettagli risorsa
 description: Adobe GenStudio for Performance Marketing archivia i contenuti approvati con metadati avanzati per ricercare e monitorare le prestazioni.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ A ogni risorsa (inclusi esperienze e modelli) sono associati _dettagli_ (metadat
 
 1. Nella visualizzazione delle risorse, controlla la sezione _[!UICONTROL Dettagli]_ a destra.
 
-   >[!TIP]
-   >
-   >Se la sezione _[!UICONTROL Dettagli]_ non è visibile, fare clic sull&#39;icona **[!UICONTROL Informazioni]** (i).
+1. Se la sezione _[!UICONTROL Dettagli]_ non è visibile, fare clic sull&#39;icona **[!UICONTROL Informazioni]** (i).
 
 I dettagli della risorsa includono i metadati applicati durante il processo di creazione o caricamento. I tipi di metadati delle risorse includono [metadati di sistema](#system-metadata) e [metadati definiti dall&#39;utente](#user-defined-metadata).
 
@@ -38,9 +36,7 @@ La seguente risorsa immagine contiene metadati di sistema che descrivono il tipo
 
 ## Metadati di sistema
 
-Alcuni metadati di risorse vengono raccolti automaticamente quando una risorsa viene caricata. Non è possibile modificare i metadati di sistema predefiniti.
-
-I metadati predefiniti memorizzati e acquisiti per una risorsa includono il nome del file, le dimensioni, l’origine e altro ancora.
+Alcuni metadati di risorse vengono raccolti automaticamente quando una risorsa viene caricata, ad esempio tipo di file, dimensioni, dimensioni, origine e altro ancora. Ad eccezione del nome del file, non è possibile modificare i metadati di sistema predefiniti.
 
 ### Tag generati
 

@@ -4,18 +4,25 @@ description: Scopri come personalizzare e ottimizzare il modello per Adobe GenSt
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Personalizzare un modello
 
-Adattare i modelli HTML per Adobe GenStudio for Performance Marketing utilizzando il linguaggio di modelli _Handlebars_. La sintassi [!DNL Handlebars] utilizza testo normale con doppie parentesi graffe come segnaposto di contenuto. Per informazioni su come preparare il modello, consulta [`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars) nella _Guida del linguaggio Handlebars_.
+Puoi personalizzare un modello da utilizzare in GenStudio for Performance Marketing inserendo segnaposto di contenuto, o campi, utilizzati dall’IA generativa per inserire il contenuto.
 
-Nelle sezioni successive viene illustrato come aggiungere segnaposto di contenuto, nascondere elementi non necessari dall’anteprima e gestire i collegamenti al contenuto statico. Quando il modello è pronto, puoi [caricarlo in GenStudio for Performance Marketing](use-templates.md#upload-a-template) e iniziare a generare e-mail personalizzate in base al modello personalizzato.
+Nelle sezioni successive viene illustrato come adattare i modelli di HTML per GenStudio for Performance Marketing utilizzando il linguaggio di modelli _Handlebars_. La sintassi [!DNL Handlebars] utilizza testo normale con doppie parentesi graffe come segnaposto di contenuto. Vedi [Cos&#39;è [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) nella _Guida al linguaggio Handlebars_ per informazioni su come preparare il modello.
+
+
+Quando il modello è pronto, puoi [caricarlo in GenStudio for Performance Marketing](use-templates.md#upload-a-template) e iniziare a generare e-mail personalizzate in base al modello personalizzato.
+
+>[!TIP]
+>
+>Segui le [linee guida per l&#39;accessibilità](accessibility-for-templates.md) e le [best practice](/help/user-guide/content/best-practices-for-templates.md) in modo da poter raggiungere più destinatari e fornire un&#39;esperienza ottimale.
 
 ## Segnaposto di contenuto
 
@@ -34,14 +41,14 @@ Ad esempio, è possibile utilizzare `{{ headline }}` con la sintassi [!DNL Handl
 Nella tabella seguente sono elencati i nomi dei campi riconosciuti da GenStudio for Performance Marketing per il popolamento in modelli. Aggiungere questi nomi di campo utilizzando la sintassi [!DNL Handlebars] al modello in cui è necessario GenStudio for Performance Marketing per generare il contenuto.
 
 | Campo | Ruolo | Modello canale |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | Pre header | email |
-| `headline` | Titolo | invia e-mail a <br>Meta annuncio |
-| `body` | Corpo del testo | invia e-mail a <br>Meta annuncio |
-| `cta` | Invito all’azione | invia e-mail a <br>Meta annuncio |
-| `on_image_text` | Su testo immagine | Meta annuncio |
-| `image` | Immagine | invia e-mail a <br>Meta annuncio |
-| `brand_logo` | Logo del marchio selezionato<br>Per informazioni sull&#39;utilizzo consigliato, vedere [Nome campo logo marchio](#brand-logo-field-name). | e-mail<br>Meta annuncio |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | Pre header | email |
+| `{{headline}}` | Titolo | invia e-mail a <br>Meta ad <br>Visualizza annuncio |
+| `{{body}}` | Corpo del testo | invia e-mail a <br>Meta ad <br>Visualizza annuncio |
+| `{{cta}}` | Invito all’azione | invia e-mail a <br>Meta ad <br>Visualizza annuncio |
+| `{{on_image_text}}` | Su testo immagine | Meta annuncio |
+| `{{image}}` | Immagine: seleziona dal contenuto | invia e-mail a <br>Meta ad <br>Visualizza annuncio |
+| `{{brand_logo}}` | Logo del marchio selezionato<br>Per informazioni sull&#39;utilizzo consigliato, vedere [Nome campo logo marchio](#brand-logo-field-name). | e-mail<br>Meta annuncio |
 
 GenStudio for Performance Marketing compila automaticamente alcuni campi nei seguenti modelli:
 
@@ -93,23 +100,27 @@ Per creare una sezione modificabile, aggiungere parentesi doppie attorno al nome
 
 _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
-Utilizzare un prefisso scelto nel nome del campo per indicare che un campo fa parte di una sezione o di un gruppo. Ad esempio, potrebbe essere utile evidenziare il contenuto visualizzato in un&#39;area evidenziata:
+Utilizzare un prefisso scelto nel nome del campo per indicare che un campo fa parte di una sezione o di un gruppo. Utilizzare un nome di campo (`headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`). Ad esempio, il titolo e il corpo seguenti appartengono alla sezione `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 
-Ogni sezione può utilizzare solo uno di ogni tipo di campo. Nell&#39;esempio precedente, la sezione `pod1` può utilizzare un solo campo `pod1_headline`.
+Ogni sezione può utilizzare solo uno di ogni tipo di campo. Nell&#39;esempio precedente, la sezione `pod1` può utilizzare un solo campo `pod1_headline`. A causa di questa regola, le sezioni non possono essere nidificate.
 
-Un modello può includere fino a tre sezioni:
+Un modello di e-mail può includere fino a tre sezioni. Ad esempio, il seguente elenco ha tre sezioni titolo e corpo:
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
+
+Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione di un&#39;e-mail.
 
 ## Anteprima modello
 
@@ -117,7 +128,7 @@ Quando [carichi un modello](use-templates.md#upload-a-template), GenStudio for P
 
 Esempio di anteprima per un modello e-mail:
 
-![Rilevati campi di anteprima](../../assets/template-detected-fields.png){width="650"}
+![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650"}
 
 ### Anteprima controllo
 

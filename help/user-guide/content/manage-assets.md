@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Nella galleria viene visualizzato un inventario delle risorse, esperienze o mode
 
 Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONTROL Assets]:
 
-![Visualizzazione Assets con ricerca su cane](../../assets/content-assets.png)
+![Visualizzazione Assets con ricerca su cane](/help/assets/content-assets.png)
 
 ### Cerca contenuto
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
-1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Elimina]** (cestino) in alto a destra.
+1. Nella visualizzazione delle risorse, fai clic su **[!UICONTROL Elimina]** (cestino) in alto a destra.
 
 1. Nel popup _Elimina risorsa_, verifica la risorsa e fai clic su **[!UICONTROL Elimina]**.
 
@@ -155,7 +155,7 @@ Criteri per migliorare le immagini con la funzionalità [!DNL Edit in Adobe Expr
 
    - Seleziona **[!UICONTROL Stessi dettagli della risorsa originale]** per trasferire i dettagli della risorsa nella nuova immagine.
 
-   - Espandi la sezione **[!UICONTROL Ulteriori dettagli]** per aggiornare Campaign, Guidelines e altri metadati.
+   - Espandi la sezione **[!UICONTROL Ulteriori dettagli]** per aggiornare le linee guida e altri metadati.
 
    >[!TIP]
    >

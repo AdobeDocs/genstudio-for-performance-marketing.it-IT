@@ -1,11 +1,12 @@
 ---
-title: "Connettersi a un  [!DNL AEM Assets Content Hub]  archivio"
+title: 'Connetti a un archivio  [!DNL AEM Assets Content Hub] '
 description: Scopri come connettere Adobe GenStudio for Performance Marketing a un archivio Adobe Experience Manager (AEM) [!DNL Content Hub] e sfruttare i contenuti approvati esistenti.
 level: Experienced
 feature: Assets, Content
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
+source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,3 +55,5 @@ Consulta [Configurare l&#39;interfaccia utente di Content Hub](https://experienc
 ## Passaggio 5: verificare la connessione
 
 In Contenuto GenStudio for Performance Marketing, l&#39;elenco _[!UICONTROL Posizione]_ è disponibile sopra la raccolta sul lato destro. L&#39;elenco non è disponibile se non si dispone dell&#39;accesso o se l&#39;organizzazione non ha distribuito e connesso un archivio [!DNL AEM Assets Content Hub].
+
+Per informazioni sull&#39;elenco delle posizioni e sulla modifica degli archivi, vedere [Posizione Assets](manage-assets.md#assets-location).

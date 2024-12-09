@@ -3,10 +3,10 @@ title: Utilizzare i modelli
 description: Scopri come utilizzare i modelli in modo efficace per semplificare il processo creativo in Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ GenStudio for Performance Marketing consente ai creatori di contenuti di produrr
 
 ## Elementi modello
 
-Un modello è un insieme di istruzioni definite con HTML e CSS in linea che possono essere utilizzate per produrre un’esperienza di e-mail o metadati.
+Un modello è un insieme di istruzioni definite con HTML e CSS in linea che possono essere utilizzate per produrre un’esperienza di e-mail, annuncio social o annuncio di visualizzazione. Gli elementi modello forniscono la struttura per la creazione di contenuti.
 
-Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni dettagli sulle relative caratteristiche.
+Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni dettagli sulle relative caratteristiche:
 
 - **Preheader**
 
@@ -73,19 +73,13 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 >
 >Visualizza i [nomi di campo riconosciuti](customize-template.md#recognized-field-names) supportati da GenStudio for Performance Marketing per i modelli di ogni tipo di canale.
 
-## Configurare le linee guida per i canali
-
-È consigliabile configurare [linee guida per i canali](../guidelines/brands.md#channel-guidelines) per ogni marchio prima di utilizzare i modelli in GenStudio for Performance Marketing. Le linee guida per il canale influenzano direttamente il tipo di contenuto generato quando si utilizza il modello. Ad esempio, puoi impostare i limiti dei caratteri per il corpo di un’e-mail.
-
-![Specifiche del corpo](/help/assets/channel-email-body.png)
-
 ## Personalizza modello
 
 [Personalizza il modello](customize-template.md) per l&#39;utilizzo in GenStudio for Performance Marketing inserendo segnaposto di contenuto o campi utilizzati dall&#39;IA generativa per inserire il contenuto. GenStudio for Performance Marketing riconosce alcuni campi, ad esempio il campo `body`, e rispetta le linee guida di canale configurate per il brand selezionato.
 
 >[!TIP]
 >
->Segui le [linee guida sull&#39;accessibilità per la creazione di modelli](accessibility-for-templates.md) in modo da poter raggiungere più tipi di pubblico e fornire un&#39;esperienza ottimale.
+>Segui le [linee guida per l&#39;accessibilità](accessibility-for-templates.md) e le [best practice](/help/user-guide/content/best-practices-for-templates.md) in modo da poter raggiungere più destinatari e fornire un&#39;esperienza ottimale.
 
 ## Caricare un modello
 
@@ -103,7 +97,7 @@ Utilizza [Personalizza modelli](customize-template.md) come guida per la prepara
 
    Esempio di anteprima per un modello e-mail:
 
-   ![Rilevati campi di anteprima](../../assets/template-detected-fields.png){width="650"}
+   ![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ Trova e utilizza un modello esistente in GenStudio for Performance Marketing per
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Modelli]**.
 
-   ![Elenco modelli di contenuto](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![Elenco modelli di contenuto](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. Selezionare un modello per una visualizzazione completa e un elenco di dettagli.
 

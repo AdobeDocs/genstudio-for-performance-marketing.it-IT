@@ -3,10 +3,10 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
+source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1271'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta _[!UICONTROL Assets]_ 
 
 ![Elenco percorsi degli archivi](../../assets/content-location-selection.png){width="350"}
 
-
 Quando selezioni un archivio AEM, la galleria mostra un inventario delle risorse provenienti da tale archivio, che ti consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuti. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
 
 Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing, vedere [Connettere un archivio AEM](connect-aem-repo.md).
@@ -70,7 +69,20 @@ L’archivio AEM è di sola lettura, il che significa che puoi accedere al conte
 
 ## Gestione di Assets
 
-In [!UICONTROL Content], Performance Marketing può archiviare, recuperare e gestire facilmente le risorse digitali. Sfruttando sia l&#39;archivio `GenStudio assets` che gli archivi AEM, gli utenti possono garantire che le proprie risorse siano ben organizzate e accessibili per varie campagne di marketing. Questo approccio con più repository offre flessibilità e controllo sull’utilizzo delle risorse in ambienti diversi, garantendo che solo le risorse approvate e aggiornate vengano utilizzate nelle attività di marketing.
+In [!UICONTROL Contenuto] puoi archiviare, recuperare e gestire facilmente le risorse digitali. Sfruttando sia l&#39;archivio `GenStudio assets` che gli archivi AEM, puoi garantire che le risorse siano ben organizzate e accessibili per varie campagne di marketing. Questo approccio con più repository offre flessibilità e controllo sull’utilizzo delle risorse in ambienti diversi, garantendo che solo le risorse approvate e aggiornate vengano utilizzate nelle attività di marketing.
+
+Nella tabella seguente sono elencate le attività di gestione disponibili per risorse, esperienze e modelli:
+
+| Attività | Risorse | Esperienze | Modelli |
+| --------------------------------------------------------- | :----: | :---------: | :-------: |
+| [Visualizza dettagli](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
+| [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [Modifica nell&#39;Adobe Express](#edit-in-express) | ✓ |             |           |
+| [Esporta per attivazione](#export-for-activation) |        | ✓ |           |
+| [Download](#download-assets) | ✓ |             | ✓ |
+| [Elimina](#delete-assets) | ✓ | ✓ | ✓ |
+
+<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Aggiungere risorse
 
@@ -100,10 +112,6 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 1. Per visualizzare le nuove risorse caricate, fai clic su **[!UICONTROL Aggiorna]** dalla notifica _Nuove risorse disponibili_ nella parte inferiore dell&#39;area di lavoro.
 
-<!--
-In the future, need guidance on template upload errors. For now, the UI just says error.
--->
-
 ### Scaricare le risorse
 
 **Per scaricare una risorsa**:
@@ -123,6 +131,23 @@ In the future, need guidance on template upload errors. For now, the UI just say
 1. Nella visualizzazione delle risorse, fai clic su **[!UICONTROL Elimina]** (cestino) in alto a destra.
 
 1. Nel popup _Elimina risorsa_, verifica la risorsa e fai clic su **[!UICONTROL Elimina]**.
+
+## Esporta per attivazione
+
+Puoi esportare un’esperienza approvata per l’attivazione in un formato compatibile con il tuo canale di destinazione.
+
+**Per esportare un&#39;esperienza**:
+
+1. In _[!DNL Content]_, selezionare un&#39;esperienza. Facendo clic su un&#39;esperienza si apre la visualizzazione dei dettagli o si fa clic sul menu di scelta rapida (`...`).
+
+1. Fai clic su **[!UICONTROL Esporta per l&#39;attivazione]** (casella con freccia rivolta verso l&#39;esterno).
+
+1. Nel popup _Esporta per attivazione_, selezionare uno dei formati disponibili:
+
+   - E-mail: `HTML`, `CSV`
+   - Annunci meta e display: `HTML`, `JPEG`, `PNG`
+
+Vedi [Attivazione](/help/user-guide/activation/overview.md).
 
 ## Modifica in Express
 

@@ -5,9 +5,10 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Per progettare un&#39;esperienza di visualizzazione coinvolgente, si consiglia d
 
 ## Scegli un modello
 
-Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disponibile per fornire il framework per il contenuto.
+Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disponibile per fornire il framework per il contenuto. Consulta [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni degli annunci di visualizzazione supportate.
 
 **Per scegliere un modello di annuncio visualizzato**:
 
@@ -75,6 +76,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 
 * **Per [modificare il nome della bozza dell&#39;annuncio visualizzato](/help/user-guide/create/manage-variants.md#change-draft-name)**, fare clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immettere un nuovo titolo.
 * **Per [modificare manualmente un annuncio di visualizzazione](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare doppio clic in una sezione o in un campo dell&#39;annuncio di visualizzazione (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarlo in base alle esigenze.
+* **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le opzioni disponibili per riformulare, ridurre, allungare o generare nuovo testo.
 * **Per [modificare le dimensioni e le proporzioni dell&#39;annuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, fare clic sul pulsante _[!UICONTROL Ridimensiona]_ (casella con l&#39;icona di un pulsante sul lato sinistro dell&#39;area di lavoro) e selezionare nuove dimensioni e proporzioni da applicare a tutte le varianti. Le varianti vengono duplicate e ridimensionate.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse sull&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine. Fai clic su **[!UICONTROL Applica]**.
 
@@ -123,7 +125,7 @@ Per rendere gli annunci di visualizzazione generati disponibili per l&#39;uso co
       ![Publish annuncio visualizzato](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **Per esportare le nuove esperienze degli annunci visualizzati**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
-   1. Seleziona il formato (solo JPG-) e fai clic su **[!UICONTROL Esporta]**.
+   1. Seleziona il formato (HTML e immagini, PNG o JPG) e fai clic su **[!UICONTROL Esporta]**.
 
       Il HTML esportato deve trovarsi all&#39;interno di una proprietà Web predefinita, ad esempio un modello o un contenitore `div`. Senza queste dimensioni impostate, le immagini potrebbero apparire distorte se visualizzate in modo indipendente.
 

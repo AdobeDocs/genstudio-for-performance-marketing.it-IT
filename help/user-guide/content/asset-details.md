@@ -3,9 +3,9 @@ title: Dettagli risorsa
 description: Adobe GenStudio for Performance Marketing archivia i contenuti approvati con metadati avanzati per ricercare e monitorare le prestazioni.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -54,25 +54,53 @@ I metadati definiti dall’utente aggiungono un contesto di marketing al contenu
 
 Quando [carichi una risorsa](/help/user-guide/content/manage-assets.md#add-assets), puoi definire un set di dettagli facoltativi della risorsa presenti in GenStudio for Performance Marketing come metadati. L’inclusione di ulteriori dettagli può migliorare l’identificazione delle risorse nelle ricerche e nei filtri.
 
+**Per modificare i metadati definiti dall&#39;utente**:
+
+1. In _[!DNL Content]_, seleziona una risorsa, un&#39;esperienza o un modello.
+
+1. Nella visualizzazione delle risorse, controlla la sezione _[!UICONTROL Dettagli]_ a destra.
+
+1. Fai clic su **[!UICONTROL Modifica dettagli]** (matita) per modificare i metadati della risorsa.
+
+   Maggiore è il numero di dettagli forniti, maggiori saranno le funzionalità di GenStudio for Performance Marketing. Selezionare uno o più dettagli dall&#39;elenco o immetterne uno nuovo, se applicabile, ad esempio con parole chiave. Ogni dettaglio aggiunto viene visualizzato sotto l&#39;elenco. Fare clic su **`x`** per rimuovere un dettaglio.
+
 ### Dettagli metadati
 
 La tabella seguente descrive i metadati (dettagli risorsa) che puoi definire durante la creazione di una risorsa.
 
 | Campo | Descrizione |
-| ------------- | ----------- |
-| Campagne (nome progetto) | Metadati predefiniti acquisiti e memorizzati con la risorsa |
+| -------------- | ----------- |
+| Titolo | Nome della risorsa; il titolo predefinito può essere il nome del file originale |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) include contenuti promozionali con messaggi coerenti allo scopo di raggiungere un obiettivo di business<br>Facendo clic su un collegamento a una campagna si accede alla pagina della panoramica della campagna |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) aggiunto a GenStudio for Performance Marketing e pubblicato per l&#39;utilizzo |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) aggiunti a GenStudio for Performance Marketing per l&#39;utilizzo |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) aggiunti a GenStudio for Performance Marketing per l&#39;utilizzo |
-| Canali | Tipi di contenuto in GenStudio for Performance Marketing per cui viene utilizzata la risorsa, ad esempio e-mail e annunci Meta |
+| Canali | Piattaforme per la distribuzione di determinati tipi di contenuto, ad esempio e-mail e annunci di visualizzazione |
 | [!UICONTROL Intervallo temporale] | Intervallo di tempo per il quale viene utilizzata la risorsa, ad esempio trimestre, stagione, anno e così via. Esempio: `Winter 2023` |
 | Regione | Aree per le quali viene utilizzata la risorsa. Esempi: `North America`, `APAC`, `Italy` |
 | Lingua | Lingue per cui viene utilizzata la risorsa. Esempio: `Spanish` |
-| Parole chiave | Parole chiave definite dall&#39;utente utilizzate per identificare ulteriormente le caratteristiche e lo scopo delle risorse |
+| Parole chiave | Le parole chiave definite dall&#39;utente vengono utilizzate per identificare ulteriormente le caratteristiche e lo scopo delle risorse |
 
-<!-- ## History
+>[!TIP]
+>
+>Fai clic su **[!UICONTROL Modifica dettagli]** (matita) per modificare i metadati della risorsa. Ad esempio, puoi modificare il nome della risorsa o aggiungere o rimuovere parole chiave.
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## Contesto generativo
 
-list other activity, show screenshot?
--->
+La sezione [!UICONTROL Contesto generativo] mostra le informazioni utilizzate per generare l&#39;esperienza, ad esempio `Prompt` utilizzate durante il processo [!DNL Create]. Questa informazione può aiutarti a creare varianti ancora più efficaci.
+
+Le informazioni possono comprendere:
+
+- Parametri `Brand`, `Product` e `Persona`
+- `Subject line` e `Pre Header` per le esperienze e-mail
+- `Headline` e `Body` per i Meta Ads
+
+## Cronologia
+
+Espandi la sezione _[!UICONTROL Cronologia]_ in un&#39;esperienza per visualizzare una timeline di approvazioni e attività. Ad esempio, un’esperienza approvata rivela la data, l’ora e il responsabile approvazione:
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

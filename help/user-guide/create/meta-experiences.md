@@ -4,13 +4,13 @@ description: Scopri tutte le esperienze Meta in Adobe GenStudio for Performance 
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Meta esperienze
 
@@ -54,3 +54,9 @@ Ogni campo e sezione delle esperienze di metadati viene caricato progressivament
 1. Titoli
 1. Testo su immagine
 1. Il processo di convalida del brand si verifica e il [_controllo delle linee guida per il brand_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) viene compilato per ogni variante.
+
+## Conteggi caratteri
+
+Dopo aver generato un set di varianti Meta, puoi visualizzare il conteggio dei caratteri per ogni sezione. Passa il puntatore del mouse o fai clic su una sezione generata, ad esempio l’oggetto o il corpo, quindi vedi il nome della sezione e il numero di caratteri per tale sezione.
+
+![Numero di caratteri](/help/assets/character-count.png){width="500" zoomable="yes"}

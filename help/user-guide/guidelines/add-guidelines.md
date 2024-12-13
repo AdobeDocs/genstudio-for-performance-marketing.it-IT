@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
+source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Brands]**. Nel pan
 
 ### Carica un marchio
 
-Puoi caricare i documenti del tuo marchio per inserire i dati di un nuovo marchio.
+Puoi caricare i tuoi documenti sulle linee guida del brand (fino a tre file PDF o DOC) in GenStudio for Performance Marketing per creare automaticamente un brand.
 
 Vedere [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
@@ -85,7 +85,7 @@ Prima di pubblicare il tuo marchio, fai clic sulle sezioni _Linee guida per la v
 
 1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL [!DNL Brands]]**.
 
-   Un distintivo _Published_ è visibile per tutti i brand attualmente pubblicati.
+   Un distintivo _Published_ e l&#39;ultima data di pubblicazione del brand sono visibili per tutti i brand attualmente pubblicati.
 
 1. Fai clic su per aprire un marchio non pubblicato. Se il brand non è pubblicato, è visibile un pulsante **[!UICONTROL Publish]**.
 1. Nel popup _marchio Publish_, verifica chi ha accesso alla visualizzazione e all&#39;utilizzo del marchio pubblicato.
@@ -98,23 +98,30 @@ Prima di pubblicare il tuo marchio, fai clic sulle sezioni _Linee guida per la v
 
 Il brand mostra un punto verde e &quot;Pubblicato&quot;, e viene visualizzato un pulsante **[!UICONTROL Publish]**.
 
-**Per annullare la pubblicazione di un marchio pubblicato**, fare clic per aprirlo e fare clic su **[!UICONTROL Publish]**.
+**Per annullare la pubblicazione di un marchio pubblicato**, fare clic su per aprirlo e su **[!UICONTROL Annulla pubblicazione]**.
 
-Il marchio pubblicato è ora disponibile per l&#39;utilizzo in _[!DNL Create]_o_[!DNL Content]_.
+Il marchio pubblicato è ora disponibile per l&#39;utilizzo in [_[!DNL Create]_](/help/user-guide/create/overview.md) o [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
 ### Gestisci [!DNL Brands]
 
 Nella home di _[!DNL Brands]_, puoi fare clic per aprire un brand già creato per gestirlo o pubblicarlo.
 
-**Per visualizzare o modificare un marchio**:
+Per **visualizzare le informazioni sul marchio**, fai clic su **[!UICONTROL [!DNL Brands]]** nell&#39;area di navigazione a sinistra, quindi fai clic su per aprire un marchio esistente.
 
-1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL [!DNL Brands]]**.
-1. Per visualizzare le informazioni generali su un brand, fai clic su per aprire un brand definito.
+**Per modificare un marchio** nella visualizzazione [!DNL Brands]:
+
+1. In **[!DNL Brands]**, fare clic per aprire un marchio definito.
 1. Per visualizzare i dettagli individuali o modificare le linee guida per il brand, fai clic su [**[!UICONTROL Linee guida per il brand]**](#brand-voice-guidelines), [**[!UICONTROL Linee guida per il canale]**](#channel-guidelines), **[!UICONTROL Linee guida per le immagini]** o **[!UICONTROL Logo]** nella parte superiore.
-1. Per rinominare un marchio esistente, seleziona **[!UICONTROL Rinomina]** dal menu Azioni [!DNL Brands].
+1. Per rinominare un marchio esistente, seleziona **[!UICONTROL Rinomina]** dal menu Azioni _[!DNL Brands]_.
+1. Per duplicare un marchio esistente, seleziona **[!UICONTROL Duplica]** dal menu Azioni _[!DNL Brands]_.
+   1. Immetti un nome di marchio nel popup _Duplica marchio_ e fai clic su **[!UICONTROL Duplica marchio]**.
+
+      La finestra a comparsa conferma che il brand è duplicato: &quot;Nuovo brand creato&quot;. Il brand duplicato è inizialmente in modalità _Non pubblicato_.
+
+   1. Personalizza il brand duplicato, quindi [pubblicalo](#publish-brand) per renderlo disponibile per l&#39;uso.
 1. Per eliminare un marchio, seleziona **[!UICONTROL Elimina]** dal menu Azioni [!DNL Brands].
 
-Puoi caricare i documenti sulle linee guida del brand (fino a tre file PDF o DOC) in GenStudio for Performance Marketing per creare automaticamente un brand.
+Puoi anche gestire i brand nella vista [!DNL Brands] dal menu Azioni _[!DNL Brands]_(tre punti).
 
 ## Aggiungi [!DNL Products]
 

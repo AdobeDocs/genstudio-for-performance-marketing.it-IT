@@ -2,11 +2,11 @@
 title: Note sulla versione di Adobe GenStudio for Performance Marketing
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-11-14T00:00:00Z
+last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,83 @@ ht-degree: 0%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2024.11.14. {#latest}
+## 2024.12.12. {#latest}
+
+### Nuove funzioni
+
+Gli editor possono ora eseguire le seguenti attività relative ai metadati:
+
+* Modifica i metadati di risorse, esperienze e modelli. Vedi [Dettagli risorsa](/help/user-guide/content/asset-details.md#user-defined-metadata). <!-- GS-4905 6935-->
+
+* Visualizza i tag generati da una risorsa nella visualizzazione _Dettagli_ di qualsiasi esperienza che utilizza la risorsa. Vedi _Tag generati_ in [Dettagli risorsa](/help/user-guide/content/asset-details.md#generated-tags). <!-- GS-3705 -->
+
+Gli editor possono ora specificare valori personalizzati per questi aspetti delle varianti generate:
+
+* Larghezza e altezza dei banner Web nei modelli di annunci di visualizzazione. Questi valori vengono ora salvati come metadati del modello. <!-- GS-6735 -->
+
+* Dimension alle immagini in visualizzazione esperienze annuncio durante il caricamento dell&#39;immagine.<!-- GS-7166 -->
+
+* Consulta le linee guida specifiche per il canale in [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
+Le opzioni di esportazione ora includono:
+
+* Esporta annunci display e annunci Meta come HTML, JPEG o PNG. Consulta [Creare un&#39;esperienza di visualizzazione annuncio](/help/user-guide/create/create-display-ad.md) e [Creare un&#39;esperienza di visualizzazione annuncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+
+Nuove funzionalità aggiuntive consentono agli editor di:
+
+* Utilizza il pulsante **[!UICONTROL Aggiorna]** nella visualizzazione [!DNL Content] modello _Dettagli risorsa_ per aggiornare il modello selezionato. <!-- GS-7102 -->
+
+* Rigenera sezioni di varianti di annunci display e e-mail. Consulta [Creare un&#39;esperienza di visualizzazione annuncio](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) e [Creare un&#39;esperienza di posta elettronica](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
+
+* Duplica i marchi esistenti. Vedi [Gestione dei brand](/help/user-guide/guidelines/brands.md#manage-brands). <!-- BRANDS-548 -->
+
+### Correzioni di problemi e miglioramenti
+
+* I titoli degli annunci visualizzati ora sono salvati in [!DNL Content] come previsto. <!-- GS-7239 -->
+
+* Il cassetto non si chiude più quando un editor fa clic all&#39;esterno del menu a discesa del cassetto. <!-- GS-7275 -->
+
+* Il menu a discesa [!DNL Create] [!DNL Persona]/[!DNL Product] ora viene caricato come previsto quando si verifica un errore del servizio URL miniature. <!-- GS-7277 -->
+
+* È ora possibile modificare gli annunci di visualizzazione che contengono elementi che sovrappongono frammenti. <!-- GS-7186 -->
+
+* Il pulsante **[!UICONTROL Marchio]** dell&#39;area di lavoro è ora disabilitato quando i punteggi del marchio non vengono generati per un&#39;esperienza. <!-- GS-6429 -->
+
+* L’area di lavoro ora visualizza le esperienze ridimensionate in ordine coerente. <!-- GS-7123 -->
+
+* Il ritaglio manuale ora utilizza dimensioni immagine, non dimensioni modello, durante la modifica di annunci di visualizzazione. In precedenza, quando un’immagine era più piccola delle dimensioni specificate nel modello di annuncio visualizzato, il riquadro di delimitazione utilizzava dimensioni di modello, non dimensioni di immagine. <!-- GS-7315 -->
+
+* Ora è possibile selezionare fino a quattro immagini durante la creazione di un annuncio visivo. <!-- GS-7189 -->
+
+* Le bozze degli annunci e dei metadati vengono ora caricate come previsto quando vengono ridimensionate in un browser diverso. <!-- GS-7204 -->
+
+* I campi modello non utilizzati non vengono più visualizzati nel contenuto generato.  <!-- GS-5670 -->
+
+* Gli editor possono ora fare clic sui collegamenti per modificarli come previsto nelle varianti generate. <!-- GS-7423 -->
+
+* [!DNL Create] ora rispetta correttamente i privilegi di collaboratore. <!-- GS-7614 -->
+
+* Il pulsante **[!UICONTROL Ridimensiona]** dell&#39;area di lavoro è ora disabilitato dopo aver selezionato ed eseguito il rendering di tutte le opzioni di ridimensionamento. <!-- GS-5940 -->
+
+* I revisori con accesso in sola visualizzazione ora possono ingrandire e ridurre le varianti durante le revisioni. <!-- GS-7371 -->
+
+* Lo stato attivo sulla tastiera è stato aggiunto solo ai pulsanti utilizzabili nella visualizzazione [!DNL Create] _Lavoro recente_. <!-- GS-4060 -->
+
+* Il messaggio **Salvataggio in corso** visualizzato durante le operazioni di salvataggio del frammento di posta elettronica viene ora visualizzato solo durante l&#39;operazione di salvataggio. In precedenza, l’area di lavoro visualizzava questo messaggio a tempo indeterminato. <!-- GS-6964 -->
+
+* Ora gli editor visualizzano un messaggio di errore come previsto quando una bozza non viene caricata nell&#39;area [!DNL Create] _Lavoro recente_.  <!-- GS-8081 -->
+
+* L’area di lavoro ora visualizza i metadati ridimensionati e gli annunci visualizzati nell’ordine corretto.  <!-- GS-7375 -->
+
+* Gli editor possono ora fare clic sui campi per e-mail e visualizzare annunci. <!-- GS-6297 -->
+
+* La funzionalità di modifica dei frammenti per e-mail e annunci Meta ora viene attivata come previsto da un singolo clic. <!-- GS-8081 -->
+
+* Migliorate le prestazioni del pulsante [!DNL Create] **[!UICONTROL Indietro]**. <!-- GS-6767 -->
+
+## Note sulle versioni precedenti
+
++++Note relative al 2024.11.14
 
 ### Nuove funzioni
 
@@ -41,7 +117,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 * Tutte le descrizioni comandi nel campo [!DNL Content] _Assets_ view **[!UICONTROL Search]** sono localizzate. <!-- GS-6879 -->
 * Quando si sostituisce un&#39;immagine esistente in una variante e-mail nell&#39;area di lavoro [!DNL Create], la visualizzazione _Seleziona dal contenuto_ è ora localizzata. <!-- GS-6906 -->
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative all’esercizio 2024.11.07
 
@@ -51,7 +127,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * I titoli delle esperienze ora vengono creati correttamente durante la rigenerazione dell’esperienza. <!-- GS-7006 -->
 
-* Sono stati risolti i problemi relativi allo sfarfallio delle barre di scorrimento durante il caricamento delle bozze. <!-- GS-5587 -->
+* Sono stati risolti i problemi relativi allo sfarfallio delle barre di scorrimento durante il caricamento della bozza. <!-- GS-5587 -->
 
 * Il collegamento `View documentation` nel [!DNL Content] _Aggiungi il modello approvato_ ora funziona come previsto. <!-- GS-6881 -->
 
@@ -105,9 +181,11 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * Sono stati risolti i problemi di layout relativi ai bordi delle e-mail. <!-- GS-6631 -->
 
-* Lo stato attivo sulla tastiera ora funziona come previsto sul pulsante **[!DNL Content]** **[!UICONTROL Elimina]**. In precedenza, questo pulsante non poteva essere raggiunto o utilizzato dalla tastiera.  <!-- GS-4065 -->
+* Lo stato attivo sulla tastiera ora funziona come previsto sul pulsante **[!DNL Content]** **[!UICONTROL Elimina]**. In precedenza, gli utenti non potevano accedere a questo pulsante con la tastiera.  <!-- GS-4065 -->
 
-## Versione di disponibilità generale 2024.10.14
++++
+
++++Note relative alla disponibilità generale 2024.10.14
 
 Questa versione introduce Adobe GenStudio for Performance Marketing, un’applicazione generativa basata sull’intelligenza artificiale che accelera la pianificazione, lo sviluppo e l’analisi delle campagne di marketing. GenStudio for Performance Marketing consente ai team di marketing di creare contenuti multicanale e on-brand per annunci, e-mail e campagne, fornendo al contempo informazioni in tempo reale per ottimizzare le prestazioni dei contenuti.
 

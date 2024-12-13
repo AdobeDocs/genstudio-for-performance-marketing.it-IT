@@ -1,14 +1,14 @@
 ---
 title: Creare un’esperienza di annuncio multimediale
-description: Scopri come creare esperienze di annunci Meta per il marchio, per Facebook o Instagram, con Adobe GenStudio for Performance Marketing.
+description: Scopri come creare esperienze di annunci Meta per Facebook o Instagram con Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
+source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,9 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 **Per rivedere le varianti generate**:
 
 * **Per [modificare il nome della bozza del Meta Ad](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo della _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
-* **Per [modificare manualmente un Meta Ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare doppio clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto,
+* **Per [modificare manualmente un Meta Ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto,
 o body copy) e modificarli in base alle esigenze.
-* **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante di invito all&#39;azione e selezionare una delle opzioni di testo disponibili per il pulsante. In _[!UICONTROL Collegamento]_, immettere un URL per il testo dell&#39;invito all&#39;azione.
+* **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante che visualizza l&#39;invito all&#39;azione e selezionare tra le opzioni di testo disponibili per il pulsante.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
 * **Per [eliminare un Meta Ad](/help/user-guide/create/manage-variants.md#delete-variant)**, fai clic sul titolo dell&#39;annuncio (ad esempio, &quot;Meta 4&quot;) e fai clic su **[!UICONTROL Elimina variante]**.
@@ -135,12 +135,12 @@ Per rendere i Meta Ads generati disponibili per l&#39;uso corrente e futuro, pub
 
 1. **Per pubblicare le nuove esperienze di annunci multimediali**, fai clic su **[!UICONTROL Publish]** nella barra degli strumenti superiore o nel flusso di approvazioni.
 1. **Per esportare le nuove esperienze di annunci multimediali**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
-   1. Seleziona il formato (solo CSV e immagini o HTML) e fai clic su **[!UICONTROL Esporta]**.
+   1. Seleziona il formato (HTML e immagini o CSV e immagini (JPG o PNG)) e fai clic su **[!UICONTROL Esporta]**.
 
 Per ulteriori informazioni, vedere [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).
 
 ## Connetti metadati
 
-Puoi collegare GenStudio for Performance Marketing a Meta per ricevere analisi avanzate e [approfondimenti](/help/user-guide/insights/overview.md) sulle prestazioni dei contenuti.
+Puoi connettere GenStudio for Performance Marketing a Meta per ricevere analisi avanzate e [approfondimenti](/help/user-guide/insights/overview.md) sulle prestazioni dei contenuti.
 
 Per ulteriori informazioni, vedere [Connetti account canale](/help/user-guide/insights/connect-channel.md).

@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] sono una raccolta completa di risorse per i marchi, quali copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ GenStudio for Performance Marketing utilizza la vasta gamma di informazioni sul 
 
 Dopo aver aggiunto le linee guida per il brand a GenStudio for Performance Marketing, puoi [gestirle](/help/user-guide/guidelines/add-guidelines.md#manage-brands) e [pubblicarle](/help/user-guide/guidelines/add-guidelines.md#publish-brand). La pubblicazione li rende disponibili per il team da utilizzare nella generazione di risorse.
 
-[!DNL Brands] può essere nello stato _Bozza_ o _Pubblicato_. Il nuovo [!DNL brands] inizia come _Bozza_.
+[!DNL Brands] può essere nello stato _Non pubblicato_ o _Pubblicato_. Il nuovo [!DNL brands] inizia come _Non pubblicato_.
 
-È necessario pubblicare un [!DNL brand] per renderlo disponibile per la generazione di risorse da parte del team.
+Devi [pubblicare un marchio](/help/user-guide/guidelines/add-guidelines.md#publish-brand) per renderlo disponibile per la generazione di risorse da parte del tuo team.
 
-[!DNL brands] pubblicato può essere modificato e le modifiche sono immediatamente disponibili. Per creare e convalidare il contenuto è possibile utilizzare solo [!DNL brands] pubblicato.
+I brand pubblicati possono essere modificati (le modifiche sono immediatamente disponibili), duplicati o non pubblicati. Per creare e convalidare il contenuto è possibile utilizzare solo [!DNL brands] pubblicato. Consulta [Gestire i brand](/help/user-guide/guidelines/add-guidelines.md#manage-brands).
 
 Le [!DNL brands] eliminate vengono archiviate per 30 giorni e possono essere recuperate entro tale periodo.
 

@@ -2,13 +2,13 @@
 title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
-
 
 # Gestisci varianti
 
@@ -40,23 +40,36 @@ Puoi modificare i campi di testo nelle varianti generate. Perfeziona il testo pe
 
 ## Rigenera sezioni
 
-GenStudio for Performance Marketing dispone della funzionalità incorporata per rigenerare singole sezioni di varianti generate utilizzando _[!UICONTROL Modifiche suggerite]_ e nuovi prompt.
+GenStudio for Performance Marketing dispone della funzionalità incorporata per rigenerare sezioni di varianti generate. È possibile riformulare, ridurre o allungare il testo oppure aggiungere nuovi prompt per generare nuovo contenuto.
 
-Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta ad per vedere come si presenta con una risorsa in background specifica utilizzando le _[!UICONTROL Modifiche suggerite]_ opzioni—_[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_—e inserendo un nuovo prompt.
+Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta annuncio per vedere come si presenta con una risorsa in background specifica. È possibile _[!UICONTROL Riformulare]_, _[!UICONTROL Abbreviare]_ o _[!UICONTROL Allungare]_ il contenuto di una sezione oppure _[!UICONTROL Generare nuovo testo]_ per aggiungere un nuovo prompt.
 
 ![Rigenera sezioni](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **Per rigenerare singole sezioni di varianti**:
 
 1. Dopo aver generato un set di varianti, fai clic su qualsiasi testo modificabile in una variante.
-1. Seleziona un&#39;opzione _[!UICONTROL Modifiche suggerite]_—_[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_.
-   * Scegli un&#39;opzione disponibile e fai clic su **[!UICONTROL Sostituisci]**.
-1. (_Facoltativo_) Selezionare _[!UICONTROL Genera con prompt] e immettere un nuovo prompt per modificare lo stato attivo del contenuto rigenerato.
-   * Fai clic su **[!UICONTROL Genera]**.
-1. Se desideri rigenerare i risultati per visualizzare altre opzioni, fai clic sull&#39;icona di rigenerazione accanto a _Risultati_.
-1. Dai _risultati_ visualizzati, seleziona l&#39;opzione desiderata e fai clic su **[!UICONTROL Sostituisci]**.
+1. Per modificare il testo esistente, selezionare _[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_.
+1. Per generare nuove opzioni di sillabazione, selezionare _[!UICONTROL Genera nuovo testo]_ e immettere un nuovo prompt.
+   1. Fai clic su **[!UICONTROL Genera]**.
+1. Durante la rigenerazione del testo di una sezione, fate clic sull&#39;icona di rigenerazione per visualizzare altre opzioni di testo.
+1. Dai risultati visualizzati, selezionare l&#39;opzione desiderata e fare clic su **[!UICONTROL Sostituisci]**.
 
    La variante viene aggiornata con il testo rivisto.
+
+## Rivedere l&#39;invito all&#39;azione
+
+Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento dell’invito all’azione (CTA).
+
+**Per modificare il CTA in una variante**:
+
+1. Dopo aver generato un set di varianti, fai clic sul pulsante con il testo CTA.
+1. Per modificare il testo del pulsante CTA, selezionare una delle opzioni disponibili nell&#39;elenco _Inviti all&#39;azione_.
+1. Per modificare il collegamento in CTA, fare clic su **[!UICONTROL Collegamento]**.
+   1. Inserisci o incolla un nuovo collegamento o rivedi il collegamento esistente nella sezione _Modifica collegamento_ e fai clic su **[!UICONTROL Applica]**. È possibile fare clic su **[!UICONTROL Rimuovi collegamento]** per rimuovere il collegamento esistente prima di immetterne uno nuovo.
+
+
+Il collegamento aggiunto o modificato viene applicato a tutti i CTA nel set di varianti.
 
 ## Ritagliare le risorse
 

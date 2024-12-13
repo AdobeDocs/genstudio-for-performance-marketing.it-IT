@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 **Per rivedere le varianti generate**:
 
 * **Per [modificare il nome della bozza e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
-* **Per [modificare manualmente un&#39;e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare doppio clic in uno dei campi di testo modificabili (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarlo in base alle esigenze
+* **Per [modificare manualmente un&#39;e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in uno dei campi di testo modificabili (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarli in base alle esigenze
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente), quindi fai clic su **[!UICONTROL Seleziona/scambia dal contenuto]** o su **[!UICONTROL Carica nuova immagine]** per aggiungere o scambiare un&#39;immagine in una singola variante.
 * **Per [eliminare un&#39;e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic per selezionare il titolo dell&#39;e-mail (ad esempio, &quot;E-mail 1/4&quot;) e fare clic su **[!UICONTROL Elimina variante]**.

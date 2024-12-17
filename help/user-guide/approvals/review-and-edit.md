@@ -1,11 +1,11 @@
 ---
 title: Rivedere e modificare il contenuto
-description: Scopri come rivedere e modificare il contenuto iterativamente.
+description: Scopri come rivedere e modificare i contenuti iterativamente con Adobe GenStudio for Performance Marketing.
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Puoi approvare il contenuto se hai ricevuto un’e-mail con la richiesta di revi
 
 ## Richiedi modifiche
 
-Puoi elencare le modifiche suggerite o porre domande sulla bozza dal pannello _Approvazione_ del contenuto. Lo stato della bozza di **Necessità di lavoro** notifica al creatore del contenuto che le modifiche sono richieste.
+Puoi elencare le modifiche suggerite o porre domande sulla bozza dal pannello [!DNL Content] _Approvazione_. Lo stato della bozza di **Necessità di lavoro** notifica al creatore del contenuto che le modifiche sono richieste.
 
 Questo processo di revisione, suggerimento di modifiche al creatore di contenuti, e quindi revisione del contenuto e facoltativamente richiesta di ulteriore input tramite `@mention` commenti è altamente iterativo. È in questa parte del ciclo che si vedono le capacità di risparmio di tempo di GenStudio for Performance Marketing.
 

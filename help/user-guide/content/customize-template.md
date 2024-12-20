@@ -4,9 +4,9 @@ description: Scopri come personalizzare e ottimizzare il modello per Adobe GenSt
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f95848546abc2decbb5ac52491307977820ce503
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,10 @@ Per garantire che queste risorse siano disponibili durante il processo di genera
 1. **Usa intestazioni CORS**: il server host deve inviare risposte con un&#39;intestazione `Access-Control-Allow-Origin` impostata sul valore `https://experience.adobe.com` per gli ambienti di produzione. Questo metodo consente a GenStudio for Performance Marketing di accedere alle risorse e di includerle.
 
 1. **Usa URL dati**: incorpora le risorse esterne direttamente nel modello utilizzando URL dati. Questo metodo bypassa le restrizioni CORS e garantisce che le risorse siano disponibili durante la generazione delle miniature.
+
+>[!TIP]
+>
+>Utilizza [aggiorna](/help/user-guide/content/use-templates.md#refresh-template) per aggiornare l&#39;anteprima del modello con il contenuto statico più recente.
 
 ## Esempi di modelli
 

@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing [!DNL Content] semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 
-## Raccolta contenuti
+## [!DNL Content] raccolta
 
 Nella galleria viene visualizzato un inventario delle risorse, esperienze o modelli approvati, a seconda della vista selezionata. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]**, in cui è possibile selezionare diverse categorie per filtrare il contenuto visualizzato nella raccolta. Nella visualizzazione _[!UICONTROL Assets]_, fare clic sull&#39;icona di ricerca (lente di ingrandimento) per utilizzare una parola chiave per trovare una risorsa.
-
 
 Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONTROL Assets]:
 
@@ -27,9 +26,10 @@ Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONT
 
 Il filtro e l’interfaccia di ricerca sono rapidi e reattivi e forniscono un’esperienza di ricerca iniziale produttiva. Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Per risorse ed esperienze, puoi selezionare una campagna e linee guida specifiche, ad esempio contenuti creati per un prodotto specifico.
 
-Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attribute-category.md) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna.
+Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attribute-category.md) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna. Oppure puoi filtrare il contenuto in base al tuo nome utente o al nome di un membro del team:
 
-Durante la ricerca di _Esperienze_, puoi utilizzare il filtro **[!UICONTROL Creato da]** per limitare l&#39;elenco in modo da mostrare solo le esperienze create da te o da una persona specifica.
+- Il filtro **[!UICONTROL Caricato da]** limita l&#39;elenco _[!UICONTROL Assets]_ in modo da visualizzare solo le risorse caricate da te o da una persona specifica.
+- **[!UICONTROL Creato da]** filtro limita l&#39;elenco _[!UICONTROL Esperienze]_ per mostrare solo le esperienze create da te o da una persona specifica.
 
 **Per cercare contenuto da riutilizzare**:
 
@@ -79,10 +79,9 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 | [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Modifica nell&#39;Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Esporta per attivazione](#export-for-activation) |        | ✓ |           |
+| [Aggiorna](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Elimina](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Aggiungere risorse
 
@@ -116,7 +115,7 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 **Per scaricare una risorsa**:
 
-1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
+1. In _[!DNL Content]_, seleziona una risorsa o un modello. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
 1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Scarica]** (freccia rivolta verso il basso) in alto a destra.
 
@@ -126,7 +125,7 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 **Per eliminare una risorsa**:
 
-1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
+1. In _[!DNL Content]_, seleziona una risorsa, un&#39;esperienza o un modello. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
 1. Nella visualizzazione delle risorse, fai clic su **[!UICONTROL Elimina]** (cestino) in alto a destra.
 

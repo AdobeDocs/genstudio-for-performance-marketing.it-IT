@@ -3,10 +3,10 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub]
 L’archivio AEM è di sola lettura, il che significa che puoi accedere al contenuto ma non salvare bozze, nuove risorse o metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
+
+Un archivio AEM può applicare determinati requisiti di licenza, ad esempio la scadenza delle risorse. Queste risorse potrebbero non essere disponibili per l&#39;utilizzo nei flussi di lavoro [!DNL Create]. Potrebbe essere necessario rinnovare o sostituire le risorse scadute per mantenere la continuità dei progetti. Per assistenza su queste risorse, rivolgiti all&#39;amministratore [!DNL AEM Assets Content Hub].
 
 ## Gestione di Assets
 

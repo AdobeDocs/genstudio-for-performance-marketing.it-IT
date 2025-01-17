@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Create] consente di personalizzare e migliorare le varianti generate, [e-mail](/help/user-guide/create/email-experiences.md), [Meta ads](/help/user-guide/create/meta-experiences.md) e altre, per l&#39;utilizzo in iniziative di marketing digitale.
 
-Quando [crei esperienze](/help/user-guide/create/overview.md), puoi modificare il contenuto e le risorse delle varianti generate singolarmente o in un batch. La possibilità di gestire le varianti a livello individuale di micro-livello consente di gestire in modo esplicito ogni elemento di contenuto generato.
+Quando [crei esperienze](/help/user-guide/create/overview.md), puoi modificare il contenuto e le risorse delle varianti generate singolarmente o in un batch. La possibilità di gestire le varianti a livello individuale di micro-livello consente di gestire ogni elemento di contenuto generato.
 
 ## Modifica nome bozza
 
@@ -52,22 +52,38 @@ Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta a
 1. Per modificare il testo esistente, selezionare _[!UICONTROL Riformula]_, _[!UICONTROL Riduci]_ o _[!UICONTROL Allunga]_.
 1. Per generare nuove opzioni di sillabazione, selezionare _[!UICONTROL Genera nuovo testo]_ e immettere un nuovo prompt.
    1. Fai clic su **[!UICONTROL Genera]**.
-1. Durante la rigenerazione del testo di una sezione, fate clic sull&#39;icona di rigenerazione per visualizzare altre opzioni di testo.
+1. Durante la rigenerazione del testo di una sezione, fate clic sull&#39;icona di rigenerazione (frecce circolari) per visualizzare altre opzioni di testo.
 1. Dai risultati visualizzati, selezionare l&#39;opzione desiderata e fare clic su **[!UICONTROL Sostituisci]**.
 
    La variante viene aggiornata con il testo rivisto.
 
-## Rivedere l&#39;invito all&#39;azione
+## Rivedi invito all&#39;azione
 
 Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento dell’invito all’azione (CTA).
 
+>[!NOTE]
+>
+>È possibile modificare il testo dell&#39;etichetta di CTA utilizzando l&#39;opzione _[!UICONTROL Riformula]_ se il testo dell&#39;etichetta è un campo modello generato (non codificato nel modello). Puoi modificare un collegamento di CTA utilizzando l&#39;opzione _[!UICONTROL Modifica collegamento]_ se il collegamento è esistente e modificabile (non hardcoded nel modello).
+
 **Per modificare il CTA in una variante**:
 
-1. Dopo aver generato un set di varianti, fai clic sul pulsante con il testo CTA.
-1. Per modificare il testo del pulsante CTA, selezionare una delle opzioni disponibili nell&#39;elenco _Inviti all&#39;azione_.
-1. Per modificare il collegamento in CTA, fare clic su **[!UICONTROL Collegamento]**.
-   1. Inserisci o incolla un nuovo collegamento o rivedi il collegamento esistente nella sezione _Modifica collegamento_ e fai clic su **[!UICONTROL Applica]**. È possibile fare clic su **[!UICONTROL Rimuovi collegamento]** per rimuovere il collegamento esistente prima di immetterne uno nuovo.
+1. Fai clic su un pulsante CTA in una delle varianti.
 
+   Il pulsante è selezionato, visualizza il numero di caratteri e presenta due opzioni: _[!UICONTROL Riformula]_ e _[!UICONTROL Aggiungi collegamento]_.
+
+1. Fare clic su **[!UICONTROL Riformula]**.
+
+   1. Scegliere dall&#39;elenco delle frasi rigenerate o fare clic su **[!UICONTROL Aggiorna risultati]** per ulteriori opzioni.
+
+   1. Fare clic su **[!UICONTROL Sostituisci]**.
+
+      Il testo di CTA viene aggiornato e viene visualizzato il messaggio _&quot;Un&#39;etichetta di pulsante è stata sostituita&quot;_ che conferma la modifica.
+
+1. Fare clic su **[!UICONTROL Aggiungi collegamento]**.
+
+   1. Digitare o incollare un URL e fare clic su **[!UICONTROL Applica]**.
+
+      Per modificare un collegamento esistente nel CTA, modificare l&#39;URL esistente o incollarlo in un nuovo URL e fare clic su **[!UICONTROL Applica]**.
 
 Il collegamento aggiunto o modificato viene applicato a tutti i CTA nel set di varianti.
 

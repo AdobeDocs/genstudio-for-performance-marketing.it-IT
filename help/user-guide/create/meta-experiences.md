@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ Con Adobe GenStudio for Performance Marketing, puoi utilizzare l&#39;intelligenz
 
 Durante la generazione di esperienze Meta, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
+GenStudio for Performance Marketing supporta sia [annunci Meta di dimensioni standard che personalizzati](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
 Le sezioni modificabili di un’esperienza e-mail includono:
 
 * Titolo
 * Corpo
-* Invito all’azione (CTA)
+* Invito all&#39;azione (CTA)
 * Testo su immagine
 * Immagine
 * Logo del brand

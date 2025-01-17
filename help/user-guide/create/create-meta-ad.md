@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Prima di iniziare a generare un&#39;esperienza di annuncio multimediale, è impo
 
 ## Scegli un modello
 
-Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza un modello disponibile per fornire il framework per il contenuto.
+Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza un modello disponibile per fornire il framework per il contenuto. Consulta [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle proporzioni dei Meta Ad supportati.
 
 **Per scegliere un Meta Ad Template**:
 
@@ -58,7 +58,7 @@ Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt f
 
 ## Immetti un prompt
 
-Dopo aver selezionato le linee guida, crea un prompt utilizzando il linguaggio naturale per iniziare a generare contenuti per la nuova esperienza di annuncio metadati. I prompt dettagliati producono un output di qualità superiore rispetto ai prompt vaghi o non descrittivi.
+Dopo aver selezionato le linee guida, crea un prompt utilizzando il linguaggio naturale per iniziare a generare contenuti per la nuova esperienza di annuncio metadati. I prompt dettagliati producono un output di qualità superiore rispetto ai prompt vaghi o ambigui.
 
 Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt effettivi](/help/user-guide/effective-prompts.md).
 
@@ -88,7 +88,8 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 * **Per [modificare il nome della bozza del Meta Ad](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo della _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
 * **Per [modificare manualmente un Meta Ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto,
 o body copy) e modificarli in base alle esigenze.
-* **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante che visualizza l&#39;invito all&#39;azione e selezionare tra le opzioni di testo disponibili per il pulsante.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante di invito all&#39;azione e selezionare una delle opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo dell&#39;invito all&#39;azione.
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
 * **Per [eliminare un Meta Ad](/help/user-guide/create/manage-variants.md#delete-variant)**, fai clic sul titolo dell&#39;annuncio (ad esempio, &quot;Meta 4&quot;) e fai clic su **[!UICONTROL Elimina variante]**.

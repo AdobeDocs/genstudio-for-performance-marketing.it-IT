@@ -4,9 +4,9 @@ description: Scopri come personalizzare e ottimizzare il modello per Adobe GenSt
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Puoi personalizzare un modello da utilizzare in GenStudio for Performance Marketing inserendo segnaposto di contenuto, o campi, utilizzati dall’IA generativa per inserire il contenuto.
 
-Nelle sezioni successive viene illustrato come adattare i modelli di HTML per GenStudio for Performance Marketing utilizzando il linguaggio di modelli _Handlebars_. La sintassi [!DNL Handlebars] utilizza testo normale con doppie parentesi graffe come segnaposto di contenuto. Vedi [Cos&#39;è [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) nella _Guida al linguaggio Handlebars_ per informazioni su come preparare il modello.
+Nelle sezioni successive viene illustrato come adattare i modelli di HTML per GenStudio for Performance Marketing utilizzando il linguaggio di modelli _[!DNL Handlebars]_. La sintassi [!DNL Handlebars] utilizza testo normale con doppie parentesi graffe come segnaposto di contenuto. Per informazioni su come preparare il modello, consulta [Informazioni [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) nella_ Guida lingua Handlebars _.
 
 
 Quando il modello è pronto, puoi [caricarlo in GenStudio for Performance Marketing](use-templates.md#upload-a-template) e iniziare a generare e-mail personalizzate in base al modello personalizzato.
@@ -123,6 +123,32 @@ Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi 
 GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
 
 Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione di un&#39;e-mail.
+
+### Inviti all&#39;azione
+
+Un invito all’azione (CTA) include una frase e un collegamento. Affinché le funzionalità _[!UICONTROL Riformula]_ e _[!UICONTROL Aggiungi collegamento]_ di CTA funzionino correttamente durante il processo di generazione delle varianti, è necessario includere segnaposto per il collegamento e la frase nel modello.
+
+Per impostare i segnaposto di CTA, attenersi alle istruzioni riportate di seguito.
+
+- È disponibile la riformulazione di CTA e il collegamento è modificabile
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- La rifrase CTA è disponibile, ma il collegamento è **non** modificabile perché il collegamento effettivo è fornito nel modello
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- Il collegamento CTA è modificabile, ma la rifrase è **non** disponibile perché la frase è fornita nel modello
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing può fornire anche frasi di invito all’azione varianti. Vedi [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ## Anteprima modello
 

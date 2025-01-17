@@ -3,9 +3,9 @@ title: Utilizzare i modelli
 description: Scopri come utilizzare i modelli in modo efficace per semplificare il processo creativo in Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,9 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
    - Capacità di includere testo, immagini e altri supporti
    - Utilizzato nei modelli di e-mail e metadati
 
-- **CTA (invito all&#39;azione)**
+- **Invito all’azione**
 
+   - Il pulsante di invito all’azione utilizza una frase e un collegamento
    - Incoraggia il destinatario a intraprendere un’azione specifica, ad esempio fare clic su un collegamento o effettuare un acquisto
    - Utilizzato nei modelli di e-mail e metadati
 

@@ -3,14 +3,14 @@ title: Panoramica di GenStudio for Performance Marketing [!DNL Create]
 description: Genera rapidamente contenuti a elevate prestazioni e sul marchio con IA generativa in Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 8f77f877eb09f91160cb149d5df55e1030989370
+source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
 
-# GenStudio per il marketing delle prestazioni [!DNL Create]
+# GenStudio for Performance Marketing [!DNL Create]
 
 GenStudio for Performance Marketing [!DNL Create] sfrutta la potenza di Adobe GenAI per consentire agli addetti al marketing e ai team distribuiti di creare esperienze on-brand ad alte prestazioni.
 
@@ -27,38 +27,71 @@ Oltre alla potenza di [linee guida](/help/user-guide/guidelines/overview.md)—[
 ## Casi di utilizzo di [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Creare un'esperienza e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Creare un’esperienza di annuncio multimediale" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Creare un'esperienza di annuncio multimediale</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Creare un’esperienza di visualizzazione annuncio" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crea un'esperienza di annuncio visualizzato</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing consente agli addetti al marketing di **creare nuovi contenuti di marketing**. In questo caso d&#39;uso, utilizza le [linee guida](/help/user-guide/guidelines/overview.md) definite e le immagini di ispirazione per creare contenuti allineati al brand.
@@ -77,7 +110,7 @@ I modelli sono [caricati e archiviati in [!DNL Content]](/help/user-guide/conten
 
 Nel cassetto dei prompt, puoi aggiungere _Parametri_ come [!DNL Brands], [!DNL Products] e [!DNL Personas] (linee guida) e [!DNL Content] (risorse) per modellare l&#39;esperienza generata.
 
-Questi parametri aggiunti inseriscono [linee guida](/help/user-guide/guidelines/overview.md) e risorse nel processo di generazione, garantendo che il contenuto sia personalizzato in modo da essere allineato all&#39;identità completa di un brand. Si consiglia di aggiungere linee guida al GenStudio per il marketing delle prestazioni e di utilizzarle durante il processo di generazione dei contenuti, in quanto migliorano notevolmente la creazione di contenuti adatti per il brand.
+Questi parametri aggiunti inseriscono [linee guida](/help/user-guide/guidelines/overview.md) e risorse nel processo di generazione, garantendo che il contenuto sia personalizzato in modo da essere allineato all&#39;identità completa di un brand. Si consiglia di aggiungere linee guida al GenStudio for Performance Marketing e utilizzarle durante il processo di generazione dei contenuti, in quanto migliorano notevolmente la creazione di contenuti adatti al brand.
 
 Il contenuto (risorse immagine caricate o aggiunte) in _Parametri_ viene utilizzato nelle varianti generate e informa il contenuto della copia (testo) generato per le varianti. È possibile caricare risorse o selezionare risorse già presenti in [!DNL Content] o in qualsiasi archivio Content Hub AEM connesso.
 
@@ -99,9 +132,11 @@ Dopo aver generato le varianti di contenuto, invia le bozze per l&#39;approvazio
 
 ### Bozze
 
-Nella sezione _Lavoro recente_ di [!DNL Create], accedi e gestisci tutte le bozze recenti. Visualizza e completa il lavoro precedente per prepararlo per la pubblicazione in [[!DNL Content]](/help/user-guide/content/overview.md).
+Nella sezione _Lavoro recente_ di [!DNL Create], accedi e gestisci tutte le bozze recenti. Visualizza e completa il lavoro precedente per prepararlo per la pubblicazione in [[!DNL Content]](/help/user-guide/content/overview.md) o l&#39;esportazione per l&#39;utilizzo.
 
-Le bozze in corso vengono salvate automaticamente. Quando si torna alla home di [!DNL Create], la sezione _Lavoro recente_ viene aggiornata con le bozze più recenti. Per ogni bozza, puoi vedere se è stata _Approvata_ o se è ancora nel modulo _Bozza_.
+Le bozze in corso vengono salvate automaticamente. Quando si torna alla home di [!DNL Create], la sezione _Lavoro recente_ viene aggiornata con le bozze più recenti. Ogni bozza in questa sezione visualizza uno stato, ad esempio _Bozza_ o _Approvata_.
+
+Fare clic sulle icone di ordinamento (griglia o tabella) per visualizzare _Elementi di lavoro recenti_ in una visualizzazione griglia o tabella.
 
 ### Gestisci varianti
 

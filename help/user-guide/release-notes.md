@@ -2,11 +2,11 @@
 title: Note sulla versione di Adobe GenStudio for Performance Marketing
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 0%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2024.12.12. {#latest}
+## 2025.1.16. {#latest}
+
+### Integrazione con Adobe Workfront Proof
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Questo mese viene avviato il programma Beta per l’integrazione di GenStudio for Performance Marketing e Adobe Workfront Proof. Workfront Proof migliora il ciclo di vita di creazione e attivazione dei contenuti con modelli di approvazione, flussi di lavoro in più fasi e annotazioni. Gli utenti di GenStudio for Performance Marketing che dispongono dei diritti per Workfront Proof possono utilizzare le funzionalità avanzate di Proof in GenStudio for Performance Marketing per rivedere e commentare i contenuti generati da GenStudio.
+
+I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare la disponibilità generale. Contattare Etienne Bosch (etienneb@adobe.com) per informazioni sul programma GenStudio for Performance Marketing/Workfront Proof Integration Beta.
+
+### Genera nuovi inviti all&#39;azione
+
+È ora possibile generare nuove frasi di invito all’azione (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+### Correzioni di problemi e miglioramenti
+
+* I conteggi dei caratteri vengono ora visualizzati in tutti i campi generati e manuali degli annunci di visualizzazione. Vedi _Conteggi caratteri_ in [Esperienze metadati](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+
+* _I collaboratori_ possono ora visualizzare le risorse ma non crearle, modificarle o eliminarle. In precedenza, i diritti dei collaboratori non venivano applicati come previsto in[!DNL Create]. <!-- GS-7614 -->
+
+* Gli editor di contenuti ora possono modificare i metadati di risorse, esperienze e modelli. <!-- GS-4905 -->
+
+* Sono ora supportate le dimensioni di immagine personalizzate all’interno dei modelli di annunci multimediali. <!-- GS-7512 -->
+
+* Le selezioni di persone, marchi e prodotti vengono ora precaricate durante la generazione del modello. <!-- GS-8069 -->
+
+* Il collegamento di invito all’azione tramite e-mail non è più un campo obbligatorio. <!-- GS-8103 -->
+
+* Il menu a discesa del selettore [!DNL Brand] ora funziona come previsto per i modelli. In precedenza, il selettore non veniva caricato correttamente per alcuni modelli. <!-- GS-8908 -->
+
+* Ora è possibile selezionare un massimo di quattro immagini per e-mail con un solo pod e annunci Meta. <!-- GS-2631 -->
+
+* Il valore dell&#39;anno del campo `Created by` di un&#39;esperienza approvata ora rimane coerente come previsto dopo la modifica dei metadati dell&#39;esperienza. <!-- GS-8344 -->
+
+* Gli editor di contenuti possono ora selezionare un modello da [!DNL Create]. In precedenza, l’applicazione generava un errore della console quando un editor selezionava un modello.  <!-- GS-8798 -->
+
+* Sono stati risolti i problemi relativi alle operazioni di ridimensionamento e rigenerazione per gli annunci Meta. <!-- GS-8900 -->
+
+* Il pulsante **[!UICONTROL Indietro]** ora riporta gli utenti alla pagina precedente o alla pagina di destinazione [!DNL Create] come previsto. <!-- GS-8622 -->
+
+## Note sulle versioni precedenti
+
++++Note relative al 2024.12.12
 
 ### Nuove funzioni
 
@@ -89,7 +131,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 * Migliorate le prestazioni del pulsante [!DNL Create] **[!UICONTROL Indietro]**. <!-- GS-6767 -->
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2024.11.14
 

@@ -6,10 +6,10 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 0%
+source-wordcount: '1014'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt f
 
 ## Immetti un prompt
 
-Dopo aver selezionato le linee guida, crea un prompt utilizzando il linguaggio naturale per iniziare a generare contenuti per la nuova esperienza e-mail. I prompt dettagliati producono un output di qualità superiore rispetto ai prompt vaghi o non descrittivi.
+Dopo aver selezionato le linee guida, crea un prompt utilizzando il linguaggio naturale per iniziare a generare contenuti per la nuova esperienza e-mail. I prompt dettagliati producono un output di qualità superiore rispetto ai prompt vaghi o ambigui.
 
 Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt effettivi](/help/user-guide/effective-prompts.md).
 
@@ -83,6 +83,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 
 * **Per [modificare il nome della bozza e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
 * **Per [modificare manualmente un&#39;e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in uno dei campi di testo modificabili (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarli in base alle esigenze
+* **Per [modificare o selezionare l&#39;invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, fare clic sul pulsante di invito all&#39;azione e selezionare _[!UICONTROL Riformula]_ o _[!UICONTROL Aggiungi collegamento]_.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente), quindi fai clic su **[!UICONTROL Seleziona/scambia dal contenuto]** o su **[!UICONTROL Carica nuova immagine]** per aggiungere o scambiare un&#39;immagine in una singola variante.
 * **Per [eliminare un&#39;e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic per selezionare il titolo dell&#39;e-mail (ad esempio, &quot;E-mail 1/4&quot;) e fare clic su **[!UICONTROL Elimina variante]**.

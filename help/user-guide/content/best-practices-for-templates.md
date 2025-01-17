@@ -4,9 +4,9 @@ description: Segui le best practice per l’utilizzo dei modelli con Adobe GenSt
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 - Quadrato 1:1 (1080 x 1080 pixel)
 - Verticale 4:5 (1080 x 1350 pixel)
 - Storia 9:16 (1080 x 1920 pixel)
+- Dimensioni immagine personalizzate: (larghezza minima immagine 50 x 50 pixel)
 
 **Nomi di campi riconosciuti**:
 
@@ -121,6 +122,8 @@ Per i metadati, i campi `headline`, `body` e `CTA` vengono generati automaticame
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
 >[!TAB Annuncio visualizzato]
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
 Segui queste best practice per la progettazione quando personalizzi i modelli di annunci di visualizzazione per funzionare con GenStudio for Performance Marketing:
 

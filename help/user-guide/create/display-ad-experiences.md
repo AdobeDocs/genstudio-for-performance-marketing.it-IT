@@ -2,13 +2,14 @@
 title: Visualizzare le esperienze pubblicitarie
 description: Scopri le esperienze degli annunci display in Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +21,13 @@ Con Adobe GenStudio for Performance Marketing, puoi utilizzare l&#39;intelligenz
 
 Durante la generazione di esperienze di annunci di visualizzazione, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
-Adobe GenStudio for Performance Marketing supporta [annunci di visualizzazione standard e personalizzati](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+GenStudio for Performance Marketing supporta gli annunci di visualizzazione di dimensioni standard e personalizzate [](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 
 * Titolo
 * Corpo
-* Invito all’azione (CTA)
+* Invito all&#39;azione (CTA)
 * Immagine
 
 Vedi [Elementi modello](/help/user-guide/content/use-templates.md#template-elements).

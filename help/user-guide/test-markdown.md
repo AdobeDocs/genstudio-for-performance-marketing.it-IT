@@ -3,7 +3,8 @@ title: Pagina di prova per markdown
 description: Questo articolo è nascosto per testare diverse trasformazioni markdown.
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 È ora possibile generare nuove frasi di invito all’azione (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
-![Riformulazione CTA in azione](/help/assets/animation/rephrase-cta.gif "Riformulazione CTA"){width="250" align="center"}
+![Riformulazione CTA in azione](/help/assets/animation/rephrase-cta.gif "Riformulazione CTA"){width="250" align="center" zoomable="yes"}

@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 ### Genera nuovi inviti all&#39;azione
 
 È ora possibile generare nuove frasi di invito all’azione (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+L’anteprima seguente mostra il conteggio dei caratteri CTA, le nuove opzioni e un esempio di rifrase e sostituzione:
+
+![Riformulazione CTA in azione](/help/assets/animation/rephrase-cta.gif "Riformulazione CTA"){width="250" zoomable="yes"}
 
 ### Correzioni di problemi e miglioramenti
 

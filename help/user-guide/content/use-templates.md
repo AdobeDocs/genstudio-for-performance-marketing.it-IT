@@ -3,9 +3,9 @@ title: Utilizzare i modelli
 description: Scopri come utilizzare i modelli in modo efficace per semplificare il processo creativo in Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Prima di caricare un modello, assicurati che sia completamente preparato e pront
 
 ### Aggiorna modello
 
-I modelli possono includere file statici, ad esempio icone o logo. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
+I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto statico](/help/user-guide/content/customize-template.md#static-content) non viene memorizzato dopo la creazione dell&#39;anteprima del modello. GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine fornito nel modello. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
 
 **Per aggiornare il modello**:
 
@@ -155,4 +155,4 @@ Trova e utilizza un modello esistente in GenStudio for Performance Marketing per
 
 1. Fai clic su **[!UICONTROL Crea esperienza]** (pennello) nell&#39;angolo superiore destro per utilizzare il modello.
 
-1. Continua a [Creare](/help/user-guide/create/overview.md) un&#39;esperienza.
+1. Continua a [Creare](/help/user-guide/create/overview.md#create-use-cases) un&#39;esperienza.

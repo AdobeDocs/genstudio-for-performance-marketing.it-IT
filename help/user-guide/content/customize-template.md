@@ -4,9 +4,9 @@ description: Scopri come personalizzare e ottimizzare il modello per Adobe GenSt
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -181,17 +181,13 @@ Un altro esempio può essere quello di impedire l’utilizzo dei codici di tracc
 
 ## Contenuto statico
 
-I modelli e-mail e metadati spesso si collegano a immagini e file CSS ospitati al di fuori di GenStudio for Performance Marketing. Quando GenStudio for Performance Marketing genera le miniature per questi modelli o le esperienze da essi derivate, queste risorse esterne possono essere ignorate se non dispongono delle intestazioni CORS (Cross-Origin Resource Sharing) corrette.
+I modelli e-mail e metadati spesso si collegano a immagini e file CSS ospitati su altri domini. Quando GenStudio for Performance Marketing genera le miniature per le anteprime dei modelli o le esperienze da esse derivate, convalida l’origine di contenuto e incorpora una copia a scopo di anteprima.
 
-Per garantire che queste risorse siano disponibili durante il processo di generazione delle miniature, considera due opzioni:
+I file esterni vengono temporaneamente incorporati solo allo scopo di creare l’anteprima del modello, che garantisce che l’anteprima rifletta accuratamente il contenuto così come viene visualizzato al momento della creazione. Questi file esterni sono **non** archiviati in modo permanente in GenStudio for Performance Marketing. Dopo la creazione dell’anteprima del modello, GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine originale fornito nel modello.
 
-1. **Usa intestazioni CORS**: il server host deve inviare risposte con un&#39;intestazione `Access-Control-Allow-Origin` impostata sul valore `https://experience.adobe.com` per gli ambienti di produzione. Questo metodo consente a GenStudio for Performance Marketing di accedere alle risorse e di includerle.
+### Aggiorna contenuto
 
-1. **Usa URL dati**: incorpora le risorse esterne direttamente nel modello utilizzando URL dati. Questo metodo bypassa le restrizioni CORS e garantisce che le risorse siano disponibili durante la generazione delle miniature.
-
->[!TIP]
->
->Utilizza [aggiorna](/help/user-guide/content/use-templates.md#refresh-template) per aggiornare l&#39;anteprima del modello con il contenuto statico più recente.
+Se l&#39;origine cambia dopo la creazione dell&#39;anteprima iniziale, utilizzare la funzione [aggiorna](/help/user-guide/content/use-templates.md#refresh-template) per aggiornare l&#39;anteprima del modello con la versione più recente del contenuto proveniente da origini esterne.
 
 ## Esempi di modelli
 

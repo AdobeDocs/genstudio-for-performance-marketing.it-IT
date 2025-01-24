@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 ### Nuove funzioni
 
-È stato aggiunto il supporto per i modelli rich media, che consente ai clienti di riutilizzare le risorse già pubblicate tramite i propri canali di contenuti gestiti. <!-- GS-6107 -->
+È stato aggiunto il supporto per la visualizzazione di contenuto statico in hosting su domini esterni. GenStudio for Performance Marketing convalida l’origine di contenuto definita nel modello e ne incorpora una copia per produrre l’anteprima del modello. Vedi [Contenuto statico](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correzioni di problemi e miglioramenti
 

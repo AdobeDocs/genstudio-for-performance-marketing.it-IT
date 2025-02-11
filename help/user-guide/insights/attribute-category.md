@@ -5,9 +5,9 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,8 @@ Le funzionalità immagine rappresentano elementi o pattern distinti e informativ
 | Angolo videocamera | La posizione e l&#39;angolo della fotocamera rispetto al soggetto. |                                                                                                                                                                                |
 | Distanza soggetto | La distanza tra la fotocamera e il soggetto di un&#39;immagine. | `close up`, `mid shot`, `long shot` |
 | Impostazioni della telecamera | La configurazione dei controlli della telecamera per produrre l&#39;immagine. |                                                                                                                                                                                |
-| Colore e tonalità | Valuta i colori utilizzati negli elementi immagine. Identifica da uno a tre colori da un set di 40 colori predefiniti nei seguenti livelli immagine:<br>**[!UICONTROL Colori di primo piano ]**—elementi nel livello anteriore dell&#39;immagine<br>**[!UICONTROL Colori di sfondo]**—elementi nel livello posteriore di un&#39;immagine<p>**[!UICONTROL Temperatura colore]** descrive il calore generale o la freddezza dei colori nell&#39;immagine.<br>Valori di tono o temperatura: `warm`, `cool`, `neutral` | ![colori e tonalità fredde](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| Colore e tonalità | Valuta i colori utilizzati negli elementi immagine. Identifica da uno a tre colori da un set di 40 colori predefiniti nei seguenti livelli immagine:<br>**[!UICONTROL Colori di primo piano ]**—elementi nel livello anteriore dell&#39;immagine<br>**[!UICONTROL Colori di sfondo]**—elementi nel livello posteriore di un&#39;immagine | Valori colore: `Red`, `Dark_Red`, `Green`, `Bright_Green`, `Dark_Green`, `Light_Green`, `Mud_Green`, `Blue`, `Dark_Blue`, `Light_Blue`, `Royal_Blue`, `Black`, `White`, `Off_White`, `Gray`, `Dark_Gray`, `Silver`, `Cream`, `Magenta`, `Cyan`, `Yellow`, `Mustard`, `Khaki`, `Brown`, `Dark_Brown`, `Violet`, `Pink`, `Dark_Pink`, `Maroon`, `Tan`, `Purple`, `Lavender`, `Turquoise`, `Plum`, `Gold`, `Emerald`, `Orange`, `Beige`, `Lilac`, `Olive` |
+| Temperatura del colore | Descrive il calore generale o la freddezza dei colori nell&#39;immagine. | Valori di tonalità o temperatura: `warm`, `cool`, `neutral`<br>![colori e tonalità fredde](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | Stile immagine | Il trattamento visivo di un’immagine. |                                                                                                                                                                                |
 | Condizioni di illuminazione | Tipo di luce in un&#39;immagine. |                                                                                                                                                                                |
 | Oggetti | Identifica uno o più elementi, entità ed elementi che compongono l&#39;immagine. | ![girasole, piano, oggetto fiore](../../assets/category/image-objects.png){width="200" zoomable="yes"} |

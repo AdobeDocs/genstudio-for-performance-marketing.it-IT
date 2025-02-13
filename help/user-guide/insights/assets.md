@@ -3,9 +3,9 @@ title: Panoramica di Assets
 description: Scopri come valutare le prestazioni delle risorse in Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 La visualizzazione [!DNL Insights] _[!UICONTROL Assets]_ mostra un elenco di risorse utilizzate nelle esperienze e nelle campagne pubblicitarie per l&#39;account canale selezionato.
 
-La raccolta _[!UICONTROL Assets]_ è la visualizzazione predefinita che mostra un collage di anteprime di risorse e una metrica, ad esempio il tasso di click-through. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della galleria per attivare o disattivare una delle tre metriche visualizzabili:
+{{connect-insights}}
+
+La tabella _[!UICONTROL Assets]_ è organizzata utilizzando [!UICONTROL ID risorsa]. È possibile passare da una visualizzazione all&#39;altra utilizzando l&#39;icona dell&#39;elenco delle visualizzazioni (tabella) e l&#39;icona della visualizzazione della raccolta (griglia). Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi.
+
+![Filtro e tabella di Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+La visualizzazione della galleria di _[!UICONTROL Assets]_ mostra un collage delle anteprime delle risorse e una metrica, ad esempio il tasso di click-through. Fai clic sull&#39;icona delle impostazioni (cog) sopra il lato destro della galleria per aprire **[!UICONTROL Impostazioni scheda]** e attivare/disattivare una delle tre metriche visualizzabili:
 
 - CPA (Costo per azione)
 - CTR (tasso di click-through)
 - CPC (costo per clic)
 - Spesa
-
-La tabella _[!UICONTROL Assets]_ è organizzata utilizzando [!UICONTROL ID risorsa]. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi.
-
-![Filtro e tabella di Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-È possibile passare da una visualizzazione all&#39;altra utilizzando l&#39;icona dell&#39;elenco delle visualizzazioni (tabella) e l&#39;icona della visualizzazione della raccolta (griglia).
 
 ## Dettagli risorsa
 

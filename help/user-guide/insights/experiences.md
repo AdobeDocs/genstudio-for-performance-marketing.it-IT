@@ -3,7 +3,7 @@ title: Panoramica sulle esperienze
 description: Guarda una panoramica del coinvolgimento dei clienti, del budget e delle spese per esperienze e prestazioni di posizionamento degli annunci in Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -12,11 +12,15 @@ ht-degree: 0%
 
 # Panoramica sulle esperienze
 
-La visualizzazione [!DNL Insights] _[!UICONTROL Esperienze]_ mostra un elenco di esperienze per l&#39;account annuncio del canale connesso. Per Facebook, le esperienze sono nomi di Meta Ad.
+La visualizzazione [!DNL Insights] _[!UICONTROL Esperienze]_ mostra un elenco di esperienze per l&#39;account annuncio del canale connesso. Per Facebook, le esperienze sono dei Meta Ad Name.
+
+{{connect-insights}}
 
 La tabella _[!UICONTROL Esperienze]_ è organizzata utilizzando [!UICONTROL Nomi annuncio]. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare gli elenchi [!UICONTROL Account] e [!UICONTROL Campaign] per filtrare i nomi degli annunci nella tabella.
 
 ![Filtro esperienze e tabella](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Dettagli esperienza
 
@@ -40,7 +44,7 @@ GenStudio for Performance Marketing supporta formati di annunci, come feed di ri
 
 | Instagram | Facebook/Meta | Messenger | Audience Network |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Esplora<br>Esplora la home<br>Esplora la griglia Home<br>Feed<br>Rulli<br>Feed profilo<br>Cerca<br>Acquista<br>Storie | Business Explore<br>Feed<br>Video in-stream<br>Marketplace<br>Bobine<br>Sovrapposizione bobine<br>Colonna destra<br>Risultati ricerca<br>Storie<br>Feed video<br>Annunci su bobine Facebook | Casella in entrata<br>Storie | Video nativo, banner e interstiziale<br>Premiato |
+| Esplora<br>Esplora la home<br>Esplora la griglia Home<br>Feed<br>Rulli<br>Feed profilo<br>Cerca<br>Acquista<br>Storie | Business Explore<br>Feed<br>Video in-stream<br>Marketplace<br>Reels<br>Sovrapposizione bobine<br>Colonna destra<br>Risultati ricerca<br>Storie<br>Feed video<br>Annunci su bobine Facebook | Casella in entrata<br>Storie | Video nativo, banner e interstiziale<br>Premiato |
 
 #### Posizionamenti non supportati
 

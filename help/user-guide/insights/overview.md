@@ -3,9 +3,9 @@ title: Panoramica di  [!DNL Insights]
 description: Scopri come ottimizzare le esperienze in base a metriche delle prestazioni dei contenuti in tempo reale.
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: a06b226ffc6bfc0bd371a2f5045d5a422a2983bd
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ Dal dashboard [!DNL Insights] è possibile:
 - **Ottimizza contenuti con prestazioni insoddisfacenti**: trova contenuti con prestazioni insoddisfacenti e utilizza l&#39;intelligenza artificiale generativa integrata per creare immediatamente varianti, migliorandone potenzialmente l&#39;efficacia senza partire da zero.
 - **Rivitalizza contenuti ad alte prestazioni**: seleziona i contenuti di successo e modificali per aggiornare l&#39;esperienza per il pubblico o adattare i contenuti originali da utilizzare nelle nuove campagne, estendendone potenzialmente il ciclo di vita e le prestazioni.
 
->[!TIP]
->
->Consulta [Connetti account canale](connect-channel.md) per i passaggi che consentono a GenStudio for Performance Marketing di ricevere dati dalle campagne di marketing, dalle risorse e dalle esperienze correnti.
+{{connect-insights}}
 
 ## Dashboard
 

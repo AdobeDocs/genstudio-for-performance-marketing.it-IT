@@ -1,11 +1,17 @@
 ---
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 # snippet GenStudio for Performance Marketing
+
+## Connetti approfondimenti {#connect-insights}
+
+>[!TIP]
+>
+>Per iniziare a ricevere i dati, GenStudio for Performance Marketing richiede la connessione a un account di canale. Consulta [Connetti account canale](/help/user-guide/insights/connect-channel.md).
 
 ## Nota AEM Assets {#note-aem-assets}
 

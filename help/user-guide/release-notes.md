@@ -2,12 +2,12 @@
 title: Note sulla versione di Adobe GenStudio for Performance Marketing
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 0%
+source-wordcount: '1746'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,19 @@ ht-degree: 0%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.1.16. {#latest}
+## 2025.2.13 {#latest}
+
+### Miglioramenti alla pagina di destinazione per [!DNL Create]
+
+La pagina di destinazione [!DNL Create] in GenStudio for Performance Marketing include miglioramenti dell&#39;interfaccia utente che migliorano l&#39;esperienza utente. La sezione _Lavoro recente_ è stata perfezionata e configurata con la visualizzazione elenco come visualizzazione predefinita. La spaziatura interna e altri miglioramenti visivi semplificano l&#39;aspetto dell&#39;area di lavoro [!DNL Create].
+
+### Esportazione di approfondimenti in CSV
+
+È ora possibile scaricare la tabella visualizzabile da qualsiasi visualizzazione [!DNL Insights] in un file CSV. Questa funzione consente di esportare e analizzare facilmente i dati da varie visualizzazioni di [!DNL Insights], semplificando l&#39;analisi dei dati e le opzioni di reporting.
+
+## Note sulle versioni precedenti
+
++++Note della versione 2025.1.16
 
 ### Integrazione con Adobe Workfront Proof
 
@@ -28,10 +40,6 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 ### Genera nuovi inviti all&#39;azione
 
 È ora possibile generare nuove frasi di invito all’azione (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
-
-L’anteprima seguente mostra il conteggio dei caratteri CTA, le nuove opzioni e un esempio di rifrase e sostituzione:
-
-![Riformulazione CTA in azione](/help/assets/animation/rephrase-cta.gif "Riformulazione CTA"){width="250" zoomable="yes"}
 
 ### Correzioni di problemi e miglioramenti
 
@@ -59,7 +67,7 @@ L’anteprima seguente mostra il conteggio dei caratteri CTA, le nuove opzioni e
 
 * Il pulsante **[!UICONTROL Indietro]** ora riporta gli utenti alla pagina precedente o alla pagina di destinazione [!DNL Create] come previsto. <!-- GS-8622 -->
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2024.12.12
 
@@ -75,7 +83,7 @@ Gli editor possono ora specificare valori personalizzati per questi aspetti dell
 
 * Larghezza e altezza dei banner Web nei modelli di annunci di visualizzazione. Questi valori vengono ora salvati come metadati del modello. <!-- GS-6735 -->
 
-* Dimension alle immagini in visualizzazione esperienze annuncio durante il caricamento dell&#39;immagine.<!-- GS-7166 -->
+* Dimensioni per le immagini in visualizzazione ed esperienze durante il caricamento dell&#39;immagine.<!-- GS-7166 -->
 
 * Consulta le linee guida specifiche per il canale in [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
@@ -147,7 +155,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 * Se ridimensionate in un browser diverso da quello utilizzato per generare il contenuto iniziale, le bozze ora vengono caricate come previsto. <!-- GS-7204 -->
 
-* Tutti i caratteri sono ora rappresentati correttamente in HTML esportati. <!-- GS-7246 -->
+* Tutti i caratteri sono ora rappresentati correttamente nel HTML esportato. <!-- GS-7246 -->
 
 * I pulsanti nella finestra a comparsa [!DNL Content] _Esperienze_ **[!UICONTROL Esporta]** non vengono più troncati in alcune lingue. <!-- GS-6873 -->
 
@@ -193,13 +201,13 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * Il punteggio del marchio ora viene aggiornato e mantenuto come previsto per le esperienze rigenerate. <!-- GS-6535 -->
 
-* L&#39;esportazione HTML di annunci Meta e di annunci di visualizzazione non include più il wrapper `div` e gli elementi `chrome`. <!-- GS-7116 -->
+* L&#39;esportazione HTML di annunci meta e annunci di visualizzazione non include più il wrapper `div` e gli elementi `chrome`. <!-- GS-7116 -->
 
 * I problemi relativi al rendering delle bozze e-mail durante la pubblicazione ora sono risolti. <!-- GS-6394 -->
 
 * Il pulsante Canvas **[!UICONTROL Brand]** è ora disabilitato quando non viene generato un punteggio di marchio. <!-- GS-6429 -->
 
-* L&#39;interruttore Facebook/Instagram sulla barra delle azioni Area di lavoro ora aggiorna i rendering delle esperienze come previsto quando l&#39;impostazione Area di lavoro `ReadOnly` è abilitata. <!-- GS-7039 -->
+* L&#39;interruttore Facebook/Instagram sulla barra delle azioni Area di lavoro ora aggiorna i rendering delle esperienze come previsto quando l&#39;impostazione dell&#39;area di lavoro `ReadOnly` è abilitata. <!-- GS-7039 -->
 
 #### Rigenerazione immagine
 

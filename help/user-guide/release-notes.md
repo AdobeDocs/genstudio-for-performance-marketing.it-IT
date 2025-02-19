@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ La pagina di destinazione [!DNL Create] in GenStudio for Performance Marketing i
 
 Questo mese viene avviato il programma Beta per l’integrazione di GenStudio for Performance Marketing e Adobe Workfront Proof. Workfront Proof migliora il ciclo di vita di creazione e attivazione dei contenuti con modelli di approvazione, flussi di lavoro in più fasi e annotazioni. Gli utenti di GenStudio for Performance Marketing che dispongono dei diritti per Workfront Proof possono utilizzare le funzionalità avanzate di Proof in GenStudio for Performance Marketing per rivedere e commentare i contenuti generati da GenStudio.
 
-I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare la disponibilità generale. Contattare Etienne Bosch (etienneb@adobe.com) per informazioni sul programma GenStudio for Performance Marketing/Workfront Proof Integration Beta.
+I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare la disponibilità generale.
 
 ### Genera nuovi inviti all&#39;azione
 

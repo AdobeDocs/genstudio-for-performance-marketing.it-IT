@@ -3,10 +3,10 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1348'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONT
 
 Il filtro e l’interfaccia di ricerca sono rapidi e reattivi e forniscono un’esperienza di ricerca iniziale produttiva. Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Per risorse ed esperienze, puoi selezionare una campagna e linee guida specifiche, ad esempio contenuti creati per un prodotto specifico.
 
-Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attribute-category.md) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna. Oppure puoi filtrare il contenuto in base al tuo nome utente o al nome di un membro del team:
+Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attributes.md#categories) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna. Oppure puoi filtrare il contenuto in base al tuo nome utente o al nome di un membro del team:
 
 - Il filtro **[!UICONTROL Caricato da]** limita l&#39;elenco _[!UICONTROL Assets]_ in modo da visualizzare solo le risorse caricate da te o da una persona specifica.
 - **[!UICONTROL Creato da]** filtro limita l&#39;elenco _[!UICONTROL Esperienze]_ per mostrare solo le esperienze create da te o da una persona specifica.
@@ -55,15 +55,15 @@ Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata
 
 Per impostazione predefinita, le risorse aggiunte a [!DNL Content] tramite il processo [!DNL Create] o il caricamento vengono archiviate nell&#39;archivio `GenStudio assets`. L&#39;archivio `GenStudio assets` è di lettura/scrittura in GenStudio for Performance Marketing. Ciò significa che è possibile salvare, modificare ed eliminare le risorse nell&#39;archivio `GenStudio assets`.
 
-L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta _[!UICONTROL Assets]_ sul lato destro consente di selezionare dagli archivi [!DNL Assets Content Hub] di Adobe Experience Manager (AEM) connessi.
+L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta _[!UICONTROL Assets]_ sul lato destro consente di selezionare dagli archivi connessi di Adobe Experience Manager (AEM) [!DNL Assets Content Hub].
 
 ![Elenco percorsi degli archivi](../../assets/content-location-selection.png){width="350"}
 
-Quando selezioni un archivio AEM, la galleria mostra un inventario delle risorse provenienti da tale archivio, che ti consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuti. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
+Quando selezioni un archivio AEM, nella galleria viene visualizzato un inventario delle risorse provenienti da tale archivio, che consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuto. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
 
-Per istruzioni sull&#39;aggiunta dell&#39;archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing, vedere [Connettere un archivio AEM](connect-aem-repo.md).
+Consulta [Connettere un archivio AEM](connect-aem-repo.md) per istruzioni sull&#39;aggiunta del tuo archivio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing.
 
-L’archivio AEM è di sola lettura, il che significa che puoi accedere al contenuto ma non salvare bozze, nuove risorse o metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
+L’archivio AEM è di sola lettura, il che significa che puoi accedere al contenuto ma non salvare le bozze, le nuove risorse o i metadati nell’archivio AEM. Tutte le bozze e gli aggiornamenti finali per risorse, esperienze e modelli vengono salvati nell&#39;archivio `GenStudio assets` con i nuovi [metadati di sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
 
@@ -79,7 +79,7 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [Visualizza dettagli](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
-| [Modifica nell&#39;Adobe Express](#edit-in-express) | ✓ |             |           |
+| [Modifica in Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Esporta per attivazione](#export-for-activation) |        | ✓ |           |
 | [Aggiorna](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
@@ -152,7 +152,7 @@ Vedi [Attivazione](/help/user-guide/activation/overview.md).
 
 ## Modifica in Express
 
-Puoi modificare le risorse immagine (JPG o PNG) direttamente in GenStudio for Performance Marketing utilizzando Adobe Express. L&#39;area di lavoro di _[!UICONTROL Powered by Adobe Express]_ offre funzionalità utili per migliorare le immagini senza uscire dall&#39;applicazione GenStudio. È possibile rimuovere facilmente gli sfondi, applicare riempimenti generativi, regolare gli effetti e ritagliare le immagini.
+Puoi modificare le risorse immagine (JPG o PNG) direttamente in GenStudio for Performance Marketing utilizzando Adobe Express. L&#39;area di lavoro _[!UICONTROL con tecnologia Adobe Express]_ offre funzionalità utili per migliorare le immagini senza uscire dall&#39;applicazione GenStudio. È possibile rimuovere facilmente gli sfondi, applicare riempimenti generativi, regolare gli effetti e ritagliare le immagini.
 
 >[!BEGINSHADEBOX]
 
@@ -169,13 +169,13 @@ Criteri per migliorare le immagini con la funzionalità [!DNL Edit in Adobe Expr
 
 1. In _[!DNL Content]_, seleziona una risorsa immagine. Facendo clic su una risorsa si apre una sua visualizzazione mirata.
 
-1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Modifica nell&#39;Adobe Express]** in alto a destra.
+1. Nella visualizzazione delle risorse, fai clic sull&#39;icona **[!UICONTROL Modifica in Adobe Express]** in alto a destra.
 
-1. Nell&#39;area di lavoro di _[!UICONTROL Powered by Adobe Express]_, utilizza i controlli Express nel pannello sinistro per migliorare l&#39;immagine.
+1. Nell&#39;area di lavoro _[!UICONTROL Con tecnologia Adobe Express]_, utilizza i controlli Rapidi nel pannello sinistro per migliorare l&#39;immagine.
 
 1. Quando sei soddisfatto dell&#39;immagine aggiornata, fai clic su **[!UICONTROL Salva una copia]** in alto a destra.
 
-1. Selezionare il formato di file, JPG o PNG, e fare clic su **[!UICONTROL Salva copia]**.
+1. Selezionare il formato del file, JPG o PNG, e fare clic su **[!UICONTROL Salva una copia]**.
 
 1. Nel popup _[!UICONTROL Salva una copia della risorsa]_, aggiorna **[!UICONTROL Nome risorsa]**.
 

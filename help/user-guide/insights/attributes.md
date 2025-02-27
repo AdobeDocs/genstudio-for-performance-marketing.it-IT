@@ -3,9 +3,9 @@ title: Panoramica sugli attributi
 description: Scopri come valutare le prestazioni di attributi specifici in Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La visualizzazione [!DNL Insights] _[!UICONTROL Attributi]_ mostra un elenco di 
 
 La tabella _[!UICONTROL Attributes]_ è organizzata utilizzando il nome [!UICONTROL Attribute]. Puoi passare da un tipo di elenco all&#39;altro utilizzando il pulsante **[!UICONTROL Immagini]** e il pulsante **[!UICONTROL Video]**. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili.
 
-L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare la [!UICONTROL Categoria account] e la [!UICONTROL Categoria attributo] per filtrare gli attributi nella tabella. Nell&#39;esempio seguente viene illustrato un elenco di attributi nella categoria `Lighting Condition`.
+L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare la [!UICONTROL Categoria account] e la [!UICONTROL Categoria attributo] per filtrare gli attributi nella tabella. Nell&#39;esempio seguente viene illustrato un elenco di attributi nella categoria `Lighting Condition`. Fare clic su **Reimposta** per cancellare tutte le selezioni del filtro.
 
 ![Filtro attributi e tabella](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -36,11 +36,17 @@ GenStudio for Performance Marketing rileva alcune funzioni e applica l’attribu
 
 ## Categorie
 
-GenStudio for Performance Marketing riconosce alcune funzioni di immagini, video e testo e applica un tag funzione alla risorsa. Una _categoria_ è un insieme di caratteristiche che condividono una caratteristica specifica. Ad esempio, la categoria _orientamento immagine_ ha un valore `landscape`, `portrait` o `square`.
+Una categoria di attributi è un gruppo di classificazione che organizza attributi correlati che condividono una caratteristica comune. Queste categorie aiutano a semplificare l&#39;individuazione, l&#39;identificazione e la comprensione di attributi specifici fornendo un contesto più ampio e facilitandone l&#39;applicazione e l&#39;utilizzo.
 
-Non è possibile modificare i tag rilevati e applicati automaticamente.
+GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare [immagini](image-features.md), [video](video-features.md) e testo e applicare [!UICONTROL attributi risorsa] in base alla probabilità di correttezza.
 
-Consulta [Categorie di attributi](/help/user-guide/insights/attribute-category.md) per un elenco dettagliato delle funzioni per immagini, video e testo.
+L’elenco degli attributi rilevati per una risorsa non è esaustivo. Assets che contiene un set completo di funzioni può essere limitato alle tre funzioni più dominanti identificate dall’intelligenza artificiale. Ad esempio, la figura seguente contiene diversi attributi dell&#39;immagine rilevati, tra cui più oggetti, colori di primo piano e di sfondo.
+
+![attributi risorsa immagine](/help/assets/category/asset-attributes.png "L&#39;immagine di Toucan include più attributi rilevati"){width="300" zoomable="yes"}
+
+>[!INFO]
+>
+>Non è possibile modificare i tag rilevati e applicati automaticamente.
 
 ## Prestazioni degli attributi
 
@@ -60,4 +66,4 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo per ogni mille impression pubblicitarie di un’immagine o di un video con questo attributo.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
 | **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Consente di identificare gli attributi che determinano azioni utili per il cliente. |
 | **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic su immagini o video con questo attributo.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
-| **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in relazione agli attributi in un dato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
+| **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in relazione agli attributi in un dato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |

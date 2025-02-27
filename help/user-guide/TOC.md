@@ -4,10 +4,10 @@ breadcrumb-title: Guida utente
 user-guide-description: Esplora le funzionalità di Adobe GenStudio for Performance Marketing. Scopri come creare rapidamente risorse sul brand, generare varianti e ottimizzare le esperienze.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 23%
+source-wordcount: '171'
+ht-degree: 22%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 23%
    + [Richiedi revisione e approvazione del contenuto](approvals/request-review.md)
    + [Rivedere e modificare il contenuto](approvals/review-and-edit.md)
    + [Approva contenuto](approvals/approve-content.md)
-   + [Contenuto approvato da Publish](approvals/publish-content.md)
+   + [Pubblica contenuto approvato](approvals/publish-content.md)
 + Contenuto {#content}
    + [Panoramica dei contenuti](content/overview.md)
    + [Gestione risorse ed esperienze](content/manage-assets.md)
-   + [Connetti un repository AEM](content/connect-aem-repo.md)
+   + [Connettere un repository AEM](content/connect-aem-repo.md)
    + [Dettagli risorsa](content/asset-details.md)
    + Modelli {#templates}
       + [Utilizzare i modelli](content/use-templates.md)
@@ -66,7 +66,10 @@ ht-degree: 23%
    + [Esperienze](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [Attributi](insights/attributes.md)
-   + [Categorie di attributi](insights/attribute-category.md)
+   + Categorie di attributi {#categories}
+      + [Funzioni immagine](insights/image-features.md)
+      + [Funzioni video](insights/video-features.md)
+      + [Funzioni testo - Nascosto](insights/text-features.md)
    + [Gestione dati](insights/data-management.md)
 + [GenStudio Academy - Nascosto](genstudioacademy.md)
 + [Markdown di test - Nascosto](test-markdown.md)

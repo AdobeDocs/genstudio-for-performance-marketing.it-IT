@@ -3,9 +3,9 @@ title: Panoramica di Assets
 description: Scopri come valutare le prestazioni delle risorse in Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ La visualizzazione [!DNL Insights] _[!UICONTROL Assets]_ mostra un elenco di ris
 
 {{connect-insights}}
 
-La tabella _[!UICONTROL Assets]_ è organizzata utilizzando [!UICONTROL ID risorsa]. È possibile passare da una visualizzazione all&#39;altra utilizzando l&#39;icona dell&#39;elenco delle visualizzazioni (tabella) e l&#39;icona della visualizzazione della raccolta (griglia). Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi.
+La tabella _[!UICONTROL Assets]_ è organizzata utilizzando [!UICONTROL ID risorsa]. È possibile passare da una visualizzazione all&#39;altra utilizzando l&#39;icona dell&#39;elenco delle visualizzazioni (tabella) e l&#39;icona della visualizzazione della raccolta (griglia). Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi. Fare clic su **Reimposta** per cancellare tutte le selezioni del filtro.
 
 ![Filtro e tabella di Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
 
@@ -48,10 +48,10 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL ID risorsa]** | Il nome associato a questa risorsa. | Ordina la tabella facendo clic sull’intestazione di colonna per una qualsiasi delle metriche chiave. |
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che la risorsa viene caricata nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per informazioni approfondite sulle prestazioni, consideralo in relazione ad altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Il numero di volte in cui gli utenti interagiscono con un elemento cliccabile sulla risorsa, ad esempio un collegamento. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic su risorse all’interno di un’esperienza.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic su risorse all’interno di un’esperienza.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente rilevante e coinvolgente per il pubblico. Suggerisce che i messaggi e la progettazione catturino efficacemente l’interesse del pubblico e gli spingano ad agire. Inoltre, un CTR elevato può significare che la risorsa è ben mirata e risuona con il pubblico previsto, portando a migliori prestazioni complessive della campagna. |
 | **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo per ogni mille impression pubblicitarie della risorsa.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
 | **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Aiuta a identificare le risorse che si traducono in azioni preziose per i clienti. |
 | **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic su una risorsa.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
-| **[!UICONTROL Spesa]** | L&#39;importo speso a titolo del bilancio in relazione ai singoli attivi in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo della spesa rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
+| **[!UICONTROL Spesa]** | L&#39;importo speso a titolo del bilancio in relazione ai singoli attivi in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
 | **[!UICONTROL Conteggio esperienze]** | Il numero di esperienze che utilizzano questa risorsa. | |
 | **[!UICONTROL Attributi]** | Elenco di attributi rilevati e applicati alla risorsa. | |

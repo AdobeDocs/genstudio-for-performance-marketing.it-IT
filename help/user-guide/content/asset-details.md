@@ -3,7 +3,7 @@ title: Dettagli risorsa
 description: Adobe GenStudio for Performance Marketing archivia i contenuti approvati con metadati avanzati per ricercare e monitorare le prestazioni.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,7 +32,7 @@ La seguente risorsa immagine contiene metadati di sistema che descrivono il tipo
 
 >[!NOTE]
 >
->Assets dagli archivi AEM mostra metadati diversi. Consulta [Configurare la visibilità delle risorse](connect-aem-repo.md#step-4-configure-asset-visibility) per scoprire come configurare i dettagli di [!DNL AEM Assets Content Hub] risorse.
+>Gli archivi di Assets di AEM presentano metadati diversi. Consulta [Configurare la visibilità delle risorse](connect-aem-repo.md#step-4-configure-asset-visibility) per scoprire come configurare i dettagli di [!DNL AEM Assets Content Hub] risorse.
 
 ## Metadati di sistema
 
@@ -42,7 +42,7 @@ Alcuni metadati di risorse vengono raccolti automaticamente quando una risorsa v
 
 Quando memorizzi una risorsa approvata in [!DNL Content], GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare la risorsa e applicare i tag in base alle funzioni della risorsa. Ad esempio, un&#39;immagine di un gatto può causare tag attributo come `pet photography` o `cat` e tag colore che identificano i colori dominanti nell&#39;immagine. Non è possibile modificare i tag rilevati e applicati automaticamente.
 
-Consulta [!DNL Insights] [Categorie di attributi](/help/user-guide/insights/attribute-category.md) per un elenco dettagliato delle funzioni immagine, video e testo.
+Consulta [!DNL Insights] [Categorie di attributi](/help/user-guide/insights/attributes.md#categories) per un elenco dettagliato delle funzioni immagine, video e testo.
 
 ### Metadati del contenuto generato
 

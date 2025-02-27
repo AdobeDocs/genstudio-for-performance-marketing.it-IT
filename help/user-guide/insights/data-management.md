@@ -1,39 +1,40 @@
 ---
 title: Gestione dei dati
-description: Scopri come acquisire e memorizzare dati per approfondimenti in GenStudio for Performance Marketing.
+description: Scopri come acquisire e archiviare dati per  [!DNL Insights]  in GenStudio for Performance Marketing.
 feature: Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
-source-git-commit: 5dbe645f2ccf033f515da22ffdcce86edcb9fb24
+exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Gestione dei dati
 
-GenStudio for Performance Marketing utilizza Adobe Experience Platform (AEP) per l&#39;acquisizione dei dati e l&#39;archiviazione delle metriche e dei metadati che alimentano [!DNL Insights]. AEP utilizza _schemi_ per definire le strutture di dati e _set di dati_ per l&#39;archiviazione e la gestione delle raccolte di dati.
+GenStudio for Performance Marketing utilizza Adobe Experience Platform (AEP) per l&#39;acquisizione dei dati e l&#39;archiviazione delle metriche e dei metadati che alimentano [!DNL Insights]. AEP utilizza _schemi_ per definire le strutture di dati e _set di dati_ per archiviare e gestire le raccolte di dati.
 
 ## Connessioni dati
 
-GenStudio for Performance Marketing utilizza Customer Journey Analytics (CJA) per aggregare più origini dati creando una connessione a uno o più set di dati AEP. CJA utilizza queste connessioni dati per creare visualizzazioni dati per analizzare le metriche con [!DNL Insights].
+GenStudio for Performance Marketing utilizza Customer Journey Analytics (CJA) per aggregare più origini dati creando una connessione a uno o più set di dati di AEP. CJA utilizza queste connessioni dati per creare visualizzazioni dati per analizzare le metriche con [!DNL Insights].
 
 >[!BEGINSHADEBOX]
 
 **Informazioni importanti sulle connessioni dati**
 
-Se sei un [amministratore di Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), potresti disporre di diritti che consentono l&#39;accesso alla gestione sandbox di AEP e ai componenti del data lake che supportano GenStudio for Performance Marketing.
+Se sei un [amministratore di sistema di Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), potresti disporre di diritti che consentono l&#39;accesso alla gestione sandbox di AEP e ai componenti del data lake che supportano GenStudio for Performance Marketing.
 
 >[!WARNING]
 >
->Il ripristino della sandbox di produzione in AEP elimina tutte le connessioni dati e impedisce il funzionamento di [!DNL Insights].
+>Se si ripristina la sandbox di produzione in AEP, tutte le connessioni dati vengono eliminate e [!DNL Insights] non funziona più.
 
 Presta attenzione e non eliminare le seguenti connessioni dati necessarie per il funzionamento affidabile di GenStudio for Performance Marketing:
 
-- Set di dati AEP con prefisso `GS Insights`
-- Schemi, classi e gruppi di campi AEP con prefisso `GS Insights`
+- Set di dati di AEP con prefisso `GS Insights`
+- Schemi, classi e gruppi di campi di AEP con prefisso `GS Insights`
 - Gruppo di campi personalizzato `timestamp for metadata`
 - Connessioni AEP: flussi di dati con prefisso `GS Insights`
 - Connessioni AEP: account GS Insights

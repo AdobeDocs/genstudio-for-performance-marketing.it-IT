@@ -3,9 +3,9 @@ title: Panoramica di GenStudio for Performance Marketing [!DNL Create]
 description: Genera rapidamente contenuti a elevate prestazioni e sul marchio con IA generativa in Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
+source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
@@ -24,41 +24,76 @@ Con [!DNL Create] è possibile generare contenuti per i seguenti canali:
 
 Oltre alla potenza di [linee guida](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] e [!DNL Personas]—[Contenuto](/help/user-guide/content/overview.md), [Recensioni e approvazioni](/help/user-guide/approvals/overview.md) e [Approfondimenti](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creazione di contenuti di marketing di grande impatto e allineati al brand.
 
+Gli editor e i responsabili di sistema hanno accesso completo a [!DNL Create]. Per informazioni dettagliate sull&#39;accesso ai ruoli, consulta [Ruoli utente e autorizzazioni](/help/user-guide/user-roles.md).
+
 ## Casi di utilizzo di [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Creare un'esperienza e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Creare un’esperienza di annuncio multimediale" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Creare un'esperienza di annuncio multimediale</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Creare un’esperienza di visualizzazione annuncio" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crea un'esperienza di annuncio visualizzato</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing consente agli addetti al marketing di **creare nuovi contenuti di marketing**. In questo caso d&#39;uso, utilizza le [linee guida](/help/user-guide/guidelines/overview.md) definite e le immagini di ispirazione per creare contenuti allineati al brand.
@@ -79,7 +114,7 @@ Nel cassetto dei prompt, puoi aggiungere _Parametri_ come [!DNL Brands], [!DNL P
 
 Questi parametri aggiunti inseriscono [linee guida](/help/user-guide/guidelines/overview.md) e risorse nel processo di generazione, garantendo che il contenuto sia personalizzato in modo da essere allineato all&#39;identità completa di un brand. Si consiglia di aggiungere linee guida al GenStudio for Performance Marketing e utilizzarle durante il processo di generazione dei contenuti, in quanto migliorano notevolmente la creazione di contenuti adatti al brand.
 
-Il contenuto (risorse immagine caricate o aggiunte) in _Parametri_ viene utilizzato nelle varianti generate e informa il contenuto della copia (testo) generato per le varianti. È possibile caricare risorse o selezionare risorse già presenti in [!DNL Content] o in qualsiasi archivio Content Hub AEM connesso.
+Il contenuto (risorse immagine caricate o aggiunte) in _Parametri_ viene utilizzato nelle varianti generate e informa il contenuto della copia (testo) generato per le varianti. Puoi caricare o selezionare le risorse già presenti in [!DNL Content] o in qualsiasi archivio AEM Content Hub connesso.
 
 ### Prompt
 

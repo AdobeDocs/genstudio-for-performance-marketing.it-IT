@@ -112,3 +112,4 @@ Fare clic sulle icone di ordinamento (griglia o tabella) per visualizzare _Eleme
 GenStudio for Performance Marketing consente un controllo [completo sulle sezioni di singole varianti](/help/user-guide/create/manage-variants.md).
 
 Puoi rivedere le sezioni di una singola variante, rigenerare il contenuto di singole sezioni e utilizzare le modifiche suggerite per migliorare il messaggio, ridimensionare le risorse e altro all’interno dell’area di lavoro.
+

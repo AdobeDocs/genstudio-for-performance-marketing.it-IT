@@ -29,71 +29,38 @@ Gli editor e i responsabili di sistema hanno accesso completo a [!DNL Create]. P
 ## Casi di utilizzo di [!DNL Create]
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-email-experience.md">
-
       <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-email-experience.md">
-
          <strong>Creare un'esperienza e-mail</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-meta-ad.md">
-
       <img alt="Creare un’esperienza di annuncio multimediale" src="../../assets/icons/icon-asset.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-meta-ad.md">
-
          <strong>Creare un'esperienza di annuncio multimediale</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-display-ad.md">
-
       <img alt="Creare un’esperienza di visualizzazione annuncio" src="../../assets/icons/icon-addTemplate.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-display-ad.md">
-
          <strong>Crea un'esperienza di annuncio visualizzato</strong>
-
          </a>
-
       </div>
-
    </td>
-
 </tr>
-
 </table>
 
 GenStudio for Performance Marketing consente agli addetti al marketing di **creare nuovi contenuti di marketing**. In questo caso d&#39;uso, utilizza le [linee guida](/help/user-guide/guidelines/overview.md) definite e le immagini di ispirazione per creare contenuti allineati al brand.

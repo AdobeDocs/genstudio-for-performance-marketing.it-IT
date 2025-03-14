@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1361'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Adobe GenStudio for Performance Marketing [!DNL Content] semplifica e migliora l
 
 Nella galleria viene visualizzato un inventario delle risorse, esperienze o modelli approvati, a seconda della vista selezionata. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]**, in cui è possibile selezionare diverse categorie per filtrare il contenuto visualizzato nella raccolta. Nella visualizzazione _[!UICONTROL Assets]_, fare clic sull&#39;icona di ricerca (lente di ingrandimento) per utilizzare una parola chiave per trovare una risorsa.
 
-Di seguito è riportata una ricerca per il termine `dog` nella raccolta [!UICONTROL Assets]:
+Di seguito è riportata una ricerca per il termine `space` nella raccolta [!UICONTROL Assets]:
 
-![Visualizzazione Assets con ricerca su cane](/help/assets/content-assets.png)
+![Visualizzazione Assets con ricerca nello spazio](/help/assets/content-assets-filter.png "Ricerca di risorse con attributo spazio")
 
 ### Cerca contenuto
 
@@ -57,7 +57,7 @@ Per impostazione predefinita, le risorse aggiunte a [!DNL Content] tramite il pr
 
 L&#39;elenco **[!UICONTROL Posizione]** sopra la raccolta _[!UICONTROL Assets]_ sul lato destro consente di selezionare dagli archivi connessi di Adobe Experience Manager (AEM) [!DNL Assets Content Hub].
 
-![Elenco percorsi degli archivi](../../assets/content-location-selection.png){width="350"}
+![Elenco percorsi dei repository](/help/assets/content-location-selection.png "Selezionare un repository dei contenuti"){width="350"}
 
 Quando selezioni un archivio AEM, nella galleria viene visualizzato un inventario delle risorse provenienti da tale archivio, che consente di sfruttare le risorse approvate provenienti da tali archivi come input per la creazione di contenuto. Le opzioni del filtro cambiano per riflettere le categorie configurate in [!DNL AEM Assets Content Hub].
 
@@ -89,7 +89,7 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 
 Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], queste vengono memorizzate nell&#39;archivio `GenStudio assets`. Il pulsante _[!UICONTROL Aggiungi risorse]_ è disponibile solo quando _[!UICONTROL Posizione]_ è l&#39;archivio `GenStudio assets`.
 
-![Campo posizione](../../assets/content-location.png){width="350"}
+![Campo posizione](/help/assets/content-location.png "Campo posizione"){width="350"}
 
 **Per aggiungere una o più risorse**:
 
@@ -146,7 +146,7 @@ Puoi esportare un’esperienza approvata per l’attivazione in un formato compa
 1. Nel popup _Esporta per attivazione_, selezionare uno dei formati disponibili:
 
    - E-mail: `HTML`, `CSV`
-   - Annunci meta e display: `HTML`, `JPEG`, `PNG`
+   - Meta, banner e annuncio di visualizzazione: `HTML`, `JPEG`, `PNG`
 
 Vedi [Attivazione](/help/user-guide/activation/overview.md).
 

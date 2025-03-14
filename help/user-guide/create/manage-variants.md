@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 
 **Per aggiungere o scambiare immagini in una variante**:
 
+1. Dopo aver generato un set di varianti, fai clic su una risorsa di immagine (o sull’area della risorsa di immagine, se attualmente non esiste un’immagine).
+1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
+1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
+
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
+
+1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
+
+   L’immagine viene aggiunta o scambiata nella variante applicabile.
+
+## Aggiungi collegamento immagine
+
+Analogamente all’aggiunta o allo scambio di immagini nelle varianti generate, puoi aggiungere un collegamento alle immagini. Il modello utilizzato per generare le varianti _must_ contiene un segnaposto di contenuto [per il collegamento](/help/user-guide/content/customize-template.md#content-placeholders) per abilitare questa funzionalità.
+
+**Per aggiungere un collegamento immagine in una variante**:
+
 1. Dopo aver generato un set di varianti, fai clic su una risorsa di immagine.
 
    Se nella variante non è attualmente presente una risorsa immagine, fai clic sull’area della risorsa immagine.
 
-1. Per selezionare una risorsa immagine già pubblicata in [!DNL Content]:
-   1. Fai clic su **[!UICONTROL Seleziona dal contenuto]**. Utilizza i filtri per restringere ulteriormente i risultati della ricerca.
-   1. Fai clic su **[!UICONTROL Usa]**
-1. Per caricare una risorsa immagine:
-   1. Fai clic su **[!UICONTROL Carica nuova immagine]** per sfogliare i file e scegliere le risorse da utilizzare. Oltre a sfogliare il dispositivo, è possibile importare da Microsoft OneDrive o Dropbox.
-   1. Fare clic su **[!UICONTROL Aggiungi Assets]**.
+1. Fai clic sull’icona del collegamento.
+1. Fare clic su **[!UICONTROL Rimuovi collegamento]** per rimuovere il collegamento predefinito esistente.
+1. Aggiungi un collegamento nel campo di testo e fai clic su **[!UICONTROL Applica]**.
 
-   Le immagini vengono aggiunte o scambiate nella variante applicabile.
+   Il collegamento definito viene applicato a tutte le immagini nel set di varianti.
 
 ## Anteprima per dispositivo
 
@@ -176,9 +189,9 @@ Elimina varianti inutili in modo che l’area di lavoro mostri solo le varianti 
 
 ## Convalida del brand per variante
 
-Utilizza il _[!UICONTROL controllo delle linee guida per i marchi]_ e il _[!UICONTROL pannello di convalida dei marchi]_ per mantenere la coerenza dell&#39;identità del marchio e l&#39;allineamento delle varianti.
+Utilizza il pannello _Verifica contenuto_ per mantenere l&#39;identità del brand coerente, gli [standard di accessibilità ADA, le linee guida per la piattaforma](/help/user-guide/guidelines/overview.md#content-checks) e l&#39;allineamento delle varianti.
 
-Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 
 ## Feedback sulla generazione
 

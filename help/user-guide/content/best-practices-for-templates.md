@@ -4,9 +4,9 @@ description: Segui le best practice per l’utilizzo dei modelli con Adobe GenSt
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Crea modelli che soddisfino i requisiti di layout e di visualizzazione per ogni 
 
 Segui queste best practice per la progettazione quando personalizzi i modelli e-mail per l’utilizzo con GenStudio for Performance Marketing:
 
-- Utilizzare i font di Adobe o Google
-- Utilizza HTML e CSS in linea puliti e reattivi
+- Utilizzare i caratteri Adobe o Google
+- Utilizzare HTML e CSS in linea puliti e reattivi
 - **non** utilizza JavaScript
 - **not** utilizza la larghezza fissa nel corpo o nel contenitore
 - **not** utilizza la codifica base64 per le immagini perché può aumentare notevolmente le dimensioni del modello
@@ -72,7 +72,7 @@ Per l&#39;e-mail, il campo `subject` viene incluso automaticamente. Utilizza i s
 - `headline`
 - `body`
 - `cta`
-- `image` (selezionato dal contenuto)
+- `image` (selezionato da Content JPEG, PNG o GIF)
 - `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
@@ -115,19 +115,17 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 Per i metadati, i campi `headline`, `body` e `CTA` vengono generati automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
 
-- `image` (selezionato dal contenuto)
-- `on-image-text`
+- `image` (selezionato da Content JPEG, PNG o GIF)
+- `on_image_text`
 - `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
->[!TAB Annuncio visualizzato]
+>[!TAB Banner e annuncio visualizzato]
 
-[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+Segui queste best practice per la progettazione quando personalizzi i modelli di banner e annunci display per lavorare con GenStudio for Performance Marketing:
 
-Segui queste best practice per la progettazione quando personalizzi i modelli di annunci di visualizzazione per funzionare con GenStudio for Performance Marketing:
-
-- Utilizzare i font di Adobe o Google
+- Utilizzare i caratteri Adobe o Google
 - Prepara le risorse che vengono visualizzate correttamente in dimensioni sottili
 - **non** utilizza immagini di sfondo incorporate o codificate
 - Usa immagini di sfondo (campo `image`) caricate nell&#39;archivio dei contenuti di GenStudio for Performance Marketing
@@ -159,7 +157,55 @@ Utilizza i segnaposto di contenuto per i campi seguenti:
 - `headline`
 - `body`
 - `cta`
-- `image` (selezionato dal contenuto)
+- `image` (selezionato da Content JPEG, PNG o GIF)
+
+Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
+
+>[!TAB Annuncio LinkedIn]
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Segui queste best practice per la progettazione quando personalizzi i modelli di annunci LinkedIn per lavorare con GenStudio for Performance Marketing:
+
+**Vincoli**:
+
+- Utilizzo di [sezioni](customize-template.md#sections-or-groups):
+   - È possibile utilizzare una sola sezione, generando un singolo set di elementi modello.
+- Dimensione massima dell&#39;immagine: 5 MB
+- Massimo 70 caratteri per titolo
+- Testo introduttivo massimo 150 caratteri
+
+**Proporzioni supportate**:
+
+- Quadrato 1:1
+   - desktop o dispositivo mobile
+   - Min: 360 x 360 pixel
+   - Max: 4320 x 4320 pixel
+- Orizzontale 1,91:1
+   - desktop
+   - Min: 640 x 360 pixel
+   - Max: 7680 x 4320 pixel
+- Verticale 1:1,91
+   - mobile
+   - Min: 360 x 640 pixel
+   - Max: 2430 x 4320 pixel
+- Verticale 2.3
+   - mobile
+   - Min: 360 x 640 pixel
+   - Max: 2430 x 4320 pixel
+- Verticale 4.5 (raccomandato)
+   - mobile
+   - Min: 360 x 640 pixel
+   - Max: 2430 x 4320 pixel
+
+**Nomi di campi riconosciuti**:
+
+Per gli annunci LinkedIn, i campi `headline` e `CTA` vengono generati automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
+
+- `image` (selezionato da Content JPEG, PNG o GIF)
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 

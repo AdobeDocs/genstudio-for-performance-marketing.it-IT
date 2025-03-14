@@ -2,11 +2,10 @@
 title: Note sulla versione di Adobe GenStudio for Performance Marketing
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.2.13 {#latest}
+## 2025.03.13. {#latest}
+
+### Creare esperienze LinkedIn
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Aggiunto supporto per [la creazione di esperienze LinkedIn](/help/user-guide/create/create-linkedin.md). Consulta la scheda [LinkedIn ad](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
+
+### Creare esperienze banner
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+È stato aggiunto il supporto per [la creazione di esperienze banner](/help/user-guide/create/create-banner-experience.md). Consulta la scheda [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
+
+### Conformità
+
+Come parte del processo di convalida del brand, sono stati introdotti [standard di conformità](/help/user-guide/guidelines/overview.md) in [Controlli dei contenuti](/help/user-guide/guidelines/brand-validation.md). Questi controlli esaminano ogni variante di un&#39;esperienza in base alle linee guida [!DNL Brand], [!DNL Product] e [!DNL Persona], alle linee guida della piattaforma (ad esempio per Meta), alle considerazioni etiche e agli standard ADA. Questo processo fornisce una sintesi completa delle linee guida e degli standard da rivedere per una migliore conformità.
+
+### Estensibilità
+
+Il nuovo [framework di estensibilità](/help/extensibility/overview.md) di GenStudio for Performance Marketing fornisce alle organizzazioni gli strumenti per incorporare i propri protocolli di conformità alle attestazioni nel flusso di lavoro di creazione dei contenuti e nella convalida tramite componenti aggiuntivi o applicazioni estensibili.
+
+### Modelli
+
+* **Editor di codice modello**—Il nuovo [Editor di codice modello](/help/user-guide/content/code-editor.md) ti consente di verificare e perfezionare il modello per un utilizzo ottimale durante la generazione di nuove esperienze con GenStudio for Performance Marketing.
+
+  ![Visualizzazione editor di codice](/help/assets/template-detected-fields.png "Controlla i campi rilevati"){width="500" zoomable="yes"}
+
+* **Collegamenti nell&#39;immagine** - Personalizza il modello di posta elettronica abilitando i collegamenti immagine. Vedi [Personalizzare un modello: collegamento nell&#39;immagine](/help/user-guide/content/customize-template.md#link-on-image).
+* **Modelli AJO e Marketo** - Carica un modello creato in Adobe Journey Optimizer (AJO) o Marketo. Vedi [Utilizzare i modelli di AJO e Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+
+### Correzioni di problemi e miglioramenti
+
+* Funzionalità abilitata per [canale predefinito](/help/user-guide/guidelines/brands.md#channel-guidelines), [immagine](/help/user-guide/guidelines/brands.md#image-guidelines), [logo](/help/user-guide/guidelines/brands.md#logos) e [colore](/help/user-guide/guidelines/brands.md#colors) linee guida per [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
+* È stata aggiunta la possibilità di [aggiungere collegamenti alle immagini](/help/user-guide/create/manage-variants.md#add-image-link) all&#39;interno di una variante.
+* La funzionalità [Verifica contenuto](/help/user-guide/guidelines/brand-validation.md) e Revisione e approvazione è stata spostata nella nuova barra delle azioni a destra per ottimizzare lo spazio nell&#39;area di lavoro e migliorare l&#39;esperienza utente.
+* Flusso semplificato per [caricamento o aggiunta manuale di un marchio](/help/user-guide/guidelines/add-guidelines.md#add-brands).
+* È stata introdotta la possibilità di [aggiungere o scambiare risorse immagine all&#39;interno di una variante](/help/user-guide/create/manage-variants.md#swap-image) nell&#39;area di lavoro.
+* È stata migliorata l&#39;esperienza utente e la visibilità delle categorie di canale [nella home di creazione](/help/user-guide/create/overview.md), separandole in Supporti di proprietà, Supporti a pagamento e Sezioni Contenuto.
+* Filtro migliorato in [!DNL Insights] viste di tabella e galleria.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.02.13
 
 ### Miglioramenti alla pagina di destinazione per [!DNL Create]
 
@@ -23,11 +65,11 @@ La pagina di destinazione [!DNL Create] in GenStudio for Performance Marketing i
 
 ### Esportazione di approfondimenti in CSV
 
-È ora possibile scaricare la tabella visualizzabile da qualsiasi visualizzazione [!DNL Insights] in un file CSV. Questa funzione consente di esportare e analizzare facilmente i dati da varie visualizzazioni di [!DNL Insights], semplificando l&#39;analisi dei dati e le opzioni di reporting.
+È ora possibile scaricare la tabella visualizzabile da qualsiasi visualizzazione [!DNL Insights] in un file CSV. Questa funzionalità consente di esportare e analizzare dati da varie visualizzazioni di [!DNL Insights], semplificando l&#39;analisi dei dati e le opzioni di reporting.
 
-## Note sulle versioni precedenti
++++
 
-+++Note della versione 2025.1.16
++++Note relative al 2025.01.16
 
 ### Integrazione con Adobe Workfront Proof
 
@@ -45,7 +87,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 * I conteggi dei caratteri vengono ora visualizzati in tutti i campi generati e manuali degli annunci di visualizzazione. Vedi _Conteggi caratteri_ in [Esperienze metadati](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
 
-* _I collaboratori_ possono ora visualizzare le risorse ma non crearle, modificarle o eliminarle. In precedenza, i diritti dei collaboratori non venivano applicati come previsto in[!DNL Create]. <!-- GS-7614 -->
+* _I collaboratori_ possono ora visualizzare le risorse ma non crearle, modificarle o eliminarle. In precedenza, i diritti dei collaboratori non venivano applicati come previsto in [!DNL Create]. <!-- GS-7614 -->
 
 * Gli editor di contenuti ora possono modificare i metadati di risorse, esperienze e modelli. <!-- GS-4905 -->
 

@@ -2,7 +2,8 @@
 title: Funzioni immagine
 description: Scopri la funzione per immagini delle categorie di attributi utilizzate in GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Se lo stile dell&#39;immagine è identificato come `sketch` o `digital cartoon`,
 
 1. Nella pagina _Dettagli attributo_ sono elencate tutte le immagini con questo attributo.
 
-Nella tabella seguente sono elencate le categorie di funzioni immagine riconosciute da GenStudio for Performance Marketing AI. L’elenco degli attributi rilevati per una risorsa non è esaustivo. Assets che contiene un set completo di funzioni può essere limitato alle tre funzioni più dominanti identificate dall’intelligenza artificiale.
+Nella tabella seguente sono elencate le categorie di funzioni immagine riconosciute da GenStudio for Performance Marketing AI. L’elenco degli attributi rilevati per il contenuto multimediale non è esaustivo. I contenuti multimediali che contengono un set completo di funzioni possono essere limitati alle tre funzioni più dominanti identificate dall’intelligenza artificiale.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

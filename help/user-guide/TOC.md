@@ -4,10 +4,10 @@ breadcrumb-title: Guida utente
 user-guide-description: Esplora le funzionalità di Adobe GenStudio for Performance Marketing. Scopri come creare rapidamente risorse sul brand, generare varianti e ottimizzare le esperienze.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 22%
+source-wordcount: '189'
+ht-degree: 20%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 22%
    + [[!DNL Create] panoramica](create/overview.md)
    + [Esperienze e-mail](create/email-experiences.md)
    + [Meta esperienze](create/meta-experiences.md)
+   + [Esperienze LinkedIn](create/linkedin-experiences.md)
    + [Visualizzare esperienze annuncio](create/display-ad-experiences.md)
+   + [Esperienze banner](create/banner-experiences.md)
    + [Gestisci varianti](create/manage-variants.md)
    + [Crea un&#39;esperienza e-mail](create/create-email-experience.md)
    + [Creare un&#39;esperienza di annuncio multimediale](create/create-meta-ad.md)
+   + [Creare un&#39;esperienza LinkedIn](create/create-linkedin.md)
    + [Crea un&#39;esperienza di visualizzazione annuncio](create/create-display-ad.md)
+   + [Crea un&#39;esperienza banner](create/create-banner-experience.md)
 + Recensioni e approvazioni {#approve}
    + [Panoramica sulla revisione e sulle approvazioni](approvals/overview.md)
    + [Richiedi revisione e approvazione del contenuto](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 22%
    + Modelli {#templates}
       + [Utilizzare i modelli](content/use-templates.md)
       + [Personalizzare un modello](content/customize-template.md)
+      + [Editor codice modello](content/code-editor.md)
       + [Creare modelli accessibili](content/accessibility-for-templates.md)
       + [Best practice per i modelli](content/best-practices-for-templates.md)
 + Campagne {#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 22%
    + [Panoramica sugli approfondimenti](insights/overview.md)
    + [Connetti account canale](insights/connect-channel.md)
    + [Canali](insights/channels.md)
-   + [Esperienze](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [Annunci e posizionamento annunci](insights/ads.md)
+   + [File multimediali](insights/media.md)
    + [Attributi](insights/attributes.md)
    + Categorie di attributi {#categories}
       + [Funzioni immagine](insights/image-features.md)

@@ -1,12 +1,12 @@
 ---
 title: Connetti account canale
-description: Connetti un account di canale per monitorare le campagne di marketing Adobe GenStudio for Performance Marketing e le prestazioni delle risorse.
+description: Connetti un account di canale per monitorare le campagne Adobe GenStudio for Performance Marketing e le prestazioni multimediali.
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
+source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La prima volta che apri [!DNL Insights], potresti vedere un banner che ti guiderà a connettere Adobe GenStudio for Performance Marketing a un account di canale.
 
-Questa connessione consente a GenStudio for Performance Marketing di ricevere dati statistici dalle campagne di marketing, dalle risorse e dalle esperienze attive. Inizialmente, GenStudio for Performance Marketing acquisisce gli ultimi 6 mesi di dati in modo da disporre degli strumenti per analizzare i dati più recenti e intervenire.
+Questa connessione consente a GenStudio for Performance Marketing di ricevere dati statistici dalle campagne di marketing, dai media e dagli annunci attivi. Inizialmente, GenStudio for Performance Marketing acquisisce gli ultimi 6 mesi di dati in modo da disporre degli strumenti per analizzare i dati più recenti e intervenire.
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ GenStudio for Performance Marketing conserva i dati del canale per 13 mesi. Ques
 
 **Prerequisiti**:
 
-- Account facebook/Meta ads
+- Account Facebook/Meta ads
 - Accesso all&#39;account dei metadati con il livello di autorizzazione `View performance` per accedere ai report e visualizzare gli annunci
 - Rimuovere eventuali blocchi popup nel browser
 
@@ -41,13 +41,13 @@ GenStudio for Performance Marketing conserva i dati del canale per 13 mesi. Ques
 
 1. In _[!DNL Insights]_, fai clic su **[!UICONTROL Connetti un account di canale]**nel banner o fai clic sul pulsante **[!UICONTROL Aggiungi account]**(forma persona con segno più) nell&#39;angolo superiore destro.
 
-   È possibile che venga richiesto di accedere a Facebook. Al momento, facebook è l’unica opzione disponibile.
+   È possibile che venga richiesto di accedere a Facebook. Al momento Facebook è l’unica opzione disponibile.
 
 1. Accedi al tuo account Facebook.
 
    Potrebbe essere necessario rimuovere i blocchi popup e quindi utilizzare **[!UICONTROL Aggiorna]** per riprovare.
 
-1. Nel pop-up _[!UICONTROL Riconnetti]_ (Meta a Adobe symbol), verifica le informazioni dell&#39;account e fai clic su **[!UICONTROL Riconnetti]**.
+1. Nel pop-up _[!UICONTROL Riconnetti]_ (simbolo Meta to Adobe), verifica le informazioni sull&#39;account e fai clic su **[!UICONTROL Riconnetti]**.
 
    La riconnessione consente di visualizzare nuovamente GenStudio for Performance Marketing.
 

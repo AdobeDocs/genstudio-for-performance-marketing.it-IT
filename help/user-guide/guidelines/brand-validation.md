@@ -1,100 +1,88 @@
 ---
-title: Convalida del marchio in Adobe GenStudio per Performance Marketing
+title: Convalida del marchio in Adobe GenStudio for Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Convalida del brand
 
-In GenStudio for Performance Marketing, la convalida del brand è un componente essenziale che funziona in collaborazione con le funzionalità e le linee guida generative di IA: [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md). In questo modo tutti i contenuti saranno allineati alla tua identità del brand.
+In GenStudio for Performance Marketing, la convalida del brand è un componente essenziale che funziona in collaborazione con le funzionalità e le linee guida di IA generativa: [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md). In questo modo tutti i contenuti saranno allineati all’identità del brand, agli standard ADA e alle indicazioni sulla piattaforma dei singoli canali.
 
-GenStudio for Performance Marketing esegue la convalida del marchio su vari aspetti, tra cui:
+GenStudio for Performance Marketing esegue la convalida del brand e altri controlli dei contenuti su vari aspetti, tra cui:
 
-* Linee guida per il marchio specifiche per ciascun cliente
-* Copia delle linee guida per diverse piattaforme di canale
+* Linee guida [!DNL Brand], [!DNL Persona] e [!DNL Product] definite o predefinite
+* Linee guida per la piattaforma
 * Considerazioni etiche relative a genere, etnia, razza, stato di disabilità ed età nei contenuti generati dall’intelligenza artificiale
+* Standard dell&#39;American with Disabilities Act (ADA)
 
-## Controllo delle linee guida di [!DNL Brand]
+## Riepilogo verifica contenuto
 
-Un riepilogo delle informazioni di convalida del brand per ogni variante di contenuto generata è accessibile tramite l&#39;icona di controllo _[!DNL Brand]linee guida_ accanto a ogni variante nell&#39;area di lavoro.
+Un riepilogo della convalida del brand e altre informazioni di controllo del contenuto per ogni variante di contenuto generata è accessibile tramite l&#39;icona di riepilogo _Controllo contenuto_ per ogni variante nell&#39;area di lavoro.
 
-Il controllo _[!DNL Brand]delle linee guida_ visualizza la percentuale di conformità con il tuo [brand](brands.md). La percentuale viene calcolata come il numero di [linee guida](overview.md) che hanno superato la convalida rispetto al numero di linee guida testate.
+Il riepilogo del _controllo contenuto_ visualizza:
 
-Controllo ![[!DNL Brand] linee guida](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
+* Percentuale di conformità con [[!DNL Brand]](brands.md) calcolata come il numero di [linee guida](overview.md) che hanno superato la convalida rispetto al numero di linee guida testate
+* `Pass` o `Fail` risultato per le linee guida della piattaforma, ad esempio Meta o LinkedIn
+* `Pass` o `Fail` risultato per gli standard di accessibilità ADA
 
-Fai clic sull’icona per vedere quante linee guida sono conformi al tuo marchio e quante linee guida richiedono una revisione.
+![Riepilogo controllo contenuto](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment).
-
-## Pannello di convalida del brand
-
-Il pannello _Convalida marchio_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra dei menu superiore _o_ dall&#39;icona _Controllo linee guida marchio_ per una variante. Questo pannello fornisce informazioni dettagliate sulla convalida del marchio e illustra le opportunità di miglioramento per ogni sezione variante.
-
-Pannello di convalida ![[!DNL Brand]](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
-
-Nel pannello _Convalida marchio_ sono visualizzate le informazioni per:
-
-* **E-mail**:
-   * Sezione riga oggetto
-   * Sezione Preheader
-   * Sezione intestazione
-   * Sezione corpo
-   * Sezione CTA (invito all’azione)
-   * Linee guida per la voce del brand
-* **Meta annuncio**:
-   * Sezione titolo
-   * Sezione corpo del testo
-   * Sezione CTA (invito all’azione)
-   * Sezione testo su immagine
+Fai clic sulla percentuale per vedere quanto è conforme la variante. I punteggi vengono aggiornati automaticamente quando si apportano modifiche alle varianti. Puoi fare clic su _Visualizza e correggi i problemi_ per garantire un&#39;ulteriore conformità.
 
 Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment).
 
-### Filtro
+## Pannello di controllo contenuto
 
-Nel pannello _Convalida marchio_ puoi filtrare le linee guida visualizzate. Fai clic sull’icona del filtro nella parte superiore del pannello per visualizzare:
+Il pannello _Verifica contenuto_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra delle azioni di destra _o_ dall&#39;icona di riepilogo [_Verifica contenuto_](#content-check-summary) per una variante. Questo pannello fornisce una convalida dettagliata del brand. le linee guida per le piattaforme e le informazioni sugli standard di accessibilità, illustrando le opportunità di miglioramento per ogni sezione delle varianti.
 
-* **Linee guida soddisfatte**: visualizza solo le linee guida che hanno superato la convalida del brand.
-* **Linee guida che richiedono attenzione**: visualizza solo le linee guida che non hanno superato la convalida del brand e che richiedono ulteriori modifiche per essere più conformi al brand.
-* **Entrambi** - Visualizza tutte le linee guida rispetto alle quali vengono misurate le varianti.
+![Pannello di controllo contenuto](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+
+Il pannello _Verifica contenuto_ visualizza le informazioni di convalida e [conformità](/help/user-guide/guidelines/overview.md#compliance) per ogni sezione della variante:
+
+* Rappresentazione delle informazioni di riepilogo del _controllo contenuto_ per [!DNL Brand], linee guida della piattaforma e standard di accessibilità
+* _Sezione Necessità di revisione_ in cui viene visualizzato il numero di linee guida non riuscite e informazioni dettagliate su ciascuna linea guida da rivedere
+* _Sezione passata_ che visualizza il numero di linee guida trasmesse e informazioni dettagliate su ciascuna linea guida passata
+
+Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment) per scoprire come migliorare i punteggi del pannello _Verifica contenuto_.
+
+### Tipo di contenuto
+
+Nel pannello _Verifica contenuto_ è possibile attivare o disattivare i controlli degli standard di accessibilità e delle linee guida. Fai clic sull&#39;icona _Tipo di contenuto_ (icona livelli) nella parte superiore del pannello per attivare o disattivare:
+
+* **[!DNL Brand]** - Esegue i controlli associati alle linee guida di [!DNL Brand]
+* **Linee guida per Platform**: esegue i controlli associati alla piattaforma specifica per il canale, ad esempio Meta
+* **Accessibilità** - Esegue i controlli associati agli standard di accessibilità ADA
+
+Per **impostare il tipo di contenuto** per i controlli che si desidera eseguire, fare clic per disattivare o attivare i tipi disponibili e fare clic su **Applica**.
 
 ## Migliorare l’allineamento del brand
 
-Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;identità del brand coerente, utilizza il controllo _Linee guida per il brand_ e il pannello _Convalida marchio_. Puoi modificare manualmente sezioni specifiche per allinearle alle [linee guida per il brand](brands.md).
+Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;identità del brand coerente, utilizza il [_riepilogo del controllo dei contenuti_](#content-check-summary) e il [_pannello del controllo dei contenuti_](#content-check-panel). Puoi modificare manualmente sezioni specifiche per allinearle alle [[!DNL Brand] linee guida](brands.md), ai controlli delle linee guida della piattaforma e ai controlli degli standard di accessibilità.
 
-**Per migliorare l&#39;allineamento del brand per le varianti di contenuto generato**:
+**Per migliorare l&#39;allineamento del brand per le varianti generate**:
 
-1. Fare clic sull&#39;icona di controllo **[!UICONTROL [!DNL Brand]]** delle linee guida per una singola variante. Il controllo delle linee guida di [!DNL Brand] mostra un numero percentuale di allineamento del brand per una variante.
+1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per visualizzare le informazioni di convalida e accessibilità per una singola variante.
 
-   Consulta un riepilogo di quante linee guida per il brand sono conformi alla convalida del brand o richiedono maggiore attenzione.
-
-1. Per ottenere i dettagli delle sezioni e delle linee guida che richiedono miglioramenti, fai clic su **[!UICONTROL Rivedi]** _o_ fai clic sull&#39;icona _Convalida marchio_ nella barra dei menu superiore per aprire il pannello _Convalida marchio_.
-
-   Consulta tutte le sezioni e le linee guida per il brand che richiedono la tua attenzione.
+   Puoi visualizzare un riepilogo delle _verifiche necessarie_ e _verifiche superate_ per vedere quali sezioni e linee guida necessitano di miglioramenti.
 
    >[!NOTE]
    >
-   > La linea guida di _Brand voice_ indicata nel _pannello di convalida del brand_ si applica all&#39;intera variante, non a una singola sezione. L’intera variante di contenuto è evidenziata per suggerire un miglioramento.
+   > La linea guida di _Brand voice_ indicata nel pannello _Verifica contenuto_ si applica all&#39;intera variante, non a una singola sezione. L’intera variante di contenuto è evidenziata per suggerire un miglioramento.
 
-1. Fai clic sulle linee guida che richiedono attenzione, utilizzando i pulsanti **[!UICONTROL Successivo]** e **[!UICONTROL Precedente]**.
+1. Fai clic su per correggere le linee guida attualmente non conformi.
+1. Fai clic su per espandere ed esaminare ogni controllo che necessita di revisione nelle sezioni disponibili, ad esempio _Titolo_ e _Voce marchio_.
 
-1. Utilizza il ragionamento riportato per ogni linea guida per informare eventuali revisioni alle sezioni delle varianti al fine di ottenere il massimo allineamento al tuo marchio.
+   Utilizza il ragionamento fornito per ogni controllo per guidarti nella revisione delle varianti.
 
+1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Ricontrolla il punteggio]** per ricontrollare e convalidare le modifiche per assicurarti che siano più allineate con l&#39;identità del tuo marchio, le linee guida della piattaforma e gli standard di accessibilità.
 
-1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Controlla di nuovo]** per verificare e convalidare di nuovo le modifiche per assicurarti che siano più strettamente allineate con la tua identità del brand.
+   Il processo di controllo del contenuto viene eseguito nuovamente. Se gli elementi rivisti superano la convalida, nella parte inferiore dell’area di lavoro viene visualizzato un banner verde per confermare che il punteggio è stato aggiornato. Se non ci sono state modifiche dopo un nuovo controllo, il banner conferma che non vi sono state modifiche al punteggio. Anche la percentuale nell&#39;icona di riepilogo del _controllo contenuto_ per la variante rivista mostra l&#39;avanzamento.
 
-   Il processo di convalida del brand viene eseguito nuovamente. Se la sezione/linea guida supera la convalida, nella parte inferiore dell’area di lavoro viene visualizzato un banner verde per confermare &quot;Il punteggio delle linee guida del marchio è stato aggiornato&quot;. Se non ci sono state modifiche dopo un nuovo controllo, il banner conferma &quot;Nessuna modifica al punteggio di linea guida del brand&quot;. Anche la percentuale nell&#39;icona _Controllo linee guida per il marchio_ per la variante rivista mostra il tuo avanzamento.
+1. Continua a rivedere le sezioni per garantire che l’intera variante superi i controlli di convalida e accessibilità. Naviga tra le varianti utilizzando le frecce adiacenti a una singola variante nell’area di lavoro.
 
-1. Continua a rivedere le sezioni per garantire che l’intera variante superi la convalida del brand.
-
-   Naviga tra le linee guida nel _pannello di convalida del marchio_ utilizzando i pulsanti **[!UICONTROL Next]** e **[!UICONTROL Previous]**.
-
-1. Naviga tra le varianti utilizzando le frecce adiacenti a una singola variante nell’area di lavoro. Ad esempio, utilizzare la freccia per passare da `Email 1/4` a `Email 2/4`.
-1. Continua a rivedere le sezioni per rispettare meglio il tuo marchio.
-
-   Per ulteriori informazioni sulle linee guida considerate, consulta le [linee guida per la voce del marchio](/help/user-guide/guidelines/brands.md#brand-voice-guidelines).

@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Ogni campo e sezione di esperienze e-mail viene caricato progressivamente in que
 1. Pre-intestazioni
 1. Titoli, corpo dell’e-mail (per e-mail a sezione singola) e inviti all’azione
 1. Corpo dell’e-mail per le sezioni successive (per e-mail con più sezioni)
-1. Il processo di convalida del brand si verifica e il [_controllo delle linee guida per il brand_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) viene compilato per ogni variante.
+1. Convalida del brand
+
+   Il processo di convalida del marchio e di controllo del contenuto si verifica e il riepilogo del [_controllo del contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-summary) viene compilato per ogni variante.
 
 ## Conteggi caratteri
 

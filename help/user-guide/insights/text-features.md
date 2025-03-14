@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Le caratteristiche del testo includono conteggi per alcuni elementi di testo, quali parole, frasi, emoticon e classificazioni per semantica, emozione e tono, utilizzati per l&#39;analisi con [!DNL Insights]. Il testo può inoltre ricevere un punteggio di leggibilità.
 
-GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare il testo e applicare [!UICONTROL attributi di risorse] in base ai toni di testo associati e alla narrazione di marketing. Il processo convalida il testo di input per verificare che contenga caratteri alfanumerici, rimuovendo gli spazi vuoti aggiuntivi e i caratteri non stampabili e troncando il testo fino al massimo consentito di 1500 parole. Prima di applicare i tag attributo rilevati, l’intelligenza artificiale prevede il tono prevalente.
+GenStudio for Performance Marketing utilizza le funzionalità di intelligenza artificiale e machine learning di Adobe per studiare il testo e applicare [!UICONTROL attributi multimediali] in base ai toni di testo associati e alla narrazione di marketing. Il processo convalida il testo di input per verificare che contenga caratteri alfanumerici, rimuovendo gli spazi vuoti aggiuntivi e i caratteri non stampabili e troncando il testo fino al massimo consentito di 1500 parole. Prima di applicare i tag attributo rilevati, l’intelligenza artificiale prevede il tono prevalente.
 
 ## Tono della voce
 
@@ -52,7 +53,7 @@ Altri valori secondari per il tono includono: `Enthusiastic`, `Assertive`, `Humo
 
 ## Narrativa
 
-Gli attributi narrativi consentono di identificare le risorse che comunicano i valori, lo scopo o l’identità che risuonano con il pubblico di destinazione.
+Gli attributi narrativi consentono di identificare i media che comunicano i valori, lo scopo o l’identità che risuonano con il pubblico di destinazione.
 
 | Narrativa | Descrizione | Esempio |
 | ----------------- | ----------- | ------- |

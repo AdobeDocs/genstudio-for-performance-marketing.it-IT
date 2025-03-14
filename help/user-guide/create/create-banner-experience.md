@@ -1,42 +1,40 @@
 ---
-title: Creare un’esperienza di visualizzazione annuncio
-description: Scopri come creare esperienze di annunci display in Adobe [!DNL GenStudio] for Performance Marketing.
+title: Creare un'esperienza di banner
+description: Scopri come creare esperienze banner in Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
-# Creare un’esperienza di visualizzazione annuncio
+# Creare un&#39;esperienza di banner
 
-Questo tutorial illustra come generare [esperienze pubblicitarie con marchio](display-ad-experiences.md) utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello nell&#39;area di navigazione a sinistra).
+Questa esercitazione mostra come creare [esperienze banner](banner-experiences.md) con il marchio utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello nell&#39;area di navigazione a sinistra).
 
-Per progettare un&#39;esperienza di visualizzazione coinvolgente, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sui prompt di scrittura](/help/user-guide/effective-prompts.md) prima di iniziare.
+Per progettare un&#39;esperienza di banner coinvolgente, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sui prompt di scrittura](/help/user-guide/effective-prompts.md) prima di iniziare.
 
 ## Scegli un modello
 
-Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disponibile per fornire il framework per il contenuto. Consulta [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni degli annunci di visualizzazione supportate.
+Per creare un&#39;esperienza banner, utilizza un modello disponibile per fornire il framework per il contenuto. Consulta [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni del banner supportate.
 
-**Per scegliere un modello di annuncio visualizzato**:
+**Per scegliere un modello di banner**:
 
-1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci visualizzati]**in_&quot;Cosa vuoi creare oggi?&quot;_sezione.
-1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello di annuncio visualizzato specifico.
-1. Nella visualizzazione _Seleziona modello_, fai clic su un modello di annuncio visualizzato.
+1. In _[!DNL Create]_, fare clic su **[!UICONTROL Banner]**in_&quot;Cosa si desidera creare oggi?&quot;_sezione.
+1. Utilizza l&#39;opzione di ricerca, adiacente al _filtro_, per trovare un modello di banner specifico.
+1. Nella visualizzazione _Seleziona modello_, fare clic su un modello di banner.
 1. Fai clic su **[!UICONTROL Usa]**.
 
-   Viene visualizzato Canvas, che funge da hub centrale per la creazione dei contenuti.
+   Viene visualizzato Canvas, che è la home base per la creazione di contenuti.
 
 ## Aggiungi parametri
 
-L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza di visualizzazione annuncio.
-
-Se si utilizza un modello con linee guida predefinite, [!DNL Brands], [!DNL Personas] o [!DNL Products], queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
+L&#39;incorporazione di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt migliora il processo di generazione dei contenuti ed è un passaggio preparatorio fondamentale per la creazione di un&#39;esperienza banner.
 
 **Per aggiungere parametri e risorse**:
 
@@ -57,7 +55,7 @@ Al termine dell&#39;aggiunta dei parametri, comprimere il cassetto dei prompt fa
 
 ## Immetti un prompt
 
-Dopo aver selezionato le linee guida, crea un prompt utilizzando il linguaggio naturale per iniziare a generare contenuti per la nuova esperienza di visualizzazione degli annunci. Per migliorare la qualità delle esperienze e dei display generati, è fondamentale creare prompt dettagliati e descrittivi.
+Dopo aver selezionato le linee guida, utilizza il linguaggio naturale per creare un prompt per avviare la generazione dei contenuti per la nuova esperienza del banner. Per garantire risultati di alta qualità, è essenziale creare prompt dettagliati e descrittivi.
 
 ![Immetti un prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt eff
 
 Per impostazione predefinita, quattro varianti (alimentate dal prompt, dalle linee guida e dal contenuto aggiunto) vengono generate e visualizzate nell’area di lavoro.
 
-## Rivedi varianti generate
+## Rivedere i banner generati
 
-Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblicazione a [!DNL Content], è possibile modificare sezioni di annunci di visualizzazione e campi di testo oppure eliminare una variante generata.
+Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblicazione a [!DNL Content], è possibile modificare sezioni di banner e campi di testo oppure eliminare una variante generata.
 
 **Per rivedere le varianti generate**:
 
-* **Per [modificare il nome della bozza dell&#39;annuncio visualizzato](/help/user-guide/create/manage-variants.md#change-draft-name)**, fare clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immettere un nuovo titolo.
-* **Per [modificare manualmente un annuncio di visualizzazione](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare doppio clic in una sezione o in un campo dell&#39;annuncio di visualizzazione (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarlo in base alle esigenze.
+* **Per [modificare il nome della bozza del banner](/help/user-guide/create/manage-variants.md#change-draft-name)**, fare clic nel titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immettere un nuovo titolo.
+* **Per [modificare manualmente un banner](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare doppio clic su una sezione o un campo del banner (ad esempio il titolo o CTA) e modificarlo in base alle esigenze.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fai clic su un campo di testo modificabile e utilizza le _[!UICONTROL opzioni di modifica consigliate]_ oppure immetti un nuovo prompt nella _[!UICONTROL Generate new text_ section] e fai clic su **[!UICONTROL Generate]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 * **Per [aggiungere un collegamento a un&#39;immagine in una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, fare clic su una risorsa immagine (o sull&#39;area della risorsa immagine se non esiste attualmente un&#39;immagine) e fare clic sull&#39;icona del collegamento.
@@ -98,7 +96,7 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
 **Per eseguire controlli del contenuto su una variante**:
 
-1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per aprire il pannello [_Verifica contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visualizza un riepilogo delle *verifiche necessarie* e *verifiche superate* per vedere quali sezioni e linee guida necessitano di miglioramenti.
+1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per aprire il pannello [_Verifica contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visualizza un riepilogo delle _verifiche necessarie_ e _verifiche superate_ per vedere quali sezioni e linee guida necessitano di miglioramenti.
 
    ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 
 ## Ottieni recensioni e approvazioni
 
-Utilizza il pannello Approvazioni, accessibile come icona sulla barra delle azioni a destra dell’area di lavoro, per ottenere revisioni, tenere traccia dei commenti di revisione e ottenere approvazioni dalle parti interessate.
+Utilizza il pannello _Approvazioni_, accessibile come icona sulla barra delle azioni a destra dell&#39;area di lavoro, per ottenere recensioni, tenere traccia dei commenti di revisione e ottenere le approvazioni delle parti interessate.
 
 **Per ottenere revisioni e approvazioni**:
 
-1. [Avvia una richiesta di approvazione](/help/user-guide/approvals/request-review.md) per richiedere un [approvazione delle bozze di esperienze pubblicitarie](/help/user-guide/approvals/approve-content.md).
+1. [Avvia una richiesta di approvazione](/help/user-guide/approvals/request-review.md) per richiedere un [approvazione delle esperienze banner bozza](/help/user-guide/approvals/approve-content.md).
 1. [Rimuovere o aggiungere revisori](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante il processo di revisione.
 1. [Accedere al contenuto per la revisione](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e visualizzare le richieste di revisione.
-1. Modifica le bozze in base ai commenti di revisione e [pubblica le esperienze degli annunci di visualizzazione](#publish-and-export-experience).
+1. Modifica le bozze in base ai commenti di revisione e [pubblica le esperienze del banner](#publish-and-export-experience).
 
 Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 
 ## Pubblicare ed esportare esperienze
 
-Per rendere gli annunci di visualizzazione generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
+Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
-1. **Per pubblicare le nuove esperienze degli annunci visualizzati**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
+1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
    1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
-      ![Pubblica un annuncio visualizzato](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Per esportare le nuove esperienze degli annunci visualizzati**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
+1. **Per esportare i nuovi banner**, fai clic su **[!UICONTROL Esporta]** nella barra degli strumenti superiore.
    1. Seleziona il formato (HTML e immagini, PNG o JPG) e fai clic su **[!UICONTROL Esporta]**.
 
       Il HTML esportato deve trovarsi all&#39;interno di una proprietà Web predefinita, ad esempio un modello o un contenitore `div`. Senza queste dimensioni impostate, le immagini potrebbero apparire distorte se visualizzate in modo indipendente.

@@ -3,9 +3,9 @@ title: Panoramica dei canali
 description: Guarda una panoramica del coinvolgimento dei clienti, delle prestazioni, del budget e delle spese per le campagne di marketing in Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ La visualizzazione [!DNL Insights] _[!UICONTROL Canali]_ mostra un elenco di cam
 
 {{connect-insights}}
 
-La tabella _[!UICONTROL Canali]_ è organizzata utilizzando la campagna pubblicitaria basata su canale. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare gli elenchi [!UICONTROL Account], [!UICONTROL Stato] e [!UICONTROL Obiettivo] per filtrare le campagne nella tabella.
+La tabella _[!UICONTROL Canali]_ è organizzata utilizzando la campagna pubblicitaria basata su canale. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili. L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi. Seleziona **[!UICONTROL Cancella tutto]** sopra la tabella per rimuovere tutti i filtri.
 
 ![Filtro canali e tabella](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-Quando selezioni una campagna, la scheda [[!UICONTROL Esperienze]](experiences.md) si apre in un elenco di nomi di annunci associati alla campagna, che ti consente di identificare quali esperienze hanno contribuito al suo successo complessivo.
+Quando selezioni una campagna, la scheda [[!UICONTROL Annunci]](ads.md) si apre in un elenco di nomi di annunci associati alla campagna, che ti consente di identificare quali annunci hanno contribuito al suo successo complessivo.
 
 ## Obiettivi
 

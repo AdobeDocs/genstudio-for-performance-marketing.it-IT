@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guida all’estensibilità di Adobe GenStudio for Performance Marketing
 breadcrumb-title: Guida all’estensibilità
-user-guide-description: Esplora le funzionalità di GenStudio for Performance Marketing e crea applicazioni estensibili con l’interfaccia utente di GenStudio SDK.
+user-guide-description: Esplora le funzionalità del framework di estensibilità di Adobe GenStudio for Performance Marketing.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: 2886d806013d044475fc2e81a502a07ba3c7d19c
+source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---

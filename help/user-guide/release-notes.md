@@ -3,9 +3,9 @@ title: Note sulla versione di Adobe GenStudio for Performance Marketing
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2109'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Aggiunto supporto per [la creazione di esperienze LinkedIn](/help/user-guide/cre
 
 ### Conformità
 
-Come parte del processo di convalida del brand, sono stati introdotti [standard di conformità](/help/user-guide/guidelines/overview.md) in [Controlli dei contenuti](/help/user-guide/guidelines/brand-validation.md). Questi controlli esaminano ogni variante di un&#39;esperienza in base alle linee guida [!DNL Brand], [!DNL Product] e [!DNL Persona], alle linee guida della piattaforma (ad esempio per Meta), alle considerazioni etiche e agli standard ADA. Questo processo fornisce una sintesi completa delle linee guida e degli standard da rivedere per una migliore conformità.
+Come parte del processo di convalida del brand, sono stati introdotti [standard di conformità](/help/user-guide/guidelines/overview.md) in [Controlli dei contenuti](/help/user-guide/guidelines/brand-validation.md). Questi controlli esaminano ogni variante di un&#39;esperienza in base alle linee guida di [!DNL Brand], alle linee guida della piattaforma (ad esempio per Meta) e agli standard ADA. Questo processo fornisce una sintesi completa delle linee guida e degli standard da rivedere per una migliore conformità.
 
 ### Estensibilità
 

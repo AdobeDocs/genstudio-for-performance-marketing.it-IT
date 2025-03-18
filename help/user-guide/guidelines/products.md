@@ -1,20 +1,20 @@
 ---
-title: GenStudio per il marketing delle prestazioni [!DNL Products]
-description: GenStudio for Performance Marketing [!DNL Products] incorpora tutti gli aspetti del prodotto (immagini, descrizioni e proposte di valore) per creare contenuti rilevanti che mettano in evidenza i punti di forza del prodotto e mantengano la coerenza nella messaggistica del prodotto.
-feature: Products Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Products]
+description: GenStudio for Performance Marketing [!DNL Products] incorpora tutti gli aspetti del prodotto (immagini, descrizioni e proposte di valore) per creare contenuti rilevanti che evidenziano i punti di forza del prodotto e mantengono la coerenza nella messaggistica del prodotto.
+feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
-# GenStudio per il marketing delle prestazioni [!DNL Products]
+# GenStudio for Performance Marketing [!DNL Products]
 
 [!DNL Products] in GenStudio for Performance Marketing sfrutta una conoscenza approfondita delle specifiche di prodotto, dei vantaggi e dei fattori di differenziazione per generare contenuti di impatto.
 
-[!DNL Products] include tutti gli elementi di un prodotto specifico, ad esempio immagini, descrizioni e proposte di valore, per creare una rappresentazione coerente del marchio. Sfruttando la tecnologia di intelligenza artificiale avanzata di Adobe, le linee guida di GenStudio for Performance Marketing [[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md) collaborano per generare contenuti coinvolgenti che presentino i punti di forza dei tuoi prodotti e garantiscano la coerenza di tutti i messaggi.
+[!DNL Products] include tutti gli elementi di un prodotto specifico, ad esempio immagini, descrizioni e proposte di valore, per creare una rappresentazione coerente del marchio. Sfruttando la tecnologia di intelligenza artificiale avanzata di Adobe, le linee guida di GenStudio for Performance Marketing—[[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md)— collaborano per generare contenuti coinvolgenti che mostrino i punti di forza dei tuoi prodotti e garantiscano la coerenza di tutti i messaggi.
 
 **Per visualizzare o modificare un prodotto**:
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 1. Per [visualizzare i singoli dettagli o modificare un prodotto](add-guidelines.md#manage-products), fare clic sul menu Azioni _[!DNL Products]_e selezionare **[!UICONTROL Apri]**.
 1. Rivedi le linee guida del prodotto facendo clic su in un campo di testo categoria linee guida.
 
-Consulta [Aggiungi linee guida](add-guidelines.md) per scoprire come aggiungere o modificare un prodotto in GenStudio per Performance Marketing.
+Consulta [Aggiungere linee guida](add-guidelines.md) per scoprire come aggiungere o modificare un prodotto in GenStudio for Performance Marketing.
 
 ## [!DNL Products] linee guida
 

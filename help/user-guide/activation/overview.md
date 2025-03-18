@@ -1,35 +1,43 @@
 ---
-title: Panoramica dell’attivazione
+title: Panoramica di Activate
 description: Scopri come attivare i contenuti con Adobe Experience Cloud e applicazioni di terze parti.
-feature: Assets, Approval, Experiences
+feature: Assets, Experiences
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: c3b8419deccd24cd565627fcb3f7d6376860e84a
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
-# Attivazione di Adobe GenStudio for Performance Marketing
+# Attivazione Adobe GenStudio for Performance Marketing
 
-_Activation_ consiste nel rendere disponibili le risorse e le esperienze generate da Adobe GenStudio for Performance Marketing per la distribuzione tramite i tuoi canali selezionati e i prodotti Adobe Experience Cloud. È possibile esportare facilmente i contenuti approvati da GenStudio for Performance Marketing nei formati ottimali per le applicazioni di terze parti incluse in [!DNL Products].
+In GenStudio for Performance Marketing _[!DNL Activate]_è disponibile una posizione centrale per la preparazione dell&#39;esperienza pubblicitaria per l&#39;attivazione della selezione dei canali di annunci a pagamento._ Activation _è il processo di consegna dell&#39;esperienza pubblicitaria ai canali designati in stato inattivo, pronti per la revisione finale e la distribuzione dal canale. Le esperienze pubblicitarie possono quindi essere distribuite nei mercati a cui sono destinate.
 
-La funzione di attivazione di GenStudio for Performance Marketing è integrata in modo nativo nei prodotti Experience Delivery di Adobe: Journey Optimizer, Journey Optimizer B2B edition, Experience Manager, Marketo e Target.
+Gli editor di contenuti e i responsabili di sistema possono pubblicare esperienze le cui risorse vengono generate o caricate in GenStudio for Performance Marketing.
 
-**Per attivare una risorsa approvata**:
+[!DNL Activate] visualizza un riquadro di prodotto per ogni canale. Questa sezione identifica il canale dei media a pagamento ed elenca il numero di attivazioni pubblicitarie riuscite che si sono verificate negli ultimi 30 giorni. Fornisce anche un punto di ingresso per la gestione delle attivazioni e la creazione di una nuova attivazione.
 
-1. Seleziona la risorsa da [!DNL Content].
+Prima di poter attivare un’esperienza pubblicitaria, ogni account del canale media a pagamento deve essere connesso a GenStudio for Performance Marketing.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Scarica]** (freccia giù) sopra la visualizzazione _Dettagli_.
+## Casi di utilizzo di [!DNL Activate]
 
-   La risorsa viene scaricata come file ZIP nella cartella locale _Download_.
+* [Crea un&#39;attivazione](create-activation.md). Puoi creare un’esperienza pubblicitaria selezionando le risorse visive, assegnando il testo e definendo i metadati prima di inviarli a un canale a pagamento.
 
-**Per attivare un&#39;esperienza approvata**:
+* [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
 
-1. Seleziona l&#39;esperienza da [!DNL Content] > [!DNL Experiences].
+## Funzionalità di [!DNL Activate]
 
-1. Fare clic sul pulsante **[!UICONTROL Esporta per l&#39;attivazione]** nella visualizzazione Dettagli dell&#39;esperienza. In GenStudio for Performance Marketing viene visualizzata la finestra a comparsa **[!UICONTROL Esporta per attivazione]** e sono disponibili due formati di download: CSV e HTML. In alternativa, è possibile accedere al pulsante *[!UICONTROL Esporta per attivazione]** dal menu _Altre opzioni_ (rappresentato da `...`).
+_[!DNL Activate]_facilita la preparazione dell&#39;esperienza dell&#39;annuncio per la distribuzione ai suoi canali a pagamento target.
 
-1. Seleziona il formato di download preferito facendo clic sul pulsante **[!UICONTROL Esporta CSV]** o **[!UICONTROL Esporta HTML]** nel popup.
+### Prepara per l&#39;attivazione
 
-   Il processo di esportazione crea un pacchetto ZIP nella cartella locale _Download_. Questo nome di cartella è uguale al nome dell’esperienza.
+La pagina _Configurazione di Creative_ consolida gli strumenti necessari per selezionare gli elementi visivi di un&#39;esperienza pubblicitaria, modificare il testo dell&#39;annuncio (incluso il testo di invito all&#39;azione) e aggiungere metadati utili per migliorare il tracciamento dell&#39;esperienza e la visibilità.
+
+### Selezionare le risorse per l’esperienza pubblicitaria
+
+Cerca e seleziona le risorse visive approvate da _[!DNL Content]_oppure carica le risorse da Dropbox o OneDrive. Puoi anche caricare le risorse direttamente dal dispositivo. Un’esperienza annuncio può essere eseguita in più posizionamenti. Assets può essere caricato nelle proporzioni richieste dai tuoi posizionamenti di annunci.
+
+### Visualizzare in anteprima e attivare l’esperienza in un canale di annunci
+
+Conferma gli account canale a pagamento, i set di annunci e le campagne Meta associati a questa attivazione dell’annuncio. Il pannello _Anteprima_ consente di visualizzare le esperienze pubblicitarie in diversi posizionamenti prima di finalizzarle. (Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.) Quando sei soddisfatto della tua esperienza pubblicitaria, fai clic su **[!UICONTROL Pubblica]** per inviare l&#39;esperienza e i metadati associati al canale dell&#39;annuncio a pagamento.

@@ -2,12 +2,13 @@
 title: Preparare un modello di e-mail per Adobe GenStudio for Performance Marketing
 description: Scopri come creare un modello e-mail personalizzato per Adobe GenStudio for Performance Marketing.
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Definisci le aree nel modello e-mail che devono essere compilate dinamicamente c
 Per definire le aree di contenuto generato:
 
 * Identifica gli elementi di testo nel modello che GenStudio for Performance Marketing deve generare automaticamente, ad esempio il titolo o CTA.
-* Adatta il modello di HTML inserendo segnaposto al suo interno utilizzando la sintassi Handlebars.
+* Adattare il modello HTML inserendo segnaposto utilizzando la sintassi Handlebars.
 
 Vedi [Segnaposto contenuto](/help/user-guide/content/customize-template.md#content-placeholders).
 

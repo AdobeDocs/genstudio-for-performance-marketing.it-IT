@@ -2,9 +2,9 @@
 title: Richiedi revisioni e approvazioni
 description: Richiedi una revisione dei contenuti generati con Adobe GenStudio for Performance Marketing.
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: 1e66e13df8f1d7ddb6b6a11af6f751ba3a9b8a04
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Dopo aver generato le varianti di contenuto, puoi richiedere la revisione e l’
 **Per richiedere una revisione**:
 
 1. Fare clic sul pulsante **[!UICONTROL Invia per l&#39;approvatore]** nella barra dei menu superiore dell&#39;area di lavoro. Il popup _Invia per approvazione_ apre e identifica la bozza per la quale si sta richiedendo una revisione. Se generi più varianti, l’intera area di lavoro viene inviata per la revisione.
+
+1. Conferma che il titolo della bozza sia descrittivo, informativo e indirizzi gli approvatori all’obiettivo di revisione. Seleziona il campo _Titolo_ per modificare il titolo della bozza, se necessario. Modificando il titolo qui, viene modificato anche il titolo della bozza sottostante dell’esperienza.
 
 1. Selezionare l&#39;approvatore o gli approvatori da cui si desidera richiedere una revisione. Quando si inizia a digitare, il campo **[!UICONTROL Approvatore]** completa automaticamente il nome utente dell&#39;approvatore dall&#39;elenco di utenti con le autorizzazioni di visualizzazione e approvazione di GenStudio for Performance Marketing. Il pulsante **[!UICONTROL Invia]** è attivato dopo aver immesso almeno un nome di approvatore.
 

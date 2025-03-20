@@ -2,9 +2,9 @@
 title: Provisioning di Adobe GenStudio for Performance Marketing
 description: Scopri come effettuare il provisioning del prodotto GenStudio for Performance Marketing.
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Generative AI
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Provisioning di Adobe GenStudio for Performance Marketing
 
-Un amministratore di Adobe esegue le attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Dall’Admin Console, un amministratore di Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
+Un amministratore di sistema Adobe esegue le attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Da Admin Console, un amministratore di sistema Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
 
 >[!NOTE]
 >
->Solo gli amministratori di Adobe possono implementare attività di abilitazione che richiedono l’accesso a Adobe Admin Console.
+>Solo gli amministratori di sistema di Adobe possono implementare attività di abilitazione che richiedono l’accesso a Adobe Admin Console.
 
 >[!IMPORTANT]
 >
@@ -25,17 +25,17 @@ Un amministratore di Adobe esegue le attività iniziali di provisioning in [Adob
 
 ## Passaggio 1: accedere al profilo di prodotto in Adobe Admin Console
 
-All’interno dell’Admin Console, il profilo di prodotto definisce regole e profili utente specifici per la creazione e la gestione di marchi e campagne all’interno di GenStudio for Performance Marketing.
+All’interno di Admin Console, il profilo di prodotto definisce regole e profili utente specifici per la creazione e la gestione di marchi e campagne all’interno di GenStudio for Performance Marketing.
 
 **Per accedere al profilo di prodotto GenStudio**
 
 1. Fai clic sul collegamento **Inizia** nell&#39;e-mail di benvenuto per accedere a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
 
-1. Accedi all’Admin Console utilizzando il tuo Adobe ID.
+1. Accedi ad Admin Console utilizzando il tuo Adobe ID.
 
    Dopo aver effettuato l&#39;accesso, viene visualizzata la scheda _Panoramica_ di Adobe Admin Console.
 
-1. Passa alla scheda _Prodotti_. In questa scheda vengono visualizzati tutti i prodotti Adobe acquistati dalla tua organizzazione.
+1. Passa alla scheda _Prodotti_. Questa scheda mostra tutti i prodotti Adobe acquistati dalla tua organizzazione.
 
 1. Seleziona **[!UICONTROL GenStudio]** dall&#39;elenco dei prodotti. Nella console viene visualizzato il profilo di prodotto GenStudio, con informazioni chiave sulle licenze di prodotto acquistate dalla tua organizzazione. Fornisce inoltre opzioni per la gestione di queste licenze.
 
@@ -43,7 +43,7 @@ All’interno dell’Admin Console, il profilo di prodotto definisce regole e pr
 
 ## Passaggio 2: assegnare ruoli agli utenti
 
-Il provisioning degli utenti nell’Admin Console consiste nell’assegnare le licenze dei prodotti agli utenti. Questi utenti devono appartenere all’organizzazione IMS specificata nel profilo di prodotto. È possibile assegnare ruoli utente all’organizzazione GenStudio for Performance Marketing nello stesso modo in cui assegnare ruoli utente ad altri prodotti Adobe. Puoi aggiungere utenti manualmente o importare utenti in blocco.
+Il provisioning degli utenti in Admin Console è il processo di assegnazione delle licenze dei prodotti agli utenti. Questi utenti devono appartenere all’organizzazione IMS specificata nel profilo di prodotto. È possibile assegnare ruoli utente all’organizzazione GenStudio for Performance Marketing nello stesso modo in cui assegnare ruoli utente ad altri prodotti Adobe. Puoi aggiungere utenti manualmente o importare utenti in blocco.
 
 >[!TIP]
 >

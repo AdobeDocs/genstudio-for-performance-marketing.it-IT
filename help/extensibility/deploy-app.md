@@ -1,13 +1,14 @@
 ---
 title: Distribuire l’app App Builder
 description: Distribuisci l’app App Builder, o il componente aggiuntivo, per GenStudio for Performance Marketing.
-source-git-commit: acc54215d980f1f7392401cca9d90ed0ce41b2ec
+feature: Extensibility
+exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
+source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Distribuire l’app
 

@@ -1,10 +1,11 @@
 ---
 title: Guida all’estensibilità di Adobe GenStudio
 description: Scopri le funzionalità dell’interfaccia utente SDK di Adobe GenStudio for Performance Marketing e come creare applicazioni estensibili.
+feature: Extensibility, Compliance
 exl-id: 4eca9e83-a109-431e-bfaa-9a6f7682e56f
-source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
+source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

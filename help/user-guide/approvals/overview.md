@@ -1,9 +1,10 @@
 ---
 title: Recensioni e approvazioni di Adobe GenStudio for Performance Marketing
 description: Scopri il processo di revisione e approvazione di GenStudio for Performance Marketing.
-feature: Approval
+level: Beginner
+feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: d6f9673c7b6c8bc1aa051c2133759876a59217eb
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -53,7 +54,7 @@ Stati bozza disponibili:
 
 Le notifiche interne al prodotto di GenStudio for Performance Marketing aggiornano in tempo reale gli approvatori e gli editor di contenuti in merito alle modifiche di stato delle risorse e `@mention` commenti. Le notifiche supportano una rapida iterazione attraverso più cicli di revisione, modifica e approvazione.
 
-Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi nell&#39;Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 Le azioni intraprese dai partecipanti all’approvazione attivano le notifiche automatiche interne al prodotto e le notifiche e-mail. Quando avvii un processo di approvazione, gli approvatori designati ricevono sia le notifiche e-mail che quelle interne al prodotto. L&#39;utente viene tenuto costantemente aggiornato con notifiche interne ed e-mail ogni volta che un approvatore aggiunge `@mention` commenti o prende una decisione. Le notifiche includono collegamenti alla bozza di contenuto.
 

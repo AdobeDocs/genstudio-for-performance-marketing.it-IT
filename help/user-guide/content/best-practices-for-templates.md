@@ -1,11 +1,13 @@
 ---
 title: Best practice per i modelli
 description: Segui le best practice per l’utilizzo dei modelli con Adobe GenStudio for Performance Marketing.
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ Consulta [linee guida per i canali](/help/user-guide/guidelines/brands.md#channe
 
 ## Segui le linee guida dei modelli specifiche per il canale
 
-Crea modelli che soddisfino i requisiti di layout e di visualizzazione per ogni canale. Quando si lavora con ciascun tipo di modello, tenere presenti i suggerimenti e i vincoli riportati di seguito per garantire prestazioni e compatibilità ottimali.
+Quando crei i modelli, accertati che soddisfino i requisiti specifici del canale previsto. Crea modelli che soddisfino i requisiti di layout e di visualizzazione per ogni canale. Esistono linee guida generali applicabili a qualsiasi modello, ad esempio:
+
+- Utilizzare HTML e CSS in linea puliti e reattivi
+- Utilizzare i caratteri Adobe o Google
+- **non** utilizza JavaScript
+
+Quando si lavora con ciascun tipo di modello, tenere presenti i suggerimenti e i vincoli riportati di seguito per garantire prestazioni e compatibilità ottimali.
 
 >[!BEGINTABS]
 
@@ -83,20 +91,11 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 - Utilizza una larghezza di 360 pixel per i layout di colonna
 - Risoluzione minima di 1080 x 1080 pixel per le immagini
 - **non** utilizza la dimensione font relativa
-- **non** definire i riquadri di visualizzazione
+- **non** definire il riquadro di visualizzazione
 - **non** utilizza JavaScript
 - **not** esegue l&#39;override di un elemento HTML nel CSS
-- Utilizza le seguenti impostazioni per le immagini di sfondo:
-
-  Aggiungi il valore `object-fit: cover` alla classe CSS `background-image`:
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- Utilizza il tag `<img>` invece di `background-image`
+- Utilizza il mascheramento per migliorare la leggibilità del testo rispetto alle immagini di sfondo
 
 **Vincoli**:
 
@@ -151,11 +150,10 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 **Nomi di campi riconosciuti**:
 
-Utilizza i segnaposto di contenuto per i campi seguenti:
+Per gli annunci tramite banner e display, il campo `CTA` viene generato automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
 
 - `headline`
 - `body`
-- `cta`
 - `image` (selezionato da Content JPEG, PNG o GIF)
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
@@ -188,21 +186,20 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
    - mobile
    - Min: 360 x 640 pixel
    - Max: 2430 x 4320 pixel
-- Verticale 2.3
+- Verticale 2,3
    - mobile
    - Min: 360 x 640 pixel
    - Max: 2430 x 4320 pixel
-- Verticale 4.5 (raccomandato)
+- Verticale 4,5 (consigliato)
    - mobile
    - Min: 360 x 640 pixel
    - Max: 2430 x 4320 pixel
 
 **Nomi di campi riconosciuti**:
 
-Per gli annunci LinkedIn, i campi `headline` e `CTA` vengono generati automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
+Per gli annunci LinkedIn, i campi `headline`, `introductory_text` e `CTA` vengono generati automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
 
 - `image` (selezionato da Content JPEG, PNG o GIF)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 

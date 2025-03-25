@@ -3,7 +3,7 @@ title: Convalida del marchio in Adobe GenStudio for Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment).
 
 Il pannello _Verifica contenuto_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra delle azioni di destra _o_ dall&#39;icona di riepilogo [_Verifica contenuto_](#content-check-summary) per una variante. Questo pannello fornisce una convalida dettagliata del brand. le linee guida per le piattaforme e le informazioni sugli standard di accessibilità, illustrando le opportunità di miglioramento per ogni sezione delle varianti.
 
-![Pannello di controllo contenuto](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![Pannello di controllo contenuto](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 Il pannello _Verifica contenuto_ visualizza le informazioni di convalida e [conformità](/help/user-guide/guidelines/overview.md#compliance) per ogni sezione della variante:
 

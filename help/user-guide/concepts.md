@@ -2,8 +2,9 @@
 title: Concetti di Adobe GenStudio for Performance Marketing
 description: Scopri i concetti e la terminologia di Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
+role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -84,7 +85,7 @@ Quando si lavora con l’intelligenza artificiale per generare contenuti, è ess
 
 Questo approccio rafforza la responsabilità sociale, riduce al minimo il rischio per la reputazione e garantisce il rispetto delle [politiche di etica e sicurezza di Adobe](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
 
-GenStudio for Performance Marketing incorpora piani di mitigazione per impedire l’utilizzo di contenuti dannosi o distorti identificati in base agli standard e alle politiche di governance dei dati Adobe. Quando viene rilevato tale contenuto, vieni informato che la generazione di risorse è bloccata con un messaggio &quot;Impossibile generare&quot;.
+GenStudio for Performance Marketing incorpora piani di mitigazione per impedire l’utilizzo di contenuti dannosi o distorti identificati in base agli standard e alle politiche di governance dei dati di Adobe. Quando viene rilevato tale contenuto, vieni informato che la generazione di risorse è bloccata con un messaggio &quot;Impossibile generare&quot;.
 
 Quando viene visualizzato questo messaggio, puoi modificare il prompt e riprovare _o_ contrassegnando il contenuto del prompt per la revisione da parte di GenStudio for Performance Marketing. I dati di richiesta per il contenuto contrassegnato per la revisione vengono raccolti a scopo di revisione interna.
 

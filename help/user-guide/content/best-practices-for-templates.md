@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Per l&#39;e-mail, il campo `subject` viene incluso automaticamente. Utilizza i s
 - `body`
 - `cta`
 - `image` (selezionato da Content JPEG, PNG o GIF)
-- `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
@@ -115,7 +114,6 @@ Per i metadati, i campi `headline`, `body` e `CTA` vengono generati automaticame
 
 - `image` (selezionato da Content JPEG, PNG o GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
@@ -201,7 +199,6 @@ Per gli annunci LinkedIn, i campi `headline`, `introductory_text` e `CTA` vengon
 
 - `image` (selezionato da Content JPEG, PNG o GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulta [Segnaposto di contenuto](customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 

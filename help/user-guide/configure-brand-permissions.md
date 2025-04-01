@@ -2,9 +2,9 @@
 title: Assegna  [!DNL Brand]  autorizzazioni
 description: Informazioni sull'assegnazione di diritti per i creatori e gli editor di GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Assegna autorizzazioni [!DNL Brand]
 
-Per impostazione predefinita, i responsabili di sistema di GenStudio possono creare e modificare [!DNL Brands]. I ruoli editor contenuti e collaboratore dispongono delle autorizzazioni di modifica e creazione, ma non possono richiedere alcun diritto di gestione del sistema. Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
+Per impostazione predefinita, i responsabili di sistema di GenStudio possono creare e modificare [!DNL Brands]. I ruoli editor contenuti e collaboratore dispongono delle autorizzazioni di modifica e creazione, ma non possono richiedere alcun diritto di gestione del sistema. Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di sistema Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
 
-L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti i prodotti Adobe con diritti gestiti tramite l’Admin Console. Per una panoramica sulla gestione degli utenti e sulle procedure per l&#39;aggiunta di utenti e gruppi di utenti, vedere [Utenti Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) nella _guida per l&#39;amministrazione di Enterprise e Team_.
+L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti i prodotti Adobe con diritti gestiti tramite Admin Console. Per una panoramica sulla gestione degli utenti e sulle procedure per l&#39;aggiunta di utenti e gruppi di utenti, vedere [Utenti Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) nella _guida per l&#39;amministrazione di Enterprise e Team_.
 
 ## Passaggio 1: creare un gruppo di utenti
 
 **Per creare un gruppo di utenti**:
 
-1. Accedi all&#39;Admin Console e passa a **[!UICONTROL Utenti]** > **[!UICONTROL Utenti Gruppi]**.
+1. Accedi ad Admin Console e passa a **[!UICONTROL Utenti]** > **[!UICONTROL Utenti Gruppi]**.
 
 1. Fare clic su **[!UICONTROL Nuovo gruppo utenti]**. Viene aperto il popup _Crea un nuovo gruppo utenti_.
 
@@ -29,7 +29,7 @@ L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti 
 
 1. Se necessario, aggiungere una descrizione del gruppo e del relativo scopo.
 
-1. Fai clic su **[!UICONTROL Salva]**. Nell&#39;Admin Console viene aperto il popup _Nuovo gruppo_ con il nome del gruppo appena creato.
+1. Fai clic su **[!UICONTROL Salva]**. Admin Console apre il popup _Nuovo gruppo_, con il nome del gruppo appena creato.
 
 Consulta [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _Guida all&#39;amministrazione di Enterprise e Teams_.
 
@@ -45,7 +45,7 @@ Dopo aver creato un nuovo gruppo di utenti e aver aggiunto gli utenti, puoi asse
 
 1. Selezionare `Adobe GenStudio` dall&#39;elenco _Seleziona prodotti_.
 
-1. Fare clic su **[!UICONTROL Applica]**. Viene aperto il popup _Seleziona profili di prodotto_, in cui sono visualizzati i profili di prodotto associati all&#39;Adobe GenStudio.
+1. Fare clic su **[!UICONTROL Applica]**. Viene aperto il popup _Seleziona profili di prodotto_, in cui sono visualizzati i profili di prodotto associati ad Adobe GenStudio.
 
 1. Selezionare `Adobe GenStudio system manager`.
 
@@ -65,13 +65,13 @@ Per assegnare agli utenti l&#39;autorizzazione per creare, modificare e pubblica
 
 **Per aggiungere utenti al gruppo di utenti**:
 
-1. Dall&#39;_Admin Console_, passa a **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]**.
+1. Da _Admin Console_, passa a **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]**.
 
 1. Seleziona il nome del gruppo di utenti creato in precedenza. Viene aperto il popup _Aggiungi utenti a questo gruppo di utenti_.
 
 1. Aggiungi un utente nuovo o esistente tramite nome utente o indirizzo e-mail. Quando immetti un nome o un indirizzo e-mail per un utente esistente, questo campo viene compilato automaticamente con nomi corrispondenti per gli utenti noti che appartengono a questa organizzazione IMS. Scopri come gestire i gruppi di utenti in [Gestire i gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella _Guida all&#39;amministrazione di Enterprise e Teams_.
 
-Agli utenti vengono concesse le autorizzazioni di creazione, modifica e pubblicazione di [!DNL Brand] di Adobe GenStudio System Manager quando vengono aggiunti al gruppo. Gli utenti ricevono inoltre un invito e-mail automatico per modificare il progetto Adobe GenStudio for Performance Marketing [!DNL Brands].
+Agli utenti vengono concesse le autorizzazioni [!DNL Brand] di creazione, modifica e pubblicazione dei manager di sistema di Adobe GenStudio quando vengono aggiunti al gruppo. Gli utenti ricevono inoltre un invito e-mail automatico per modificare il progetto Adobe GenStudio for Performance Marketing [!DNL Brands].
 
 ## Passaggio 4: creare un progetto [!DNL Brands]
 
@@ -79,7 +79,7 @@ Un _progetto_ fornisce un percorso di archiviazione in cui alcuni utenti possono
 
 **Per creare un progetto [!DNL Brands] dalla scheda _Archiviazione_**:
 
-1. Passa alla scheda _Archiviazione_ nell&#39;Admin Console.
+1. Passa alla scheda _Archiviazione_ in Admin Console.
 
 1. Fai clic su **[!UICONTROL Progetti]** nella navigazione laterale. Viene visualizzata la scheda _Progetti_.
 

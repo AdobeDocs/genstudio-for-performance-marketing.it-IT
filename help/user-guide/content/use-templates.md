@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 0%
@@ -38,13 +38,12 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 | **Intestazione** | E-mail | La sezione superiore dell’e-mail visualizzata dal destinatario all’apertura dell’e-mail imposta il tono e fornisce il contesto per il contenuto incluso. |
 | **Titolo** | Annuncio pubblicitario, banner e annunci display, LinkedIn | Il primo contenuto visualizzato dal destinatario dovrebbe essere convincente per attirare l’interesse. |
 | **Sottotitolo** | Annunci e-mail, banner e display | Elemento di testo secondario che supporta il titolo. In genere è conciso e progettato per integrare il titolo principale, attirando l’attenzione del lettore più lontano nel contenuto. |
-
-| **Testo introduttivo**| LinkedIn                                 | Il messaggio principale trasmette il messaggio principale, in modo simile al corpo del messaggio. Può utilizzare fino a 150 caratteri, inclusi spazi, un massimo di quattro emoticon e punteggiatura. |
-| **Corpo**             | Annunci e-mail, meta-annunci, banner e display    | Il testo principale dell’annuncio trasmette il messaggio principale. Dovrebbe essere coinvolgente, informativo e persuasivo incoraggiare l&#39;azione desiderata dal pubblico. |
-| **CTA**              | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Un pulsante call-to-action utilizza una frase e un collegamento per incoraggiare il destinatario a intraprendere un’azione specifica, ad esempio fare clic su un collegamento o effettuare un acquisto.      |
-| **Immagini**           | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Migliora l’aspetto visivo, suddividi il testo e supporta il messaggio. Le immagini devono essere di alta qualità e accattivanti.                                                   |
-| **Piè di pagina**           | E-mail                                    | La sezione inferiore dell’e-mail contiene contenuti aggiuntivi come dettagli di contatto, collegamenti ai social media, liberatorie e opzioni di annullamento dell’abbonamento.            |
-| **Sovrapposizione testo**     | Meta annuncio                                  | Testo inserito in un&#39;immagine per supportare e migliorare il contenuto del titolo e del corpo.                                                                                  |
+| **Testo introduttivo** | LinkedIn | Il messaggio principale trasmette il messaggio principale, in modo simile al corpo del messaggio. Può utilizzare fino a 150 caratteri, inclusi spazi, un massimo di quattro emoticon e punteggiatura. |
+| **Corpo** | Annunci e-mail, meta-annunci, banner e display | Il testo principale dell’annuncio trasmette il messaggio principale. Dovrebbe essere coinvolgente, informativo e persuasivo incoraggiare l&#39;azione desiderata dal pubblico. |
+| **Invito all’azione** | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Un pulsante call-to-action utilizza una frase e un collegamento per incoraggiare il destinatario a intraprendere un’azione specifica, ad esempio fare clic su un collegamento o effettuare un acquisto. |
+| **Immagini** | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Migliora l’aspetto visivo, suddividi il testo e supporta il messaggio. Le immagini devono essere di alta qualità e accattivanti. |
+| **Piè di pagina** | E-mail | La sezione inferiore dell’e-mail contiene contenuti aggiuntivi come dettagli di contatto, collegamenti ai social media, liberatorie e opzioni di annullamento dell’abbonamento. |
+| **Sovrapposizione testo** | Meta annuncio | Testo inserito in un&#39;immagine per supportare e migliorare il contenuto del titolo e del corpo. |
 
 >[!TIP]
 >

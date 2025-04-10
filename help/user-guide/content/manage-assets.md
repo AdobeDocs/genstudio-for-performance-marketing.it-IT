@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,13 @@ Di seguito è riportata una ricerca per il termine `space` nella raccolta [!UICO
 
 Il filtro e l’interfaccia di ricerca sono rapidi e reattivi e forniscono un’esperienza di ricerca iniziale produttiva. Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Per risorse ed esperienze, puoi selezionare una campagna e linee guida specifiche, ad esempio contenuti creati per un prodotto specifico.
 
-Esistono filtri basati su [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attributes.md#categories) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna. Oppure puoi filtrare il contenuto in base al tuo nome utente o al nome di un membro del team:
+Esistono filtri basati su [linee guida](/help/user-guide/guidelines/overview.md), [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attributes.md#categories) per limitare i risultati della ricerca. Ad esempio, potresti voler trovare una risorsa di un particolare tipo di file o oggetto per aiutarti a creare una nuova esperienza per la campagna. Oppure puoi filtrare il contenuto in base al tuo nome utente o al nome di un membro del team:
 
-- Il filtro **[!UICONTROL Caricato da]** limita l&#39;elenco _[!UICONTROL Assets]_ in modo da visualizzare solo le risorse caricate da te o da una persona specifica.
-- **[!UICONTROL Creato da]** filtro limita l&#39;elenco _[!UICONTROL Esperienze]_ per mostrare solo le esperienze create da te o da una persona specifica.
+- **[!UICONTROL Caricato da]**: limita l&#39;elenco _[!UICONTROL Assets]_ in modo da visualizzare solo le risorse caricate da te o da una persona specifica.
+- **[!UICONTROL Creato da]**: limita l&#39;elenco _[!UICONTROL Esperienze]_ per mostrare solo le esperienze create da te o da una persona specifica.
+- **[!UICONTROL Modello]**: limita l&#39;elenco _[!UICONTROL Esperienze]_ in modo da visualizzare solo le esperienze create con il modello selezionato.
+
+Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’archivio corrisponde ai criteri di metadati corrispondenti. Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
 
 **Per cercare contenuto da riutilizzare**:
 

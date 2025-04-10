@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.03.13. {#latest}
+## 2025.04.10. {#latest}
+
+### Correzioni di problemi e miglioramenti
+
+* Nuove opzioni filtro per i modelli. Ora puoi perfezionare l&#39;elenco _[!UICONTROL Seleziona modelli]_ in [!DNL Create] e in _[!UICONTROL Contenuto]_ > _[!UICONTROL Modelli]_. Vedi [Modelli di ricerca](/help/user-guide/content/use-templates.md#search-templates). Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
+* È stata abilitata la funzionalità per [visualizzare e selezionare singoli livelli](/help/user-guide/create/manage-variants.md#view-layers) (campi di testo modificabili o immagini modificabili) di un&#39;esperienza per evidenziarli per le revisioni, ad esempio la rigenerazione di contenuto o il ritaglio di immagini.
+* È stato aggiunto [un nuovo campo modello](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, per testo aggiuntivo nelle esperienze per attirare l&#39;attenzione del pubblico ed evidenziare i messaggi di marketing.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.03.13
 
 ### Attivare i metadati
 
@@ -60,7 +70,7 @@ Il nuovo [framework di estensibilità](/help/extensibility/overview.md) di GenSt
 * È stata migliorata l&#39;esperienza utente e la visibilità delle categorie di canale [nella home di creazione](/help/user-guide/create/overview.md), separandole in Supporti di proprietà, Supporti a pagamento e Sezioni Contenuto.
 * Filtro migliorato in [!DNL Insights] viste di tabella e galleria.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.02.13
 
@@ -86,7 +96,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 ### Genera nuovi inviti all&#39;azione
 
-È ora possibile generare nuove frasi di invito all’azione (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+È ora possibile generare nuove frasi di call-to-action (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correzioni di problemi e miglioramenti
 
@@ -244,7 +254,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * Il cassetto dei prompt di [!DNL Create] ora si chiude come previsto quando un utente fa clic in un altro punto. <!-- GS-5254 -->
 
-* L’esportazione dei metadati ora include l’etichetta di invito all’azione selezionata, come previsto. <!-- GS-6504 -->
+* L’esportazione dei metadati ora include l’etichetta call-to-action selezionata, come previsto. <!-- GS-6504 -->
 
 * Il punteggio del marchio ora viene aggiornato e mantenuto come previsto per le esperienze rigenerate. <!-- GS-6535 -->
 

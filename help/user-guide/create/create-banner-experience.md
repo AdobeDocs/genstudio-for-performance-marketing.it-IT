@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Per creare un&#39;esperienza banner, utilizza un modello disponibile per fornire
 **Per scegliere un modello di banner**:
 
 1. In _[!DNL Create]_, fare clic su **[!UICONTROL Banner]**in_&quot;Cosa si desidera creare oggi?&quot;_sezione.
-1. Utilizza l&#39;opzione di ricerca, adiacente al _filtro_, per trovare un modello di banner specifico.
+1. Utilizza le opzioni [ricerca e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) per trovare un modello specifico.
 1. Nella visualizzazione _Seleziona modello_, fare clic su un modello di banner.
 1. Fai clic su **[!UICONTROL Usa]**.
 

@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Per l&#39;e-mail, il campo `subject` viene incluso automaticamente. Utilizza i s
 
 - `pre_header`
 - `headline`
+- `sub_headline`
 - `body`
 - `cta`
 - `image` (selezionato da Content JPEG, PNG o GIF)
@@ -151,6 +152,7 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 Per gli annunci tramite banner e display, il campo `CTA` viene generato automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
 
 - `headline`
+- `sub_headline`
 - `body`
 - `image` (selezionato da Content JPEG, PNG o GIF)
 

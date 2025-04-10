@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] sono una raccolta completa di risorse per i marchi, quali copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1554'
 ht-degree: 1%
 
 ---
@@ -72,15 +72,15 @@ La tabella seguente mostra ogni sezione di canale, i canali per i quali è dispo
 
 | Sezioni | Canali | Descrizione | Best practice |
 | ------------------| --------- | --------- | -------- |
-| Generale | e-mail, Meta, annunci di visualizzazione | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Definisci il tono/emozione generale in modo che sia coerente in tutte le e-mail (2-5 linee guida).<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot;, &quot;Evita un linguaggio eccessivamente formale&quot;<br><br> |
+| Generale | e-mail, metadati, banner e annunci di visualizzazione | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Definisci il tono/emozione generale in modo che sia coerente in tutte le e-mail (2-5 linee guida).<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot;, &quot;Evita un linguaggio eccessivamente formale&quot;<br><br> |
 | Oggetto | email | Titolo interessante per riepilogare il contenuto di un messaggio e-mail | Fornisci indicazioni specifiche (2-5 linee guida) su tono, lunghezza, ecc. Aggiungi righe oggetto riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempio_: &quot;Allinea l&#39;oggetto al corpo dell&#39;e-mail&quot; |
 | Preheader | email | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le intestazioni preliminari riuscite in precedenza nella sezione _Esempi_ per un output di qualità migliore.<br>_Esempio_: &quot;Limite a 60-80 caratteri&quot; |
-| Titolo | e-mail, Meta, annunci di visualizzazione, LinkedIn | Titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi titoli con esito positivo in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
-| Sottotitolo | e-mail, Visualizza annunci | Secondo o terzo titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) che definiscono il tono, la lunghezza ideale, ecc. Aggiungi i sottotitoli riusciti in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
+| Titolo | e-mail, Meta, Banner e annunci di visualizzazione, LinkedIn | Titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi titoli con esito positivo in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
+| Sottotitolo | e-mail, banner e annunci di visualizzazione | Secondo o terzo titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) che definiscono il tono, la lunghezza ideale, ecc. Aggiungi i sottotitoli riusciti in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
 | Descrizione | LinkedIn | Espressioni descrittive che definiscono il tono-emozione generale | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le descrizioni riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot; |
-| Corpo | e-mail, Meta, annunci di visualizzazione, LinkedIn | Contenuto di marketing che include messaggi, collegamenti e immagini | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi la copia precedentemente riuscita alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Limita a 80-100 caratteri&quot;, &quot;Evita acronimi eccessivi&quot; |
+| Corpo | e-mail, Meta, Banner e annunci di visualizzazione, LinkedIn | Contenuto di marketing che include messaggi, collegamenti e immagini | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi la copia precedentemente riuscita alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Limita a 80-100 caratteri&quot;, &quot;Evita acronimi eccessivi&quot; |
 | Testo su immagine | Meta, LinkedIn | Indicazioni specifiche sul tono, sulla lunghezza ideale, ecc. per il testo visualizzato sopra le immagini | Fornisci indicazioni specifiche (1-2 frasi) sul tono, sulla lunghezza ideale, ecc. Aggiungi testo precedentemente completato alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Concentrati sul momento&quot; |
-| Invito all’azione (CTA) | e-mail, Meta, annunci di visualizzazione | (Invito all’azione) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
+| Call-to-action (CTA) | e-mail, metadati, banner e annunci di visualizzazione | (Invito all’azione) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
 
 #### Linee guida di canale predefinite
 

@@ -5,10 +5,10 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '1326'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +37,14 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 | **Preheader** | E-mail | Oggetto secondario in un messaggio e-mail, in genere di 40-50 caratteri, che migliora la riga principale dell’oggetto. È visibile nella casella in entrata insieme all’oggetto prima che l’e-mail venga aperta. |
 | **Intestazione** | E-mail | La sezione superiore dell’e-mail visualizzata dal destinatario all’apertura dell’e-mail imposta il tono e fornisce il contesto per il contenuto incluso. |
 | **Titolo** | Annuncio pubblicitario, banner e annunci display, LinkedIn | Il primo contenuto visualizzato dal destinatario dovrebbe essere convincente per attirare l’interesse. |
-| **Testo introduttivo** | LinkedIn | Il messaggio principale trasmette il messaggio principale, in modo simile al corpo del messaggio. Può utilizzare fino a 150 caratteri, inclusi spazi, un massimo di quattro emoticon e punteggiatura. |
-| **Corpo** | Annunci e-mail, meta-annunci, banner e display | Il testo principale dell’annuncio trasmette il messaggio principale. Dovrebbe essere coinvolgente, informativo e persuasivo incoraggiare l&#39;azione desiderata dal pubblico. |
-| **Invito all’azione** | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Un pulsante di invito all’azione utilizza una frase e un collegamento per incoraggiare il destinatario a intraprendere un’azione specifica, ad esempio fare clic su un collegamento o effettuare un acquisto. |
-| **Immagini** | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Migliora l’aspetto visivo, suddividi il testo e supporta il messaggio. Le immagini devono essere di alta qualità e accattivanti. |
-| **Piè di pagina** | E-mail | La sezione inferiore dell’e-mail contiene contenuti aggiuntivi come dettagli di contatto, collegamenti ai social media, liberatorie e opzioni di annullamento dell’abbonamento. |
-| **Sovrapposizione testo** | Meta annuncio | Testo inserito in un&#39;immagine per supportare e migliorare il contenuto del titolo e del corpo. |
+| **Sottotitolo** | Annunci e-mail, banner e display | Elemento di testo secondario che supporta il titolo. In genere è conciso e progettato per integrare il titolo principale, attirando l’attenzione del lettore più lontano nel contenuto. |
+
+| **Testo introduttivo**| LinkedIn                                 | Il messaggio principale trasmette il messaggio principale, in modo simile al corpo del messaggio. Può utilizzare fino a 150 caratteri, inclusi spazi, un massimo di quattro emoticon e punteggiatura. |
+| **Corpo**             | Annunci e-mail, meta-annunci, banner e display    | Il testo principale dell’annuncio trasmette il messaggio principale. Dovrebbe essere coinvolgente, informativo e persuasivo incoraggiare l&#39;azione desiderata dal pubblico. |
+| **CTA**              | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Un pulsante call-to-action utilizza una frase e un collegamento per incoraggiare il destinatario a intraprendere un’azione specifica, ad esempio fare clic su un collegamento o effettuare un acquisto.      |
+| **Immagini**           | Annunci e-mail, annunci pubblicitari, banner e display, LinkedIn | Migliora l’aspetto visivo, suddividi il testo e supporta il messaggio. Le immagini devono essere di alta qualità e accattivanti.                                                   |
+| **Piè di pagina**           | E-mail                                    | La sezione inferiore dell’e-mail contiene contenuti aggiuntivi come dettagli di contatto, collegamenti ai social media, liberatorie e opzioni di annullamento dell’abbonamento.            |
+| **Sovrapposizione testo**     | Meta annuncio                                  | Testo inserito in un&#39;immagine per supportare e migliorare il contenuto del titolo e del corpo.                                                                                  |
 
 >[!TIP]
 >
@@ -58,13 +60,26 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing. Puoi filtrare i modelli in base al tipo di canale, ad esempio e-mail, Annunci display, Annunci metadati e Annunci LinkedIn.
+Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+
+### Cerca modelli
+
+Ogni visualizzazione [!DNL Content] fornisce opzioni filtro per limitare la ricerca della risorsa, dell&#39;esperienza o del modello ideale. Esistono filtri basati su [linee guida](/help/user-guide/guidelines/overview.md), [parole chiave](asset-details.md#user-defined-metadata) e [categorie di attributi](/help/user-guide/insights/attributes.md#categories) per limitare i risultati della ricerca.
+
+Ad esempio, potrebbe essere utile trovare un modello per un tipo di canale specifico o per le proporzioni che hai creato:
+
+- **[!UICONTROL Creato da]**: limita l&#39;elenco _[!UICONTROL Modelli]_ per visualizzare solo i modelli creati da te o da una persona specifica.
+- **[!UICONTROL Proporzioni]**: limita l&#39;elenco _[!UICONTROL Modelli]_ per visualizzare i modelli progettati per proporzioni specifiche.
+
+Di seguito è riportato un filtro in base al tipo di canale, ad esempio e-mail, annunci display, annunci meta e annunci LinkedIn.
 
 ![Elenco modelli di contenuto](/help/assets/content-templates-filter.png "Cerca nei modelli LinkedIn"){width="650" zoomable="yes"}
 
+La funzionalità di ricerca dei modelli è disponibile durante [!UICONTROL Crea] quando si seleziona un modello per un supporto di proprietà o a pagamento. Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’archivio corrisponde ai criteri di metadati corrispondenti. Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
+
 ### Aggiungi un modello
 
-Prima di caricare un modello, assicurati che sia completamente preparato e pronto per essere utilizzato in GenStudio for Performance Marketing seguendo le indicazioni [Personalizza modelli](customize-template.md).
+Prima di caricare un modello, accertarsi che sia completamente preparato e pronto per essere utilizzato in GenStudio for Performance Marketing seguendo le indicazioni in [Personalizza modelli](customize-template.md).
 
 **Per aggiungere un modello**:
 
@@ -86,7 +101,7 @@ Prima di caricare un modello, assicurati che sia completamente preparato e pront
 
 1. Fare clic su **[!UICONTROL Avanti]** quando si è soddisfatti dell&#39;anteprima del modello.
 
-1. Nel riquadro _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
+1. In _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
 
    Sono richiesti il nome del modello e il tipo di canale. Ulteriori requisiti possono includere:
 

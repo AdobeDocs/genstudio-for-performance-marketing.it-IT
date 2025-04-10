@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,18 @@ Puoi modificare i campi di testo nelle varianti generate. Perfeziona il testo pe
 1. Immettere il nuovo testo.
 1. Fare clic fuori dal campo di testo per salvarlo.
 
+## Visualizza livelli
+
+Potete selezionare rapidamente un singolo livello di una variante e apportare modifiche, ad esempio rigenerare sezioni o ritagliare immagini. Quando selezionate un singolo livello, vengono evidenziati i campi o le immagini modificabili all&#39;interno del livello.
+
+**Per visualizzare i livelli di una variante**:
+
+1. Dopo aver generato un set di varianti, fai clic su un campo o un’immagine modificabile all’interno di una variante.
+1. Fare clic su _[!UICONTROL Visualizza livelli]_.
+1. Fate clic su per selezionare un livello dall&#39;elenco. Il livello selezionato viene evidenziato per la variante.
+
+   Procedi con le modifiche necessarie al livello selezionato.
+
 ## Rigenera sezioni
 
 GenStudio for Performance Marketing dispone della funzionalità incorporata per rigenerare sezioni di varianti generate. È possibile riformulare, ridurre o allungare il testo oppure aggiungere nuovi prompt per generare nuovo contenuto.
@@ -59,7 +71,7 @@ Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta a
 
 ## Rivedi invito all&#39;azione
 
-Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento dell’invito all’azione (CTA).
+Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento di call-to-action (CTA).
 
 >[!NOTE]
 >

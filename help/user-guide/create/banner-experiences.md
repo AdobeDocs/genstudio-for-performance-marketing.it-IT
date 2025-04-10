@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi 
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Consulta [Segui le linee guida per modelli specifici per il canale](/help/user-g
 Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 
 * Titolo
+* Sottotitolo
 * Corpo
 * Invito all&#39;azione (CTA)
 * Immagine

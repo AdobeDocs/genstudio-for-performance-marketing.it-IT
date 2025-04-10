@@ -5,9 +5,9 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Consulta [Segui le linee guida per modelli specifici per il canale](/help/user-g
 Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 
 * Titolo
+* Sottotitolo
 * Corpo
 * Invito all&#39;azione (CTA)
 * Immagine

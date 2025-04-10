@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disp
 **Per scegliere un modello di annuncio visualizzato**:
 
 1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci visualizzati]**in_&quot;Cosa vuoi creare oggi?&quot;_sezione.
-1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello di annuncio visualizzato specifico.
+1. Utilizza le opzioni [ricerca e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) per trovare un modello specifico.
 1. Nella visualizzazione _Seleziona modello_, fai clic su un modello di annuncio visualizzato.
 1. Fai clic su **[!UICONTROL Usa]**.
 
@@ -73,6 +73,8 @@ Per impostazione predefinita, quattro varianti (alimentate dal prompt, dalle lin
 ## Rivedi varianti generate
 
 Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblicazione a [!DNL Content], è possibile modificare sezioni di annunci di visualizzazione e campi di testo oppure eliminare una variante generata.
+
+Per evidenziare un singolo livello da rivedere, fare clic su un campo o un&#39;immagine modificabile e quindi su _[!UICONTROL Visualizza livelli]_.
 
 **Per rivedere le varianti generate**:
 

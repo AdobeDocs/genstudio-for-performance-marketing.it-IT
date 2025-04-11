@@ -3,9 +3,9 @@ title: Attivare un Meta Ad
 description: Scopri come attivare un’esperienza di annuncio multimediale.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1372'
 ht-degree: 1%
 
 ---
@@ -33,13 +33,7 @@ Devi disporre dell&#39;autorizzazione per pubblicare contenuti su Meta Ads Manag
 
 Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni come Meta, abilitando i processi di attivazione.
 
-**Per collegare GenStudio for Performance Marketing ai tuoi account Meta**:
-
-1. Da _Impostazioni_, fai clic su **[!UICONTROL Connetti]** nella sezione Meta Ads. Viene aperta la visualizzazione dell&#39;account _Meta ads_.
-
-1. Seleziona **[!UICONTROL Consenti popup]** dal browser, se richiesto.
-
-1. Seleziona uno o più account annuncio da connettere, quindi fai clic su **[!UICONTROL Seleziona]**.
+Vedi [Connetti a un account Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
 Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La sincronizzazione di grandi quantità di dati richiede più tempo.
 

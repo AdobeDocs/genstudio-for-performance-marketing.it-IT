@@ -4,9 +4,9 @@ description: Scopri come ottimizzare gli annunci in base a metriche delle presta
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ Dal dashboard [!DNL Insights] è possibile:
 - **Identifica il contenuto più efficace**: individua il contenuto che funziona meglio per diversi tipi di pubblico e personalizza i contenuti futuri o le campagne per le preferenze di tendenza.
 - **Ottimizza contenuti con prestazioni insoddisfacenti**: trova contenuti con prestazioni insoddisfacenti e utilizza l&#39;intelligenza artificiale generativa integrata per creare immediatamente varianti, migliorandone potenzialmente l&#39;efficacia senza partire da zero.
 - **Rivitalizza contenuti ad alte prestazioni**: seleziona i contenuti di successo e modificali per aggiornare l&#39;annuncio per il pubblico o adattare i contenuti originali da utilizzare nelle nuove campagne, estendendone potenzialmente il ciclo di vita e le prestazioni.
+
+## Connettori dati
+
+La prima volta che apri [!DNL Insights], potresti vedere un banner che ti guiderà a connettere Adobe GenStudio for Performance Marketing a un account di canale.
+
+Questa connessione consente a GenStudio for Performance Marketing di ricevere dati statistici dalle campagne di marketing, dai media e dagli annunci attivi. Inizialmente, GenStudio for Performance Marketing acquisisce gli ultimi 6 mesi di dati in modo da disporre degli strumenti per analizzare i dati più recenti e intervenire.
 
 {{connect-insights}}
 
@@ -35,7 +41,7 @@ Ogni vista mostra una tabella corrispondente, che puoi cercare per parola chiave
 
 ### Canali
 
-La visualizzazione predefinita [[!DNL Insights] _[!UICONTROL Canali ]_](channels.md) mostra un elenco di dettagli attivi della campagna, quali obiettivi, budget, data di lancio e attività. Assicurati di [collegare un account di canale](connect-channel.md) in modo che GenStudio for Performance Marketing inizi a ricevere i dati statistici.
+La visualizzazione predefinita [[!DNL Insights] _[!UICONTROL Canali ]_](channels.md) mostra un elenco di dettagli attivi della campagna, quali obiettivi, budget, data di lancio e attività. Assicurati di [collegare un account di canale](/help/user-guide/connectors/connect-channel.md) in modo che GenStudio for Performance Marketing inizi a ricevere i dati statistici.
 
 ### Annunci
 

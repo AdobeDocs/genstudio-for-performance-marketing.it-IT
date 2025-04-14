@@ -1,6 +1,6 @@
 ---
 title: Connetti supporti a pagamento
-description: Collega un account di canale per attivare e monitorare annunci e contenuti multimediali con Adobe GenStudio for Performance Marketing.
+description: Connect a channel account to activate and monitor your ads and media with Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Connettere account di media a pagamento
+# Connect paid media accounts
 
-_[!DNL Data connectors]_consente l&#39;integrazione diretta tra GenStudio for Performance Marketing e gli account di rete per media a pagamento. Tramite la connessione agli account di canale di terze parti, è possibile scambiare dati critici, ad esempio le metriche delle prestazioni della campagna in [[!DNL Insights]](/help/user-guide/insights/overview.md), e distribuire nuovi posizionamenti di annunci con [[!DNL Activate]](/help/user-guide/activation/overview.md). Questa integrazione consente a GenStudio for Performance Marketing di gestire i contenuti multimediali e gli annunci e di ricevere informazioni importanti, tra cui impression, clic e conversioni, dalle campagne attive.
+_[!DNL Data connectors]_enable seamless integration between GenStudio for Performance Marketing and your paid media network accounts. By connecting to third-party channel accounts, you can exchange critical data, such as campaign performance metrics in [[!DNL Insights]](/help/user-guide/insights/overview.md), and you can deliver fresh ad placements with [[!DNL Activate]](/help/user-guide/activation/overview.md). This integration allows GenStudio for Performance Marketing to manage your media and ads while receiving valuable insights, including impressions, clicks, and conversions, from your active campaigns.
 
 **Per connettersi a un account multimediale a pagamento**:
 
@@ -30,9 +30,9 @@ _[!DNL Data connectors]_consente l&#39;integrazione diretta tra GenStudio for Pe
 
 ## Connessioni di supporti a pagamento
 
-GenStudio for Performance Marketing supporta vari tipi di connettori da integrare con le piattaforme di marketing preferite. Ogni tipo di connettore ha prerequisiti specifici e passaggi di configurazione da completare per una connessione di successo.
+GenStudio for Performance Marketing supports various connector types to integrate with your preferred marketing platforms. Each connector type has specific prerequisites and set-up steps to complete for a successful connection.
 
-### Connessione di meta-annunci
+### Meta ads connect
 
 >[!BEGINSHADEBOX]
 
@@ -54,10 +54,10 @@ GenStudio for Performance Marketing supporta vari tipi di connettori da integrar
 
 1. Segui le istruzioni di autenticazione di Facebook.
 
-1. Nel pop-up _[!UICONTROL Accesso Facebook per le aziende]_ (simbolo da Meta ad Adobe), scorri le seguenti selezioni.
+1. In the _[!UICONTROL Facebook Login for Business]_ pop-up (Meta to Adobe symbol), step through the following selections.
 
-   - Verifica le informazioni sull&#39;account e fai clic su **[!UICONTROL Continua come]**
-   - Concedi l&#39;accesso a pagine selezionate e fai clic su **[!UICONTROL Continua]**
+   - Verify the account information and click **[!UICONTROL Continue as]**
+   - Grant access to select Pages and click **[!UICONTROL Continue]**
    - Concedi l&#39;accesso a determinate aziende e fai clic su **[!UICONTROL Continua]**
    - Accedi a uno o più account Instagram e fai clic su **[!UICONTROL Continua]**
    - Rivedi le selezioni e fai clic su **[!UICONTROL Salva]**
@@ -68,11 +68,11 @@ Nella visualizzazione _[!UICONTROL Account Meta Ads]_ sono elencati `Account nam
 
 ## Acquisizione dei dati
 
-Inizialmente, GenStudio for Performance Marketing importa i dati storici relativi ai sei mesi più recenti. Questa procedura garantisce l’accesso immediato a informazioni rilevanti per l’analisi delle tendenze, la valutazione delle prestazioni e il processo decisionale informato. Il processo di acquisizione può richiedere da uno a cinque giorni a seconda del volume di dati nel tuo account.
+Inizialmente, GenStudio for Performance Marketing importa i dati storici relativi ai sei mesi più recenti. Questa procedura garantisce l’accesso immediato a informazioni rilevanti per l’analisi delle tendenze, la valutazione delle prestazioni e il processo decisionale informato. The ingestion process may take one to five days depending on the volume of data in your account.
 
 >[!BEGINSHADEBOX]
 
-**Criteri di acquisizione e conservazione dei dati**
+**Data Ingestion and Retention Policy**
 
 GenStudio for Performance Marketing conserva i dati del canale per 13 mesi. Questo criterio di conservazione include i 6 mesi di dati acquisiti durante la connessione iniziale, garantendo analisi e rapporti completi sui dati storici.
 

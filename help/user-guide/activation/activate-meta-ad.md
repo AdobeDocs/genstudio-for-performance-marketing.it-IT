@@ -35,21 +35,21 @@ Prima che la tua organizzazione possa attivare le esperienze, un manager di sist
 
 Vedi [Connetti a un account Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
-Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La sincronizzazione di grandi quantità di dati richiede più tempo.
+Al termine della Sincronizzazione, puoi visualizzare gli account aggiunti. La Sincronizzazione di grandi quantità di dati richiede più tempo.
 
-## Passaggio 3: preparare l’esperienza per l’attivazione
+## Passaggio 3: preparare l&#39;esperienza per l&#39;attivazione
 
-I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
+I system manager e gli editor di GenStudio possono attivare annuncio esperienze.
 
 **Per preparare l&#39;esperienza per l&#39;attivazione**:
 
 1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Prodotto metadati. Verrà aperta la visualizzazione_ Configurazione di Creative _.
 
-   La pagina di configurazione di Creative fornisce una posizione centrale per la preparazione dell’attivazione dei Meta Ad. La preparazione dell’annuncio include le tre attività seguenti:
+   La pagina di configurazione del Creative fornisce una posizione centrale per preparare l&#39;attivazione di Meta annuncio. La preparazione del annuncio comprende queste tre attività:
 
-1. Assegna un nome all&#39;esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
-1. Seleziona le risorse multimediali. Puoi utilizzare le risorse da Contenuto o caricare risorse esterne, ad esempio da OneDrive o Dropbox.
-1. [Aggiungi testo](#add-ad-text).
+1. Assegnate un nome all&#39;esperienza. Dopo l&#39;attivazione _, puoi usare questo nome per ricerca per questa esperienza nella tabella Esperienze_ attivate.
+1. Selezionare media risorse. È possibile usare risorse dal contenuto o caricare risorse esterni (ad esempio, da OneDrive o Dropbox).
+1. [Aggiungere testo](#add-ad-text).
 1. [Aggiungi metadati](#assign-metadata).
 
    Il _pannello Anteprima_ supporta una visualizzazione interattiva del testo e delle risorse nel contesto di un posizionamento specifico dell&#39;annuncio. Utilizza il menu a discesa _Seleziona posizionamento_ per passare tra i posizionamenti di annunci supportati. Le anteprime offrono l’opportunità di finalizzare le decisioni sugli elementi annuncio per posizionamenti specifici. Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.
@@ -102,12 +102,12 @@ Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo c
 | Testo principale | sì | 500 |
 | Titolo | sì | 255 |
 | Descrizione | no | 125 |
-| Invito all’azione | sì | solo opzioni del menu a discesa |
+| Invito all’azione | Sì | Solo opzioni del menu a discesa |
 | Visualizza URL | no | 1000 |
-| URL sito Web | sì | 1000 |
+| Sito Web URL | Sì | 1000 |
 | Immagine | almeno uno richiesto |                                 |
 
-_Il testo principale_ e il _titolo_ sono richiesti solo da GenStudio for Performance Marketing, non da Meta.
+_Il testo_ principale e _il titolo_ sono richiesti da GenStudio solo per il Performance Marketing, non da Meta.
 
 ### Assegna metadati
 
@@ -115,11 +115,11 @@ I dettagli dell’esperienza vengono salvati come metadati e aiutano gli utenti 
 
 | Dettaglio | Descrizione |
 |------------|-------------|
-| Campagne | Tutte le campagne GenStudio for Performance Marketing a cui appartiene l’esperienza annuncio |
-| Marchio | Linee guida, definite dall’utente o predefinite, che consentono agli utenti di stabilire linee guida per il brand che acquisiscono l’essenza dell’identità di un brand. |
+| Campagne | Tutte le campagne GenStudio for Performance Marketing a cui appartiene l&#39;esperienza annuncio |
+| Marchio | Linee guida, definite utente o predefinite, che consentono agli utenti di stabilire marchio linee guida che catturano l&#39;essenza dell&#39;identità di un marchio. |
 | Prodotti | Prodotti associati alla tua organizzazione e identificati in GenStudio for Performance Marketing |
-| Persone | Persone associate alla tua organizzazione e identificate in GenStudio for Performance Marketing |
-| Intervallo temporale | Il trimestre, la stagione, l’anno o un’altra unità di tempo definita dall’organizzazione durante la quale è attiva l’esperienza pubblicitaria |
+| Personas | Personas associate alla tua organizzazione e identificate in GenStudio for Performance Marketing |
+| Lasso temporale | Il trimestre, la stagione, l&#39;anno o un&#39;altra unità di tempo definita dall&#39;organizzazione durante il quale è attiva l&#39;esperienza annuncio |
 | Regione | Area geografica in cui viene avviata l’esperienza |
 | Lingua | Lingue per cui viene utilizzata l’esperienza annuncio |
 | Parole chiave | Parole chiave definite dall’utente che facilitano la ricerca e la categorizzazione dell’esperienza dell’annuncio |

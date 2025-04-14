@@ -1,6 +1,6 @@
 ---
 title: Gestione dei dati
-description: Scopri come acquisire e archiviare dati per  [!DNL Insights]  in GenStudio for Performance Marketing.
+description: Scopri sull'assimilazione e l'archiviazione dei dati in [!DNL Insights] GenStudio for Performance Marketing.
 feature: Reporting and Insights
 level: Experienced
 role: Admin, Data Architect
@@ -15,36 +15,36 @@ ht-degree: 0%
 
 # Gestione dei dati
 
-GenStudio for Performance Marketing utilizza Adobe Experience Platform (AEP) per l&#39;acquisizione dei dati e l&#39;archiviazione delle metriche e dei metadati che alimentano [!DNL Insights]. AEP utilizza _schemi_ per definire le strutture di dati e _set di dati_ per archiviare e gestire le raccolte di dati.
+GenStudio for Performance Marketing utilizza Adobe Experience Platform (AEP) per l&#39;inserimento dei dati e l&#39;archiviazione delle metriche e dei metadati che alimentano [!DNL Insights]. AEP utilizza _schemi_ per definire le strutture dei dati e _i set di dati per l&#39;archiviazione e la gestione delle_ raccolte di dati.
 
 ## Connessioni dati
 
-GenStudio for Performance Marketing utilizza Customer Journey Analytics (CJA) per aggregare più origini dati creando una connessione a uno o più set di dati di AEP. CJA utilizza queste connessioni dati per creare visualizzazioni dati per l&#39;analisi delle metriche con [!DNL Insights].
+GenStudio for Performance Marketing utilizza Customer Journey Analytics (CJA) per aggregato più origini dati creando una connessione a uno o più set di dati AEP. CJA utilizza queste connessioni dati per creare visualizzazioni dati per l&#39;analisi delle metriche con [!DNL Insights].
 
 >[!BEGINSHADEBOX]
 
 **Informazioni importanti sulle connessioni dati**
 
-Se sei un [amministratore di sistema di Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), potresti disporre di diritti che consentono l&#39;accesso alla gestione sandbox di AEP e ai componenti del data lake che supportano GenStudio for Performance Marketing.
+Se sei un [amministratore](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) di sistema Adobe Systems, puoi disporre di adesioni che accesso consentono alla gestione sandbox AEP e ai componenti del data lake che supportano GenStudio per il Performance Marketing.
 
 >[!WARNING]
 >
->Se si ripristina la sandbox di produzione in AEP, tutte le connessioni dati vengono eliminate e [!DNL Insights] non funziona più.
+>Il ripristino della sandbox di produzione in AEP elimina tutte le connessioni dati e causa [!DNL Insights] l&#39;interruzione del funzionamento.
 
-Presta attenzione e non eliminare le seguenti connessioni dati necessarie per il funzionamento affidabile di GenStudio for Performance Marketing:
+Prestare attenzione e non eliminare le seguenti connessioni dati necessarie affinché GenStudio for Performance Marketing funzioni in modo affidabile:
 
-- Set di dati di AEP con prefisso `GS Insights`
-- Schemi, classi e gruppi di campi di AEP con prefisso `GS Insights`
+- Set di dati AEP con prefisso `GS Insights`
+- Schemi, classi e gruppi di campi AEP con prefisso `GS Insights`
 - Gruppo di campi personalizzato `timestamp for metadata`
 - Connessioni AEP: flussi di dati con prefisso `GS Insights`
-- Connessioni AEP: account GS Insights
+- Connessioni AEP: GS Insights account
 
-Consulta [Eliminare le implicazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) nella guida _Customer Journey Analytics_ prima di eliminare qualsiasi componente dati in AEP.
+Consulta [Elimina implicazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) nella _guida Customer Journey Analytics_ prima di eliminare qualsiasi componente dati in AEP.
 
 >[!ENDSHADEBOX]
 
-## Criteri di conservazione dei dati
+## Conservazione dei dati regola
 
-GenStudio for Performance Marketing conserva i dati del canale per 13 mesi. Questo criterio di conservazione include i 6 mesi di dati acquisiti durante la connessione iniziale, garantendo analisi e rapporti completi sui dati storici.
+GenStudio for Performance Marketing conserva i dati di canale per 13 mesi. Questo regola di conservazione include i 6 mesi di dati acquisiti durante la connessione iniziale, garantendo un&#39;analisi e un reporting completi dei dati storici.
 
-Consulta [Connetti account annuncio canale](/help/user-guide/connectors/connect-channel.md).
+Consulta [Connetti canale annuncio account](/help/user-guide/connectors/connect-channel.md).

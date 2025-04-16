@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza 
 
 **Per scegliere un Meta Ad Template**:
 
-1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci metadati]**in_&quot;Cosa vuoi creare oggi?&quot;_sezione.
-1. Utilizza le opzioni [ricerca e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) per trovare un modello specifico.
+1. In _[!DNL Create]_, click **[!UICONTROL Meta ads]**.
+1. Use the search option, adjacent to _Filter_, to find a specific Meta ad template.
 1. Fare clic per selezionare un modello e fare clic su **[!UICONTROL Usa]**.
 
    Questa azione apre Canvas, l’hub centrale per la creazione dei contenuti.

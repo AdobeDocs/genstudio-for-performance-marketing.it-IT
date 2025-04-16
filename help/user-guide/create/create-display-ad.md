@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disp
 
 **Per scegliere un modello di annuncio visualizzato**:
 
-1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci visualizzati]**in_&quot;Cosa vuoi creare oggi?&quot;_sezione.
-1. Utilizza le opzioni [ricerca e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) per trovare un modello specifico.
+1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci visualizzati]**.
+1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello di annuncio visualizzato specifico.
 1. Nella visualizzazione _Seleziona modello_, fai clic su un modello di annuncio visualizzato.
 1. Fai clic su **[!UICONTROL Usa]**.
 

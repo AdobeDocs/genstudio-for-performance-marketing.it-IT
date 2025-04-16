@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -25,8 +25,8 @@ Per creare una nuova esperienza e-mail, utilizza un modello disponibile per forn
 
 **Per scegliere un modello di posta elettronica**:
 
-1. In _[!DNL Create]_, fare clic su **[!UICONTROL E-mail]**in_&quot;Cosa si desidera creare oggi?&quot;_sezione.
-1. Utilizza le opzioni [ricerca e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) per trovare un modello specifico.
+1. In _[!DNL Create]_, fare clic su **[!UICONTROL E-mail]**.
+1. Utilizza l&#39;opzione di ricerca, accanto a _Filtro_, per trovare un modello e-mail specifico.
 1. Fai clic su per selezionare un modello di e-mail e fai clic su **[!UICONTROL Usa]**.
 
    Viene visualizzato Canvas, l’epicentro della creazione dei contenuti.

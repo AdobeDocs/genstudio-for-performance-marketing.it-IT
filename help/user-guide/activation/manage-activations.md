@@ -1,9 +1,9 @@
 ---
 title: Gestire le attivazioni
-description: Scopri come gestire le esperienze attivate con Adobe Genstudio per il marketing delle prestazioni.
+description: Scopri come gestire le esperienze attivate con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _[!DNL Activate]_offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
 
-Le esperienze attivate sono organizzate per canale di annunci. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Visualizza]**nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Le esperienze sono elencate per nome esperienza e ordinate per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
+_[!DNL Activate]_organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
 
 ## Visualizzazione esperienza attivata
 
-Le attivazioni sono elencate per nome di esperienza in ordine cronologico decrescente (elencate per prime le più recenti).
+In questa vista vengono elencate le attivazioni per nome dell’esperienza in ordine cronologico decrescente (elencate per prime le più recenti).
 
 Nella tabella seguente sono elencati gli attributi che definiscono ogni esperienza.
 

@@ -3,9 +3,9 @@ title: Attivare un Meta Ad
 description: Scopri come attivare un’esperienza di annuncio multimediale.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing supporta l’attivazione di Meta ads, 
 
 È possibile [creare un&#39;esperienza Meta](/help/user-guide/create/create-meta-ad.md) in GenStudio for Performance Marketing e selezionarla per l&#39;attivazione oppure creare una nuova esperienza dalle risorse approvate in [!DNL Activate].
 
-L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione delle esperienze pubblicitarie per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta, o creatività, in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
+L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione della creatività da esperienze pubblicitarie per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta, o creatività, in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
 
 ## Passaggio 1: configurare i metadati
 
@@ -35,21 +35,21 @@ Prima che la tua organizzazione possa attivare le esperienze, un manager di sist
 
 Vedi [Connetti a un account Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
-Al termine della Sincronizzazione, puoi visualizzare gli account aggiunti. La Sincronizzazione di grandi quantità di dati richiede più tempo.
+Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La sincronizzazione di grandi quantità di dati richiede più tempo.
 
-## Passaggio 3: preparare l&#39;esperienza per l&#39;attivazione
+## Passaggio 3: preparare l’esperienza per l’attivazione
 
-I system manager e gli editor di GenStudio possono attivare annuncio esperienze.
+I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
 
 **Per preparare l&#39;esperienza per l&#39;attivazione**:
 
 1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Prodotto metadati. Verrà aperta la visualizzazione_ Configurazione di Creative _.
 
-   La pagina di configurazione del Creative fornisce una posizione centrale per preparare l&#39;attivazione di Meta annuncio. La preparazione del annuncio comprende queste tre attività:
+   La pagina di configurazione di Creative fornisce una posizione centrale per la preparazione dell’attivazione dei Meta Ad. La preparazione dell’annuncio include le tre attività seguenti:
 
-1. Assegnate un nome all&#39;esperienza. Dopo l&#39;attivazione _, puoi usare questo nome per ricerca per questa esperienza nella tabella Esperienze_ attivate.
-1. Selezionare media risorse. È possibile usare risorse dal contenuto o caricare risorse esterni (ad esempio, da OneDrive o Dropbox).
-1. [Aggiungere testo](#add-ad-text).
+1. Assegna un nome all&#39;esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
+1. Seleziona le risorse multimediali. Puoi utilizzare le risorse da Contenuto o caricare risorse esterne, ad esempio da OneDrive o Dropbox.
+1. [Aggiungi testo](#add-ad-text).
 1. [Aggiungi metadati](#assign-metadata).
 
    Il _pannello Anteprima_ supporta una visualizzazione interattiva del testo e delle risorse nel contesto di un posizionamento specifico dell&#39;annuncio. Utilizza il menu a discesa _Seleziona posizionamento_ per passare tra i posizionamenti di annunci supportati. Le anteprime offrono l’opportunità di finalizzare le decisioni sugli elementi annuncio per posizionamenti specifici. Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.
@@ -102,12 +102,12 @@ Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo c
 | Testo principale | sì | 500 |
 | Titolo | sì | 255 |
 | Descrizione | no | 125 |
-| Invito all’azione | Sì | Solo opzioni del menu a discesa |
+| Invito all’azione | sì | solo opzioni del menu a discesa |
 | Visualizza URL | no | 1000 |
-| Sito Web URL | Sì | 1000 |
+| URL sito Web | sì | 1000 |
 | Immagine | almeno uno richiesto |                                 |
 
-_Il testo_ principale e _il titolo_ sono richiesti da GenStudio solo per il Performance Marketing, non da Meta.
+GenStudio for Performance Marketing richiede _il testo principale_ e _il titolo_, non Meta.
 
 ### Assegna metadati
 
@@ -115,11 +115,11 @@ I dettagli dell’esperienza vengono salvati come metadati e aiutano gli utenti 
 
 | Dettaglio | Descrizione |
 |------------|-------------|
-| Campagne | Tutte le campagne GenStudio for Performance Marketing a cui appartiene l&#39;esperienza annuncio |
-| Marchio | Linee guida, definite utente o predefinite, che consentono agli utenti di stabilire marchio linee guida che catturano l&#39;essenza dell&#39;identità di un marchio. |
+| Campagne | Tutte le campagne GenStudio for Performance Marketing a cui appartiene l’esperienza annuncio |
+| Marchio | Linee guida, definite dall’utente o predefinite, che consentono agli utenti di stabilire linee guida per il brand che acquisiscono l’essenza dell’identità di un brand. |
 | Prodotti | Prodotti associati alla tua organizzazione e identificati in GenStudio for Performance Marketing |
-| Personas | Personas associate alla tua organizzazione e identificate in GenStudio for Performance Marketing |
-| Lasso temporale | Il trimestre, la stagione, l&#39;anno o un&#39;altra unità di tempo definita dall&#39;organizzazione durante il quale è attiva l&#39;esperienza annuncio |
+| Persone | Persone associate alla tua organizzazione e identificate in GenStudio for Performance Marketing |
+| Intervallo temporale | Il trimestre, la stagione, l’anno o un’altra unità di tempo definita dall’organizzazione durante la quale è attiva l’esperienza pubblicitaria |
 | Regione | Area geografica in cui viene avviata l’esperienza |
 | Lingua | Lingue per cui viene utilizzata l’esperienza annuncio |
 | Parole chiave | Parole chiave definite dall’utente che facilitano la ricerca e la categorizzazione dell’esperienza dell’annuncio |
@@ -148,10 +148,10 @@ Fai clic su **[!UICONTROL Avanti]** in alto a destra per visualizzare l&#39;ante
 
 Nella pagina _Revisione_ viene visualizzata l&#39;esperienza pubblicitaria assemblata nella _configurazione di Creative_ e viene fornita un&#39;ultima opportunità per visualizzare e modificare l&#39;esperienza. Fai clic su **[!UICONTROL Modifica sezione]** accanto all&#39;etichetta _Configurazione di Creative_ per apportare le modifiche. Puoi anche fare clic su **[!UICONTROL Indietro]** in alto a destra per tornare alla pagina _Configurazione di Creative_.
 
-### Attivazione completa dell’esperienza pubblicitaria
+### Passaggio 6: completa attivazione dell’esperienza pubblicitaria
 
-Fai clic su **[!UICONTROL Pubblica]**. L’esperienza completa dei metadati e i metadati associati vengono inviati direttamente nel set di annunci di Meta Ads Manager selezionato. Le esperienze vengono distribuite a Meta Ads Manager disattivato. Da Meta Ads Manager, puoi gestire i passaggi finali della distribuzione dell’esperienza pubblicitaria e della campagna Meta.
+1. Fai clic su **[!UICONTROL Pubblica]**.
 
-### Accedi a Meta Ads Manager per completare l&#39;attivazione
+   L’esperienza completa dei metadati e i metadati associati vengono inviati direttamente nel set di annunci di Meta Ads Manager selezionato. Le esperienze vengono inviate a Meta Ads Manager in stato inattivo. Da Meta Ads Manager, puoi gestire i passaggi finali della distribuzione dell’esperienza pubblicitaria e della campagna Meta.
 
-Al termine dell’attivazione, devi accedere a Meta Ads Manager. Da [Meta Ads Manager](https://adsmanager.facebook.com/), puoi rivedere la tua esperienza pubblicitaria e finalizzare la pubblicazione su canali Meta specifici.
+1. [Accedi a Meta Ads Manager](https://adsmanager.facebook.com/) per rivedere la tua esperienza pubblicitaria e finalizzare la pubblicazione su specifici canali Meta.

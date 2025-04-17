@@ -4,16 +4,16 @@ description: Scopri come attivare i contenuti con Adobe Experience Cloud e appli
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Attivazione Adobe GenStudio for Performance Marketing
 
-In GenStudio for Performance Marketing _[!DNL Activate]_è disponibile una posizione centrale per la preparazione dell&#39;esperienza pubblicitaria per l&#39;attivazione della selezione dei canali di annunci a pagamento._ Activation _è il processo di consegna dell&#39;esperienza pubblicitaria ai canali designati in stato inattivo, pronti per la revisione finale e la distribuzione dal canale. Le esperienze pubblicitarie possono quindi essere distribuite nei mercati a cui sono destinate.
+In GenStudio for Performance Marketing _[!DNL Activate]_è disponibile una posizione centrale per la preparazione dell&#39;esperienza pubblicitaria per l&#39;attivazione della selezione dei canali di annunci a pagamento._ Activation _è il processo di preparazione di esperienze di annunci, risorse e testo come contenuto creativo personalizzato in modo univoco per il posizionamento in un canale a pagamento specifico. Activation distribuisce il contenuto creativo ai canali designati in uno stato inattivo, pronto per la revisione finale e l’implementazione dal canale. Le esperienze pubblicitarie possono quindi essere distribuite nei mercati a cui sono destinate.
 
 Gli editor di contenuti e i responsabili di sistema possono pubblicare esperienze le cui risorse vengono generate o caricate in GenStudio for Performance Marketing.
 
@@ -21,13 +21,13 @@ Gli editor di contenuti e i responsabili di sistema possono pubblicare esperienz
 
 Prima di poter attivare un’esperienza pubblicitaria, ogni account del canale media a pagamento deve essere connesso a GenStudio for Performance Marketing.
 
-## Casi di utilizzo di [!DNL Activate]
+## Attivare casi d’uso
 
 * [Crea un&#39;attivazione](create-activation.md). Puoi creare un’esperienza pubblicitaria selezionando le risorse visive, assegnando il testo e definendo i metadati prima di inviarli a un canale a pagamento.
 
 * [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
 
-## Funzionalità di [!DNL Activate]
+## Attiva funzionalità
 
 _[!DNL Activate]_facilita la preparazione dell&#39;esperienza dell&#39;annuncio per la distribuzione ai suoi canali a pagamento target.
 
@@ -37,7 +37,7 @@ La pagina _Configurazione di Creative_ consolida gli strumenti necessari per sel
 
 ### Selezionare le risorse per l’esperienza pubblicitaria
 
-Cerca e seleziona le risorse visive approvate da _[!DNL Content]_oppure carica le risorse da Dropbox o OneDrive. Puoi anche caricare le risorse direttamente dal dispositivo. Un’esperienza annuncio può essere eseguita in più posizionamenti. Assets può essere caricato nelle proporzioni richieste dai tuoi posizionamenti di annunci.
+Cerca e seleziona le risorse visive approvate da _[!DNL Content]_oppure carica le risorse da Dropbox o OneDrive. Puoi caricare le risorse direttamente dal dispositivo. Un’esperienza pubblicitaria, o creativa, può essere eseguita in più posizionamenti. Assets può essere caricato nelle proporzioni richieste dai tuoi posizionamenti di annunci.
 
 ### Visualizzare in anteprima e attivare l’esperienza in un canale di annunci
 

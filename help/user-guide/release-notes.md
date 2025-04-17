@@ -4,10 +4,10 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 1%
+source-wordcount: '2252'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’ap
 * Nuove opzioni filtro per i modelli. Ora puoi perfezionare l&#39;elenco _[!UICONTROL Seleziona modelli]_ in [!DNL Create] e in _[!UICONTROL Contenuto]_ > _[!UICONTROL Modelli]_. Vedi [Modelli di ricerca](/help/user-guide/content/use-templates.md#search-templates). Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
 * È stata abilitata la funzionalità per [visualizzare e selezionare singoli livelli](/help/user-guide/create/manage-variants.md#view-layers) (campi di testo modificabili o immagini modificabili) di un&#39;esperienza per evidenziarli per le revisioni, ad esempio la rigenerazione di contenuto o il ritaglio di immagini.
 * È stato aggiunto [un nuovo campo modello](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, per testo aggiuntivo nelle esperienze per attirare l&#39;attenzione del pubblico ed evidenziare i messaggi di marketing.
+* È stato aggiunto il supporto per [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Google Campaign Manager 360. Activate supporta anteprime dettagliate degli annunci di Google Campaign Manager 360 prima di pubblicarli in un inserzionista di Campaign Manager 360. Gli annunci pubblicati tramite Activate vengono automaticamente inseriti in Insights una volta live, consentendo agli utenti di tenere traccia delle prestazioni degli annunci e di generare rapporti su di esse.
 
 ## Note sulle versioni precedenti
 

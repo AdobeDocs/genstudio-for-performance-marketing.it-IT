@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ Nella visualizzazione _[!UICONTROL Account Google Campaign Manager 360]_ sono el
 
 ### Connessione di meta-annunci
 
+Quando connetti il tuo profilo _Meta Business_ a GenStudio for Performance Marketing, questo consente di accedere in modo semplice ai dati pubblicitari per le tue pagine aziendali, gli account Meta Ads e altre risorse Meta.
+
 >[!BEGINSHADEBOX]
 
 **Prerequisiti**:
 
-- Account Facebook/Meta ads
-- Accesso all&#39;account dei metadati con il livello di autorizzazione `View performance` per accedere ai report e visualizzare gli annunci
+- Accesso a Facebook/Meta che può accedere a tutti i servizi Meta, come l’account Meta Ads e il profilo aziendale di Facebook
+- Accesso all&#39;account dei metadati con il livello di autorizzazione `View performance` per accedere ai report e visualizzare gli annunci, inclusi i seguenti
+   - Autorizzazioni necessarie per l&#39;utilizzo con [!DNL Insights]:
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - Autorizzazioni necessarie per l&#39;utilizzo con [!DNL Activate]:
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - Rimuovere eventuali blocchi popup nel browser
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ Nella visualizzazione _[!UICONTROL Account Google Campaign Manager 360]_ sono el
 
    Potrebbe essere necessario rimuovere i blocchi popup e quindi utilizzare **[!UICONTROL Aggiorna]** per riprovare.
 
-1. Segui le istruzioni di autenticazione di Facebook.
+1. Segui le istruzioni di autenticazione di Facebook, verifica le informazioni sull&#39;account e fai clic su **[!UICONTROL Continua come ...]**
 
-1. Nel pop-up _[!UICONTROL Accesso Facebook per le aziende]_ (simbolo da Meta ad Adobe), scorri le seguenti selezioni.
+1. In _[!UICONTROL Accesso Facebook per le aziende]_ (simbolo Meta ad Adobe), eseguire le seguenti operazioni per concedere l&#39;accesso a GenStudio for Performance Marketing:
 
-   - Verifica le informazioni sull&#39;account e fai clic su **[!UICONTROL Continua come]**
-   - Concedi l&#39;accesso a pagine selezionate e fai clic su **[!UICONTROL Continua]**
-   - Concedi l&#39;accesso a determinate aziende e fai clic su **[!UICONTROL Continua]**
-   - Accedi a uno o più account Instagram e fai clic su **[!UICONTROL Continua]**
+   - Seleziona uno o più profili Meta Business e fai clic su **[!UICONTROL Continua]**
+   - Seleziona una o più Meta Pages e fai clic su **[!UICONTROL Continua]**
+   - Seleziona uno o più account Instagram e fai clic su **[!UICONTROL Continua]**
    - Rivedi le selezioni e fai clic su **[!UICONTROL Salva]**
 
-1. Nella visualizzazione _[!UICONTROL Meta Ads]_, seleziona uno o più account e fai clic su **[!UICONTROL Select]**.
+1. Dopo aver ricevuto la verifica della connessione dell&#39;account, fare clic su **[!UICONTROL Ottieni]**.
 
-Nella visualizzazione _[!UICONTROL Account Meta Ads]_ sono elencati `Account name`, `Added by`, `Date added` e `Status`. Utilizza **[!UICONTROL Aggiungi account]** per aggiungere altri account all&#39;elenco.
+   Questo passaggio garantisce a GenStudio for Performance Marketing l’accesso a tutti gli annunci, i metadati e le metriche per prestazioni ottimali.
+
+1. In _[!UICONTROL Meta Ads]_, seleziona uno o più account da includere in [!DNL Insights] e fai clic su **[!UICONTROL Select]**.
+
+1. Dopo aver ricevuto la conferma della connessione a _Platform_, fai clic su **[!UICONTROL Visualizza account]**.
+
+   Nella visualizzazione _[!UICONTROL Account Meta Ads]_ sono elencati `Account name`, `Added by`, `Date added` e `Status`.
+
+Utilizza **[!UICONTROL Aggiungi account]** per aggiungere altri account all&#39;elenco. Il flusso di autorizzazione può variare leggermente quando si aggiungono account collegati allo stesso profilo Meta Business. Durante il processo di connessione vengono selezionati solo i nuovi account Meta Ads.
 
 ## Acquisizione dei dati
 

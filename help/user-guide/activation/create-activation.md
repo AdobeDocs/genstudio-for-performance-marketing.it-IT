@@ -3,7 +3,7 @@ title: Flusso di lavoro attivazione
 description: Scopri il flusso di lavoro di attivazione per le esperienze pubblicitarie.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 8db25ba42a8eebc2d17f8b8b1a5f5fbede1a6e0f
+source-git-commit: 09090a57a0f41c23e8787bfb267e74427d9b7356
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -17,7 +17,8 @@ _[!DNL Activate]_supporta l&#39;attivazione di esperienze pubblicitarie sotto fo
 Un’esperienza GenStudio for Performance Marketing è un componente della campagna di marketing, ad esempio un annuncio, preparato come componente creativo per un pubblico specifico su un canale di annuncio a pagamento o un’e-mail. Le creatività contengono tre componenti principali:
 
 * **Risorse multimediali**: le risorse multimediali sono le immagini (GIF, PNG, JPEG) incluse nell&#39;esperienza pubblicitaria. Al momento Activation supporta le immagini statiche.
-Per selezionare una risorsa immagine per la tua esperienza pubblicitaria, devi scegliere le proporzioni appropriate. Le proporzioni definiscono il rapporto proporzionale tra la larghezza e l’altezza di un’immagine e sono fondamentali per l’efficacia dei posizionamenti di annunci. I canali multimediali a pagamento specificano con attenzione le proporzioni valide per ogni posizionamento di annuncio sulla propria piattaforma. Quando aggiungi risorse immagine all’attivazione, devi selezionare le proporzioni in base ai posizionamenti finali dell’annuncio per l’esperienza. I tipi di file sono limitati a JPEG, PNG e GIF.
+
+  Per selezionare una risorsa immagine per la tua esperienza pubblicitaria, devi scegliere le proporzioni appropriate. Le proporzioni definiscono il rapporto proporzionale tra la larghezza e l’altezza di un’immagine e sono fondamentali per l’efficacia dei posizionamenti di annunci. I canali multimediali a pagamento specificano con attenzione le proporzioni valide per ogni posizionamento di annuncio sulla propria piattaforma. Quando aggiungi risorse immagine all’attivazione, devi selezionare le proporzioni in base ai posizionamenti finali dell’annuncio per l’esperienza. I tipi di file sono limitati a JPEG, PNG e GIF.
 
 * **Testo**: il testo comprende tutte le forme di copia incluse nell&#39;annuncio, inclusi i titoli, il corpo del testo e gli elementi call-to-action.
 
@@ -33,9 +34,9 @@ Anche se i requisiti di posizionamento univoci definiscono ogni canale a pagamen
 
 * **Prepara l&#39;esperienza per l&#39;attivazione**. La preparazione include la selezione delle risorse multimediali nelle proporzioni appropriate per il posizionamento dell’annuncio specifico e l’assegnazione di testo agli elementi di invito all’azione e alla copia del corpo. Puoi anche aggiungere metadati informativi per aiutare gli utenti a cercare l’esperienza dopo l’attivazione. Ogni posizionamento di canale pubblicitario specifica rapporti di formato validi per le risorse visive incluse nel posizionamento.
 
->[!TIP]
->
->È possibile selezionare esperienze pubblicitarie approvate direttamente dalla raccolta esperienze _[!DNL Content]_per prepararle come creative di Google Campaign Manager 360. Dopo aver selezionato un&#39;esperienza dalla raccolta_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla creatività.
+  >[!TIP]
+  >
+  >È possibile selezionare esperienze pubblicitarie approvate direttamente dalla raccolta esperienze _[!DNL Content]_per prepararle come creative di Google Campaign Manager 360. Dopo aver selezionato un&#39;esperienza dalla raccolta_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla creatività.
 
 * **Rivedi e pubblica la tua esperienza nel canale di destinazione**. Utilizza il pannello _Anteprima_ durante la configurazione creativa per valutare la scelta del posizionamento dell&#39;annuncio e degli elementi di testo prima di finalizzare l&#39;attivazione. La revisione finale pre-pubblicazione viene eseguita nell’app di gestione degli annunci del canale di destinazione. Ad esempio, dopo aver attivato un’esperienza di annunci multimediali in GenStudio for Performance Marketing, devi accedere a Meta Ads Manager, rivedere la tua creatività, quindi selezionare gli attributi specifici prima di pubblicarla.
 

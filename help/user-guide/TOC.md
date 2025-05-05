@@ -5,10 +5,10 @@ user-guide-description: Esplora le funzionalità di Adobe GenStudio for Performa
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 291b287fec24acaa7b6be6bd663d918842764bd9
+source-git-commit: 2b4563bfa1738462039ebc6303dbb8ef30019d6a
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 21%
+source-wordcount: '211'
+ht-degree: 20%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 21%
    + [Ottimizza attivazioni](activation/troubleshooting.md)
 + Approfondimenti {#insights}
    + [Panoramica sugli approfondimenti](insights/overview.md)
+   + [Filtri approfondimenti](insights/filter-views.md)
    + [Canali](insights/channels.md)
    + [Annunci e posizionamento annunci](insights/ads.md)
    + [File multimediali](insights/media.md)

@@ -4,9 +4,9 @@ description: Guarda una panoramica del coinvolgimento dei clienti, del budget e 
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: e053c91ebb40a9625ce22281a89feaa9cccab956
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -28,36 +28,7 @@ La visualizzazione della galleria _[!UICONTROL Ad]_ mostra un collage di antepri
 - CPC (costo per clic)
 - Spesa
 
-{{empty-table}}
-
-## Filtrare gli annunci
-
-L&#39;icona del filtro (funnel) sopra il lato sinistro apre il menu **[!UICONTROL Filtro]** in cui è possibile effettuare una selezione da più elenchi. Con alcuni filtri, puoi sfruttare parole chiave precise per perfezionare l’elenco dei criteri. I filtri per parole chiave sono particolarmente utili per le campagne che seguono una convenzione di denominazione complessa con più identificatori univoci, come ad esempio:
-
-- Nome o codice di regione specifico: `NA`, `EMEA`
-- Acronimi del tipo di contenuto: `EB`, `CHT` o `DSP`
-- Codici offerta o acronimi: `OFFER2023`, `PROMO`
-
-**Per filtrare in base alle campagne**:
-
-1. Espandi il filtro **[!UICONTROL Campagne]** e fai clic su **[!UICONTROL Seleziona]**.
-1. Nel campo di ricerca immettere le parole chiave separate da virgole.
-
-   Utilizza il numero di parole chiave necessario per perfezionare l’elenco:
-
-   ![Seleziona campagne](/help/assets/insights-select-campaign.png){width=400}
-
-1. Seleziona una o più campagne dalla ricerca risultante e fai clic su **[!UICONTROL Applica]**.
-
-   Le campagne selezionate vengono ora visualizzate nell&#39;elenco _[!UICONTROL Filtra per]_ sopra la tabella o la raccolta di annunci, consentendo di concentrarsi sugli annunci associati alle campagne selezionate.
-
->[!NOTE]
->
->Il filtro applicato viene mantenuto in tutte le visualizzazioni in [!DNL Insights]. Seleziona **[!UICONTROL Cancella tutto]** sopra la tabella o la raccolta annunci per rimuovere tutti i filtri selezionati.
-
-### Scarica risultati tabella
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Dettagli annuncio
 
@@ -109,10 +80,10 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL File multimediali]** | Numero di risorse utilizzate negli annunci e nei posizionamenti di annunci | Il conteggio nella tabella Annunci potrebbe essere diverso dal conteggio nella visualizzazione Dettagli annuncio. Questa discrepanza può verificarsi se l’origine del canale, ad esempio Meta, e GenStudio utilizzano calcoli di riepilogo leggermente diversi. |
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che il posizionamento o l’annuncio viene caricato nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per insight con prestazioni reali, consideralo in relazione ad altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Il numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante call-to-action, in un posizionamento annuncio. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sull’annuncio all’interno di una campagna.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Costo per mille_ | Il costo medio per ogni mille ad impression.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo per azione_ | Il costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Utilizza per monitorare la spesa per gli annunci pubblicitari che si traducono in azioni preziose per i clienti. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un posizionamento pubblicitario.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sull’annuncio all’interno di una campagna.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Il costo medio per ogni mille ad impression.<br>**Calcolo**: importo totale `spent` diviso per la portata, quindi moltiplicato per 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Il costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Utilizza per monitorare la spesa per gli annunci pubblicitari che si traducono in azioni preziose per i clienti. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un posizionamento pubblicitario.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Spesa]** | L’importo speso dal budget della campagna in un dato periodo di tempo per inserire questo annuncio. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
 | **Attributi** | Elenco delle funzioni inerenti presenti in questo annuncio. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. Vedi [Categorie](/help/user-guide/insights/attributes.md#categories). |
 
@@ -124,8 +95,8 @@ La tabella seguente fornisce le definizioni per le metriche delle prestazioni di
 
 | Metrica | Definizione | Insight |
 | ---------------------------- | ----------------------------- | --------------------------------- |
-| **[!UICONTROL CTR &#x200B;]**<br>_Percentuale di click-through_ | La percentuale (%) di impression per un singolo posizionamento di annuncio che ha generato clic.<p>**Calcolo**:`clicks` diviso per `impressions`<p>Questa metrica aiuta a determinare l’efficacia del posizionamento dell’annuncio nel coinvolgere il pubblico. | Un CTR elevato indica che il posizionamento dell’annuncio è rilevante e convincente per il pubblico, portando a più interazioni. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo per azione_ | Il costo medio speso per un singolo posizionamento pubblicitario per ottenere l’azione desiderata dal cliente, ad esempio un acquisto o un abbonamento.<p>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate<p>Questa metrica consente di valutare il rapporto costi-efficacia del posizionamento dell’annuncio nella promozione di azioni di valore. | Un CPA più basso suggerisce che il posizionamento dell’annuncio è efficace nel convertire le interazioni del pubblico in azioni desiderate a un costo inferiore. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un singolo posizionamento pubblicitario.<p>**Calcolo**: importo totale `spent` diviso per `clicks`<p>Questa metrica consente di valutare il rapporto costi/efficacia del posizionamento dell’annuncio nella generazione dei clic. | Un CPC inferiore indica che il posizionamento dell’annuncio genera clic a un costo inferiore, il che può essere utile per massimizzare il ritorno sull’investimento. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | La percentuale (%) di impression per un singolo posizionamento di annuncio che ha generato clic.<p>**Calcolo**:`clicks` diviso per `impressions`<p>Questa metrica aiuta a determinare l’efficacia del posizionamento dell’annuncio nel coinvolgere il pubblico. | Un CTR elevato indica che il posizionamento dell’annuncio è rilevante e convincente per il pubblico, portando a più interazioni. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Il costo medio speso per un singolo posizionamento pubblicitario per ottenere l’azione desiderata dal cliente, ad esempio un acquisto o un abbonamento.<p>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate<p>Questa metrica consente di valutare il rapporto costi-efficacia del posizionamento dell’annuncio nella promozione di azioni di valore. | Un CPA più basso suggerisce che il posizionamento dell’annuncio è efficace nel convertire le interazioni del pubblico in azioni desiderate a un costo inferiore. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un singolo posizionamento pubblicitario.<p>**Calcolo**: importo totale `spent` diviso per `clicks`<p>Questa metrica consente di valutare il rapporto costi/efficacia del posizionamento dell’annuncio nella generazione dei clic. | Un CPC inferiore indica che il posizionamento dell’annuncio genera clic a un costo inferiore, il che può essere utile per massimizzare il ritorno sull’investimento. |
 | **[!UICONTROL Spesa]** | L’importo speso per un singolo posizionamento pubblicitario, che rappresenta una frazione dell’importo totale speso per l’intero annuncio. Questa metrica consente di tenere traccia dell’allocazione del budget e dell’efficienza della spesa per ciascun posizionamento di annunci. | Il monitoraggio della spesa può contribuire a garantire che le risorse vengano utilizzate in modo efficace tra posizionamenti diversi. |
 | **Attributi** | Elenco delle funzioni intrinseche presenti in questo posizionamento pubblicitario. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. Vedi [Categorie](/help/user-guide/insights/attributes.md#categories). |

@@ -4,9 +4,9 @@ description: Guarda una panoramica del coinvolgimento dei clienti, delle prestaz
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,7 @@ La tabella _[!UICONTROL Canali]_ è organizzata utilizzando la campagna pubblici
 
 Quando selezioni una campagna, la scheda [[!UICONTROL Annunci]](ads.md) si apre in un elenco di nomi di annunci associati alla campagna, che ti consente di identificare quali annunci hanno contribuito al suo successo complessivo.
 
-{{empty-table}}
-
-## Filtra canali
-
-L&#39;icona del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]** in cui è possibile selezionare più elenchi. Il filtro applicato viene mantenuto in tutte le visualizzazioni in [!DNL Insights]. Seleziona **[!UICONTROL Cancella tutto]** sopra la tabella o la raccolta annunci per rimuovere tutti i filtri selezionati.
-
-### Scarica risultati tabella
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Obiettivi
 
@@ -58,9 +50,9 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL Lancio]** | La data in cui la campagna è stata rilasciata o pubblicata sul mercato. | Un conteggio elevato delle impression può indicare che l’annuncio sta raggiungendo il pubblico previsto. |
 | **[!UICONTROL Impression]** | Un conteggio di ogni caricamento di contenuto nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per insight con prestazioni reali, consideralo insieme ad altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Il numero di volte in cui gli utenti interagiscono con un elemento cliccabile, ad esempio un collegamento o un pulsante call-to-action, all’interno della campagna pubblicitaria. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sulla campagna all’interno di un canale.<br>**Calcolo**: (`clicks` diviso per `impressions`) x 100 = % | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Costo per mille_ | Costo per ogni mille impression pubblicitarie per la campagna pubblicitaria. <br>**Calcolo**: (importo totale `spent` diviso per `impressions`) x 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Costo medio associato a ogni clic in una campagna pubblicitaria.<br>**Calcolo**: importo totale `spent` diviso per `clicks` = $ | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sulla campagna all’interno di un canale.<br>**Calcolo**: (`clicks` diviso per `impressions`) x 100 = % | Un elevato tasso di click-through indica che il contenuto è altamente pertinente e motivante per il pubblico nella messaggistica e nella progettazione, e sta mirando in modo efficace agli interessi del pubblico. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Costo per ogni mille impression pubblicitarie per la campagna pubblicitaria. <br>**Calcolo**: (importo totale `spent` diviso per `impressions`) x 1000 | Un valore basso può indicare una visibilità a costi contenuti, soprattutto se associata a un elevato tasso di click-through. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic in una campagna pubblicitaria.<br>**Calcolo**: importo totale `spent` diviso per `clicks` = $ | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Riproduzioni video]** | Il numero di volte in cui un video inizia a essere riprodotto in una campagna pubblicitaria, escluse le riproduzioni. La riproduzione di un video viene avviata quando l’utente fa clic su di essa o quando il video viene riprodotto automaticamente. | Un numero elevato di riproduzioni video può indicare che il video sta catturando l’attenzione e può indicare che la miniatura, il titolo o il posizionamento stanno effettivamente disegnando negli spettatori. |
 | **[!UICONTROL Budget]** | Totale dei fondi stanziati per una campagna pubblicitaria per raggiungere gli obiettivi della campagna. | Un bilancio elevato implica maggiori risorse per una portata più ampia e un impatto potenzialmente maggiore. |
 | **[!UICONTROL Spesa]** | L’importo speso dal budget in un dato periodo di tempo per inserire annunci tra diverse piattaforme. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |

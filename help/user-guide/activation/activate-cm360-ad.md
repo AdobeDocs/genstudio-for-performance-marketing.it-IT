@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing consente ai responsabili di sistema e agli editor di GenStudio di pubblicare creatività pubblicitarie sulla piattaforma Google Campaign Manager 360.
 
-È possibile avviare la pubblicazione di un&#39;esperienza pubblicitaria di Google Campaign Manager 360 dalla raccolta _[!DNL Content]_o dalla home page_[!DNL Activate]_.
+È possibile avviare la pubblicazione di un&#39;esperienza pubblicitaria di Google Campaign Manager 360 dalla raccolta _[!DNL Content]_&#x200B;o dalla home page&#x200B;_[!DNL Activate]_.
 
 ## Passaggio 1: configurare gli account Google Campaign Manager 360
 
@@ -29,11 +29,11 @@ Al termine della sincronizzazione, puoi visualizzare gli account aggiunti.
 
 ## Passaggio 3: scegliere i contenuti per la creatività
 
-È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_o dalla home page_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
+È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_&#x200B;o dalla home page&#x200B;_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
 
 **Per selezionare un&#39;esperienza**:
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**. In alternativa, è possibile selezionare un&#39;esperienza da_[!DNL Activate]_ facendo clic su **[!UICONTROL Nuovo]** nella scheda prodotto di Google Campaign Manager 360.
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_&#x200B;per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**. In alternativa, è possibile selezionare un&#39;esperienza da&#x200B;_[!DNL Activate]_ facendo clic su **[!UICONTROL Nuovo]** nella scheda prodotto di Google Campaign Manager 360.
 
    Per questa esperienza viene aperta la pagina Google Campaign Manager 360 _Configurazione di Creative_. È precompilata con i dettagli dell’esperienza selezionata che non è possibile rivedere.
 
@@ -59,7 +59,7 @@ Fai clic su **[!UICONTROL Avanti]** in alto a destra per visualizzare l&#39;ante
 
 La pagina _Revisione_ offre l&#39;ultima opportunità di visualizzare la tua esperienza pubblicitaria prima di pubblicarla.
 
-Se hai avviato questa attivazione da _[!DNL Activate]_, puoi fare clic su **[!UICONTROL Modifica sezione]**accanto all&#39;etichetta_ Configurazione di Creative _per apportare le modifiche. Puoi anche fare clic su **[!UICONTROL Indietro]**in alto a destra per tornare alla pagina_ Configurazione di Creative _. Non è possibile modificare il contenuto dell’esperienza.
+Se hai avviato questa attivazione da _[!DNL Activate]_, puoi fare clic su **[!UICONTROL Modifica sezione]**&#x200B;accanto all&#39;etichetta_ Configurazione di Creative _per apportare le modifiche. Puoi anche fare clic su **[!UICONTROL Indietro]**&#x200B;in alto a destra per tornare alla pagina_ Configurazione di Creative _. Non è possibile modificare il contenuto dell’esperienza.
 
 ## Passaggio 6: completa la pubblicazione dell’esperienza pubblicitaria
 

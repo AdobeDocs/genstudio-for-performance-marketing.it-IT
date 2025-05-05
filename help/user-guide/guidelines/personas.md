@@ -19,7 +19,7 @@ GenStudio for Performance Marketing sfrutta la potenza delle linee guida ([[!DNL
 **Per visualizzare o modificare un utente tipo**:
 
 1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL Persone]**.
-1. Per [visualizzare i dettagli individuali o modificare un utente tipo](add-guidelines.md#manage-personas), fare clic sul menu Azioni _[!DNL Personas]_e selezionare **Apri**.
+1. Per [visualizzare i dettagli individuali o modificare un utente tipo](add-guidelines.md#manage-personas), fare clic sul menu Azioni _[!DNL Personas]_&#x200B;e selezionare **Apri**.
 1. Rivedi le linee guida per gli utenti tipo facendo clic su in un campo di testo per categoria linee guida.
 
 Consulta [Aggiungi linee guida](add-guidelines.md) per scoprire come aggiungere o modificare un utente tipo in GenStudio for Performance Marketing.

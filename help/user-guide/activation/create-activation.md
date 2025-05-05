@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Flusso di lavoro attivazione
 
-_[!DNL Activate]_supporta l&#39;attivazione di esperienze pubblicitarie sotto forma di creatività in formati specifici del canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
+_[!DNL Activate]_&#x200B;supporta l&#39;attivazione di esperienze pubblicitarie sotto forma di creatività in formati specifici del canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
 
 Un’esperienza GenStudio for Performance Marketing è un componente della campagna di marketing, ad esempio un annuncio, preparato come componente creativo per un pubblico specifico su un canale di annuncio a pagamento o un’e-mail. Le creatività contengono tre componenti principali:
 
@@ -36,11 +36,11 @@ Anche se i requisiti di posizionamento univoci definiscono ogni canale a pagamen
 
   >[!TIP]
   >
-  >È possibile selezionare esperienze pubblicitarie approvate direttamente dalla raccolta esperienze _[!DNL Content]_per prepararle come creative di Google Campaign Manager 360. Dopo aver selezionato un&#39;esperienza dalla raccolta_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla creatività.
+  >È possibile selezionare esperienze pubblicitarie approvate direttamente dalla raccolta esperienze _[!DNL Content]_&#x200B;per prepararle come creative di Google Campaign Manager 360. Dopo aver selezionato un&#39;esperienza dalla raccolta&#x200B;_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla creatività.
 
 * **Rivedi e pubblica la tua esperienza nel canale di destinazione**. Utilizza il pannello _Anteprima_ durante la configurazione creativa per valutare la scelta del posizionamento dell&#39;annuncio e degli elementi di testo prima di finalizzare l&#39;attivazione. La revisione finale pre-pubblicazione viene eseguita nell’app di gestione degli annunci del canale di destinazione. Ad esempio, dopo aver attivato un’esperienza di annunci multimediali in GenStudio for Performance Marketing, devi accedere a Meta Ads Manager, rivedere la tua creatività, quindi selezionare gli attributi specifici prima di pubblicarla.
 
-Una volta che un contenuto creativo è attivo sul suo canale di destinazione per contenuti multimediali a pagamento, _[!DNL Insights]_può tracciare e analizzare i dati sulle prestazioni.
+Una volta che un contenuto creativo è attivo sul suo canale di destinazione per contenuti multimediali a pagamento, _[!DNL Insights]_&#x200B;può tracciare e analizzare i dati sulle prestazioni.
 
 ## Canali supportati
 

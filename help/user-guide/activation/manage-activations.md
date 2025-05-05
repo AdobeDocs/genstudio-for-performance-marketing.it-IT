@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gestire le attivazioni
 
-_[!DNL Activate]_offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
+_[!DNL Activate]_&#x200B;offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
 
-_[!DNL Activate]_organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
+_[!DNL Activate]_&#x200B;organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**&#x200B;nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
 
 ## Visualizzazione esperienza attivata
 

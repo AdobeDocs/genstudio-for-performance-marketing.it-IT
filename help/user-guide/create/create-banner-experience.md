@@ -123,7 +123,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

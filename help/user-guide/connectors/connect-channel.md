@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Connettere account di media a pagamento
 
-_[!DNL Data connectors]_consente l&#39;integrazione diretta tra GenStudio for Performance Marketing e gli account di rete per media a pagamento. Tramite la connessione agli account di canale di terze parti, è possibile scambiare dati critici, ad esempio le metriche delle prestazioni della campagna in [[!DNL Insights]](/help/user-guide/insights/overview.md), e distribuire nuovi posizionamenti di annunci con [[!DNL Activate]](/help/user-guide/activation/overview.md). Questa integrazione consente a GenStudio for Performance Marketing di gestire i contenuti multimediali e gli annunci e di ricevere informazioni importanti, tra cui impression, clic e conversioni, dalle campagne attive.
+_[!DNL Data connectors]_&#x200B;consente l&#39;integrazione diretta tra GenStudio for Performance Marketing e gli account di rete per media a pagamento. Tramite la connessione agli account di canale di terze parti, è possibile scambiare dati critici, ad esempio le metriche delle prestazioni della campagna in [[!DNL Insights]](/help/user-guide/insights/overview.md), e distribuire nuovi posizionamenti di annunci con [[!DNL Activate]](/help/user-guide/activation/overview.md). Questa integrazione consente a GenStudio for Performance Marketing di gestire i contenuti multimediali e gli annunci e di ricevere informazioni importanti, tra cui impression, clic e conversioni, dalle campagne attive.
 
 **Per connettersi a un account multimediale a pagamento**:
 

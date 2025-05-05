@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Genera immagini
 
-Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_&#x200B;risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Per progettare un&#39;immagine accattivante ed efficace, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sulla scrittura dei prompt](/help/user-guide/effective-prompts.md).
 
 ## Tipi di immagini
 
-_[!DNL On-brand images]_sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
+_[!DNL On-brand images]_&#x200B;sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora linee guida per set, parametri e un [prompt creato con cura](/help/user-guide/effective-prompts.md) per fornire risorse di immagine accattivanti.
 

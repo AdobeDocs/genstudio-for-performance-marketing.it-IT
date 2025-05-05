@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Provisioning di Adobe GenStudio for Performance Marketing
 
-Un amministratore di sistema Adobe esegue le attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Da Admin Console, un amministratore di sistema Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
+Un amministratore di sistema Adobe esegue le attività iniziali di provisioning in [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html#Overview). Da Admin Console, un amministratore di sistema Adobe può accedere al profilo di prodotto GenStudio e assegnare agli utenti le licenze di prodotto disponibili.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ All’interno di Admin Console, il profilo di prodotto definisce regole e profil
 
 **Per accedere al profilo di prodotto GenStudio**
 
-1. Fai clic sul collegamento **Inizia** nell&#39;e-mail di benvenuto per accedere a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
+1. Fai clic sul collegamento **Inizia** nell&#39;e-mail di benvenuto per accedere a [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html#Overview).
 
 1. Accedi ad Admin Console utilizzando il tuo Adobe ID.
 
@@ -62,8 +62,8 @@ Per informazioni sull&#39;assegnazione dei ruoli utente di GenStudio for Perform
 
 Puoi aggiungere singoli utenti o importare informazioni sull’account per più utenti:
 
-* [Gestisci l&#39;utente singolarmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [Gestisci l&#39;utente singolarmente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#add-users)
 
-* [Gestione di più utenti/caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
+* [Gestione di più utenti/caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html)
 
 Dopo aver integrato gli utenti nel GenStudio for Performance Marketing dell&#39;organizzazione, un responsabile di sistema di GenStudio può [impostare le linee guida per il marchio e i contenuti multimediali](get-started.md).

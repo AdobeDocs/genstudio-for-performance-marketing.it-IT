@@ -54,7 +54,7 @@ Stati bozza disponibili:
 
 Le notifiche interne al prodotto di GenStudio for Performance Marketing aggiornano in tempo reale gli approvatori e gli editor di contenuti in merito alle modifiche di stato delle risorse e `@mention` commenti. Le notifiche supportano una rapida iterazione attraverso più cicli di revisione, modifica e approvazione.
 
-Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
 
 Le azioni intraprese dai partecipanti all’approvazione attivano le notifiche automatiche interne al prodotto e le notifiche e-mail. Quando avvii un processo di approvazione, gli approvatori designati ricevono sia le notifiche e-mail che quelle interne al prodotto. L&#39;utente viene tenuto costantemente aggiornato con notifiche interne ed e-mail ogni volta che un approvatore aggiunge `@mention` commenti o prende una decisione. Le notifiche includono collegamenti alla bozza di contenuto.
 

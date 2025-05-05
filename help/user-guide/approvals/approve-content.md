@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Approva contenuto
 
-Gli approvatori ricevono notifiche interne al prodotto, e-mail e, se abilitati, notifiche Slack quando sono necessarie la revisione e l’approvazione. Le notifiche forniscono un collegamento all’area di lavoro per visualizzare il contenuto sotto revisione. Consulta [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) per informazioni sulla gestione delle notifiche.
+Gli approvatori ricevono notifiche interne al prodotto, e-mail e, se abilitati, notifiche Slack quando sono necessarie la revisione e l’approvazione. Le notifiche forniscono un collegamento all’area di lavoro per visualizzare il contenuto sotto revisione. Consulta [Preferenze account e notifiche](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences) per informazioni sulla gestione delle notifiche.
 
 Se la bozza di contenuto soddisfa gli standard e le aspettative della tua organizzazione, sei pronto ad approvarla.
 

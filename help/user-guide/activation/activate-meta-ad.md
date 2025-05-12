@@ -43,7 +43,7 @@ I system manager e gli editor di GenStudio possono attivare le esperienze pubbli
 
 **Per preparare l&#39;esperienza per l&#39;attivazione**:
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Prodotto metadati. Verrà aperta la visualizzazione_ Configurazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Prodotto metadati. Verrà aperta la visualizzazione_ Configurazione di Creative _.
 
    La pagina di configurazione di Creative fornisce una posizione centrale per la preparazione dell’attivazione dei Meta Ad. La preparazione dell’annuncio include le tre attività seguenti:
 
@@ -62,13 +62,13 @@ Dopo il caricamento, le risorse vengono salvate in _[!DNL Content]_. Nell&#39;ar
 
 **Per caricare una risorsa dal contenuto**:
 
-_[!DNL Content]_fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
+_[!DNL Content]_&#x200B;fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Meta Ads. Verrà aperta la visualizzazione_ Configurazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Meta Ads. Verrà aperta la visualizzazione_ Configurazione di Creative _.
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi seleziona **[!UICONTROL Seleziona dal contenuto]**. Viene aperta la visualizzazione _Seleziona contenuto_, in cui viene visualizzata una raccolta di risorse immagine cercate o filtrate.
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per selezionare almeno una risorsa da caricare.
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_&#x200B;per selezionare almeno una risorsa da caricare.
 
 1. Fai clic su **[!UICONTROL Usa]** per includere nella tua creatività la risorsa selezionata. La finestra _Installazione di Creative_ include la risorsa nelle proporzioni predefinite nell&#39;area _Media_. Il pannello _Anteprima_ visualizza in anteprima la risorsa nel posizionamento dell&#39;annuncio che supporta queste proporzioni.
 
@@ -76,9 +76,9 @@ Se il caricamento non riesce, viene visualizzato un messaggio di errore informat
 
 **Per caricare una risorsa esterna**:
 
-È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_da Microsoft OneDrive o Dropbox.
+È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_&#x200B;da Microsoft OneDrive o Dropbox.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Meta. Viene visualizzata la finestra_ Installazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Meta. Viene visualizzata la finestra_ Installazione di Creative _.
 
 1. Nella sezione _Media_, fai clic su **[!UICONTROL Seleziona]**. In un menu a discesa vengono visualizzate le opzioni per _Seleziona dal contenuto_ o _Carica_.
 

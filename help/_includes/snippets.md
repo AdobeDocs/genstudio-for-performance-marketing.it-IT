@@ -1,7 +1,7 @@
 ---
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per iniziare a ricevere i dati, GenStudio for Performance Marketing richiede la connessione a un account di canale. Consulta [Connetti account canale](/help/user-guide/connectors/connect-channel.md).
+>Per iniziare a ricevere i dati, GenStudio for Performance Marketing richiede la connessione a un account di canale. Consulta [Connetti account di paid media](/help/user-guide/connectors/connect-channel.md).
 
 ## Nota AEM Assets {#note-aem-assets}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >In caso di problemi durante la visualizzazione o l&#39;utilizzo di risorse da un archivio [!DNL AEM Assets Content Hub], consultare l&#39;amministratore di sistema e verificare di avere accesso all&#39;organizzazione o al profilo di prodotto corretto. Vedi [Connetti a un [!DNL AEM Assets Content Hub] archivio](/help/user-guide/content/connect-aem-repo.md).
 
-## Suggerimento sul contenuto dell'Academy {#in-academy}
+## Suggerimento sul contenuto dell&#39;Academy {#in-academy}
 
 >[!TIP]
 >

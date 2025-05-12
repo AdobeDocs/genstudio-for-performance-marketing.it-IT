@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
+source-git-commit: b24ec61c6c8b5e359364d23d0e152b3a5b72dacf
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 0%
@@ -25,8 +25,8 @@ Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza 
 
 **Per scegliere un Meta Ad Template**:
 
-1. In _[!DNL Create]_, click **[!UICONTROL Meta ads]**.
-1. Use the search option, adjacent to _Filter_, to find a specific Meta ad template.
+1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci metadati]**.
+1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello di Meta Ad specifico.
 1. Fare clic per selezionare un modello e fare clic su **[!UICONTROL Usa]**.
 
    Questa azione apre Canvas, l’hub centrale per la creazione dei contenuti.
@@ -148,4 +148,4 @@ Per ulteriori informazioni, vedere [[!DNL Content]](/help/user-guide/content/ove
 
 Puoi collegare GenStudio for Performance Marketing a Meta per ricevere analisi avanzate e approfondimenti sulle prestazioni dei contenuti.
 
-Vedi [Connessione di annunci multimediali](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Vedi [Connessione di annunci multimediali](/help/user-guide/connectors/meta-ads.md).

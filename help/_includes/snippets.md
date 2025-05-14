@@ -1,7 +1,7 @@
 ---
-source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,19 @@ ht-degree: 0%
 >
 >Per iniziare a ricevere i dati, GenStudio for Performance Marketing richiede la connessione a un account di canale. Consulta [Connetti account di paid media](/help/user-guide/connectors/connect-channel.md).
 
+## Nota sugli effetti CSS {#note-css-effects}
+
+>[!NOTE]
+>
+>GenStudio for Performance Marketing non supporta alcuni effetti grafici CSS, ad esempio l&#39;effetto filtro `backdrop-filter` (sfocatura, luminosità, contrasto). Se il modello utilizza queste proprietà, è possibile che non vengano visualizzate come previsto nel contenuto esportato.
+
 ## Nota AEM Assets {#note-aem-assets}
 
 >[!INFO]
 >
 >In caso di problemi durante la visualizzazione o l&#39;utilizzo di risorse da un archivio [!DNL AEM Assets Content Hub], consultare l&#39;amministratore di sistema e verificare di avere accesso all&#39;organizzazione o al profilo di prodotto corretto. Vedi [Connetti a un [!DNL AEM Assets Content Hub] archivio](/help/user-guide/content/connect-aem-repo.md).
 
-## Suggerimento sul contenuto dell'Academy {#in-academy}
+## Suggerimento sul contenuto dell&#39;Academy {#in-academy}
 
 >[!TIP]
 >

@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,7 @@ Prima di inviare varianti per l&#39;approvazione o la pubblicazione a [!DNL Cont
 * **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante call-to-action e selezionare una delle opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo di call-to-action.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fai clic su un campo di testo modificabile e utilizza le _[!UICONTROL opzioni di modifica consigliate]_ oppure immetti un nuovo prompt nella _[!UICONTROL Generate new text_ section] e fai clic su **[!UICONTROL Generate]**.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
 * **Per [eliminare un annuncio LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic sul menu delle opzioni per una variante e quindi su **[!UICONTROL Elimina variante]**.
 
 ## Invia feedback generazione

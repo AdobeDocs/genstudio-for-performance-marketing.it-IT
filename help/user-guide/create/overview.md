@@ -4,9 +4,9 @@ description: Genera rapidamente contenuti a elevate prestazioni e sul marchio co
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ Gli editor e i responsabili di sistema hanno accesso completo a [!DNL Create]. P
 ## Casi di utilizzo di [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Creare un'esperienza e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Creare un’esperienza di annuncio multimediale" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Creare un'esperienza di annuncio multimediale</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Creare un’esperienza di annuncio LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Creare un'esperienza annuncio LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Creare un’esperienza di visualizzazione annuncio" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crea un'esperienza di annuncio visualizzato</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Creare un&apos;esperienza di banner" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Crea un'esperienza banner</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Creare immagini" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Genera immagini</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing consente agli addetti al marketing di **creare nuovi contenuti di marketing**. In questo caso d&#39;uso, utilizza le [linee guida](/help/user-guide/guidelines/overview.md) definite e le immagini di ispirazione per creare contenuti allineati al brand.
@@ -137,11 +200,11 @@ Dopo aver generato le varianti di contenuto, invia le bozze per l&#39;approvazio
 
 ### Bozze
 
-Nella sezione _Lavoro recente_ di [!DNL Create], accedi e gestisci tutte le bozze recenti. Visualizza e completa il lavoro precedente per prepararlo per la pubblicazione in [[!DNL Content]](/help/user-guide/content/overview.md) o l&#39;esportazione per l&#39;utilizzo.
+Nella sezione _Recenti_ di [!DNL Create], è possibile accedere e gestire tutte le bozze recenti. Visualizza e completa il lavoro precedente per prepararlo per la pubblicazione in [[!DNL Content]](/help/user-guide/content/overview.md) o l&#39;esportazione per l&#39;utilizzo. Fate clic sull&#39;icona delle opzioni (tre punti) per eliminare una bozza.
 
-Le bozze in corso vengono salvate automaticamente. Quando si torna alla home di [!DNL Create], la sezione _Lavoro recente_ viene aggiornata con le bozze più recenti. Ogni bozza in questa sezione visualizza uno stato, ad esempio _Bozza_ o _Approvata_.
+Le bozze vengono salvate e visualizzate automaticamente nella sezione _Recenti_ della home [!DNL Create]. Ogni bozza in questa sezione visualizza uno stato, ad esempio _Bozza_ o _Approvata_.
 
-Fare clic sulle icone di ordinamento (griglia o tabella) per visualizzare _Elementi di lavoro recenti_ in una visualizzazione griglia o tabella.
+Fai clic sull&#39;icona della vista galleria (griglia) per visualizzare _Recenti_ elementi in una vista griglia o tabella.
 
 ### Gestisci varianti
 

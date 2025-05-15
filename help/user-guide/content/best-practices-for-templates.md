@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 - Quadrato 1:1 (1080 x 1080 pixel)
 - Verticale 4:5 (1080 x 1350 pixel)
 - Storia 9:16 (1080 x 1920 pixel)
+- Orizzontale: 1,91:1 (larghezza 1080 pixel)
 - Dimensioni immagine personalizzate: (larghezza minima immagine 50 x 50 pixel)
 
 **Nomi di campi riconosciuti**:
@@ -137,17 +138,17 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 **Dimensioni supportate**:
 
-- Verticale: (pixel)
+- Larghezza x altezza (pixel)
+- Verticale:
    - 300 x 600
    - 160 x 600 &#x200B;
-- Orizzontale: (pixel)
+- Orizzontale
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250 &#x200B;
-- Personalizzato: (pixel)
-   - Da 50 x 50 a 2000 x 2000
+- Personalizzato: da 50 x 50 a 2000 x 2000
 
 **Nomi di campi riconosciuti**:
 

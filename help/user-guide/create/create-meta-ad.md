@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: b24ec61c6c8b5e359364d23d0e152b3a5b72dacf
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,7 @@ o body copy) e modificarli in base alle esigenze.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
 * **Per [eliminare un Meta Ad](/help/user-guide/create/manage-variants.md#delete-variant)**, fai clic sul menu delle opzioni per una variante e poi su **[!UICONTROL Elimina variante]**.
 
 ## Invia feedback generazione

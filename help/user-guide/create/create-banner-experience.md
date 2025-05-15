@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fai clic su un campo di testo modificabile e utilizza le _[!UICONTROL opzioni di modifica consigliate]_ oppure immetti un nuovo prompt nella _[!UICONTROL Generate new text_ section] e fai clic su **[!UICONTROL Generate]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 * **Per [aggiungere un collegamento a un&#39;immagine in una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, fare clic su una risorsa immagine (o sull&#39;area della risorsa immagine se non esiste attualmente un&#39;immagine) e fare clic sull&#39;icona del collegamento.
+* **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
 * **Per [modificare le dimensioni e le proporzioni dell&#39;annuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, fare clic sul pulsante _[!UICONTROL Ridimensiona]_ (casella con l&#39;icona di un pulsante sul lato sinistro dell&#39;area di lavoro) e selezionare nuove dimensioni e proporzioni da applicare a tutte le varianti. Le varianti vengono duplicate e ridimensionate.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse sull&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine. Fai clic su **[!UICONTROL Applica]**.
 
@@ -123,7 +124,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

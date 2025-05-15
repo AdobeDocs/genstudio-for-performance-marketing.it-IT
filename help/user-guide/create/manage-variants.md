@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
+source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 
@@ -176,6 +176,25 @@ Analogamente all’aggiunta o allo scambio di immagini nelle varianti generate, 
 1. Aggiungi un collegamento nel campo di testo e fai clic su **[!UICONTROL Applica]**.
 
    Il collegamento definito viene applicato a tutte le immagini nel set di varianti.
+
+## Aggiungi testo alternativo per le immagini
+
+Quando aggiungi contenuto (immagini) durante il processo di creazione, puoi definire testo alternativo per ogni immagine inclusa. L’aggiunta di testo alternativo alle immagini migliora l’accessibilità, l’ottimizzazione dei motori di ricerca e l’esperienza utente.
+
+Per abilitare la funzionalità testo alternativo, [aggiungi un segnaposto di contenuto](/help/user-guide/content/customize-template.md#alternative-text) nel modello.
+
+**Per aggiungere testo alternativo alle immagini nelle varianti generate**:
+
+1. Dopo aver generato un set di varianti, fai clic su un’immagine all’interno di una singola variante.
+1. Fare clic sul pulsante **[!UICONTROL Testo alternativo]** (icona dell&#39;immagine e del foglio).
+1. Per aggiungere manualmente testo alternativo:
+   1. Fare clic nella casella di testo e aggiungere testo alternativo.
+   1. Fai clic su **[!UICONTROL Applica]**.
+1. Per generare testo alternativo per l&#39;immagine:
+   1. Lascia vuoto il campo di testo e fai clic su **[!UICONTROL Genera]**.
+   1. Fai di nuovo clic su **[!UICONTROL Genera]** se non sei soddisfatto del risultato iniziale.
+   1. Fai clic su **[!UICONTROL Applica]**.
+1. Ripeti l’operazione per ogni immagine nel set di varianti.
 
 ## Anteprima per dispositivo
 

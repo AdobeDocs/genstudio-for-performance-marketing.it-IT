@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] sono una raccolta completa di risorse per i marchi, quali copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1471'
 ht-degree: 1%
 
 ---
@@ -80,38 +80,13 @@ La tabella seguente mostra ogni sezione di canale, i canali per i quali è dispo
 | Descrizione | LinkedIn | Espressioni descrittive che definiscono il tono-emozione generale | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le descrizioni riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot; |
 | Corpo | e-mail, Meta, Banner e annunci di visualizzazione, LinkedIn | Contenuto di marketing che include messaggi, collegamenti e immagini | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi la copia precedentemente riuscita alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Limita a 80-100 caratteri&quot;, &quot;Evita acronimi eccessivi&quot; |
 | Testo su immagine | Meta, LinkedIn | Indicazioni specifiche sul tono, sulla lunghezza ideale, ecc. per il testo visualizzato sopra le immagini | Fornisci indicazioni specifiche (1-2 frasi) sul tono, sulla lunghezza ideale, ecc. Aggiungi testo precedentemente completato alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Concentrati sul momento&quot; |
-| Call-to-action (CTA) | e-mail, metadati, banner e annunci di visualizzazione | (Invito all’azione) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
+| Call-to-action (CTA) | e-mail, metadati, banner e annunci di visualizzazione | (Call to action) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
 
 #### Linee guida di canale predefinite
 
 Le seguenti linee guida di canale predefinite per [!DNL Brands] vengono applicate per canale, in base alle best practice del settore e alle specifiche delle singole piattaforme.
 
 >[!BEGINTABS]
-
->[!TAB E-mail]
-
-| Sezione | Linea guida predefinita |
-|-----------|-------------------------------|
-| Oggetto | Limite massimo a 2 righe |
-| Preheader | Limite massimo a 2 righe |
-| Titolo | Limite massimo di 8 parole |
-| Corpo | Limite a 3-4 righe |
-| CTA | Limite massimo di 2 parole |
-
->[!TAB Social a pagamento]
-
-| Sezione | Linea guida predefinita |
-|-----------|-------------------------------|
-| Titolo | Massimo 40 caratteri |
-| Corpo | Limite massimo di 125 caratteri |
-
->[!TAB Annunci visualizzati]
-
-| Sezione | Linea guida predefinita |
-|-----------|-------------------------------|
-| Titolo | Limite massimo di 6 parole |
-| Corpo | Limite massimo di 6 parole |
-| CTA | Limite massimo di 2 parole |
 
 >[!TAB Meta]
 

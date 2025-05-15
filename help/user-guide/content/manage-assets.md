@@ -3,9 +3,9 @@ title: Gestire risorse ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
+source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 | [Visualizza dettagli](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Modifica in Adobe Express](#edit-in-express) | ✓ |             |           |
-| [Esporta per attivazione](#export-for-activation) |        | ✓ |           |
+| [Esporta esperienze](#export-experiences) |        | ✓ |           |
 | [Aggiorna](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Elimina](#delete-assets) | ✓ | ✓ | ✓ |
@@ -136,22 +136,28 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 1. Nel popup _Elimina risorsa_, verifica la risorsa e fai clic su **[!UICONTROL Elimina]**.
 
-## Esporta per attivazione
+## Esportare esperienze
 
-Puoi esportare un’esperienza approvata per l’attivazione in un formato compatibile con il tuo canale di destinazione.
+Puoi selezionare una o più esperienze approvate da scaricare in un formato compatibile con il tuo canale di destinazione. Il file scaricato è denominato utilizzando la data di esportazione: `2025-06-15-export.zip`. Quando decomprimi il file, esiste una cartella per ogni tipo di canale che include le risorse esportate nei formati selezionati. Ogni risorsa esportata mantiene il nome originale della risorsa come nome del file.
 
-**Per esportare un&#39;esperienza**:
+**Per esportare o scaricare esperienze**:
 
-1. In _[!DNL Content]_, selezionare un&#39;esperienza. Facendo clic su un&#39;esperienza si apre la visualizzazione dei dettagli o si fa clic sul menu di scelta rapida (`...`).
+1. In _[!DNL Content]_, selezionare una o più esperienze.
 
-1. Fai clic su **[!UICONTROL Esporta per l&#39;attivazione]** (casella con freccia rivolta verso l&#39;esterno).
+   Viene visualizzato un banner con il numero di esperienze selezionate a sinistra e le opzioni [!UICONTROL Attiva], [!UICONTROL Scarica] o [!UICONTROL Elimina] a destra.
 
-1. Nel popup _Esporta per attivazione_, selezionare uno dei formati disponibili:
+1. (Facoltativo) Se scegli di attivare, ti potrebbe essere chiesto di selezionare una piattaforma e quindi continuare con il flusso di lavoro [!DNL Activate]. Vedi [Attiva](/help/user-guide/activation/overview.md).
 
-   - E-mail: `HTML`, `CSV`
+1. Fai clic su **[!UICONTROL Scarica]**.
+
+1. Nel popup _Scarica_, seleziona uno dei formati disponibili.
+
+   Se hai selezionato più esperienze da canali diversi, puoi selezionare il formato per ciascun tipo di canale.
+
+   - E-mail, LinkedIn: `HTML`, `CSV`
    - Meta, banner e annuncio di visualizzazione: `HTML`, `JPEG`, `PNG`
 
-Vedi [Attivazione](/help/user-guide/activation/overview.md).
+   ![Scarica esperienze](/help/assets/content-bulk-export.png "Scarica più esperienze"){width=350}
 
 ## Modifica in Express
 

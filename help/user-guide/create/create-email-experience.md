@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 * **Per [aggiungere un collegamento a un&#39;immagine in una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, fare clic su una risorsa immagine (o sull&#39;area della risorsa immagine se non esiste attualmente un&#39;immagine) e fare clic sull&#39;icona del collegamento.
+* **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
 * **Per [eliminare un&#39;e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic per selezionare il titolo dell&#39;e-mail (ad esempio, &quot;E-mail 1/4&quot;) e fare clic su **[!UICONTROL Elimina variante]**.
 
 ## Invia feedback generazione

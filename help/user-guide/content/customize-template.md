@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Nella tabella seguente sono elencati i nomi di campo riconosciuti da GenStudio f
 | `{{cta}}` | Invito all&#39;azione<br>Consulta [Inviti all&#39;azione](#calls-to-action) | e-mail <br>Annuncio metadati <br>Banner e annuncio visualizzazione <br>Annuncio LinkedIn |
 | `{{image}}` | Immagine—seleziona da [!DNL Content] | e-mail <br>Annuncio metadati <br>Banner e annuncio visualizzazione <br>Annuncio LinkedIn |
 | `{{on_image_text}}` | Nel testo dell&#39;immagine<br>Vedere [Nel testo dell&#39;immagine](#on-image-text). | Annuncio metadati <br>Annuncio LinkedIn |
-| `{{link}}` | Invito all&#39;azione nell&#39;immagine<br>Vedere [Collegamento nell&#39;immagine](#link-on-image). | email |
+| `{{link}}` | Call to action sull&#39;immagine<br>Vedi [Collegamento sull&#39;immagine](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -111,6 +111,27 @@ In questo esempio:
 - `src="image-source.jpg"` deve essere sostituito con l&#39;URL di origine effettivo dell&#39;immagine.
 - `{{imageDescription}}` è un nome di campo definito dall&#39;utente che fornisce un segnaposto per il testo alternativo dell&#39;immagine, utile per l&#39;accessibilità e la SEO.
 
+### Testo alternativo
+
+Utilizzare un nome di campo definito dall&#39;utente come segnaposto per generare una descrizione di testo alternativo (attributo HTML `alt="text"`) per un&#39;immagine. Il segnaposto `{{imageDescription}}` seguente viene utilizzato con il campo `{{image}}` all&#39;interno dello stesso tag `<img>`, assicurando la persistenza della relazione tra l&#39;immagine e la relativa descrizione.
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+In questo esempio:
+
+- `{{image}}` è il segnaposto per l&#39;URL di origine dell&#39;immagine.
+- `{{imageDescription}}` è il segnaposto per il testo alt, che fornisce una descrizione dell&#39;immagine a scopo di accessibilità e SEO (Search Engine Optimization).
+
+### Su testo immagine
+
+Il segnaposto `{{ on_image_text }}` viene utilizzato per specificare una sovrapposizione di testo di brevi messaggi di impatto, posizionati direttamente sull&#39;immagine in un&#39;esperienza.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
+
 <!-- this field does not work in Create canvas 2025/03
 
 ### Brand logo field name
@@ -151,22 +172,14 @@ Per creare una sezione modificabile, aggiungere parentesi doppie attorno al nome
 </tbody>
 ```
 
-## Su testo immagine
-
-Il segnaposto `{{ on_image_text }}` viene utilizzato per specificare una sovrapposizione di testo di brevi messaggi di impatto, posizionati direttamente sull&#39;immagine in un&#39;esperienza.
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## Sezioni o gruppi
 
 _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
-Utilizzare un prefisso scelto nel nome del campo per indicare che un campo fa parte di una sezione o di un gruppo. Utilizzare un nome di campo (`headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
+Utilizzare un prefisso scelto nel nome del campo per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
 
-- _Corretto_ (??): `pod1_body`
-- _Errato_ (❌): `pod1_link`
+- _Corretto_ (👍): `pod1_body`
+- _Errato_ (❌): `pod1body`
 
 Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi seguenti appartengono alla sezione `pod1`:
 
@@ -177,9 +190,10 @@ Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi
 
 A causa di questa regola, le sezioni non possono essere nidificate.
 
-Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
+Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
 
 Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi avere tre sezioni titolo e corpo:
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi 
 
 GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
 
-Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione in un messaggio e-mail con più sezioni.
+>[!TIP]
+>
+>Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione in un messaggio e-mail con più sezioni.
 
 ## Anteprima modello
 

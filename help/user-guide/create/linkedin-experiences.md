@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi 
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Le sezioni modificabili di un’esperienza LinkedIn includono:
 * Descrizione
 * Invito all&#39;azione (CTA)
 * Immagine
-* Logo del brand
 
 Vedi [Elementi modello](/help/user-guide/content/use-templates.md#template-elements).
 
@@ -41,7 +40,7 @@ Quando fai clic su **[!UICONTROL Genera]**, nella parte inferiore dell&#39;area 
 Ogni campo e sezione delle esperienze LinkedIn viene caricato progressivamente in questa sequenza:
 
 1. Testo principale per tutte le varianti
-1. Invito all’azione e URL associati
+1. Call-to-action e URL associati
 1. Titoli
 1. Testo su immagine
 1. Convalida del brand

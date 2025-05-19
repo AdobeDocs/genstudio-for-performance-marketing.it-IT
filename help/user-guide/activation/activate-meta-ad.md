@@ -51,7 +51,7 @@ Puoi avviare un’attivazione in due modi:
 
 * **Attiva direttamente da [!DNL Content]_**. La selezione di un’esperienza approvata con impostazioni predefinite è il modo più semplice per avviare un’attivazione su un singolo canale.
 
-* **Assembla la tua esperienza pubblicitaria da [!DNL Activate] > _Configurazione dell&#39;esperienza_**Puoi creare un&#39;esperienza selezionando le risorse visive da_[!DNL Content]_, aggiungendo elementi di testo e selezionando le proporzioni. Questo approccio prevede più passaggi, ma offre maggiore flessibilità nella creazione dell’esperienza creativa.
+* **Assembla la tua esperienza pubblicitaria da [!DNL Activate] > _Configurazione dell&#39;esperienza_**&#x200B;Puoi creare un&#39;esperienza selezionando le risorse visive da&#x200B;_[!DNL Content]_, aggiungendo elementi di testo e selezionando le proporzioni. Questo approccio prevede più passaggi, ma offre maggiore flessibilità nella creazione dell’esperienza creativa.
 
 ### Attivare un’esperienza approvata dal contenuto
 
@@ -59,7 +59,7 @@ Puoi selezionare più esperienze da attivare su un singolo canale a pagamento. P
 
 Se hai selezionato più di un&#39;esperienza da attivare come gruppo, utilizza la barra laterale a sinistra per concentrare la visualizzazione _Configurazione esperienza_ sui dettagli dell&#39;esperienza selezionata.
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**.
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_&#x200B;per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**.
 
    Per questa esperienza viene aperta la pagina Meta ads _Configurazione esperienza_. È precompilato con i dettagli dell’esperienza selezionata. Puoi modificare i campi **[!UICONTROL Call-to-action]**, **[!UICONTROL URL sito Web]** e **[!UICONTROL Collegamento di visualizzazione]**. Se selezioni più di un&#39;esperienza da attivare, la visualizzazione _Configurazione esperienza_ include una barra laterale a sinistra che visualizza le miniature di tutte le esperienze selezionate. Usa questa barra laterale a sinistra per concentrare la visualizzazione _Configurazione esperienza_ sui dettagli dell&#39;esperienza selezionata.
 
@@ -77,12 +77,12 @@ Se scegli di non attivare direttamente un&#39;esperienza approvata da _[!DNL Con
 
 **Per preparare l&#39;esperienza per l&#39;attivazione**:
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**sull&#39;icona che rappresenta il canale a pagamento scelto. Viene aperta la visualizzazione_ Configurazione esperienza _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;sull&#39;icona che rappresenta il canale a pagamento scelto. Viene aperta la visualizzazione_ Configurazione esperienza _.
 
    La pagina _Configurazione esperienza_ fornisce una posizione centrale per la preparazione dell&#39;attivazione dell&#39;annuncio. La preparazione dell’annuncio include le tre attività seguenti:
 
 1. Assegna un nome all&#39;esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
-1. Seleziona le risorse multimediali. È possibile utilizzare le risorse di _[!DNL Content]_o caricare risorse esterne (ad esempio, da OneDrive o Dropbox).
+1. Seleziona le risorse multimediali. È possibile utilizzare le risorse di _[!DNL Content]_&#x200B;o caricare risorse esterne (ad esempio, da OneDrive o Dropbox).
 1. [Aggiungi testo](#add-ad-text).
 1. [Aggiungi metadati](#assign-metadata).
 
@@ -96,13 +96,13 @@ Dopo il caricamento, le risorse vengono salvate in _[!DNL Content]_. Nell&#39;ar
 
 **Per caricare una risorsa dal contenuto**:
 
-_[!DNL Content]_fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
+_[!DNL Content]_&#x200B;fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**sulla scheda del canale. Viene aperta la visualizzazione_ Configurazione esperienza _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;sulla scheda del canale. Viene aperta la visualizzazione_ Configurazione esperienza _.
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi seleziona **[!UICONTROL Seleziona dal contenuto]**. Viene aperta la visualizzazione _Seleziona contenuto_, in cui viene visualizzata una raccolta di risorse immagine cercate o filtrate.
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per selezionare almeno una risorsa da caricare.
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_&#x200B;per selezionare almeno una risorsa da caricare.
 
 1. Fai clic su **[!UICONTROL Utilizza]** per includere la risorsa selezionata nella tua esperienza pubblicitaria. La finestra _Configurazione esperienza_ include la risorsa nelle proporzioni predefinite nell&#39;area _Media_. Il pannello _Anteprima_ visualizza in anteprima la risorsa nel posizionamento dell&#39;annuncio che supporta queste proporzioni.
 
@@ -110,9 +110,9 @@ Se il caricamento non riesce, viene visualizzato un messaggio di errore informat
 
 **Per caricare una risorsa esterna**:
 
-È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_da Microsoft OneDrive o Dropbox.
+È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_&#x200B;da Microsoft OneDrive o Dropbox.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Meta. Viene visualizzata la finestra_ Configurazione esperienza _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Meta. Viene visualizzata la finestra_ Configurazione esperienza _.
 
 1. Nella sezione _Media_, fai clic su **[!UICONTROL Seleziona]**. In un menu a discesa vengono visualizzate le opzioni per _Seleziona dal contenuto_ o _Carica_.
 

@@ -3,18 +3,18 @@ title: Flusso di lavoro attivazione
 description: Scopri il flusso di lavoro di attivazione per le esperienze pubblicitarie.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 09090a57a0f41c23e8787bfb267e74427d9b7356
+source-git-commit: 46453d7cf1901312001aa3b304be9d0832a46079
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Flusso di lavoro attivazione
 
-_[!DNL Activate]_&#x200B;supporta l&#39;attivazione di esperienze pubblicitarie sotto forma di creatività in formati specifici del canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
+_[!DNL Activate]_supporta l&#39;attivazione di esperienze pubblicitarie in formati specifici per canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
 
-Un’esperienza GenStudio for Performance Marketing è un componente della campagna di marketing, ad esempio un annuncio, preparato come componente creativo per un pubblico specifico su un canale di annuncio a pagamento o un’e-mail. Le creatività contengono tre componenti principali:
+Un’esperienza GenStudio for Performance Marketing è un componente della campagna di marketing, ad esempio un annuncio, preparato come esperienza annuncio per un pubblico specifico su un canale di annuncio a pagamento o un’e-mail. Le esperienze per l’attivazione contengono tre componenti principali:
 
 * **Risorse multimediali**: le risorse multimediali sono le immagini (GIF, PNG, JPEG) incluse nell&#39;esperienza pubblicitaria. Al momento Activation supporta le immagini statiche.
 
@@ -30,17 +30,17 @@ La creazione di un’attivazione comporta il perfezionamento di ciascuno di ques
 
 Anche se i requisiti di posizionamento univoci definiscono ogni canale a pagamento, tutte le attivazioni di annunci condividono gli stessi passaggi di alto livello. L’attivazione di un’esperienza su qualsiasi canale a pagamento prevede tre fasi principali:
 
-* **Connetti GenStudio for Performance Marketing al tuo canale di destinazione**. Un gestore di sistema GenStudio deve collegare i tuoi account di canale prima di poter attivare un’esperienza.
+1. **Connetti GenStudio for Performance Marketing al tuo canale di destinazione**. Un gestore di sistema GenStudio deve collegare i tuoi account di canale prima di poter attivare un’esperienza.
 
-* **Prepara l&#39;esperienza per l&#39;attivazione**. La preparazione include la selezione delle risorse multimediali nelle proporzioni appropriate per il posizionamento dell’annuncio specifico e l’assegnazione di testo agli elementi di invito all’azione e alla copia del corpo. Puoi anche aggiungere metadati informativi per aiutare gli utenti a cercare l’esperienza dopo l’attivazione. Ogni posizionamento di canale pubblicitario specifica rapporti di formato validi per le risorse visive incluse nel posizionamento.
+1. **Prepara l&#39;esperienza per l&#39;attivazione**. Puoi preparare le esperienze per l’attivazione in due modi:
 
-  >[!TIP]
-  >
-  >È possibile selezionare esperienze pubblicitarie approvate direttamente dalla raccolta esperienze _[!DNL Content]_&#x200B;per prepararle come creative di Google Campaign Manager 360. Dopo aver selezionato un&#39;esperienza dalla raccolta&#x200B;_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla creatività.
+   * Attiva un&#39;esperienza approvata con impostazioni predefinite direttamente da _[!DNL Content]_. Questo modo semplificato di attivare una o più esperienze pubblicitarie su un singolo canale. Dopo aver selezionato un&#39;esperienza dalla raccolta_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla tua esperienza pubblicitaria. Attiva da _[!DNL Content]_è disponibile per le esperienze di annunci Meta e Google Campaign Manager 360.
 
-* **Rivedi e pubblica la tua esperienza nel canale di destinazione**. Utilizza il pannello _Anteprima_ durante la configurazione creativa per valutare la scelta del posizionamento dell&#39;annuncio e degli elementi di testo prima di finalizzare l&#39;attivazione. La revisione finale pre-pubblicazione viene eseguita nell’app di gestione degli annunci del canale di destinazione. Ad esempio, dopo aver attivato un’esperienza di annunci multimediali in GenStudio for Performance Marketing, devi accedere a Meta Ads Manager, rivedere la tua creatività, quindi selezionare gli attributi specifici prima di pubblicarla.
+   * Assembla la tua esperienza pubblicitaria selezionando risorse visive da _[!DNL Content]_, aggiungendo elementi di testo e selezionando proporzioni. Questo metodo prevede più passaggi, ma offre maggiore flessibilità creativa. La preparazione include la selezione delle risorse multimediali nelle proporzioni appropriate per il posizionamento dell’annuncio specifico e l’assegnazione di testo agli elementi di invito all’azione e alla copia del corpo. Puoi aggiungere metadati informativi che aiutino gli utenti a cercare l’esperienza dopo l’attivazione. Ogni posizionamento di canale pubblicitario specifica rapporti di formato validi per le risorse visive incluse nel posizionamento.
 
-Una volta che un contenuto creativo è attivo sul suo canale di destinazione per contenuti multimediali a pagamento, _[!DNL Insights]_&#x200B;può tracciare e analizzare i dati sulle prestazioni.
+1. **Rivedi e pubblica la tua esperienza nel canale di destinazione**. Utilizza il pannello _Anteprima_ durante la configurazione dell&#39;esperienza per valutare la scelta del posizionamento dell&#39;annuncio e degli elementi di testo prima di finalizzare l&#39;attivazione. La revisione finale pre-pubblicazione viene eseguita nell’app di gestione degli annunci del canale di destinazione. Ad esempio, dopo aver attivato un’esperienza di annunci multimediali in GenStudio for Performance Marketing, devi accedere a Meta Ads Manager, rivedere l’esperienza di annuncio, quindi selezionare gli attributi specifici prima di pubblicarla.
+
+Una volta che un&#39;esperienza pubblicitaria è attiva sul suo canale di destinazione a pagamento, _[!DNL Insights]_può tracciare e analizzare i dati sulle prestazioni.
 
 ## Canali supportati
 

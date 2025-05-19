@@ -3,7 +3,7 @@ title: Gestire le attivazioni
 description: Scopri come gestire le esperienze attivate con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
+source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gestire le attivazioni
 
-_[!DNL Activate]_&#x200B;offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
+_[!DNL Activate]_offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
 
-_[!DNL Activate]_&#x200B;organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**&#x200B;nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
+_[!DNL Activate]_organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
 
 ## Visualizzazione esperienza attivata
 
@@ -41,7 +41,7 @@ Nella visualizzazione _Esperienze attivate_, fai clic su un&#39;attivazione. La 
 
 * **Data e ora di pubblicazione**: data e ora di pubblicazione da Ad Channel Manager
 * **ID annuncio**: ID assegnato dal canale a pagamento e utilizzato per il tracciamento. Fai clic sul pulsante **[!UICONTROL Apri]** accanto a questo campo per visualizzare l&#39;annuncio pubblicato in Meta Ads Manager
-* **Dettagli Creative**: le risorse immagine, i testi e i metadati selezionati assegnati durante il flusso di lavoro di attivazione GenStudio for Performance Marketing
+* **Dettagli esperienza**: le risorse immagine, i testi e i metadati selezionati assegnati durante il flusso di lavoro di attivazione di GenStudio for Performance Marketing
 * **Configurazione del canale**: account del canale a pagamento utilizzati per attivare l&#39;esperienza dell&#39;annuncio
 
 La visualizzazione _Dettagli_ di un&#39;attivazione non riuscita include il motivo dell&#39;errore.

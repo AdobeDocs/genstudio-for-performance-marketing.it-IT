@@ -3,35 +3,43 @@ title: Attivare un Meta Ad
 description: Scopri come attivare un’esperienza di annuncio multimediale.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1670'
 ht-degree: 1%
 
 ---
 
 # Attivare un Meta Ad
 
-Adobe GenStudio for Performance Marketing supporta l’attivazione di Meta ads, o creativi, su Instagram e Facebook.
+Adobe GenStudio for Performance Marketing supporta l’attivazione delle esperienze di annunci Meta su Instagram e Facebook.
 
 È possibile [creare un&#39;esperienza Meta](/help/user-guide/create/create-meta-ad.md) in GenStudio for Performance Marketing e selezionarla per l&#39;attivazione oppure creare una nuova esperienza dalle risorse approvate in [!DNL Activate].
 
-L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione della creatività da esperienze pubblicitarie per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta, o creatività, in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
+L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione dell’esperienza pubblicitaria per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
+
+I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
 
 ## Passaggio 1: configurare i metadati
 
-Prima di avviare un&#39;attivazione, [accedi a Meta](https://adsmanager.facebook.com/) per accedere al tuo account di Meta Ads Manager. Conferma che gli account dei Meta Ad collegati includano:
+Prima di avviare un&#39;attivazione, [accedi a Meta](https://adsmanager.facebook.com/) per accedere al tuo account di Meta Ads Manager.
+
+>[!BEGINSHADEBOX]
+
+**Prerequisiti**:
+
+Conferma che gli account dei metadati connessi dispongano dell’autorizzazione completa per gestire gli annunci in questi componenti della piattaforma Meta advertising:
 
 * Pagina Facebook
 * Meta campaign
 * Metadati set di annunci
 * Profilo Instagram (facoltativo)
 
-Devi disporre dell&#39;autorizzazione per pubblicare contenuti su Meta Ads Manager.
+>[!ENDSHADEBOX]
 
 ## Passaggio 2: collegati ai metadati
 
-Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni come Meta, abilitando i processi di attivazione.
+Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema di GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni, come Meta, abilitando il processo di attivazione.
 
 Vedi [Connetti a Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
@@ -39,16 +47,42 @@ Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La si
 
 ## Passaggio 3: preparare l’esperienza per l’attivazione
 
-I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
+Puoi avviare un’attivazione in due modi:
+
+* **Attiva direttamente da [!DNL Content]_**. La selezione di un’esperienza approvata con impostazioni predefinite è il modo più semplice per avviare un’attivazione su un singolo canale.
+
+* **Assembla la tua esperienza pubblicitaria da [!DNL Activate] > _Configurazione dell&#39;esperienza_**Puoi creare un&#39;esperienza selezionando le risorse visive da_[!DNL Content]_, aggiungendo elementi di testo e selezionando le proporzioni. Questo approccio prevede più passaggi, ma offre maggiore flessibilità nella creazione dell’esperienza creativa.
+
+### Attivare un’esperienza approvata dal contenuto
+
+Puoi selezionare più esperienze da attivare su un singolo canale a pagamento. Potrebbe essere richiesto di selezionare una piattaforma prima di continuare con l&#39;attivazione.
+
+Se hai selezionato più di un&#39;esperienza da attivare come gruppo, utilizza la barra laterale a sinistra per concentrare la visualizzazione _Configurazione esperienza_ sui dettagli dell&#39;esperienza selezionata.
+
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**.
+
+   Per questa esperienza viene aperta la pagina Meta ads _Configurazione esperienza_. È precompilato con i dettagli dell’esperienza selezionata. Puoi modificare i campi **[!UICONTROL Call-to-action]**, **[!UICONTROL URL sito Web]** e **[!UICONTROL Collegamento di visualizzazione]**. Se selezioni più di un&#39;esperienza da attivare, la visualizzazione _Configurazione esperienza_ include una barra laterale a sinistra che visualizza le miniature di tutte le esperienze selezionate. Usa questa barra laterale a sinistra per concentrare la visualizzazione _Configurazione esperienza_ sui dettagli dell&#39;esperienza selezionata.
+
+1. Seleziona una campagna dal menu a discesa **[!UICONTROL Campagne]**.
+
+   Se lavori con più esperienze, passa da un’esperienza all’altra nella barra laterale a sinistra fino a quando non hai completato la preparazione di ciascuna esperienza.
+
+1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione dei Meta Ads.
+
+1. Assegna un nome a ogni esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
+
+### Assemblare componenti esperienza
+
+Se scegli di non attivare direttamente un&#39;esperienza approvata da _[!DNL Content]_, puoi selezionare le risorse, assegnare le proporzioni e gli elementi di testo in bozza.
 
 **Per preparare l&#39;esperienza per l&#39;attivazione**:
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Prodotto metadati. Verrà aperta la visualizzazione_ Configurazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**sull&#39;icona che rappresenta il canale a pagamento scelto. Viene aperta la visualizzazione_ Configurazione esperienza _.
 
-   La pagina di configurazione di Creative fornisce una posizione centrale per la preparazione dell’attivazione dei Meta Ad. La preparazione dell’annuncio include le tre attività seguenti:
+   La pagina _Configurazione esperienza_ fornisce una posizione centrale per la preparazione dell&#39;attivazione dell&#39;annuncio. La preparazione dell’annuncio include le tre attività seguenti:
 
 1. Assegna un nome all&#39;esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
-1. Seleziona le risorse multimediali. Puoi utilizzare le risorse da Contenuto o caricare risorse esterne, ad esempio da OneDrive o Dropbox.
+1. Seleziona le risorse multimediali. È possibile utilizzare le risorse di _[!DNL Content]_o caricare risorse esterne (ad esempio, da OneDrive o Dropbox).
 1. [Aggiungi testo](#add-ad-text).
 1. [Aggiungi metadati](#assign-metadata).
 
@@ -62,23 +96,23 @@ Dopo il caricamento, le risorse vengono salvate in _[!DNL Content]_. Nell&#39;ar
 
 **Per caricare una risorsa dal contenuto**:
 
-_[!DNL Content]_&#x200B;fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
+_[!DNL Content]_fornisce una visualizzazione centrale delle risorse e delle esperienze approvate della tua organizzazione. Puoi rendere attiva la[_[!DNL Content]_ raccolta](/help/user-guide/content/manage-assets.md) visualizzata con l&#39;inventario delle risorse utilizzando le opzioni di menu **[!UICONTROL Cerca]** (lente di ingrandimento) e _Filtra_.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Meta Ads. Verrà aperta la visualizzazione_ Configurazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**sulla scheda del canale. Viene aperta la visualizzazione_ Configurazione esperienza _.
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi seleziona **[!UICONTROL Seleziona dal contenuto]**. Viene aperta la visualizzazione _Seleziona contenuto_, in cui viene visualizzata una raccolta di risorse immagine cercate o filtrate.
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_&#x200B;per selezionare almeno una risorsa da caricare.
+1. Utilizza gli strumenti di ricerca e filtro della raccolta _[!DNL Content]_per selezionare almeno una risorsa da caricare.
 
-1. Fai clic su **[!UICONTROL Usa]** per includere nella tua creatività la risorsa selezionata. La finestra _Installazione di Creative_ include la risorsa nelle proporzioni predefinite nell&#39;area _Media_. Il pannello _Anteprima_ visualizza in anteprima la risorsa nel posizionamento dell&#39;annuncio che supporta queste proporzioni.
+1. Fai clic su **[!UICONTROL Utilizza]** per includere la risorsa selezionata nella tua esperienza pubblicitaria. La finestra _Configurazione esperienza_ include la risorsa nelle proporzioni predefinite nell&#39;area _Media_. Il pannello _Anteprima_ visualizza in anteprima la risorsa nel posizionamento dell&#39;annuncio che supporta queste proporzioni.
 
 Se il caricamento non riesce, viene visualizzato un messaggio di errore informativo che include un collegamento alla risorsa in _[!DNL Content]_.
 
 **Per caricare una risorsa esterna**:
 
-È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_&#x200B;da Microsoft OneDrive o Dropbox.
+È possibile caricare fino a sei immagini statiche esterne alla raccolta _[!DNL Content]_da Microsoft OneDrive o Dropbox.
 
-1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**&#x200B;nella sezione Meta. Viene visualizzata la finestra_ Installazione di Creative _.
+1. Da _[!DNL Activate]_, fai clic su **[!UICONTROL Nuovo]**nella sezione Meta. Viene visualizzata la finestra_ Configurazione esperienza _.
 
 1. Nella sezione _Media_, fai clic su **[!UICONTROL Seleziona]**. In un menu a discesa vengono visualizzate le opzioni per _Seleziona dal contenuto_ o _Carica_.
 
@@ -94,7 +128,7 @@ Se il caricamento non riesce, viene visualizzato un messaggio di errore informat
 
 ### Aggiungi testo annuncio
 
-Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo convincente e aderente al brand ai campi di testo richiesti. Il testo include il testo principale (corpo) dell’annuncio e del testo dell’invito all’azione.
+Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo convincente e aderente al brand ai campi di testo richiesti. Il testo include il testo principale (corpo) dell’annuncio e del testo dell’invito all’azione. Impossibile modificare i campi _Testo principale_, _Titoli_ e _Descrizione_. Puoi modificare i campi _Call-to-action_, _Collegamento di visualizzazione_ e _URL sito Web_.
 
 | Campo | Obbligatorio | Limite di caratteri (max) |
 |-----------------|---------------------------|---------------------------------|
@@ -124,11 +158,11 @@ I dettagli dell’esperienza vengono salvati come metadati e aiutano gli utenti 
 | Lingua | Lingue per cui viene utilizzata l’esperienza annuncio |
 | Parole chiave | Parole chiave definite dall’utente che facilitano la ricerca e la categorizzazione dell’esperienza dell’annuncio |
 
-Dopo aver assemblato il tuo contenuto creativo, fai clic su **[!UICONTROL Avanti]** per confermare la configurazione di Meta.
+Dopo aver assemblato o selezionato l&#39;esperienza, fai clic su **[!UICONTROL Avanti]** per confermare la configurazione Meta.
 
 ## Passaggio 4: conferma impostazione metadati
 
-Dopo aver preparato il contenuto creativo, devi confermare le informazioni sul tuo account Meta e assegnare un ID di tracciamento all’esperienza dell’annuncio. La visualizzazione _Impostazione annuncio metadati_ è compilata con opzioni derivate dagli account metadati configurati.
+Dopo aver preparato le esperienze pubblicitarie, devi confermare le informazioni sull’account Meta. La visualizzazione _Impostazione annuncio metadati_ è compilata con opzioni derivate dagli account metadati configurati.
 
 | Dettaglio | Descrizione |
 |------------|-------------|
@@ -146,7 +180,7 @@ Fai clic su **[!UICONTROL Avanti]** in alto a destra per visualizzare l&#39;ante
 
 ## Passaggio 5: visualizzare l’anteprima e attivare l’annuncio
 
-Nella pagina _Revisione_ viene visualizzata l&#39;esperienza pubblicitaria assemblata nella _configurazione di Creative_ e viene fornita un&#39;ultima opportunità per visualizzare e modificare l&#39;esperienza. Fai clic su **[!UICONTROL Modifica sezione]** accanto all&#39;etichetta _Configurazione di Creative_ per apportare le modifiche. Puoi anche fare clic su **[!UICONTROL Indietro]** in alto a destra per tornare alla pagina _Configurazione di Creative_.
+Nella pagina _Revisione_ viene visualizzata l&#39;esperienza pubblicitaria assemblata nella _Configurazione esperienza_ e viene fornita un&#39;ultima opportunità per visualizzare e modificare l&#39;esperienza. Fai clic su **[!UICONTROL Modifica sezione]** accanto all&#39;etichetta _Configurazione esperienza_ per apportare le modifiche. Puoi anche fare clic su **[!UICONTROL Indietro]** in alto a destra per tornare alla pagina _Configurazione esperienza_.
 
 ### Passaggio 6: completa attivazione dell’esperienza pubblicitaria
 

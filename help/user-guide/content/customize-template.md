@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Quando il modello è pronto, puoi [caricarlo in GenStudio for Performance Market
 
 GenStudio for Performance Marketing riconosce alcuni [elementi](use-templates.md#template-elements) all&#39;interno di un modello, ma solo se li identifichi con un [nome di campo riconosciuto](#recognized-field-names).
 
-Nell&#39;intestazione o nel corpo di un modello di HTML è possibile utilizzare la sintassi [!DNL Handlebars] per inserire un segnaposto di contenuto in cui è necessario che GenStudio for Performance Marketing compili il modello con il contenuto effettivo. GenStudio for Performance Marketing riconosce e interpreta i segnaposto di contenuto in base al [nome _campo_ riconosciuto](#recognized-field-names).
+Nell&#39;intestazione o nel corpo di un modello di HTML è possibile utilizzare la sintassi [!DNL Handlebars] per inserire un segnaposto di contenuto in cui è necessario che GenStudio for Performance Marketing compili il modello con il contenuto effettivo. GenStudio for Performance Marketing riconosce e interpreta questi segnaposto in base al [nome _campo_ riconosciuto](#recognized-field-names). Ogni nome di campo è associato a regole e comportamenti specifici che determinano il modo in cui il contenuto viene generato e inserito nel modello.
 
 Ad esempio, è possibile utilizzare `{{headline}}` con la sintassi [!DNL Handlebars] per indicare dove deve essere posizionato il titolo dell&#39;e-mail. GenStudio riconosce questo campo, genera un titolo pertinente in base alle linee guida e ai criteri di richiesta e inserisce il titolo in questa posizione:
 
@@ -38,7 +38,7 @@ Ad esempio, è possibile utilizzare `{{headline}}` con la sintassi [!DNL Handleb
 
 ### Nomi di campi riconosciuti
 
-Nella tabella seguente sono elencati i nomi di campo riconosciuti da GenStudio for Performance Marketing per l&#39;aggiunta di un segnaposto a un modello. Aggiungere questi nomi di campo utilizzando la sintassi [!DNL Handlebars] al modello in cui è necessario GenStudio for Performance Marketing per generare un determinato tipo di contenuto.
+Nella tabella seguente sono elencati i nomi di campo riconosciuti da GenStudio for Performance Marketing per l&#39;aggiunta di un segnaposto a un modello. Ogni campo segue linee guida di canale specifiche, istruzioni LLM e regole basate sui ruoli. Aggiungere questi nomi di campo utilizzando la sintassi [!DNL Handlebars] al modello in cui è necessario GenStudio for Performance Marketing per generare un determinato tipo di contenuto.
 
 | Campo | Ruolo | Modello canale |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -174,9 +174,12 @@ Per creare una sezione modificabile, aggiungere parentesi doppie attorno al nome
 
 ## Sezioni o gruppi
 
-_Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
+Puoi utilizzare le sezioni in un modello e-mail di marketing se disponi di due o tre raggruppamenti di campi. _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
-Utilizzare un prefisso scelto nel nome del campo per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
+
+Utilizzare un nome di gruppo scelto come prefisso per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
+
+Sintassi: `groupname_fieldname`
 
 - _Corretto_ (👍): `pod1_body`
 - _Errato_ (❌): `pod1body`
@@ -190,10 +193,9 @@ Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi
 
 A causa di questa regola, le sezioni non possono essere nidificate.
 
-Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
+Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
 
 Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi avere tre sezioni titolo e corpo:
-
 
 - `pre_header`
 - `pod1_headline`

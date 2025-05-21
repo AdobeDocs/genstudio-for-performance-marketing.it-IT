@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Segui queste best practice per la progettazione quando personalizzi i modelli e-
 
 **Vincoli**:
 
-- Utilizzo di [sezioni](customize-template.md#sections-or-groups):
-   - Un modello di base (una sola sezione) può generare un singolo set di elementi modello.
-   - Un modello complesso (più sezioni) può generare fino a tre set di elementi modello.
+- Le e-mail di marketing possono avere 0, 2 o 3 [sezioni](customize-template.md#sections-or-groups):
+   - Un modello di base (zero sezioni) può generare un singolo set di elementi modello, che non richiede la convenzione di denominazione del gruppo.
+   - Un modello complesso (più sezioni) può generare fino a tre set di elementi modello, che richiedono l&#39;adesione alla convenzione di denominazione del gruppo: (`groupname_fieldname`)
 - Il numero massimo di campi consentiti in un modello è 20
 - La dimensione massima del file HTML è 102 KB
 
@@ -77,7 +77,7 @@ Segui queste best practice per la progettazione quando personalizzi i modelli e-
 
 Per l&#39;e-mail, il campo `subject` viene incluso automaticamente. Utilizza i segnaposto di contenuto per i campi seguenti:
 
-- `pre_header`
+- `pre_header` (Rich Text non abilitato)
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 - Utilizzo di [sezioni](customize-template.md#sections-or-groups):
    - È possibile utilizzare una sola sezione, generando un singolo set di elementi modello.
+- È richiesto un solo campo immagine.
 
 **Proporzioni supportate**:
+
+Le proporzioni devono essere impostate:
 
 - Quadrato 1:1 (1080 x 1080 pixel)
 - Verticale 4:5 (1080 x 1350 pixel)
@@ -135,10 +138,11 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 - Utilizzo di [sezioni](customize-template.md#sections-or-groups):
    - È possibile utilizzare una sola sezione, generando un singolo set di elementi modello.
+- È richiesto un solo campo immagine.
 
 **Dimensioni supportate**:
 
-- Larghezza x altezza (pixel)
+- È necessario impostare la larghezza x l&#39;altezza (pixel)
 - Verticale:
    - 300 x 600
    - 160 x 600 &#x200B;
@@ -171,6 +175,7 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 - Utilizzo di [sezioni](customize-template.md#sections-or-groups):
    - È possibile utilizzare una sola sezione, generando un singolo set di elementi modello.
+- È richiesto un solo campo immagine.
 - Dimensione massima dell&#39;immagine: 5 MB
 - Massimo 70 caratteri per titolo
 - Testo introduttivo massimo 150 caratteri

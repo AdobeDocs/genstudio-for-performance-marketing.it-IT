@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
+source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -114,18 +114,11 @@ Puoi ritagliare e riposizionare manualmente le risorse immagine nelle singole va
 
 ## Modifica proporzioni
 
-Puoi modificare rapidamente le proporzioni dei Meta pubblicitari per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
-
-Le dimensioni e le proporzioni disponibili sono:
-
-* Quadrato 1:1 (Meta)
-* 4:5 verticale (Meta)
-* 9:16 verticale (Meta)
-* 250 x 980 (display ad)
+Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
 
 >[!NOTE]
 >
->Altre proporzioni e dimensioni potrebbero essere disponibili in base ai modelli disponibili.
+>Puoi avere proporzioni e dimensioni diverse in base ai modelli disponibili.
 
 **Per modificare le proporzioni degli annunci Meta generati**:
 
@@ -135,7 +128,7 @@ Le dimensioni e le proporzioni disponibili sono:
 
    Il numero di varianti interessate da questa revisione è indicato nell’angolo in alto a destra della finestra. _Esempio_: &quot;4 di 4 varianti&quot;
 
-1. Seleziona le proporzioni disponibili.
+1. Seleziona [proporzioni disponibili](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
    È possibile scegliere solo le proporzioni che non sono attualmente rappresentate nell’area di lavoro.
 
@@ -155,7 +148,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 

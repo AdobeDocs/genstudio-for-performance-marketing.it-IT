@@ -4,7 +4,7 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
+source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’ap
 
 ## Note sulle versioni precedenti
 
-+++Note relative al 2025.05.15
++++Note relative al 2025.04.15
 
 ### Correzioni di problemi e miglioramenti
 

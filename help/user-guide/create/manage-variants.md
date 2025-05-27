@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 
@@ -211,7 +211,7 @@ Elimina varianti inutili in modo che l’area di lavoro mostri solo le varianti 
 
    La variante viene eliminata.
 
-## Convalida del brand per variante
+## Convalida del brand
 
 Utilizza il pannello _Verifica contenuto_ per mantenere l&#39;identità del brand coerente, gli [standard di accessibilità ADA, le linee guida per la piattaforma](/help/user-guide/guidelines/overview.md#content-checks) e l&#39;allineamento delle varianti.
 

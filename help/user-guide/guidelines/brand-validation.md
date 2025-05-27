@@ -3,9 +3,9 @@ title: Convalida del marchio in Adobe GenStudio for Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ GenStudio for Performance Marketing esegue la convalida del brand e altri contro
 
 ## Riepilogo verifica contenuto
 
-Un riepilogo della convalida del brand e altre informazioni di controllo del contenuto per ogni variante di contenuto generata è accessibile tramite l&#39;icona di riepilogo _Controllo contenuto_ per ogni variante nell&#39;area di lavoro.
+Un riepilogo della convalida del brand e altre informazioni di controllo del contenuto per ogni elemento del contenuto generato è accessibile tramite l&#39;icona di riepilogo _Controllo contenuto_ per ogni variante nell&#39;area di lavoro.
 
 Il riepilogo del _controllo contenuto_ visualizza:
 
@@ -33,17 +33,17 @@ Il riepilogo del _controllo contenuto_ visualizza:
 
 ![Riepilogo controllo contenuto](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Fai clic sulla percentuale per vedere quanto è conforme la variante. I punteggi vengono aggiornati automaticamente quando si apportano modifiche alle varianti. Puoi fare clic su _Visualizza e correggi i problemi_ per garantire un&#39;ulteriore conformità.
+Fai clic sulla percentuale per vedere quanto è conforme la variante. I punteggi vengono aggiornati automaticamente quando si apportano modifiche alle varianti o ad altro contenuto. Puoi fare clic su _Visualizza e correggi i problemi_ per garantire un&#39;ulteriore conformità.
 
 Consulta [Migliorare l&#39;allineamento del brand](#improve-brand-alignment).
 
 ## Pannello di controllo contenuto
 
-Il pannello _Verifica contenuto_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra delle azioni di destra _o_ dall&#39;icona di riepilogo [_Verifica contenuto_](#content-check-summary) per una variante. Questo pannello fornisce una convalida dettagliata del brand. le linee guida per le piattaforme e le informazioni sugli standard di accessibilità, illustrando le opportunità di miglioramento per ogni sezione delle varianti.
+Il pannello _Verifica contenuto_ si apre sul lato destro dell&#39;area di lavoro quando si fa clic sulla barra delle azioni di destra _o_ dall&#39;icona di riepilogo [_Verifica contenuto_](#content-check-summary). Questo pannello fornisce informazioni dettagliate sulla convalida del marchio, le linee guida per la piattaforma e gli standard di accessibilità, oltre a illustrare le opportunità di miglioramento.
 
 ![Pannello di controllo contenuto](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-Il pannello _Verifica contenuto_ visualizza le informazioni di convalida e [conformità](/help/user-guide/guidelines/overview.md#compliance) per ogni sezione della variante:
+Il pannello _Verifica contenuto_ visualizza le informazioni di convalida e [conformità](/help/user-guide/guidelines/overview.md#compliance) per le immagini e le sezioni delle varianti:
 
 * Rappresentazione delle informazioni di riepilogo del _controllo contenuto_ per [!DNL Brand], linee guida della piattaforma e standard di accessibilità
 * _Sezione Necessità di revisione_ in cui viene visualizzato il numero di linee guida non riuscite e informazioni dettagliate su ciascuna linea guida da rivedere
@@ -67,22 +67,21 @@ Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;ident
 
 **Per migliorare l&#39;allineamento del brand per le varianti generate**:
 
-1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per visualizzare le informazioni di convalida e accessibilità per una singola variante.
+1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per visualizzare le informazioni di convalida e accessibilità.
 
-   Puoi visualizzare un riepilogo delle _verifiche necessarie_ e _verifiche superate_ per vedere quali sezioni e linee guida necessitano di miglioramenti.
+   Puoi visualizzare un riepilogo delle _verifiche necessarie_ e _verifiche superate_ per vedere cosa è necessario migliorare.
 
    >[!NOTE]
    >
    > La linea guida di _Brand voice_ indicata nel pannello _Verifica contenuto_ si applica all&#39;intera variante, non a una singola sezione. L’intera variante di contenuto è evidenziata per suggerire un miglioramento.
 
 1. Fai clic su per correggere le linee guida attualmente non conformi.
-1. Fai clic su per espandere ed esaminare ogni controllo che necessita di revisione nelle sezioni disponibili, ad esempio _Titolo_ e _Voce marchio_.
+1. Fai clic su per espandere ed esaminare ogni controllo che necessita di revisione nelle sezioni disponibili, ad esempio _Titolo_, _Colore_ e _Voce marchio_.
 
-   Utilizza il ragionamento fornito per ogni controllo per guidarti nella revisione delle varianti.
+   Utilizza il ragionamento fornito per ogni controllo per guidarti nella revisione di immagini e varianti.
 
 1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Ricontrolla il punteggio]** per ricontrollare e convalidare le modifiche per assicurarti che siano più allineate con l&#39;identità del tuo marchio, le linee guida della piattaforma e gli standard di accessibilità.
 
    Il processo di controllo del contenuto viene eseguito nuovamente. Se gli elementi rivisti superano la convalida, nella parte inferiore dell’area di lavoro viene visualizzato un banner verde per confermare che il punteggio è stato aggiornato. Se non ci sono state modifiche dopo un nuovo controllo, il banner conferma che non vi sono state modifiche al punteggio. Anche la percentuale nell&#39;icona di riepilogo del _controllo contenuto_ per la variante rivista mostra l&#39;avanzamento.
 
 1. Continua a rivedere le sezioni per garantire che l’intera variante superi i controlli di convalida e accessibilità. Naviga tra le varianti utilizzando le frecce adiacenti a una singola variante nell’area di lavoro.
-

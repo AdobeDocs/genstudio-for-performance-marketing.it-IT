@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Prima di iniziare a generare un annuncio di LinkedIn, è importante [aggiungere 
 
 ## Scegli un modello
 
-Per generare una nuova esperienza LinkedIn, è necessario un modello per fornire il framework per il contenuto. Consulta [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle proporzioni di LinkedIn supportate.
+Per generare una nuova esperienza LinkedIn, è necessario un modello per fornire il framework per il contenuto. Consulta [LinkedIn Template Guidelines](/help/user-guide/templates/linkedin-template.md) per informazioni sulle proporzioni di LinkedIn supportate.
 
 **Per scegliere un modello LinkedIn**:
 

@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
+source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,6 @@ Per creare una sezione modificabile, aggiungere parentesi doppie attorno al nome
 
 Puoi utilizzare le sezioni in un modello e-mail di marketing se disponi di due o tre raggruppamenti di campi. _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
-
 Utilizzare un nome di gruppo scelto come prefisso per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
 
 Sintassi: `groupname_fieldname`
@@ -193,17 +192,14 @@ Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi
 
 A causa di questa regola, le sezioni non possono essere nidificate.
 
-Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
+Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
 
 Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi avere tre sezioni titolo e corpo:
 
 - `pre_header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
+- `pod1_headline`, `pod1_body`
+- `pod2_headline`, `pod2_body`
+- `pod3_headline`, `pod3_body`
 - `cta`
 
 GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
@@ -252,138 +248,3 @@ I file esterni vengono temporaneamente incorporati solo allo scopo di creare l�
 ### Aggiorna contenuto
 
 Se l&#39;origine cambia dopo la creazione dell&#39;anteprima iniziale, utilizzare la funzione [aggiorna](/help/user-guide/content/use-templates.md#refresh-template) per aggiornare l&#39;anteprima del modello con la versione più recente del contenuto proveniente da origini esterne.
-
-## Esempi di modelli
-
-+++Esempio: modello e-mail con una sezione
-
-Di seguito è riportato un esempio di base di un modello HTML per un messaggio e-mail che contiene una sezione. L’intestazione contiene CSS semplice e in linea per lo stile. Il corpo contiene `pre_header`, `headline` e `image` [segnaposto](#content-placeholders) per l&#39;inserimento di contenuto da parte di GenStudio for Performance Marketing durante il processo di generazione dell&#39;e-mail.
-
-```html {line-numbers="true" highlight="13"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
-            <p>{{body}}</p>
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++Esempio: modello e-mail con più sezioni
-
-Di seguito è riportato lo stesso modello di HTML nell’esempio precedente, ma con altre due sezioni. L’intestazione contiene CSS in linea per la formattazione di un gruppo. Il corpo utilizza due gruppi con [segnaposto contenuto](#content-placeholders) utilizzando un prefisso.
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-            .pod {
-            background-color: #f8f8f8;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 5px;
-            }
-            .pod h2 {
-            color: #333;
-            }
-            .pod p {
-                color: #666;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
-            <!-- Pod1 -->
-            <div class="pod">
-                <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod1_body}}</p>
-            </div>
-            <!-- End of Pod1 -->
-            <!-- Pod2 -->
-            <div class="pod">
-                <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod2_body}}</p>
-            </div>
-            <!-- End of Pod2 -->
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++Esempio: Meta ad template
-
-Di seguito è riportato un esempio di base di un modello di annunci Meta. L’intestazione contiene CSS in linea per lo stile. Il corpo utilizza [segnaposto contenuto](#content-placeholders), ad esempio `image` e `on_image_text`, per indicare dove GenStudio for Performance Marketing può generare il contenuto.
-
-```html {line-numbers="true" highlight="33"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Adobe</title>
-        <style>
-            .ad-container {
-            font-family: Helvetica, sans-serif;
-            position: relative;
-            text-align: center;
-            height: 100%;
-            }
-            .ad-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            }
-            .ad-text {
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin: 1em;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 1em;
-            font-size: 75px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="ad-container">
-            <img src="{{image}}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{on_image_text}}</div>
-        </div>
-    </body>
-</html>
-```
-
-+++

@@ -3,7 +3,7 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Puoi ritagliare e riposizionare manualmente le risorse immagine nelle singole va
 
 ## Modifica proporzioni
 
-Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
+Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/content
 
    Il numero di varianti interessate da questa revisione è indicato nell’angolo in alto a destra della finestra. _Esempio_: &quot;4 di 4 varianti&quot;
 
-1. Seleziona [proporzioni disponibili](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+1. Seleziona [proporzioni disponibili](/help/user-guide/templates/meta-template.md#supported-aspect-ratios).
 
    È possibile scegliere solo le proporzioni che non sono attualmente rappresentate nell’area di lavoro.
 
@@ -148,7 +148,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 

@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Con Adobe GenStudio for Performance Marketing, puoi utilizzare l&#39;intelligenz
 
 Durante la generazione di esperienze di annunci di visualizzazione, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
-Consulta [Segui le linee guida per modelli specifici per il canale](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni supportate, i nomi dei campi riconosciuti e altro ancora.
+Consulta [Linee guida per la visualizzazione dei modelli di annunci](/help/user-guide/templates/display-template.md) per informazioni sulle dimensioni supportate, i nomi dei campi riconosciuti e altro ancora.
 
 Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 

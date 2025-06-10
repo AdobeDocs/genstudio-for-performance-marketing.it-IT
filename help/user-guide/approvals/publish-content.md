@@ -3,16 +3,16 @@ title: Pubblicare contenuti approvati
 description: Scopri come pubblicare contenuti approvati con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # Pubblicare contenuti approvati
 
-La fase finale della creazione di contenuti approvati e allineati al brand lo salva in [!DNL Content] con i metadati appropriati. L&#39;utente (l&#39;editor di contenuto o il creatore) può finalizzare la risorsa approvata pubblicandola o salvandola in [!DNL Content].
+La fase finale della creazione di contenuti approvati e allineati al brand lo salva in [!DNL Content] con i metadati appropriati. L&#39;utente (editor di contenuti o creatore) può finalizzare la risorsa approvata pubblicandola in [!DNL Content].
 
 Quando tutti gli approvatori designati approvano una bozza, lo stato della bozza diventa **Approvato**. Adobe GenStudio for Performance Marketing visualizza il pop-up _Varianti approvate pronte per la pubblicazione_ nell&#39;area di lavoro dell&#39;editor.
 
@@ -34,9 +34,11 @@ Quando tutti gli approvatori designati approvano una bozza, lo stato della bozza
 
 ## Dopo la pubblicazione
 
-Tutti gli utenti di GenStudio for Performance Marketing possono accedere alle risorse o esperienze approvate in [!DNL Content]. Il pannello Dettagli risorsa identifica la cronologia di caricamento e approvazione della risorsa. Questi attributi identificano il contenuto salvato:
+Tutti gli utenti di GenStudio for Performance Marketing possono accedere alle risorse o esperienze approvate in [!DNL Content]. Il pannello _Dettagli risorsa_ identifica la cronologia di caricamento e approvazione della risorsa. Questi attributi identificano il contenuto salvato:
 
 * **[!UICONTROL Creato da]**: identifica l&#39;utente di GenStudio che ha caricato la risorsa o l&#39;esperienza.
 * **[!UICONTROL Cronologia approvazione]**: identifica la data e l&#39;ora di approvazione e l&#39;approvatore.
 
 Gli URL bozza non sono validi dopo il salvataggio di una risorsa o esperienza bozza in [!DNL Content].
+
+Se hai abilitato l’integrazione con Workfront Proof, i commenti e le versioni della bozza vengono salvati dopo la pubblicazione della risorsa o dell’esperienza.

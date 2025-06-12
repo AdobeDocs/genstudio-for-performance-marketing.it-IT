@@ -59,7 +59,7 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+Nella raccolta _[!DNL Templates]_&#x200B;viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
 
 ### Cerca modelli
 

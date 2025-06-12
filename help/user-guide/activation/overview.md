@@ -27,7 +27,7 @@ Prima di poter attivare un’esperienza pubblicitaria, ogni account del canale m
 
 * [Crea un&#39;attivazione](create-activation.md). Puoi creare un’esperienza pubblicitaria selezionando le risorse visive, assegnando il testo e definendo i metadati prima di inviarli a un canale a pagamento.
 
-* [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
+* [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_&#x200B;fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
 
 ## Attiva funzionalità
 

@@ -30,7 +30,7 @@ Al termine della sincronizzazione, puoi visualizzare gli account aggiunti.
 
 ## Passaggio 3: selezionare i contenuti per l’esperienza pubblicitaria
 
-È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_o dalla home page_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
+È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_&#x200B;o dalla home page&#x200B;_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
 
 **Per selezionare le esperienze**:
 

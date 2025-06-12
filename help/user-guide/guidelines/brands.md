@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] sono una raccolta completa di risorse per i marchi, quali copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,13 @@ I brand pubblicati possono essere modificati (le modifiche sono immediatamente d
 
 Le [!DNL Brands] eliminate vengono archiviate per 30 giorni e possono essere recuperate entro tale periodo.
 
-## [!DNL Brands] linee guida
+## Linee guida per i brand
 
 Le linee guida forniscono a GenStudio for Performance Marketing un quadro chiaro dell&#39;approccio, del tono, della percezione visiva e altro ancora specifici del marchio.
+
+>[!NOTE]
+>
+>Se carichi le linee guida del brand scritte in una lingua diversa dall’inglese, o se crei manualmente un brand utilizzando una lingua diversa dall’inglese, GenStudio for Performance Marketing le mostra nella stessa lingua.
 
 Alcune linee guida per il canale, astratte dalle [linee guida per piattaforma e dagli standard di accessibilità ADA](/help/user-guide/guidelines/overview.md#compliance), sono precompilate come valori predefiniti.
 
@@ -137,7 +141,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ### Logo
 
-I loghi [!DNL Brand] fungono da simboli visivi che rappresentano l&#39;identità, i valori e i prodotti di un&#39;azienda. È possibile caricare uno o più loghi (non oltre 1 GB per file) per un [!DNL Brand] in formato JPG, JPEG, SVG o PNG. I logo possono essere aggiunti durante la creazione di [!DNL Brand] o dalla singola _[!DNL Brands]visualizzazione_.
+I loghi [!DNL Brand] fungono da simboli visivi che rappresentano l&#39;identità, i valori e i prodotti di un&#39;azienda. È possibile caricare uno o più loghi (non oltre 1 GB per file) per un [!DNL Brand] in formato JPG, JPEG, SVG o PNG. I logo possono essere aggiunti durante la creazione di [!DNL Brand] o dalla singola _[!DNL Brands]visualizzazione_. I logo possono essere utilizzati come miniature per un [!DNL Brand] specifico.
 
 Ogni logo caricato include i seguenti dettagli nel riquadro del logo:
 
@@ -145,7 +149,13 @@ Ogni logo caricato include i seguenti dettagli nel riquadro del logo:
 - Dimensione file
 - Risoluzione
 
-Dal menu delle azioni (tre punti) per un colore, puoi **[!UICONTROL Scaricare]**, **[!UICONTROL Rinominare]** o **[!UICONTROL Eliminare]** un colore.
+Dal menu Azioni (tre punti) di un logo, puoi [visualizzare i dettagli e gestire](/help/user-guide/guidelines/add-guidelines.md#manage-brands) un singolo logo:
+
+- **[!UICONTROL Visualizza dettagli]**
+- **[!UICONTROL Download]**
+- [**[!UICONTROL Usa come miniatura del brand]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
+- **[!UICONTROL Rinomina]**
+- **[!UICONTROL Elimina]**
 
 ### Colori
 

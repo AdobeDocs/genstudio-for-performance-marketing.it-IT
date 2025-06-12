@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,15 @@ Prima di iniziare a generare un&#39;esperienza di annuncio multimediale, è impo
 
 Per iniziare a generare una nuova esperienza di annuncio multimediale, utilizza un modello disponibile per fornire il framework per il contenuto. Consulta [Linee guida per i modelli di annunci multimediali](/help/user-guide/templates/meta-template.md) per informazioni sulle proporzioni dei metadati supportati.
 
+Quando selezioni un modello, puoi utilizzare uno dei modelli caricati o un modello iniziale.
+
 **Per scegliere un Meta Ad Template**:
 
 1. In _[!DNL Create]_, fai clic su **[!UICONTROL Annunci metadati]**.
-1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello di Meta Ad specifico.
+1. Seleziona **[!UICONTROL Modelli personalizzati]** per sfogliare i modelli caricati oppure **[!UICONTROL Modelli iniziali]** per sfogliare i modelli predefiniti.
+
+   Se prevedi di aggiungere risorse video alle varianti Meta, devi scegliere un modello iniziale. Vengono precaricate con aree di contenuto definite dal sistema che facilitano l’utilizzo dei video.
+
 1. Fare clic per selezionare un modello e fare clic su **[!UICONTROL Usa]**.
 
    Questa azione apre Canvas, l’hub centrale per la creazione dei contenuti.
@@ -46,14 +51,17 @@ Se si utilizza un modello con linee guida predefinite, [!DNL Brands], [!DNL Pers
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
-   * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
+1. Aggiungi contenuto (immagini o video) da utilizzare nell&#39;esperienza *e* per influenzare la generazione di contenuti:
+   * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse dal repository [!DNL Content], filtrare e selezionare una o più immagini.
+
+     Se utilizzi un modello con una sezione per video, il contenuto video (.mp4) verrà preselezionato e filtrato automaticamente. Passa il cursore del mouse su un video per visualizzare un’anteprima riprodotta automaticamente.
 
      ![Scegli contenuto visivo](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
 
-   * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
+   * In alternativa, trascina le immagini nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
+
 1. Fai clic su **[!UICONTROL Usa]**.
 
 Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
@@ -68,6 +76,8 @@ Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt eff
 
 1. Immettere un prompt nella casella di prompt _&quot;Descrivi le esperienze da generare&quot;_.
 1. Fai clic su **[!UICONTROL Genera]**.
+
+   Consulta [Gestire i video](#manage-videos) per capire come vengono generati e come gestirli.
 
 Per impostazione predefinita, quattro varianti (tutte alimentate dal prompt, dalle linee guida e dal contenuto aggiunto) vengono generate e visualizzate nell’area di lavoro.
 
@@ -93,13 +103,23 @@ Per evidenziare un singolo livello da rivedere, fare clic su un campo o un&#39;i
 * **Per [modificare manualmente un Meta Ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto,
 o body copy) e modificarli in base alle esigenze.
 * **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante call-to-action e selezionare una delle opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo di call-to-action.
+* **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine o sul collegamento in linea per una variante e quindi fare clic su **[!UICONTROL Formattare il testo]**.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Per [aggiungere un collegamento a un&#39;immagine in una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, fare clic su una risorsa immagine (o sull&#39;area della risorsa immagine se non esiste attualmente un&#39;immagine) e fare clic sull&#39;icona del collegamento.
+* **Per [modificare le dimensioni e le proporzioni dell&#39;annuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, fare clic sul pulsante _[!UICONTROL Ridimensiona]_ (casella con l&#39;icona di un pulsante sul lato sinistro dell&#39;area di lavoro) e selezionare nuove dimensioni e proporzioni da applicare a tutte le varianti. Le varianti vengono duplicate e ridimensionate.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
-* **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, fare clic su un&#39;immagine, fare clic su **[!UICONTROL Modifica]** (icona matita) e quindi su **[!UICONTROL Ritaglia]**. Regola le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [utilizzare l&#39;opzione di espansione generativa per ridimensionare e adattare le immagini](/help/user-guide/create/manage-variants.md#use-generative-expand) al modello di lavoro**, fare clic su un&#39;immagine, fare clic su **[!UICONTROL Modifica]** (icona a forma di matita) e quindi su **[!UICONTROL Espandi]**. Regola l’immagine per adattarla alle proporzioni e al modello necessari.
 * **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
+* **Per [aggiungere etichette di accesso facilitato](/help/user-guide/create/manage-variants.md#add-accessibility-labels) alle varianti**, fai clic su un&#39;immagine o su un collegamento a call-to-action, quindi fornisci una breve descrizione che spieghi il funzionamento del collegamento o del pulsante.
 * **Per [eliminare un Meta Ad](/help/user-guide/create/manage-variants.md#delete-variant)**, fai clic sul menu delle opzioni per una variante e poi su **[!UICONTROL Elimina variante]**.
+
+### Gestire i video
+
+Passa il puntatore del mouse su ciascuno dei video per visualizzare la riproduzione automatica ciclica.
+
+I video vengono riorganizzati per adattarsi alle proporzioni selezionate durante la generazione. Ripristinare il video originale non riformattato facendo clic su **[!UICONTROL Rielabora video]** e disattivandolo.
 
 ## Invia feedback generazione
 

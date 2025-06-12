@@ -3,16 +3,16 @@ title: Flusso di lavoro attivazione
 description: Scopri il flusso di lavoro di attivazione per le esperienze pubblicitarie.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: c622b86ae2977026207edb8919102620ef582d39
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Flusso di lavoro attivazione
 
-_[!DNL Activate]_&#x200B;supporta l&#39;attivazione di esperienze pubblicitarie in formati specifici per canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
+[!DNL Activate] supporta l&#39;attivazione di esperienze pubblicitarie in formati specifici per canale, ad esempio un&#39;esperienza pubblicitaria Meta o Google Campaign Manager 360.
 
 Un’esperienza GenStudio for Performance Marketing è un componente della campagna di marketing, ad esempio un annuncio, preparato come esperienza annuncio per un pubblico specifico su un canale di annuncio a pagamento o un’e-mail. Le esperienze per l’attivazione contengono tre componenti principali:
 
@@ -34,17 +34,18 @@ Anche se i requisiti di posizionamento univoci definiscono ogni canale a pagamen
 
 1. **Prepara l&#39;esperienza per l&#39;attivazione**. Puoi preparare le esperienze per l’attivazione in due modi:
 
-   * Attiva un&#39;esperienza approvata con impostazioni predefinite direttamente da _[!DNL Content]_. Questo modo semplificato di attivare una o più esperienze pubblicitarie su un singolo canale. Dopo aver selezionato un&#39;esperienza dalla raccolta&#x200B;_[!DNL Content]_, non è possibile modificare o aggiungere risorse alla tua esperienza pubblicitaria. Attiva da _[!DNL Content]_&#x200B;è disponibile per le esperienze di annunci Meta e Google Campaign Manager 360.
+   * Attiva un&#39;esperienza approvata con impostazioni predefinite direttamente da [!DNL Content]. Questo modo semplificato di attivare una o più esperienze pubblicitarie su un singolo canale. Dopo aver selezionato un&#39;esperienza dalla raccolta [!DNL Content], non è possibile modificare o aggiungere risorse alla tua esperienza pubblicitaria. Attiva da [!DNL Content] è disponibile per le esperienze di annunci Meta e Google Campaign Manager 360.
 
-   * Assembla la tua esperienza pubblicitaria selezionando risorse visive da _[!DNL Content]_, aggiungendo elementi di testo e selezionando proporzioni. Questo metodo prevede più passaggi, ma offre maggiore flessibilità creativa. La preparazione include la selezione delle risorse multimediali nelle proporzioni appropriate per il posizionamento dell’annuncio specifico e l’assegnazione di testo agli elementi di invito all’azione e alla copia del corpo. Puoi aggiungere metadati informativi che aiutino gli utenti a cercare l’esperienza dopo l’attivazione. Ogni posizionamento di canale pubblicitario specifica rapporti di formato validi per le risorse visive incluse nel posizionamento.
+   * Assembla la tua esperienza pubblicitaria selezionando risorse visive da [!DNL Content], aggiungendo elementi di testo e selezionando proporzioni. Questo metodo prevede più passaggi, ma offre maggiore flessibilità creativa. La preparazione include la selezione delle risorse multimediali nelle proporzioni appropriate per il posizionamento dell’annuncio specifico e l’assegnazione di testo agli elementi di invito all’azione e alla copia del corpo. Puoi aggiungere metadati informativi che aiutino gli utenti a cercare l’esperienza dopo l’attivazione. Ogni posizionamento di canale pubblicitario specifica rapporti di formato validi per le risorse visive incluse nel posizionamento.
 
 1. **Rivedi e pubblica la tua esperienza nel canale di destinazione**. Utilizza il pannello _Anteprima_ durante la configurazione dell&#39;esperienza per valutare la scelta del posizionamento dell&#39;annuncio e degli elementi di testo prima di finalizzare l&#39;attivazione. La revisione finale pre-pubblicazione viene eseguita nell’app di gestione degli annunci del canale di destinazione. Ad esempio, dopo aver attivato un’esperienza di annunci multimediali in GenStudio for Performance Marketing, devi accedere a Meta Ads Manager, rivedere l’esperienza di annuncio, quindi selezionare gli attributi specifici prima di pubblicarla.
 
-Una volta che un&#39;esperienza pubblicitaria è attiva sul suo canale di destinazione a pagamento, _[!DNL Insights]_&#x200B;può tracciare e analizzare i dati sulle prestazioni.
+Una volta che un&#39;esperienza pubblicitaria è attiva sul suo canale di destinazione a pagamento, [!DNL Insights] può tracciare e analizzare i dati sulle prestazioni.
 
 ## Canali supportati
 
 Ogni canale a pagamento dispone di un flusso di lavoro di attivazione univoco. Seleziona il canale a pagamento per le linee guida sull’attivazione:
 
-* [Meta](/help/user-guide/activation/activate-meta-ad.md)
-* [Gestione campagne Google 360](/help/user-guide/activation/activate-cm360-ad.md)
+* [Gestione campagne Google 360](activate-cm360-ad.md)
+* [LinkedIn](activate-linkedin-ad.md)
+* [Meta](activate-meta-ad.md)

@@ -3,12 +3,12 @@ title: Preparare un modello di e-mail per GenStudio for Performance Marketing
 description: Scopri come preparare un modello e-mail da utilizzare in Adobe GenStudio for Performance Marketing.
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 I _modelli iniziali_ sono opzioni di modello predefinite progettate per aiutarti a iniziare rapidamente a utilizzare GenStudio for Performance Marketing e a scoprire come creare file multimediali efficaci. In [!DNL Create], selezionare un tipo di supporto. Se sono disponibili modelli iniziali, passare alla scheda **[!UICONTROL Modelli iniziali]** per sfogliare e selezionare un modello adatto alle proprie esigenze.
 
 ![Scheda Modelli iniziali](/help/assets/starter-templates.png "Seleziona schede modello"){width="350"}
-
-## Scegliere le proporzioni giuste
 
 La selezione delle proporzioni appropriate per l’annuncio è importante per massimizzare l’impatto e garantire la corretta visualizzazione dei contenuti tra piattaforme e posizionamenti diversi. Quando scegli una proporzione, considera quanto segue:
 

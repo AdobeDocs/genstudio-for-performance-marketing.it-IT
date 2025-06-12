@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2667'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,45 @@ ht-degree: 0%
 
 Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.05.15. {#latest}
+## 2025,06 {#latest}
+
+### Modelli iniziali disponibili
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di avviare rapidamente il processo creativo. Ora puoi effettuare la selezione da un modello iniziale di annuncio Meta o LinkedIn.
+
+### Funzionalità IA di espansione generativa
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+In GenStudio for Performance Marketing [!DNL Create] è ora possibile utilizzare le [funzionalità di espansione generativa di IA](/help/user-guide/create/manage-variants.md#use-generative-expand) per espandere le dimensioni delle immagini e aggiungere contenuti generativi per adattarli ai modelli di annunci nelle varianti di elementi multimediali a pagamento.
+
+### Aggiungere video agli annunci
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) e [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos). Guarda le anteprime autoplay dei video direttamente in GenStudio for Performance Marketing quando scegli e aggiungi video alle varianti.
+
+### Correzioni di problemi e miglioramenti
+
+* È stato aggiunto il supporto per [la pubblicazione di esperienze pubblicitarie](/help/user-guide/activation/activate-linkedin-ad.md) da GenStudio for Performance Marketing in LinkedIn Campaign Manager. [!DNL Activate] supporta anteprime dettagliate di annunci LinkedIn prima della pubblicazione in LinkedIn Campaign Manager.
+
+* L&#39;integrazione di [Workfront Proof](/help/user-guide/approvals/overview.md) offre a GenStudio for Performance Marketing le solide funzionalità di revisione e approvazione di Proof. I contenuti esaminati in GenStudio for Performance Marketing vengono sincronizzati con Workfront Proof e i commenti e lo stato di revisione vengono mantenuti.
+
+* Aggiunta la possibilità a [fornire nomi accessibili per immagini e collegamenti call-to-action](/help/user-guide/create/manage-variants.md#add-accessibility-labels) nelle varianti aggiungendo etichette di accessibilità (Aria-labels).
+
+* Quando si aggiungono o si modificano le [direttive per i marchi](/help/user-guide/guidelines/brands.md) in una lingua diversa dall&#39;inglese, in GenStudio for Performance Marketing tali direttive vengono visualizzate nella stessa lingua.
+
+* Dopo l&#39;aggiunta manuale di [!DNL Brand] o la creazione di [!DNL Brand] tramite estrazione manuale da un documento, è possibile [modificare o aggiungere immagini di anteprima del brand](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) per garantire che ogni brand sia facilmente distinguibile all&#39;interno dell&#39;elenco [!DNL Brands].
+
+* È ora possibile [utilizzare la formattazione di modifica del testo RTF per il testo](/help/user-guide/create/manage-variants.md#manually-edit-text) nelle varianti generate. Prova una miriade di opzioni di formattazione per il testo delle varianti, ad esempio colore, dimensioni, elenchi e altro ancora.
+
+* È ora possibile [creare un nuovo set di annunci](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante l&#39;installazione della piattaforma clonando un set di annunci esistente durante l&#39;installazione della piattaforma. I metadati definiscono la tempistica, i dettagli del canale e il pubblico per un annuncio specifico. Una Meta campaign può contenere più set di annunci, ma un set di annunci è associato esclusivamente a una campagna.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.05.15
 
 ### Correzioni di problemi e miglioramenti
 
@@ -24,7 +62,7 @@ Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’ap
 * Ora puoi scegliere più di un’esperienza da esportare o scaricare. Consulta [Esportare esperienze](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.04.15
 
@@ -34,6 +72,8 @@ Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’ap
 * È stata abilitata la funzionalità per [visualizzare e selezionare singoli livelli](/help/user-guide/create/manage-variants.md#view-layers) (campi di testo modificabili o immagini modificabili) di un&#39;esperienza per evidenziarli per le revisioni, ad esempio la rigenerazione di contenuto o il ritaglio di immagini.
 * È stato aggiunto [un nuovo campo modello](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, per testo aggiuntivo nelle esperienze per attirare l&#39;attenzione del pubblico ed evidenziare i messaggi di marketing.
 * È stato aggiunto il supporto per [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Google Campaign Manager 360. Activate supporta anteprime dettagliate degli annunci di Google Campaign Manager 360 prima di pubblicarli in un inserzionista di Campaign Manager 360. Gli annunci pubblicati tramite Activate vengono automaticamente inseriti in Insights una volta live, consentendo agli utenti di tenere traccia delle prestazioni degli annunci e di generare rapporti su di esse.
+
++++
 
 +++Note relative al 2025.03.13
 

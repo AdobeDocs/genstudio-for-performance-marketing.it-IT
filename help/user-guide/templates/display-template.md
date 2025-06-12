@@ -4,9 +4,10 @@ description: Segui le best practice per l’utilizzo di annunci display e modell
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -27,12 +28,16 @@ Segui queste best practice per la progettazione quando personalizzi i modelli di
 
 ## Nomi di campi riconosciuti
 
-Per banner e annunci di visualizzazione, GenStudio for Performance Marketing genera automaticamente il campo `cta`. Quando personalizzi il modello, utilizza segnaposto di contenuto per i seguenti campi obbligatori:
+Quando personalizzi il banner o il modello di annuncio visualizzato, utilizza segnaposto di contenuto per i seguenti campi obbligatori:
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (obbligatorio, selezionato da Content JPEG, PNG o GIF)
+
+GenStudio for Performance Marketing genera automaticamente i campi seguenti. Non è necessario applicare segnaposto di contenuto per:
+
+- `cta`
 
 Consulta [Segnaposto di contenuto](/help/user-guide/content/customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 

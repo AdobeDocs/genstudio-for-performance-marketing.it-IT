@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,27 @@ Le bozze di varianti generate hanno un nome predefinito visualizzato nella parte
 
 ## Modifica manuale del testo
 
-Puoi modificare i campi di testo nelle varianti generate. Perfeziona il testo per il pubblico sperimentando diverse frasi e parole. Ad esempio, puoi rivedere manualmente il testo in varianti per visualizzare in anteprima l’aspetto di un titolo con un’immagine scelta.
+Puoi modificare i campi di testo nelle varianti generate. Perfeziona il testo per il pubblico sperimentando diverse frasi e parole e applicando la formattazione. Ad esempio, puoi applicare il grassetto e allineare a destra il testo di una variante per adattarlo al layout di un’immagine.
+
+La formattazione del testo disponibile include:
+
+* Grassetto, corsivo e sottolineato
+* Allineamento a sinistra, al centro e a destra
+* Elenchi puntati e ordinati
+* Colore testo
+* Dimensione testo
+* Collegamento
+
+Le opzioni di formattazione del testo variano a seconda del canale (metadati, e-mail, ecc.)
 
 **Per modificare manualmente il testo nelle varianti generate**:
 
 1. Dopo aver generato un set di varianti, fai doppio clic sul testo modificabile in una variante.
 1. Immettere il nuovo testo.
+1. Per formattare il testo, evidenziare il testo applicabile e fare clic su **[!UICONTROL Formatta testo**].
+
+   Applica al testo una o tutte le opzioni di formattazione disponibili.
+
 1. Fare clic fuori dal campo di testo per salvarlo.
 
 ## Visualizza livelli
@@ -101,16 +116,49 @@ Il collegamento aggiunto o modificato viene applicato a tutti i CTA nel set di v
 
 ## Ritagliare le risorse
 
-Puoi ritagliare e riposizionare manualmente le risorse immagine nelle singole varianti generate.
+Con lo strumento Ritaglia è possibile ritagliare e riposizionare manualmente le risorse immagine in singole varianti generate.
 
 **Per ritagliare e riposizionare le immagini nelle varianti**:
 
-1. Dopo aver generato un set di varianti, passa il cursore su un’immagine all’interno di una variante.
-1. Fai clic sull’icona di ritaglio visualizzata nell’angolo sinistro dell’immagine.
+1. Dopo aver generato un set di varianti, passa il cursore del mouse e fai clic su un’immagine all’interno di una variante.
+1. Fai clic su **[!UICONTROL Modifica]** (icona della matita).
+1. Fare clic su **[!UICONTROL Ritaglia]**.
 1. Regola il riquadro di delimitazione dell’immagine e trascina l’immagine nella posizione desiderata.
 1. Fai clic su **[!UICONTROL Applica]** per applicare il ritaglio a una singola immagine oppure su **[!UICONTROL Applica a tutte le immagini]** per applicarlo a tutte le immagini nelle varianti.
 
    L’immagine ritagliata viene salvata e visibile per le varianti.
+
+## Usa espansione generativa
+
+Espandi le dimensioni delle immagini e aggiungi contenuto generativo con Espandi generativo. Espansione generativa consente di trasformare le immagini non adatte nelle proporzioni più adatte per i modelli di banner, annunci Meta, annunci LinkedIn o annunci di visualizzazione.
+
+Questa funzione di espansione generativa è associata allo strumento di ritaglio per fornire il controllo completo delle risorse in una varietà di rapporti di formato per i canali multimediali a pagamento.
+
+**Per utilizzare Espandi generativo per adattare le immagini al modello di canale**:
+
+1. Dopo aver generato un set di varianti, passa il cursore del mouse e fai clic su un’immagine all’interno di una variante.
+1. Fai clic su **[!UICONTROL Modifica]** (icona della matita).
+1. Fai clic su **[!UICONTROL Espandi]**.
+
+   L&#39;immagine viene aperta nella visualizzazione dell&#39;area di lavoro _Modifica immagine_ con un rettangolo di selezione corrispondente alle proporzioni del modello di lavoro.
+
+1. Spostare l&#39;immagine per ottenere la posizione ideale.
+1. _Facoltativo_ Aggiungere un prompt nella casella di richiesta che fornisca dettagli su come espandere l&#39;immagine.
+
+   Ad esempio, se si sta espandendo l&#39;immagine di una camicia scozzese appesa su un clothesline sopra un fuoco in un campeggio si potrebbe aggiungere &quot;Montagne nebbiose con un fuoco scoppiettante mentre si accampa in montagna&quot;.
+
+   Prima di utilizzare Espansione generativa:
+
+   ![Prima dell&#39;espansione generativa](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
+
+   Dopo aver utilizzato Espandi generativo:
+
+   ![Dopo l&#39;espansione generativa](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
+
+1. Fai clic su **[!UICONTROL Genera]**.
+1. Fai clic su e seleziona un&#39;opzione generata oppure fai clic su **[!UICONTROL Altro]** (icona +) per visualizzare un elenco delle opzioni generate.
+1. Fai clic su **[!UICONTROL Mantieni]** per salvare il risultato dell&#39;espansione generativa.
+1. Per applicare il risultato alla singola immagine, fare clic su **[!UICONTROL Applica]**. Fai clic su **[!UICONTROL Applica a tutte le immagini]** per applicare il risultato a tutte le immagini pertinenti nel set di varianti.
 
 ## Modifica proporzioni
 
@@ -148,7 +196,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 
@@ -188,6 +236,19 @@ Per abilitare la funzionalità testo alternativo, [aggiungi un segnaposto di con
    1. Fai di nuovo clic su **[!UICONTROL Genera]** se non sei soddisfatto del risultato iniziale.
    1. Fai clic su **[!UICONTROL Applica]**.
 1. Ripeti l’operazione per ogni immagine nel set di varianti.
+
+## Aggiungi etichette di accessibilità
+
+Specifica un nome accessibile per i collegamenti immagine e call-to-action nelle varianti aggiungendo le etichette di accessibilità (Aria-labels). Le etichette di accessibilità integrano il testo visibile per aiutare gli utenti a comprendere lo scopo del collegamento o del pulsante.
+
+**Per aggiungere etichette di accesso facilitato ai collegamenti immagine o call-to-action nelle varianti**:
+
+1. Dopo aver generato un set di varianti, fai clic su un’immagine o un call-to-action all’interno di una variante.
+1. Fare clic sul pulsante **[!UICONTROL ARIA-label]**.
+1. Fare clic nella casella di testo e aggiungere una breve descrizione che illustri il funzionamento del collegamento o del pulsante. Ad esempio, puoi utilizzare &quot;Shop at WKND&#39;s Official site&quot; (Acquista sul sito ufficiale di WKND) per un collegamento a un pulsante call to action.
+1. Fai clic su **[!UICONTROL Applica]**.
+
+Per abilitare la funzionalità delle etichette di accessibilità, [aggiungi un segnaposto di contenuto](/help/user-guide/content/customize-template.md) nel modello.
 
 ## Anteprima per dispositivo
 

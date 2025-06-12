@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ I responsabili di sistema configurano Adobe GenStudio for Performance Marketing 
 
 ### Passaggio 1: aggiungere linee guida
 
-Configurare gli elementi costitutivi chiave dell’identità del brand della tua organizzazione è un prerequisito essenziale per il lavoro degli editor di contenuti e dei collaboratori. [Linee guida](/help/user-guide/guidelines/overview.md) acquisiscono le caratteristiche del brand come loghi, tono di voce e palette di colori. Puoi caricare [[!DNL Brands] documenti di linee guida](/help/user-guide/guidelines/brands.md) o immettere manualmente le informazioni sul marchio. Anche [[!DNL Personas] linee guida](/help/user-guide/guidelines/personas.md) e [[!DNL Products] linee guida](/help/user-guide/guidelines/products.md) sono importanti. Le funzionalità di intelligenza artificiale generative di GenStudio for Performance Marketing utilizzano queste linee guida per stabilire protezioni che guidano la generazione dei contenuti.
+Le [linee guida](/help/user-guide/guidelines/overview.md) del marchio acquisiscono le caratteristiche del marchio. Le funzionalità di intelligenza artificiale generative di GenStudio for Performance Marketing utilizzano queste linee guida per stabilire protezioni che guidano la generazione dei contenuti. Puoi caricare [[!DNL Brands] documenti con linee guida](/help/user-guide/guidelines/brands.md) o immettere manualmente le informazioni sul marchio.
+
+Gli editor di contenuti e i collaboratori non possono iniziare il loro lavoro finché non vengono stabiliti gli elementi fondamentali della [identità del marchio](/help/user-guide/guidelines/brands.md) della tua organizzazione. Questi componenti del brand includono:
+
+* Elementi immateriali, come il tono della voce
+* Risorse materiali, come logo, palette di colori e tipografia.
+
+Prima di creare le linee guida, scopri come GenStudio for Performance Marketing definisce [i componenti del brand](/help/user-guide/guidelines/brands.md)
 
 #### Preparare la documentazione sulle linee guida
 

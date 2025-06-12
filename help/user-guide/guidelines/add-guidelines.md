@@ -5,9 +5,9 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Quando si creano varianti da un modello con linee guida predefinite, [!DNL Brand
 ## Aggiungi marchi
 
 Per aggiungere un [!DNL Brand], [carica una guida del brand](#upload-a-brand) o [crea manualmente un brand](#manually-add-brand) selezionando le linee guida e immettendo i dettagli del brand. [Pubblica  [!DNL Brand]](#publish-brand) in [!DNL Content] per renderla disponibile per la futura generazione di contenuti.
+
+Se carichi le linee guida del brand scritte in una lingua diversa dall’inglese, o se crei manualmente un brand utilizzando una lingua diversa dall’inglese, GenStudio for Performance Marketing le mostra nella stessa lingua.
 
 Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Brands]** dall&#39;elenco _Condiviso_. Nel pannello _[!DNL Brands]_, seleziona **Aggiungi marchio**.
 
@@ -91,6 +93,21 @@ Per visualizzare il [!DNL Brands] creato, fai clic sulla freccia indietro accant
 
 Non è necessario [pubblicare](#publish-brand) [!DNL Brand] per rendere accessibili le informazioni. Tutte le informazioni aggiunte manualmente sono disponibili subito dopo l’aggiunta. Affinché altri utenti dell&#39;organizzazione possano utilizzare le informazioni di [!DNL Brand] in GenStudio for Performance Marketing, è necessario pubblicarle. Un [!DNL Brand] creato è in formato bozza fino alla pubblicazione.
 
+### Cambia la miniatura del brand
+
+Dopo l&#39;aggiunta manuale di [!DNL Brand], è possibile modificare l&#39;immagine miniatura per garantire che sia facilmente distinguibile all&#39;interno dell&#39;elenco [!DNL Brands].
+
+Se un [!DNL Brand] viene creato tramite estrazione del documento (invece di essere aggiunto manualmente), un logo disponibile all&#39;interno di tali documenti viene automaticamente implementato come immagine di miniatura.
+
+**Per modificare manualmente l&#39;immagine miniatura per un[!DNL Brand]**:
+
+1. Selezionare **[!UICONTROL Cambia miniatura]** dal menu Azioni.
+1. Carica una nuova immagine nella scheda _Carica_.
+1. In _[!UICONTROL Cambia miniatura]_, modifica l&#39;immagine caricata.
+1. Seleziona **[!UICONTROL Aggiorna]** per salvare l&#39;immagine come miniatura di [!DNL Brand].
+
+È possibile selezionare un logo [!DNL Brand] esistente nella visualizzazione della scheda [!UICONTROL Logo] per un [!DNL Brand]. Fai clic per aprire un logo e seleziona **[!UICONTROL Usa come miniatura del brand]** dal menu Azioni.
+
 ### Pubblica marchio
 
 Prima di pubblicare una bozza [!DNL Brand], fare clic in tutte le sezioni delle linee guida per esaminare tutte le informazioni compilate. Apporta le modifiche necessarie alle linee guida del brand.
@@ -129,6 +146,12 @@ Per **visualizzare le informazioni sul marchio**, fai clic su **[!UICONTROL [!DN
 
 1. In **[!DNL Brands]**, fare clic per aprire un marchio definito.
 1. Per visualizzare i dettagli individuali o modificare le linee guida, fai clic su [**[!UICONTROL Linee guida per Brand Voice]**](brands.md#brand-voice-guidelines), [**[!UICONTROL Linee guida per le immagini]**](brands.md#image-guidelines), [**[!UICONTROL Linee guida per il canale]**](brands.md#channel-guidelines), [**[!UICONTROL Logo]**](brands.md#logos) o [**[!DNL Colors]**](brands.md#colors) nella parte superiore.
+1. Per gestire un logo del brand, fai clic su [**[!UICONTROL Logo]**](brands.md#logos) nella parte superiore e fai clic sul menu Azioni (tre punti).
+   1. Selezionare **[!UICONTROL Visualizza dettagli]** per visualizzare le informazioni per [!DNL Brand], ad esempio _Formato_ e _Dimensione_.
+   1. Seleziona **[!UICONTROL Scarica]** per scaricare il logo.
+   1. Seleziona [**[!UICONTROL Utilizza come miniatura del brand]](#change-brand-thumbnail) per impostare il logo come immagine di miniatura.
+   1. Selezionare **[!UICONTROL Rinomina]** per rinominare il logo.
+   1. Seleziona **[!UICONTROL Elimina]** per eliminare il logo.
 1. Per rinominare un marchio esistente, fai clic sul titolo e inserisci un nuovo titolo.
 1. Per duplicare un marchio esistente, seleziona **[!UICONTROL Duplica]** dal menu Azioni _[!DNL Brands]_.
    1. Immetti un nome di marchio nel popup _Duplica marchio_ e fai clic su **[!UICONTROL Duplica marchio]**.
@@ -200,7 +223,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Gestisci [!DNL Personas]
 
-Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu azioni [!DNL Personas] per rivedere e rivedere un utente tipo esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Personas] per **Eliminare** un utente tipo.
@@ -268,7 +291,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Gestisci [!DNL Products]
 
-Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu Azioni [!DNL Products] per rivedere e rivedere un prodotto esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Products] per **Eliminare** un prodotto.

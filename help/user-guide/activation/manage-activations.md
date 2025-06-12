@@ -3,7 +3,7 @@ title: Gestire le attivazioni
 description: Scopri come gestire le esperienze attivate con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gestire le attivazioni
 
-_[!DNL Activate]_&#x200B;offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione_ Esperienze attivate _sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
+[!DNL Activate] offre una visualizzazione centralizzata dello stato di attivazione di ogni canale pubblicitario, incluse le attivazioni Pubblicato (riuscito), Non riuscito (non riuscito) e Pubblicazione (in sospeso). Nella visualizzazione _Esperienze attivate_ sono visualizzate tutte le attivazioni per un account annuncio di canale connesso.
 
-_[!DNL Activate]_&#x200B;organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]**&#x200B;nel riquadro del canale. Viene aperta la visualizzazione_ Esperienze attivate _per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
+[!DNL Activate] organizza le esperienze attivate per canale pubblicitario. Fai clic su **[!UICONTROL Visualizza]** nel riquadro del canale. Viene aperta la visualizzazione _Esperienze attivate_ per il canale selezionato. Questa visualizzazione elenca le esperienze per nome e le ordina per data di attivazione. Se la tua organizzazione non ha attivato le esperienze per quel canale, il riquadro del prodotto non include il pulsante **[!UICONTROL Visualizza]**.
 
 ## Visualizzazione esperienza attivata
 

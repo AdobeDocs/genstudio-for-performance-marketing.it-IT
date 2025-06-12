@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Quando il modello è pronto, puoi [caricarlo in GenStudio for Performance Market
 
 ## Segnaposto di contenuto
 
-GenStudio for Performance Marketing riconosce alcuni [elementi](use-templates.md#template-elements) all&#39;interno di un modello, ma solo se li identifichi con un [nome di campo riconosciuto](#recognized-field-names).
+GenStudio for Performance Marketing riconosce alcuni tipi di contenuto o [elementi](use-templates.md#template-elements) all&#39;interno di un modello, ma solo se li identifichi con un [nome di campo riconosciuto](#recognized-field-names).
 
 Nell&#39;intestazione o nel corpo di un modello di HTML è possibile utilizzare la sintassi [!DNL Handlebars] per inserire un segnaposto di contenuto in cui è necessario che GenStudio for Performance Marketing compili il modello con il contenuto effettivo. GenStudio for Performance Marketing riconosce e interpreta questi segnaposto in base al [nome _campo_ riconosciuto](#recognized-field-names). Ogni nome di campo è associato a regole e comportamenti specifici che determinano il modo in cui il contenuto viene generato e inserito nel modello.
 
@@ -124,6 +124,14 @@ In questo esempio:
 - `{{image}}` è il segnaposto per l&#39;URL di origine dell&#39;immagine.
 - `{{imageDescription}}` è il segnaposto per il testo alt, che fornisce una descrizione dell&#39;immagine a scopo di accessibilità e SEO (Search Engine Optimization).
 
+### Etichetta di accessibilità
+
+L&#39;attributo `aria-label` viene utilizzato per definire un nome accessibile per gli elementi privi di etichette visibili. Questo attributo è particolarmente utile nei modelli in cui è importante fornire contesto per gli elementi interattivi, ad esempio un pulsante CTA.
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### Su testo immagine
 
 Il segnaposto `{{on_image_text}}` viene utilizzato per specificare una sovrapposizione di testo di brevi messaggi di impatto, posizionati direttamente sull&#39;immagine in un&#39;esperienza.
@@ -172,9 +180,38 @@ Per creare una sezione modificabile, aggiungere parentesi doppie attorno al nome
 </tbody>
 ```
 
+### Modifica Rich Text
+
+Migliora il contenuto creativo durante il processo [!DNL Create] con la modifica in formato Rich Text. L’area di lavoro determina la funzionalità Rich Text in base alla posizione del segnaposto di contenuto. La funzionalità Rich Text è disponibile solo quando si utilizzano segnaposto di contenuto come elementi autonomi o all&#39;interno di tag HTML a livello di blocco, ad esempio `<p>`, `<div>` o `<span>`.
+
+La modifica Rich Text è disponibile per il contenuto autonomo in un paragrafo:
+
+```html
+<p>{{body}}</p>
+```
+
+Se si utilizza un segnaposto di contenuto all&#39;interno di un attributo di HTML, ad esempio `alt`, `href` o `src`, la modifica di testo RTF non è supportata per tale campo.
+
+La modifica Rich Text è **non** disponibile per il contenuto `alt`:
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+Se un campo viene visualizzato più di una volta, la funzionalità Rich Text viene determinata a seconda che venga utilizzata come attributo HTML in una qualsiasi delle istanze. Ad esempio, quando il titolo viene utilizzato come intestazione e come testo alternativo per un&#39;immagine, il tag `alt` ha la precedenza.
+
+La modifica Rich Text è **non** disponibile per `headline` poiché è utilizzata come contenuto `alt`:
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+La modifica Rich Text può essere disponibile per alcuni campi all&#39;interno di canali specifici, ad esempio `on_image_text` nei canali social (Meta, LinkedIn).
+
 ## Sezioni o gruppi
 
-Puoi utilizzare le sezioni in un modello e-mail di marketing se disponi di due o tre raggruppamenti di campi. _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
+Se il modello e-mail richiede più aree di contenuto, ad esempio più offerte o storie, puoi organizzarle utilizzando sezioni o gruppi. _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
 Utilizzare un nome di gruppo scelto come prefisso per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
 
@@ -192,7 +229,7 @@ Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi
 
 A causa di questa regola, le sezioni non possono essere nidificate.
 
-Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
+Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](/help/user-guide/content/best-practices-for-templates.md) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
 
 Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi avere tre sezioni titolo e corpo:
 

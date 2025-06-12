@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,15 @@ Prima di iniziare a generare un annuncio di LinkedIn, è importante [aggiungere 
 
 Per generare una nuova esperienza LinkedIn, è necessario un modello per fornire il framework per il contenuto. Consulta [LinkedIn Template Guidelines](/help/user-guide/templates/linkedin-template.md) per informazioni sulle proporzioni di LinkedIn supportate.
 
+Puoi scegliere dall’elenco dei modelli personalizzati o scegliere un modello iniziale.
+
 **Per scegliere un modello LinkedIn**:
 
 1. In _[!DNL Create]_, fare clic su **[!UICONTROL LinkedIn]**.
-1. Utilizza l&#39;opzione di ricerca, adiacente a _Filtro_, per trovare un modello specifico.
+1. Seleziona **[!UICONTROL Modelli personalizzati]** per sfogliare i modelli caricati oppure **[!UICONTROL Modelli iniziali]** per sfogliare i modelli predefiniti.
+
+   Se prevedi di aggiungere risorse video alle varianti Meta, devi scegliere un modello iniziale. Vengono precaricate con aree di contenuto definite dal sistema che facilitano l’utilizzo dei video.
+
 1. Fare clic per selezionare un modello e fare clic su **[!UICONTROL Usa]**.
 
    Questa azione apre Canvas, l’hub centrale per la creazione dei contenuti.
@@ -45,14 +50,16 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Aggiungi contenuto da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto:
-   * Fare clic su **[!UICONTROL Seleziona dal contenuto]** per selezionare le risorse (immagini) dal repository [!DNL Content], filtrare e selezionare una o più immagini.
+1. Aggiungi contenuto (immagini o video) da utilizzare nell&#39;esperienza *e* per influenzare la generazione del contenuto facendo clic su **[!UICONTROL Seleziona dal contenuto]**. In alternativa, trascina le immagini nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
 
-     ![Scegli contenuto visivo](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+   Utilizza il filtro per cercare il contenuto e selezionare una o più immagini.
 
-     Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
+   Se utilizzi un modello con una sezione per video, il contenuto video (.mp4) verrà preselezionato e filtrato automaticamente. Passa il cursore del mouse su un video per visualizzare un’anteprima riprodotta automaticamente.
 
-   * In alternativa, trascina e rilascia le risorse nella sezione **[!UICONTROL Seleziona da contenuto]** per caricare una o più nuove risorse.
+   ![Scegli contenuto visivo](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+
+   Per utilizzare le risorse da un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona una o più immagini.
+
 1. Fai clic su **[!UICONTROL Usa]**.
 
 Dopo aver aggiunto i parametri, è possibile comprimere il cassetto dei prompt facendo nuovamente clic sull&#39;icona _Parametri_.
@@ -68,6 +75,8 @@ Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt eff
 1. Immettere un prompt nella casella di prompt _&quot;Descrivi le esperienze da generare&quot;_.
 1. Fai clic su **[!UICONTROL Genera]**.
 
+   Consulta [Gestire i video](#manage-videos) per capire come vengono generati e come gestirli.
+
 Per impostazione predefinita, quattro varianti (tutte alimentate dal prompt, dalle linee guida e dal contenuto aggiunto) vengono generate e visualizzate nell’area di lavoro.
 
 Il contenuto generato viene caricato progressivamente. Man mano che vengono generate, le esperienze LinkedIn vengono visualizzate nell’area di lavoro. Consulta [Esperienze LinkedIn](/help/user-guide/create/linkedin-experiences.md#progressive-loading) per scoprire come queste modifiche vengono caricate nell&#39;area di lavoro.
@@ -81,10 +90,21 @@ Prima di inviare varianti per l&#39;approvazione o la pubblicazione a [!DNL Cont
 * **Per [modificare il nome della bozza dell&#39;annuncio LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, fare clic sul titolo della _bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immettere un nuovo titolo.
 * **Per [modificare manualmente un annuncio LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto, l&#39;intestazione o il corpo del testo) e modificarle in base alle esigenze.
 * **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante call-to-action e selezionare una delle opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo di call-to-action.
+* **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine di una variante e fare clic su **[!UICONTROL Formatta testo]**.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fai clic su un campo di testo modificabile e utilizza le _[!UICONTROL opzioni di modifica consigliate]_ oppure immetti un nuovo prompt nella _[!UICONTROL Generate new text_ section] e fai clic su **[!UICONTROL Generate]**.
+* **Per [utilizzare l&#39;opzione di espansione generativa per ridimensionare e adattare le immagini](/help/user-guide/create/manage-variants.md#use-generative-expand) al modello di lavoro**, fare clic su un&#39;immagine, fare clic su **[!UICONTROL Modifica]** (icona a forma di matita) e quindi su **[!UICONTROL Espandi]**. Regola l’immagine per adattarla alle proporzioni e al modello necessari.
 * **Per [ritagliare o riposizionare le immagini](/help/user-guide/create/manage-variants.md#crop-assets)**, posizionare il puntatore del mouse su un&#39;immagine, fare clic sull&#39;icona di ritaglio visualizzata e modificare le dimensioni e il posizionamento dell&#39;immagine.
+* **Per [modificare le dimensioni e le proporzioni dell&#39;annuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, fare clic sul pulsante _[!UICONTROL Ridimensiona]_ (casella con l&#39;icona di un pulsante sul lato sinistro dell&#39;area di lavoro) e selezionare nuove dimensioni e proporzioni da applicare a tutte le varianti. Le varianti vengono duplicate e ridimensionate.
+* **Per [aggiungere o sostituire risorse (immagine o video) in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa (o sull&#39;area della risorsa) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 * **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
+* **Per [aggiungere etichette di accesso facilitato](/help/user-guide/create/manage-variants.md#add-accessibility-labels) alle varianti**, fai clic su un&#39;immagine o su un collegamento a call-to-action, quindi fornisci una breve descrizione che spieghi il funzionamento del collegamento o del pulsante.
 * **Per [eliminare un annuncio LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic sul menu delle opzioni per una variante e quindi su **[!UICONTROL Elimina variante]**.
+
+### Gestire i video
+
+Passa il puntatore del mouse su ciascuno dei video per visualizzare la riproduzione automatica ciclica.
+
+I video vengono riorganizzati per adattarsi alle proporzioni selezionate durante la generazione. Ripristinare il video originale non riformattato facendo clic su **[!UICONTROL Rielabora video]** e disattivandolo.
 
 ## Invia feedback generazione
 
@@ -100,7 +120,7 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
    ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. [Rivedi manualmente le varianti](#revise-generated-variants) per assicurarti che siano strettamente allineate con i controlli del contenuto eseguiti.
+1. [Rivedi manualmente le varianti](#revise-generated-linkedin-ads) per assicurarti che le varianti siano strettamente allineate ai controlli del contenuto completati.
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 

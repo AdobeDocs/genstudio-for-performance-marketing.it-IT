@@ -4,7 +4,7 @@ description: Aggiungi  [!DNL Brands], [!DNL Products], and [!DNL Personas] a Gen
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
+source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -37,17 +37,17 @@ Linee guida di GenStudio for Performance Marketing:
 * Definire la complessità della brand identity
 * Creare l’archivio di base delle informazioni (per elementi discreti come loghi e font, spaziatura dei pixel e la sottigliezza delle linee guida sulla messaggistica) utilizzato dall’intelligenza artificiale generativa per creare i contenuti
 * Assicurati che l’identità del brand definita informi la creazione di ogni contenuto
-* Funziona come un framework di identità del brand controllato rispetto a ogni elemento di contenuto generato o [convalidato](#brand-validation)
+* Funziona come un framework di identità del brand controllato rispetto a ogni elemento di contenuto generato o [convalidato](#content-checks)
 * Implementa le linee guida ADA per accessibilità e piattaforma per le varianti generate
 
 L’incorporazione di dati di marchi, prodotti e utenti tipo in GenStudio for Performance Marketing consente di migliorare la qualità dei contenuti generati dall’intelligenza artificiale, garantendo un’identità del marchio completa e personalizzata.
 
-## Casi di utilizzo
+## Casi d’uso
 
 Le linee guida per [!DNL Brands], [!DNL Products] e [!DNL Personas] consentono due casi d&#39;uso principali per garantire che qualsiasi contenuto generato sia conforme alla rappresentazione desiderata dal brand:
 
 * **Generazione contenuto** in [[!DNL Create]](/help/user-guide/create/overview.md) o [Contenuto](/help/user-guide/content/overview.md)
-* [**Convalida del marchio**](#brand-validation), che viene eseguita durante il processo di creazione dei contenuti
+* [**Convalida del marchio**](#content-checks), che viene eseguita durante il processo di creazione dei contenuti
 
 ## Controlli del contenuto
 
@@ -63,5 +63,5 @@ Adobe GenStudio for Performance Marketing integra le linee guida per piattaforme
 
 Tali controlli cumulativi di conformità comprendono:
 
-* **Accessibilità ADA**: essenziale per garantire lo sviluppo di contenuti inclusivi ed esperienze digitali adatti a utenti con diverse capacità. Questi garantiscono l’allineamento con le funzioni di accessibilità web e forniscono un accesso equo a tutti gli utenti. GenStudio for Performance Marketing attualmente fa riferimento agli standard di accessibilità per la copia (testo) di livello A di ADA.
+* **Accessibilità ADA**: essenziale per garantire lo sviluppo di contenuti inclusivi ed esperienze digitali adatti a utenti con diverse capacità. Questi garantiscono l’allineamento con le funzioni di accessibilità web e forniscono un accesso equo a tutti gli utenti. GenStudio for Performance Marketing attualmente fa riferimento agli standard di accessibilità per la copia (testo) ADA Level AA.
 * **Conformità piattaforma**: fondamentale per rispettare le linee guida specifiche di ciascuna piattaforma, ad esempio Meta o LinkedIn, e per seguire le best practice del settore. Si tratta di linee guida predefinite presenti nel sistema e precompilate in [[!DNL Brand] linee guida](/help/user-guide/guidelines/brands.md#brands-guidelines).

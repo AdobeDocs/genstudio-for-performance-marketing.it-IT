@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 * È ora possibile [utilizzare la formattazione di modifica del testo RTF per il testo](/help/user-guide/create/manage-variants.md#manually-edit-text) nelle varianti generate. Prova una miriade di opzioni di formattazione per il testo delle varianti, ad esempio colore, dimensioni, elenchi e altro ancora.
 
 * È ora possibile [creare un nuovo set di annunci](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante l&#39;installazione della piattaforma clonando un set di annunci esistente durante l&#39;installazione della piattaforma. I metadati definiscono la tempistica, i dettagli del canale e il pubblico per un annuncio specifico. Una Meta campaign può contenere più set di annunci, ma un set di annunci è associato esclusivamente a una campagna.
+
+* Ora puoi esportare i dettagli della campagna per renderli accessibili esternamente come descrizione della campagna in Word o PDF. Seleziona una campagna, quindi fai clic su **[!UICONTROL Esporta]** (angolo superiore destro).
 
 ## Note sulle versioni precedenti
 

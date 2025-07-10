@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -196,27 +196,26 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 
    L’immagine viene aggiunta o scambiata nella variante applicabile.
 
-## Aggiungi collegamento immagine
+## Aggiungi collegamenti
 
-Analogamente all’aggiunta o allo scambio di immagini nelle varianti generate, puoi aggiungere un collegamento alle immagini. Il modello utilizzato per generare le varianti _must_ contiene un segnaposto di contenuto [per il collegamento](/help/user-guide/content/customize-template.md#content-placeholders) per abilitare questa funzionalità.
+Puoi aggiungere un collegamento a testo, immagini e pulsanti CTA nelle varianti. Il modello utilizzato per generare le varianti _must_ contiene un segnaposto di contenuto [per il collegamento](/help/user-guide/content/customize-template.md#content-placeholders) per abilitare questa funzionalità.
 
-**Per aggiungere un collegamento immagine in una variante**:
+**Per aggiungere un collegamento in una variante**:
 
-1. Dopo aver generato un set di varianti, fai clic su una risorsa di immagine.
-
-   Se nella variante non è attualmente presente una risorsa immagine, fai clic sull’area della risorsa immagine.
-
-1. Fai clic sull’icona del collegamento.
-1. Fare clic su **[!UICONTROL Rimuovi collegamento]** per rimuovere il collegamento predefinito esistente.
-1. Aggiungi un collegamento nel campo di testo e fai clic su **[!UICONTROL Applica]**.
-
-   Il collegamento definito viene applicato a tutte le immagini nel set di varianti.
+1. Quando modifichi un annuncio, fai clic sulla variabile dell&#39;elemento e trova l&#39;icona **[!UICONTROL Aggiungi collegamento]** o **[!UICONTROL Modifica collegamento]**.
+2. Fare clic sull&#39;icona per aprire la finestra al campo di testo.
+3. Inserisci la destinazione. Sono accettati i collegamenti che includono indirizzi URL, indirizzi e-mail o numeri di telefono:
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` o `whatsapp://`
 
 ## Aggiungi testo alternativo per le immagini
 

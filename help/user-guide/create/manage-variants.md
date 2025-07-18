@@ -3,9 +3,9 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Quando [crei esperienze](/help/user-guide/create/overview.md), puoi modificare i
 
 Le bozze di varianti generate hanno un nome predefinito visualizzato nella parte superiore dell’area di lavoro. I nomi bozza predefiniti utilizzano la seguente convenzione che include il tipo di canale, la data e l’ora di generazione.
 
-*Esempio*: &quot;Meta: bozza senza titolo - 09.5.24, 09:56&quot;
+*Esempio*: &quot;Meta: bozza senza titolo - 09.5.24, 9:56 AM&quot;
 
 **Per modificare il nome predefinito**:
 
@@ -84,7 +84,7 @@ Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta a
 
    La variante viene aggiornata con il testo rivisto.
 
-## Rivedi invito all&#39;azione
+## Rivedi Call to action
 
 Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento di call-to-action (CTA).
 
@@ -162,7 +162,7 @@ Questa funzione di espansione generativa è associata allo strumento di ritaglio
 
 ## Modifica proporzioni
 
-Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
+Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l&#39;utilizzo di un&#39;immagine quadrata di 1:1 potrebbe tagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templat
 
 **Per modificare le proporzioni degli annunci Meta generati**:
 
-1. Dopo aver generato un set di varianti, seleziona l’icona di ridimensionamento delle proporzioni (freccia rivolta verso l’angolo della casella) sul lato sinistro dell’area di lavoro.
+1. Dopo aver generato un set di varianti, fai clic su **[!UICONTROL Ridimensionamento proporzioni]** (freccia rivolta verso l&#39;angolo della casella) sul lato sinistro dell&#39;area di lavoro.
 
    Le proporzioni attualmente utilizzate per gli annunci sono visualizzate nella parte superiore della finestra _[!UICONTROL Ridimensiona]_.
 
@@ -184,7 +184,7 @@ Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templat
 
    [!DNL Create] crea una copia di ogni variante in base alle nuove proporzioni selezionate. Tutte le varianti, comprese quelle nelle proporzioni iniziali, sono presenti nell’area di lavoro.
 
-   Ad esempio, se all&#39;inizio generi quattro varianti in una proporzione 1:1 e poi modifichi le proporzioni in 4:5, ora nell&#39;area di lavoro sono disponibili _otto_ varianti totali.
+   Ad esempio, se all&#39;inizio generi quattro varianti con proporzioni 1:1 e poi modifichi le proporzioni in 4:5, nell&#39;area di lavoro sono ora disponibili _otto_ varianti totali.
 
 ## Scambia immagine
 
@@ -196,7 +196,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 

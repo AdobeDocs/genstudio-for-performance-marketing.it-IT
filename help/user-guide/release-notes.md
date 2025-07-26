@@ -4,18 +4,51 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
 
 # Note sulla versione di GenStudio for Performance Marketing
 
-Queste informazioni sulla versione descrivono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
+Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025,06 {#latest}
+## 25.7.2025 {#latest}
+
+### Filtro risorse compatibili
+
+Un nuovo filtro nel modulo [!DNL Insights] nasconde automaticamente [le risorse immagine e video non supportate](/help/user-guide/insights/ads.md#ad-formats) dalle anteprime degli annunci, eliminando il disordine visivo e i riquadri interrotti. Questo miglioramento garantisce agli utenti di visualizzare solo i supporti effettivamente disponibili e pronti per l’uso, creando un’esperienza più pulita e affidabile. Il filtro funziona insieme al filtro degli annunci di compatibilità esistente.
+
+### Attivazione di più risorse per metadati
+
+La funzione di attivazione delle immagini con proporzioni multiple per i metadata consente agli inserzionisti di caricare e attivare più risorse immagine in diverse proporzioni in un unico annuncio creativo. Questa funzione consente a un annuncio di fornire la giusta misura creativa per vari posizionamenti Meta come Feed, Storie e Reel. Gli inserzionisti possono visualizzare in anteprima come ogni immagine verrà riprodotta nei diversi posizionamenti e pubblicare tutte le versioni in Meta in una singola chiamata API.
+
+### Formattazione RTF nelle varianti
+
+[Modifica i campi di testo nelle varianti generate con formattazione RTF](/help/user-guide/create/manage-variants.md#manually-edit-text) opzioni quali grassetto, corsivo, sottolineato, allineamento del testo, elenchi, colore del testo, dimensioni del testo e collegamenti. Questo consente di perfezionare il testo e la formulazione per il pubblico e di applicare la formattazione per soddisfare i requisiti di layout.
+
+### Etichette di accessibilità per immagini e collegamenti
+
+Aggiungi le etichette di accessibilità (Aria-labels) alle immagini e ai collegamenti call-to-action nelle varianti per fornire nomi accessibili che aiutino gli utenti a comprendere lo scopo degli elementi interattivi. Per istruzioni dettagliate, consulta [Gestione varianti](/help/user-guide/create/manage-variants.md).
+
+### Generazione di contenuti non in inglese
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Il nuovo menu a discesa Selettore lingua nel cassetto dei prompt supporta la creazione di contenuti multilingue, consentendo agli addetti al marketing regionale di sviluppare contenuti on-brand per il pubblico locale. Questa funzione attualmente supporta 12 lingue GA e 5 lingue Beta, con l&#39;elenco delle lingue che fornisce un flusso di lavoro definito e una chiara direttiva linguistica al LLM per output più coerenti.
+
+### Selezione del modello facoltativa per i metadati
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+La selezione del modello è ora opzionale con i metadati, che consentono agli utenti di creare annunci senza richiedere testo e logo nella parte superiore del supporto. Questo miglioramento consente di utilizzare altri tipi di file multimediali, ad esempio GIF animate e video, che potrebbero non richiedere sovrapposizioni di testo o il posizionamento di un logo.
+
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.06.15
 
 ### Modelli iniziali disponibili
 
@@ -53,14 +86,14 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 * Ora puoi esportare i dettagli della campagna per renderli accessibili esternamente come descrizione della campagna in Word o PDF. Seleziona una campagna, quindi fai clic su **[!UICONTROL Esporta]** (angolo superiore destro).
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.05.15
 
 ### Correzioni di problemi e miglioramenti
 
 * È stata abilitata la funzionalità per [aggiungere testo alternativo (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a un&#39;immagine per una singola variante.
-* È stata aggiunta una [nuova proporzione metadati](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza 1080 pixel).
+* È stata aggiunta una [nuova proporzione metadati](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza pixel 1080).
 * Ora puoi scegliere più di un’esperienza da esportare o scaricare. Consulta [Esportare esperienze](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -148,7 +181,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 ### Genera nuovi inviti all&#39;azione
 
-È ora possibile generare nuove frasi di call-to-action (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+È ora possibile generare nuove frasi di call-to-action (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedere Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correzioni di problemi e miglioramenti
 
@@ -162,7 +195,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 * Le selezioni di persone, marchi e prodotti vengono ora precaricate durante la generazione del modello. <!-- GS-8069 -->
 
-* Il collegamento di invito all’azione tramite e-mail non è più un campo obbligatorio. <!-- GS-8103 -->
+* Il collegamento e-mail a call-to-action non è più un campo obbligatorio. <!-- GS-8103 -->
 
 * Il menu a discesa del selettore [!DNL Brand] ora funziona come previsto per i modelli. In precedenza, il selettore non veniva caricato correttamente per alcuni modelli. <!-- GS-8908 -->
 

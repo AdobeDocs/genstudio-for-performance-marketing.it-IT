@@ -21,7 +21,7 @@ L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti 
 
 Guarda questo video o segui i passaggi indicati di seguito.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470499/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3470507/?learn=on&enablevpops&captions=ita)
 
 ## Passaggio 1: creare un gruppo di utenti
 

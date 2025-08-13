@@ -1,13 +1,13 @@
 ---
-title: Editor di codice modello
+title: Editor codice modello
 description: Scopri come utilizzare l’editor di codice modello in GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
+source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,24 @@ Nel riquadro _[!UICONTROL Controlla campi rilevati]_ è visualizzato un elenco d
 
 Se noti che manca un campo nell’elenco, cerca nel codice del modello e individua la posizione del campo mancante. Inserire il segnaposto corretto utilizzando la sintassi Handlebars e un [nome di campo riconosciuto](/help/user-guide/content/customize-template.md#recognized-field-names). Utilizza il modulo Trova e sostituisci, che viene visualizzato nella parte inferiore dell’editor di codice, per cercare stringhe specifiche nel codice. (Windows `CTRL`+`F` o macOS `CMD`+`F`)
 
-### Effettua una correzione
+## Regolare i ruoli per una variabile
+
+È possibile selezionare e modificare i ruoli di campo per i ruoli di campo basati su testo (ad esempio, `headline`, `sub_headline`, `body`, `cta`, `on_image_text`, `custom`) con un elenco a discesa durante la verifica della struttura del modello. Le selezioni del ruolo del campo persistono durante le modifiche del modello, in modo da non perdere le personalizzazioni e migliorare l’efficienza del flusso di lavoro.
+
+>[!NOTE]
+>
+>I ruoli delle variabili immagine non possono essere regolati.
+
+![Selezione di campi con più ruoli](/help/assets/multirole-dropdown-field.png "Selezione di campi con più ruoli"){width="600" zoomable="yes"}
+
+Per assegnare un ruolo a una variabile:
+
+1. Trova la variabile nel riquadro _[!UICONTROL Controlla campi rilevati]_. Queste variabili vengono individuate automaticamente.
+2. Esamina i ruoli assegnati a ciascuna variabile. I ruoli vengono assegnati automaticamente, ma possono essere regolati utilizzando il menu a discesa per qualsiasi variabile nel modello.
+3. Regola un ruolo selezionando un nuovo ruolo dal menu a discesa.
+4. Fai clic su **[!UICONTROL Avanti]** per continuare.
+
+## Effettua una correzione
 
 Se nel modello sono presenti errori, è possibile che venga visualizzato un messaggio di `Template is invalid` che include una breve spiegazione del problema. Nell&#39;esempio seguente, il messaggio indica che il campo `_image` non è conforme alla convenzione di denominazione dei campi stabilita nel modello a più pod. Il messaggio informa inoltre che è necessario aggiornare il nome del campo con il prefisso corretto. Trova il campo `_image` nell&#39;editor di codice del modello e aggiorna il nome come consigliato.
 

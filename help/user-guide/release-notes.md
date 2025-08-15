@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 25.7.2025 {#latest}
+## 2025.08.15. {#latest}
+
+### Informazioni per attributi di testo
+
+Informazioni su attributi di testo in Adobe GenStudio analizzano il tono emotivo, le tecniche di persuasione e lo stile narrativo utilizzati nella copia degli annunci. Una volta che una campagna è attiva, GenStudio tiene traccia di come questi attributi di testo sono correlati con metriche delle prestazioni chiave come CTR, CPA, CPC, impression e spesa.
+
+Questo è attualmente disponibile solo per gli annunci in inglese. Per informazioni dettagliate, vedere [Funzionalità testo](/help/user-guide/insights/text-features.md).
+
+### Miglioramenti al modello Approfondimenti
+
+* La scheda di anteprima dell’annuncio ora include un’opzione &quot;Ulteriori informazioni&quot; per il testo.
+* Nuovi modelli per le schede Masonry della pagina Annunci.
+
+### Generare contenuti multilingue con la convalida del brand
+
+Il nuovo selettore Lingua nel cassetto dei prompt supporta la creazione di contenuti multilingue, consentendo agli addetti al marketing regionale di sviluppare contenuti on-brand per il pubblico locale. Questa funzione supporta attualmente 12 lingue.
+
+### Supporto di risorse video nei modelli
+
+* Le risorse video possono essere aggiunte ai modelli Meta e LinkedIn.
+
+### Attivare miglioramenti dell’esperienza
+
+* Nuova funzionalità per salvare le bozze delle attivazioni.
+* Nuova funzionalità per ritentare le attivazioni non riuscite.
+
+### Utilizzare lo stesso ruolo in più campi di testo
+
+Sono ora supportati più campi di testo con lo stesso ruolo (ad esempio, &quot;body&quot;, &quot;cta&quot;, &quot;on image text&quot;, ecc.) per modelli di clienti complessi.
+
+Esplora i dettagli in [le linee guida per l&#39;Editor di codice modello](/help/user-guide/content/code-editor.md).
+
+### Supportati i nuovi modelli Clio 4 Standard e Clio 4 Ultra per la generazione di immagini
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Adobe GenStudio for Performance Marketing ora supporta la suite Firefly Image Model 4 più recente, incluse due potenti varianti:
+
+**Clio 4 Standard**: ottimizzato per velocità e semplicità, ideale per la generazione di illustrazioni, icone, fotografie di oggetti di base e ritratti a soggetto singolo, che coprono il 90% delle esigenze creative quotidiane.
+
+**Clio 4 Ultra**: dà priorità al fotorealismo e alla precisione, eccellendo nel rendering di ritratti umani, gruppi di medie dimensioni e scene complesse per attività creative di alto livello.
+
+Per informazioni dettagliate sull&#39;utilizzo di questi nuovi modelli per la generazione di immagini, consulta [Generate assets](/help/user-guide/create/generate-assets.md).
+
+### Traduzione predefinita per e-mail
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di traduzione e-mail che consentono agli esperti di marketing di scalare in modo efficiente le campagne e-mail a livello globale. Questa funzione consente di prendere un’esperienza e-mail approvata e tradurla in più lingue di destinazione utilizzando i servizi di traduzione di Azure Open AI.
+
+
+## Note sulle versioni precedenti
+
++++Note relative al 25.7.2025
 
 ### Filtro risorse compatibili
 
@@ -45,8 +98,7 @@ Il nuovo menu a discesa Selettore lingua nel cassetto dei prompt supporta la cre
 
 La selezione del modello è ora opzionale con i metadati, che consentono agli utenti di creare annunci senza richiedere testo e logo nella parte superiore del supporto. Questo miglioramento consente di utilizzare altri tipi di file multimediali, ad esempio GIF animate e video, che potrebbero non richiedere sovrapposizioni di testo o il posizionamento di un logo.
 
-
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.06.15
 
@@ -315,7 +367,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 +++
 
-+++Note relative all’esercizio 2024.11.07
++++Note relative al 2024.11.07
 
 ### Correzioni di problemi e miglioramenti
 

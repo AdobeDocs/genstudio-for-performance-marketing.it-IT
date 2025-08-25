@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3411'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Sono ora supportati più campi di testo con lo stesso ruolo (ad esempio, &quot;b
 
 Esplora i dettagli in [le linee guida per l&#39;Editor di codice modello](/help/user-guide/content/code-editor.md).
 
-### Supportati i nuovi modelli Clio 4 Standard e Clio 4 Ultra per la generazione di immagini
+### Nuovi modelli di generazione di immagini Firefly supportati
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
 Adobe GenStudio for Performance Marketing ora supporta la suite Firefly Image Model 4 più recente, incluse due potenti varianti:
 
-**Clio 4 Standard**: ottimizzato per velocità e semplicità, ideale per la generazione di illustrazioni, icone, fotografie di oggetti di base e ritratti a soggetto singolo, che coprono il 90% delle esigenze creative quotidiane.
+**Immagine Firefly 4**: ottimizzata per velocità e semplicità, ideale per la generazione di illustrazioni, icone, fotografie di oggetti di base e ritratti a soggetto singolo, che coprono il 90% delle esigenze creative quotidiane.
 
-**Clio 4 Ultra**: dà priorità al fotorealismo e alla precisione, eccellendo nel rendering di ritratti umani, gruppi di medie dimensioni e scene complesse per attività creative di alto livello.
+**Immagine Firefly 4 Ultra**: dà priorità al fotorealismo e alla precisione, eccellendo nel rendering di ritratti umani, gruppi di medie dimensioni e scene complesse per attività creative di alto livello.
 
 Per informazioni dettagliate sull&#39;utilizzo di questi nuovi modelli per la generazione di immagini, consulta [Generate assets](/help/user-guide/create/generate-assets.md).
 

@@ -1,11 +1,11 @@
 ---
-title: Gestire risorse ed esperienze
+title: Gestire Assets ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
+source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1514'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Elimina](#delete-assets) | ✓ | ✓ | ✓ |
 
-### Aggiungere risorse
+### Aggiungere le risorse
 
 Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], queste vengono memorizzate nell&#39;archivio `GenStudio assets`. Il pulsante _[!UICONTROL Aggiungi risorse]_ è disponibile solo quando _[!UICONTROL Posizione]_ è l&#39;archivio `GenStudio assets`.
 
@@ -98,11 +98,11 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 1. In _[!DNL Content]_, fai clic su **[!UICONTROL Aggiungi risorse]**.
 
-1. Nella visualizzazione _Aggiungi le risorse approvate_, rilascia uno o più file nello spazio di rilascio. In alternativa, è possibile selezionare i file locali utilizzando **[!UICONTROL Sfoglia]** o importare i file da Dropbox o Microsoft OneDrive.
+2. Nella visualizzazione _Aggiungi le risorse approvate_, rilascia uno o più file nello spazio di rilascio. In alternativa, è possibile selezionare i file locali utilizzando **[!UICONTROL Sfoglia]** o importare i file da Dropbox o Microsoft OneDrive.
 
-1. Nella sezione _Aggiungi dettagli_, seleziona un **[!UICONTROL nome campagna]** o immetti un nuovo nome.
+3. Nella sezione _Aggiungi dettagli_, seleziona un **[!UICONTROL nome campagna]** o immetti un nuovo nome.
 
-1. Per migliorare la reperibilità, aggiungi dettagli facoltativi come _Brand name_, _Personas_, _Region_ e _Keywords_ nella sezione **More details**.
+4. Per informazioni sull&#39;individuazione, aggiungere dettagli facoltativi come _Brand name_, _Personas_, _Region_ e _Keywords_ nella sezione **More details**.
 
    Maggiore è il numero di dettagli forniti, maggiori saranno le funzionalità di GenStudio for Performance Marketing. Selezionare uno o più dettagli dall&#39;elenco o immetterne uno nuovo, se applicabile, ad esempio con parole chiave. Ogni dettaglio aggiunto viene visualizzato sotto l&#39;elenco. Fare clic su **`x`** per rimuovere un dettaglio.
 
@@ -110,11 +110,11 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
    Vedi [Dettagli metadati](/help/user-guide/content/asset-details.md#system-metadata).
 
-1. Fai clic su **[!UICONTROL Aggiungi risorse]**.
+5. Fai clic su **[!UICONTROL Aggiungi risorse]**.
 
-1. Al termine del caricamento della risorsa, fai clic su **Fine**.
+6. Al termine del caricamento della risorsa, fai clic su **Fine**.
 
-1. Per visualizzare le nuove risorse caricate, fai clic su **[!UICONTROL Aggiorna]** dalla notifica _Nuove risorse disponibili_ nella parte inferiore dell&#39;area di lavoro.
+7. Per visualizzare le nuove risorse caricate, fai clic su **[!UICONTROL Aggiorna]** dalla notifica _Nuove risorse disponibili_ nella parte inferiore dell&#39;area di lavoro.
 
 ### Scaricare le risorse
 
@@ -140,17 +140,21 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 
 Puoi selezionare una o più esperienze approvate da scaricare in un formato compatibile con il tuo canale di destinazione. Il file scaricato è denominato utilizzando la data di esportazione: `2025-06-15-export.zip`. Quando decomprimi il file, esiste una cartella per ogni tipo di canale che include le risorse esportate nei formati selezionati. Ogni risorsa esportata mantiene il nome originale della risorsa come nome del file.
 
+>[!WARNING]
+>
+>Le risorse recuperate non sono sicure da visualizzare senza bonifica. Tutti gli utenti devono gestire cross-site scripting (XSS) dai modelli utilizzando tecniche di bonifica di input alla fine.
+
 **Per esportare o scaricare esperienze**:
 
 1. In _[!DNL Content]_, selezionare una o più esperienze.
 
    Viene visualizzato un banner con il numero di esperienze selezionate a sinistra e le opzioni [!UICONTROL Attiva], [!UICONTROL Scarica] o [!UICONTROL Elimina] a destra.
 
-1. (Facoltativo) Se scegli di attivare, ti potrebbe essere chiesto di selezionare una piattaforma e quindi continuare con il flusso di lavoro [!DNL Activate]. Vedi [Attiva](/help/user-guide/activation/overview.md).
+2. (Facoltativo) Se scegli di attivare, ti potrebbe essere chiesto di selezionare una piattaforma e quindi continuare con il flusso di lavoro [!DNL Activate]. Vedi [Attiva](/help/user-guide/activation/overview.md).
 
-1. Fai clic su **[!UICONTROL Scarica]**.
+3. Fai clic su **[!UICONTROL Scarica]**.
 
-1. Nel popup _Scarica_, seleziona uno dei formati disponibili.
+4. Nel popup _Scarica_, seleziona uno dei formati disponibili.
 
    Se hai selezionato più esperienze da canali diversi, puoi selezionare il formato per ciascun tipo di canale.
 

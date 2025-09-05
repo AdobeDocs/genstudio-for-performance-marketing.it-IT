@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
@@ -24,7 +24,7 @@ L’editor di codice modello è progettato per aiutarti a verificare e perfezion
 
 Nel riquadro _[!UICONTROL Controlla campi rilevati]_ è visualizzato un elenco di campi riconosciuti da GenStudio for Performance Marketing nel modello. Rivedi l’elenco e puoi scorrere il codice HTML per esaminare la formazione del modello.
 
-![Visualizzazione editor di codice](/help/assets/template-detected-fields.png "Controlla i campi rilevati"){width="600" zoomable="yes"}
+![Visualizzazione editor di codice](/help/assets/template-detected-fields.png "Controlla i campi rilevati"){width="600"}
 
 Se noti che manca un campo nell’elenco, cerca nel codice del modello e individua la posizione del campo mancante. Inserire il segnaposto corretto utilizzando la sintassi Handlebars e un [nome di campo riconosciuto](/help/user-guide/content/customize-template.md#recognized-field-names). Utilizza il modulo Trova e sostituisci, che viene visualizzato nella parte inferiore dell’editor di codice, per cercare stringhe specifiche nel codice. (Windows `CTRL`+`F` o macOS `CMD`+`F`)
 
@@ -36,7 +36,7 @@ Se noti che manca un campo nell’elenco, cerca nel codice del modello e individ
 >
 >I ruoli delle variabili immagine non possono essere regolati.
 
-![Selezione di campi con più ruoli](/help/assets/multirole-dropdown-field.png "Selezione di campi con più ruoli"){width="600" zoomable="yes"}
+![Selezione di campi con più ruoli](/help/assets/multirole-dropdown-field.png "Selezione di campi con più ruoli"){width="600"}
 
 Per assegnare un ruolo a una variabile:
 
@@ -49,7 +49,7 @@ Per assegnare un ruolo a una variabile:
 
 Se nel modello sono presenti errori, è possibile che venga visualizzato un messaggio di `Template is invalid` che include una breve spiegazione del problema. Nell&#39;esempio seguente, il messaggio indica che il campo `_image` non è conforme alla convenzione di denominazione dei campi stabilita nel modello a più pod. Il messaggio informa inoltre che è necessario aggiornare il nome del campo con il prefisso corretto. Trova il campo `_image` nell&#39;editor di codice del modello e aggiorna il nome come consigliato.
 
-![Correggere un modello non valido](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![Correggere un modello non valido](/help/assets/animation/template-code-editor.gif){width="600"}
 
 Il riquadro _[!UICONTROL Controlla i campi rilevati]_ si aggiorna per riflettere le modifiche apportate. Dopo aver verificato che i campi sono corretti e completi, fai clic su **[!UICONTROL Avanti]** per continuare a [caricare il modello](/help/user-guide/content/use-templates.md#add-a-template).
 

@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_&#x200B;viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
 
 ### Cerca modelli
 
@@ -72,7 +72,7 @@ Ad esempio, potrebbe essere utile trovare un modello per un tipo di canale speci
 
 Di seguito è riportato un filtro in base al tipo di canale, ad esempio e-mail, annunci display, annunci meta e annunci LinkedIn.
 
-![Elenco modelli di contenuto](/help/assets/content-templates-filter.png "Cerca nei modelli LinkedIn"){width="650" zoomable="yes"}
+![Elenco modelli di contenuto](/help/assets/content-templates-filter.png "Cerca nei modelli LinkedIn"){width="650"}
 
 La funzionalità di ricerca dei modelli è disponibile durante [!UICONTROL Crea] quando si seleziona un modello per un supporto di proprietà o a pagamento. Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’archivio corrisponde ai criteri di metadati corrispondenti. Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
 
@@ -84,32 +84,32 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Modelli]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi modello]**.
+2. Fare clic su **[!UICONTROL Aggiungi modello]**.
 
-1. Nel riquadro _[!UICONTROL Aggiungi il modello approvato]_, individua il file del modello di HTML o trascina il file del modello di HTML nello spazio di rilascio. Fai clic su **[!UICONTROL Avanti]**.
+3. Nel riquadro _[!UICONTROL Aggiungi il modello approvato]_, individua il file del modello di HTML o trascina il file del modello di HTML nello spazio di rilascio. Fai clic su **[!UICONTROL Avanti]**.
 
-1. Nel riquadro _[!UICONTROL Controlla campi rilevati]_, controlla i campi. Verifica di utilizzare il modello corretto e che tutti i dettagli siano come previsto.
+4. Nel riquadro _[!UICONTROL Controlla campi rilevati]_, controlla i campi. Verifica di utilizzare il modello corretto e che tutti i dettagli siano come previsto.
 
    Esempio di anteprima per un modello e-mail:
 
-   ![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
    >Se il modello non è corretto, fare clic su **[!UICONTROL Indietro]** e tornare al passaggio precedente. Carica il file modello corretto. In alternativa, utilizzare l&#39;[editor di codice modello](/help/user-guide/content/code-editor.md) per apportare semplici correzioni.
 
-1. Fare clic su **[!UICONTROL Avanti]** quando si è soddisfatti dell&#39;anteprima del modello.
+5. Fare clic su **[!UICONTROL Avanti]** quando si è soddisfatti dell&#39;anteprima del modello.
 
-1. In _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
+6. In _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
 
    Sono richiesti il nome del modello e il tipo di canale. Ulteriori requisiti possono includere:
 
    - **Meta**: richiede proporzioni
    - **Banner e annuncio visualizzato**: dimensioni richieste
 
-1. Aggiungi tutti i dettagli possibili per migliorare l’identificazione dei modelli nelle ricerche e nei filtri.
+7. Aggiungi tutti i dettagli possibili per migliorare l’identificazione dei modelli nelle ricerche e nei filtri.
 
-1. Fai clic su **[!UICONTROL Fine]**.
+8. Fai clic su **[!UICONTROL Fine]**.
 
 ### Aggiorna modello
 
@@ -119,9 +119,9 @@ I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Modelli]**.
 
-1. Fai clic su un modello per una visualizzazione completa e un elenco di dettagli.
+2. Fai clic su un modello per una visualizzazione completa e un elenco di dettagli.
 
-1. Fai clic su **[!UICONTROL Aggiorna]** (frecce circolari) dall&#39;angolo superiore destro per aggiornare tutte le risorse utilizzate nel modello.
+3. Fai clic su **[!UICONTROL Aggiorna]** (frecce circolari) dall&#39;angolo superiore destro per aggiornare tutte le risorse utilizzate nel modello.
 
 ### Creare un’esperienza con un modello
 
@@ -131,11 +131,11 @@ Trova e utilizza un modello esistente in GenStudio for Performance Marketing per
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Modelli]**.
 
-1. Fai clic su un modello per una visualizzazione completa e un elenco di dettagli.
+2. Fai clic su un modello per una visualizzazione completa e un elenco di dettagli.
 
-1. Fai clic su **[!UICONTROL Crea esperienza]** (pennello) nell&#39;angolo superiore destro per utilizzare il modello.
+3. Fai clic su **[!UICONTROL Crea esperienza]** (pennello) nell&#39;angolo superiore destro per utilizzare il modello.
 
-1. Continua a [Creare](/help/user-guide/create/overview.md#create-use-cases) un&#39;esperienza.
+4. Continua a [Creare](/help/user-guide/create/overview.md#create-use-cases) un&#39;esperienza.
 
 ## Modelli da AJO e Marketo
 

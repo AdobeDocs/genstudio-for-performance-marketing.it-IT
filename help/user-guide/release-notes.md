@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.08.15. {#latest}
+## 2025.09.11. {#latest}
+
+### Nuova funzionalità generativa di IA per l’espansione dei file multimediali a pagamento
+
+La nuova funzione GenExpand consente agli esperti di marketing di adattare dinamicamente le risorse creative per supportare proporzioni diverse nei canali a pagamento, come Meta, LinkedIn, Display Ads e Banner. Quando un&#39;immagine non corrisponde alle proporzioni desiderate, ad esempio se si aggiunge un&#39;immagine stretta a un layout ampio, è possibile utilizzare GenExpand per modificare l&#39;immagine in base alle proprie esigenze.
+
+Questa funzione semplifica il processo di modifica e ridimensionamento delle immagini direttamente in GenStudio for Performance Marketing. Per informazioni dettagliate, consulta [Funzionalità IA di espansione generativa](/help/user-guide/create/manage-variants.md#use-generative-expand).
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.08.15
 
 ### Informazioni per attributi di testo
 
@@ -65,8 +75,7 @@ Per informazioni dettagliate sull&#39;utilizzo di questi nuovi modelli per la ge
 
 Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di traduzione e-mail che consentono agli esperti di marketing di scalare in modo efficiente le campagne e-mail a livello globale. Questa funzione consente di prendere un’esperienza e-mail approvata e tradurla in più lingue di destinazione utilizzando i servizi di traduzione di Azure Open AI.
 
-
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 25.7.2025
 

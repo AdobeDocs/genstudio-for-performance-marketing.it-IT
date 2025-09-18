@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,17 +44,18 @@ Il numero massimo di campi consentiti in un modello è 20. Consulta [Segnaposto 
 
 ## E-mail con più sezioni
 
-_Le sezioni_ consentono di organizzare il contenuto in gruppi distinti, che supportano layout più complessi. In Genstudio per Performance Marketing, puoi definire ogni sezione utilizzando una convenzione di denominazione del gruppo. Consulta [Personalizzare le sezioni del modello](/help/user-guide/content/customize-template.md#sections-or-groups).
+_Sezioni_ ti consentono di organizzare il contenuto in gruppi distinti, supportando layout più complessi. In GenStudio for Performance Marketing, puoi definire ogni sezione utilizzando una convenzione di denominazione dei gruppi. Consulta [Personalizzare le sezioni del modello](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 I modelli con più sezioni possono avere 0, 2 o 3 sezioni:
 
 - Un modello di base (zero sezioni) può generare un singolo set di elementi modello, che non richiede la convenzione di denominazione del gruppo.
-- Un modello complesso (più sezioni) può generare fino a tre set di elementi modello, che richiedono l&#39;adesione alla convenzione di denominazione del gruppo: (`groupname_fieldname`)
+- Un modello complesso (più sezioni) può generare fino a tre set di elementi di modello, che richiedono di rispettare la convenzione di denominazione del gruppo: `<groupname_fieldname>`.
+- Quando si utilizzano più sezioni, tutti gli elementi lasciati autonomi al di fuori di una sezione non vengono compilati.
 
-Esempi di nomi dei campi per due sezioni:
+Di seguito sono riportati alcuni esempi di nomi di campo, utilizzando la convenzione di denominazione dei gruppi, per due sezioni:
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- Nella sezione 1:`pod1_headline`, `pod1_body`, `pod1_cta`
+- Nella sezione 2:`pod2_headline`, `pod2_body`, `pod2_cta`
 
 ## Esempi di modelli
 
@@ -109,7 +110,7 @@ Di seguito è riportato un esempio di base di un modello e-mail di HTML con una 
 
 +++Esempio: modello e-mail con più sezioni
 
-Di seguito è riportato lo stesso modello di HTML nell’esempio precedente, ma con altre due sezioni. L’intestazione contiene CSS in linea per la formattazione di un gruppo. Il corpo utilizza due gruppi con [segnaposto contenuto](#content-placeholders) utilizzando un prefisso.
+Questo è lo stesso modello di HTML nell’esempio precedente, ma con altre due sezioni. L’intestazione contiene CSS in linea per la formattazione di un gruppo. Il corpo utilizza due gruppi con [segnaposto contenuto](#content-placeholders) utilizzando un prefisso.
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ Di seguito è riportato lo stesso modello di HTML nell’esempio precedente, ma 
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>

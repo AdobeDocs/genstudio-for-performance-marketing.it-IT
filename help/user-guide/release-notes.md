@@ -4,7 +4,7 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Come parte del processo di convalida del brand, sono stati introdotti [standard 
 
 ### Estensibilità
 
-Il nuovo [framework di estensibilità](/help/extensibility/overview.md) di GenStudio for Performance Marketing fornisce alle organizzazioni gli strumenti per incorporare i propri protocolli di conformità alle attestazioni nel flusso di lavoro di creazione dei contenuti e nella convalida tramite componenti aggiuntivi o applicazioni estensibili.
+Il nuovo [framework di estensibilità](/help/extensibility/setup.md) di GenStudio for Performance Marketing fornisce alle organizzazioni gli strumenti per incorporare i propri protocolli di conformità alle attestazioni nel flusso di lavoro di creazione dei contenuti e nella convalida tramite componenti aggiuntivi o applicazioni estensibili.
 
 ### Modelli
 

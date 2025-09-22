@@ -1,11 +1,11 @@
 ---
-title: Creare un’app App Builder per estendere GenStudio for Performance Marketing
-description: Inizia a creare un'app o un componente aggiuntivo.
+title: Creare un’app App Builder
+description: Inizia a creare un'app, o un componente aggiuntivo, per estendere GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Gli sviluppatori che estendono le funzionalità native di GenStudio for Performa
 
 * npm (in pacchetto con Node.js)
 
-* Interfaccia della riga di comando (CLI) di Adobe Developer. Per installare: `npm install -g @adobe/aio-cli`
+* Interfaccia della riga di comando (CLI) di Adobe Developer. Per installarlo con npm, eseguire: `npm install -g @adobe/aio-cli`
 
 >[!ENDSHADEBOX]
 
@@ -47,10 +47,10 @@ I componenti chiave delle app App Builder includono questi file di build e confi
 * File di configurazione di App Builder:
 
    * `app.config.yaml`
-   * `ext.config.yaml`: file di configurazione per il componente aggiuntivo
-   * `app.config.yaml`: file di configurazione per il componente aggiuntivo (include la definizione dell&#39;app come componente aggiuntivo di GenStudio for Performance Marketing)
+   * `ext.config.yaml`: file di configurazione per il componente aggiuntivo.
+   * `app.config.yaml`: file di configurazione per il componente aggiuntivo (include la definizione dell&#39;app come componente aggiuntivo di GenStudio for Performance Marketing).
    * `.aio`
-   * `.env`: non eseguire il commit del file `.env` nel controllo del codice sorgente
+   * `.env`: non eseguire il commit del file `.env` nel controllo del codice sorgente.
 
 ### Codice Source
 
@@ -70,7 +70,7 @@ I componenti chiave delle app App Builder includono questi file di build e confi
 
 ### Componenti codice Source
 
-* `ExtensionRegistration.tsx`: definisce le API necessarie per caricare e visualizzare il componente aggiuntivo dell&#39;app host (GenStudio for Performance Marketing).
+* `ExtensionRegistration.tsx`: definisce le API necessarie per l&#39;app host (GenStudio for Performance Marketing) per caricare e visualizzare il componente aggiuntivo.
 
 * `App.tsx`: componente app principale che definisce il routing ad altri componenti.
 
@@ -88,7 +88,7 @@ Puoi utilizzare un’app di esempio per iniziare subito a creare il componente a
 
 1. Scarica un&#39;app di esempio dall&#39;archivio [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples).
 
-1. Dall&#39;area di lavoro del progetto App Builder in [Adobe Developer Console](https://developer.adobe.com/console/), seleziona **[!UICONTROL Scarica tutto]** per scaricare i dettagli del progetto.
+1. Dall&#39;area di lavoro del progetto App Builder in [Adobe Developer Console](https://developer.adobe.com/console/), seleziona [!UICONTROL Scarica tutto] per scaricare i dettagli del progetto.
 
 1. Apri l’app di esempio localmente nell’ambiente di sviluppo integrato (IDE) preferito.
 
@@ -106,13 +106,11 @@ Puoi utilizzare un’app di esempio per iniziare subito a creare il componente a
 
 ## Aggiungere codice personalizzato al componente aggiuntivo
 
-Il codice del componente aggiuntivo viene definito in `AdditionalContextDialog.tsx` e `RightPanel.tsx` file. Questi due file definiscono l&#39;aspetto e il comportamento dei popup quando gli utenti accedono al componente aggiuntivo.
+Definire il codice del componente aggiuntivo in `AdditionalContextDialog.tsx` e `RightPanel.tsx` file. Questi due file definiscono l&#39;aspetto e il comportamento dei popup quando gli utenti accedono al componente aggiuntivo.
 
 * `AdditionalContextDialog.tsx`: definire questo componente se si intende utilizzare il componente aggiuntivo _Aggiungi contesto_. Gli utenti interagiscono con questo componente facendo clic su _Componenti aggiuntivi_ nel cassetto delle richieste in [!DNL Create].
 
 * `RightPanel.tsx`: definire questo componente se si intende utilizzare il componente aggiuntivo _Pannello destro_ (convalida dell&#39;esperienza). Gli utenti interagiscono con questo componente facendo clic sul componente aggiuntivo di convalida nel pannello a destra in una bozza di esperienza [!DNL Create].
-
-Ora puoi [distribuire la tua app](deploy-app.md)
 
 ## Best practice per lo sviluppo di app
 
@@ -125,3 +123,5 @@ La manutenzione dell’ambiente di sviluppo consente di evitare errori di svilup
   ```
 
 * Aggiornare GenStudio UIX SDK. Conferma di utilizzare la versione più recente di [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Per informazioni su come utilizzare le modifiche di SDK più recenti, consulta l&#39;[archivio di esempio di GenStudio UIX](https://github.com/adobe/genstudio-uix-examples).
+
+Ora puoi [distribuire la tua app](deploy-app.md)

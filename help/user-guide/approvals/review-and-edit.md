@@ -64,7 +64,7 @@ Il creatore del contenuto può continuare le modifiche mentre riceve e risponde 
 
 ## Rivedere i contenuti con Workfront Proof
 
-[!DNL Proofing Viewer] fornisce [potenti strumenti di markup](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) per l&#39;annotazione di bozze e il tracciamento delle modifiche. È inoltre possibile confrontare due versioni di una bozza.
+[!DNL Proofing Viewer] fornisce [potenti strumenti di markup](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) per l&#39;annotazione di bozze e il tracciamento delle modifiche. È inoltre possibile confrontare due versioni di una bozza.
 
 **Per rivedere il contenuto**:
 
@@ -84,7 +84,7 @@ Il creatore del contenuto può continuare le modifiche mentre riceve e risponde 
 
 ### Confronta bozze
 
-Da [!DNL Proofing Viewer], è possibile [confrontare le versioni delle bozze](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+Da [!DNL Proofing Viewer], è possibile [confrontare le versioni delle bozze](https://experienceleague.adobe.com/it/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Per confrontare le bozze**:
 
@@ -94,4 +94,4 @@ Da [!DNL Proofing Viewer], è possibile [confrontare le versioni delle bozze](ht
 
    Le bozze vengono visualizzate una accanto all’altra, con la versione più recente sul lato sinistro.
 
-Workfront Proof fornisce diversi strumenti per confrontare le bozze, tra cui uno strumento di confronto automatico. Vedi [Utilizzare gli strumenti di confronto](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+Workfront Proof fornisce diversi strumenti per confrontare le bozze, tra cui uno strumento di confronto automatico. Vedi [Utilizzare gli strumenti di confronto](https://experienceleague.adobe.com/it/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

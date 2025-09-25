@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi 
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Le sezioni modificabili di un’esperienza LinkedIn includono:
 * Titolo
 * Testo introduttivo
 * Descrizione
-* Invito all&#39;azione (CTA)
+* Call to action (CTA)
 * Immagine/Video
 
 Vedi [Elementi modello](/help/user-guide/content/use-templates.md#template-elements).

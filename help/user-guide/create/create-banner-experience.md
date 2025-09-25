@@ -1,5 +1,5 @@
 ---
-title: Creare un'esperienza di banner
+title: Creare un’esperienza di banner
 description: Scopri come creare esperienze banner in Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -127,7 +127,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

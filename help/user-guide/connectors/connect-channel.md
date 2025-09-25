@@ -1,11 +1,11 @@
 ---
-title: Connetti account di paid media
+title: Connetti account di file multimediali a pagamento
 description: Collega un account a pagamento per attivare e monitorare annunci e contenuti multimediali con Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%

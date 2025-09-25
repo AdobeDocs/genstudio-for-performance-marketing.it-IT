@@ -3,7 +3,7 @@ title: Attivare un annuncio di Google Campaign Manager 360
 description: Scopri come attivare un’esperienza Google Campaign Manager 360.
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Al termine della sincronizzazione, puoi visualizzare gli account aggiunti.
 
 ## Passaggio 3: selezionare i contenuti per l’esperienza pubblicitaria
 
-È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_&#x200B;o dalla home page&#x200B;_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
+È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_o dalla home page_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
 
 **Per selezionare le esperienze**:
 

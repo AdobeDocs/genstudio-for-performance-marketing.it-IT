@@ -1,10 +1,10 @@
 ---
-title: Ottimizzare l’attivazione
+title: Ottimizzare l'attivazione
 description: Scopri come ottimizzare le attivazioni per i canali di annunci a pagamento di terze parti.
 level: Intermediate
 feature: Ad Activation
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -35,15 +35,15 @@ Di seguito sono riportate alcune best practice comuni e gli errori che possono e
 
 * **Controlla il set di annunci e assicurati che sia attivo un solo annuncio alla volta**
 
-  Se devi attivare più Meta Ads, crea un set di annunci Dynamic Creative separato per ciascuno di essi. Errore di esempio: _Dynamic Creative Ad Set consente al massimo un annuncio attivo. Gli utenti non possono creare più di un annuncio pubblicitario nello stesso Dynamic Creative Ad Set. (100)_
+  Se devi attivare più annunci Meta Ads, crea un set di annunci Dynamic Creative separato per ciascuno di essi. Errore di esempio: _Dynamic Creative Ad Set consente al massimo un annuncio attivo. Gli utenti non possono creare più di un annuncio pubblicitario nello stesso Dynamic Creative Ad Set. (100)_
 
 * **Abbina il numero di regole applicate con la quantità specificata dalla piattaforma**
 
   I canali a pagamento si aspettano che il numero di regole applicate corrisponda al formato specificato.  Se necessario, regola il numero di regole in modo che corrisponda al valore specificato dalla piattaforma. Errore di esempio: _L&#39;Ad AssetFeed ha X regole di destinazione per il formato: nome del formato, ma è prevista esattamente X regola di destinazione per questo formato. (100)_
 
-* **Scegli un invito all&#39;azione (CTA) compatibile con l&#39;obiettivo del set di annunci**
+* **Scegli un call-to-action (CTA) compatibile con l&#39;obiettivo del set di annunci**
 
-  Gli inviti all’azione incompatibili con l’obiettivo in Set di annunci Dynamic Creative attivano un errore. Errore di esempio: _L&#39;invito all&#39;azione di tipo X non è supportato per l&#39;obiettivo Y in Dynamic Creative Ad Set. (100)_
+  Gli inviti all’azione incompatibili con l’obiettivo in Set di annunci Dynamic Creative attivano un errore. Errore di esempio: _Il tipo di call to action X non è supportato per l&#39;obiettivo Y in Dynamic Creative Ad Set. (100)_
 
 * **Assicurarsi che il limite del set di annunci di destinazione supporti il numero di esperienze annuncio**
 
@@ -51,4 +51,4 @@ Di seguito sono riportate alcune best practice comuni e gli errori che possono e
 
 * **Assicurarsi che la piattaforma supporti il tipo di CTA selezionato**
 
-  Verifica che la tua esperienza includa un tipo di CTA supportato. Errore di esempio: _(#100) Tipo di chiamata all&#39;azione non valido (100)_
+  Verifica che la tua esperienza includa un tipo di CTA supportato. Errore di esempio: _(#100) Tipo di call to action (100)_ non valido

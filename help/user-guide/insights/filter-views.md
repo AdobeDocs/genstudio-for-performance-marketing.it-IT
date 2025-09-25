@@ -1,10 +1,10 @@
 ---
-title: Filtrare le visualizzazioni di Insights
+title: Filtra visualizzazioni approfondimenti
 description: Scopri come utilizzare le funzionalità di filtro avanzate con Insights.
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Il dashboard [!DNL Insights] fornisce un set completo di filtri per un&#39;esper
 
 ## Nozioni di base sui filtri
 
-Ogni visualizzazione in [!DNL Insights] offre un elenco di opzioni filtro. Il filtro (funnel) a sinistra apre il menu **[!UICONTROL Filtro]**. Sia che si stia visualizzando la tabella o la raccolta, i filtri applicati vengono visualizzati nell&#39;elenco **[!UICONTROL Filtra per]** sopra la tabella o la raccolta. Per impostazione predefinita, sono selezionati un canale e un account.
+Ogni visualizzazione in [!DNL Insights] offre un elenco di opzioni filtro. L&#39;interruttore del filtro (funnel) a sinistra apre il menu **[!UICONTROL Filtro]**. Sia che si stia visualizzando la tabella o la raccolta, i filtri applicati vengono visualizzati nell&#39;elenco **[!UICONTROL Filtra per]** sopra la tabella o la raccolta. Per impostazione predefinita, sono selezionati un canale e un account.
 
 ![Filtra per](/help/assets/insights-filter-by.png "Filtra per"){width=600 zoomable="yes"}
 

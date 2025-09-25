@@ -6,9 +6,9 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -33,17 +33,17 @@ Di seguito sono riepilogati i modelli iniziali disponibili, i tipi di file multi
 
 ### LinkedIn - Modelli di annunci
 
-Tutte le proporzioni sono supportate per le immagini statiche. Per i video, utilizza 9:16 per Storie di LinkedIn e assicurati che il video sia ottimizzato per formati brevi e verticali.
+Tutte le proporzioni sono supportate per le immagini statiche. Per i video, utilizza 9:16 per Storie di LinkedIn e assicurati che il tuo video sia ottimizzato per formati brevi e verticali.
 
 | Proporzioni | Orientamento | Linee guida |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Quadrato | Aspetto coerente tra dispositivi e posizionamenti. |
 | 1,91:1 | Orizzontale | Standard per feed di notizie o contenuti sponsorizzati. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
-| 01:1,91 | Verticale | Formato verticale alto. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
-| 02:03, 04:05 | Verticale | Adatto per formati di ritratto e aiuta il creativo a distinguersi sui dispositivi mobili. |
-| 09:16 | Verticale | Consigliato per storie LinkedIn (esperienza a schermo intero per video). |
+| 1:1,91 | Verticale | Formato verticale alto. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
+| 2:3, 4:5 | Verticale | Adatto per formati di ritratto e aiuta il creativo a distinguersi sui dispositivi mobili. |
+| 9:16 | Verticale | Consigliato per storie LinkedIn (esperienza a schermo intero per video). |
 
-### Modelli di metadati
+### Modelli di Meta Ad
 
 Tutte le proporzioni sono supportate per le immagini statiche e i tipi di supporti video.
 
@@ -52,4 +52,4 @@ Tutte le proporzioni sono supportate per le immagini statiche e i tipi di suppor
 | 1:1 | Quadrato | Consigliato per post sui feed, annunci carosello e video sui feed, per un’ampia compatibilità. |
 | 1,91:1 | Orizzontale | Consigliato per banner, link ads e annunci video widescreen. |
 | 4:5 | Verticale | Ideale per feed mobili; massimizza lo spazio verticale e la visibilità, in particolare per i contenuti video. |
-| 09:16 | Verticale | Progettato per storie e rulli, offre un&#39;esperienza coinvolgente a tutto schermo. |
+| 9:16 | Verticale | Progettato per storie e rulli, offre un&#39;esperienza coinvolgente a tutto schermo. |

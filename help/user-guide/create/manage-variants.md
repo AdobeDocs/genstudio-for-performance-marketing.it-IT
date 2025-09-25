@@ -3,7 +3,7 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestisci varianti
 
-Adobe GenStudio for Performance Marketing [!DNL Create] consente di personalizzare e migliorare le varianti generate, [e-mail](/help/user-guide/create/email-experiences.md), [Meta ads](/help/user-guide/create/meta-experiences.md) e altre, per l&#39;utilizzo in iniziative di marketing digitale.
+Adobe GenStudio for Performance Marketing [!DNL Create] ti consente di personalizzare e migliorare le varianti generate: [e-mail](/help/user-guide/create/email-experiences.md), [annunci Meta](/help/user-guide/create/meta-experiences.md) e altro da utilizzare nelle iniziative di marketing digitale.
 
 Quando [crei esperienze](/help/user-guide/create/overview.md), puoi modificare il contenuto e le risorse delle varianti generate singolarmente o in un batch. La possibilità di gestire le varianti a livello individuale di micro-livello consente di gestire ogni elemento di contenuto generato.
 
@@ -41,7 +41,7 @@ La formattazione del testo disponibile include:
 * Dimensione testo
 * Collegamento
 
-Le opzioni di formattazione del testo variano a seconda del canale (metadati, e-mail, ecc.)
+Le opzioni di formattazione del testo variano a seconda del canale (Meta, e-mail, ecc.)
 
 **Per modificare manualmente il testo nelle varianti generate**:
 
@@ -69,7 +69,7 @@ Potete selezionare rapidamente un singolo livello di una variante e apportare mo
 
 GenStudio for Performance Marketing dispone della funzionalità incorporata per rigenerare sezioni di varianti generate. È possibile riformulare, ridurre o allungare il testo oppure aggiungere nuovi prompt per generare nuovo contenuto.
 
-Ad esempio, puoi generare nuovamente la sezione titolo di una variante di Meta annuncio per vedere come si presenta con una risorsa in background specifica. È possibile _[!UICONTROL Riformulare]_, _[!UICONTROL Abbreviare]_ o _[!UICONTROL Allungare]_ il contenuto di una sezione oppure _[!UICONTROL Generare nuovo testo]_ per aggiungere un nuovo prompt.
+Ad esempio, puoi generare nuovamente la sezione titolo di una variante di annuncio Meta per vedere come si presenta con una risorsa in background specifica. È possibile _[!UICONTROL Riformulare]_, _[!UICONTROL Abbreviare]_ o _[!UICONTROL Allungare]_ il contenuto di una sezione oppure _[!UICONTROL Generare nuovo testo]_ per aggiungere un nuovo prompt.
 
 ![Rigenera sezioni](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Con lo strumento Ritaglia è possibile ritagliare e riposizionare manualmente le
 
 ## Usa espansione generativa
 
-Espandi le dimensioni delle immagini e aggiungi contenuto generativo con Espandi generativo. Espansione generativa consente di trasformare le immagini non adatte nelle proporzioni più adatte per i modelli di banner, annunci Meta, annunci LinkedIn o annunci di visualizzazione.
+Espandi le dimensioni delle immagini e aggiungi contenuto generativo con Espandi generativo. Espansione generativa consente di trasformare le immagini non adatte nelle proporzioni più adatte per i modelli di banner, annunci Meta, annunci LinkedIn o annunci display.
 
 Questa funzione di espansione generativa è associata allo strumento di ritaglio per fornire il controllo completo delle risorse in una varietà di rapporti di formato per i canali multimediali a pagamento.
 
@@ -162,7 +162,7 @@ Questa funzione di espansione generativa è associata allo strumento di ritaglio
 
 ## Modifica proporzioni
 
-Puoi cambiare rapidamente le [proporzioni dei Meta Ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarli al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l&#39;utilizzo di un&#39;immagine quadrata di 1:1 potrebbe tagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
+Puoi cambiare rapidamente le proporzioni [degli annunci Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarle al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l&#39;utilizzo di un&#39;immagine quadrata di 1:1 potrebbe tagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 

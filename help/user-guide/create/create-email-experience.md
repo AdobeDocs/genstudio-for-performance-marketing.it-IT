@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 
 * **Per [modificare il nome della bozza e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
 * **Per [modificare manualmente un&#39;e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in uno dei campi di testo modificabili (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarli in base alle esigenze
-* **Per [modificare o selezionare l&#39;invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, fare clic sul pulsante di invito all&#39;azione e selezionare _[!UICONTROL Riformula]_ o _[!UICONTROL Aggiungi collegamento]_.
+* **Per [modificare o selezionare Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, fare clic sul pulsante call-to-action e selezionare _[!UICONTROL Riformula]_ o _[!UICONTROL Aggiungi collegamento]_.
 * **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine di una variante e fare clic su **[!UICONTROL Formatta testo]**.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.

@@ -1,12 +1,12 @@
 ---
-title: Assegna  [!DNL Brand]  autorizzazioni
+title: Configurare le autorizzazioni del marchio
 description: Informazioni sull'assegnazione di diritti per i creatori e gli editor di GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: adb1d34eb76d7594933fe9951c4c1885e6d6369b
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 Per impostazione predefinita, i responsabili di sistema di GenStudio possono creare e modificare [!DNL Brands]. I ruoli editor contenuti e collaboratore dispongono delle autorizzazioni di modifica e creazione, ma non possono richiedere alcun diritto di gestione del sistema.
 
-Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di sistema Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
+Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di sistema Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
 
 L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti i prodotti Adobe con diritti gestiti tramite Admin Console. Per una panoramica sulla gestione degli utenti e sulle procedure per l&#39;aggiunta di utenti e gruppi di utenti, vedere [Utenti Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) nella _guida per l&#39;amministrazione di Enterprise e Team_.
 
 Guarda questo video o segui i passaggi indicati di seguito.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475005?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## Passaggio 1: creare un gruppo di utenti
 
@@ -95,7 +95,7 @@ Un _progetto_ fornisce un percorso di archiviazione in cui alcuni utenti possono
 
 1. Fai clic su **[!UICONTROL Crea]**. Viene aperto il popup _Invita al progetto_.
 
-Consulta [Gestione dei progetti](https://helpx.adobe.com/it/enterprise/using/projects-in-business-storage.html) nella _Guida all&#39;amministrazione di Enterprise e Team_.
+Consulta [Gestione dei progetti](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) nella _Guida all&#39;amministrazione di Enterprise e Team_.
 
 ## Passaggio 5: invitare un gruppo di utenti al progetto
 

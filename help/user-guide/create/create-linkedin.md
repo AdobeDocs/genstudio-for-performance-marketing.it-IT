@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puoi scegliere dall’elenco dei modelli personalizzati o scegliere un modello i
 1. In _[!DNL Create]_, fare clic su **[!UICONTROL LinkedIn]**.
 1. Seleziona **[!UICONTROL Modelli personalizzati]** per sfogliare i modelli caricati oppure **[!UICONTROL Modelli iniziali]** per sfogliare i modelli predefiniti.
 
-   Se prevedi di aggiungere risorse video alle varianti Meta, devi scegliere un modello iniziale. Vengono precaricate con aree di contenuto definite dal sistema che facilitano l’utilizzo dei video.
+   Se prevedi di aggiungere risorse video alle varianti di Meta, devi scegliere un modello iniziale. Vengono precaricate con aree di contenuto definite dal sistema che facilitano l’utilizzo dei video.
 
 1. Fare clic per selezionare un modello e fare clic su **[!UICONTROL Usa]**.
 
@@ -89,7 +89,7 @@ Prima di inviare varianti per l&#39;approvazione o la pubblicazione a [!DNL Cont
 
 * **Per [modificare il nome della bozza dell&#39;annuncio LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, fare clic sul titolo della _bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immettere un nuovo titolo.
 * **Per [modificare manualmente un annuncio LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in una delle sezioni dell&#39;annuncio (ad esempio l&#39;oggetto, l&#39;intestazione o il corpo del testo) e modificarle in base alle esigenze.
-* **Per modificare o selezionare l&#39;invito all&#39;azione**, fare clic sul pulsante call-to-action e selezionare una delle opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo di call-to-action.
+* **Per modificare o selezionare call to action**, fare clic sul pulsante call-to-action e selezionare le opzioni di testo disponibili per il pulsante. In _Collegamento_, immettere un URL per il testo di call-to-action.
 * **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine di una variante e fare clic su **[!UICONTROL Formatta testo]**.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fai clic su un campo di testo modificabile e utilizza le _[!UICONTROL opzioni di modifica consigliate]_ oppure immetti un nuovo prompt nella _[!UICONTROL Generate new text_ section] e fai clic su **[!UICONTROL Generate]**.
 * **Per [utilizzare l&#39;opzione di espansione generativa per ridimensionare e adattare le immagini](/help/user-guide/create/manage-variants.md#use-generative-expand) al modello di lavoro**, fare clic su un&#39;immagine, fare clic su **[!UICONTROL Modifica]** (icona a forma di matita) e quindi su **[!UICONTROL Espandi]**. Regola l’immagine per adattarla alle proporzioni e al modello necessari.
@@ -130,13 +130,13 @@ Utilizza il pannello Approvazioni, accessibile nella barra dei menu superiore de
 
 **Per ottenere revisioni e approvazioni**:
 
-1. [Avvia una richiesta di approvazione](/help/user-guide/approvals/request-review.md) per richiedere una [approvazione delle esperienze di annunci multimediali bozza](/help/user-guide/approvals/approve-content.md).
+1. [Avvia una richiesta di approvazione](/help/user-guide/approvals/request-review.md) per richiedere un [approvazione delle bozze di esperienze pubblicitarie di Meta](/help/user-guide/approvals/approve-content.md).
 
    ![Invia bozze per revisione e approvazione](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Rimuovere o aggiungere revisori](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante il processo di revisione.
 1. [Accedere al contenuto per la revisione](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e visualizzare le richieste di revisione.
-1. Modifica le bozze in base ai commenti di revisione e [pubblica le tue esperienze di Meta Ad](#publish-and-export-experience).
+1. Modifica le bozze in base ai commenti di revisione e [pubblica le esperienze degli annunci Meta](#publish-and-export-experience).
 
 Per ulteriori informazioni, vedere [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 

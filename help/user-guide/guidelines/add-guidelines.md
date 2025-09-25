@@ -5,7 +5,7 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -130,7 +130,7 @@ In _[!DNL Brands]_, qualsiasi bozza o [!DNL Brands] pubblicato viene visualizzat
 
 1. Fai clic su **[!UICONTROL Fine]** per uscire dalla finestra a comparsa.
 
-[!DNL brand] mostra un punto verde e &quot;Pubblicato&quot; accanto al nome. Al posto del pulsante **[!UICONTROL Pubblica]** viene visualizzato un pulsante **[!UICONTROL Modifica[!DNL brand]]**.
+[!DNL brand] mostra un punto verde e &quot;Pubblicato&quot; accanto al nome. Al posto del pulsante **[!UICONTROL Pubblica[!DNL brand]]** viene visualizzato un pulsante **[!UICONTROL Modifica]**.
 
 **Per annullare la pubblicazione di un[!DNL brand]** pubblicato, fai clic sul marchio per aprirlo e scegli **[!UICONTROL Annulla pubblicazione]** dal menu Azioni (icona a tre punti).
 
@@ -223,7 +223,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Gestisci [!DNL Personas]
 
-Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu azioni [!DNL Personas] per rivedere e rivedere un utente tipo esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Personas] per **Eliminare** un utente tipo.
@@ -291,7 +291,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Gestisci [!DNL Products]
 
-Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu Azioni [!DNL Products] per rivedere e rivedere un prodotto esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Products] per **Eliminare** un prodotto.

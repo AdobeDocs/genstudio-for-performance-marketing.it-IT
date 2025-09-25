@@ -1,26 +1,26 @@
 ---
-title: Attivare un Meta Ad
-description: Scopri come attivare un’esperienza di annuncio multimediale.
+title: Attivare un annuncio Meta
+description: Scopri come attivare un’esperienza di annuncio Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
 
-# Attivare un Meta Ad
+# Attivare un annuncio Meta
 
-Adobe GenStudio for Performance Marketing supporta l’attivazione delle esperienze di annunci Meta su Instagram e Facebook.
+Adobe GenStudio for Performance Marketing supporta l’attivazione delle esperienze pubblicitarie Meta su Instagram e Facebook.
 
 È possibile [creare un&#39;esperienza Meta](/help/user-guide/create/create-meta-ad.md) in GenStudio for Performance Marketing e selezionarla per l&#39;attivazione oppure creare una nuova esperienza dalle risorse approvate in [!DNL Activate].
 
-L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione dell’esperienza pubblicitaria per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
+L&#39;attivazione di un annuncio Meta segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione dell’esperienza annuncio per i requisiti specifici di Meta. Dopo aver attivato un&#39;esperienza Meta in GenStudio for Performance Marketing, utilizza [Meta Ads Manager](https://adsmanager.facebook.com/) per perfezionare l&#39;esperienza per posizionamenti di annunci Meta specifici prima della pubblicazione finale.
 
 I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
 
-## Passaggio 1: configurare i metadati
+## Passaggio 1: configurare gli account Meta
 
 Prima di avviare un&#39;attivazione, [accedi a Meta](https://adsmanager.facebook.com/) per accedere al tuo account di Meta Ads Manager.
 
@@ -28,16 +28,16 @@ Prima di avviare un&#39;attivazione, [accedi a Meta](https://adsmanager.facebook
 
 **Prerequisiti**:
 
-Conferma che gli account dei metadati connessi dispongano dell’autorizzazione completa per gestire gli annunci in questi componenti della piattaforma Meta advertising:
+Conferma che gli account degli annunci Meta connessi dispongano dell’autorizzazione completa per gestire gli annunci in questi componenti della piattaforma pubblicitaria Meta:
 
 * Pagina Facebook
-* Meta campaign
-* Metadati set di annunci
+* Campagna Meta
+* Set di annunci Meta
 * Profilo Instagram (facoltativo)
 
 >[!ENDSHADEBOX]
 
-## Passaggio 2: collegati ai metadati
+## Passaggio 2: collegati agli account Meta
 
 Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema di GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni, come Meta, abilitando il processo di attivazione.
 
@@ -67,7 +67,7 @@ Se hai selezionato più di un&#39;esperienza da attivare come gruppo, utilizza l
 
    Se lavori con più esperienze, passa da un’esperienza all’altra nella barra laterale a sinistra fino a quando non hai completato la preparazione di ciascuna esperienza.
 
-1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione dei Meta Ads.
+1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione degli annunci Meta.
 
 1. Assegna un nome a ogni esperienza. Dopo l&#39;attivazione, è possibile utilizzare questo nome per cercare questa esperienza nella tabella _Esperienze attivate_.
 
@@ -112,7 +112,7 @@ Se il caricamento non riesce, viene visualizzato un messaggio di errore informat
 
 È possibile caricare fino a sei immagini statiche esterne alla raccolta [!DNL Content] da Microsoft OneDrive o Dropbox.
 
-1. Da [!DNL Activate], fai clic su **[!UICONTROL Nuovo]** nella sezione Meta. Viene visualizzata la finestra _Configurazione esperienza_.
+1. Da [!DNL Activate], fai clic su **[!UICONTROL Nuovo]** nel riquadro Meta. Viene visualizzata la finestra _Configurazione esperienza_.
 
 1. Nella sezione _Media_, fai clic su **[!UICONTROL Seleziona]**. In un menu a discesa vengono visualizzate le opzioni per _Seleziona dal contenuto_ o _Carica_.
 
@@ -128,7 +128,7 @@ Se il caricamento non riesce, viene visualizzato un messaggio di errore informat
 
 ### Aggiungi testo annuncio
 
-Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo convincente e aderente al brand ai campi di testo richiesti. Il testo include il testo principale (corpo) dell’annuncio e del testo dell’invito all’azione. Impossibile modificare i campi _Testo principale_, _Titoli_ e _Descrizione_. Puoi modificare i campi _Call-to-action_, _Collegamento di visualizzazione_ e _URL sito Web_.
+Utilizza la sezione _Testo_ della pagina _Attiva Meta ad_ per aggiungere testo convincente e aderente al brand ai campi di testo richiesti. Il testo include il testo principale (corpo) per l’annuncio e il testo call-to-action. Impossibile modificare i campi _Testo principale_, _Titoli_ e _Descrizione_. Puoi modificare i campi _Call-to-action_, _Collegamento di visualizzazione_ e _URL sito Web_.
 
 | Campo | Obbligatorio | Limite di caratteri (max) |
 |-----------------|---------------------------|---------------------------------|
@@ -136,7 +136,7 @@ Utilizza la sezione _Testo_ della pagina _Attiva Meta Ad_ per aggiungere testo c
 | Testo principale | sì | 500 |
 | Titolo | sì | 255 |
 | Descrizione | no | 125 |
-| Invito all’azione | sì | solo opzioni del menu a discesa |
+| Call to action | sì | solo opzioni del menu a discesa |
 | Visualizza URL | no | 1000 |
 | URL sito Web | sì | 1000 |
 | Immagine | almeno uno richiesto |                                 |
@@ -158,19 +158,19 @@ I dettagli dell’esperienza vengono salvati come metadati e aiutano gli utenti 
 | Lingua | Lingue per cui viene utilizzata l’esperienza annuncio |
 | Parole chiave | Parole chiave definite dall’utente che facilitano la ricerca e la categorizzazione dell’esperienza dell’annuncio |
 
-Dopo aver assemblato o selezionato l&#39;esperienza, fai clic su **[!UICONTROL Avanti]** per confermare la configurazione Meta.
+Dopo aver assemblato o selezionato la tua esperienza, fai clic su **[!UICONTROL Avanti]** per confermare la configurazione di Meta.
 
-## Passaggio 4: conferma impostazione metadati
+## Passaggio 4: confermare la configurazione dell&#39;account Meta
 
-Dopo aver preparato le esperienze pubblicitarie, devi confermare le informazioni sull’account Meta. La visualizzazione _Impostazione annuncio metadati_ è compilata con opzioni derivate dagli account metadati configurati.
+Dopo aver preparato le esperienze pubblicitarie, devi confermare le informazioni sull’account Meta. La visualizzazione _Impostazione annuncio Meta_ è compilata con opzioni derivate dagli account Meta configurati.
 
 | Dettaglio | Descrizione |
 |------------|-------------|
-| Account | Metaaccount connessi a GenStudio for Performance Marketing |
+| Account | Account Meta connessi a GenStudio for Performance Marketing |
 | Pagina Facebook | Pagina Facebook in cui viene pubblicata l’esperienza |
 | Account Instagram | Account Instagram connessi a GenStudio for Performance Marketing |
-| Campagne | Campagne metadati a cui appartiene l’esperienza annuncio |
-| Set di annunci | Meta set di annunci a cui appartiene l’esperienza di annuncio attivato. Le impostazioni determinano il posizionamento finale dell’annuncio. |
+| Campagne | Campagne Meta a cui appartiene l’esperienza annuncio |
+| Set di annunci | Set di annunci Meta a cui appartiene l’esperienza di annuncio attivato. Le impostazioni determinano il posizionamento finale dell’annuncio. |
 
 ### Creare un nuovo set di annunci
 
@@ -178,7 +178,7 @@ Puoi creare un nuovo set di annunci durante la configurazione della piattaforma 
 
 **Per creare un nuovo set di annunci**:
 
-1. Seleziona una campagna dal menu a discesa _Meta campagne_.
+1. Seleziona una campagna dal menu a discesa _Campagne Meta_.
 
    La campagna selezionata determina i set di annunci disponibili come opzioni nel menu a discesa _Set di annunci_.
 
@@ -198,7 +198,7 @@ Puoi creare un nuovo set di annunci durante la configurazione della piattaforma 
 
 >[!NOTE]
 >
->Se il set di annunci è stato creato correttamente ma non è stato possibile salvarlo, il set di annunci viene salvato in Meta Ads Manager con il nome predefinito (_nome set di annunci originale - Copia_).
+>Se il set di annunci è stato creato correttamente ma non è stato possibile salvarlo, il set di annunci viene salvato in Meta Ads Manager con il nome predefinito (_nome del set di annunci originale - Copia_).
 
 ### ID tracciamento
 
@@ -214,6 +214,6 @@ Nella pagina _Revisione_ viene visualizzata l&#39;esperienza pubblicitaria assem
 
 1. Fai clic su **[!UICONTROL Pubblica]**.
 
-   L’esperienza completa dei metadati e i metadati associati vengono inviati direttamente nel set di annunci di Meta Ads Manager selezionato. Le esperienze vengono inviate a Meta Ads Manager in stato inattivo. Da Meta Ads Manager, puoi gestire i passaggi finali della distribuzione dell’esperienza pubblicitaria e della campagna Meta.
+   L’esperienza pubblicitaria completa di Meta e i metadati associati vengono inviati direttamente nel set di annunci di Meta Ads Manager selezionato. Le esperienze vengono distribuite a Meta Ads Manager in stato inattivo. Da Meta Ads Manager, puoi gestire i passaggi finali della distribuzione dell’esperienza pubblicitaria e della campagna Meta.
 
-1. [Accedi a Meta Ads Manager](https://adsmanager.facebook.com/) per rivedere la tua esperienza pubblicitaria e finalizzare la pubblicazione su specifici canali Meta.
+1. [Accedi a Meta Ads Manager](https://adsmanager.facebook.com/) per rivedere la tua esperienza pubblicitaria e finalizzare la pubblicazione su canali Meta specifici.

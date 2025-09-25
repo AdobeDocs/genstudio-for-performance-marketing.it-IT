@@ -1,10 +1,10 @@
 ---
-title: Panoramica dei contenuti multimediali
+title: Panoramica contenuti multimediali
 description: Scopri come valutare le prestazioni multimediali in Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -51,10 +51,10 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL ID supporto]** | Il nome associato a un’immagine, un video, un testo o un altro contenuto creativo. | Ordina la tabella facendo clic sull’intestazione di colonna per una qualsiasi delle metriche chiave. |
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che il contenuto multimediale viene caricato nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per insight con prestazioni reali, consideralo in relazione ad altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Il numero di volte in cui gli utenti interagiscono con un elemento cliccabile, come un collegamento, sul supporto. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sui contenuti multimediali all’interno di un annuncio.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che i contenuti multimediali sono altamente pertinenti e coinvolgenti per il pubblico. Suggerisce che i messaggi e la progettazione catturino efficacemente l’interesse del pubblico e gli spingano ad agire. Inoltre, un CTR elevato può implicare che i media siano ben mirati e risuonino con il pubblico previsto, portando a migliori prestazioni complessive della campagna. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Costo per mille_ | Il costo medio per ogni mille impression multimediali.<br>**Calcolo**: importo totale `spent` diviso per il numero di impression, quindi moltiplicato per 1000 | Un valore CPM basso può indicare prestazioni multimediali convenienti, soprattutto se associato a un tasso di click-through elevato. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo per azione_ | Costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Consente di identificare i contenuti multimediali che si traducono in azioni utili per i clienti. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Costo medio associato a ogni clic sul supporto.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sui contenuti multimediali all’interno di un annuncio.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che i contenuti multimediali sono altamente pertinenti e coinvolgenti per il pubblico. Suggerisce che i messaggi e la progettazione catturino efficacemente l’interesse del pubblico e gli spingano ad agire. Inoltre, un CTR elevato può implicare che i media siano ben mirati e risuonino con il pubblico previsto, portando a migliori prestazioni complessive della campagna. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Il costo medio per ogni mille impression multimediali.<br>**Calcolo**: importo totale `spent` diviso per il numero di impression, quindi moltiplicato per 1000 | Un valore CPM basso può indicare prestazioni multimediali convenienti, soprattutto se associato a un tasso di click-through elevato. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per ottenere un’azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni cliente completate | Consente di identificare i contenuti multimediali che si traducono in azioni utili per i clienti. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic sul supporto.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in relazione ai singoli media in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
 | **[!UICONTROL Utilizzato in questi annunci]** | Il numero di annunci che utilizzano questo supporto. | |
 | **Attributi** | Elenco delle funzioni intrinseche presenti in questo supporto. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. |

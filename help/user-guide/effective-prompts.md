@@ -1,11 +1,11 @@
 ---
-title: Scrivi prompt effettivi
+title: Scrivi i Prompt Effettivi
 description: Scopri come scrivere prompt efficaci per Adobe GenStudio for Performance Marketing.
 role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 In GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), è possibile utilizzare **[!UICONTROL Criteri prompt]** ([_Parametri_](/help/user-guide/create/overview.md#parameters) e un prompt) nel cassetto dei prompt per aggiungere dettagli tramite la selezione per migliorare l&#39;interpretazione di IA.
 
-Per [e-mail](/help/user-guide/create/email-experiences.md), i criteri di richiesta potrebbero includere l&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) in _Parametri_, il caricamento di una risorsa da utilizzare nelle varianti di e-mail e un prompt descrittivo. Per un [Meta ad](/help/user-guide/create/create-meta-ad.md), i criteri di richiesta potrebbero includere una linea guida del brand in _Parametri_, la selezione o il caricamento di una risorsa esistente, impostazioni relative a immagini o risorse quali proporzioni e un prompt. La potenza effettiva inizia con [le linee guida per la configurazione](/help/user-guide/guidelines/add-guidelines.md).
+Per [e-mail](/help/user-guide/create/email-experiences.md), i criteri di richiesta potrebbero includere l&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) in _Parametri_, il caricamento di una risorsa da utilizzare nelle varianti di e-mail e un prompt descrittivo. Per un [annuncio Meta](/help/user-guide/create/create-meta-ad.md), i criteri di richiesta potrebbero includere una linea guida del brand in _Parametri_, la selezione o il caricamento di una risorsa esistente, impostazioni relative a immagini o risorse, ad esempio proporzioni, e un prompt. La potenza effettiva inizia con [le linee guida per la configurazione](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >

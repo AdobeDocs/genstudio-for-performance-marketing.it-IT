@@ -4,10 +4,11 @@ description: Segui le best practice quando utilizzi i modelli LinkedIn con Adobe
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 85432185-8311-411b-b57b-f482c3d45854
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +46,7 @@ Consulta [Segnaposto di contenuto](/help/user-guide/content/customize-template.m
 | Quadrato 1:1 | Desktop, dispositivi mobili | 360 x 360 | 4320 x 4320 | Più versatile. Ideale per un aspetto coerente tra dispositivi e posizionamenti. |
 | Orizzontale 1,91:1 | Desktop | 640 x 360 | 7680 x 4320 | Formato orizzontale standard. Comunemente utilizzato per contenuti sponsorizzati e annunci di news feed. |
 | Verticale 1:1,91 | Dispositivi mobili | 360 x 640 | 2430 x 4320 | Formato verticale alto. Ottimizzato per la visualizzazione mobile, offre maggiore presenza sullo schermo. |
-| Verticale 2:3 | Dispositivi mobili | 360 x 640 | 2430 x 4320 | Leggermente meno alta di 1:1.91. Ideale per le campagne mobile-first. |
+| Verticale 2:3 | Dispositivi mobili | 360 x 640 | 2430 x 4320 | Leggermente meno alto di 1:1,91. Ideale per le campagne mobile-first. |
 | Verticale 4:5 | Dispositivi mobili | 360 x 640 | 2430 x 4320 | Consigliato per dispositivi mobili. Bilancia visibilità e contenuto, che spesso produce un impatto maggiore. |
 
 <!-- Potentially add an example

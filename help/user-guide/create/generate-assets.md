@@ -6,7 +6,8 @@ badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 277731aeea966da3cbd1fdabf015bfab3b907d39
+exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 # Genera immagini
 
-Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_&#x200B;risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Per progettare un&#39;immagine accattivante ed efficace, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sulla scrittura dei prompt](/help/user-guide/effective-prompts.md).
 
 ## Tipi di immagini
 
-_[!DNL On-brand images]_&#x200B;sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
+_[!DNL On-brand images]_sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora linee guida per set, parametri e un [prompt creato con cura](/help/user-guide/effective-prompts.md) per fornire risorse di immagine accattivanti.
 
@@ -104,9 +105,9 @@ Dopo aver generato le varianti di immagine, puoi modificarle direttamente in Ado
 
    Viene visualizzata una finestra _con tecnologia Adobe Express_.
 
-1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
+1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
 
-   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/it/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
+   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
 
 1. Fai clic su _[!UICONTROL Applica modifiche]_ per salvare le modifiche.
 1. Continua a modificare le singole varianti di immagine come desiderato e applica le modifiche per salvare l’avanzamento.

@@ -6,9 +6,9 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
+source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,15 @@ Questa pagina spiega come collegare e gestire l’account del profilo Meta Ads a
 
 **Prerequisiti**:
 
-- Accesso a Facebook/Meta che può accedere a tutti i servizi Meta
-
+- Un account di accesso Facebook/Meta che può accedere a tutti i servizi Meta
 - _Controllo completo_ sugli account Meta Business Portfolio e Ad, inclusi:
-
    - Gestire le campagne
    - Visualizza prestazioni
    - Gestire i modelli dell’hub Creative
    - Analisi avanzata
-
 - Disattiva eventuali blocchi popup nel browser
+- Verificare le associazioni di pagina dell&#39;account Instagram in Meta Business Manager prima di tentare una connessione
+- Conferma accesso amministratore a tutte le risorse collegate
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +68,16 @@ Questa pagina spiega come collegare e gestire l’account del profilo Meta Ads a
 
 Utilizza **[!UICONTROL Aggiungi account]** per aggiungere altri account all&#39;elenco. Il flusso di autorizzazione può variare leggermente quando si aggiungono account collegati allo stesso profilo aziendale di Meta. Durante il processo di connessione vengono selezionati solo i nuovi account Meta Ads.
 
+## Best practice per le connessioni
+
+Per evitare errori, durante la configurazione delle connessioni è consigliabile seguire le procedure consigliate riportate di seguito.
+
+- [ ] Iniziare con la selezione minima delle risorse (solo una pagina singola) per la connessione iniziale
+- [ ] Aggiungi account Instagram solo dopo aver confermato che l&#39;accesso alla pagina funziona
+- [ ] Verificare che gli account Instagram siano associati correttamente alla pagina Facebook selezionata in Meta Business Manager
+- [ ] Utilizzare un approccio graduale: stabilire prima la connessione di base, quindi espandere le risorse
+- [ ] Verificare le autorizzazioni di amministrazione per tutte le risorse prima di tentare la connessione
+
 ## Disconnessione e risoluzione dei problemi relativi a un’integrazione di Meta Ads
 
 A volte un’istanza di GenStudio for Performance Marketing è connessa a un account Meta Ads in modo errato. Le impostazioni comuni che possono causare problemi includono:
@@ -90,4 +99,25 @@ Questi passaggi cancellano le autorizzazioni memorizzate nella cache e reimposta
 1. Fai clic su **[!UICONTROL Rimuovi]**.
 1. Quando richiesto, confermare la rimozione.
 
-Ora puoi riconnettere i tuoi account Meta, i profili Instagram e le pagine Facebook.
+Ora puoi riconnettere i tuoi account Meta Ad, i profili Instagram e le pagine Facebook.
+
+## Problemi di connessione dell’account Instagram
+
+Possono verificarsi problemi quando gli account Instagram vengono selezionati senza collegare una pagina Facebook associata durante la configurazione della connessione. Questo può causare errori come:
+
+- &quot;Impossibile connettersi a {Page_Name}&quot; o errori di connessione generici.
+- Timeout della connessione durante il flusso di accesso a Facebook per l’azienda.
+- Errori silenziosi quando sono selezionate più risorse.
+- La connessione non riesce quando si selezionano Instagram, Pagina e Account annuncio contemporaneamente.
+
+### Passaggi di risoluzione:
+
+1. Passa a [Meta Business Manager](https://business.facebook.com) > Integrazioni > App collegate.
+1. Rimuovi l’eventuale integrazione &quot;Adobe GenStudio&quot; esistente. Fai clic su **Rimuovi**.
+1. Torna a GenStudio e riprova il processo di connessione.
+1. Selezionare SOLO la pagina Facebook di destinazione durante la connessione iniziale.
+1. NON selezionare l&#39;account Instagram durante il primo tentativo di connessione.
+1. Verifica che la connessione sia stata stabilita correttamente prima di aggiungere altre risorse.
+1. Una volta che la connessione alla pagina è stabile, aggiungi gli account Instagram separatamente.
+
+

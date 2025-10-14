@@ -80,7 +80,7 @@ Puoi aggiungere manualmente i dettagli del brand, invece di caricare i documenti
    - _Quando utilizzare il marchio_: fare clic su **[!UICONTROL Aggiungi]** (o fare clic nel campo di testo per modificare il testo esistente) e immettere informazioni generali e di utilizzo sul marchio. Fai clic su **[!UICONTROL Salva modifiche]**.
    - [_[!DNL Brand] linee guida vocali _](brands.md#brand-voice-guidelines): aggiungi informazioni applicabili in ciascun campo delle linee guida.
 
-     ![Aggiungi [!DNL Brand] linee guida vocali ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Aggiungi [!DNL Brand] linee guida vocali &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Linee guida per le immagini_](brands.md#image-guidelines): fare clic su **[!UICONTROL Aggiungi categoria]** per aggiungere categorie di linee guida, ad esempio &quot;Linee guida generali&quot; o &quot;Fotografia di prodotto&quot;. Inserisci le linee guida in ogni categoria aggiunta.
    - [_Linee guida per il canale_](brands.md#channel-guidelines): fai clic su ogni canale disponibile e aggiungi le linee guida appropriate.

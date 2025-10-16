@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: '3763'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,54 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.09.11. {#latest}
+## 2025.10.26 {#latest}
+
+### Nuovi plug-in GenStudio per Photoshop e Figma
+
+* Crea annunci sul marchio e personalizzati direttamente utilizzando i nuovi strumenti di progettazione GenStudio Plugins per Adobe Photoshop e Figma.
+
+### Funzionalità video estese
+
+* Gli addetti al marketing possono ora aggiungere facilmente clip di introduzione ed esterni per inquadrare annunci video con branding o messaggi pre-prodotti.
+* Aggiungi sovrapposizioni di immagine, testo e logo per tutta la durata del video
+
+### Approfondimenti estesi per LinkedIn, Meta e TikTok
+
+* GenStudio Insights ora include il reporting sulle prestazioni di LinkedIn Ads, che consente agli addetti al marketing di visualizzare e analizzare le prestazioni delle campagne e degli annunci pubblicitari direttamente nella piattaforma per:
+   * LinkedIn Ads
+   * Meta Ads
+   * TikTok Ads
+
+### Attivazione di Amazon Ads
+
+* GenStudio ora supporta l’attivazione degli annunci display direttamente nella piattaforma Amazon Ads.
+
+### Attivazione lampeggiante
+
+* GenStudio ora supporta l’attivazione degli annunci display direttamente nella piattaforma Flashtalk (Innovid) Ad Serving.
+* Gli utenti devono configurare manualmente il token API Flashtalk in coordinamento con il team Activate Engineering. La configurazione self-service dei token verrà aggiunta in una versione futura.
+
+### Integrazione con Adobe Campaign V8
+
+* GenStudio for Performance Marketing ora si integra con Adobe Campaign V8, consentendo agli esperti di marketing di sfruttare facilmente la creazione di contenuti basata sull’intelligenza artificiale insieme alle funzionalità avanzate di orchestrazione di Campaign.
+
+### Riproduzione automatica video
+
+* I video vengono ora riprodotti automaticamente nei moduli [!DNL Create], [!DNL Content] e [!DNL Insights], fornendo esperienze di anteprima ottimizzate.
+
+### Importazione di modelli e-mail di terze parti
+
+* GenStudio for Performance Marketing ora supporta l’integrazione diretta con i sistemi di progettazione e-mail di terze parti tramite un framework di estensibilità. Le funzionalità principali includono:
+
+   * Importa automaticamente modelli da sistemi di progettazione e-mail di terze parti durante la creazione di contenuti
+   * Inserisci i metadati del modello insieme ai modelli importati
+   * Mantenere un’unica fonte di verità collegandosi direttamente a sistemi di terze parti
+   * SDK e app di esempio forniti per la creazione di integrazioni personalizzate
+
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.09.11
 
 ### Nuova funzionalità generativa di IA per l’espansione dei file multimediali a pagamento
 
@@ -23,7 +70,7 @@ La nuova funzione GenExpand consente agli esperti di marketing di adattare dinam
 
 Questa funzione semplifica il processo di modifica e ridimensionamento delle immagini direttamente in GenStudio for Performance Marketing. Per informazioni dettagliate, consulta [Funzionalità IA di espansione generativa](/help/user-guide/create/manage-variants.md#use-generative-expand).
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.08.15
 
@@ -83,9 +130,9 @@ Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di t
 
 Un nuovo filtro nel modulo [!DNL Insights] nasconde automaticamente [le risorse immagine e video non supportate](/help/user-guide/insights/ads.md#ad-formats) dalle anteprime degli annunci, eliminando il disordine visivo e i riquadri interrotti. Questo miglioramento garantisce agli utenti di visualizzare solo i supporti effettivamente disponibili e pronti per l’uso, creando un’esperienza più pulita e affidabile. Il filtro funziona insieme al filtro degli annunci di compatibilità esistente.
 
-### Attivazione di più risorse per metadati
+### Attivazione di più risorse per Meta
 
-La funzione di attivazione delle immagini con proporzioni multiple per i metadata consente agli inserzionisti di caricare e attivare più risorse immagine in diverse proporzioni in un unico annuncio creativo. Questa funzione consente a un annuncio di fornire la giusta misura creativa per vari posizionamenti Meta come Feed, Storie e Reel. Gli inserzionisti possono visualizzare in anteprima come ogni immagine verrà riprodotta nei diversi posizionamenti e pubblicare tutte le versioni in Meta in una singola chiamata API.
+L&#39;attivazione delle immagini con proporzioni multiple per Meta Ads consente agli inserzionisti di caricare e attivare più risorse di immagini in proporzioni diverse in un unico annuncio creativo. Questa funzione consente a un annuncio di fornire la giusta misura creativa per vari posizionamenti di Meta come Feed, Storie e Reel. Gli inserzionisti possono visualizzare in anteprima come ogni immagine verrà riprodotta nei diversi posizionamenti e pubblicare tutte le versioni in Meta in una singola chiamata API.
 
 ### Formattazione RTF nelle varianti
 
@@ -154,7 +201,7 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 ### Correzioni di problemi e miglioramenti
 
 * È stata abilitata la funzionalità per [aggiungere testo alternativo (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a un&#39;immagine per una singola variante.
-* È stata aggiunta una [nuova proporzione metadati](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza pixel 1080).
+* È stata aggiunta una [nuova proporzione Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza di 1080 pixel).
 * Ora puoi scegliere più di un’esperienza da esportare o scaricare. Consulta [Esportare esperienze](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -173,9 +220,9 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 +++Note relative al 2025.03.13
 
-### Attivare i metadati
+### Attivare gli annunci Meta
 
-Gli addetti al marketing possono ora [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Meta Ads Manager. [!DNL Activate] supporta anteprime dettagliate di annunci Meta prima della distribuzione. I metadati pubblicati tramite [!DNL Activate] vengono automaticamente estratti in [!DNL Insights] una volta pubblicati, consentendo agli utenti di tenere traccia delle prestazioni degli annunci e generare rapporti su di esse.
+Gli addetti al marketing possono ora [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Meta Ads Manager. [!DNL Activate] supporta anteprime dettagliate di annunci Meta prima della distribuzione. Gli annunci Meta pubblicati tramite [!DNL Activate] vengono automaticamente estratti in [!DNL Insights] una volta live, consentendo agli utenti di tenere traccia e creare rapporti sulle prestazioni degli annunci.
 
 ### Creare esperienze LinkedIn
 
@@ -191,7 +238,7 @@ Aggiunto supporto per [la creazione di esperienze LinkedIn](/help/user-guide/cre
 
 ### Conformità
 
-Come parte del processo di convalida del brand, sono stati introdotti [standard di conformità](/help/user-guide/guidelines/overview.md) in [Controlli dei contenuti](/help/user-guide/guidelines/brand-validation.md). Questi controlli esaminano ogni variante di un&#39;esperienza in base alle linee guida di [!DNL Brand], alle linee guida della piattaforma (ad esempio per Meta) e agli standard ADA. Questo processo fornisce una sintesi completa delle linee guida e degli standard da rivedere per una migliore conformità.
+Come parte del processo di convalida del brand, sono stati introdotti [standard di conformità](/help/user-guide/guidelines/overview.md) in [Controlli dei contenuti](/help/user-guide/guidelines/brand-validation.md). Con questi controlli ogni variante di un&#39;esperienza viene esaminata in base alle linee guida di [!DNL Brand], alle linee guida della piattaforma (ad esempio per Meta) e agli standard ADA. Questo processo fornisce una sintesi completa delle linee guida e degli standard da rivedere per una migliore conformità.
 
 ### Estensibilità
 
@@ -246,7 +293,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 ### Correzioni di problemi e miglioramenti
 
-* I conteggi dei caratteri vengono ora visualizzati in tutti i campi generati e manuali degli annunci di visualizzazione. Vedi _Conteggi caratteri_ in [Esperienze metadati](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+* I conteggi dei caratteri vengono ora visualizzati in tutti i campi generati e manuali degli annunci di visualizzazione. Vedi _Conteggi caratteri_ in [Esperienze Meta](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
 
 * _I collaboratori_ possono ora visualizzare le risorse ma non crearle, modificarle o eliminarle. In precedenza, i diritti dei collaboratori non venivano applicati come previsto in [!DNL Create]. <!-- GS-7614 -->
 
@@ -320,7 +367,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 * Ora è possibile selezionare fino a quattro immagini durante la creazione di un annuncio visivo. <!-- GS-7189 -->
 
-* Le bozze degli annunci e dei metadati vengono ora caricate come previsto quando vengono ridimensionate in un browser diverso. <!-- GS-7204 -->
+* Le bozze di annunci e Meta vengono ora caricate come previsto quando vengono ridimensionate in un browser diverso. <!-- GS-7204 -->
 
 * I campi modello non utilizzati non vengono più visualizzati nel contenuto generato.  <!-- GS-5670 -->
 
@@ -338,7 +385,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 * Ora gli editor visualizzano un messaggio di errore come previsto quando una bozza non viene caricata nell&#39;area [!DNL Create] _Lavoro recente_.  <!-- GS-8081 -->
 
-* L’area di lavoro ora visualizza i metadati ridimensionati e gli annunci visualizzati nell’ordine corretto.  <!-- GS-7375 -->
+* L’area di lavoro ora visualizza gli annunci Meta ridimensionati e gli annunci visualizzati nell’ordine corretto.  <!-- GS-7375 -->
 
 * Gli editor possono ora fare clic sui campi per e-mail e visualizzare annunci. <!-- GS-6297 -->
 
@@ -418,7 +465,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * La rigenerazione dei frammenti ora funziona come previsto per le esperienze ridimensionate. <!-- GS-6836 -->
 
-* La rigenerazione delle metaimmagini degli annunci dopo il ridimensionamento non genera più un errore. In precedenza, il ridimensionamento delle immagini prima della rigenerazione modificava i metadati del canale da `meta` a `facebook`. <!-- GS-7042 -->
+* La rigenerazione di immagini pubblicitarie Meta dopo il ridimensionamento non genera più un errore. In precedenza, il ridimensionamento delle immagini prima della rigenerazione modificava i metadati del canale da `meta` a `facebook`. <!-- GS-7042 -->
 
 +++
 

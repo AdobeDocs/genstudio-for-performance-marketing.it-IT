@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -43,13 +43,13 @@ Nella tabella seguente sono elencati i nomi di campo riconosciuti da GenStudio f
 | Campo | Ruolo | Modello canale |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Preheader | email |
-| `{{headline}}` | Titolo | e-mail <br>Annuncio metadati <br>Banner e annuncio visualizzazione <br>Annuncio LinkedIn |
+| `{{headline}}` | Titolo | invia un&#39;e-mail a <br>Meta ad <br>Banner e annuncio di visualizzazione <br>LinkedIn ad |
 | `{{sub_headline}}` | Sottotitolo | e-mail<br>Banner e annuncio pubblicitario |
 | `{{introductory_text}}` | Testo introduttivo | Annuncio LinkedIn |
-| `{{body}}` | Corpo del testo | invia un messaggio e-mail a <br>Meta ad <br>Banner e display ad |
-| `{{cta}}` | Invito all&#39;azione<br>Consulta [Inviti all&#39;azione](#calls-to-action) | e-mail <br>Annuncio metadati <br>Banner e annuncio visualizzazione <br>Annuncio LinkedIn |
-| `{{image}}` | Immagine—seleziona da [!DNL Content] | e-mail <br>Annuncio metadati <br>Banner e annuncio visualizzazione <br>Annuncio LinkedIn |
-| `{{on_image_text}}` | Nel testo dell&#39;immagine<br>Vedere [Nel testo dell&#39;immagine](#on-image-text). | Annuncio metadati <br>Annuncio LinkedIn |
+| `{{body}}` | Corpo del testo | invia e-mail a <br>Meta ad <br>Banner e display ad |
+| `{{cta}}` | Call to action<br>Visualizza [Chiamate all&#39;azione](#calls-to-action) | invia un&#39;e-mail a <br>Meta ad <br>Banner e annuncio di visualizzazione <br>LinkedIn ad |
+| `{{image}}` | Immagine—seleziona da [!DNL Content] | invia un&#39;e-mail a <br>Meta ad <br>Banner e annuncio di visualizzazione <br>LinkedIn ad |
+| `{{on_image_text}}` | Nel testo dell&#39;immagine<br>Vedere [Nel testo dell&#39;immagine](#on-image-text). | Meta ad <br>LinkedIn ad |
 | `{{link}}` | Call to action sull&#39;immagine<br>Vedi [Collegamento sull&#39;immagine](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
@@ -57,7 +57,7 @@ Nella tabella seguente sono elencati i nomi di campo riconosciuti da GenStudio f
 GenStudio for Performance Marketing genera automaticamente alcuni campi nei seguenti modelli:
 
 - **Il modello di posta elettronica** non richiede l&#39;identificazione del campo `subject`
-- **Meta Ad Template** non richiede l&#39;identificazione dei campi `headline`, `body` e `CTA`
+- **Il modello di annunci di Meta** non richiede l&#39;identificazione dei campi `headline`, `body` e `CTA`
 - **Banner e modello di annuncio visualizzato** non richiedono l&#39;identificazione del campo `CTA`
 - **LinkedIn ad template** non richiede l&#39;identificazione dei campi `headline`, `introductory_text` e `CTA`
 
@@ -73,7 +73,7 @@ Il caricamento di un modello in GenStudio for Performance Marketing prevede un l
 
 ### Inviti all&#39;azione
 
-Un invito all’azione (CTA) include una frase e un collegamento. Affinché le funzionalità _[!UICONTROL Riformula]_ e _[!UICONTROL Aggiungi collegamento]_ funzionino correttamente durante il processo di generazione delle varianti, è necessario includere segnaposto per il collegamento e la frase nel modello.
+Un Call to action (CTA) include una frase e un collegamento. Affinché le funzionalità _[!UICONTROL Riformula]_ e _[!UICONTROL Aggiungi collegamento]_ funzionino correttamente durante il processo di generazione delle varianti, è necessario includere segnaposto per il collegamento e la frase nel modello.
 
 Per impostare i segnaposto di CTA, attenersi alle istruzioni riportate di seguito.
 
@@ -95,7 +95,7 @@ Per impostare i segnaposto di CTA, attenersi alle istruzioni riportate di seguit
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketing può fornire anche frasi di invito all’azione varianti. Vedi [Rivedi invito all&#39;azione](/help/user-guide/create/manage-variants.md#revise-call-to-action).
+GenStudio for Performance Marketing può fornire anche frasi di invito all’azione varianti. Vedi [Rivedi Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ### Collegamento nell&#39;immagine
 
@@ -207,7 +207,7 @@ La modifica Rich Text è **non** disponibile per `headline` poiché è utilizzat
 <img src="image.jpg" alt="{{headline}}">
 ```
 
-La modifica Rich Text può essere disponibile per alcuni campi all&#39;interno di canali specifici, ad esempio `on_image_text` nei canali social (Meta, LinkedIn).
+La modifica del testo RTF può essere disponibile per alcuni campi all&#39;interno di canali specifici, ad esempio `on_image_text` nei canali social (Meta, LinkedIn).
 
 ## Sezioni o gruppi
 
@@ -259,7 +259,7 @@ Consulta [Editor codice modello](/help/user-guide/content/code-editor.md).
 
 È possibile controllare la visibilità dei contenuti speciali utilizzando Helper incorporati (espressioni speciali nel linguaggio del modello [!DNL Handlebars] che eseguono determinate azioni). Ad esempio, puoi aggiungere un’istruzione condizionale che aggiunge parametri di tracciamento ai collegamenti nel modello esportato mantenendo puliti i collegamenti di anteprima.
 
-Il valore `_genStudio.browser` viene impostato durante il rendering di un modello e il valore `genStudio.export` viene impostato durante l&#39;esportazione di un modello. Puoi decidere di includere un determinato contenuto nella parte superiore di un’e-mail utilizzando un wrapper condizionale, ad esempio, quando il modello viene utilizzato per l’esportazione:
+Il valore `_genStudio.canvas` viene impostato durante il rendering di un modello e il valore `genStudio.export` viene impostato durante l&#39;esportazione di un modello. Puoi decidere di includere un determinato contenuto nella parte superiore di un’e-mail utilizzando un wrapper condizionale, ad esempio, quando il modello viene utilizzato per l’esportazione:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ Il valore `_genStudio.browser` viene impostato durante il rendering di un modell
 Un altro esempio può essere quello di impedire l’utilizzo dei codici di tracciamento durante l’anteprima di un modello in GenStudio for Performance Marketing. L’esempio seguente mostra come aggiungere parametri di tracciamento ai collegamenti nel modello esportato, mantenendo allo stesso tempo puliti i collegamenti di anteprima:
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ Un altro esempio può essere quello di impedire l’utilizzo dei codici di tracc
 
 ## Contenuto statico
 
-I modelli e-mail e metadati spesso si collegano a immagini e file CSS ospitati su altri domini. Quando GenStudio for Performance Marketing genera le miniature per le anteprime dei modelli o le esperienze da esse derivate, convalida l’origine di contenuto e incorpora una copia a scopo di anteprima.
+I modelli e-mail e Meta spesso si collegano a immagini e file CSS ospitati su altri domini. Quando GenStudio for Performance Marketing genera le miniature per le anteprime dei modelli o le esperienze da esse derivate, convalida l’origine di contenuto e incorpora una copia a scopo di anteprima.
 
 I file esterni vengono temporaneamente incorporati solo allo scopo di creare l’anteprima del modello, che garantisce che l’anteprima rifletta accuratamente il contenuto così come viene visualizzato al momento della creazione. Questi file esterni sono **non** archiviati in modo permanente in GenStudio for Performance Marketing. Dopo la creazione dell’anteprima del modello, GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine originale fornito nel modello.
 

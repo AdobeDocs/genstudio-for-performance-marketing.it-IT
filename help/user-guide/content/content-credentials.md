@@ -3,7 +3,7 @@ title: Content Credentials per le organizzazioni
 description: Scopri come applicare e rivedere Content Credentials in GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Gli amministratori sono responsabili del caricamento di un certificato X.509 val
 
 ## Cosa sono i Content Credentials? 
 
-Content Credentials è un tipo di metadati resistente e conforme agli standard di settore con dettagli su come sono stati creati i contenuti e informazioni sull’identità dei creatori. Content Credentials può essere visualizzato quando il contenuto viene pubblicato online su piattaforme di supporto oppure utilizzando strumenti come [Ispect tool di Adobe](https://contentauthenticity.adobe.com/inspect) o l&#39;estensione del browser [Adobe Content Authenticity Chrome](https://helpx.adobe.com/it/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials è un tipo di metadati resistente e conforme agli standard di settore con dettagli su come sono stati creati i contenuti e informazioni sull’identità dei creatori. Content Credentials può essere visualizzato quando il contenuto viene pubblicato online su piattaforme di supporto oppure utilizzando strumenti come [Ispect tool di Adobe](https://contentauthenticity.adobe.com/inspect) o l&#39;estensione del browser [Adobe Content Authenticity Chrome](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 L’applicazione di Content Credentials può contribuire ad aumentare la trasparenza sulle modalità di creazione dei contenuti e può aiutare gli utenti a connettersi ai propri contenuti.
 
@@ -61,7 +61,7 @@ Quando si seleziona un contenuto firmato vengono visualizzati i metadati dettagl
 
 Il contenuto può essere filtrato in base allo stato delle credenziali.
 
-![Dati credenziali su una risorsa](./images/import-discovery2.png)
+![Dati credenziali su una risorsa](./images/import-discovery2.jpg)
 
 ### Creazione e selezione
 

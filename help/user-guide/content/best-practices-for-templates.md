@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3fe6e235b774cf5a99627d981230f96d5e51ac02
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,45 @@ Rivedi e definisci le [linee guida per il canale](/help/user-guide/guidelines/br
 ![Specifiche del corpo](/help/assets/channel-email-body.png)
 
 Scopri in che modo [Marchi, Prodotti e Linee guida per Personas](/help/user-guide/guidelines/overview.md) influenzano i contenuti generati e come adattarli agli obiettivi di marketing.
+
+## Caricamento immagini per modelli
+
+Le immagini utilizzate nei modelli devono provenire dall’archivio dei contenuti e devono essere caricate correttamente per garantire una visualizzazione accurata.
+
+Quando un modello presenta un&#39;immagine da spigolo a spigolo (full bleed), l&#39;immagine selezionata viene automaticamente ridimensionata per adattarsi alle dimensioni complete del modello. Tuttavia, se l’immagine non corrisponde alle proporzioni del modello, viene ritagliata per adattarla alle dimensioni del modello e potrebbe non essere visualizzata come previsto.
+
+Non è disponibile la funzionalità di adattamento automatico per le immagini incluse nei modelli.
+
+Per risolvere il ritaglio di immagini, gli utenti devono definire le proporzioni dell’immagine da utilizzare nel modello quando viene caricata nell’archivio dei contenuti. Durante il caricamento di un modello approvato:
+
+1. [Procedi attraverso il processo di caricamento del modello](/help/user-guide/content/use-templates.md#add-a-template) fino a raggiungere la pagina **[!UICONTROL Aggiungi dettagli]**.
+
+2. Definisci le proporzioni dell&#39;immagine da utilizzare nel modello in **[!UICONTROL Larghezza annuncio (px)]** e **[!UICONTROL Altezza annuncio (px)]**. In questo modo viene definita la finestra immagine per la sezione del modello che visualizza l&#39;immagine.
+
+3. Nella sezione **[!UICONTROL Ulteriori dettagli]**, seleziona il menu a discesa **[!UICONTROL Dimensioni immagine]** e scegli _Ritaglia a dimensioni fisse_.
+   ![Ritagliato a dimensioni fisse](./images/crop-to-fixed-size.png "Ritagliato a dimensioni fisse"){width="80%"}
+
+Per determinare le dimensioni e le proporzioni di un&#39;immagine nel browser:
+
+1. Ispezionare l&#39;immagine.
+   - Windows/Linux:
+      - Premere F12.
+   - macOS:
+      - Premere Command + Option + I.
+
+1. Passa il puntatore sull&#39;immagine.
+
+1. Osserva le proporzioni. Utilizzate questa opzione per definire le proporzioni dell&#39;immagine nel modello.
+
+Se questi dettagli non vengono applicati durante il caricamento, si presume che l’immagine corrisponda all’intera proporzione del modello e che le immagini che non corrispondono esattamente a tale proporzione verranno ritagliate.
+
+![Immagine ritagliata in un annuncio](./images/cropped-display.png "Ritaglio immagine"){width="60%"}
+
+**❌immagine ritagliata in un modello di annuncio visualizzato**
+
+![Immagine visualizzata in un annuncio pubblicitario](./images/full-fit.png "Immagine visualizzata in un annuncio pubblicitario"){width="60%"}
+
+**✅immagine completamente visualizzata**
 
 ## Segui le linee guida dei modelli specifiche per il canale
 

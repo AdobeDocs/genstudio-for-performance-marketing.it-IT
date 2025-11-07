@@ -3,9 +3,9 @@ title: Gestire Assets ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
+source-git-commit: 279bf9e1fab24c286df4a0600b472c456231ddb6
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1509'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] semplifica e migliora l
 
 ## [!DNL Content] raccolta
 
-Nella galleria viene visualizzato un inventario delle risorse, esperienze o modelli approvati, a seconda della vista selezionata. L&#39;interruttore del filtro (funnel) posto sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]**, in cui è possibile selezionare diverse categorie per filtrare il contenuto visualizzato nella raccolta. Nella visualizzazione _[!UICONTROL Assets]_, fare clic sull&#39;icona di ricerca (lente di ingrandimento) per utilizzare una parola chiave per trovare una risorsa.
+Nella galleria viene visualizzato un inventario delle risorse, esperienze o modelli approvati, a seconda della vista selezionata. L&#39;interruttore del filtro (funnel) sopra il lato sinistro della tabella apre il menu **[!UICONTROL Filtro]**, in cui è possibile selezionare diverse categorie per filtrare il contenuto visualizzato nella raccolta. Nella visualizzazione _[!UICONTROL Assets]_, fare clic sull&#39;icona di ricerca (lente di ingrandimento) per utilizzare una parola chiave per trovare una risorsa.
 
 Di seguito è riportata una ricerca per il termine `space` nella raccolta [!UICONTROL Assets]:
 
@@ -158,10 +158,9 @@ Puoi selezionare una o più esperienze approvate da scaricare in un formato comp
 
    Se hai selezionato più esperienze da canali diversi, puoi selezionare il formato per ciascun tipo di canale.
 
-   - E-mail, LinkedIn: `HTML`, `CSV`
-   - Meta, banner e annuncio di visualizzazione: `HTML`, `JPEG`, `PNG`
+   - E-mail, LinkedIn: `HTML`, `CSV`, `PDF`
+   - Meta, banner e annuncio di visualizzazione: `HTML`, `JPEG`, `PNG`, `PDF`
 
-   ![Scarica esperienze](/help/assets/content-bulk-export.png "Scarica più esperienze"){width=350}
 
 ## Modifica in Express
 

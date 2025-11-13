@@ -80,7 +80,7 @@ Puoi aggiungere manualmente i dettagli del brand, invece di caricare i documenti
    - _Quando utilizzare il marchio_: fare clic su **[!UICONTROL Aggiungi]** (o fare clic nel campo di testo per modificare il testo esistente) e immettere informazioni generali e di utilizzo sul marchio. Fai clic su **[!UICONTROL Salva modifiche]**.
    - [_[!DNL Brand] linee guida vocali _](brands.md#brand-voice-guidelines): aggiungi informazioni applicabili in ciascun campo delle linee guida.
 
-     ![Aggiungi [!DNL Brand] linee guida vocali ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Aggiungi [!DNL Brand] linee guida vocali &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Linee guida per le immagini_](brands.md#image-guidelines): fare clic su **[!UICONTROL Aggiungi categoria]** per aggiungere categorie di linee guida, ad esempio &quot;Linee guida generali&quot; o &quot;Fotografia di prodotto&quot;. Inserisci le linee guida in ogni categoria aggiunta.
    - [_Linee guida per il canale_](brands.md#channel-guidelines): fai clic su ogni canale disponibile e aggiungi le linee guida appropriate.
@@ -225,7 +225,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Gestisci [!DNL Personas]
 
-Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**dall&#39;elenco:
+Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**&#x200B;dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu azioni [!DNL Personas] per rivedere e rivedere un utente tipo esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Personas] per **Eliminare** un utente tipo.
@@ -296,7 +296,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Gestisci [!DNL Products]
 
-Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**dall&#39;elenco:
+Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**&#x200B;dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu Azioni [!DNL Products] per rivedere e rivedere un prodotto esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Products] per **Eliminare** un prodotto.
@@ -306,11 +306,11 @@ Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**già creato per
 
 >[!NOTE]
 >
->La funzione [!DNL Audiences] richiede l&#39;onboarding da parte del team Adobe per essere visualizzato in GenStudio. Se _[!DNL Audiences]_non viene visualizzato nei parametri del modello, contatta il rappresentante Adobe.
+>La funzione [!DNL Audiences] richiede l&#39;onboarding da parte del team Adobe per essere visualizzato in GenStudio. Se _[!DNL Audiences]_&#x200B;non viene visualizzato nei parametri del modello, contatta il rappresentante Adobe.
 
 [!DNL Audiences] fornisce segmenti di clienti mirati da Adobe Real-Time Customer Data Platform (RTCDP), inserendo dati di targeting precisi nel flusso di lavoro di generazione dei contenuti. GenStudio for Performance Marketing sfrutta le definizioni dei tipi di pubblico per creare contenuti di marketing personalizzati, in linea con specifici segmenti di clienti.
 
-[!DNL Audiences] viene visualizzato come elenco a discesa nel riquadro dei parametri, nel [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ può aggiungere specificità a _[!DNL Personas]_quando vengono utilizzate entrambe le linee guida, ma può anche essere utilizzato in modo efficace e indipendente.
+[!DNL Audiences] viene visualizzato come elenco a discesa nel riquadro dei parametri, nel [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ può aggiungere specificità a _[!DNL Personas]_&#x200B;quando vengono utilizzate entrambe le linee guida, ma può anche essere utilizzato in modo efficace e indipendente.
 
 Durante l’onboarding, le definizioni dei tipi di pubblico vengono importate e trasformate in un formato compatibile con GenStudio. In genere questo processo richiede alcuni giorni. Contatta il team Adobe per avviarlo.
 
@@ -318,11 +318,11 @@ Durante l’onboarding, le definizioni dei tipi di pubblico vengono importate e 
 
 - Accesso organizzativo ad Adobe Real-Time Customer Data Platform
 - I tipi di pubblico esistenti sono già configurati nelle sandbox di RTCDP
-- L&#39;integrazione di _[!DNL Audience]_richiede un processo di onboarding manuale da parte del team Adobe
+- L&#39;integrazione di _[!DNL Audience]_&#x200B;richiede un processo di onboarding manuale da parte del team Adobe
 
 **Per selezionare un pubblico**:
 
-1. In [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates), seleziona un modello e fai clic sul pulsante **[!UICONTROL Usa]**per aprire la bozza.
+1. In [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates), seleziona un modello e fai clic sul pulsante **[!UICONTROL Usa]**&#x200B;per aprire la bozza.
 1. Nell&#39;elenco dei parametri, fai clic sul menu a discesa _[!UICONTROL Pubblico]_ per visualizzare tutti i tipi di pubblico disponibili.
    ![Menu a discesa Pubblico nel riquadro Parametri personali](./audience-dropdown.png){width=450}
 1. Seleziona un pubblico da assegnare dall’elenco. Il sistema suggerisce i tipi di pubblico consigliati che si allineano con [!DNL Persona] selezionato, se è selezionato un [!DNL Persona].

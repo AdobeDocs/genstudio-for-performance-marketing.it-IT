@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Per [e-mail](/help/user-guide/create/email-experiences.md), i criteri di richies
 
 >[!NOTE]
 >
->Se le linee guida vengono aggiunte in _Parametri_ nel cassetto dei prompt, non è necessario includervi un riferimento. GenStudio for Performance Marketing sfrutta questi elementi [!DNL Brands], [!DNL Products] e [!DNL Personas] nella generazione dei contenuti.
+>Se le linee guida vengono aggiunte in _Parametri_ nel cassetto dei prompt, non è necessario includervi un riferimento. GenStudio for Performance Marketing sfrutta automaticamente queste funzioni nella generazione dei contenuti.
 
 ### Linee guida
 

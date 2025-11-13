@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1084'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Per creare una nuova esperienza e-mail, utilizza un modello disponibile per forn
 
 L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza e-mail.
 
-Se si utilizza un modello con linee guida predefinite, [!DNL Brands], [!DNL Personas] o [!DNL Products], queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
+Se utilizzi un modello con linee guida predefinite (come [!DNL Brands], [!DNL Personas] o [!DNL Products]), queste linee guida si applicano alle tue varianti. Puoi modificarli se lo desideri.
 
 **Per aggiungere parametri e risorse**:
 

@@ -1,24 +1,24 @@
 ---
-title: Panoramica di [!DNL Brands], [!DNL Products] e [!DNL Personas]
-description: Aggiungi  [!DNL Brands], [!DNL Products], and [!DNL Personas] a GenStudio for Performance Marketing per creare un profilo di marchio completo che includa tutti gli aspetti della rappresentazione di un marchio.
+title: Panoramica delle linee guida per i canali
+description: Aggiungete le linee guida per i canali a GenStudio for Performance Marketing per creare un profilo di marchio completo che includa tutti gli aspetti della rappresentazione di un marchio.
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Linee guida di GenStudio for Performance Marketing
 
-Le linee guida di GenStudio for Performance Marketing, **[!DNL Brands]**, **[!DNL Products]** e **[!DNL Personas]**, possono essere caricate o aggiunte manualmente a GenStudio for Performance Marketing, consentendo agli utenti di stabilire linee guida per il brand che acquisiscono l&#39;essenza dell&#39;identità di un brand.
+Le linee guida di GenStudio for Performance Marketing possono essere caricate o aggiunte manualmente a GenStudio for Performance Marketing, consentendo agli utenti di stabilire linee guida per il brand che acquisiscono l’essenza dell’identità di un brand.
 
 Le seguenti linee guida garantiscono che qualsiasi contenuto generato dall’intelligenza artificiale sia personalizzato in modo da essere allineato alle specifiche di identità del brand e accessibilità, consentendo un’efficace personalizzazione dei contenuti:
 
 * [Linee guida predefinite per il canale](/help/user-guide/guidelines/brands.md#default-channel-guidelines) per [!DNL Brands] basate sulle best practice del settore e sulle specifiche delle singole piattaforme
-* Linee guida definite dall&#39;utente per [!DNL Brands], [!DNL Products] e [!DNL Personas]
+* Linee guida definite dall&#39;utente (ad esempio [!DNL Brands], [!DNL Products] e [!DNL Personas])
 * Linee guida sulla piattaforma per canali come Meta, LinkedIn e altro ancora
 * [Linee guida per l&#39;accessibilità di American with Disabilities Act (ADA)](#compliance)
 
@@ -28,7 +28,7 @@ Le linee guida garantiscono che tutti i contenuti generati dall’intelligenza a
 
 Per creare contenuti di marketing coinvolgenti tramite GenStudio for Performance Marketing, inizia con la creazione di un profilo di marchio completo aggiungendo [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-Consulta [Aggiungi linee guida](/help/user-guide/guidelines/add-guidelines.md) per scoprire come aggiungere [!DNL Brands], [!DNL Products] e [!DNL Personas].
+Consulta [Aggiungi linee guida](/help/user-guide/guidelines/add-guidelines.md) per scoprire come aggiungere ogni tipo.
 
 ## Funzionalità
 
@@ -44,14 +44,14 @@ L’incorporazione di dati di marchi, prodotti e utenti tipo in GenStudio for Pe
 
 ## Casi d’uso
 
-Le linee guida per [!DNL Brands], [!DNL Products] e [!DNL Personas] consentono due casi d&#39;uso principali per garantire che qualsiasi contenuto generato sia conforme alla rappresentazione desiderata dal brand:
+Le linee guida per il canale consentono di applicare due casi d’uso principali per garantire che qualsiasi contenuto generato sia conforme alla rappresentazione desiderata dal brand:
 
 * **Generazione contenuto** in [[!DNL Create]](/help/user-guide/create/overview.md) o [Contenuto](/help/user-guide/content/overview.md)
 * [**Convalida del marchio**](#content-checks), che viene eseguita durante il processo di creazione dei contenuti
 
 ## Controlli del contenuto
 
-In collaborazione con la funzionalità di intelligenza artificiale generativa di Adobe, [!DNL Brands], [!DNL Products] e [!DNL Personas] svolgono un ruolo cruciale nel garantire che tutti i contenuti GenStudio for Performance Marketing siano allineati con la tua brand identity.
+Insieme alla funzionalità di intelligenza artificiale generativa di Adobe, [!DNL Brands], [!DNL Products] e [!DNL Personas] svolgono un ruolo cruciale nel garantire che tutti i contenuti GenStudio for Performance Marketing siano allineati alla tua brand identity.
 
 GenStudio for Performance Marketing esegue la convalida del brand e il controllo dei contenuti, inclusi gli standard di accessibilità ADA e gli standard delle piattaforme, e fornisce una checklist per i contenuti generati per evidenziare le aree di miglioramento.
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Quando selezioni un modello, puoi utilizzare uno dei modelli caricati o un model
 
 L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt migliora il processo di generazione dei contenuti ed è un passaggio fondamentale nella preparazione alla generazione di un annuncio Meta.
 
-Se si utilizza un modello con linee guida predefinite, [!DNL Brands], [!DNL Personas] o [!DNL Products], queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
+Se utilizzi un modello con linee guida predefinite (come [!DNL Brands], [!DNL Personas] o [!DNL Products]), queste linee guida si applicano alle tue varianti. Puoi modificarli se lo desideri.
 
 **Per aggiungere parametri e risorse**:
 

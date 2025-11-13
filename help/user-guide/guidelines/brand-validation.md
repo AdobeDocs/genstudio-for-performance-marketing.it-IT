@@ -3,7 +3,7 @@ title: Convalida del marchio in Adobe GenStudio for Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -18,8 +18,9 @@ GenStudio for Performance Marketing esegue la convalida del brand e altri contro
 
 * [!DNL Brand] linee guida definite o predefinite
 * Linee guida per la piattaforma
-<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * Standard dell&#39;American with Disabilities Act (ADA)
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
+
 
 ## Riepilogo verifica contenuto
 

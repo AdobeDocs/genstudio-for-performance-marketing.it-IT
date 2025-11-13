@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] sono una rappresentazione fedele dei segmenti di clienti, che ne acquisisce interessi, punti critici, preferenze e caratteristiche comportamentali.
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 [!DNL Personas] fornisce un&#39;immagine autentica dei segmenti di clienti, che include informazioni, interessi, punti critici, preferenze e caratteristiche comportamentali.
 
-GenStudio for Performance Marketing sfrutta la potenza delle linee guida ([[!DNL Brands], [!DNL Products] e [!DNL Personas]](overview.md)) e la tecnologia di intelligenza artificiale generativa di Adobe per curare contenuti di marketing personalizzati per i clienti target&#x200B;.
+GenStudio for Performance Marketing sfrutta [la potenza delle linee guida](overview.md) e la tecnologia di intelligenza artificiale generativa di Adobe per curare contenuti di marketing personalizzati per i clienti target&#x200B;.
 
 **Per visualizzare o modificare un utente tipo**:
 
 1. Nell&#39;area di navigazione a sinistra, fare clic su **[!UICONTROL Persone]**.
-1. Per [visualizzare i dettagli individuali o modificare un utente tipo](add-guidelines.md#manage-personas), fare clic sul menu Azioni _[!DNL Personas]_&#x200B;e selezionare **Apri**.
+1. Per [visualizzare i dettagli individuali o modificare un utente tipo](add-guidelines.md#manage-personas), fare clic sul menu Azioni _[!DNL Personas]_e selezionare **Apri**.
 1. Rivedi le linee guida per gli utenti tipo facendo clic su in un campo di testo per categoria linee guida.
 
 Consulta [Aggiungi linee guida](add-guidelines.md) per scoprire come aggiungere o modificare un utente tipo in GenStudio for Performance Marketing.

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 >
 >In caso di problemi durante la visualizzazione o l&#39;utilizzo di risorse da un archivio [!DNL AEM Assets Content Hub], consultare l&#39;amministratore di sistema e verificare di avere accesso all&#39;organizzazione o al profilo di prodotto corretto. Vedi [Connetti a un [!DNL AEM Assets Content Hub] archivio](/help/user-guide/content/connect-aem-repo.md).
 
-## Suggerimento sul contenuto dell'Academy {#in-academy}
+## Suggerimento sul contenuto dell&#39;Academy {#in-academy}
 
 >[!TIP]
 >
->Arricchisci le tue abilità su questo argomento con [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
+>Approfondisci la tua conoscenza di questo argomento con [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
 
 ## Suggerimento per filtrare le tabelle {#filter-table}
 

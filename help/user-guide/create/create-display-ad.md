@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per creare un’esperienza di visualizzazione annuncio, utilizza un modello disp
 
 L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt sovrascrive il processo di generazione del contenuto ed è un passaggio preparatorio integrale per la generazione di un&#39;esperienza di visualizzazione annuncio.
 
-Se si utilizza un modello con linee guida predefinite, [!DNL Brands], [!DNL Personas] o [!DNL Products], queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
+Se utilizzi un modello con linee guida predefinite (come [!DNL Brands], [!DNL Personas] o [!DNL Products]), queste linee guida si applicano alle tue varianti. Puoi modificarli se lo desideri.
 
 **Per aggiungere parametri e risorse**:
 
@@ -130,7 +130,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere gli annunci di visualizzazione generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze degli annunci visualizzati**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un annuncio visualizzato](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

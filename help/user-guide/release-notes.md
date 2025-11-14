@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '4162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.10.16. {#latest}
+## 2025.11.14. {#latest}
+
+### Integrazione del pubblico di Real-Time CDP
+
+* GenStudio for Performance Marketing ora si integra con Adobe Real-Time Customer Data Platform (RTCDP), consentendo agli addetti al marketing di sfruttare le definizioni dei tipi di pubblico direttamente nel flusso di lavoro [!DNL Create].
+* Selezionando i parametri [!DNL Audience] durante la generazione dei contenuti, gli addetti al marketing possono creare copie personalizzate di messaggi e-mail e contenuti creativi in base al contesto del cliente, incluse le preferenze di messaggistica, i segmenti di acquirenti, le fasi di percorso e i dati comportamentali.
+
+### Innovid Insights per la pubblicità display
+
+* [!DNL Insights] ora include Innovid (precedentemente Flashtalk) come canale di display advertising, consentendo agli addetti al marketing di analizzare le prestazioni della campagna insieme a Meta, LinkedIn e TikTok in una piattaforma unificata.
+* Con l’aggiornamento giornaliero dei dati e l’accesso a metriche delle prestazioni chiave quali impression, clic e CTR, gli esperti di marketing possono prendere decisioni di ottimizzazione più veloci senza dover passare da un strumento all’altro.
+
+### Traduzione preconfigurata per file multimediali a pagamento e e-mail
+
+* Traduci all’istante le esperienze di e-mail e contenuti multimediali a pagamento approvati in oltre 40 lingue direttamente in GenStudio for Performance Marketing.
+* Utilizzando i servizi di traduzione di Azure Open AI, i team possono tradurre in blocco il contenuto in più lingue di destinazione contemporaneamente.
+
+### Esportazione PDF per esperienze
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+* Gli addetti al marketing possono ora [esportare le esperienze in formato PDF](/help/user-guide/content/manage-assets.md#export-experiences) per scopi di revisione, approvazione e archiviazione.
+
+### Modelli personalizzati su Firefly Image Model 4
+
+* GenStudio for Performance Marketing ora supporta [modelli personalizzati basati su Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md), che offrono funzionalità avanzate di generazione delle immagini del brand con fotorealismo e dettagli migliorati.
+
+### Attivazione annuncio video singolo Meta
+
+* Gli addetti al marketing possono ora [attivare annunci Meta con risorse video singole](/help/user-guide/activation/activate-meta-ad.md) direttamente da GenStudio for Performance Marketing in Meta Ads Manager. Questo consente agli acquirenti di contenuti multimediali, ai professionisti del marketing delle prestazioni e ai team creativi di pubblicare facilmente esperienze pubblicitarie video, mantenendo lo stesso flusso di lavoro semplificato utilizzato per l’attivazione statica degli annunci.
+* Gli utenti possono configurare i dettagli video e creativi, visualizzare in anteprima come apparirà il video e attivare annunci video sulle piattaforme Meta.
+
+### CPA per tipo di azione per campagne Meta
+
+* Analizza [Costo per azione (CPA) con il monitoraggio flessibile delle conversioni](/help/user-guide/insights/ads.md) per le campagne pubblicitarie Meta.
+* Invece di una singola metrica fissa, seleziona tra più tipi di azione, ad esempio acquisti, eventi aggiuntivi al carrello, lead, visualizzazioni video o conversioni personalizzate, per calcolare e visualizzare il CPA tra campagne, annunci, risorse e attributi in [!DNL Insights].
+
+### Correzioni di problemi e miglioramenti
+
+* È stata aggiunta un’estensione SDK che consente ai clienti di connettersi ai propri DAM anziché utilizzare AEM Assets come impostazione predefinita per le risorse durante la generazione dei contenuti.
+* Gli utenti possono ora applicare [!DNL Brand] tag per raggruppare [!DNL Product] e [!DNL Persona] record per [!DNL Brand].
+* Il flusso [!DNL Experience Translations] è stato ottimizzato insieme alla nuova funzione di traduzione per File multimediali a pagamento e e-mail.
+
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.10.16
 
 ### Nuovi plug-in GenStudio per Photoshop e Figma
 
@@ -59,8 +105,9 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
    * Mantenere un’unica fonte di verità collegandosi direttamente a sistemi di terze parti
    * SDK e app di esempio forniti per la creazione di integrazioni personalizzate
 
++++
 
-## Note sulle versioni precedenti
+
 
 +++Note relative al 2025.09.11
 
@@ -148,7 +195,7 @@ Aggiungi le etichette di accessibilità (Aria-labels) alle immagini e ai collega
 
 Il nuovo menu a discesa Selettore lingua nel cassetto dei prompt supporta la creazione di contenuti multilingue, consentendo agli addetti al marketing regionale di sviluppare contenuti on-brand per il pubblico locale. Questa funzione attualmente supporta 12 lingue GA e 5 lingue Beta, con l&#39;elenco delle lingue che fornisce un flusso di lavoro definito e una chiara direttiva linguistica al LLM per output più coerenti.
 
-### Selezione del modello facoltativa per i metadati
+### Selezione del modello facoltativa per gli annunci Meta
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
@@ -162,7 +209,7 @@ La selezione del modello è ora opzionale con i metadati, che consentono agli ut
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
-I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di avviare rapidamente il processo creativo. Ora puoi effettuare la selezione da un modello iniziale di annuncio Meta o LinkedIn.
+I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di avviare rapidamente il processo creativo. Ora puoi selezionare da un modello di annuncio iniziale di Meta o LinkedIn.
 
 ### Funzionalità IA di espansione generativa
 
@@ -190,7 +237,7 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 * È ora possibile [utilizzare la formattazione di modifica del testo RTF per il testo](/help/user-guide/create/manage-variants.md#manually-edit-text) nelle varianti generate. Prova una miriade di opzioni di formattazione per il testo delle varianti, ad esempio colore, dimensioni, elenchi e altro ancora.
 
-* È ora possibile [creare un nuovo set di annunci](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante l&#39;installazione della piattaforma clonando un set di annunci esistente durante l&#39;installazione della piattaforma. I metadati definiscono la tempistica, i dettagli del canale e il pubblico per un annuncio specifico. Una Meta campaign può contenere più set di annunci, ma un set di annunci è associato esclusivamente a una campagna.
+* È ora possibile [creare un nuovo set di annunci](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante l&#39;installazione della piattaforma clonando un set di annunci esistente durante l&#39;installazione della piattaforma. I set di annunci Meta definiscono la tempistica, i dettagli del canale e il pubblico per un annuncio specifico. Una campagna Meta può contenere più set di annunci, ma un set di annunci è associato esclusivamente a una campagna.
 
 * Ora puoi esportare i dettagli della campagna per renderli accessibili esternamente come descrizione della campagna in Word o PDF. Seleziona una campagna, quindi fai clic su **[!UICONTROL Esporta]** (angolo superiore destro).
 
@@ -443,15 +490,15 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * È stata aggiunta l’estrazione di dimensioni immagine dai campi immagine del modello ai modelli di annunci di visualizzazione. Le richieste di ritaglio avanzato vengono ora inviate per la dimensione effettiva dell’immagine e non per l’intero modello. <!-- GS-6926 -->
 
-* La stringa `Zoom to fit to screen` è stata localizzata negli annunci e-mail e meta generati. <!-- GS-5063 -->
+* La stringa `Zoom to fit to screen` è stata localizzata negli annunci e-mail e Meta generati. <!-- GS-5063 -->
 
 * Il cassetto dei prompt di [!DNL Create] ora si chiude come previsto quando un utente fa clic in un altro punto. <!-- GS-5254 -->
 
-* L’esportazione dei metadati ora include l’etichetta call-to-action selezionata, come previsto. <!-- GS-6504 -->
+* l’esportazione di Meta ads ora include l’etichetta call-to-action selezionata, come previsto. <!-- GS-6504 -->
 
 * Il punteggio del marchio ora viene aggiornato e mantenuto come previsto per le esperienze rigenerate. <!-- GS-6535 -->
 
-* L&#39;esportazione HTML di annunci meta e annunci di visualizzazione non include più il wrapper `div` e gli elementi `chrome`. <!-- GS-7116 -->
+* L&#39;esportazione HTML degli annunci Meta e degli annunci di visualizzazione non include più il wrapper `div` e gli elementi `chrome`. <!-- GS-7116 -->
 
 * I problemi relativi al rendering delle bozze e-mail durante la pubblicazione ora sono risolti. <!-- GS-6394 -->
 

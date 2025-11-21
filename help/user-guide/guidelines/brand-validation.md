@@ -3,9 +3,9 @@ title: Convalida del marchio in Adobe GenStudio for Performance Marketing
 description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
+source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing esegue la convalida del brand e altri contro
 
 * [!DNL Brand] linee guida definite o predefinite
 * Linee guida per la piattaforma
-* Standard dell&#39;American with Disabilities Act (ADA)
+* [Standard dell&#39;American with Disabilities Act (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -81,8 +81,19 @@ Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;ident
 
    Utilizza il ragionamento fornito per ogni controllo per guidarti nella revisione di immagini e varianti.
 
-1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Ricontrolla il punteggio]** per ricontrollare e convalidare le modifiche per assicurarti che siano più allineate con l&#39;identità del tuo marchio, le linee guida della piattaforma e gli standard di accessibilità.
+1. Dopo aver apportato le revisioni necessarie, fai clic su **[!UICONTROL Ricontrolla il punteggio]** per ricontrollare e convalidare le modifiche in modo che siano allineate con l&#39;identità del tuo marchio, le linee guida della piattaforma e gli standard di accessibilità.
 
    Il processo di controllo del contenuto viene eseguito nuovamente. Se gli elementi rivisti superano la convalida, nella parte inferiore dell’area di lavoro viene visualizzato un banner verde per confermare che il punteggio è stato aggiornato. Se non ci sono state modifiche dopo un nuovo controllo, il banner conferma che non vi sono state modifiche al punteggio. Anche la percentuale nell&#39;icona di riepilogo del _controllo contenuto_ per la variante rivista mostra l&#39;avanzamento.
 
 1. Continua a rivedere le sezioni per garantire che l’intera variante superi i controlli di convalida e accessibilità. Naviga tra le varianti utilizzando le frecce adiacenti a una singola variante nell’area di lavoro.
+
+## Convalida dell’American with Disabilities Act (ADA)
+
+Questi controlli di accessibilità sono inclusi per la conformità legale con l&#39;American With Disabilities Act (ADA):
+
+[Contenuto non testuale WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - Assicura che le immagini forniscano un attributo `<alt>`.
+[Contrasto WCAG 1.4.3 (minimo)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - Assicura che il testo generato presenti un contrasto di 4,5:1 rispetto allo sfondo.
+[WCAG 3.1.3 Parole inusuali](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifica parole o frasi utilizzate in modo insolito o limitato, inclusi gli idiomi e il gergo.
+[Abbreviazioni WCAG 3.1.4](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - Meccanismo per identificare la forma espansa o il significato delle abbreviazioni.
+[Livello di lettura WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Assicura che il contenuto sia leggibile a un livello di istruzione secondaria inferiore.
+

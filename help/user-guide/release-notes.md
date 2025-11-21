@@ -4,7 +4,7 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Il nuovo selettore Lingua nel cassetto dei prompt supporta la creazione di conte
 
 Sono ora supportati più campi di testo con lo stesso ruolo (ad esempio, &quot;body&quot;, &quot;cta&quot;, &quot;on image text&quot;, ecc.) per modelli di clienti complessi.
 
-Esplora i dettagli in [le linee guida per l&#39;Editor di codice modello](/help/user-guide/content/code-editor.md).
+Esplora i dettagli in [le linee guida per l&#39;Editor di codice modello](/help/user-guide/templates/code-editor.md).
 
 ### Nuovi modelli di generazione di immagini Firefly supportati
 
@@ -248,7 +248,7 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 ### Correzioni di problemi e miglioramenti
 
 * È stata abilitata la funzionalità per [aggiungere testo alternativo (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a un&#39;immagine per una singola variante.
-* È stata aggiunta una [nuova proporzione Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza di 1080 pixel).
+* È stata aggiunta una [nuova proporzione Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Orizzontale 1.19:1 (larghezza di 1080 pixel).
 * Ora puoi scegliere più di un’esperienza da esportare o scaricare. Consulta [Esportare esperienze](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 ### Correzioni di problemi e miglioramenti
 
-* Nuove opzioni filtro per i modelli. Ora puoi perfezionare l&#39;elenco _[!UICONTROL Seleziona modelli]_ in [!DNL Create] e in _[!UICONTROL Contenuto]_ > _[!UICONTROL Modelli]_. Vedi [Modelli di ricerca](/help/user-guide/content/use-templates.md#search-templates). Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
+* Nuove opzioni filtro per i modelli. Ora puoi perfezionare l&#39;elenco _[!UICONTROL Seleziona modelli]_ in [!DNL Create] e in _[!UICONTROL Contenuto]_ > _[!UICONTROL Modelli]_. Vedi [Modelli di ricerca](/help/user-guide/templates/use-templates.md#search-templates). Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
 * È stata abilitata la funzionalità per [visualizzare e selezionare singoli livelli](/help/user-guide/create/manage-variants.md#view-layers) (campi di testo modificabili o immagini modificabili) di un&#39;esperienza per evidenziarli per le revisioni, ad esempio la rigenerazione di contenuto o il ritaglio di immagini.
-* È stato aggiunto [un nuovo campo modello](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, per testo aggiuntivo nelle esperienze per attirare l&#39;attenzione del pubblico ed evidenziare i messaggi di marketing.
+* È stato aggiunto [un nuovo campo modello](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline`, per testo aggiuntivo nelle esperienze per attirare l&#39;attenzione del pubblico ed evidenziare i messaggi di marketing.
 * È stato aggiunto il supporto per [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Google Campaign Manager 360. Activate supporta anteprime dettagliate degli annunci di Google Campaign Manager 360 prima di pubblicarli in un inserzionista di Campaign Manager 360. Gli annunci pubblicati tramite Activate vengono automaticamente inseriti in Insights una volta live, consentendo agli utenti di tenere traccia delle prestazioni degli annunci e di generare rapporti su di esse.
 
 +++
@@ -275,13 +275,13 @@ Gli addetti al marketing possono ora [pubblicare esperienze pubblicitarie](/help
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
-Aggiunto supporto per [la creazione di esperienze LinkedIn](/help/user-guide/create/create-linkedin.md). Consulta la scheda [LinkedIn ad](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
+Aggiunto supporto per [la creazione di esperienze LinkedIn](/help/user-guide/create/create-linkedin.md). Consulta la scheda [LinkedIn ad](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
 
 ### Creare esperienze banner
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
-È stato aggiunto il supporto per [la creazione di esperienze banner](/help/user-guide/create/create-banner-experience.md). Consulta la scheda [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
+È stato aggiunto il supporto per [la creazione di esperienze banner](/help/user-guide/create/create-banner-experience.md). Consulta la scheda [Banner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nelle linee guida specifiche per il canale.
 
 ### Conformità
 
@@ -293,12 +293,12 @@ Il nuovo [framework di estensibilità](/help/extensibility/setup.md) di GenStudi
 
 ### Modelli
 
-* **Editor di codice modello**—Il nuovo [Editor di codice modello](/help/user-guide/content/code-editor.md) ti consente di verificare e perfezionare il modello per un utilizzo ottimale durante la generazione di nuove esperienze con GenStudio for Performance Marketing.
+* **Editor di codice modello**—Il nuovo [Editor di codice modello](/help/user-guide/templates/code-editor.md) ti consente di verificare e perfezionare il modello per un utilizzo ottimale durante la generazione di nuove esperienze con GenStudio for Performance Marketing.
 
   ![Visualizzazione editor di codice](/help/assets/template-detected-fields.png "Controlla i campi rilevati"){width="500" zoomable="yes"}
 
-* **Collegamenti nell&#39;immagine** - Personalizza il modello di posta elettronica abilitando i collegamenti immagine. Vedi [Personalizzare un modello: collegamento nell&#39;immagine](/help/user-guide/content/customize-template.md#link-on-image).
-* **Modelli AJO e Marketo** - Carica un modello creato in Adobe Journey Optimizer (AJO) o Marketo. Vedi [Utilizzare i modelli di AJO e Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Collegamenti nell&#39;immagine** - Personalizza il modello di posta elettronica abilitando i collegamenti immagine. Vedi [Personalizzare un modello: collegamento nell&#39;immagine](/help/user-guide/templates/customize-template.md#link-on-image).
+* **Modelli AJO e Marketo** - Carica un modello creato in Adobe Journey Optimizer (AJO) o Marketo. Vedi [Utilizzare i modelli di AJO e Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correzioni di problemi e miglioramenti
 
@@ -336,7 +336,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 ### Genera nuovi inviti all&#39;azione
 
-È ora possibile generare nuove frasi di call-to-action (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/content/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedere Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+È ora possibile generare nuove frasi di call-to-action (CTA) durante la gestione delle varianti. Utilizza le nuove opzioni _Riformula_ e _Aggiungi collegamento_ per generare nuove frasi e modificare il collegamento di CTA. Affinché queste nuove funzioni di CTA funzionino, è necessario impostare correttamente il modello. Segui le linee guida in _Personalizzare un modello_: [Chiamate all&#39;azione](/help/user-guide/templates/customize-template.md#calls-to-action). Per le linee guida sulla gestione dei CTA nelle varianti, consulta [Rivedere Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correzioni di problemi e miglioramenti
 
@@ -382,7 +382,7 @@ Gli editor possono ora specificare valori personalizzati per questi aspetti dell
 
 * Dimensioni per le immagini in visualizzazione ed esperienze durante il caricamento dell&#39;immagine.<!-- GS-7166 -->
 
-* Consulta le linee guida specifiche per il canale in [Best practice per i modelli](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+* Consulta le linee guida specifiche per il canale in [Best practice per i modelli](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Le opzioni di esportazione ora includono:
 
@@ -446,7 +446,7 @@ Nuove funzionalità aggiuntive consentono agli editor di:
 
 ### Nuove funzioni
 
-È stato aggiunto il supporto per la visualizzazione di contenuto statico in hosting su domini esterni. GenStudio for Performance Marketing convalida l’origine di contenuto definita nel modello e ne incorpora una copia per produrre l’anteprima del modello. Vedi [Contenuto statico](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
+È stato aggiunto il supporto per la visualizzazione di contenuto statico in hosting su domini esterni. GenStudio for Performance Marketing convalida l’origine di contenuto definita nel modello e ne incorpora una copia per produrre l’anteprima del modello. Vedi [Contenuto statico](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correzioni di problemi e miglioramenti
 

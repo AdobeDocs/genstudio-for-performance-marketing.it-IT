@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 2%
@@ -37,7 +37,7 @@ GenStudio for Performance Marketing genera automaticamente i campi seguenti. Non
 - `introductory_text`
 - `cta` (Call to action)
 
-Consulta [Segnaposto di contenuto](/help/user-guide/content/customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
+Consulta [Segnaposto di contenuto](/help/user-guide/templates/customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
 ## Proporzioni supportate
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Le linee guida di GenStudio for Performance Marketing aiutano l’intelligenza a
 
 ### Richieste strutturate
 
-Per le e-mail con più sezioni, puoi strutturare i prompt per fornire istruzioni specifiche per ogni sezione in modo da generare contenuti diversi per ogni sezione di un’e-mail. I prompt strutturati devono fare riferimento direttamente a [nomi di sezione nel modello e-mail](/help/user-guide/content/customize-template.md#sections-or-groups), in modo che il contenuto generato possa essere inserito nei segnaposto di contenuto corrispondenti.
+Per le e-mail con più sezioni, puoi strutturare i prompt per fornire istruzioni specifiche per ogni sezione in modo da generare contenuti diversi per ogni sezione di un’e-mail. I prompt strutturati devono fare riferimento direttamente a [nomi di sezione nel modello e-mail](/help/user-guide/templates/customize-template.md#sections-or-groups), in modo che il contenuto generato possa essere inserito nei segnaposto di contenuto corrispondenti.
 
 Ad esempio, puoi dare istruzioni a GenStudio for Performance Marketing per generare contenuti per un’e-mail che promuove un nuovo prodotto nella prima sezione e che descrive i vantaggi di un risparmio sui costi nella seconda sezione.
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Consulta [best practice per l&#39;utilizzo dei modelli](/help/user-guide/content/best-practices-for-templates.md).
+Consulta [best practice per l&#39;utilizzo dei modelli](/help/user-guide/templates/best-practices-for-templates.md).
 
 ## Riprova
 

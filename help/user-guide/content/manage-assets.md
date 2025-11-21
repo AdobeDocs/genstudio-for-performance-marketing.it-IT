@@ -3,7 +3,7 @@ title: Gestire Assets ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 279bf9e1fab24c286df4a0600b472c456231ddb6
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Nella tabella seguente sono elencate le attività di gestione disponibili per ri
 | [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Modifica in Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Esporta esperienze](#export-experiences) |        | ✓ |           |
-| [Aggiorna](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
+| [Aggiorna](/help/user-guide/templates/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Elimina](#delete-assets) | ✓ | ✓ | ✓ |
 

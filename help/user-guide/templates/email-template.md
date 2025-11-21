@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketing genera automaticamente i campi seguenti. Ric
 - `pre_header`
 - `subject`
 
-Il numero massimo di campi consentiti in un modello è 20. Consulta [Segnaposto di contenuto](/help/user-guide/content/customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
+Il numero massimo di campi consentiti in un modello è 20. Consulta [Segnaposto di contenuto](/help/user-guide/templates/customize-template.md#content-placeholders) per ulteriori informazioni sull&#39;utilizzo dei nomi dei campi nei modelli.
 
 ## E-mail con più sezioni
 
-_Sezioni_ ti consentono di organizzare il contenuto in gruppi distinti, supportando layout più complessi. In GenStudio for Performance Marketing, puoi definire ogni sezione utilizzando una convenzione di denominazione dei gruppi. Consulta [Personalizzare le sezioni del modello](/help/user-guide/content/customize-template.md#sections-or-groups).
+_Sezioni_ ti consentono di organizzare il contenuto in gruppi distinti, supportando layout più complessi. In GenStudio for Performance Marketing, puoi definire ogni sezione utilizzando una convenzione di denominazione dei gruppi. Consulta [Personalizzare le sezioni del modello](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
 I modelli con più sezioni possono avere 0, 2 o 3 sezioni:
 

@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 * Call to action (CTA)
 * Immagine
 
-Vedi [Elementi modello](/help/user-guide/content/use-templates.md#template-elements).
+Vedi [Elementi modello](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

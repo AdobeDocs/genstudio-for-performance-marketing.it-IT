@@ -4,7 +4,7 @@ description: Scopri come trovare, modificare, riutilizzare e condividere le riso
 level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 650a32a1bbb10c17ff25c5bbb36f12cead218dfc
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -13,63 +13,116 @@ ht-degree: 1%
 
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
-In GenStudio for Performance Marketing [!DNL Content] è disponibile una posizione centrale per archiviare, trovare e condividere tutte le risorse, le esperienze e i modelli approvati dal marchio. Puoi modificare e ridefinire i contenuti, ottenere informazioni approfondite sull’utilizzo e il giudizio dei contenuti e aggiornare e riutilizzare le risorse esistenti utilizzando l’intelligenza artificiale generativa.
+In GenStudio for Performance Marketing [!DNL Content] è disponibile una posizione centrale per archiviare, trovare e condividere tutte le risorse, le esperienze e i modelli approvati dal marchio. Puoi modificare e mixare i contenuti, acquisire insight sull’utilizzo e sul sentiment dei contenuti, aggiornare e riutilizzare le risorse esistenti utilizzando l’intelligenza artificiale generativa.
 
 ## Casi di utilizzo di [!DNL Content]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="lente di ingrandimento" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search-content">
+
          <strong>Trova contenuto</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="immagini con segno più" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>Aggiungi risorse</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Modifica in Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Modifica risorse in Adobe Express</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
+
+      <a href="../templates/customize-template.md">
+
          <img alt="bullone di schiarimento sulla risorsa" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
-         <a href="../content/customize-template.md">
+
+         <a href="../templates/customize-template.md">
+
          <strong>Personalizzare un modello</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
+
+      <a href="../templates/use-templates.md">
+
          <img alt="fulmine sulla risorsa con segno più" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
-         <a href="../content/use-templates.md#upload-a-template">
+
+         <a href="../templates/use-templates.md#upload-a-template">
+
          <strong>Carica modello</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## Funzionalità di [!DNL Content]
@@ -86,4 +139,4 @@ Quando si salvano le risorse approvate, [!DNL Content] mantiene i metadati avanz
 
 ### Utilizzare i modelli
 
-I modelli velocizzano il processo di creazione per generare contenuti coerenti su più canali. Carica il modello personalizzato da utilizzare come punto di partenza nel processo di creazione con layout e elementi di progettazione preconfigurati. Scopri gli elementi e le procedure di base del modello in [Utilizzare i modelli](use-templates.md). Approfondisci la creazione di modelli con l&#39;argomento [Personalizzare un modello](customize-template.md).
+I modelli velocizzano il processo di creazione per generare contenuti coerenti su più canali. Carica il modello personalizzato da utilizzare come punto di partenza nel processo di creazione con layout e elementi di progettazione preconfigurati. Scopri gli elementi e le procedure di base del modello in [Utilizzare i modelli](../templates/use-templates.md). Approfondisci la creazione di modelli con l&#39;argomento [Personalizzare un modello](../templates/customize-template.md).

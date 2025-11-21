@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Le sezioni modificabili di un’esperienza e-mail includono:
 * Call to action (CTA)
 * Immagine
 
-Vedi [Elementi modello](/help/user-guide/content/use-templates.md#template-elements).
+Vedi [Elementi modello](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Email capabilities
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 Le esperienze e-mail possono essere suddivise in più sezioni per consentire la personalizzazione completa in base al marchio e agli obiettivi. [Seleziona [!DNL Products] e risorse visive per ogni sezione](/help/user-guide/create/create-email-experience.md#add-parameters) e utilizza [prompt strutturati](/help/user-guide/effective-prompts.md#structured-prompts) per creare contenuto univoco. Ogni sezione supporta una risorsa visiva.
 
-Consulta [personalizzazione dei modelli con sezioni](/help/user-guide/content/customize-template.md#sections-or-groups) per scoprire come creare un modello con più sezioni.
+Consulta [personalizzazione dei modelli con sezioni](/help/user-guide/templates/customize-template.md#sections-or-groups) per scoprire come creare un modello con più sezioni.
 
 ## Caricamento progressivo
 

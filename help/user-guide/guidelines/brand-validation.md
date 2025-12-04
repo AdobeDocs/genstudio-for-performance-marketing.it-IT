@@ -1,11 +1,11 @@
 ---
 title: Convalida del marchio in Adobe GenStudio for Performance Marketing
-description: Scopri come funziona il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
+description: Scopri il sistema integrato di convalida del brand in GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing esegue la convalida del brand e altri contro
 
 * [!DNL Brand] linee guida definite o predefinite
 * Linee guida per la piattaforma
-* [Standard dell&#39;American with Disabilities Act (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [Supporto per l&#39;accessibilità](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -87,13 +87,16 @@ Per massimizzare l&#39;efficacia dei contenuti generati e mantenere un&#39;ident
 
 1. Continua a rivedere le sezioni per garantire che l’intera variante superi i controlli di convalida e accessibilità. Naviga tra le varianti utilizzando le frecce adiacenti a una singola variante nell’area di lavoro.
 
-## Convalida dell’American with Disabilities Act (ADA)
+## Supporto della strategia di accessibilità
 
-Questi controlli di accessibilità sono inclusi per la conformità legale con l&#39;American With Disabilities Act (ADA):
+GenStudio for Performance Marketing include verifiche dei contenuti progettate per assistere i clienti nel supportare le proprie best practice in materia di accessibilità.
 
-[Contenuto non testuale WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - Assicura che le immagini forniscano un attributo `<alt>`.
-[Contrasto WCAG 1.4.3 (minimo)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - Assicura che il testo generato presenti un contrasto di 4,5:1 rispetto allo sfondo.
-[WCAG 3.1.3 Parole inusuali](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifica parole o frasi utilizzate in modo insolito o limitato, inclusi gli idiomi e il gergo.
-[Abbreviazioni WCAG 3.1.4](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - Meccanismo per identificare la forma espansa o il significato delle abbreviazioni.
-[Livello di lettura WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Assicura che il contenuto sia leggibile a un livello di istruzione secondaria inferiore.
+Questa funzione include i seguenti controlli del contenuto:
 
+* Le immagini forniscono un attributo `<alt>`.
+* Il testo generato presenta un contrasto di 4,5:1 rispetto allo sfondo.
+* Vengono evitate parole o frasi utilizzate in modo insolito o limitato, compresi gli idiomi e il gergo.
+* Sono disponibili forme espanse o significato delle abbreviazioni.
+* Il contenuto è leggibile a un livello di istruzione secondaria inferiore.
+
+I clienti sono incoraggiati a utilizzare queste funzioni come parte della loro strategia di accessibilità più ampia, anche se i clienti rimangono responsabili della propria conformità legale e di accessibilità.

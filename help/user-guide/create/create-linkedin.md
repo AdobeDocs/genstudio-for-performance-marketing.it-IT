@@ -4,12 +4,11 @@ description: Scopri come creare esperienze LinkedIn compatibili con il brand con
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -46,7 +45,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
-   ![Scegli utente tipo](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Scegli utente tipo](/help/assets/persona-select-linkedin.png){width="300" align="center"}
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 

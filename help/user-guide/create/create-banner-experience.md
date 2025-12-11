@@ -2,14 +2,13 @@
 title: Creare un’esperienza di banner
 description: Scopri come creare esperienze banner in Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ Al termine dell&#39;aggiunta dei parametri, comprimere il cassetto dei prompt fa
 
 Dopo aver selezionato le linee guida, utilizza il linguaggio naturale per creare un prompt per avviare la generazione dei contenuti per la nuova esperienza del banner. Per garantire risultati di alta qualità, è essenziale creare prompt dettagliati e descrittivi.
 
-![Immetti un prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
+![Immetti un prompt](/help/assets/prompt-displayad.png){width="300" align="center"}
 
 Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt effettivi](/help/user-guide/effective-prompts.md).
 
@@ -127,7 +126,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

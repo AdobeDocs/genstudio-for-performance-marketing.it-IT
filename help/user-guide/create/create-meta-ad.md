@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: d3ddbefc47d3289041783a1a277aa2e855d13ccb
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Se utilizzi un modello con linee guida predefinite (come [!DNL Brands], [!DNL Pe
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
-   ![Scegli utente tipo](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Scegli utente tipo](/help/assets/persona-select-meta.png){width="300" align="center" zoomable="yes"}
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 

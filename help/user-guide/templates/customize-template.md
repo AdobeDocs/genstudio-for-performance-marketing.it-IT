@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
+source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -222,18 +222,26 @@ Sintassi: `groupname_fieldname`
 - _Corretto_ (👍): `pod1_body`
 - _Errato_ (❌): `pod1body`
 
-Ogni sezione può utilizzare solo uno di ogni tipo di campo.A causa di questa regola, le sezioni non possono essere nidificate.
-
-Ad esempio, i campi seguenti appartengono alla sezione `pod1`:
+Ogni sezione può utilizzare solo uno di ogni tipo di campo. Ad esempio, i campi seguenti appartengono alla sezione `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
+A causa di questa regola, le sezioni non possono essere nidificate.
 
 Ogni tipo di modello, ad esempio e-mail o annuncio Meta, ha vincoli specifici per il canale sull’utilizzo delle sezioni. Consulta [linee guida specifiche per il canale](/help/user-guide/templates/best-practices-for-templates.md) nell&#39;argomento _Best practice per l&#39;utilizzo dei modelli_.
+
+Ad esempio, un modello e-mail può includere fino a tre sezioni; pertanto, puoi avere tre sezioni titolo e corpo:
+
+- `pre_header`
+- `pod1_headline`, `pod1_body`
+- `pod2_headline`, `pod2_body`
+- `pod3_headline`, `pod3_body`
+- `cta`
+
+GenStudio for Performance Marketing è consapevole che `pod1_headline` è più strettamente correlato a `pod1_body` che a `pod2_body`.
 
 >[!TIP]
 >

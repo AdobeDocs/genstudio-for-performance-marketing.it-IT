@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
 workflow-type: tm+mt
-source-wordcount: '4162'
+source-wordcount: '4225'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,15 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.11.14. {#latest}
+## 2025.12.12. {#latest}
+
+### Sostituzione logo per i modelli
+
+Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;interno dei modelli direttamente nel flusso di lavoro [!DNL Create], eliminando la necessità di creare più varianti di modello per diversi loghi del marchio, marchi secondari o linee di prodotti. Questa funzione consente ai creatori di selezionare o sostituire il logo appropriato al momento della creazione dei contenuti, semplificando la gestione dei modelli e riducendo il sovraccarico di produzione.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.11.14
 
 ### Integrazione del pubblico di Real-Time CDP
 
@@ -58,6 +66,7 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
 * Gli utenti possono ora applicare [!DNL Brand] tag per raggruppare [!DNL Product] e [!DNL Persona] record per [!DNL Brand].
 * Il flusso [!DNL Experience Translations] è stato ottimizzato insieme alla nuova funzione di traduzione per File multimediali a pagamento e e-mail.
 
++++
 
 ## Note sulle versioni precedenti
 

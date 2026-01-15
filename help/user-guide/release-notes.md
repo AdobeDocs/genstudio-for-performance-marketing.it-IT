@@ -4,9 +4,9 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2025.12.12. {#latest}
+## 2026,01 {#latest}
+
+### Riprogettazione del pannello dei prompt di HTML Canvas
+
+Il cassetto del prompt di HTML Canvas [!DNL Create] viene ora visualizzato come pannello a sinistra in E-mail, Annunci visualizzati e Annunci multimediali a pagamento, sostituendo il cassetto inferiore precedente. Questo aggiornamento mantiene le stesse funzionalità di base migliorando al contempo il layout e la coerenza dell’area di lavoro durante la generazione del contenuto.
+
+### Generazione di e-mail con più pod fino a 10 sezioni
+
+È ora possibile creare e-mail con un massimo di 10 pod/sezioni in [!DNL Create], espandendo la generazione di e-mail con più pod oltre il precedente limite di 1-3 pod. Questo miglioramento consente layout e-mail più ricchi e strutturati in un flusso di una singola generazione senza unire i contenuti su più passaggi.
+
+### Content Credentials per l&#39;autenticità delle risorse
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+GenStudio for Performance Marketing ora supporta Content Credentials, consentendo ai team di applicare e preservare i metadati di autenticità sulle risorse durante la creazione, la revisione e l’esportazione. I badge e i dettagli delle credenziali emergono nei flussi di lavoro chiave in modo che le organizzazioni possano verificare la provenienza e mantenere l’affidabilità durante la condivisione dei contenuti.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2025.12.12
 
 ### Sostituzione logo per i modelli
 
 Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;interno dei modelli direttamente nel flusso di lavoro [!DNL Create], eliminando la necessità di creare più varianti di modello per diversi loghi del marchio, marchi secondari o linee di prodotti. Questa funzione consente ai creatori di selezionare o sostituire il logo appropriato al momento della creazione dei contenuti, semplificando la gestione dei modelli e riducendo il sovraccarico di produzione.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.11.14
 
@@ -67,8 +85,6 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 * Il flusso [!DNL Experience Translations] è stato ottimizzato insieme alla nuova funzione di traduzione per File multimediali a pagamento e e-mail.
 
 +++
-
-## Note sulle versioni precedenti
 
 +++Note relative al 2025.10.16
 

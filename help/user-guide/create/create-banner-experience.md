@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Per creare un&#39;esperienza banner, utilizza un modello disponibile per fornire
 
 L&#39;incorporazione di [linee guida](/help/user-guide/guidelines/overview.md) e risorse in _Parametri_ nel cassetto dei prompt migliora il processo di generazione dei contenuti ed è un passaggio preparatorio fondamentale per la creazione di un&#39;esperienza banner.
 
+![Immettere i parametri nel cassetto delle richieste](/help/assets/prompt-displayad2.png){width="300" align="center"}
+
 **Per aggiungere parametri e risorse**:
 
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
@@ -57,8 +59,6 @@ Al termine dell&#39;aggiunta dei parametri, comprimere il cassetto dei prompt fa
 ## Immetti un prompt
 
 Dopo aver selezionato le linee guida, utilizza il linguaggio naturale per creare un prompt per avviare la generazione dei contenuti per la nuova esperienza del banner. Per garantire risultati di alta qualità, è essenziale creare prompt dettagliati e descrittivi.
-
-![Immetti un prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Per ulteriori informazioni sulla scrittura dei prompt, vedere [Scrivi prompt effettivi](/help/user-guide/effective-prompts.md).
 
@@ -103,9 +103,9 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
 1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per aprire il pannello [_Verifica contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visualizza un riepilogo delle _verifiche necessarie_ e _verifiche superate_ per vedere quali sezioni e linee guida necessitano di miglioramenti.
 
-   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){width="300"}
 
-1. [Rivedi manualmente le varianti](#revise-generated-banners) per assicurarti che siano strettamente allineate con i controlli del contenuto eseguiti.
+2. [Rivedi manualmente le varianti](#revise-generated-banners) per assicurarti che siano strettamente allineate con i controlli del contenuto eseguiti.
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 
@@ -127,7 +127,7 @@ Consulta [Recensioni e approvazioni](/help/user-guide/approvals/overview.md).
 Per rendere i banner generati disponibili per l&#39;uso corrente e futuro, pubblicarli in [!UICONTROL Contenuto] ed esportarli per utilizzarli nelle campagne di marketing.
 
 1. **Per pubblicare le nuove esperienze banner**, fai clic su **[!UICONTROL Pubblica]** nella barra degli strumenti superiore o nel flusso di approvazioni.
-   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_&#x200B;e aggiungi&#x200B;_[!UICONTROL &#x200B; Ulteriori dettagli &#x200B;]_, se necessario.
+   1. Seleziona _[!UICONTROL [!DNL Campaigns]]_e aggiungi_[!UICONTROL  Ulteriori dettagli ]_, se necessario.
    1. Fai clic su **[!UICONTROL Pubblica]**.
 
       ![Pubblica un banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

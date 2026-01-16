@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Se utilizzi un modello con linee guida predefinite (come [!DNL Brands], [!DNL Pe
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
-   ![Scegli utente tipo](/help/assets/persona-select-email2.png){width="300" align="center"}
+   ![Scegli utente tipo](/help/assets/persona-select-email2.png){width="50%" align="center"}
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -110,9 +110,9 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
 1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per aprire il pannello [_Verifica contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visualizza un riepilogo delle *verifiche necessarie* e *verifiche superate* per vedere quali sezioni e linee guida necessitano di miglioramenti.
 
-   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){width="300"}
 
-1. [Rivedi manualmente le varianti](#revise-generated-variants) per assicurarti che siano strettamente allineate con i controlli del contenuto eseguiti.
+2. [Rivedi manualmente le varianti](#revise-generated-variants) per assicurarti che siano strettamente allineate con i controlli del contenuto eseguiti.
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 

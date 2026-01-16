@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -46,7 +46,7 @@ L&#39;aggiunta di [linee guida](/help/user-guide/guidelines/overview.md) e risor
 1. Fai clic sull&#39;icona _Parametri_ per espandere il cassetto dei prompt.
 1. Nella sezione _Parametri_, selezionare linee guida—[!DNL Brands], [!DNL Personas] e [!DNL Products], per informare la creazione dei contenuti.
 
-   ![Scegli utente tipo](/help/assets/persona-select-linkedin2.png){width="300" align="center"}
+   ![Scegli utente tipo](/help/assets/persona-select-linkedin2.png){width="50%" align="center"}
 
    Se da questi menu non sono disponibili marchi, utenti tipo o prodotti, [aggiungi linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -118,9 +118,9 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
 1. Fai clic sull&#39;icona del pannello _Verifica contenuto_ nella barra delle azioni a destra per aprire il pannello [_Verifica contenuto_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visualizza un riepilogo delle *verifiche necessarie* e *verifiche superate* per vedere quali sezioni e linee guida necessitano di miglioramenti.
 
-   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Controllo contenuto_ pannello](/help/assets/content-check-panel.png){width="300"}
 
-1. [Rivedi manualmente le varianti](#revise-generated-linkedin-ads) per assicurarti che le varianti siano strettamente allineate ai controlli del contenuto completati.
+2. [Rivedi manualmente le varianti](#revise-generated-linkedin-ads) per assicurarti che le varianti siano strettamente allineate ai controlli del contenuto completati.
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 

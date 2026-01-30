@@ -60,7 +60,7 @@ Per creare un modello compatibile con GenStudio:
 1. Aprire un documento in Photoshop.
 1. Identifica un livello di testo per il contenuto generato.
 1. Rinominare il livello con il formato di convenzione del nome campo: `{<name_of_generated_field>}`. Ad esempio, `{body}`, `{headline}` e `{cta}`.
-1. Rinominare i livelli per tutti i [ campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
+1. Rinominare i livelli per tutti i [&#x200B; campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
 
 | Canale | Campi obbligatori per la generazione | Campi facoltativi per la generazione |
 | --- | --- | --- |

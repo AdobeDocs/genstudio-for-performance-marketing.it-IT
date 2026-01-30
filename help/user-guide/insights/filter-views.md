@@ -4,9 +4,9 @@ description: Scopri come utilizzare le funzionalità di filtro avanzate con Insi
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Nel tempo, l’elenco di campagne e annunci potrebbe crescere in modo esponenzia
 
    ![Elenco campagne](/help/assets/insights-select-campaigns-list.png "Seleziona campagne da includere")
 
-Le campagne selezionate vengono ora visualizzate nell&#39;elenco _[!UICONTROL Filtra per]_ sopra la tabella o la raccolta di annunci. Puoi concentrarti esclusivamente sugli annunci collegati alle campagne selezionate. In questo esempio, i risultati filtrati includono 6 annunci, che forniscono una visualizzazione più mirata per l’analisi.
+Le campagne selezionate vengono ora visualizzate nell&#39;elenco _[!UICONTROL Filtra per]_ sopra la tabella o la raccolta di annunci. Puoi concentrarti esclusivamente sugli annunci collegati alle campagne selezionate. In questo esempio, i risultati filtrati forniscono una visualizzazione più mirata per l’analisi.
 
 ![Tabella filtrata per campagne](/help/assets/insights-filter-by-campaigns.png "Tabella con filtro campagne"){zoomable="yes"}
 

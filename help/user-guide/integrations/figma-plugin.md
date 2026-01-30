@@ -27,7 +27,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
 
 ## Creare un modello
 

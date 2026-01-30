@@ -27,7 +27,7 @@ Le funzioni di questo plug-in includono:
 * Creare traduzioni di contenuti sul marchio
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3478808?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478828?captions=ita&learn=on)
 
 ## Installare il plug-in
 

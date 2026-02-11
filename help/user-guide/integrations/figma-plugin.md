@@ -295,4 +295,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).

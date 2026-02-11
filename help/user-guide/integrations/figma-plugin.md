@@ -3,9 +3,10 @@ title: Plug-in Figma per Adobe GenStudio for Performance Marketing
 description: Scopri come configurare e utilizzare il plug-in Figma per GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
-source-git-commit: bb6b8de80bdf6089e70756bea5dbf3e6a7945052
+exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
+source-git-commit: c6080555812fa82a7b71eee7e2deb963a881d9f4
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '2124'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creare un modello
 
@@ -147,6 +148,117 @@ Le opzioni includono:
 
 Dopo aver selezionato un&#39;opzione **[!UICONTROL Azione]**, rigenera il contenuto con il pulsante **[!UICONTROL Rigenera]**.
 
+## Generare un’immagine
+
+Genera immagini da utilizzare nei modelli utilizzando un prompt di testo.
+
+1. Selezionare **[!UICONTROL Genera immagine]**.
+1. Seleziona un modello dal menu a discesa. Puoi anche scegliere qualsiasi modello personalizzato creato.
+1. Seleziona l’icona delle impostazioni per regolare le impostazioni di generazione.
+1. Facoltativo: selezionare le proporzioni.
+1. Facoltativo: regolare lo stile dell&#39;immagine eseguendo una delle operazioni seguenti:
+   * Carica un&#39;immagine di riferimento dal dispositivo o da AEM selezionando **[!UICONTROL Carica immagine]**.
+   * Scegli una delle immagini stock di Adobe selezionando **[!UICONTROL Sfoglia raccolta]**.
+   * Scegliete un valore di forza utilizzando il cursore. L&#39;opzione Forza consente di regolare il livello di aderenza di Firefly allo stile fornito.
+1. Selezionare il pulsante **&lt;**.
+1. Immetti un prompt.
+1. Seleziona l’icona Genera. Le immagini vengono visualizzate nel pannello del plug-in.
+1. Applica le immagini all&#39;area di lavoro utilizzando uno dei seguenti metodi:
+   * Trascina e rilascia qualsiasi immagine nell’area di lavoro.
+   * Selezionate un fotogramma nell&#39;area di lavoro di Figma e selezionate un&#39;immagine da inserire nel fotogramma nella finestra del plug-in.
+   * Seleziona l’icona Carica per caricare un’immagine nell’area di lavoro.
+   * Selezionare i 3 punti e **[!UICONTROL Scaricare tutto in Figma]**.
+1. Facoltativo: selezionare i 3 punti per eseguire ulteriori azioni:
+   * Selezionare **[!UICONTROL Genera altro]** per eseguire di nuovo il prompt.
+   * Selezionare **[!UICONTROL Copia prompt]** per copiare il prompt.
+1. Facoltativo: selezionare l&#39;icona della matita per utilizzare il riempimento Generativo e generare azioni simili su una singola immagine.
+
+## Genera immagini simili
+
+Genera un set di immagini simili.
+
+1. Seleziona la scheda **[!UICONTROL Genera simili]**.
+1. Selezionate un&#39;immagine come riferimento effettuando una delle seguenti operazioni:
+   * Selezionare un&#39;immagine nell&#39;area di lavoro di Figma.
+   * Seleziona **[!UICONTROL Carica immagine]** da caricare dal dispositivo.
+   * Seleziona **[!UICONTROL Sfoglia risorse AEM]** da caricare da AEM.
+1. Seleziona l’icona Genera. Le varianti vengono visualizzate nel pannello plugin.
+1. Applica le immagini all&#39;area di lavoro utilizzando uno dei seguenti metodi:
+   * Trascina e rilascia qualsiasi immagine nell’area di lavoro.
+   * Selezionate un fotogramma nell&#39;area di lavoro di Figma e selezionate un&#39;immagine da inserire nel fotogramma nella finestra del plug-in.
+   * Seleziona l’icona Carica per caricare un’immagine nell’area di lavoro.
+   * Selezionare i 3 punti e **[!UICONTROL Scaricare tutto in Figma]**.
+1. Facoltativo: selezionare i 3 punti per eseguire ulteriori azioni:
+   * Selezionare **[!UICONTROL Genera altro]** per eseguire di nuovo il prompt.
+1. Facoltativo: selezionare l&#39;icona della matita per utilizzare il riempimento Generativo e generare azioni simili su una singola immagine.
+
+## Rimuovere lo sfondo
+
+Rimuovere lo sfondo di un&#39;immagine.
+
+1. Selezionare la scheda **[!UICONTROL Rimuovi sfondo]**.
+1. Selezionate un&#39;immagine come riferimento effettuando una delle seguenti operazioni:
+   * Selezionare un&#39;immagine nell&#39;area di lavoro di Figma.
+   * Seleziona **[!UICONTROL Carica immagine]** da caricare dal dispositivo.
+   * Seleziona **[!UICONTROL Sfoglia risorse AEM]** da caricare da AEM.
+1. Selezionare **[!UICONTROL Rimuovi]**. Se l’immagine è stata selezionata dall’area di lavoro, viene sostituita da quest’ultima. Se l&#39;immagine è stata selezionata da un dispositivo o da AEM, è possibile trascinarla nell&#39;area di lavoro oppure selezionare **[!UICONTROL Inserisci immagine]** per inserire l&#39;immagine nell&#39;area di lavoro.
+
+## Riempimento generativo
+
+Applicare riempimenti generativi per un&#39;area di un&#39;immagine.
+
+1. Selezionare la scheda **[!UICONTROL Riempimento generativo]**.
+1. Selezionate un&#39;immagine come riferimento effettuando una delle seguenti operazioni:
+   * Selezionare un&#39;immagine nell&#39;area di lavoro di Figma.
+   * Seleziona **[!UICONTROL Carica immagine]** da caricare dal dispositivo.
+   * Seleziona **[!UICONTROL Sfoglia risorse AEM]** da caricare da AEM.
+1. Selezionate lo strumento pennello e create una maschera.
+1. Facoltativo: selezionare il punto di inserimento a discesa e regolare la dimensione del pennello.
+1. Selezionare il pulsante Reimposta per rimuovere la maschera.
+1. Se necessario, seleziona l’icona Rimuovi sfondo per rimuovere lo sfondo.
+1. Immetti un prompt per guidare la generazione della maschera selezionata e seleziona il pulsante **[!UICONTROL Genera]**.
+1. Applica le immagini all&#39;area di lavoro utilizzando uno dei seguenti metodi:
+   * Trascina e rilascia qualsiasi immagine nell’area di lavoro.
+   * Selezionate un fotogramma nell&#39;area di lavoro di Figma e selezionate un&#39;immagine da inserire nel fotogramma nella finestra del plug-in.
+   * Seleziona l’icona Carica per caricare un’immagine nell’area di lavoro.
+   * Selezionare i 3 punti e **[!UICONTROL Scaricare tutto in Figma]**.
+1. Facoltativo: selezionare i 3 punti per eseguire ulteriori azioni:
+   * Selezionare **[!UICONTROL Copia prompt]** per copiare il prompt.
+1. Facoltativo: selezionare l&#39;icona della matita per utilizzare il riempimento Generativo e generare azioni simili su una singola immagine.
+
+## Richiedi modifica
+
+Modifica il contenuto di un’immagine con un prompt di testo.
+
+1. Selezionare la scheda **[!UICONTROL Richiedi modifica]**.
+1. Selezionate un&#39;immagine come riferimento effettuando una delle seguenti operazioni:
+   * Selezionare un&#39;immagine nell&#39;area di lavoro di Figma.
+   * Seleziona **[!UICONTROL Carica immagine]** da caricare dal dispositivo.
+   * Seleziona **[!UICONTROL Sfoglia risorse AEM]** da caricare da AEM.
+1. Seleziona l’icona delle impostazioni per regolare le impostazioni di generazione.
+1. Facoltativo: selezionare le proporzioni e il pulsante **&lt;**.
+1. Immetti un prompt per guidare la generazione e seleziona il pulsante **[!UICONTROL Genera]**.
+1. Applica le immagini all&#39;area di lavoro utilizzando uno dei seguenti metodi:
+   * Trascina e rilascia qualsiasi immagine nell’area di lavoro.
+   * Selezionate un fotogramma nell&#39;area di lavoro di Figma e selezionate un&#39;immagine da inserire nel fotogramma nella finestra del plug-in.
+   * Seleziona l’icona Carica per caricare un’immagine nell’area di lavoro.
+   * Selezionare i 3 punti e **[!UICONTROL Scaricare tutto in Figma]**.
+1. Facoltativo: selezionare i 3 punti per eseguire ulteriori azioni:
+   * Selezionare **[!UICONTROL Genera altro]** per eseguire di nuovo il prompt.
+   * Selezionare **[!UICONTROL Copia prompt]** per copiare il prompt.
+1. Facoltativo: selezionare l&#39;icona della matita per utilizzare il riempimento Generativo e generare azioni simili su una singola immagine.
+
+## Espansione generativa
+
+Espandi le dimensioni delle immagini e aggiungi contenuti generativi con Espandi generativo. L’espansione generativa consente di trasformare immagini inadatte nelle proporzioni più adatte per i modelli di banner, annunci Meta, annunci LinkedIn o annunci di visualizzazione.
+
+1. Seleziona la scheda **[!UICONTROL Espandi generativi]**.
+1. Seleziona un’immagine nell’area di lavoro.
+1. Ridimensionare il fotogramma temporaneo di espansione della generazione in base alle nuove dimensioni desiderate.
+1. Facoltativo: spostare l&#39;immagine in qualsiasi punto all&#39;interno della cornice.
+1. Immetti un prompt per guidare la generazione e seleziona il pulsante **[!UICONTROL Genera]**.
+1. Seleziona un’immagine nell’area di lavoro per sostituire l’immagine originale con il risultato generato.
+
 ## Esportare esperienze
 
 Le varianti possono essere esportate da Figma come GenStudio for Performance Marketing [!DNL Experiences].
@@ -183,4 +295,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).

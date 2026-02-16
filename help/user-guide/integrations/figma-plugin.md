@@ -4,9 +4,9 @@ description: Scopri come configurare e utilizzare il plug-in Figma per GenStudio
 feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
-source-git-commit: e585c6ff70198fe572b21252ab00b9b1ad368d02
+source-git-commit: 4ab7e82336bfa6907331b0684253e48066e7d021
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Plug-in Figma per GenStudio for Performance Marketing
 
 Il plug-in GenStudio for Performance Marketing Figma aggiunge un nuovo pannello all’applicazione Figma che consente di generare contenuti on-brand.
+[Trova e installa il plug-in dal marketplace della community Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Questa pagina descrive come configurare e utilizzare il plug-in.
 
@@ -28,7 +29,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creare un modello
 
@@ -184,4 +185,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).

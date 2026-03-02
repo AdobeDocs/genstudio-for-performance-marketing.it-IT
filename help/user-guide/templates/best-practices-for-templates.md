@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -39,12 +39,12 @@ Vedi [Elementi modello](use-templates.md#template-elements).
 
 Il testo segnaposto può essere utile per definire la sintassi o la struttura del contenuto da compilare successivamente in un modello da parte di un utente. Ad esempio, {first_name}.{last_name}@email.etc. per definire un indirizzo e-mail. Tuttavia, alcuni delimitatori comuni sono già riservati ad altri significati in GenStudio for Performance Marketing:
 
-❌ &lt; > - In uso per i tag HTML.
-❌ {{ }}{{ }} - In uso per le espressioni Handlebar.
+❌ `< >` - In uso per i tag HTML.
+❌ `{{ }}` - In uso per le espressioni Handlebar.
 
 Utilizzare parentesi uniche (rette o ricce) per indicare il testo segnaposto per evitare confusione con i tag esistenti.
 
-✅ {first_name} - Segnaposto per nome.
+✅ `{first_name}` - Segnaposto per nome.
 
 ## Configurare le linee guida per i canali
 

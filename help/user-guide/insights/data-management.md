@@ -3,12 +3,12 @@ title: Gestione dati
 description: Scopri come acquisire e archiviare dati per  [!DNL Insights]  in GenStudio for Performance Marketing.
 feature: Reporting and Insights
 level: Experienced
-role: Admin, Data Architect
+role: Admin, Developer
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 7cd8067ab272da971ad41a3853c0fa52c328cf0a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Presta attenzione e non eliminare le seguenti connessioni dati necessarie per il
 - Connessioni AEP: flussi di dati con prefisso `GS Insights`
 - Connessioni AEP: account GS Insights
 
-Consulta [Eliminare le implicazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/deletion) nella guida _Customer Journey Analytics_ prima di eliminare qualsiasi componente dati in AEP.
+Consulta [Eliminare le implicazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) nella guida _Customer Journey Analytics_ prima di eliminare qualsiasi componente dati in AEP.
 
 >[!ENDSHADEBOX]
 

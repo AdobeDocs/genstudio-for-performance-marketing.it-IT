@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVIATO
 
-Questo archivio è stato migrato a GHEC: <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.en>
+Questo archivio è stato migrato a GHEC: <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.it-IT>

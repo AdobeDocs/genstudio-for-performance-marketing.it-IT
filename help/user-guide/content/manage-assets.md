@@ -3,10 +3,16 @@ title: Gestire Assets ed esperienze
 description: Semplifica e migliora la gestione delle risorse approvate dal marchio da utilizzare e riutilizzare nel percorso di marketing digitale.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 1%
+source-wordcount: 1518
+ht-degree: 0%
 
 ---
 
@@ -38,11 +44,11 @@ Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Assets]**.
 
-1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l&#39;archivio predefinito.
+1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l’archivio predefinito.
 
    >[!IMPORTANT]
    >
-   >L&#39;elenco _Posizione_ è disponibile solo quando si esegue la [connessione a un repository AEM](connect-aem-repo.md).
+   L&#39;elenco _Posizione_ è disponibile solo quando si esegue la [connessione a un repository AEM](connect-aem-repo.md).
 
 1. Fare clic su **[!UICONTROL Cerca]** (lente di ingrandimento) per immettere una parola chiave o una descrizione.
 
@@ -54,7 +60,7 @@ Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’
 
    Fai clic su **[!UICONTROL Scarica]** (freccia giù) per utilizzare la risorsa nella workstation locale.
 
-### Dove si trova
+### Posizione
 
 Per impostazione predefinita, le risorse aggiunte a [!DNL Content] tramite il processo [!DNL Create] o il caricamento vengono archiviate nell&#39;archivio `GenStudio assets`. L&#39;archivio `GenStudio assets` è di lettura/scrittura in GenStudio for Performance Marketing. Ciò significa che è possibile salvare, modificare ed eliminare le risorse nell&#39;archivio `GenStudio assets`.
 
@@ -78,7 +84,7 @@ In [!UICONTROL Contenuto] puoi archiviare, recuperare e gestire facilmente le ri
 
 Nella tabella seguente sono elencate le attività di gestione disponibili per risorse, esperienze e modelli:
 
-| Attività | Risorse | Esperienze | Modelli |
+| Attività | Assets | Esperienze | Modelli |
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [Visualizza dettagli](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Crea esperienza](/help/user-guide/create/overview.md) |        |             | ✓ |
@@ -142,7 +148,7 @@ Puoi selezionare una o più esperienze approvate da scaricare in un formato comp
 
 >[!WARNING]
 >
->Le risorse recuperate non sono sicure da visualizzare senza bonifica. Tutti gli utenti devono gestire cross-site scripting (XSS) dai modelli utilizzando tecniche di bonifica di input alla fine.
+Le risorse recuperate non sono sicure da visualizzare senza bonifica. Tutti gli utenti devono gestire cross-site scripting (XSS) dai modelli utilizzando tecniche di bonifica di input alla fine.
 
 **Per esportare o scaricare esperienze**:
 
@@ -197,6 +203,6 @@ Criteri per migliorare le immagini con la funzionalità [!DNL Edit in Adobe Expr
 
    >[!TIP]
    >
-   >Maggiore è il numero di dettagli forniti, maggiori saranno le funzionalità di GenStudio for Performance Marketing. Selezionare uno o più dettagli dall&#39;elenco o immetterne uno nuovo, se applicabile, ad esempio con parole chiave. Ogni dettaglio aggiunto viene visualizzato sotto l&#39;elenco. Fare clic su **`x`** per rimuovere un dettaglio.
+   Maggiore è il numero di dettagli forniti, maggiori saranno le funzionalità di GenStudio for Performance Marketing. Selezionare uno o più dettagli dall&#39;elenco o immetterne uno nuovo, se applicabile, ad esempio con parole chiave. Ogni dettaglio aggiunto viene visualizzato sotto l&#39;elenco. Fare clic su **`x`** per rimuovere un dettaglio.
 
 1. Fai clic su **[!UICONTROL Salva]**.

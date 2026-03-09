@@ -4,9 +4,15 @@ description: Scopri le funzioni e i miglioramenti più recenti di Adobe GenStudi
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c7300b3f531947081253aaf719e099512b419539
+TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: 4448
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026,01 {#latest}
+## 2026.01 {#latest}
 
 ### Riprogettazione del pannello dei prompt di HTML Canvas
 
@@ -56,7 +62,7 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 ### Traduzione preconfigurata per file multimediali a pagamento e e-mail
 
 * Traduci all’istante le esperienze di e-mail e contenuti multimediali a pagamento approvati in oltre 40 lingue direttamente in GenStudio for Performance Marketing.
-* Utilizzando i servizi di traduzione di Azure Open AI, i team possono tradurre in blocco il contenuto in più lingue di destinazione contemporaneamente.
+* Utilizzando i servizi di traduzione Azure Open AI, i team possono tradurre in blocco i contenuti in più lingue di destinazione contemporaneamente.
 
 ### Esportazione PDF per esperienze
 
@@ -192,7 +198,7 @@ Per informazioni dettagliate sull&#39;utilizzo di questi nuovi modelli per la ge
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
-Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di traduzione e-mail che consentono agli esperti di marketing di scalare in modo efficiente le campagne e-mail a livello globale. Questa funzione consente di prendere un’esperienza e-mail approvata e tradurla in più lingue di destinazione utilizzando i servizi di traduzione di Azure Open AI.
+Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di traduzione e-mail che consentono agli esperti di marketing di scalare in modo efficiente le campagne e-mail a livello globale. Questa funzione consente di prendere un’esperienza e-mail approvata e tradurla in più lingue di destinazione utilizzando i servizi di traduzione Azure Open AI.
 
 +++
 
@@ -224,7 +230,7 @@ Il nuovo menu a discesa Selettore lingua nel cassetto dei prompt supporta la cre
 
 [!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
 
-La selezione del modello è ora opzionale con i metadati, che consentono agli utenti di creare annunci senza richiedere testo e logo nella parte superiore del supporto. Questo miglioramento consente di utilizzare altri tipi di file multimediali, ad esempio GIF animate e video, che potrebbero non richiedere sovrapposizioni di testo o il posizionamento di un logo.
+La selezione dei modelli è ora opzionale con gli annunci Meta, consentendo agli utenti di creare annunci senza richiedere testo e logo nella parte superiore del file multimediale. Questo miglioramento consente di utilizzare altri tipi di file multimediali, ad esempio GIF animate e video, che potrebbero non richiedere sovrapposizioni di testo o il posizionamento di un logo.
 
 +++
 
@@ -250,7 +256,7 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 ### Correzioni di problemi e miglioramenti
 
-* È stato aggiunto il supporto per [la pubblicazione di esperienze pubblicitarie](/help/user-guide/activation/activate-linkedin-ad.md) da GenStudio for Performance Marketing in LinkedIn Campaign Manager. [!DNL Activate] supporta anteprime dettagliate di annunci LinkedIn prima della pubblicazione in LinkedIn Campaign Manager.
+* È stato aggiunto il supporto per [la pubblicazione di esperienze pubblicitarie](/help/user-guide/activation/activate-linkedin-ad.md) da GenStudio for Performance Marketing in LinkedIn Campaign Manager. [!DNL Activate] supporta anteprime di annunci LinkedIn dettagliate prima della pubblicazione in LinkedIn Campaign Manager.
 
 * L&#39;integrazione di [Workfront Proof](/help/user-guide/approvals/overview.md) offre a GenStudio for Performance Marketing le solide funzionalità di revisione e approvazione di Proof. I contenuti esaminati in GenStudio for Performance Marketing vengono sincronizzati con Workfront Proof e i commenti e lo stato di revisione vengono mantenuti.
 
@@ -294,7 +300,7 @@ Oltre al contenuto dell&#39;immagine, ora puoi aggiungere video agli annunci [Li
 
 ### Attivare gli annunci Meta
 
-Gli addetti al marketing possono ora [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Meta Ads Manager. [!DNL Activate] supporta anteprime dettagliate di annunci Meta prima della distribuzione. Gli annunci Meta pubblicati tramite [!DNL Activate] vengono automaticamente estratti in [!DNL Insights] una volta live, consentendo agli utenti di tenere traccia e creare rapporti sulle prestazioni degli annunci.
+Gli addetti al marketing possono ora [pubblicare esperienze pubblicitarie](/help/user-guide/activation/overview.md) da GenStudio for Performance Marketing in Meta Ads Manager. [!DNL Activate] supporta anteprime di annunci Meta dettagliate prima della distribuzione. Gli annunci Meta pubblicati tramite [!DNL Activate] vengono automaticamente estratti in [!DNL Insights] una volta live, consentendo agli utenti di tenere traccia e creare rapporti sulle prestazioni degli annunci.
 
 ### Creare esperienze LinkedIn
 
@@ -371,7 +377,7 @@ I programmi Beta consentono di definire lo sviluppo dei prodotti e determinare l
 
 * Gli editor di contenuti ora possono modificare i metadati di risorse, esperienze e modelli. <!-- GS-4905 -->
 
-* Sono ora supportate le dimensioni di immagine personalizzate all’interno dei modelli di annunci multimediali. <!-- GS-7512 -->
+* Sono ora supportate dimensioni immagine personalizzate all’interno dei modelli di annunci Meta. <!-- GS-7512 -->
 
 * Le selezioni di persone, marchi e prodotti vengono ora precaricate durante la generazione del modello. <!-- GS-8069 -->
 
@@ -511,7 +517,7 @@ Questa versione include miglioramenti alla localizzazione in tutta l’interfacc
 
 * La selezione di **[!UICONTROL Elimina]** dal menu azioni [!DNL Create] (...) ora funziona come previsto. <!-- GS-6871 -->
 
-* Gli utenti possono ora controllare tutti gli elementi interattivi del modello di Meta Ad con la sola tastiera. <!-- GS-4066 -->
+* Gli utenti possono ora controllare tutti gli elementi interattivi dei modelli di annunci Meta solo tramite la tastiera. <!-- GS-4066 -->
 
 * È stata aggiunta l’estrazione di dimensioni immagine dai campi immagine del modello ai modelli di annunci di visualizzazione. Le richieste di ritaglio avanzato vengono ora inviate per la dimensione effettiva dell’immagine e non per l’intero modello. <!-- GS-6926 -->
 
@@ -569,7 +575,7 @@ Questa versione introduce Adobe GenStudio for Performance Marketing, un’applic
 
 Le principali caratteristiche del prodotto includono:
 
-**[!DNL Create]** introduce Canvas, che offre un&#39;esperienza di richiesta strutturata che consente agli editor di contenuto di generare rapidamente contenuti e varianti. I responsabili di sistema addestrano il prodotto in base alle linee guida del marchio dell’organizzazione. [!DNL Create] garantisce che tutti i contenuti generati dall&#39;intelligenza artificiale siano in linea con le linee guida del tuo marchio (branding, utenti tipo e descrizioni dei prodotti) e semplifica la produzione di contenuti di marketing di forte impatto e coerenti con il marchio.
+**[!DNL Create]** introduce Canvas, che offre un&#39;esperienza di richiesta strutturata che consente agli editor di contenuto di generare rapidamente contenuti e varianti. I responsabili di sistema addestrano il prodotto in base alle linee guida del marchio dell’organizzazione. [!DNL Create] garantisce che tutti i contenuti generati dall’intelligenza artificiale siano allineati alle linee guida del brand (branding, utenti tipo e descrizioni dei prodotti) e semplifica la produzione di contenuti di marketing di forte impatto e coerenti con il brand.
 
 **[!DNL Content]** archivia risorse ed esperienze approvate e curate, conformi al brand. Gli utenti di GenStudio for Performance Marketing possono trovare, modificare, riutilizzare e condividere facilmente le risorse approvate, riducendo la necessità di ricreare contenuti da zero per ogni campagna.
 

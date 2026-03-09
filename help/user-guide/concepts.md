@@ -4,16 +4,22 @@ description: Scopri i concetti e la terminologia di Adobe GenStudio for Performa
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 754
 ht-degree: 0%
 
 ---
 
 # Concetti
 
-GenStudio for Performance Marketing è un prodotto aziendale indipendente che incorpora la catena di fornitura dei contenuti di Adobe per semplificare le campagne di marketing. È difficile creare contenuti personalizzati e approvati dal marchio su larga scala, monitorare l’efficacia e adattarsi rapidamente a un mercato in continua evoluzione. GenStudio for Performance Marketing riunisce Creative Cloud e Experience Cloud in un’unica applicazione che sfrutta l’intelligenza artificiale generativa come moltiplicatore delle prestazioni per i team di marketing aziendali.
+GenStudio for Performance Marketing è un prodotto enterprise indipendente che incorpora il content supply chain di Adobe per semplificare le campagne di marketing. È difficile creare contenuti personalizzati e approvati dal marchio su larga scala, monitorare l’efficacia e adattarsi rapidamente a un mercato in continua evoluzione. GenStudio for Performance Marketing riunisce Creative Cloud e Experience Cloud in un’unica applicazione che sfrutta l’intelligenza artificiale generativa come moltiplicatore delle prestazioni per i team di marketing aziendali.
 
 Con GenStudio for Performance Marketing è possibile:
 
@@ -39,7 +45,7 @@ GenStudio for Performance Marketing utilizza la serie GPT di LLM di terze parti 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, come definito nella [descrizione del prodotto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/it/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sono le unità che quantificano l&#39;utilizzo delle funzionalità di intelligenza artificiale generativa in GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, come definito nella [descrizione del prodotto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sono le unità che quantificano l&#39;utilizzo delle funzionalità di intelligenza artificiale generativa in GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +54,11 @@ If genactions roll over month to month or not -->
 
 ### Tariffe
 
-Ricevi un&#39;assegnazione predefinita di [!DNL Generative Actions] come descritto nella [descrizione del prodotto GenStudio for Performance Marketing](https://helpx.adobe.com/it/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Ricevi un&#39;assegnazione predefinita di [!DNL Generative Actions] come descritto nella [descrizione del prodotto GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->Le percentuali di utilizzo possono variare. I piani sono soggetti a modifiche. Per informazioni aggiornate sulla tariffa, consulta la [descrizione del prodotto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/it/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Le percentuali di utilizzo possono variare. I piani sono soggetti a modifiche. Per informazioni aggiornate sulla tariffa, consulta la [descrizione del prodotto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 Le seguenti funzioni utilizzano [!DNL Generative Actions] alla velocità specificata.
 
@@ -77,7 +83,7 @@ Le seguenti funzioni utilizzano [!DNL Generative Actions] alla velocità specifi
 
 >[!TIP]
 >
->Se superi il limite di [!DNL Generative Actions], puoi acquistare altri prodotti direttamente dal rappresentante del tuo account.
+Se superi il limite di [!DNL Generative Actions], puoi acquistare altri prodotti direttamente dal rappresentante del tuo account.
 
 ## Governance dei dati
 
@@ -91,88 +97,47 @@ Quando viene visualizzato questo messaggio, puoi modificare il prompt e riprovar
 
 ## Ciclo di vita dei contenuti
 
-La domanda è elevata per esperienze di qualità su più canali a un ritmo più veloce. GenStudio for Performance Marketing semplifica la catena di distribuzione dei contenuti in un flusso di lavoro ben organizzato per gli esperti di marketing. GenStudio for Performance Marketing sfrutta la tecnologia Adobe in ogni fase del ciclo di vita.
+La domanda è elevata per esperienze di qualità su più canali a un ritmo più veloce. GenStudio for Performance Marketing semplifica il supply chain dei contenuti in un flusso di lavoro ben organizzato per gli esperti di marketing. GenStudio for Performance Marketing sfrutta la tecnologia Adobe in ogni fase del ciclo di vita.
 
 <table style="table-layout:auto">
-
 <tr style="border: 0;">
-
     <td>
-
        <p><strong>Flusso di lavoro e pianificazione</strong></p>
-
     </td>
-
     <td>
-
         <p>Brainstorming sulle idee, definizione di linee guida e creazione di una strategia basata sui contenuti per coinvolgere il pubblico.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Creazione e produzione</strong></p>
-
     </td>
-
     <td>
-
         <p>Produrre il contenuto in base al piano. Collabora in tempo reale, ricevi feedback, apporta modifiche e approva contenuti.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Gestione dei contenuti</strong></p>
-
     </td>
-
     <td>
-
         <p>Archivia, condividi e trova le risorse creative nell’archivio centralizzato. Riutilizzare e rivitalizzare i contenuti in base alle prestazioni.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Consegna e attivazione</strong></p>
-
     </td>
-
     <td>
-
         <p>Attiva i contenuti e pubblicali su più canali di marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Reporting e approfondimenti</strong></p>
-
     </td>
-
     <td>
-
         <p>Raccogli dati e ottieni informazioni approfondite per ottimizzare le prestazioni delle risorse.</p>
-
     </td>
-
 </tr>
-
 </table>

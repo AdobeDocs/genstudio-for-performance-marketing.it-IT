@@ -4,9 +4,16 @@ description: Scopri come attivare i contenuti con Adobe Experience Cloud e appli
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+TQID: https://experienceleague.adobe.com/-Nal0YqjTzKw4g2SM3IuMf0a13e87CWdTqBZPd0dBkU
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
@@ -27,7 +34,7 @@ Prima di poter attivare un’esperienza pubblicitaria, ogni account del canale m
 
 * [Crea un&#39;attivazione](create-activation.md). Puoi creare un’esperienza pubblicitaria selezionando le risorse visive, assegnando il testo e definendo i metadati prima di inviarli a un canale a pagamento.
 
-* [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_&#x200B;fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
+* [Gestione attivazioni](manage-activations.md). _[!DNL Activate]_fornisce una panoramica di tutte le esperienze attivate. Puoi anche visualizzare i dettagli delle singole attivazioni.
 
 ## Attiva funzionalità
 
@@ -47,4 +54,4 @@ Cerca e seleziona le risorse visive approvate da [!DNL Content] oppure carica le
 
 ### Visualizzare in anteprima e attivare l’esperienza in un canale di annunci
 
-Conferma gli account canale a pagamento, i set di annunci e le campagne Meta associati a questa attivazione dell’annuncio. Il pannello _Anteprima_ consente di visualizzare le esperienze pubblicitarie in diversi posizionamenti prima di finalizzarle. (Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.) Quando sei soddisfatto della tua esperienza pubblicitaria, fai clic su **[!UICONTROL Pubblica]** per inviare l&#39;esperienza e i metadati associati al canale dell&#39;annuncio a pagamento.
+Conferma gli account del canale a pagamento, i set di annunci e le campagne Meta associati a questa attivazione dell’annuncio. Il pannello _Anteprima_ consente di visualizzare le esperienze pubblicitarie in diversi posizionamenti prima di finalizzarle. (Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.) Quando sei soddisfatto della tua esperienza pubblicitaria, fai clic su **[!UICONTROL Pubblica]** per inviare l&#39;esperienza e i metadati associati al canale dell&#39;annuncio a pagamento.

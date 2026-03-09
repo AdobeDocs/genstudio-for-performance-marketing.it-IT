@@ -4,9 +4,15 @@ description: Scopri il processo di revisione e approvazione di GenStudio for Per
 level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 7955796949c17f7cd877b115cba45c58cdd614a7
+TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 890
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ Il flusso di lavoro di revisione e approvazione assicura che tutte le parti inte
 
 >[!NOTE]
 >
-> Questa funzione è disponibile anche come integrazione [con Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Questa integrazione offre funzionalità di verifica nell’area di lavoro di GenStudio for Performance Marketing. Con l’integrazione di Workfront Proof, GenStudio for Performance Marketing ottiene un processo di revisione più strutturato, trasparente e collaborativo, che aiuta i team a passare dalla bozza alla versione finale con maggiore sicurezza e chiarezza.
+Questa funzione è disponibile anche come integrazione [con Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Questa integrazione offre funzionalità di verifica nell’area di lavoro di GenStudio for Performance Marketing. Con l’integrazione di Workfront Proof, GenStudio for Performance Marketing ottiene un processo di revisione più strutturato, trasparente e collaborativo, che aiuta i team a passare dalla bozza alla versione finale con maggiore sicurezza e chiarezza.
 
 ## Vantaggi del flusso di lavoro di revisione e approvazione
 
@@ -27,7 +33,7 @@ Il flusso di lavoro di revisione e approvazione assicura che tutte le parti inte
 
 * **Rispetto degli obiettivi e dei requisiti legali della campagna**. Il processo di approvazione consente di verificare che il contenuto supporti gli obiettivi della campagna. Garantisce che tutto il materiale di marketing sia conforme agli standard legali e normativi, riducendo al minimo i rischi e i potenziali problemi legali.
 
-* **Integrazione con Adobe Workfront Proof**. Gli utenti possono accedere alle solide funzionalità di revisione e approvazione di Workfront Proof direttamente da GenStudio for Performance Marketing. I contenuti esaminati in GenStudio for Performance Marketing vengono sincronizzati con Workfront Proof e i commenti e lo stato di revisione vengono mantenuti. [Elementi di rilievo dell&#39;integrazione](/help/user-guide/approvals/proof-integration.md) identifica come Proof estende il flusso di lavoro di approvazione di GenStudio for Performance Marketing.
+* **Integrazione con Adobe Workfront Proof**. Gli utenti possono accedere alle solide funzionalità di revisione e approvazione di Workfront Proof direttamente da GenStudio for Performance Marketing. I contenuti esaminati in GenStudio for Performance Marketing vengono sincronizzati con Workfront Proof e i commenti e lo stato di revisione vengono mantenuti. [L&#39;integrazione evidenzia](/help/user-guide/approvals/proof-integration.md) identifica il modo in cui Proof estende il flusso di lavoro di approvazione di GenStudio for Performance Marketing.
 
 ## Ciclo di vita di revisione e approvazione
 
@@ -52,12 +58,12 @@ Lo stato Bozza acquisisce lo stato della bozza di contenuto durante il processo 
 Stati bozza disponibili:
 
 **Notifica**: l&#39;editor di contenuto ha avviato il processo di revisione e approvazione notificando agli approvatori che una bozza è pronta per la revisione.
-**Operazione necessaria**: indica che uno o più approvatori hanno richiesto modifiche alla bozza di contenuto. Impossibile salvare il contenuto in questo stato in [!DNL Content].
+**Lavoro necessario**: indica che uno o più approvatori hanno richiesto modifiche alla bozza di contenuto. Impossibile salvare il contenuto in questo stato in [!DNL Content].
 **Approvato**: tutti gli approvatori designati hanno approvato la risorsa o l&#39;esperienza. L&#39;editor dei contenuti può ora aggiungere metadati alla risorsa o all&#39;esperienza e salvarla in [!DNL Content].
 
 >[!NOTE]
 >
-> Le bozze corrispondono a _bozze_ per gli utenti dell&#39;integrazione Workfront Proof. [Le bozze e le bozze](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) differiscono in termini di persistenza e controllo delle versioni.
+Le bozze corrispondono a _bozze_ per gli utenti dell&#39;integrazione Workfront Proof. [Le bozze e le bozze](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) differiscono in termini di persistenza e controllo delle versioni.
 
 ## Ruoli di approvazione
 
@@ -67,7 +73,7 @@ _I revisori_ possono aggiungere commenti ma non possono approvare il contenuto. 
 
 Le notifiche interne al prodotto di GenStudio for Performance Marketing aggiornano in tempo reale gli approvatori e gli editor di contenuti in merito alle modifiche di stato delle risorse e `@mention` commenti. Le notifiche supportano una rapida iterazione attraverso più cicli di revisione, modifica e approvazione.
 
-Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/subscription).
+Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedi [Abbonati ai servizi in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
 
 Le azioni intraprese dai partecipanti all’approvazione attivano le notifiche automatiche interne al prodotto e le notifiche e-mail. Quando avvii un processo di approvazione, gli approvatori designati ricevono sia le notifiche e-mail che quelle interne al prodotto. L&#39;utente viene tenuto costantemente aggiornato con notifiche interne ed e-mail ogni volta che un approvatore aggiunge `@mention` commenti o prende una decisione. Le notifiche includono collegamenti alla bozza di contenuto.
 

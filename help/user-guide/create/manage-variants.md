@@ -3,9 +3,15 @@ title: Gestisci varianti
 description: Personalizza e migliora le varianti e le risorse generate in base alle tue esigenze di marketing digitale.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: 2125
 ht-degree: 0%
 
 ---
@@ -49,7 +55,7 @@ Le opzioni di formattazione del testo variano a seconda del canale (Meta, e-mail
 1. Immettere il nuovo testo.
 1. Per formattare il testo, evidenziare il testo applicabile e fare clic su **[!UICONTROL Formatta testo**].
 
-   Applica al testo una o tutte le opzioni di formattazione disponibili.
+   Applica qualsiasi (o tutto!) delle opzioni di formattazione disponibili per il testo.
 
 1. Fare clic fuori dal campo di testo per salvarlo.
 
@@ -90,7 +96,7 @@ Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento 
 
 >[!NOTE]
 >
->È possibile modificare il testo dell&#39;etichetta di CTA utilizzando l&#39;opzione _[!UICONTROL Riformula]_ se il testo dell&#39;etichetta è un campo modello generato (non codificato nel modello). Puoi modificare un collegamento di CTA utilizzando l&#39;opzione _[!UICONTROL Modifica collegamento]_ se il collegamento è esistente e modificabile (non hardcoded nel modello).
+È possibile modificare il testo dell&#39;etichetta di CTA utilizzando l&#39;opzione _[!UICONTROL Riformula]_ se il testo dell&#39;etichetta è un campo modello generato (non codificato nel modello). Puoi modificare un collegamento di CTA utilizzando l&#39;opzione _[!UICONTROL Modifica collegamento]_ se il collegamento è esistente e modificabile (non hardcoded nel modello).
 
 **Per modificare il CTA in una variante**:
 
@@ -106,7 +112,7 @@ Dopo aver generato un set di varianti, puoi rivedere il testo e il collegamento 
 
       Il testo di CTA viene aggiornato e viene visualizzato il messaggio _&quot;Un&#39;etichetta di pulsante è stata sostituita&quot;_ che conferma la modifica.
 
-1. Fare clic su **[!UICONTROL Aggiungi collegamento]**.
+1. Fai clic su **[!UICONTROL Aggiungi collegamento]**.
 
    1. Digitare o incollare un URL e fare clic su **[!UICONTROL Applica]**.
 
@@ -166,7 +172,7 @@ Puoi cambiare rapidamente le proporzioni [degli annunci Meta](/help/user-guide/t
 
 >[!NOTE]
 >
->Puoi avere proporzioni e dimensioni diverse in base ai modelli disponibili.
+Puoi avere proporzioni e dimensioni diverse in base ai modelli disponibili.
 
 **Per modificare le proporzioni degli annunci Meta generati**:
 
@@ -196,7 +202,7 @@ Puoi aggiungere o scambiare immagini nelle varianti generate direttamente dall�
 1. Fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
 1. Utilizzare la funzione di filtro e di ricerca nella visualizzazione delle risorse di GenStudio [!DNL Content] per limitare ulteriormente i risultati della ricerca.
 
-   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   È inoltre possibile utilizzare le immagini disponibili negli archivi Content Hub di Adobe Experience Manager (AEM) Assets connessi selezionando tale archivio dal menu [**[!UICONTROL Posizione ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Fare clic per selezionare un&#39;immagine e fare clic su **[!UICONTROL Usa]**.
 
@@ -297,7 +303,7 @@ Il feedback sulla generazione è applicabile a una singola variante, non per il 
 
 1. Aggiungi le seguenti informazioni nel pop-up di feedback:
    1. Seleziona l&#39;opzione _[!UICONTROL Includi anche il contenuto di riferimento e i dati dei livelli]_ per includere tali informazioni di riferimento aggiuntive nel feedback raccolto.
-   1. Da _[!UICONTROL Cosa ha funzionato bene?]_ o _[!UICONTROL Si è verificato un errore?]_, selezionare le opzioni che descrivono gli elementi che rendono la generazione di contenuti di qualità elevata o scarsa.
+   1. Da _[!UICONTROL Funzionamento corretto]_ o _[!UICONTROL Si è verificato un errore?]_ , seleziona le opzioni che descrivono cosa rende la generazione di contenuti di alta o bassa qualità.
    1. Aggiungi altre informazioni utili o correlate nel campo _[!UICONTROL Note]_.
 1. Fai clic su **[!UICONTROL Invia]**.
 

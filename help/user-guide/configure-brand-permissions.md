@@ -4,10 +4,16 @@ description: Informazioni sull'assegnazione di diritti per i creatori e gli edit
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 1%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -15,13 +21,13 @@ ht-degree: 1%
 
 Per impostazione predefinita, i responsabili di sistema di GenStudio possono creare e modificare [!DNL Brands]. I ruoli editor contenuti e collaboratore dispongono delle autorizzazioni di modifica e creazione, ma non possono richiedere alcun diritto di gestione del sistema.
 
-Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di sistema Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
+Per concedere agli editor di contenuti e ai collaboratori questi diritti relativi a [!DNL Brand], un amministratore di sistema Adobe deve eseguire alcune attività di configurazione aggiuntive in Adobe Admin Console. Consulta [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) nella _guida all&#39;amministrazione di Enterprise e Teams_.
 
 L’aggiunta di utenti e gruppi di utenti sono attività di base comuni a tutti i prodotti Adobe con diritti gestiti tramite Admin Console. Per una panoramica sulla gestione degli utenti e sulle procedure per l&#39;aggiunta di utenti e gruppi di utenti, vedere [Utenti Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) nella _guida per l&#39;amministrazione di Enterprise e Team_.
 
 Guarda questo video o segui i passaggi indicati di seguito.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475005?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## Passaggio 1: creare un gruppo di utenti
 
@@ -51,11 +57,11 @@ Dopo aver creato un nuovo gruppo di utenti e aver aggiunto gli utenti, puoi asse
 
 1. Selezionare `Adobe GenStudio` dall&#39;elenco _Seleziona prodotti_.
 
-1. Fare clic su **[!UICONTROL Applica]**. Viene aperto il popup _Seleziona profili di prodotto_, in cui sono visualizzati i profili di prodotto associati ad Adobe GenStudio.
+1. Fai clic su **[!UICONTROL Applica]**. Viene aperto il popup _Seleziona profili di prodotto_, in cui sono visualizzati i profili di prodotto associati ad Adobe GenStudio.
 
-1. Selezionare `Adobe GenStudio system manager`.
+1. Seleziona `Adobe GenStudio system manager`.
 
-1. Fare clic su **[!UICONTROL Applica]**. Viene aperto il popup _Assegna prodotti e profili_, in cui viene visualizzato il profilo di prodotto per il gruppo di utenti appena creato.
+1. Fai clic su **[!UICONTROL Applica]**. Viene aperto il popup _Assegna prodotti e profili_, in cui viene visualizzato il profilo di prodotto per il gruppo di utenti appena creato.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -95,7 +101,7 @@ Un _progetto_ fornisce un percorso di archiviazione in cui alcuni utenti possono
 
 1. Fai clic su **[!UICONTROL Crea]**. Viene aperto il popup _Invita al progetto_.
 
-Consulta [Gestione dei progetti](https://helpx.adobe.com/it/enterprise/using/projects-in-business-storage.html) nella _Guida all&#39;amministrazione di Enterprise e Team_.
+Consulta [Gestione dei progetti](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) nella _Guida all&#39;amministrazione di Enterprise e Team_.
 
 ## Passaggio 5: invitare un gruppo di utenti al progetto
 

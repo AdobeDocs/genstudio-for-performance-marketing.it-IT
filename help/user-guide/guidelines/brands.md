@@ -3,10 +3,16 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] sono una raccolta completa di risorse per i marchi, quali copie di marketing, immagini, esperienze e altro ancora, per informare la creazione di contenuti allineati al marchio.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 1%
+source-wordcount: 1525
+ht-degree: 2%
 
 ---
 
@@ -34,7 +40,7 @@ Le linee guida forniscono a GenStudio for Performance Marketing un quadro chiaro
 
 >[!NOTE]
 >
->Se carichi le linee guida del brand scritte in una lingua diversa dall’inglese, o se crei manualmente un brand utilizzando una lingua diversa dall’inglese, GenStudio for Performance Marketing le mostra nella stessa lingua.
+Se carichi le linee guida del brand scritte in una lingua diversa dall’inglese, o se crei manualmente un brand utilizzando una lingua diversa dall’inglese, GenStudio for Performance Marketing le mostra nella stessa lingua.
 
 Alcune linee guida per il canale, astratte dalle [linee guida per piattaforma e dagli standard di accessibilità ADA](/help/user-guide/guidelines/overview.md#compliance), sono precompilate come valori predefiniti.
 
@@ -48,9 +54,9 @@ La tabella seguente mostra ogni categoria di linee guida e di esempi di linee gu
 
 | Categoria di orientamento | Descrizione | Best practice |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Tono di voce] | Personalità del brand espressa attraverso la comunicazione scritta | Utilizza parole descrittive per trasmettere chiaramente l’emozione e il tono del brand. <br>_Esempi_: &quot;genuino&quot;, &quot;giocoso&quot;<br><br>Sii conciso (linee guida da 3 a 6) e concentrati sugli attributi vocali chiave del brand.<br><br>Seleziona parole/frasi coerenti tra i diversi canali di comunicazione per creare un&#39;identità del brand coerente. |
+| [!UICONTROL Tono di voce] | Personalità del brand espressa attraverso la comunicazione scritta | Utilizza parole descrittive per trasmettere chiaramente l’emozione e il tono del brand. <br>_Esempi_: &quot;genuino&quot;, &quot;giocoso&quot;<br><br>Sii conciso (3-6 linee guida) e concentrati sugli attributi vocali chiave del brand.<br><br>Seleziona parole/frasi coerenti tra i canali di comunicazione per creare un&#39;identità del brand coerente. |
 | [!UICONTROL Valori marchio] | Principi che guidano la cultura del brand, l’esperienza del cliente e le strategie aziendali | Utilizza parole descrittive per trasmettere la missione, la visione e le esigenze del pubblico del brand. <br>_Esempi_: &quot;autenticità&quot;, &quot;ispirazione&quot;, &quot;progressivo&quot;<br><br>Sii conciso (3-6 linee guida) e concentrati sui valori/temi principali del brand. |
-| [!UICONTROL Linee guida editoriali] | Linee guida per la comunicazione che definiscono le best practice per la creazione di messaggi di brand | Utilizza il fraseggio positivo (5-10 linee guida) per stabilire una solida base.<br>_Esempi_: &quot;Utilizza un linguaggio semplice e accessibile&quot; invece di &quot;Evita di usare il gergo&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempi_: &quot;Mantieni le frasi sotto le 20 parole&quot; invece di &quot;Sii conciso&quot;<br><br>Rifletti sullo stile del tuo marchio, ad esempio utilizzando preferenze di sintassi specifiche. <br>_Esempi_: &quot;Utilizza un trattino lungo anziché due punti&quot;, &quot;Utilizza il caso della frase&quot;<br><br>Elabora linee guida precise che mantengono la coerenza tra gli output. |
+| [!UICONTROL Linee guida editoriali] | Linee guida per la comunicazione che definiscono le best practice per la creazione di messaggi di brand | Utilizza frasi positive (5-10 linee guida) per stabilire una solida base.<br>_Esempi_: &quot;Utilizza un linguaggio semplice e accessibile&quot; invece di &quot;Evita di usare il gergo&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempi_: &quot;Mantieni le frasi sotto le 20 parole&quot; invece di &quot;Sii conciso&quot;<br><br>Riflette lo stile del tuo marchio, ad esempio utilizzando preferenze di sintassi specifiche. <br>_Esempi_: &quot;Utilizzare un trattino lungo anziché due punti&quot;, &quot;Utilizzare la frase&quot;<br><br>Elaborare linee guida precise che mantengano la coerenza tra gli output. |
 | [!UICONTROL Limitazioni editoriali] | Linee guida di comunicazione che definiscono cosa evitare nei messaggi del brand | Utilizzare la formulazione diretta negativa (5-10 linee guida) per specificare cosa deve essere evitato. <br>_Esempio_: &quot;Evita di utilizzare...&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempio_: &quot;Evita domande retoriche&quot; |
 
 ### Linee guida per le immagini
@@ -76,15 +82,15 @@ La tabella seguente mostra ogni sezione di canale, i canali per i quali è dispo
 
 | Sezioni | Canali | Descrizione | Best practice |
 | ------------------| --------- | --------- | -------- |
-| Generale | e-mail, metadati, banner e annunci di visualizzazione | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Definisci il tono/emozione generale in modo che sia coerente in tutte le e-mail (2-5 linee guida).<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot;, &quot;Evita un linguaggio eccessivamente formale&quot;<br><br> |
-| Oggetto | email | Titolo interessante per riepilogare il contenuto di un messaggio e-mail | Fornisci indicazioni specifiche (2-5 linee guida) su tono, lunghezza, ecc. Aggiungi righe oggetto riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempio_: &quot;Allinea l&#39;oggetto al corpo dell&#39;e-mail&quot; |
-| Preheader | email | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le intestazioni preliminari riuscite in precedenza nella sezione _Esempi_ per un output di qualità migliore.<br>_Esempio_: &quot;Limite a 60-80 caratteri&quot; |
-| Titolo | e-mail, Meta, Banner e annunci di visualizzazione, LinkedIn | Titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi titoli con esito positivo in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
-| Sottotitolo | e-mail, banner e annunci di visualizzazione | Secondo o terzo titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) che definiscono il tono, la lunghezza ideale, ecc. Aggiungi i sottotitoli riusciti in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizzare istruzioni precise per attirare l&#39;attenzione&quot; |
-| Descrizione | LinkedIn | Espressioni descrittive che definiscono il tono-emozione generale | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le descrizioni riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot; |
-| Corpo | e-mail, Meta, Banner e annunci di visualizzazione, LinkedIn | Contenuto di marketing che include messaggi, collegamenti e immagini | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi la copia precedentemente riuscita alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Limita a 80-100 caratteri&quot;, &quot;Evita acronimi eccessivi&quot; |
-| Testo su immagine | Meta, LinkedIn | Indicazioni specifiche sul tono, sulla lunghezza ideale, ecc. per il testo visualizzato sopra le immagini | Fornisci indicazioni specifiche (1-2 frasi) sul tono, sulla lunghezza ideale, ecc. Aggiungi testo precedentemente completato alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Concentrati sul momento&quot; |
-| Call-to-action (CTA) | e-mail, metadati, banner e annunci di visualizzazione | (Call to action) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
+| Generale | e-mail, Meta, banner e annunci di visualizzazione | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Definisci il tono/l&#39;emozione generale in modo che sia coerente in tutta l&#39;e-mail (2-5 linee guida).<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot;, &quot;Evita un linguaggio eccessivamente formale&quot;<br><br> |
+| Soggetto | e-mail | Titolo interessante per riepilogare il contenuto di un messaggio e-mail | Fornisci indicazioni specifiche (2-5 linee guida) su tono, lunghezza, ecc. Aggiungi righe oggetto riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempio_: &quot;Allinea oggetto con corpo dell&#39;e-mail&quot; |
+| Preheader | e-mail | Una seconda riga dell’oggetto o un testo di anteprima e-mail | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi le preintestazioni riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempio_: &quot;Limita a 60-80 caratteri&quot; |
+| Titolo | e-mail, Meta, banner e annunci di visualizzazione, LinkedIn | Titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi titoli con esito positivo in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizza istruzioni precise per attirare l&#39;attenzione&quot; |
+| Sottotitolo | e-mail, banner e annunci di visualizzazione | Secondo o terzo titolo o frase per attirare l&#39;attenzione del lettore | Fornisci indicazioni specifiche (2-5 linee guida) che definiscono il tono, la lunghezza ideale, ecc. Aggiungi sottotitoli riusciti in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Utilizza istruzioni precise per attirare l&#39;attenzione&quot; |
+| Descrizione | LinkedIn | Espressioni descrittive che definiscono il tono-emozione generale | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi descrizioni riuscite in precedenza nella sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Mantieni un tono amichevole e accessibile&quot; |
+| Corpo | e-mail, Meta, banner e annunci di visualizzazione, LinkedIn | Contenuto di marketing che include messaggi, collegamenti e immagini | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi la copia precedentemente completata alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Limita a 80-100 caratteri&quot;, &quot;Evita acronimi eccessivi&quot; |
+| Testo su immagine | Meta, LinkedIn | Indicazioni specifiche sul tono, la lunghezza ideale ecc. del testo visualizzato sopra le immagini | Fornisci indicazioni specifiche (1-2 frasi) sul tono, sulla lunghezza ideale, ecc. Aggiungi testo precedentemente completato alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Attiva al momento&quot; |
+| Call-to-action (CTA) | e-mail, Meta, banner e annunci di visualizzazione | (Call to action) Istruzione fornita al lettore che ispira una risposta. In genere una o due parole, ad esempio `Get started` | Fornisci indicazioni specifiche (2-5 linee guida) sul tono, sulla lunghezza ideale, ecc. Aggiungi CTA riusciti in precedenza alla sezione _Esempi_ per ottenere un output di qualità migliore.<br>_Esempi_: &quot;Non utilizzare la punteggiatura finale&quot; |
 
 #### Linee guida di canale predefinite
 

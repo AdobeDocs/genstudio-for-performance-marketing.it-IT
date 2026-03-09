@@ -3,9 +3,12 @@ title: Distribuire l’app
 description: Distribuisci l’app, o il componente aggiuntivo, per GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
-source-git-commit: 2df93292f456cc952f72faea3d25ca0503a4e2db
+TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 303
 ht-degree: 0%
 
 ---

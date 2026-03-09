@@ -6,9 +6,13 @@ role: Admin, Developer
 feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
+TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 3%
 
 ---
@@ -33,26 +37,26 @@ Dopo aver abilitato [!DNL AEM Assets Content Hub], si dispone di una nuova istan
 
 >[!IMPORTANT]
 >
->Gli amministratori devono verificare che l&#39;archivio [!DNL AEM Assets Content Hub] si trovi nella stessa organizzazione di GenStudio for Performance Marketing.
+Gli amministratori devono verificare che l&#39;archivio [!DNL AEM Assets Content Hub] si trovi nella stessa organizzazione di GenStudio for Performance Marketing.
 
 ## Passaggio 2: integrare gli utenti di GenStudio
 
 In [!DNL Admin Console], aggiungere un utente GenStudio for Performance Marketing o un gruppo di utenti al profilo di prodotto [!DNL AEM Assets Content Hub]. Se un revisore dei contenuti non ha accesso alla stessa organizzazione dell&#39;archivio [!DNL AEM Assets Content Hub], potrebbe riscontrare difficoltà durante la revisione e l&#39;approvazione dei contenuti.
 
-- [Integrato [!DNL Content Hub] amministratore](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [Onboarding [!DNL Content Hub] utenti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [Integrato [!DNL Content Hub] amministratore](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [Onboarding [!DNL Content Hub] utenti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## Passaggio 3: approvare le risorse
 
 Approva le risorse da utilizzare in [!DNL AEM Assets Content Hub], che le rende disponibili in GenStudio for Performance Marketing.
 
-Consulta [Approvare le risorse in Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) nella _documentazione di AEM as a Cloud Service_.
+Consulta [Approvare le risorse in Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) nella _documentazione di AEM as a Cloud Service_.
 
 ## Passaggio 4: configurare la visibilità delle risorse
 
 Nelle opzioni di configurazione _[!DNL AEM Assets Content Hub]_, controlla ogni set di opzioni di configurazione per filtri, dettagli risorsa, ricerca e branding.
 
-Consulta [Configurare l&#39;interfaccia utente di Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) nella _documentazione di AEM as a Cloud Service_.
+Consulta [Configurare l&#39;interfaccia utente di Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) nella _documentazione di AEM as a Cloud Service_.
 
 ## Passaggio 5: verificare la connessione
 

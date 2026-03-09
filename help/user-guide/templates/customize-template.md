@@ -6,12 +6,21 @@ role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
 TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1646
@@ -33,7 +42,7 @@ Segui le [linee guida per l&#39;accessibilità](accessibility-for-templates.md) 
 
 >[!TIP]
 >
-I segnaposto di contenuto sono **non** uguali al testo segnaposto nel contenuto che deve essere compilato in un secondo momento da un utente. Ulteriori informazioni sull&#39;utilizzo del testo segnaposto nei modelli](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).[
+>I segnaposto di contenuto sono **non** uguali al testo segnaposto nel contenuto che deve essere compilato in un secondo momento da un utente. Ulteriori informazioni sull&#39;utilizzo del testo segnaposto nei modelli[&#128279;](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
 
 GenStudio for Performance Marketing riconosce alcuni tipi di contenuto o [elementi](use-templates.md#template-elements) all&#39;interno di un modello, ma solo se li identifichi con un [nome di campo riconosciuto](#recognized-field-names).
 
@@ -72,13 +81,13 @@ GenStudio for Performance Marketing genera automaticamente alcuni campi nei segu
 
 >[!WARNING]
 >
-Per gli annunci Instagram, il titolo generato non viene visualizzato nell’esperienza finale.
+>Per gli annunci Instagram, il titolo generato non viene visualizzato nell’esperienza finale.
 
 Il caricamento di un modello in GenStudio for Performance Marketing prevede un limite di 20 campi. Poiché il campo `subject` viene generato automaticamente in un messaggio e-mail, viene conteggiato come un campo. Ciò significa che sono consentiti 19 campi in un modello e-mail.
 
 >[!TIP]
 >
-Puoi verificare il tuo modello utilizzando [anteprima modello](#template-preview) in GenStudio for Performance Marketing.
+>Puoi verificare il tuo modello utilizzando [anteprima modello](#template-preview) in GenStudio for Performance Marketing.
 
 ### Inviti all&#39;azione
 
@@ -252,7 +261,7 @@ GenStudio for Performance Marketing è consapevole che `pod1_headline` è più s
 
 >[!TIP]
 >
-Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione in un messaggio e-mail con più sezioni.
+>Consulta [Richieste strutturate](/help/user-guide/effective-prompts.md#structured-prompts) per scoprire come creare un prompt che generi contenuti diversi per ogni sezione in un messaggio e-mail con più sezioni.
 
 ## Anteprima modello
 

@@ -5,16 +5,34 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: a18b4f89ffde43432885dc2c2e323eaf19361fc7
+TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 0%
+source-wordcount: 1374
+ht-degree: 1%
 
 ---
 
 # Utilizzare i modelli
 
-GenStudio for Performance Marketing consente ai creatori di contenuti di produrre rapidamente contenuti di marketing coerenti nel brand utilizzando _modelli_. Un modello riduce in modo significativo il tempo e l’impegno necessari per generare nuovi contenuti, fornendo un punto di partenza che include layout preconfigurati ed elementi di progettazione. Per iniziare, caricare un modello personalizzato in [!DNL Content] o utilizzare un modello iniziale in [!DNL Create]. I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di iniziare rapidamente con una progettazione standard, mentre un modello personalizzato consente di utilizzare progettazioni e layout univoci.
+GenStudio for Performance Marketing consente ai creatori di contenuti di produrre rapidamente contenuti di marketing coerenti nel brand utilizzando _modelli_. Un modello riduce in modo significativo il tempo e l’impegno necessari per generare nuovi contenuti, fornendo un punto di partenza che include layout preconfigurati ed elementi di progettazione. Per iniziare, caricare un modello personalizzato in [!DNL Content] o utilizzare un modello iniziale in [!DNL Create]. [I modelli iniziali](/help/user-guide/templates/starter-templates.md) forniscono un modo rapido per iniziare con una progettazione standard, mentre un modello personalizzato consente di utilizzare progettazioni e layout univoci.
 
 Anche se GenStudio for Performance Marketing non supporta la creazione diretta di modelli all’interno dell’applicazione, è possibile progettare e preparare facilmente i modelli utilizzando i più diffusi strumenti di progettazione, come Adobe InDesign, Illustrator o Express. Una volta completato il progetto, puoi adattarlo per l’utilizzo in GenStudio for Performance Marketing. Per iniziare a utilizzare i modelli, segui questi passaggi:
 
@@ -113,7 +131,7 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 ### Aggiorna modello
 
-I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto statico](/help/user-guide/templates/customize-template.md#static-content) non viene memorizzato dopo la creazione dell&#39;anteprima del modello. GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine fornito nel modello. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
+I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto statico &#x200B;](/help/user-guide/templates/customize-template.md#static-content) non viene archiviato dopo la creazione dell&#39;anteprima del modello. GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine fornito nel modello. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
 
 **Per aggiornare il modello**:
 

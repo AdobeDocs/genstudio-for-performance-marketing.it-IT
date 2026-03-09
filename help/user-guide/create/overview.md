@@ -4,10 +4,36 @@ description: Genera rapidamente contenuti a elevate prestazioni e sul marchio co
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+TQID: https://experienceleague.adobe.com/Qgnbf7BVqsRFk5SmkQHkvwK-GAaUtLFfAVXb1HYLSw4
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 1%
+source-wordcount: 722
+ht-degree: 0%
 
 ---
 
@@ -21,7 +47,7 @@ La home di [!DNL Create] è organizzata in sezioni di canale—_Elementi multime
 
 Con [!DNL Create] è possibile generare contenuti per i seguenti canali:
 
-* [E-Mail](email-experiences.md)
+* [E-mail](email-experiences.md)
 * [Annunci Meta](meta-experiences.md)
 * [Annunci LinkedIn](linkedin-experiences.md)
 * [Annunci visualizzati](display-ad-experiences.md)
@@ -38,7 +64,7 @@ Gli editor e i responsabili di sistema hanno accesso completo a [!DNL Create]. P
 <tr style="border: 0;">
    <td align="center" valign="top" width="100">
       <a href="/help/user-guide/create/create-email-experience.md">
-      <img alt="Creare nuovi contenuti" src="../../assets/icons/icon-create.svg" width="35">
+      <img alt="Crea nuovo contenuto" src="../../assets/icons/icon-create.svg" width="35">
       </a>
       <div>
          <a href="/help/user-guide/create/create-email-experience.md">
@@ -107,7 +133,7 @@ GenStudio for Performance Marketing consente agli addetti al marketing di **crea
 
 ### Modelli
 
-Dopo aver selezionato il canale da produrre in _Cosa si desidera creare oggi?_, è possibile accedere ai modelli approvati dal marchio da utilizzare nella generazione di contenuti. Utilizza i modelli per iniziare subito il processo di creazione dei contenuti e rimanere allineato con un’identità del brand definita.
+Dopo aver selezionato il canale da produrre in _Cosa si desidera creare oggi?_ , puoi accedere ai modelli approvati dal marchio da utilizzare nella generazione dei contenuti. Utilizza i modelli per iniziare subito il processo di creazione dei contenuti e rimanere allineato con un’identità del brand definita.
 
 I modelli sono [caricati e archiviati in [!DNL Content]](/help/user-guide/content/overview.md) e sono accessibili in [!DNL Create].
 
@@ -127,7 +153,7 @@ Per creare contenuti generati da IA, immetti un [prompt descrittivo](/help/user-
 
 ### Controlli del contenuto
 
-GenStudio for Performance Marketing esegue [controlli contenuto](/help/user-guide/guidelines/brand-validation.md#content-check-panel) in base alle [linee guida per il marchio](/help/user-guide/guidelines/brands.md), alle linee guida per la piattaforma e agli [standard di accessibilità](/help/user-guide/guidelines/overview.md#compliance) per ogni variante, in modo che soddisfino al massimo gli standard di [!DNL Brand], piattaforma e accessibilità. [Le informazioni sul controllo del contenuto](/help/user-guide/guidelines/brand-validation.md#content-check-summary) sono disponibili per qualsiasi contenuto generato, a indicare la conformità con controlli completi del contenuto e la coerenza tra testo e immagini. Puoi utilizzare queste informazioni per rivedere o migliorare l’esperienza generata per allinearla meglio al tuo marchio.
+GenStudio for Performance Marketing esegue [controlli contenuto](/help/user-guide/guidelines/brand-validation.md#content-check-panel) in base alle [linee guida per il marchio](/help/user-guide/guidelines/brands.md), alle linee guida per la piattaforma e agli [standard di accessibilità](/help/user-guide/guidelines/overview.md#compliance) per ogni variante, in modo che soddisfino al massimo gli standard di [!DNL Brand], piattaforma e accessibilità. [Le informazioni del controllo del contenuto](/help/user-guide/guidelines/brand-validation.md#content-check-summary) sono disponibili per qualsiasi contenuto generato, a indicare la conformità con controlli completi del contenuto e la coerenza tra testo e immagini. Puoi utilizzare queste informazioni per rivedere o migliorare l’esperienza generata per allinearla meglio al tuo marchio.
 
 ### Recensioni e approvazioni
 

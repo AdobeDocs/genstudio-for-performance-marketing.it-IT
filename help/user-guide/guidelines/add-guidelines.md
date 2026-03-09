@@ -5,9 +5,30 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a4df9c81339a8fe5197200d58abc8b48df59da6f
+TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: 2499
 ht-degree: 0%
 
 ---
@@ -26,7 +47,7 @@ Quando si creano varianti da un modello con linee guida di canale predefinite (c
 
 ## Aggiungi marchi
 
-Per aggiungere un [!DNL Brand], [carica una guida del brand](#upload-a-brand) o [crea manualmente un brand](#manually-add-brand) selezionando le linee guida e immettendo i dettagli del brand. [Pubblica  [!DNL Brand]](#publish-brand) in [!DNL Content] per renderla disponibile per la futura generazione di contenuti.
+Per aggiungere un [!DNL Brand], [carica una guida del brand](#upload-a-brand) o [crea manualmente un brand](#manually-add-brand) selezionando le linee guida e immettendo i dettagli del brand. [Pubblicare a [!DNL Brand]](#publish-brand) in [!DNL Content] per renderlo disponibile per la futura generazione di contenuti.
 
 Nell&#39;area di navigazione a sinistra, fare clic su **[!DNL Brands]** dall&#39;elenco _Condiviso_.
 
@@ -130,7 +151,7 @@ In _[!DNL Brands]_, qualsiasi bozza o [!DNL Brands] pubblicato viene visualizzat
 
 1. Fai clic su **[!UICONTROL Fine]** per uscire dalla finestra a comparsa.
 
-[!DNL brand] mostra un punto verde e &quot;Pubblicato&quot; accanto al nome. Al posto del pulsante **[!UICONTROL Pubblica[!DNL brand]]** viene visualizzato un pulsante **[!UICONTROL Modifica]**.
+[!DNL brand] mostra un punto verde e &quot;Pubblicato&quot; accanto al nome. Al posto del pulsante **[!UICONTROL Pubblica]** viene visualizzato un pulsante **[!UICONTROL Modifica[!DNL brand]]**.
 
 **Per annullare la pubblicazione di un[!DNL brand]** pubblicato, fai clic sul marchio per aprirlo e scegli **[!UICONTROL Annulla pubblicazione]** dal menu Azioni (icona a tre punti).
 
@@ -199,7 +220,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 **Per aggiungere manualmente un utente tipo**:
 
 1. Selezionare il pulsante **[!UICONTROL Aggiungi utente tipo]** e scegliere **[!UICONTROL Aggiungi manualmente]**.
-1. Fai clic su **[!UICONTROL Continua]**.
+1. Fai clic su **[!UICONTROL Continue]** (Continua).
 
    Puoi compilare varie linee guida e immagini facoltative per creare il tuo utente tipo.
 
@@ -272,7 +293,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 **Per aggiungere manualmente un prodotto**:
 
 1. Seleziona il pulsante **[!UICONTROL Aggiungi prodotto]** e scegli **[!UICONTROL Aggiungi manualmente]**.
-1. Fai clic su **[!UICONTROL Continua]**.
+1. Fai clic su **[!UICONTROL Continue]** (Continua).
 
    Puoi compilare diverse informazioni facoltative per creare il prodotto.
 

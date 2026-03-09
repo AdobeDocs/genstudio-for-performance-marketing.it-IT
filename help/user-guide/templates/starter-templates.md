@@ -6,10 +6,19 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: 404
+ht-degree: 3%
 
 ---
 
@@ -23,7 +32,7 @@ La selezione delle proporzioni appropriate per l’annuncio è importante per ma
 
 - **Obiettivi della campagna**: definisci gli obiettivi (brand awareness, coinvolgimento, conversioni) per determinare quali posizionamenti e formati sono più adatti a supportarli.
 - **Requisiti della piattaforma**: ogni canale di contenuti multimediali a pagamento ha proporzioni consigliate per posizionamenti diversi.
-- **Visibilità dei contenuti**: alcune proporzioni mostrano più contenuti creativi, mentre altre possono ritagliarli o ridimensionarli.
+- **Visibilità dei contenuti**: alcune proporzioni mostrano una maggiore creatività, mentre altre possono ritagliare o ridimensionare il contenuto.
 
 Rivedi gli obiettivi della campagna e le opzioni di posizionamento prima di selezionare un modello. Per tutti i modelli, conserva gli elementi visivi e i messaggi chiave nelle aree sicure per evitare di ritagliare e rivedere i requisiti specifici della piattaforma prima di finalizzare la creatività.
 
@@ -38,8 +47,8 @@ Tutte le proporzioni sono supportate per le immagini statiche. Per i video, util
 | Proporzioni | Orientamento | Linee guida |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Quadrato | Aspetto coerente tra dispositivi e posizionamenti. |
-| 1,91:1 | Orizzontale | Standard per feed di notizie o contenuti sponsorizzati. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
-| 1:1,91 | Verticale | Formato verticale alto. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
+| 1.91:1 | Orizzontale | Standard per feed di notizie o contenuti sponsorizzati. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
+| 1:1.91 | Verticale | Formato verticale alto. Conserva gli elementi visivi e i messaggi chiave nelle aree di sicurezza. |
 | 2:3, 4:5 | Verticale | Adatto per formati di ritratto e aiuta il creativo a distinguersi sui dispositivi mobili. |
 | 9:16 | Verticale | Consigliato per storie LinkedIn (esperienza a schermo intero per video). |
 
@@ -50,6 +59,6 @@ Tutte le proporzioni sono supportate per le immagini statiche e i tipi di suppor
 | Proporzioni | Orientamento | Linee guida |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Quadrato | Consigliato per post sui feed, annunci carosello e video sui feed, per un’ampia compatibilità. |
-| 1,91:1 | Orizzontale | Consigliato per banner, link ads e annunci video widescreen. |
+| 1.91:1 | Orizzontale | Consigliato per banner, link ads e annunci video widescreen. |
 | 4:5 | Verticale | Ideale per feed mobili; massimizza lo spazio verticale e la visibilità, in particolare per i contenuti video. |
 | 9:16 | Verticale | Progettato per storie e rulli, offre un&#39;esperienza coinvolgente a tutto schermo. |

@@ -5,9 +5,22 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 9e51e853542d20f0b90b10071f4f26aaae1d6aad
+TQID: https://experienceleague.adobe.com/QtGu-GaR4LMNGa4IrtYKzk1EjL1g9y08hF-kAm4rLJM
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -62,7 +75,7 @@ Il riquadro _[!UICONTROL Controlla i campi rilevati]_ si aggiorna per riflettere
 | Immagine mancante | Manca un campo immagine richiesto. | Per alcuni tipi di modelli, ad esempio Meta, display o banner pubblicitario, è necessario un solo campo `image`. Aggiungi il campo `image` richiesto al tuo modello. |
 | Gruppo singolo non valido | Il modello e-mail contiene esattamente un gruppo, che non è valido. | Un modello e-mail di base contiene un singolo set di elementi modello che non richiedono la convenzione di denominazione dei gruppi definita in [Sezioni o gruppi](/help/user-guide/templates/customize-template.md#sections-or-groups). Regola il modello in modo che non contenga sezioni rimuovendo qualsiasi sintassi di denominazione dei gruppi. |
 | Nessun campo | Il modello non contiene campi. | Aggiungi [nomi di campo riconosciuti](/help/user-guide/templates/customize-template.md#recognized-field-names) utilizzando la sintassi Handlebars al modello in cui è necessario GenStudio for Performance Marketing per generare un determinato tipo di contenuto. |
-| Proprietà richieste mancanti | Mancano alcune proprietà di metadati richieste. | Ogni tipo di modello ha requisiti e vincoli basati sulle linee guida del canale. Ad esempio, Meta richiede proporzioni e gli annunci display richiedono dimensioni. [Segui le linee guida per modelli specifici per il canale](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Proprietà richieste mancanti | Mancano alcune proprietà di metadati richieste. | Ogni tipo di modello ha requisiti e vincoli basati sulle linee guida del canale. Ad esempio, Meta richiede proporzioni e gli annunci display richiedono dimensioni. [Segui le linee guida per modelli specifiche per il canale](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
 | Nome riservato utilizzato | È in uso un nome di campo non consentito o riservato. | Alcuni [nomi di campo](/help/user-guide/templates/customize-template.md#recognized-field-names), ad esempio `subject` o `introductory_text`, sono riservati. Rinominare i campi che utilizzano nomi riservati o non consentiti. |
 | Troppi campi | Il numero di campi supera il limite globale di 20. | Rimuovi i campi non necessari per garantire che il totale non superi i 20. |
 | Troppi gruppi | Il numero di gruppi supera il massimo consentito per il canale. | I modelli Meta, display e LinkedIn non consentono più sezioni. L’e-mail richiede la denominazione dei gruppi quando si definiscono due o tre sezioni. Riduci il numero di gruppi nel modello per soddisfare i requisiti del [canale](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |

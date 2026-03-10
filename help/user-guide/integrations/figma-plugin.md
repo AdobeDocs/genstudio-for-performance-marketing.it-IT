@@ -5,21 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+hold: true
+source-git-commit: 77e11368c9e7a42a49501e346aff7eb9ffe3f8c8
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -42,7 +36,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creare un modello
 
@@ -162,6 +156,8 @@ Le opzioni includono:
 
 Dopo aver selezionato un&#39;opzione **[!UICONTROL Azione]**, rigenera il contenuto con il pulsante **[!UICONTROL Rigenera]**.
 
+## Conversione di frame Figma in Photoshop
+
 ## Esportare esperienze
 
 Le varianti possono essere esportate da Figma come GenStudio for Performance Marketing [!DNL Experiences].
@@ -198,4 +194,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).

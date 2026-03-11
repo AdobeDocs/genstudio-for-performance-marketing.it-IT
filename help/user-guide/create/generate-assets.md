@@ -8,26 +8,13 @@ level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
 TQID: https://experienceleague.adobe.com/NXtN00EKTe0lGI8jJMJWJfWx6mHoMQI1of1mJhgrR5U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e4a0febc-5163-4017-82ce-fc7594509fb6id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 836
 ht-degree: 0%
@@ -36,13 +23,13 @@ ht-degree: 0%
 
 # Generare immagini
 
-Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_&#x200B;risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Per progettare un&#39;immagine accattivante ed efficace, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sulla scrittura dei prompt](/help/user-guide/effective-prompts.md).
 
 ## Tipi di immagini
 
-_[!DNL On-brand images]_&#x200B;sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
+_[!DNL On-brand images]_sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora linee guida per set, parametri e un [prompt creato con cura](/help/user-guide/effective-prompts.md) per fornire risorse di immagine accattivanti.
 
@@ -87,9 +74,11 @@ L&#39;incorporazione di [linee guida](/help/user-guide/guidelines/overview.md) e
 
    Le categorie di immagini sono disponibili se è stato selezionato [!DNL Brand]. Le opzioni sono determinate dal [!DNL Brand] selezionato.
 
-<!-- 1. _(Optional)_ Select a custom model from _[!UICONTROL Model]_.
+<!-- 
+1. _(Optional)_ Select a custom model from _[!UICONTROL Model]_.
 
-   Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. -->
+   Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. 
+-->
 
 1. Selezionare le proporzioni desiderate tra _[!UICONTROL Proporzioni]_.
 1. Fai clic su **[!UICONTROL Seleziona dal contenuto]** in _[!UICONTROL Riferimento stile]_ per aggiungere un&#39;immagine di riferimento. L&#39;immagine selezionata influenza l&#39;estetica visiva e la profondità delle immagini generate.
@@ -125,9 +114,9 @@ Dopo aver generato le varianti di immagine, puoi modificarle direttamente in Ado
 
    Viene visualizzata una finestra _con tecnologia Adobe Express_.
 
-1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
+1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
 
-   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/it/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
+   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
 
 1. Fai clic su _[!UICONTROL Applica modifiche]_ per salvare le modifiche.
 1. Continua a modificare le singole varianti di immagine come desiderato e applica le modifiche per salvare l’avanzamento.
@@ -146,7 +135,8 @@ Per ottimizzare le varianti generate e garantire una rigorosa aderenza all&#39;i
 
 Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 
-<!-- ## Generate Similar images
+<!-- 
+## Generate Similar images
 
 You can quickly generate images similar to a selected image within [!DNL Content] from the [!DNL Create] home.
 
@@ -162,7 +152,8 @@ You can quickly generate images similar to a selected image within [!DNL Content
 
    The Canvas, which serves as the central hub for content creation, is displayed. Four image variations similar to the original selected image appear.
 
-   ![Generate similar images](/help/assets/generate-similar.png){width="400" zoomable="yes"} -->
+   ![Generate similar images](/help/assets/generate-similar.png){width="400" zoomable="yes"} 
+-->
 
 ## Pubblicare ed esportare immagini
 

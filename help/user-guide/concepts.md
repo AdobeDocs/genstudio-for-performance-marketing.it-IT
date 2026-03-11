@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -67,10 +67,12 @@ GenStudio for Performance Marketing utilizza la serie GPT di LLM di terze parti 
 
 _[!DNL Generative Actions]_, come definito nella [descrizione del prodotto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/it/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sono le unità che quantificano l&#39;utilizzo delle funzionalità di intelligenza artificiale generativa in GenStudio for Performance Marketing.
 
-<!-- Add example about usage mode?
+<!-- 
+Add example about usage mode?
 Where users check how many generative actions they have left
 How they re-up their genactions
-If genactions roll over month to month or not -->
+If genactions roll over month to month or not 
+-->
 
 ### Tariffe
 
@@ -89,10 +91,12 @@ Le seguenti funzioni utilizzano [!DNL Generative Actions] alla velocità specifi
 | Creare annunci di visualizzazione | 5 per generazione |
 | Rigenera sezioni | 1 per generazione |
 
-<!-- | Generate on-brand images | 1 per prompt  |
+<!-- 
+| Generate on-brand images | 1 per prompt  |
 | Translation              | 1 per prompt  |
 | Video: ADLS              | 1 per prompt  |
-| Video: TTS + Avatar      | 1 per prompt  | -->
+| Video: TTS + Avatar      | 1 per prompt  | 
+-->
 
 [!DNL Generative Actions] _non sono_ utilizzati quando:
 
@@ -120,44 +124,85 @@ Quando viene visualizzato questo messaggio, puoi modificare il prompt e riprovar
 La domanda è elevata per esperienze di qualità su più canali a un ritmo più veloce. GenStudio for Performance Marketing semplifica il supply chain dei contenuti in un flusso di lavoro ben organizzato per gli esperti di marketing. GenStudio for Performance Marketing sfrutta la tecnologia Adobe in ogni fase del ciclo di vita.
 
 <table style="table-layout:auto">
+
 <tr style="border: 0;">
+
     <td>
+
        <p><strong>Flusso di lavoro e pianificazione</strong></p>
+
     </td>
+
     <td>
+
         <p>Brainstorming sulle idee, definizione di linee guida e creazione di una strategia basata sui contenuti per coinvolgere il pubblico.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Creazione e produzione</strong></p>
+
     </td>
+
     <td>
+
         <p>Produrre il contenuto in base al piano. Collabora in tempo reale, ricevi feedback, apporta modifiche e approva contenuti.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Gestione dei contenuti</strong></p>
+
     </td>
+
     <td>
+
         <p>Archivia, condividi e trova le risorse creative nell’archivio centralizzato. Riutilizzare e rivitalizzare i contenuti in base alle prestazioni.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Consegna e attivazione</strong></p>
+
     </td>
+
     <td>
+
         <p>Attiva i contenuti e pubblicali su più canali di marketing.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Reporting e approfondimenti</strong></p>
+
     </td>
+
     <td>
+
         <p>Raccogli dati e ottieni informazioni approfondite per ottimizzare le prestazioni delle risorse.</p>
+
     </td>
+
 </tr>
+
 </table>

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -11,7 +11,7 @@ Questo sito contiene la documentazione più recente del prodotto GenStudio for P
 
 ## Codice di condotta di Adobe Open Source
 
-Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il codice di condotta di [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulta l&#39;articolo [Contribuzione](contributing.md).
+Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il codice di condotta di [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Visita la pagina [Contribuzione](contributing.md).
 
 ### Modifiche minori
 
@@ -37,12 +37,12 @@ Per informazioni dettagliate, consulta la [Guida per i collaboratori per la docu
 
 Tutti gli articoli in questo archivio utilizzano markdown basato su GitHub. Se non conosci Markdown, consulta:
 
-- [Nozioni di base sui markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Foglio di calcolo markdown stampabile](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Nozioni di base su Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Foglio di riferimento per il markdown stampabile](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Etichette
 
-Nel repository pubblico, le etichette automatizzate vengono assegnate alle richieste di pull per aiutarci a gestire il flusso di lavoro di richiesta di pull e per informarti sullo stato della richiesta di pull:
+Nell’archivio pubblico, alle richieste pull vengono assegnate etichette automatizzate per aiutarci a gestire il flusso di lavoro delle richieste pull e per informarti sullo stato della richiesta pull:
 
-- **Modifica inviata all&#39;autore**: l&#39;autore è stato informato della richiesta pull in sospeso.
-- **pronto per l&#39;unione**: pronto per la revisione da parte del team di revisione della richiesta di pull.
+- **Modifica inviata all&#39;autore**: l&#39;autore ha ricevuto una notifica della richiesta di pull in sospeso.
+- **ready-to-merge**: pronta per la revisione da parte del team di revisione delle richieste di pull.

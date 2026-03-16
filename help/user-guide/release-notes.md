@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b3ebb731f7b9a7968a232fe2283b5ef2441c3f6c
 workflow-type: tm+mt
-source-wordcount: 4448
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,7 +50,28 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.01 {#latest}
+## 2026.03 {#latest}
+
+### Modelli Express per Meta, LinkedIn e Display
+
+[!DNL Create] ora supporta [modelli Express nell&#39;area di lavoro Orizzonte](/help/user-guide/templates/express-templates.md) per Meta, LinkedIn e Display. Puoi utilizzare i modelli di Adobe Express, inclusi i modelli iniziali e i layout personalizzati del marchio, direttamente nel flusso di lavoro di creazione.
+
+L’area di lavoro supporta le funzioni dei modelli, tra cui:
+
+* più dimensioni per modello
+* le opzioni di sblocco e blocco dei livelli impostate in Express
+* Modifica di WYSIWYG per gli elementi del modello
+* controlli più completi per testo, scambio di file multimediali, sostituzione del logo, rielaborazione del video e altro ancora
+
+Esplora i dettagli in [Utilizzo di modelli Adobe Express in GenStudio for Performance Marketing](/help/user-guide/templates/express-templates.md).
+
+### Contenuto TikTok in GenStudio for Performance Marketing
+
+Ora puoi creare, approvare e attivare annunci video in-feed di TikTok da GenStudio for Performance Marketing. Genera facilmente annunci nel flusso di lavoro [!DNL Create], quindi pubblica l&#39;esperienza in [!DNL Content]. Utilizza [!DNL Insights] per TikTok per monitorare le prestazioni e informare il prossimo aggiornamento creativo.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.01.15
 
 ### Riprogettazione del pannello dei prompt di HTML Canvas
 
@@ -66,7 +87,7 @@ Il cassetto del prompt di HTML Canvas [!DNL Create] viene ora visualizzato come 
 
 GenStudio for Performance Marketing ora supporta Content Credentials, consentendo ai team di applicare e preservare i metadati di autenticità sulle risorse durante la creazione, la revisione e l’esportazione. I badge e i dettagli delle credenziali emergono nei flussi di lavoro chiave in modo che le organizzazioni possano verificare la provenienza e mantenere l’affidabilità durante la condivisione dei contenuti.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2025.12.12
 

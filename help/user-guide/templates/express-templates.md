@@ -4,7 +4,7 @@ description: Esplora le funzioni di GenStudio for Performance Marketing in grado
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Questa guida descrive i requisiti e le funzionalità con i modelli di [!DNL Adob
 
 ## Informazioni sui modelli in [!DNL Adobe Express]
 
-In [!DNL Adobe Express], è possibile creare [nuovi documenti utilizzando modelli iniziali esistenti](https://helpx.adobe.com/it/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) forniti nell&#39;applicazione o [modelli personalizzati che possono includere utili limitazioni del marchio](https://helpx.adobe.com/it/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) come:
+In [!DNL Adobe Express], è possibile creare [nuovi documenti utilizzando modelli iniziali esistenti](https://helpx.adobe.com/it/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) forniti nell&#39;applicazione o [modelli personalizzati che possono includere utili limitazioni del marchio](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) come:
 
 - [Elementi bloccati](https://helpx.adobe.com/it/express/web/invite-collaborate/object-locking.html) che non possono essere modificati
 - Blocca le restrizioni che controllano il modo in cui gli utenti possono sbloccare gli elementi quando necessario
@@ -243,3 +243,4 @@ Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 ## Rivedi e approva
 
 Dopo aver modificato e regolato le varianti, approva e pubblica i contenuti con [il flusso di lavoro Recensioni e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+

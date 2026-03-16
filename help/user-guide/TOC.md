@@ -5,7 +5,7 @@ user-guide-description: Esplora le funzionalità di Adobe GenStudio for Performa
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 689c259f8766848815850d38cc0b13d3669dd718
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 19%
@@ -70,7 +70,7 @@ ht-degree: 19%
    + [Personalizzare un modello](templates/customize-template.md)
    + [Editor codice modello](templates/code-editor.md)
    + [Creare modelli accessibili](templates/accessibility-for-templates.md)
-   + [Utilizzo di modelli Express](templates/express-templates.md)
+   + [Utilizzo di modelli Express](/help/user-guide/templates/express-templates.md)
    + [Best practice per i modelli](templates/best-practices-for-templates.md)
    + Best practice per i canali {#channel-best-practice}
       + [Guida agli annunci visualizzati](templates/display-template.md)

@@ -1,12 +1,12 @@
 ---
-title: Utilizzo dei modelli di Adobe Express in GenStudio
+title: Utilizzo dei modelli di Adobe Express in GenStudio for Performance Marketing
 description: Esplora le funzioni di GenStudio for Performance Marketing in grado di integrare le risorse di Adobe Express.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 161d6c46f7b20ac47caa6135e437ea48cb6d99db
+source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---

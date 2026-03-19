@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 856
 ht-degree: 1%
 
 ---
@@ -146,6 +146,10 @@ I nuovi documenti vengono aggiunti all’area di lavoro Photoshop con il contenu
 Gli utenti possono selezionare l’esportazione dopo la generazione o la traduzione del contenuto. Le esperienze esportate vengono compilate nella sezione dei contenuti di GenStudio for Performance Marketing.
 
 ![Risorse esportate visualizzate nella sezione Contenuto](./content-assets.png){width="90%"}
+
+## Conversione di frame Figma in Photoshop
+
+I frame Figma possono essere convertiti in documenti Photoshop ed esportati per l&#39;utilizzo con il plugin Photoshop. Per informazioni su come convertire i frame, vedere la sezione [Converti frame Figma in Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) nella pagina del plug-in Figma.
 
 ## Risoluzione dei problemi
 

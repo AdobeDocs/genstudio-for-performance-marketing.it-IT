@@ -5,10 +5,16 @@ feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
 TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
 source-wordcount: 856
@@ -66,7 +72,7 @@ Per creare un modello compatibile con GenStudio:
 1. Aprire un documento in Photoshop.
 1. Identifica un livello di testo per il contenuto generato.
 1. Rinominare il livello con il formato di convenzione del nome campo: `{<name_of_generated_field>}`. Ad esempio, `{body}`, `{headline}` e `{cta}`.
-1. Rinominare i livelli per tutti i [ campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
+1. Rinominare i livelli per tutti i [&#x200B; campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
 
 | Canale | Campi obbligatori per la generazione | Campi facoltativi per la generazione |
 | --- | --- | --- |

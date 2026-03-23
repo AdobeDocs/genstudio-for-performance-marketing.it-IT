@@ -1,30 +1,24 @@
 ---
-title: Plug-in Photoshop per Adobe GenStudio for Performance Marketing
-description: Scopri come installare, configurare e utilizzare il plug-in Photoshop per GenStudio for Performance Marketing.
+title: GenStudio Photoshop per Adobe GenStudio for Performance Marketing
+description: Scopri come installare, configurare e utilizzare GenStudio Photoshop for GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
 TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 1%
+source-wordcount: 847
+ht-degree: 92%
 
 ---
 
-# Plug-in Photoshop per GenStudio for Performance Marketing
+# GenStudio Photoshop per GenStudio for Performance Marketing
 
-Il plug-in Photoshop di GenStudio for Performance Marketing aggiunge un pannello ad Adobe Photoshop che consente di generare contenuti per il brand.
+GenStudio Photoshop aggiunge ad Adobe Photoshop un pannello che consente di generare contenuti all’interno del brand.
 
 Questa pagina descrive come installare e configurare il plug-in e come utilizzarlo.
 
@@ -39,7 +33,7 @@ Le funzioni di questo plug-in includono:
 * Creare traduzioni di contenuti sul marchio
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3478828?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478808?learn=on)
 
 ## Installare il plug-in
 
@@ -53,7 +47,7 @@ Seguire queste istruzioni per installare il plug-in.
 ### Passaggi per l’installazione
 
 1. Scarica e aggiorna il plug-in da Creative Cloud Marketplace in Adobe Exchange.
-1. Cerca il **plug-in GenStudio per Photoshop** in Adobe Exchange.
+1. Cerca **GenStudio Photoshop** in Adobe Exchange.
 1. Seguire le istruzioni per installare il plug-in.
 
 ### Disinstallare il plug-in
@@ -72,7 +66,7 @@ Per creare un modello compatibile con GenStudio:
 1. Aprire un documento in Photoshop.
 1. Identifica un livello di testo per il contenuto generato.
 1. Rinominare il livello con il formato di convenzione del nome campo: `{<name_of_generated_field>}`. Ad esempio, `{body}`, `{headline}` e `{cta}`.
-1. Rinominare i livelli per tutti i [&#x200B; campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
+1. Rinominare i livelli per tutti i [ campi richiesti dal canale previsto per il tipo di modello](../../user-guide/templates/customize-template.md#recognized-field-names).
 
 | Canale | Campi obbligatori per la generazione | Campi facoltativi per la generazione |
 | --- | --- | --- |
@@ -149,7 +143,7 @@ Gli utenti possono selezionare l’esportazione dopo la generazione o la traduzi
 
 ## Conversione di frame Figma in Photoshop
 
-I frame Figma possono essere convertiti in documenti Photoshop ed esportati per l&#39;utilizzo con il plugin Photoshop. Per informazioni su come convertire i frame, vedere la sezione [Converti frame Figma in Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) nella pagina del plug-in Figma.
+I frame Figma possono essere convertiti in documenti Photoshop ed esportati per l&#39;utilizzo con GenStudio Photoshop. Per informazioni su come convertire i frame, vedere la sezione [Converti frame Figma in Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) nella pagina del plug-in Figma.
 
 ## Risoluzione dei problemi
 

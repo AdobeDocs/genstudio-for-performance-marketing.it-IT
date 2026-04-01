@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
 workflow-type: tm+mt
-source-wordcount: 1449
-ht-degree: 0%
+source-wordcount: 1457
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ I formati degli annunci si riferiscono ai vari elementi creativi e layout utiliz
 | Meta | <ul><li>Annunci dinamici</li><li>Link Ads</li><li>Annunci immagine semplici</li><li>Annunci video semplici</li><li>Acquista annunci</li></ul> | <ul><li>Advantage+ Annunci catalogo</li><li>Annunci carosello</li><li>Messenger Ads</li><li>Annunci lead</li><li>Annunci raccolta</li><li>Call Ads</li><li>Annunci post pagina di proprietà</li><li>Annunci partnership</li><li>Annunci flessibili</li></ul> |
 | LinkedIn | <ul><li>Annunci immagine singola</li><li>Annunci video singoli</li><li>Annunci articolo</li></ul> | <ul><li>Annunci carosello</li><li>Annunci documento</li><li>Annunci evento</li><li>Thought Leader Ads</li><li>Annunci lead gen.</li><li>Follower Ads</li><li>Annunci conversazione</li><li>Annunci in evidenza</li><li>Annunci di lavoro</li><li>Annunci contenuto</li><li>Annunci messaggio</li></ul> |
 | TikTok | <ul><li>Annunci immagine singola</li><li>Annunci video singoli</li></ul> | <ul><li>Annunci In-Feed (Video, Spark, Carosello)</li><li>Annunci di consapevolezza Premium (TopView, Brand Takeover)</li><li>Annunci interattivi (sfide dell&#39;hashtag, effetti del marchio)</li><li>Commerce Ads (Acquisti, Catalogo, LIVE)</li><li>Annunci lead e messaggi</li><li>È difficile categorizzare perché non disponiamo delle risorse per determinare il tipo di annuncio</li></ul> |
-| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Difficile da categorizzare. Non disponiamo delle risorse per determinare il tipo di annuncio. |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Il canale dei media a pagamento non fornisce l’accesso per recuperare le risorse creative, il che rende difficile classificare con precisione i tipi di annunci. |
 | Innovid | N/D | È difficile categorizzare perché non disponiamo delle risorse per determinare il tipo di annuncio. |
 
 ### Posizionamenti di annunci

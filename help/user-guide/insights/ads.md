@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
+source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -124,3 +124,4 @@ La tabella seguente fornisce le definizioni per le metriche delle prestazioni di
 | **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un singolo posizionamento pubblicitario.<p>**Calcolo**: importo totale `spent` diviso per `clicks`<p>Questa metrica consente di valutare il rapporto costi/efficacia del posizionamento dell’annuncio nella generazione dei clic. | Un CPC inferiore indica che il posizionamento dell’annuncio genera clic a un costo inferiore, il che può essere utile per massimizzare il ritorno sull’investimento. |
 | **[!UICONTROL Spesa]** | L’importo speso per un singolo posizionamento pubblicitario, che rappresenta una frazione dell’importo totale speso per l’intero annuncio. Questa metrica consente di tenere traccia dell’allocazione del budget e dell’efficienza della spesa per ciascun posizionamento di annunci. | Il monitoraggio della spesa può contribuire a garantire che le risorse vengano utilizzate in modo efficace tra posizionamenti diversi. |
 | **Attributi** | Elenco delle funzioni intrinseche presenti in questo posizionamento pubblicitario. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. Vedi [Categorie](/help/user-guide/insights/attributes.md#categories). |
+

@@ -1,10 +1,13 @@
 ---
-source-git-commit: 3981d48c84d551559e3b5b12d97f7c888685dc99
+title: Spiacenti
+description: Questo è un test
+source-git-commit: 0a1722df22906a64c6854ce0b6ffde21ea1d7cad
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
+
 # Attributi generati
 
 Quando le risorse e le esperienze vengono approvate e memorizzate in [!DNL Content] o quando i posizionamenti di annunci vengono acquisiti da canali di terze parti, GenStudio for Performance Marketing [genera tag](/help/user-guide/content/asset-details.md#generated-tags) in base alle caratteristiche intrinseche.

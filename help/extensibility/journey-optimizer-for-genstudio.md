@@ -79,9 +79,9 @@ Visualizza l&#39;estensione in **[!UICONTROL Amministratore di Percorso]** in AJ
 
 **Vedere anche** (controllo accesso Journey Optimizer):
 
-* [Controllo degli accessi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Controllo degli accessi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/permissions)
+* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Accedere ai modelli di AJO in GenStudio
 

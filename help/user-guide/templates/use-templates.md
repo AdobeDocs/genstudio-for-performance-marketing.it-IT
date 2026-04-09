@@ -23,16 +23,16 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # Utilizzare i modelli
 
-GenStudio for Performance Marketing consente ai creatori di contenuti di produrre rapidamente contenuti di marketing coerenti nel brand utilizzando _modelli_. Un modello riduce in modo significativo il tempo e l’impegno necessari per generare nuovi contenuti, fornendo un punto di partenza che include layout preconfigurati ed elementi di progettazione. Per iniziare, caricare un modello personalizzato in [!DNL Content] o utilizzare un modello iniziale in [!DNL Create]. [I modelli iniziali](/help/user-guide/templates/starter-templates.md) forniscono un modo rapido per iniziare con una progettazione standard, mentre un modello personalizzato consente di utilizzare progettazioni e layout univoci.
+GenStudio for Performance Marketing consente ai creatori di contenuti di produrre rapidamente contenuti di marketing coerenti nel brand utilizzando _modelli_. Un modello riduce in modo significativo il tempo e l’impegno necessari per generare nuovi contenuti, fornendo un punto di partenza che include layout preconfigurati ed elementi di progettazione. Per iniziare, caricare un modello personalizzato in [!DNL Content] o utilizzare un modello iniziale in [!DNL Create]. I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di iniziare rapidamente con una progettazione standard, mentre un modello personalizzato consente di utilizzare progettazioni e layout univoci.
 
 Anche se GenStudio for Performance Marketing non supporta la creazione diretta di modelli all’interno dell’applicazione, è possibile progettare e preparare facilmente i modelli utilizzando i più diffusi strumenti di progettazione, come Adobe InDesign, Illustrator o Express. Una volta completato il progetto, puoi adattarlo per l’utilizzo in GenStudio for Performance Marketing. Per iniziare a utilizzare i modelli, segui questi passaggi:
 
@@ -131,7 +131,7 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 ### Aggiorna modello
 
-I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto statico &#x200B;](/help/user-guide/templates/customize-template.md#static-content) non viene archiviato dopo la creazione dell&#39;anteprima del modello. GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine fornito nel modello. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
+I modelli possono includere file statici, ad esempio icone o logo. [Il contenuto statico](/help/user-guide/templates/customize-template.md#static-content) non viene memorizzato dopo la creazione dell&#39;anteprima del modello. GenStudio for Performance Marketing continua a fare riferimento al collegamento di origine fornito nel modello. Aggiorna consente di aggiornare l’anteprima del modello con le versioni più recenti di queste risorse.
 
 **Per aggiornare il modello**:
 
@@ -158,6 +158,8 @@ Trova e utilizza un modello esistente in GenStudio for Performance Marketing per
 ## Modelli da AJO e Marketo
 
 Puoi caricare un modello creato in Adobe Journey Optimizer (AJO) o Marketo. GenStudio for Performance Marketing rileva i pattern specifici dell’applicazione e li ignora, conservando il modulo originale per un uso continuato in AJO o Marketo. Non è necessario apportare alcuna modifica alla sintassi originale di AJO o Marketo.
+
+Per utilizzare i modelli di AJO dalla libreria Journey Optimizer in GenStudio (inclusa la scheda **[!UICONTROL Modello AJO]** durante la creazione di esperienze e-mail), l&#39;organizzazione deve installare e configurare l&#39;app [Journey Optimizer per GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) da Adobe Exchange.
 
 I modelli di applicazione riconosciuti includono:
 

@@ -5,10 +5,10 @@ user-guide-description: Esplora le funzionalità di estensibilità del framework
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 62%
+source-wordcount: '60'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 62%
    + [Sviluppare un’app App Builder](create-app.md)
    + [Distribuire l’app](deploy-app.md)
    + [Distribuire l’app](distribute-app.md)
+   + [Journey Optimizer per GenStudio](journey-optimizer-for-genstudio.md)
    + [Selettore esperienza MFE](experience-selector.md)
 
 <!--

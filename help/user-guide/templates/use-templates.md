@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
+source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1443
 ht-degree: 1%
 
 ---
@@ -160,6 +160,8 @@ Trova e utilizza un modello esistente in GenStudio for Performance Marketing per
 Puoi caricare un modello creato in Adobe Journey Optimizer (AJO) o Marketo. GenStudio for Performance Marketing rileva i pattern specifici dell’applicazione e li ignora, conservando il modulo originale per un uso continuato in AJO o Marketo. Non è necessario apportare alcuna modifica alla sintassi originale di AJO o Marketo.
 
 Per utilizzare i modelli di AJO dalla libreria Journey Optimizer in GenStudio (inclusa la scheda **[!UICONTROL Modello AJO]** durante la creazione di esperienze e-mail), l&#39;organizzazione deve installare e configurare l&#39;app [Journey Optimizer per GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) da Adobe Exchange.
+
+Per utilizzare i modelli di Marketo dalla libreria Marketo Engage in GenStudio (inclusa la scheda **[!UICONTROL Modelli di Marketo]** durante la creazione di esperienze e-mail), la tua organizzazione deve installare e configurare [Marketo per GenStudio](/help/extensibility/marketo-for-genstudio.md) da Adobe Exchange.
 
 I modelli di applicazione riconosciuti includono:
 

@@ -68,7 +68,7 @@ e rivedere le CPA in modo coerente nelle tabelle Ads, Assets (Media) e Attribute
 
 ### Tipi di pubblico di RTCDP nel flusso di lavoro Crea
 
-[I tipi di pubblico di Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) sono disponibili nel flusso di lavoro [!DNL Create] per consentire di mettere a terra le esperienze generate nelle definizioni dei tipi di pubblico, insieme alle linee guida esistenti.
+[I tipi di pubblico di Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) sono disponibili nel flusso di lavoro [!DNL Create] per consentire di mettere a terra le esperienze generate nelle definizioni dei tipi di pubblico, insieme alle linee guida esistenti.
 
 ### Canale di visualizzazione Innovid in [!DNL Insights]
 

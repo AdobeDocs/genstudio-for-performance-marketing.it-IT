@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3556becd6dc0417f4c36d28def7d5cb20cc10cec
+source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
 workflow-type: tm+mt
-source-wordcount: 4584
+source-wordcount: 4994
 ht-degree: 0%
 
 ---
@@ -50,7 +50,57 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.03.15 {#latest}
+## 2026.04.16 {#latest}
+
+### Nuova panoramica di [!DNL Insights] 2.0
+
+La versione 2.0 di [[!DNL Insights]](/help/user-guide/insights/overview.md) riunisce le prestazioni di **Meta** e **LinkedIn** in un&#39;unica area di lavoro. Le istantanee specifiche per canale e cross-channel, la generazione di rapporti in stile contributo e le visualizzazioni di annunci ad alte e basse prestazioni semplificano la visualizzazione delle aree in cui la spesa è attiva.
+
+### [!DNL Insights] da tag annuncio
+
+**Insights from Ad Tags** divide gli ID di tracciamento in dimensioni di tag che puoi analizzare insieme alle prestazioni (come costo, coinvolgimento, conversioni e altro) senza esportare i nomi degli annunci in fogli di calcolo. Nell’esperienza emergono valori di tag sempre più forti e deboli, per cui la convenzione di denominazione diventa un elemento che puoi guidare, non un elemento che puoi decodificare offline.
+
+### Consigli in base al contesto in [!DNL Create]
+
+Nel [flusso di lavoro di creazione](/help/user-guide/create/overview.md), **[!UICONTROL Seleziona dal contenuto]** ora si apre con **[!UICONTROL Pertinenza]** ordinamento, quindi la griglia riflette le lingue [!DNL Brands], [!DNL Products], [!DNL Personas] e nel cassetto dei prompt.
+
+Oppure, se l&#39;attività di aggiornamento deve essere precedente all&#39;attività di adattamento contestuale, passare a **[!UICONTROL Aggiunta recente]**.
+
+### Scambio di frammenti di contenuto nell’area di lavoro di HTML
+
+Per [esperienze e-mail](/help/user-guide/create/create-email-experience.md) nell&#39;area di lavoro di HTML, **assemblare esperienze e-mail utilizzando tre tipi di slot in un&#39;unica area di lavoro**:
+
+* Slot generativi (copia generata da IA)
+* Slot per frammenti di contenuto (frammenti di contenuto preapprovati selezionati da un archivio AEM collegato tramite Content Advisor MFE)
+* Slot bloccati (campi immutabili, ad esempio disclaimer legali)
+
+Questi frammenti di contenuto esistono insieme nella stessa area di lavoro, quindi la copia modulare approvata viene spedita senza dover ricostruire manualmente HTML.
+
+### Crea [!DNL Brands], [!DNL Products] e [!DNL Personas] da un URL
+
+Crea [!DNL Brands], [!DNL Products] o [!DNL Personas] a partire da un URL pubblico con marchio, con output basati su ciò che il brand pubblica online.
+
+Le linee guida per i marchi possono essere generate in un’unica passata automatica. Prodotti e utenti tipo partono dai candidati suggeriti che confermi prima di creare i dettagli completi.
+
+### Annunci TV connessi (CTV) in [!DNL Create]
+
+**Adobe GenStudio per CTV** consente agli addetti al marketing delle prestazioni di gestire autonomamente annunci CTV conformi e di alta qualità attraverso un flusso di lavoro semplificato GenAI-first dal breve al lancio.
+
+È possibile assemblare le scene, affidarsi alla guida generativa di AI quando mancano ancora audio o elementi visivi, perfezionare scena per scena, quindi esportare o salvare in [!DNL Content] dopo la revisione.
+
+### Modelli di visualizzazione, varianti e ridimensionamento di HTML5
+
+Puoi **caricare un file zip HTML5 basato su DOM per sviluppare un modello di visualizzazione** in [!DNL Create], produrre varianti di annunci HTML5 e ridimensionare la creatività con proporzioni aggiuntive. Le esperienze completate possono essere attivate in [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) e [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
+
+### Flussi di lavoro di produzione Firefly Creative in GenStudio
+
+[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
+
+**I flussi di lavoro di produzione Firefly Creative** possono essere pubblicati ed eseguiti da GenStudio for Performance Marketing, in modo che gli addetti al marketing possano eseguire attività di produzione in-app, scaricare risultati finali e indirizzare le risorse finite a [[!DNL Content]](/help/user-guide/content/overview.md) con un numero inferiore di passaggi dello strumento.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.03.15
 
 ### Modelli Express per Meta, LinkedIn e Display
 
@@ -69,7 +119,7 @@ Esplora i dettagli in [Utilizzo di modelli Adobe Express in GenStudio for Perfor
 
 Ora puoi creare, approvare e attivare annunci video in-feed di TikTok da GenStudio for Performance Marketing. Genera facilmente annunci nel flusso di lavoro [!DNL Create], quindi pubblica l&#39;esperienza in [!DNL Content]. Utilizza [!DNL Insights] per TikTok per monitorare le prestazioni e informare il prossimo aggiornamento creativo.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2026.01.15
 

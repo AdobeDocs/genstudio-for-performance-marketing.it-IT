@@ -2,9 +2,9 @@
 name: polish-release-notes
 description: ""
 notes: refines only newly added
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: ee2875f35035e23e2577adbde5f408702b77d233
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ Mantieni differenze **minime**: solo le parole e le interruzioni di paragrafo no
 - **Procedura &quot;come&quot;** contenuto: passaggi numerati, &quot;fai clic su **[!UICONTROL ...]**, quindi...&quot;, procedure dettagliate complete dell&#39;interfaccia utente o frasi del tutorial. Le note sulla versione riepilogano **ciò che è stato spedito** e **perché è importante**, non le lezioni pratiche.
 - Contenuto che viola [Contenuto vietato](../generate-release-notes/SKILL.md#prohibited-content) per l&#39;abilità generata (nessuna chiave Jira, URL interni, wiki come bozza, ecc.).
 
+## Rimuovi durante la lucidatura (pianificazione delle versioni)
+
+Le bozze a volte includono **righe in corsivo** (`_…_` o `*…*`) relative a **disponibilità**, ad esempio rilascio limitato, tempistica Summit, GA, rollout più ampio o Beta **windows**. La lingua appartiene alla **gestione delle versioni**, non nelle note rifinite rivolte al cliente per questa pagina.
+
+- **Rimuovi completamente** le **righe corsivo** o le **clausole corsivo finali** quando il loro **scopo principale** è lo stato di pianificazione o rollout (tra cui **GA**, **versione limitata**, **Summit** o simili).
+- **Non** eliminare le frasi ordinarie (non corsive) che descrivono il comportamento del prodotto. Solo la copia di pianificazione impostata in **corsivo** come liberatoria.
+- **Mantieni** il blocco **[!BADGE Beta]** quando la funzionalità è Beta; il badge è il pattern supportato per Beta, non una riga di pianificazione in corsivo separata.
+- Dopo la rimozione, **stringere la prosa circostante** se un paragrafo ora inizia o termina in modo imbarazzante; non sostituire il corsivo rimosso con nuove frasi di pianificazione a meno che l&#39;utente non lo chieda esplicitamente.
+
 ## Mantieni (non eliminare o riscrivere strutturalmente)
 
 - `[!DNL …]`, `[!UICONTROL …]`, `[!BADGE …]` e altri codici brevi ExL.
@@ -57,12 +66,14 @@ Mantieni differenze **minime**: solo le parole e le interruzioni di paragrafo no
 1. [ ] Conferma **che** `###` in `## … {#latest}` sono nell&#39;ambito (nuovo questo turno).
 2. [ ] Per ogni ambito `###`, stringere la copia per [Regole per voce e tono](#voice-and-tone) e [Regole per paragrafo](#paragraph-rules).
 3. [ ] Rimuovi o riduci **istruzioni**; mantieni **risultati utente**.
-4. [ ] Verificare che i collegamenti e i codici di scelta rapida siano ancora validi. Eseguire un&#39;analisi rapida per individuare gli ID interni o i pattern non consentiti per [controlli di qualità](#quality-checks).
+4. [ ] Strip **programmazione e disponibilità in corsivo** righe per [Rimuovi durante la polish (pianificazione delle versioni)](#remove-during-polish-release-scheduling).
+5. [ ] Verificare che i collegamenti e i codici di scelta rapida siano ancora validi. Eseguire un&#39;analisi rapida per individuare gli ID interni o i pattern non consentiti per [controlli di qualità](#quality-checks).
 
 ## Controlli di qualità
 
 - [ ] Solo i blocchi **new** `###` concordati in `{#latest}` sono cambiati; gli archivi e i mesi precedenti non sono stati toccati.
 - [ ] Nessun nuovo ID in stile Jira, URL wiki interni o lingua &quot;see ticket&quot;.
+- [ ] No **solo pianificazione** disclaimer corsivo (GA, versione limitata, rollout Summit, ecc.) rimangono in sottosezioni `{#latest}` lucidate—queste sono state rimosse per [Rimuovi durante la lucidatura (pianificazione del rilascio)](#remove-during-polish-release-scheduling); i blocchi del badge Beta vanno bene dove applicabile.
 - [ ] I paragrafi sono **2-3 frasi** ciascuno (massimo tre frasi per paragrafo).
 - [ ] La copia rimane **effettiva** e allineata con la funzionalità descritta.
 

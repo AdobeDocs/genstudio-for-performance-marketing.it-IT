@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,23 @@ ht-degree: 0%
 
 **Mapping campi KT/wiki e percorsi documenti:** [reference.md](reference.md)
 
+## Ambito di modifica (rigido)
+
+Quando utilizzi questa abilità, **l&#39;unico luogo** in cui puoi **aggiungere** o **modificare** il contenuto del corpo della nota sulla versione è la sezione con **`## … {#latest}`** (il singolo blocco che contiene l&#39;ancoraggio `{#latest}`).
+
+- **Non** modificare le **Note sulla versione precedenti** (blocchi comprimibili `+++Notes from YYYY.MM.DD+++`) o **qualsiasi** sezione mensile precedente `##` che non contiene più `{#latest}`, anche quando l&#39;argomento sembra correlato, un collegamento non funziona correttamente oppure la copia risulta duplicata o obsoleta.
+- **Non** &quot;ritoccare&quot; precedenti a `###` sottosezioni, punti elenco, collegamenti o parole al di fuori del blocco `{#latest}` corrente a meno che l&#39;utente non fornisca una richiesta **esplicita e separata** non coperta da questa abilità.
+- **Eccezione:** [Archivia le ultime](#archive-previous-latest) precedenti quando introduci un blocco **new** principale `{#latest}`: **sposta** l&#39;intera sezione `{#latest}` precedente in una **new** comprimibile in **Note sulla versione precedenti** come descritto di seguito. Durante questo passaggio, **non riscrivere o aggiungere** a **altri blocchi di archivio precedenti**.
+
+Se le nuove informazioni appartengono al documento, inserirle nell&#39;intestazione **`{#latest}`** corrente (o archiviarle per prime, quindi aggiungerle solo al nuovo `{#latest}`).
+
 ## Elenco di controllo del flusso di lavoro
 
 Lavora in questo ordine. Copia l’elenco di controllo e tieni traccia dell’avanzamento per le modifiche in più passaggi.
 
-1. [ ] Aprire `help/user-guide/release-notes.md` e leggere il blocco `## YYYY.MM {#latest}` corrente e l&#39;area **Note sulla versione precedenti**.
+1. [ ] Aprire `help/user-guide/release-notes.md` e leggere il blocco `## YYYY.MM {#latest}` corrente. Considera le **note sulla versione precedenti** come **contesto di sola lettura** a meno che non si esegua il passaggio di archiviazione nel passaggio 2.
 2. [ ] Se si aggiunge una versione mensile di **new**: archiviare l&#39;ultima versione corrente (vedere [Archiviare l&#39;ultima versione precedente](#archive-previous-latest)).
-3. [ ] Aggiungi o modifica la prima sezione `## YYYY.MM {#latest}` (ultimo mese in cima all&#39;elenco delle versioni).
+3. [ ] Aggiungi o modifica **solo** la prima sezione `## YYYY.MM {#latest}` (ultimo mese in cima all&#39;elenco delle versioni).
 4. [ ] Per ogni elemento, applica [Regole di decisione](#decision-rules) (funzionalità `###` rispetto a **Correzioni e miglioramenti**, badge Beta o meno).
 5. [ ] Aggiungi o verifica i collegamenti alla documentazione sulla frase più rilevante (vedi [reference.md](reference.md#documentation-linking)).
 6. [ ] Eseguire [controlli di qualità](#quality-checks) prima di terminare.
@@ -47,10 +57,12 @@ Utilizza queste regole &quot;if/then&quot; per indirizzare il contenuto al posto
 Quando si introduce un nuovo `## YYYY.MM {#latest}`:
 
 1. Taglia l&#39;intera sezione `## YYYY.MM {#latest}` precedente (dal titolo fino alla fine del contenuto di quella versione, prima delle `##` o **note sulla versione precedente**).
-2. Incollalo in **Note sulla versione precedenti**, all&#39;interno di un blocco comprimibile.
+2. Incollalo in **Note sulla versione precedenti**, all&#39;interno di un blocco comprimibile **new**.
 3. Sostituire il titolo precedente con: `+++Notes from YYYY.MM.DD+++` (utilizzare la data di rilascio effettiva; formattare come nelle note esistenti nel file).
 4. Rimuovi `{#latest}` dall&#39;intestazione archiviata. La nuova sezione superiore è l&#39;unica con `{#latest}`.
 5. Mantieni l&#39;ordine cronologico nelle **note sulla versione precedenti** (i blocchi archiviati più recenti vengono spostati nella parte superiore a meno che il file non utilizzi già un ordine diverso—**corrisponde al file esistente**).
+
+**non** modificare il corpo di **blocchi preesistenti** `+++Notes from …+++` durante l&#39;esecuzione dell&#39;archivio. Inserire solo il blocco appena archiviato e conservare gli archivi meno recenti così come sono.
 
 ## Struttura richiesta
 
@@ -108,6 +120,7 @@ Utilizza esattamente:
 
 Prima di completare l&#39;attività:
 
+- [ ] **Ambito:** Solo il blocco `## … {#latest}` è stato aggiunto o modificato; **Le note sulla versione precedenti** e le sezioni mensili precedenti non sono state modificate ad eccezione del [Archivia le versioni precedenti più recenti](#archive-previous-latest) tagliate/incollate del precedente `{#latest}` in un blocco di archivio **nuovo**.
 - [ ] Tutti i collegamenti relativi nuovi o modificati vengono risolti in percorsi reali in `help/` dove possibile.
 - [ Le funzionalità di Beta ] includono lo snippet di badge Beta, se necessario.
 - [ ] La terminologia corrisponde alle note sulla versione esistenti (`[!DNL …]`, `[!UICONTROL …]`).

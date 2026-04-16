@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 665
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Se sei un nuovo utente di strumenti generativi basati sull&#39;intelligenza arti
 
 GenStudio for Performance Marketing utilizza le informazioni sul tuo marchio e sui tuoi mercati per migliorare la creazione di contenuti conformi al brand. L&#39;intelligenza artificiale generativa sfrutta le descrizioni del cliente [personas](/help/user-guide/guidelines/personas.md), [prodotti](/help/user-guide/guidelines/products.md) e [linee guida per il marchio](/help/user-guide/guidelines/overview.md) per guidare la generazione dei contenuti in linea con i requisiti della tua organizzazione.
 
-I responsabili di sistema configurano Adobe GenStudio for Performance Marketing immettendo o caricando informazioni specifiche per l’organizzazione. Questa preparazione garantisce che gli editor di contenuti e i collaboratori possano utilizzare in modo efficace le funzioni di intelligenza artificiale generative per creare e rivedere le risorse della campagna. Quando un amministratore di sistema Adobe esegue il provisioning dell’istanza di prodotto della tua organizzazione e assegna le autorizzazioni di GenStudio GenStudio System Manager, quest’ultimo può preparare il framework generativo di IA del prodotto utilizzando le linee guida.
+I responsabili di sistema configurano Adobe GenStudio for Performance Marketing immettendo o caricando informazioni specifiche per l’organizzazione. Questa preparazione garantisce che gli editor di contenuti e i collaboratori possano utilizzare in modo efficace le funzioni di intelligenza artificiale generative per creare e rivedere le risorse della campagna. Quando un amministratore di sistema Adobe esegue il provisioning dell’istanza di prodotto della tua organizzazione e assegna le autorizzazioni di GenStudio System Manager, quest’ultimo può preparare il framework generativo di IA del prodotto utilizzando le linee guida.
 
 ### Passaggio 1: aggiungere linee guida
 
@@ -90,4 +90,4 @@ Consulta [Caricare risorse approvate](/help/user-guide/content/manage-assets.md)
 
 ### Passaggio 5: connettersi a un account multimediale a pagamento
 
-Configura una connessione tra GenStudio for Performance Marketing e gli account a pagamento per ricevere dati da campagne di marketing, risorse ed esperienze attive. Utilizzare [!DNL Insights] per analizzare i dati derivati dal canale. Consulta [Connetti account di paid media](/help/user-guide/connectors/connect-channel.md).
+Configura una connessione tra GenStudio for Performance Marketing e gli account a pagamento per ricevere dati da campagne di marketing, risorse ed esperienze attive. Utilizza [!DNL Insights] per analizzare i dati derivati dal canale, inclusa la panoramica cross-channel di **[!UICONTROL Insights 2.0]** quando lavori con Meta e LinkedIn ([Panoramica di Insights](/help/user-guide/insights/overview.md#insights-20)). Consulta [Connetti account di paid media](/help/user-guide/connectors/connect-channel.md).

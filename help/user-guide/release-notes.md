@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
 workflow-type: tm+mt
-source-wordcount: 4994
+source-wordcount: 4727
 ht-degree: 0%
 
 ---
@@ -52,35 +23,11 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
 
 ## 2026.04.16 {#latest}
 
-### Nuova panoramica di [!DNL Insights] 2.0
-
-La versione 2.0 di [[!DNL Insights]](/help/user-guide/insights/overview.md) riunisce le prestazioni di **Meta** e **LinkedIn** in un&#39;unica area di lavoro. Le istantanee specifiche per canale e cross-channel, la generazione di rapporti in stile contributo e le visualizzazioni di annunci ad alte e basse prestazioni semplificano la visualizzazione delle aree in cui la spesa è attiva.
-
-### [!DNL Insights] da tag annuncio
-
-**Insights from Ad Tags** divide gli ID di tracciamento in dimensioni di tag che puoi analizzare insieme alle prestazioni (come costo, coinvolgimento, conversioni e altro) senza esportare i nomi degli annunci in fogli di calcolo. Nell’esperienza emergono valori di tag sempre più forti e deboli, per cui la convenzione di denominazione diventa un elemento che puoi guidare, non un elemento che puoi decodificare offline.
-
 ### Consigli in base al contesto in [!DNL Create]
 
 Nel [flusso di lavoro di creazione](/help/user-guide/create/overview.md), **[!UICONTROL Seleziona dal contenuto]** ora si apre con **[!UICONTROL Pertinenza]** ordinamento, quindi la griglia riflette le lingue [!DNL Brands], [!DNL Products], [!DNL Personas] e nel cassetto dei prompt.
 
 Oppure, se l&#39;attività di aggiornamento deve essere precedente all&#39;attività di adattamento contestuale, passare a **[!UICONTROL Aggiunta recente]**.
-
-### Scambio di frammenti di contenuto nell’area di lavoro di HTML
-
-Per [esperienze e-mail](/help/user-guide/create/create-email-experience.md) nell&#39;area di lavoro di HTML, **assemblare esperienze e-mail utilizzando tre tipi di slot in un&#39;unica area di lavoro**:
-
-* Slot generativi (copia generata da IA)
-* Slot per frammenti di contenuto (frammenti di contenuto preapprovati selezionati da un archivio AEM collegato tramite Content Advisor MFE)
-* Slot bloccati (campi immutabili, ad esempio disclaimer legali)
-
-Questi frammenti di contenuto esistono insieme nella stessa area di lavoro, quindi la copia modulare approvata viene spedita senza dover ricostruire manualmente HTML.
-
-### Crea [!DNL Brands], [!DNL Products] e [!DNL Personas] da un URL
-
-Crea [!DNL Brands], [!DNL Products] o [!DNL Personas] a partire da un URL pubblico con marchio, con output basati su ciò che il brand pubblica online.
-
-Le linee guida per i marchi possono essere generate in un’unica passata automatica. Prodotti e utenti tipo partono dai candidati suggeriti che confermi prima di creare i dettagli completi.
 
 ### Annunci TV connessi (CTV) in [!DNL Create]
 
@@ -91,12 +38,6 @@ Le linee guida per i marchi possono essere generate in un’unica passata automa
 ### Modelli di visualizzazione, varianti e ridimensionamento di HTML5
 
 Puoi **caricare un file zip HTML5 basato su DOM per sviluppare un modello di visualizzazione** in [!DNL Create], produrre varianti di annunci HTML5 e ridimensionare la creatività con proporzioni aggiuntive. Le esperienze completate possono essere attivate in [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) e [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
-
-### Flussi di lavoro di produzione Firefly Creative in GenStudio
-
-[!BADGE Beta]{type=Informative tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."}
-
-**I flussi di lavoro di produzione Firefly Creative** possono essere pubblicati ed eseguiti da GenStudio for Performance Marketing, in modo che gli addetti al marketing possano eseguire attività di produzione in-app, scaricare risultati finali e indirizzare le risorse finite a [[!DNL Content]](/help/user-guide/content/overview.md) con un numero inferiore di passaggi dello strumento.
 
 ## Note sulle versioni precedenti
 

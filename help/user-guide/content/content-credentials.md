@@ -17,10 +17,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 1%
+source-wordcount: 723
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,12 @@ Scopri come le credenziali a prova di manomissione per i contenuti che dimostran
 >
 > Questa funzione è attualmente in versione beta ed è disponibile solo per le organizzazioni a cui è stato concesso l’accesso. Se ti interessa, contatta il rappresentante del team del tuo account Adobe o [utilizza questo collegamento per richiedere l&#39;iscrizione](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
+## Introduzione a Content Credentials {#content-credentials}
 
-## Introduzione a Content Credentials
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="Content Credentials in [!DNL GenStudio for Performance Marketing]"
+>abstract="Le credenziali a prova di manomissione per i contenuti che dimostrano l’autenticità del brand e la conformità possono essere incorporate direttamente nel flusso di lavoro di marketing."
 
 Dopo l’attivazione di Content Credentials in Admin Console, gli utenti di GenStudio for Performance Marketing possono attivare Content Credentials per tutte le risorse a livello globale nell’app. Se l’opzione globale per l’applicazione delle credenziali è disattivata, gli utenti possono scegliere di applicare Content Credentials a ogni singola risorsa.
 

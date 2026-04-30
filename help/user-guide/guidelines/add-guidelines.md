@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +44,6 @@ Le linee guida possono essere definite dall&#39;utente o esistere come linee gui
 Quando si creano varianti da un modello con linee guida di canale predefinite (come [!DNL Brands], [!DNL Personas] o [!DNL Products]), queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
 
 {{in-academy}}
-
-## Linee guida per l’aggiunta da un URL
-
-Quando si sceglie di aggiungere [!DNL Brand], [!DNL Product] o [!DNL Persona] da un URL in [!DNL GenStudio for Performance Marketing], considerare le informazioni riportate di seguito.
-
-**Prerequisiti per i flussi di lavoro basati su URL**:
-
-- Hai un account **attivo [!DNL GenStudio for Performance Marketing]** con autorizzazioni di Brand Manager o superiori.
-- L&#39;URL **è accessibile pubblicamente**. Le pagine protette da password o gestite da login producono un output limitato.
-- **Per ottenere risultati ottimali, utilizzare l&#39;URL del sito Web del brand** (una home page o una pagina di prodotti/categorie) anziché retailer, rivenditore o aggregatore.
-
-**Tipi di URL e relativi output previsti**:
-
-| Tipo di URL | Cosa aspettarsi |
-| --- | --- |
-| Home page del marchio | Ottieni linee guida complete per il brand e il sistema fa emergere un’ampia copertura di prodotti e utenti tipo. |
-| Pagina categoria prodotto | I prodotti e gli utenti tipo hanno l’ambito della categoria rappresentata in quella pagina. |
-| Pagina di destinazione della campagna | I segnali personali sono particolarmente utili, ma l’output del brand può riflettere la campagna invece del brand completo. |
-| Pagina retailer o partner | Il sistema riduce le priorità dei contenuti di terze parti, pertanto l’output sarà limitato. |
-| Pagina gestita/richiesta di accesso | Il contenuto della pagina non è disponibile, pertanto l’output sarà conservativo. |
 
 ## Aggiungi marchi
 
@@ -134,9 +114,9 @@ Per visualizzare il [!DNL Brands] creato, fai clic sulla freccia indietro accant
 
 Non è necessario [pubblicare](#publish-brand) [!DNL Brand] per rendere accessibili le informazioni. Tutte le informazioni aggiunte manualmente sono disponibili subito dopo l’aggiunta. Affinché altri utenti dell&#39;organizzazione possano utilizzare le informazioni di [!DNL Brand] in GenStudio for Performance Marketing, è necessario pubblicarle. Un [!DNL Brand] creato è in formato bozza fino alla pubblicazione.
 
-### Creazione di un marchio da un URL
+### Creazione di un brand da un URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per creare un marchio da un URL:**
 
@@ -279,7 +259,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Aggiunta di [!DNL Personas] dall&#39;URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per aggiungere utenti tipo da un URL:**
 
@@ -363,7 +343,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Aggiunta di prodotti dall’URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per aggiungere [!DNL Products] da un URL:**
 
@@ -408,3 +388,23 @@ Durante l’onboarding, le definizioni dei tipi di pubblico vengono importate e 
 1. Seleziona un pubblico da assegnare dall’elenco. Il sistema suggerisce i tipi di pubblico consigliati che si allineano con [!DNL Persona] selezionato, se è selezionato un [!DNL Persona].
 1. Fai clic su **[!UICONTROL Visualizza dettagli pubblico]** per visualizzare la descrizione espansa e le preferenze di messaggistica generate per il pubblico selezionato. I dettagli del pubblico informano la generazione di contenuti, garantendo che la creatività sia allineata alle caratteristiche e alle preferenze specifiche del segmento di destinazione.
    ![Riquadro dettagli pubblico](./audience-details.png){width=450}
+
+## Linee guida per l’aggiunta da un URL
+
+Quando si sceglie di aggiungere [!DNL Brand], [!DNL Product] o [!DNL Persona] da un URL in [!DNL GenStudio for Performance Marketing], considerare le informazioni riportate di seguito.
+
+**Prerequisiti per i flussi di lavoro basati su URL**:
+
+- Hai un account **attivo [!DNL GenStudio for Performance Marketing]** con autorizzazioni di Brand Manager o superiori.
+- L&#39;URL **è accessibile pubblicamente**. Le pagine protette da password o gestite da login producono un output limitato.
+- **Per ottenere risultati ottimali, utilizzare l&#39;URL del sito Web del brand** (una home page o una pagina di prodotti/categorie) anziché retailer, rivenditore o aggregatore.
+
+**Tipi di URL e relativi output previsti**:
+
+| Tipo di URL | Cosa aspettarsi |
+| --- | --- |
+| Home page del marchio | Ottieni linee guida complete per il brand e il sistema fa emergere un’ampia copertura di prodotti e utenti tipo. |
+| Pagina categoria prodotto | I prodotti e gli utenti tipo hanno l’ambito della categoria rappresentata in quella pagina. |
+| Pagina di destinazione della campagna | I segnali personali sono particolarmente utili, ma l’output del brand può riflettere la campagna invece del brand completo. |
+| Pagina retailer o partner | Il sistema riduce le priorità dei contenuti di terze parti, pertanto l’output sarà limitato. |
+| Pagina gestita/richiesta di accesso | Il contenuto della pagina non è disponibile, pertanto l’output sarà conservativo. |

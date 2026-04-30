@@ -6,29 +6,15 @@ role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
 TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: cec71013-cf14-4e28-b808-3d3060935bcb
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: afc6e550-6640-4eb4-a143-75ec86d23a66id: be495d08-ecd1-455f-951e-c22de504e667id: cec71013-cf14-4e28-b808-3d3060935bcbid: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +30,6 @@ Le linee guida possono essere definite dall&#39;utente o esistere come linee gui
 Quando si creano varianti da un modello con linee guida di canale predefinite (come [!DNL Brands], [!DNL Personas] o [!DNL Products]), queste linee guida si applicano alle varianti. Puoi modificarli se lo desideri.
 
 {{in-academy}}
-
-## Linee guida per l’aggiunta da un URL
-
-Quando si sceglie di aggiungere [!DNL Brand], [!DNL Product] o [!DNL Persona] da un URL in [!DNL GenStudio for Performance Marketing], considerare le informazioni riportate di seguito.
-
-**Prerequisiti per i flussi di lavoro basati su URL**:
-
-- Hai un account **attivo [!DNL GenStudio for Performance Marketing]** con autorizzazioni di Brand Manager o superiori.
-- L&#39;URL **è accessibile pubblicamente**. Le pagine protette da password o gestite da login producono un output limitato.
-- **Per ottenere risultati ottimali, utilizzare l&#39;URL del sito Web del brand** (una home page o una pagina di prodotti/categorie) anziché retailer, rivenditore o aggregatore.
-
-**Tipi di URL e relativi output previsti**:
-
-| Tipo di URL | Cosa aspettarsi |
-| --- | --- |
-| Home page del marchio | Ottieni linee guida complete per il brand e il sistema fa emergere un’ampia copertura di prodotti e utenti tipo. |
-| Pagina categoria prodotto | I prodotti e gli utenti tipo hanno l’ambito della categoria rappresentata in quella pagina. |
-| Pagina di destinazione della campagna | I segnali personali sono particolarmente utili, ma l’output del brand può riflettere la campagna invece del brand completo. |
-| Pagina retailer o partner | Il sistema riduce le priorità dei contenuti di terze parti, pertanto l’output sarà limitato. |
-| Pagina gestita/richiesta di accesso | Il contenuto della pagina non è disponibile, pertanto l’output sarà conservativo. |
 
 ## Aggiungi marchi
 
@@ -121,7 +87,7 @@ Puoi aggiungere manualmente i dettagli del brand, invece di caricare i documenti
    - _Quando utilizzare il marchio_: fare clic su **[!UICONTROL Aggiungi]** (o fare clic nel campo di testo per modificare il testo esistente) e immettere informazioni generali e di utilizzo sul marchio. Fai clic su **[!UICONTROL Salva modifiche]**.
    - [_[!DNL Brand] linee guida vocali _](brands.md#brand-voice-guidelines): aggiungi informazioni applicabili in ciascun campo delle linee guida.
 
-     ![Aggiungi [!DNL Brand] linee guida vocali &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Aggiungi [!DNL Brand] linee guida vocali ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Linee guida per le immagini_](brands.md#image-guidelines): fare clic su **[!UICONTROL Aggiungi categoria]** per aggiungere categorie di linee guida, ad esempio &quot;Linee guida generali&quot; o &quot;Fotografia di prodotto&quot;. Inserisci le linee guida in ogni categoria aggiunta.
    - [_Linee guida per il canale_](brands.md#channel-guidelines): fai clic su ogni canale disponibile e aggiungi le linee guida appropriate.
@@ -134,9 +100,9 @@ Per visualizzare il [!DNL Brands] creato, fai clic sulla freccia indietro accant
 
 Non è necessario [pubblicare](#publish-brand) [!DNL Brand] per rendere accessibili le informazioni. Tutte le informazioni aggiunte manualmente sono disponibili subito dopo l’aggiunta. Affinché altri utenti dell&#39;organizzazione possano utilizzare le informazioni di [!DNL Brand] in GenStudio for Performance Marketing, è necessario pubblicarle. Un [!DNL Brand] creato è in formato bozza fino alla pubblicazione.
 
-### Creazione di un marchio da un URL
+### Creazione di un brand da un URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per creare un marchio da un URL:**
 
@@ -279,7 +245,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Aggiunta di [!DNL Personas] dall&#39;URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per aggiungere utenti tipo da un URL:**
 
@@ -292,7 +258,7 @@ Puoi aggiungere manualmente i dettagli dell&#39;utente tipo, invece di caricare 
 
 ### Gestisci [!DNL Personas]
 
-Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Personas]_, puoi **aprire un[!DNL Persona]**già creato per modificarlo o rivederlo, oppure **eliminare un utente tipo**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu azioni [!DNL Personas] per rivedere e rivedere un utente tipo esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Personas] per **Eliminare** un utente tipo.
@@ -363,7 +329,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Aggiunta di prodotti dall’URL
 
-**Prerequisiti:** Consulta [Prerequisiti per i flussi di lavoro basati su URL](#prerequisites-for-url-based-workflows). Per informazioni sul modo in cui i diversi URL influiscono sui risultati, vedere [Tipi di URL e output previsto](#url-types-and-expected-output).
+**Prerequisiti:** Consulta le [istruzioni per l&#39;aggiunta da un URL](#guidance-when-adding-from-a-url).
 
 **Per aggiungere [!DNL Products] da un URL:**
 
@@ -376,7 +342,7 @@ Puoi aggiungere manualmente i dettagli di un prodotto, invece di caricare i docu
 
 ### Gestisci [!DNL Products]
 
-Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**&#x200B;già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**&#x200B;dall&#39;elenco:
+Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**già creato per modificarlo o rivederlo, oppure **eliminare un prodotto**dall&#39;elenco:
 
 - Seleziona **[!UICONTROL Apri]** dal menu Azioni [!DNL Products] per rivedere e rivedere un prodotto esistente.
 - Selezionare **[!UICONTROL Elimina]** dal menu azioni [!DNL Products] per **Eliminare** un prodotto.
@@ -386,11 +352,11 @@ Nella home di _[!DNL Products]_, puoi **aprire un[!DNL Product]**&#x200B;già cr
 
 >[!NOTE]
 >
->La funzione [!DNL Audiences] richiede l&#39;onboarding da parte del team Adobe per essere visualizzato in GenStudio. Se _[!DNL Audiences]_&#x200B;non viene visualizzato nei parametri del modello, contatta il rappresentante Adobe.
+>La funzione [!DNL Audiences] richiede l&#39;onboarding da parte del team Adobe per essere visualizzato in GenStudio. Se _[!DNL Audiences]_non viene visualizzato nei parametri del modello, contatta il rappresentante Adobe.
 
 [!DNL Audiences] fornisce segmenti di clienti mirati da Adobe Real-Time Customer Data Platform (RTCDP), inserendo dati di targeting precisi nel flusso di lavoro di generazione dei contenuti. GenStudio for Performance Marketing sfrutta le definizioni dei tipi di pubblico per creare contenuti di marketing personalizzati, in linea con specifici segmenti di clienti.
 
-[!DNL Audiences] viene visualizzato come elenco a discesa nel riquadro dei parametri, nel [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ può aggiungere specificità a _[!DNL Personas]_&#x200B;quando vengono utilizzate entrambe le linee guida, ma può anche essere utilizzato in modo efficace e indipendente.
+[!DNL Audiences] viene visualizzato come elenco a discesa nel riquadro dei parametri, nel [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ può aggiungere specificità a _[!DNL Personas]_quando vengono utilizzate entrambe le linee guida, ma può anche essere utilizzato in modo efficace e indipendente.
 
 Durante l’onboarding, le definizioni dei tipi di pubblico vengono importate e trasformate in un formato compatibile con GenStudio. In genere questo processo richiede alcuni giorni. Contatta il team Adobe per avviarlo.
 
@@ -398,13 +364,33 @@ Durante l’onboarding, le definizioni dei tipi di pubblico vengono importate e 
 
 - Accesso organizzativo ad Adobe Real-Time Customer Data Platform
 - I tipi di pubblico esistenti sono già configurati nelle sandbox di RTCDP
-- L&#39;integrazione di _[!DNL Audience]_&#x200B;richiede un processo di onboarding manuale da parte del team Adobe
+- L&#39;integrazione di _[!DNL Audience]_richiede un processo di onboarding manuale da parte del team Adobe
 
 **Per selezionare un pubblico**:
 
-1. In [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates), seleziona un modello e fai clic sul pulsante **[!UICONTROL Usa]**&#x200B;per aprire la bozza.
+1. In [flusso di lavoro _[!DNL Create]_](../create/overview.md#templates), seleziona un modello e fai clic sul pulsante **[!UICONTROL Usa]**per aprire la bozza.
 1. Nell&#39;elenco dei parametri, fai clic sul menu a discesa _[!UICONTROL Pubblico]_ per visualizzare tutti i tipi di pubblico disponibili.
    ![Menu a discesa Pubblico nel riquadro Parametri personali](./audience-dropdown.png){width=450}
 1. Seleziona un pubblico da assegnare dall’elenco. Il sistema suggerisce i tipi di pubblico consigliati che si allineano con [!DNL Persona] selezionato, se è selezionato un [!DNL Persona].
 1. Fai clic su **[!UICONTROL Visualizza dettagli pubblico]** per visualizzare la descrizione espansa e le preferenze di messaggistica generate per il pubblico selezionato. I dettagli del pubblico informano la generazione di contenuti, garantendo che la creatività sia allineata alle caratteristiche e alle preferenze specifiche del segmento di destinazione.
    ![Riquadro dettagli pubblico](./audience-details.png){width=450}
+
+## Linee guida per l’aggiunta da un URL
+
+Quando si sceglie di aggiungere [!DNL Brand], [!DNL Product] o [!DNL Persona] da un URL in [!DNL GenStudio for Performance Marketing], considerare le informazioni riportate di seguito.
+
+**Prerequisiti per i flussi di lavoro basati su URL**:
+
+- Hai un account **attivo [!DNL GenStudio for Performance Marketing]** con autorizzazioni di Brand Manager o superiori.
+- L&#39;URL **è accessibile pubblicamente**. Le pagine protette da password o gestite da login producono un output limitato.
+- **Per ottenere risultati ottimali, utilizzare l&#39;URL del sito Web del brand** (una home page o una pagina di prodotti/categorie) anziché retailer, rivenditore o aggregatore.
+
+**Tipi di URL e relativi output previsti**:
+
+| Tipo di URL | Cosa aspettarsi |
+| --- | --- |
+| Home page del marchio | Ottieni linee guida complete per il brand e il sistema fa emergere un’ampia copertura di prodotti e utenti tipo. |
+| Pagina categoria prodotto | I prodotti e gli utenti tipo hanno l’ambito della categoria rappresentata in quella pagina. |
+| Pagina di destinazione della campagna | I segnali personali sono particolarmente utili, ma l’output del brand può riflettere la campagna invece del brand completo. |
+| Pagina retailer o partner | Il sistema riduce le priorità dei contenuti di terze parti, pertanto l’output sarà limitato. |
+| Pagina gestita/richiesta di accesso | Il contenuto della pagina non è disponibile, pertanto l’output sarà conservativo. |

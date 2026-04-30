@@ -5,19 +5,12 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
 workflow-type: tm+mt
 source-wordcount: 1835
 ht-degree: 85%
@@ -42,7 +35,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creare un modello
 
@@ -93,9 +86,9 @@ Il plug-in deve comprendere i diversi elementi del modello, come titolo, testo d
 
 Scopri come alcuni di questi ruoli di campo sono mappati di seguito.
 
-| ![Un post su Facebook con i ruoli dei campi indicati](./facebook-post.png){width="50%" align="center"}<br> | ![Una storia di Facebook con i ruoli dei campi indicati](./facebook-story.png){width="60%" align="center"}<br> |
+| ![Un post su Facebook con i ruoli dei campi indicati](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Una storia di Facebook con i ruoli dei campi indicati](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![Un post Instagram con i ruoli dei campi indicati](./instagram-post.png){width="50%" align="center"}<br> | ![Una storia Instagram con i ruoli dei campi indicati](./instagram-story.png){width="60%" align="center"}<br> |
+| ![Un post Instagram con i ruoli dei campi indicati](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Una storia Instagram con i ruoli dei campi indicati](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **I ruoli del campo LinkedIn includono**:
 
@@ -109,7 +102,7 @@ Scopri come alcuni di questi ruoli di campo sono mappati di seguito.
 
 Scopri come alcuni di questi ruoli di campo sono mappati di seguito.
 
-![Un post LinkedIn con ruoli di campo indicati](./linkedin-ad.png){width="20%" align="center"}
+![Un post LinkedIn con ruoli di campo indicati](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 Il plug-in ricorda queste mappature da utilizzare per il contenuto generato. Un ruolo di campo può essere mappato a più elementi del modello. I campi manuali sono per gli elementi che desideri mantenere la modificabilità del testo ma che non saranno contrassegnati per la generazione.
 
@@ -122,7 +115,7 @@ Per assegnare ruoli elemento:
 1. Seleziona un elemento nel modello (testo, immagine e così via).
 1. Utilizza il menu a discesa per assegnare un ruolo.
 
-![Mappatura ruolo campo](./field-role-mapping.png){width="60%"}
+![Mappatura ruolo campo](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
@@ -288,4 +281,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).

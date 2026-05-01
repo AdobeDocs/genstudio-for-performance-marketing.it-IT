@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ Conferma che gli account degli annunci Meta connessi dispongano dell’autorizza
 
 ## Passaggio 2: collegati agli account Meta
 
-Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema di GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni, come Meta, abilitando il processo di attivazione.
+Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema di GenStudio deve collegare i tuoi account Meta a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni, come Meta, abilitando il processo di attivazione. Vedi [Connetti a Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
-Vedi [Connetti a Meta Ads](/help/user-guide/connectors/meta-ads.md).
+Per selezionare un account Instagram, assicurati in Meta Business Manager che [l&#39;account Instagram che desideri utilizzare sia connesso allo stesso account annuncio](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account) selezionato durante l&#39;onboarding. Se manca questa connessione, l&#39;account Instagram potrebbe non essere visualizzato nel menu a discesa [!DNL GenStudio for Performance Marketing] _Account Instagram_ durante l&#39;attivazione.
 
 Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La sincronizzazione di grandi quantità di dati richiede più tempo.
 

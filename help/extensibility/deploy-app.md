@@ -4,19 +4,13 @@ description: Distribuisci l’app App Builder, o il componente aggiuntivo, per G
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +47,7 @@ Puoi forzare la creazione e la distribuzione dell’app senza inviarla nuovament
 
 >[!NOTE]
 >
->L’imposizione di una build e di una distribuzione sovrascrive la distribuzione esistente. **Eseguire prima il test completo dell&#39;app** in un ambiente di test.
+>L’imposizione di una build e di una distribuzione sovrascrive la distribuzione esistente. **Esegui prima il test completo dell&#39;app** in un ambiente di test.
 
 ```bash
 aio app build --force-build
@@ -111,6 +105,10 @@ Le estensioni di convalida si trovano dopo una generazione di prompt, nel lato d
 Esegui l’estensione selezionata per convalidare il contenuto generato.
 
 ![Convalida valida valida](./validation-valid.png){width="600" zoomable="yes"}
+
+In caso di errori, puoi utilizzare l’estensione per aggiornare la copia delle esperienze a livello di programmazione. Facendo clic sul pulsante **[!UICONTROL Copia]**, il testo suggerito verrà copiato negli Appunti. Facendo clic sul pulsante **[!UICONTROL Applica]**, il testo verrà applicato a una casella di testo specifica nell&#39;esperienza generata.
+
+![Errore di convalida durante la visualizzazione dei pulsanti Copia e Applica](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### Trovare estensioni DAM
 

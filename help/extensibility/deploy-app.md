@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Puoi forzare la creazione e la distribuzione dell’app senza inviarla nuovament
 
 >[!NOTE]
 >
->L’imposizione di una build e di una distribuzione sovrascrive la distribuzione esistente. **Eseguire prima il test completo dell&#39;app** in un ambiente di test.
+>L’imposizione di una build e di una distribuzione sovrascrive la distribuzione esistente. **Esegui prima il test completo dell&#39;app** in un ambiente di test.
 
 ```bash
 aio app build --force-build
@@ -111,6 +111,10 @@ Le estensioni di convalida si trovano dopo una generazione di prompt, nel lato d
 Esegui l’estensione selezionata per convalidare il contenuto generato.
 
 ![Convalida valida valida](./validation-valid.png){width="600" zoomable="yes"}
+
+In caso di errori, puoi utilizzare l’estensione per aggiornare la copia delle esperienze a livello di programmazione. Facendo clic sul pulsante **[!UICONTROL Copia]**, il testo suggerito verrà copiato negli Appunti. Facendo clic sul pulsante **[!UICONTROL Applica]**, il testo verrà applicato a una casella di testo specifica nell&#39;esperienza generata.
+
+![Errore di convalida durante la visualizzazione dei pulsanti Copia e Applica](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### Trovare estensioni DAM
 

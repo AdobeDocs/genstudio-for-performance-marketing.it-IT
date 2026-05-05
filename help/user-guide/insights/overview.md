@@ -1,6 +1,6 @@
 ---
-title: Overview of Insights
-description: Learn how to optimize ads based on real-time content performance metrics.
+title: Panoramica di Insights
+description: Scopri come ottimizzare gli annunci in base a metriche delle prestazioni dei contenuti in tempo reale.
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
@@ -25,46 +25,50 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
+source-git-commit: d3d3bd0d0790ecfe5a9c0e796b74fcf97672f1d2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 959
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketing Insights
+# Approfondimenti Adobe GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing [!DNL Insights] provides advanced analytics and insights into content performance that can help you make data-driven decisions.
+Adobe GenStudio for Performance Marketing [!DNL Insights] fornisce analisi avanzate e informazioni approfondite sulle prestazioni dei contenuti, utili per prendere decisioni basate sui dati.
 
-From the [!DNL Insights] dashboard, you can:
+Dal dashboard [!DNL Insights] è possibile:
 
-- **Identify the most effective content**: Pinpoint which content performs best for different audiences and tailor future content or campaigns for trending preferences.
-- **Optimize low-performing content**: Find content that is not performing well and use the integrated generative AI to create variations immediately, potentially improving its effectiveness without starting from scratch.
-- **Revitalize high-performing content**: Take successful content and tweak it to refresh the ad for the audience or adapt hero content for use in new campaigns, potentially extending its lifecycle and performance.
+- **Identifica il contenuto più efficace**: individua il contenuto che funziona meglio per diversi tipi di pubblico e personalizza i contenuti futuri o le campagne per le preferenze di tendenza.
+- **Ottimizza contenuti con prestazioni insoddisfacenti**: trova contenuti con prestazioni insoddisfacenti e utilizza l&#39;intelligenza artificiale generativa integrata per creare immediatamente varianti, migliorandone potenzialmente l&#39;efficacia senza partire da zero.
+- **Rivitalizza contenuti ad alte prestazioni**: seleziona i contenuti di successo e modificali per aggiornare l&#39;annuncio per il pubblico o adattare i contenuti originali da utilizzare nelle nuove campagne, estendendone potenzialmente il ciclo di vita e le prestazioni.
 
-The [!DNL Insights] module includes **[!UICONTROL Insights 2.0]**, a cross-channel performance experience for paid social. It works alongside the detailed table and gallery views in the [Dashboard](#dashboard) section of this article.
+Il modulo [!DNL Insights] include **[!UICONTROL Insights 2.0]**, un&#39;esperienza di prestazioni cross-channel per social network a pagamento. Funziona insieme alle viste dettagliate della tabella e della galleria nella sezione [Dashboard](#dashboard) di questo articolo.
 
 ## Insights 2.0 {#insights-20}
 
-**[!UICONTROL Insights 2.0]** delivers a performance intelligence layer that gives marketers a clear view of how paid social marketing is performing across connected accounts.
+**[!UICONTROL Insights 2.0]** offre un livello di performance intelligence che offre agli addetti al marketing una visione chiara delle prestazioni del social marketing a pagamento tra gli account connessi.
 
-**In [!UICONTROL Insights 2.0], you can:**
+**In [!UICONTROL Insights 2.0], è possibile:**
 
-- **Review cross-channel or single-channel overviews (Meta and LinkedIn)**: See a consolidated snapshot across both paid social channels, or drill down into one channel.
-- **Use the cross-channel performance report**: View each channel&#39;s share of results with a percentage contribution visualization, including total spend (percentage and amount) and performance share metrics such as CTR, CPC, and CPM.
-- **Use the ad performance report**: Identify high and low performing ads with rankings and metrics that support optimization decisions.
-- **Analyze Meta conversion metrics**: Focus on conversions with visibility into CPA across funnel stages (for example, engaged visits, request for information, app start, prospect, and app complete) and review conversion trends over time, with conversion data available in GenStudio for Performance Marketing.
-- **Explore insights from ad tags**: Ad tracking IDs are parsed into structured tags so you can analyze performance by dimensions you define (such as call to action, geography, format, or concept), see budget allocation across those dimensions, and spend less time decoding naming conventions manually.
+- **Rivedi le panoramiche cross-channel o single-channel (Meta e LinkedIn)**: visualizza uno snapshot consolidato su entrambi i canali social a pagamento oppure approfondisci in un unico canale.
+- **Usa il rapporto sulle prestazioni tra canali**: visualizza la quota di risultati di ogni canale con una visualizzazione dei contributi in percentuale, inclusa la spesa totale (percentuale e importo) e le metriche di condivisione delle prestazioni come CTR, CPC e CPM.
+  ![Rapporto prestazioni cross-channel](./cross-channel-report.png)
+- **Utilizza il rapporto sulle prestazioni degli annunci**: identifica gli annunci ad alte e basse prestazioni con classificazioni e metriche che supportano le decisioni di ottimizzazione.
+  ![Rapporto prestazioni annuncio](./ad-performance-report.png)
+- **Analisi delle metriche di conversione di Meta**: concentrarsi sulle conversioni con visibilità in CPA in più fasi di funnel (ad esempio visite impegnate, richieste di informazioni, avvio dell&#39;app, prospect e completamento dell&#39;app) ed esaminare le tendenze di conversione nel tempo, con i dati di conversione disponibili in GenStudio for Performance Marketing.
+  ![Metriche di conversione Meta](./meta-conversion-report.png)
+- **Esplora le informazioni dai tag annuncio**: gli ID di tracciamento degli annunci vengono analizzati in tag strutturati in modo da poter analizzare le prestazioni per dimensioni da te definite (come call to action, area geografica, formato o concetto), visualizzare l&#39;allocazione del budget in tali dimensioni e dedicare meno tempo alla decodifica manuale delle convenzioni di denominazione.
+  ![Rapporto sui tag annuncio di Insights 2.0](./ad-tags-insights.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Insights 2.0]** currently includes ONLY **Meta** and **LinkedIn**. TikTok, DV360, and Innovid are not included in the **[!UICONTROL Insights 2.0]** overview at this time. The **[!UICONTROL Campaigns]**, **[!UICONTROL Ads]**, **[!UICONTROL Media]**, and **[!UICONTROL Attributes]** views in the [Dashboard](#dashboard) section continue to support the broader channel set described under [Channels supported](#channels-supported).
+>**[!UICONTROL Approfondimenti 2.0]** attualmente include SOLO **Meta** e **LinkedIn**. TikTok, DV360 e Innovid non sono attualmente inclusi nella panoramica di **[!UICONTROL Insights 2.0]**. Le visualizzazioni **[!UICONTROL Campagne]**, **[!UICONTROL Annunci]**, **[!UICONTROL Media]** e **[!UICONTROL Attributi]** nella sezione [Dashboard](#dashboard) continuano a supportare il set di canali più ampio descritto in [Canali supportati](#channels-supported).
 
-## Data connectors
+## Connettori dati
 
-The first time you open [!DNL Insights], you may see a banner to guide you to connect Adobe GenStudio for Performance Marketing with a channel account.
+La prima volta che apri [!DNL Insights], potresti vedere un banner che ti guiderà a connettere Adobe GenStudio for Performance Marketing a un account di canale.
 
-This connection enables GenStudio for Performance Marketing to receive statistical data from your active marketing campaigns, media, and ads. Initially, GenStudio for Performance Marketing ingests the last 6 months of data so that you have the tools to analyze the latest data and take action.
+Questa connessione consente a GenStudio for Performance Marketing di ricevere dati statistici dalle campagne di marketing, dai media e dagli annunci attivi. Inizialmente, GenStudio for Performance Marketing acquisisce gli ultimi 6 mesi di dati in modo da disporre degli strumenti per analizzare i dati più recenti e intervenire.
 
 {{connect-insights}}
 
@@ -92,10 +96,6 @@ Ogni vista mostra una tabella corrispondente, che puoi cercare per parola chiave
 
 La visualizzazione predefinita [[!DNL Insights] _[!UICONTROL Campagne &#x200B;]_](campaigns.md) mostra un elenco di dettagli attivi della campagna, quali obiettivi, budget, data di lancio e attività. Assicurati di [collegare un account di canale](/help/user-guide/connectors/connect-channel.md) in modo che GenStudio for Performance Marketing inizi a ricevere i dati statistici.
 
-### Annunci
-
-La visualizzazione [[!DNL Insights] _[!UICONTROL Ads &#x200B;]_](ads.md) si concentra sulla valutazione dell&#39;efficacia di un annuncio. La visualizzazione [!UICONTROL Annunci] consente di analizzare le metriche di un annuncio in base al suo posizionamento all&#39;interno di un intervallo di date specificato. Facendo clic su un&#x200B;_[!UICONTROL &#x200B; Nome annuncio &#x200B;]_, puoi visualizzare le metriche delle prestazioni dell&#39;annuncio, le prestazioni in base al posizionamento dell&#39;annuncio e gli attributi.
-
 ### Media
 
 La visualizzazione [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) è progettata per consentire l&#39;analisi delle prestazioni dei contenuti creativi. Puoi identificare gli attributi multimediali che contribuiscono a migliorare una metrica selezionata, ad esempio clic o impression.
@@ -111,3 +111,7 @@ Nella visualizzazione dei dettagli dei file multimediali, a sinistra vengono vis
 I _attributi_ multimediali consentono di identificare il contenuto creativo in base a dettagli intrinseci, quali colore, tono, composizione (come oggetto, font, elementi visivi) e altri componenti chiave. Gli attributi sono spesso il set di informazioni sul contenuto meno misurato e analizzato.
 
 La visualizzazione [[!DNL Insights] _[!UICONTROL Attributi &#x200B;]_](attributes.md) può aiutarti a indagare e identificare quali attributi offrono prestazioni migliori con alcuni tipi di pubblico, canali e aree geografiche e può aiutarti a evidenziare le tendenze stagionali. Con queste informazioni, puoi utilizzare gli attributi delle prestazioni per creare varianti, rivolgerti a un pubblico specifico o sperimentare diverse strategie per campagne.
+
+### Aggiunge tag
+
+La visualizzazione [[!DNL Insights] _[!UICONTROL Ads &#x200B;]_](ads.md) si concentra sulla valutazione dell&#39;efficacia di un annuncio. La visualizzazione [!UICONTROL Annunci] consente di analizzare le metriche di un annuncio in base al suo posizionamento all&#39;interno di un intervallo di date specificato. Facendo clic su un&#x200B;_[!UICONTROL &#x200B; Nome annuncio &#x200B;]_, puoi visualizzare le metriche delle prestazioni dell&#39;annuncio, le prestazioni in base al posizionamento dell&#39;annuncio e gli attributi.

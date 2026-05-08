@@ -2,9 +2,9 @@
 title: Marketo per GenStudio
 description: Installa e configura l’app Adobe Exchange Marketo for GenStudio in modo che la tua organizzazione possa utilizzare i modelli Marketo Engage in GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: 4118624b479905cd2f2193d542c000678daaf4b8
+source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,20 @@ Questo argomento è destinato a **amministratori** che installano l&#39;app, rac
 
 ## Ottieni credenziali Marketo
 
-Usa le credenziali dell&#39;istanza **Marketo** (non Adobe Developer Console). Prima della distribuzione in Exchange, raccogli quanto segue.
+Usa le credenziali dell&#39;istanza **Marketo** (non Adobe Developer Console). Prima di eseguire la distribuzione in Exchange, raccogli le credenziali seguenti seguendo la procedura descritta di seguito.
+
+>[!NOTE]
+>
+>Per generare e recuperare le credenziali di Marketo, devi disporre dell’accesso di amministratore di prodotto Marketo, altrimenti la scheda Amministratore non è visibile in Marketo.
 
 ### Creare un utente solo API (facoltativo se si riutilizza un utente API esistente)
 
 1. In Marketo, passa a **[!UICONTROL Amministratore]**.
-1. In **[!UICONTROL Sicurezza]**, apri **[!UICONTROL Utenti e ruoli]**.
-1. Per un nuovo utente API, fare clic su **[!UICONTROL Crea solo utente API]** (utilizzare un&#39;e-mail univoca per ogni utente API). Assegna il ruolo **[!UICONTROL API (tutte le aree di lavoro)]** (o i ruoli richiesti dalla tua organizzazione). Se si dispone già di un utente API che si desidera utilizzare, passare a [Creare o selezionare un servizio LaunchPoint](#create-or-select-a-launchpoint-service).
+   ![Scheda Amministratore Marketo](/help/extensibility/marketo-admin-global.png){width="80%"}
+1. In **[!UICONTROL Sicurezza]**, apri **[!UICONTROL Utenti e ruoli]** e passa alla scheda **[!UICONTROL Ruoli]**.
+1. Creare un nuovo ruolo o modificare un ruolo esistente con le seguenti autorizzazioni aggiunte: _Access API_ e _Access Design Studio_.
+1. Per un nuovo utente API, fare clic su **[!UICONTROL Crea solo utente API]** (utilizzare un&#39;e-mail univoca per ogni utente API).
+1. Selezionare la casella di controllo Ruoli e assegnare il nuovo ruolo creato. Se si dispone già di un utente API che si desidera utilizzare, passare a [Creare o selezionare un servizio LaunchPoint](#create-or-select-a-launchpoint-service).
 
 ![Utenti e ruoli con solo API Ruoli utente e API](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
 
@@ -66,12 +73,26 @@ Per rendere l&#39;estensione disponibile in GenStudio, distribuisci l&#39;app da
 1. Seleziona **[!UICONTROL Gestisci]** e apri l&#39;app **Marketo per GenStudio** (ad esempio in **[!UICONTROL applicazioni App Builder]** o nelle app gestite della tua organizzazione).
 1. In **[!UICONTROL Ambienti]**, scegli un ambiente esistente dal menu a discesa oppure seleziona **[!UICONTROL Aggiungi ambiente]** per crearne uno.
 1. Apri **[!UICONTROL Configurazione]** per l&#39;ambiente selezionato.
-1. Immetti **[!UICONTROL ID client]** e **[!UICONTROL Segreto client]** da [LaunchPoint](#create-or-select-a-launchpoint-service), **[!UICONTROL URL identità Marketo Engage]** e **[!UICONTROL URL di base API REST Marketo Engage]** (host di base da [Servizi Web](#note-your-marketo-rest-api-base-url)).
+1. Immettere **[!UICONTROL ID client]** e **[!UICONTROL Segreto client]** da [LaunchPoint](#create-or-select-a-launchpoint-service), **[!UICONTROL URL identità Marketo Engage]** e **[!UICONTROL URL di base API REST Marketo Engage]** (host di base da [Servizi Web](#note-your-marketo-rest-api-base-url)) sia per l&#39;URL identità Marketo Engage &#x200B;e per l&#39;URL di base API REST Marketo Engage.
 1. Fare clic su **[!UICONTROL Distribuisci]**. Al termine della distribuzione, l&#39;azione diventa **[!UICONTROL Annulla distribuzione]**.
 
 ### Aggiorna configurazione
 
 Per modificare i valori di configurazione per un ambiente, **[!UICONTROL Annulla la distribuzione]**, aggiorna i campi, quindi **[!UICONTROL Ridistribuisci]**.
+
+### Configurazione Workspace (opzionale)
+
+È possibile saltare questo passaggio se si desidera utilizzare l&#39;area di lavoro predefinita. Per impostazione predefinita, i campi **Workspace ID** e **Dimensioni pagina elenco modelli** sono preconfigurati.
+
+Tuttavia, se devi recuperare i modelli da un’area di lavoro diversa:
+
+1. In Marketo, passa a **[!UICONTROL Admin]** → **[!UICONTROL Security]** → **[!UICONTROL Workspace e partizioni]**.
+1. La colonna **Workspace ID** è nascosta per impostazione predefinita. Per abilitarla, fai clic con il pulsante destro del mouse sulla riga di intestazione (dove vengono visualizzati i nomi delle colonne).
+1. Seleziona **[!UICONTROL Colonne]**.
+1. Abilita **[!UICONTROL ID]** dall&#39;elenco.
+   ![Aree di lavoro e partizioni con colonna Workspace ID abilitata](/help/extensibility/marketo-workspace-id.png){width="80%"}
+
+Una volta visualizzato, usa il **Workspace ID** appropriato per la configurazione.
 
 ## Accedere ai modelli di Marketo in GenStudio
 
@@ -94,3 +115,12 @@ Dopo l&#39;installazione e la configurazione di Marketo for GenStudio, viene vis
 
 * Ricarica la pagina oppure esci e accedi di nuovo a GenStudio.
 * Nel pannello degli strumenti di sviluppo del browser **[!UICONTROL Rete]**, cerca le chiamate API non riuscite all&#39;istanza di Marketo e verifica che l&#39;URL della base REST corrisponda a **[!UICONTROL Servizi Web]** in Marketo (nessun percorso aggiuntivo dopo l&#39;host).
+
+### Errore &quot;Nessun modello trovato&quot;
+
+Se l’estensione viene installata correttamente e la scheda Modelli di Marketo è visibile ma viene visualizzato &quot;Nessun modello trovato&quot;, il problema potrebbe essere causato dal superamento dei limiti di dimensione da parte dell’applicazione durante il rendering dei modelli, con conseguente arresto anomalo.
+Per risolvere il problema:
+
+1. Annulla la distribuzione dell&#39;applicazione da Exchange.
+1. Riduci le dimensioni della pagina dell’elenco di modelli (ad esempio, impostalo su 1 o 2).
+1. Ridistribuire l&#39;applicazione.

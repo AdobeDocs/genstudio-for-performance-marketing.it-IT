@@ -5,10 +5,10 @@ user-guide-description: Esplora le funzionalità di Adobe GenStudio for Performa
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: a4141df9674b12e27393fa5795ffc079f975cd12
+source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 90%
+source-wordcount: '274'
+ht-degree: 89%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 90%
    + [Configura scambio logo nei modelli](create/logo-swap-setup.md)
    + [Crea un&#39;esperienza e-mail](create/create-email-experience.md)
    + [Creare un&#39;esperienza di annuncio di Meta](create/create-meta-ad.md)
+   + [Creare un&#39;esperienza annuncio ChatGPT](create/create-chatgpt-ad.md)
    + [Creare un&#39;esperienza LinkedIn](create/create-linkedin.md)
    + [Crea un&#39;esperienza di visualizzazione annuncio](create/create-display-ad.md)
    + [Crea un&#39;esperienza banner](create/create-banner-experience.md)

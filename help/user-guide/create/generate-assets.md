@@ -1,5 +1,5 @@
 ---
-title: Genera immagini
+title: Genera varianti immagine
 description: Crea un'immagine corrispondente allo stile di un'immagine di riferimento in Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 badgeBeta: label="Beta" tooltip="Questa funzione è attualmente in Beta, quindi alcune funzionalità potrebbero essere limitate o soggette a modifiche."
@@ -8,66 +8,55 @@ level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
 TQID: https://experienceleague.adobe.com/NXtN00EKTe0lGI8jJMJWJfWx6mHoMQI1of1mJhgrR5U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e4a0febc-5163-4017-82ce-fc7594509fb6id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 6d1053bf94b0a0ba65be90359e4d176e64dfffae
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: 752
 ht-degree: 0%
 
 ---
 
-# Generare immagini
+# Genera varianti immagine
 
-Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL On-brand images]_&#x200B;risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Utilizzando GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icona del pennello), è possibile generare _[!DNL Image variants]_risorse generate che traggono ispirazione da un&#39;immagine scelta, acquisendone l&#39;impatto visivo e l&#39;estetica complessiva.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL Image variants]_ and _[!DNL Similar images]_. -->
 
 Per progettare un&#39;immagine accattivante ed efficace, si consiglia di [aggiungere linee guida a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e rivedere le [nozioni di base sulla scrittura dei prompt](/help/user-guide/effective-prompts.md).
 
 ## Tipi di immagini
 
-_[!DNL On-brand images]_&#x200B;sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
+_[!DNL Image variants]_sono risorse generate che traggono ispirazione da un&#39;immagine scelta, catturandone l&#39;impatto visivo e l&#39;estetica complessiva. Queste immagini vengono create utilizzando le immagini già disponibili in [!DNL Content] e un prompt creato con cura che ne guida la progettazione. Seguono rigorosamente sia le linee guida del marchio che i parametri scelti durante il processo di generazione.
 
-_[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora linee guida per set, parametri e un [prompt creato con cura](/help/user-guide/effective-prompts.md) per fornire risorse di immagine accattivanti.
+_[!DNL Image variants]_<!-- and _[!DNL Similar images]_ --> incorpora linee guida per set, parametri e un [prompt creato con cura](/help/user-guide/effective-prompts.md) per fornire risorse di immagine accattivanti.
 
 <!-- * _[!DNL Similar images]_—Image assets created with strong similarity to an existing selected image available in [!DNL Content]. When generating similar images, GenStudio for Performance Marketing redesigns the selected image, giving slight variations on the content to provide variety and nuance. -->
 
-## Generare immagini nel marchio
+## Genera varianti immagine
 
-Puoi generare [!DNL On-brand images] utilizzando linee guida, parametri e un&#39;immagine di riferimento selezionati. Questi elementi, insieme al prompt, guidano la generazione di varianti [!DNL On-brand image] coerenti.
+Puoi generare [!DNL Image variants] utilizzando linee guida, parametri e un&#39;immagine di riferimento selezionati. Questi elementi, insieme alla richiesta, guidano la generazione di [!DNL Image variants] coerenti.
 
 ### Scegli un&#39;immagine di riferimento
 
-Per creare un _[!DNL On-brand images]_, selezionare un&#39;immagine esistente salvata in [!DNL Content]. Consulta [Best practice per i modelli](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni [!DNL on-brand image] supportate.
+Per creare _[!DNL Image variants]_, selezionare un&#39;immagine esistente salvata in [!DNL Content]. Consulta [Best practice per i modelli](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) per informazioni sulle dimensioni immagine supportate.
 
 **Per scegliere un&#39;immagine di riferimento**:
 
-1. In _[!DNL Create]_, fai clic su **[!UICONTROL Immagine marchio]**.
-1. Utilizza l&#39;opzione di ricerca, adiacente al _filtro_, per trovare un&#39;immagine specifica.
-
-   ![Seleziona immagine di riferimento](/help/assets/select-img.png){width="400" zoomable="yes"}
+1. In _[!DNL Create]_, fai clic su **[!UICONTROL Genera varianti immagine]**.
+   ![Genera varianti immagine](./gen-image-variants.png){width="400" zoomable="yes"}
+1. Per scegliere un&#39;immagine di riferimento, utilizzare il pulsante _[!UICONTROL Seleziona dal contenuto]_ per trovare un&#39;immagine specifica.
+   ![Seleziona dal contenuto](./gen-variant-select-from-content.png){width="200" zoomable="yes"}
 
    Per utilizzare le risorse di un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona un’immagine.
 
-1. Nella visualizzazione _Seleziona immagine_, fai clic su un&#39;immagine.
+   ![Seleziona immagine di riferimento](/help/assets/select-img.png){width="400" zoomable="yes"}
 
-   Le dimensioni dell&#39;immagine selezionata non possono superare i 10 MB.
+1. Nella visualizzazione _Seleziona immagine_, fai clic su un&#39;immagine per selezionare la casella di selezione.
+
+   Le dimensioni dell&#39;immagine selezionata non possono superare i 10 MB. È possibile selezionare una sola immagine alla volta.
 
 1. Fai clic su **[!UICONTROL Usa]**.
 
@@ -75,38 +64,19 @@ Per creare un _[!DNL On-brand images]_, selezionare un&#39;immagine esistente sa
 
 ### Aggiungi parametri
 
-L&#39;incorporazione di [linee guida](/help/user-guide/guidelines/overview.md) e parametri migliora il processo di generazione dei contenuti ed è un passaggio preparatorio fondamentale per la produzione di [!DNL on-brand image].
+L&#39;incorporazione di [linee guida](/help/user-guide/guidelines/overview.md) e parametri migliora il processo di generazione dei contenuti ed è un passaggio preparatorio fondamentale per la produzione di [!DNL Image variants].
 
 **Per aggiungere linee guida e parametri**:
 
 1. Nella scheda _Base_, seleziona un [!DNL Brand] per informare la creazione dei contenuti.
 
    Se non sono disponibili marchi da questo menu, [aggiungi le linee guida al tuo GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
-
-1. Seleziona una categoria di immagini che si adatta meglio al risultato desiderato da _[!UICONTROL Categoria immagine]_.
-
-   Le categorie di immagini sono disponibili se è stato selezionato [!DNL Brand]. Le opzioni sono determinate dal [!DNL Brand] selezionato.
-
-<!-- 
-1. _(Optional)_ Select a custom model from _[!UICONTROL Model]_.
-
-   Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. 
--->
-
+1. Selezionare un modello da utilizzare per la generazione di immagini da _[!UICONTROL Modello]_.
 1. Selezionare le proporzioni desiderate tra _[!UICONTROL Proporzioni]_.
-1. Fai clic su **[!UICONTROL Seleziona dal contenuto]** in _[!UICONTROL Riferimento stile]_ per aggiungere un&#39;immagine di riferimento. L&#39;immagine selezionata influenza l&#39;estetica visiva e la profondità delle immagini generate.
-
-   Per utilizzare le risorse di un repository [!DNL AEM Assets Content Hub] connesso, scegliere un repository dal menu a discesa _Posizione_. Filtra e seleziona un’immagine.
-
-1. Nella scheda _Avanzate_, seleziona il _tipo di contenuto_.
-
-   È preselezionato in base alla categoria di immagini presente per l&#39;[!DNL Brand]—_Arte_ o la _Foto_ selezionata e non è modificabile.
-
-1. Regola l&#39;intensità complessiva delle caratteristiche visive esistenti dell&#39;immagine in _[!UICONTROL Intensità visiva]_.
 
 ### Immetti un prompt
 
-Dopo aver selezionato i parametri, crea un prompt utilizzando il linguaggio naturale per iniziare a generare sulle immagini del brand.
+Dopo aver selezionato i parametri, crea un prompt utilizzando il linguaggio naturale per iniziare a generare le varianti di immagine.
 
 Vedere [Scrivi prompt effettivi](/help/user-guide/effective-prompts.md).
 
@@ -127,9 +97,9 @@ Dopo aver generato le varianti di immagine, puoi modificarle direttamente in Ado
 
    Viene visualizzata una finestra _con tecnologia Adobe Express_.
 
-1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
+1. Eseguire la modifica dell&#39;immagine, ad esempio [ritagliare un&#39;immagine](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [rimuovere un oggetto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e applicare effetti.
 
-   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/it/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
+   Consulta la [documentazione di Adobe Express](https://helpx.adobe.com/express/user-guide.html) per scoprire come rivedere le immagini in GenStudio for Performance Marketing con Adobe Express.
 
 1. Fai clic su _[!UICONTROL Applica modifiche]_ per salvare le modifiche.
 1. Continua a modificare le singole varianti di immagine come desiderato e applica le modifiche per salvare l’avanzamento.

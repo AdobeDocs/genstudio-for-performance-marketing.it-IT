@@ -24,7 +24,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 812
 ht-degree: 0%
@@ -45,7 +45,7 @@ La tabella _[!UICONTROL Attributes]_ è organizzata utilizzando il nome [!UICONT
 
 ## Dettagli attributo
 
-Gli attributi consentono di identificare [annunci](ads.md#ad-details) e [supporti](media.md#media-details) in base ai relativi dettagli, ad esempio colore, composizione, elementi visivi e altre proprietà.
+Gli attributi consentono di identificare [annunci](published-experiences.md#ad-details) e [supporti](media.md#media-details) in base ai relativi dettagli, ad esempio colore, composizione, elementi visivi e altre proprietà.
 
 Nella vista dei dettagli dell’attributo, puoi vedere quali annunci utilizzano l’attributo selezionato. I dettagli includono le prestazioni totali degli attributi e un raggruppamento delle metriche delle prestazioni relative a ciascun annuncio.
 

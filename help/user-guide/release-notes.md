@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 4727
 ht-degree: 0%
@@ -151,7 +151,7 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 
 ### CPA per tipo di azione per campagne Meta
 
-* Analizza [Costo per azione (CPA) con il monitoraggio flessibile delle conversioni](/help/user-guide/insights/ads.md) per le campagne pubblicitarie Meta.
+* Analizza [Costo per azione (CPA) con il monitoraggio flessibile delle conversioni](/help/user-guide/insights/published-experiences.md) per le campagne pubblicitarie Meta.
 * Invece di una singola metrica fissa, seleziona tra più tipi di azione, ad esempio acquisti, eventi aggiuntivi al carrello, lead, visualizzazioni video o conversioni personalizzate, per calcolare e visualizzare il CPA tra campagne, annunci, risorse e attributi in [!DNL Insights].
 
 ### Correzioni di problemi e miglioramenti
@@ -276,7 +276,7 @@ Adobe GenStudio for Performance Marketing ora offre funzionalità integrate di t
 
 ### Filtro risorse compatibili
 
-Un nuovo filtro nel modulo [!DNL Insights] nasconde automaticamente [le risorse immagine e video non supportate](/help/user-guide/insights/ads.md#ad-formats) dalle anteprime degli annunci, eliminando il disordine visivo e i riquadri interrotti. Questo miglioramento garantisce agli utenti di visualizzare solo i supporti effettivamente disponibili e pronti per l’uso, creando un’esperienza più pulita e affidabile. Il filtro funziona insieme al filtro degli annunci di compatibilità esistente.
+Un nuovo filtro nel modulo [!DNL Insights] nasconde automaticamente [le risorse immagine e video non supportate](/help/user-guide/insights/published-experiences.md#ad-formats) dalle anteprime degli annunci, eliminando il disordine visivo e i riquadri interrotti. Questo miglioramento garantisce agli utenti di visualizzare solo i supporti effettivamente disponibili e pronti per l’uso, creando un’esperienza più pulita e affidabile. Il filtro funziona insieme al filtro degli annunci di compatibilità esistente.
 
 ### Attivazione di più risorse per Meta
 

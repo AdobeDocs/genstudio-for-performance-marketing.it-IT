@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +91,7 @@ Le nuove estensioni si trovano in posizioni diverse nell&#39;interfaccia utente,
 * [Estensione Digital Asset Management (DAM)](#find-dam-extensions)
 * [Estensione modello](#find-template-extensions)
 * [Estensione di traduzione](#find-translation-extensions)
+* [Estensione Frammento di contenuto](#find-content-fragment-extension)
 
 ### Trova estensioni prompt
 
@@ -128,7 +129,6 @@ Le estensioni del modello si trovano nella scheda **External Template App** quan
 
 ![Estensioni modello](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### Trovare le estensioni di traduzione
 
 Utilizza i punti di estensione della traduzione per portare il tuo servizio di traduzione tramite un proxy invece di utilizzare la traduzione predefinita di GenStudio.
@@ -136,7 +136,21 @@ Nessuna posizione dell&#39;interfaccia utente per queste estensioni.
 
 Se l&#39;estensione è registrata, viene utilizzato il servizio di traduzione fornito. In caso contrario, viene utilizzato il servizio di traduzione GenStudio predefinito.
 
+### Trova estensione frammento di contenuto
 
+L&#39;estensione Frammento di contenuto in [!DNL GenStudio for Performance Marketing] sostituisce il testo nelle esperienze e-mail generate nell&#39;area di lavoro [!DNL Create] con le voci di un archivio di terze parti (3P) connesso. Dopo aver configurato e distribuito l’estensione, sostituisci la copia dall’area di lavoro senza uscire dal flusso di lavoro.
+
+>[!NOTE]
+>
+>Lo scambio di estensioni per frammenti di contenuto è attualmente disponibile per **e-mail** esperienze nell&#39;area di lavoro. Il supporto per il canale **Horizon** sarà presto disponibile.
+
+**Per scambiare il testo utilizzando l&#39;estensione Frammento di contenuto**:
+
+1. Nell’area di lavoro, fai clic su un campo di testo modificabile in una variante e-mail generata.
+1. Fai clic su **[!UICONTROL Scambia]**.
+   ![Scambia testo](./subject-line-swap.png){width="400" zoomable="yes"}
+1. Seleziona l’archivio di terze parti. L’organizzazione controlla quali archivi vengono visualizzati e come si comporta l’interfaccia utente dell’archivio.
+1. Selezionare la richiesta di risarcimento da utilizzare come testo sostitutivo per il campo.
 
 Se si è soddisfatti del componente aggiuntivo, è possibile distribuirlo senza il parametro `query`.
 

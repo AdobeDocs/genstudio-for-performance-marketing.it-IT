@@ -1,6 +1,6 @@
 ---
-title: Panoramica sugli annunci e sul posizionamento degli annunci
-description: Guarda una panoramica del coinvolgimento dei clienti, del budget e delle spese per annunci e prestazioni di posizionamento degli annunci in Adobe GenStudio for Performance Marketing.
+title: Dettagli esperienze pubblicate
+description: Guarda una panoramica del coinvolgimento dei clienti, del budget e delle spese per le esperienze pubblicate e le prestazioni del posizionamento in Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
@@ -24,45 +24,21 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
-# Panoramica sui tag degli annunci e sul posizionamento degli annunci
 
-La visualizzazione [!DNL Insights] _[!UICONTROL Ads tags]_ mostra un elenco di annunci per l&#39;account dell&#39;annuncio del canale connesso. Un _annuncio_ è una risorsa promozionale che include contenuti visivi e interattivi destinati alla distribuzione a un pubblico specifico nell&#39;ambito di una campagna di marketing.
+# Dettagli delle esperienze pubblicate {#ad-details}
 
-{{connect-insights}}
+Seleziona un’esperienza pubblicata e visualizza le metriche delle prestazioni, gli attributi di testo e i posizionamenti associati a ogni esperienza. I _[!UICONTROL Dettagli esperienze pubblicate]_ includono le metriche per l&#39;esperienza `click-through rate`, `cost per action` e `spend`, ovvero la quantità di budget spesa per l&#39;esperienza. Poiché le esperienze possono avere più posizionamenti, ad esempio un feed o un banner, puoi visualizzare un raggruppamento delle stesse metriche per ciascun posizionamento. Utilizzare le frecce sinistra e destra in **[!UICONTROL Prestazioni per posizionamento]** per scorrere le metriche di posizionamento.
 
-La tabella dei tag _[!UICONTROL Ads]_ è organizzata utilizzando [!UICONTROL Nomi annuncio]. Fai clic sull’icona delle impostazioni (cog) sopra il lato destro della tabella per attivare/disattivare le colonne visualizzabili.
+![Dettagli esperienze pubblicate con metriche e posizionamenti](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-![Metriche delle prestazioni di Ad Tags Insights](./ad-tags-tab.png)
-
-La visualizzazione della galleria _[!UICONTROL Ads tags]_ mostra un collage di anteprime di annunci e una metrica, ad esempio il tasso di click-through. Fai clic sull&#39;icona delle impostazioni (cog) sopra il lato destro della galleria per aprire **[!UICONTROL Impostazioni scheda]** e attivare/disattivare una delle tre metriche visualizzabili:
-
-- CPA (Costo per azione)
-- CTR (tasso di click-through)
-- CPC (costo per clic)
-- Spesa
-
-{{filter-table}}
-
-## Dettagli annuncio
-
-Seleziona un annuncio e visualizza le metriche delle prestazioni, gli attributi di testo e i posizionamenti associati a ciascun annuncio. La _[!UICONTROL pagina dei dettagli dell&#39;annuncio]_ include le metriche per l&#39;annuncio `click-through rate`, `cost per action` e `spend`, ovvero la quantità di budget spesa per l&#39;annuncio. Poiché gli annunci possono avere più posizionamenti, ad esempio un feed o un banner, puoi visualizzare un raggruppamento delle stesse metriche per ogni posizionamento di annuncio. Utilizza le frecce sinistra e destra in **[!UICONTROL Prestazioni per posizionamento annuncio]** per scorrere le metriche di posizionamento.
-
-![Dettagli annuncio con metriche e posizionamenti annuncio](/help/assets/insights-ad-details.png){zoomable="yes"}
-
-### Attributi annuncio
-
-Di seguito è riportato un elenco di attributi associati all’annuncio.
-
-{{$include /help/_includes/generated-attributes.md}}
-
-### Formati degli annunci
+## Formati degli annunci
 
 I formati degli annunci si riferiscono ai vari elementi creativi e layout utilizzati per allinearsi agli obiettivi della campagna, coinvolgere il pubblico target e aiutare a tracciare le metriche delle prestazioni.
 
@@ -76,7 +52,7 @@ I formati degli annunci si riferiscono ai vari elementi creativi e layout utiliz
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Il canale dei media a pagamento non fornisce l’accesso per recuperare le risorse creative, il che rende difficile classificare con precisione i tipi di annunci. |
 | Innovid | N/D | Il canale dei media a pagamento non fornisce l’accesso per recuperare le risorse creative, il che rende difficile classificare con precisione i tipi di annunci. |
 
-### Posizionamenti di annunci
+## Posizionamenti di annunci
 
 I posizionamenti di annunci si riferiscono alle posizioni o alle piattaforme specifiche in cui gli annunci compaiono all’interno di una campagna. Questi posizionamenti determinano come e dove il pubblico interagisce con il contenuto. I posizionamenti di annunci ampliano la portata del pubblico, che consente di massimizzare la visibilità, il coinvolgimento e l’efficacia complessiva della campagna.
 
@@ -124,4 +100,3 @@ La tabella seguente fornisce le definizioni per le metriche delle prestazioni di
 | **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Il costo medio associato a ogni clic in un singolo posizionamento pubblicitario.<p>**Calcolo**: importo totale `spent` diviso per `clicks`<p>Questa metrica consente di valutare il rapporto costi/efficacia del posizionamento dell’annuncio nella generazione dei clic. | Un CPC inferiore indica che il posizionamento dell’annuncio genera clic a un costo inferiore, il che può essere utile per massimizzare il ritorno sull’investimento. |
 | **[!UICONTROL Spesa]** | L’importo speso per un singolo posizionamento pubblicitario, che rappresenta una frazione dell’importo totale speso per l’intero annuncio. Questa metrica consente di tenere traccia dell’allocazione del budget e dell’efficienza della spesa per ciascun posizionamento di annunci. | Il monitoraggio della spesa può contribuire a garantire che le risorse vengano utilizzate in modo efficace tra posizionamenti diversi. |
 | **Attributi** | Elenco delle funzioni intrinseche presenti in questo posizionamento pubblicitario. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. Vedi [Categorie](/help/user-guide/insights/attributes.md#categories). |
-

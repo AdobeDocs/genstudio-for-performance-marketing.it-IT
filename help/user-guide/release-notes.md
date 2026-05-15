@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +50,35 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### Modifica collaborativa nell’area di lavoro Orizzonte
+
+Le bozze multimediali a pagamento nell’area di lavoro dell’Orizzonte non sono più un esercizio individuale. I proprietari possono ora invitare i collaboratori tramite e-mail con i ruoli **[!UICONTROL Editor]** o **[!UICONTROL Visualizzatore]**, in modo che tutti lavorino dalla stessa bozza vivente anziché rimbalzare le esportazioni tra gli strumenti.
+
+Utilizzando il pulsante [!UICONTROL Condividi] nell&#39;area di lavoro, gli editor guardano la tavola da disegno e gli aggiornamenti dei campi (inclusi titoli, CTA e descrizioni) che arrivano in tempo reale.
+
+### Layout scheda aggiornato nella pagina [!DNL Create] [!DNL Content]
+
+Il punto di ingresso [!DNL Create] all&#39;interno di [!DNL Content] presenta un layout di carta aggiornato.
+
+### Scambio di frammenti di contenuto di AEM nelle esperienze e-mail nell’area di lavoro di HTML
+
+[Le esperienze e-mail](/help/user-guide/create/email-experiences.md) nell&#39;area di lavoro di HTML ora offrono lo scambio di contenuto con **Frammenti di contenuto AEM** pre-approvati per contenuti modulari pregestiti; non incollare dai canali laterali.
+
+Utilizza i frammenti della tua organizzazione già pubblicati in AEM senza uscire da GenStudio for Performance Marketing.
+
+### Aggiungi [!DNL Brands], [!DNL Products] e [!DNL Personas] da un URL
+
+[!DNL GenStudio for Performance Marketing] acquisisce i segnali pubblicati **[!DNL Brand]**, **[!DNL Product]** e **[!DNL Persona]** direttamente da un URL, riducendo le ore di digitazione manuale e mantenendo gli output basati su ciò che il brand pubblica effettivamente online. [L&#39;aggiunta di linee guida da un URL pubblico](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) riflette infine il modo in cui gli addetti al marketing effettuano ricerche sul web prima di aprire una breve sessione.
+
+Le linee guida per i marchi sono disponibili in un unico passaggio, mentre i prodotti e gli utenti tipo partono da un breve elenco intelligente, per consentirti di curare ciò che appartiene prima che il sistema arricchisca i record. Il discovery assistito dall’intelligenza artificiale rimane deliberatamente conservativo quando un sito è sottile o protetto, proteggendo i team regolamentati senza bloccare lo slancio.
+
+Le organizzazioni che richiedono un **[!UICONTROL Brand Manager]** o versione successiva applicano comunque tali guardrail automaticamente. I domini di marchio raggiungibili pubblicamente continuano a offrire la guida più ricca quando ridimensioni i programmi tra aree geografiche o portfolio.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.04.16
 
 ### Consigli in base al contesto in [!DNL Create]
 
@@ -68,7 +96,7 @@ Oppure, se l&#39;attività di aggiornamento deve essere precedente all&#39;attiv
 
 Puoi **caricare un file zip HTML5 basato su DOM per sviluppare un modello di visualizzazione** in [!DNL Create], produrre varianti di annunci HTML5 e ridimensionare la creatività con proporzioni aggiuntive. Le esperienze completate possono essere attivate in [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) e [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2026.03.15
 

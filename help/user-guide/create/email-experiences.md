@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Dopo aver generato un set di varianti e-mail, puoi visualizzare il conteggio dei
 >
 >Lo scambio di frammenti di contenuto è attualmente disponibile per **e-mail** esperienze nell&#39;area di lavoro. Il supporto per il canale **Horizon** sarà presto disponibile.
 
-Il contenuto delle e-mail aziendali richiede spesso sia la copia appena generata che i blocchi modulari approvati (come disclaimer, linguaggio di sicurezza, offerte e attestazioni regolamentate) insieme al contenuto che si forma per i modelli. I team che archiviano contenuti modulari in [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] possono trovare e scambiare tali contenuti da utilizzare nelle esperienze e-mail senza uscire da [!DNL GenStudio for Performance Marketing]. Questa funzione può essere utile per:
+Il contenuto delle e-mail aziendali richiede spesso sia la copia appena generata che i blocchi modulari approvati (come disclaimer, linguaggio di sicurezza, offerte e attestazioni regolamentate) insieme al contenuto che si forma per i modelli. I team che archiviano contenuti modulari in [!DNL Adobe Experience Manager] possono trovare e scambiare tali contenuti da utilizzare nelle esperienze e-mail senza uscire da [!DNL GenStudio for Performance Marketing]. Questa funzione può essere utile per:
 
 * **Contenuto conforme:** IA può riempire gli slot creativi mentre i frammenti approvati per conformità sostituiscono gli slot iniettabili; le aree legali bloccate rimangono invariate durante l&#39;esportazione.
 * **Componenti di contenuto riutilizzabili approvati:** I titoli approvati, le esclusioni di responsabilità regionali o le descrizioni dei prodotti possono rimanere nel sistema di record in [!DNL Adobe Experience Manager] mentre gli autori li richiamano in varianti senza soluzioni alternative di copia e incolla.

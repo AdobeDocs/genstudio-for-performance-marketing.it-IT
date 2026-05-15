@@ -6,22 +6,14 @@ role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
 TQID: https://experienceleague.adobe.com/fiKHSZ-YFZ2gSD5iZ-aKaZtsC49Mrj1dqHpHqtbXZVM
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: 1347
 ht-degree: 0%
 
 ---
@@ -36,10 +28,9 @@ Quando utilizzi i modelli con GenStudio for Performance Marketing, attieniti all
 1. Configura le [linee guida per i canali](#configure-channel-guidelines) per una personalizzazione efficace dei contenuti
 1. Progettazione con [standard di accessibilità](accessibility-for-templates.md) per un&#39;esperienza ottimale
 1. Segui [linee guida per modelli specifici per canale](#follow-channel-specific-template-guidelines)
-
->[!TIP]
->
->Scopri le nozioni di base sugli elementi e sulle procedure dei modelli in [Operazioni con i modelli](use-templates.md). Approfondisci [la personalizzazione di un modello](customize-template.md) per istruzioni specifiche da utilizzare nella prossima campagna.
+1. Quando utilizzi [Modelli Express](/help/user-guide/templates/express-templates.md), considera i suggerimenti specifici in [Best practice per modelli Express to GenStudio](#express-to-genstudio-template-best-practices).
+>>
+Scopri le nozioni di base sugli elementi e sulle procedure dei modelli in [Operazioni con i modelli](use-templates.md). Approfondisci [la personalizzazione di un modello](customize-template.md) per istruzioni specifiche da utilizzare nella prossima campagna.
 
 ## Utilizzare gli elementi di modello corretti
 
@@ -125,3 +116,75 @@ Per prestazioni ottimali, consulta ulteriori suggerimenti e vincoli durante l’
 - [Visualizzazione e banner pubblicitari](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
 - [Meta ads](/help/user-guide/templates/meta-template.md)
+
+## Best practice relative ai modelli da Express a GenStudio
+
+I suggerimenti seguenti consentono di ottenere risultati affidabili quando si convertono le progettazioni da [!DNL Adobe Express] in modelli per [!DNL GenStudio for Performance Marketing].
+
+### Utilizzare modelli con più varianti
+
+In [!DNL Adobe Express] le pagine possono rappresentare più varianti di dimensione o proporzioni in un file modello.
+Quando selezioni il modello in [!DNL GenStudio for Performance Marketing], tutte le varianti vengono visualizzate nell&#39;area di lavoro.
+
+Questo comportamento migliora i modelli di HTML, che supportano una sola variante per file.
+
+### Blocco dei campi per controllare ciò che gli addetti al marketing possono modificare
+
+Utilizza il blocco per comunicare l’intento. Ad esempio, blocca una liberatoria legale in modo che non venga mai generata dall’intelligenza artificiale, ma lascia un titolo flessibile per la generazione.
+
+Fare clic con il pulsante destro del mouse su qualsiasi elemento in [!DNL Adobe Express] per impostare il comportamento di blocco:
+
+- **[!UICONTROL Blocco completo]**: l&#39;elemento è statico e IA non genera contenuto per l&#39;elemento.
+- **[!UICONTROL Blocca, consenti sostituzione immagine]**: blocca dimensioni e posizione, ma consente agli utenti di scambiare l&#39;immagine. Questa opzione funziona bene per i logo.
+- **[!UICONTROL Blocca, consenti sostituzione testo]** - Blocca dimensioni e posizione ma consente agli utenti di modificare il testo. L’intelligenza artificiale non genera automaticamente il contenuto per essa.
+- **Pienamente flessibile** (sbloccato): gli utenti possono spostare e ridimensionare l&#39;elemento e AI lo tratta come contenuto da generare.
+
+### Livelli di nome per una migliore mappatura AI
+
+Quando si converte una progettazione in un modello, l’intelligenza artificiale analizza la progettazione e mappa i campi come titolo, CTA e copia del corpo. L’intelligenza artificiale mappa modelli semplici con maggiore precisione rispetto ai layout altamente complessi.
+
+**Best practice:** Nella copia segnaposto, includi il tipo di campo previsto (ad esempio `headline`, `sub-headline` o `CTA`) per consentire la corretta mappatura dei campi AI. Questo approccio può ridurre gli errori di mappatura.
+
+### Converti in modello
+
+1. In [!DNL Adobe Express], fare clic su **[!UICONTROL Condividi]** > **[!UICONTROL Converti in modello]**.
+1. Solo la scheda **[!UICONTROL Informazioni]** e la scheda **[!UICONTROL Blocchi]** vengono riportate a [!DNL GenStudio for Performance Marketing].
+1. Al momento della conversione, scegli come funziona lo sblocco:
+   - **[!UICONTROL Sblocca utenti]**
+   - **[!UICONTROL Impedisci lo sblocco]**
+   - **[!UICONTROL Imposta una passphrase]**: motivo intermedio che scoraggia le modifiche occasionali senza bloccare definitivamente l&#39;accesso.
+
+### Mantieni una copia del file di progettazione originale
+
+La conversione crea un file modello [!DNL Adobe Express] separato, tuttavia il file di progettazione originale rimane modificabile.
+
+**Suggerimento:** conserva l&#39;originale in modo da poter rivedere la progettazione, creare varianti e generare nuovi modelli in un secondo momento.
+
+### Condividi per una maggiore visibilità
+
+Dopo la conversione, il modello è visibile solo a te per impostazione predefinita. Puoi condividerlo con singoli utenti o con l’intera organizzazione.
+
+**Requisito:** [!DNL Adobe Express] e [!DNL GenStudio for Performance Marketing] devono utilizzare la stessa organizzazione IMS per i modelli da sincronizzare. I modelli vengono in genere visualizzati in [!DNL GenStudio for Performance Marketing] quasi immediatamente dopo la conversione.
+
+### Mappatura campi IA di controllo
+
+Dopo aver selezionato un modello, AI esegue il mapping dei campi una volta per modello, assegnando etichette come **[!UICONTROL file multimediali primari]**, **[!UICONTROL generati]** o **[!UICONTROL bloccati]**. È possibile regolare le mappature manualmente quando AI assegna i campi in modo errato.
+
+Utilizza l&#39;interruttore **[!UICONTROL Abilita generazione]** per campo da attivare o disattivare prima della generazione. È possibile regolare le mappature manualmente quando AI assegna i campi in modo errato. Le correzioni permanenti alle mappature dei modelli sono pianificate per una versione futura.
+
+### Progettazione in [!DNL Adobe Express], assemblaggio in [!DNL GenStudio for Performance Marketing]
+
+Prendi in considerazione questi flussi di lavoro di progettazione per utilizzare al meglio ogni servizio:
+
+- Completare il lavoro di progettazione, ad esempio colori, layout ed elementi grafici in [!DNL Adobe Express].
+- Utilizza [!DNL GenStudio for Performance Marketing] per assemblare e generare contenuti da tali modelli.
+- Utilizza [!DNL Adobe Express] marchi (colori, loghi, font e grafica) per la governance della progettazione.
+- Utilizza [!DNL GenStudio for Performance Marketing] marchi per le modifiche del colore del font dopo la generazione.
+
+### Limitazioni delle e-mail
+
+L&#39;indirizzo e-mail **non** è supportato nell&#39;area di lavoro di Horizon Canvas per il flusso di lavoro del modello [!DNL Adobe Express]. L’e-mail continua a utilizzare il processo di modelli tradizionale di HTML.
+
+### Sfruttare i tipi di carattere personalizzati
+
+I team chiedono spesso come funzionano i font personalizzati con i modelli [!DNL Adobe Express]. Gli amministratori potrebbero dover accettare l&#39;offerta di qualificazione per i font personalizzati in Admin Console prima che tali font siano disponibili; vedi [Utilizzo di [!DNL Adobe Express] modelli](express-templates.md).

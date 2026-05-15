@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: 1132
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 
 * **Per [modificare il nome della bozza e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, fai clic sul titolo _Bozza senza titolo_ nella parte superiore dell&#39;area di lavoro e immetti un nuovo titolo.
 * **Per [modificare manualmente un&#39;e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, fare clic in uno dei campi di testo modificabili (ad esempio l&#39;oggetto, l&#39;intestazione o la copia del corpo) e modificarli in base alle esigenze
+* **Per utilizzare [frammenti di contenuto approvati nelle varianti di e-mail](/help/user-guide/create/email-experiences.md#content-fragment-swap)**, scopri come [!DNL GenStudio for Performance Marketing] combina campi generativi, campi di frammenti di contenuto iniettabili e campi bloccati su un&#39;unica area di lavoro. Gli amministratori configurano le origini dei frammenti come descritto in [Trova estensione frammento di contenuto](/help/extensibility/deploy-app.md#find-content-fragment-extension).
 * **Per [modificare o selezionare Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, fare clic sul pulsante call-to-action e selezionare _[!UICONTROL Riformula]_ o _[!UICONTROL Aggiungi collegamento]_.
 * **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine di una variante e fare clic su **[!UICONTROL Formatta testo]**.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.

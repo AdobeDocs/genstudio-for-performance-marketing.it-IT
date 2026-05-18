@@ -6,7 +6,7 @@ product_v2:
 landing-page-name: genstudio-for-performance-marketing
 landing-page-breadcrumb-title: GenStudio
 type: Documentation
-git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.en
+git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.it-IT
 mini-toc-levels: 2
 description: Guide di Adobe GenStudio for Performance Marketing
 index: true

@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
+source-git-commit: a080850e354d2306a2947a2295c22fd0ddf38480
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5011
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Utilizza i frammenti della tua organizzazione già pubblicati in AEM senza uscir
 Le linee guida per i marchi sono disponibili in un unico passaggio, mentre i prodotti e gli utenti tipo partono da un breve elenco intelligente, per consentirti di curare ciò che appartiene prima che il sistema arricchisca i record. Il discovery assistito dall’intelligenza artificiale rimane deliberatamente conservativo quando un sito è sottile o protetto, proteggendo i team regolamentati senza bloccare lo slancio.
 
 Le organizzazioni che richiedono un **[!UICONTROL Brand Manager]** o versione successiva applicano comunque tali guardrail automaticamente. I domini di marchio raggiungibili pubblicamente continuano a offrire la guida più ricca quando ridimensioni i programmi tra aree geografiche o portfolio.
+
+### Gli annunci ChatGPT sono ora disponibili in [!DNL Create], [!DNL Content] e [!DNL Activate]
+
+L&#39;intelligenza artificiale per conversazioni è una nuova superficie multimediale a pagamento e [!DNL GenStudio for Performance Marketing] ora porta ChatGPT end to end. [Crea esperienze pubblicitarie ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) con varianti di copia sul brand, esegui controlli del brand e del canale, indirizza il lavoro attraverso le approvazioni e pubblica le esperienze approvate in [!DNL Content] per il riutilizzo e l&#39;attivazione.
 
 ## Note sulle versioni precedenti
 

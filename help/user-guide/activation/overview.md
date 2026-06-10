@@ -1,6 +1,6 @@
 ---
 title: Panoramica di Activate
-description: Scopri come attivare i contenuti con Adobe Experience Cloud e applicazioni di terze parti.
+description: Scopri come attivare i contenuti con le applicazioni Adobe CX Enterprise e di terze parti.
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 0%

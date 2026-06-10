@@ -12,7 +12,7 @@ feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 5%
@@ -29,7 +29,7 @@ Il framework dei componenti aggiuntivi GenStudio for Performance Marketing forni
 
 Questa guida descrive il processo di creazione di componenti aggiuntivi per personalizzare e migliorare le funzionalità di creazione di contenuti basati sull’intelligenza artificiale di GenStudio for Performance Marketing.
 
-Gli sviluppatori di app estensibili per GenStudio for Performance Marketing utilizzano il framework standard Adobe Experience Cloud App Development Toolset per sviluppare e distribuire app personalizzate o componenti aggiuntivi. [Adobe App Builder](https://developer.adobe.com/app-builder/) è fondamentale per questo set di strumenti di sviluppo.
+Gli sviluppatori di app estensibili per GenStudio for Performance Marketing utilizzano il framework standard Adobe CX Enterprise per lo sviluppo di app e per sviluppare e distribuire applicazioni personalizzate o componenti aggiuntivi. [Adobe App Builder](https://developer.adobe.com/app-builder/) è fondamentale per questo set di strumenti di sviluppo.
 
 La creazione di componenti aggiuntivi include le seguenti attività di alto livello:
 

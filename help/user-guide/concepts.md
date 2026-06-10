@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 # Concetti
 
-GenStudio for Performance Marketing è un prodotto enterprise indipendente che incorpora il content supply chain di Adobe per semplificare le campagne di marketing. È difficile creare contenuti personalizzati e approvati dal marchio su larga scala, monitorare l’efficacia e adattarsi rapidamente a un mercato in continua evoluzione. GenStudio for Performance Marketing riunisce Creative Cloud e Experience Cloud in un’unica applicazione che sfrutta l’intelligenza artificiale generativa come moltiplicatore delle prestazioni per i team di marketing aziendali.
+GenStudio for Performance Marketing è un prodotto enterprise indipendente che incorpora il content supply chain di Adobe per semplificare le campagne di marketing. È difficile creare contenuti personalizzati e approvati dal marchio su larga scala, monitorare l’efficacia e adattarsi rapidamente a un mercato in continua evoluzione. GenStudio for Performance Marketing riunisce Creative Cloud e CX Enterprise in un’unica applicazione che sfrutta l’intelligenza artificiale generativa come moltiplicatore delle prestazioni per i team di marketing aziendali.
 
 Con GenStudio for Performance Marketing è possibile:
 

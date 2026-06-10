@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
 ht-degree: 0%
@@ -36,7 +36,7 @@ In qualità di approvatore designato, puoi accedere al contenuto per la revision
 
 * **Accedi alla bozza per la revisione direttamente dal collegamento alla bozza nella richiesta di approvazione**. Fai clic sul collegamento della bozza nell’e-mail della richiesta di approvazione o nella notifica interna al prodotto. Viene visualizzata l’area di lavoro contenente la risorsa o l’esperienza. Il pannello _Approvazione_ è visualizzato a destra.
 
-* **Accedi alla bozza per la revisione dall&#39;elenco delle richieste di approvazione**. Se ti viene richiesto di rivedere più bozze di contenuto, l&#39;e-mail di notifica include un pulsante **[!UICONTROL Visualizza tutte le notifiche]**. Fai clic su questo pulsante per passare a una pagina in cui vengono visualizzate tutte le notifiche ricevute, incluse le richieste di approvazione e le notifiche abilitate da altri prodotti Adobe Experience Cloud.
+* **Accedi alla bozza per la revisione dall&#39;elenco delle richieste di approvazione**. Se ti viene richiesto di rivedere più bozze di contenuto, l&#39;e-mail di notifica include un pulsante **[!UICONTROL Visualizza tutte le notifiche]**. Fare clic su questo pulsante per passare a una pagina in cui vengono visualizzate tutte le notifiche ricevute, incluse le richieste di approvazione e le notifiche abilitate da altri prodotti Adobe CX Enterprise.
 
 ## Accedi al contenuto per la revisione
 

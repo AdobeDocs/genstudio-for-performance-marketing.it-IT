@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -219,6 +219,9 @@ Nel pannello del plug-in viene creato un file ZIP oppure viene visualizzato un c
 
 È possibile utilizzare il plug-in Figma per convertire un frame Figma, più frame o un intero documento in formato Photoshop ed esportarlo per l&#39;utilizzo con [GenStudio Photoshop](photoshop-plugin.md). Attualmente, durante la conversione sono supportate solo le proprietà principali come la visibilità, la dimensione del font e gli attributi di livello di base. Caratteristiche quali barrato, apice, pedice, opacità come percentuali, sfumature e proprietà avanzate simili non sono ancora supportate.
 
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+
 Il plug-in supporta i seguenti tipi di livelli Figma per la conversione:
 
 * **Frame**
@@ -245,6 +248,11 @@ Per convertire i fotogrammi:
 
 1. Apri il plug-in Firefly Enterprise e GenStudio in Figma e fai clic sulla scheda **[!UICONTROL Esporta]** nell&#39;interfaccia utente del plug-in.
 1. Nell&#39;area di lavoro selezionare il frame o i frame da esportare. Potete scegliere uno o più fotogrammi.
+
+   >[!NOTE]
+   >
+   > I frame non possono trovarsi all&#39;interno di una sezione durante la conversione. Selezionate i fotogrammi non nidificati all&#39;interno di un nodo di sezione.
+
 1. Per eseguire la migrazione dei fotogrammi selezionati, effettuate una delle seguenti operazioni:
 
    * Fai clic su **[!UICONTROL Esporta]** per esportare il file convertito nel percorso scelto, oppure

@@ -5,22 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -42,7 +35,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creare un modello
 
@@ -219,6 +212,9 @@ Nel pannello del plug-in viene creato un file ZIP oppure viene visualizzato un c
 
 È possibile utilizzare il plug-in Figma per convertire un frame Figma, più frame o un intero documento in formato Photoshop ed esportarlo per l&#39;utilizzo con [GenStudio Photoshop](photoshop-plugin.md). Attualmente, durante la conversione sono supportate solo le proprietà principali come la visibilità, la dimensione del font e gli attributi di livello di base. Caratteristiche quali barrato, apice, pedice, opacità come percentuali, sfumature e proprietà avanzate simili non sono ancora supportate.
 
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+
 Il plug-in supporta i seguenti tipi di livelli Figma per la conversione:
 
 * **Frame**
@@ -245,6 +241,11 @@ Per convertire i fotogrammi:
 
 1. Apri il plug-in Firefly Enterprise e GenStudio in Figma e fai clic sulla scheda **[!UICONTROL Esporta]** nell&#39;interfaccia utente del plug-in.
 1. Nell&#39;area di lavoro selezionare il frame o i frame da esportare. Potete scegliere uno o più fotogrammi.
+
+   >[!NOTE]
+   >
+   > I frame non possono trovarsi all&#39;interno di una sezione durante la conversione. Selezionate i fotogrammi non nidificati all&#39;interno di un nodo di sezione.
+
 1. Per eseguire la migrazione dei fotogrammi selezionati, effettuate una delle seguenti operazioni:
 
    * Fai clic su **[!UICONTROL Esporta]** per esportare il file convertito nel percorso scelto, oppure
@@ -289,4 +290,4 @@ Affinché la sostituzione venga eseguita durante la generazione, è necessario c
 
 ### Considerare il supporto per il ruolo del campo
 
-Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [&#128279;](#field-role-mapping).
+Alcuni canali supportano la sostituzione solo in campi specifici. Tieni presente le eccezioni per il mapping di ruoli del campo [](#field-role-mapping).

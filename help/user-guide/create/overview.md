@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ Nella sezione _Recenti_ di [!DNL Create], è possibile accedere e gestire tutte 
 Le bozze vengono salvate e visualizzate automaticamente nella sezione _Recenti_ della home [!DNL Create]. Ogni bozza in questa sezione visualizza uno stato, ad esempio _Bozza_ o _Approvata_.
 
 Fai clic sull&#39;icona della vista galleria (griglia) per visualizzare _Recenti_ elementi in una vista griglia o tabella.
+
+### Modifica collaborativa
+
+I creatori delle bozze possono ora condividere le proprie bozze con i collaboratori, assegnare ruoli e lavorare per creare contenuti insieme in tempo reale. Questa funzione offre alcuni vantaggi significativi per il flusso di lavoro, oltre alla semplice revisione e approvazione:
+
+* **Semplice collaborazione su una bozza esistente** con notifiche rapide, senza dover ricreare o esportare nulla.
+
+* **Modifica congiunta in tempo reale** tra i membri del team in tempo reale senza aggiornare o unire i file.
+
+* **Accesso in sola lettura** per consentire alle parti interessate di visualizzare l&#39;area di lavoro prima dell&#39;inizio del flusso di R&amp;A.
+
+Scopri come [utilizzare la modifica collaborativa con le tue bozze](collaborative-editing.md).
 
 ### Gestisci varianti
 

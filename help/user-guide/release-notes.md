@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +50,39 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**NUOVE FUNZIONALITÀ**
+
+### YouTube Shorts in [!DNL Create] e [!DNL Activate]
+
+Il video in formato breve è ora un canale gestito in [!DNL GenStudio for Performance Marketing]. Crea e attiva on-brand YouTube Shorts nel flusso di lavoro [!DNL Create] con guardrail per brand, prodotto e persona applicati fin dall&#39;inizio.
+
+Activation chiude il ciclo senza uno scambio manuale: invia Shorts alle campagne Google Ads Demand Gen o caricale come video non elencati su YouTube quando il tuo team effettua il traffico degli annunci YouTube tramite DV360.
+
+### Attivazione video CM360
+
+Gli annunci video creati in [!DNL GenStudio for Performance Marketing] non si fermano più al gate di attivazione CM360. Seleziona le esperienze video gestite dal canale di visualizzazione, visualizzale in anteprima nel flusso di lavoro di attivazione e [pubblica creatività direttamente in Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) insieme ai formati immagine e HTML5.
+
+### Campagne di promozione app Meta in [!DNL Activate]
+
+Gli addetti al marketing delle app mobili ora possono [attivare esperienze per campagne Meta](/help/user-guide/activation/activate-meta-ad.md) con l&#39;obiettivo di promozione delle app, inclusi set di annunci destinati a installazioni di app ed eventi app. In precedenza erano supportati solo gli obiettivi delle campagne non-app.
+
+### Traduzione nell’area di lavoro Orizzonte
+
+La traduzione preconfigurata ora si estende alle esperienze multimediali a pagamento nell’area di lavoro Orizzonte, in modo che i team regionali possano localizzare le bozze approvate di Meta, LinkedIn e Display senza esportare la copia in strumenti esterni.
+
+Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md) per un flusso di lavoro di traduzione più ampio.
+
+### Più immagini per pod nei modelli e-mail
+
+I modelli di e-mail in [!DNL Create] possono ora contenere più immagini in un singolo pod, offrendo ai designer spazio per layout eroe più ricchi, gallerie di prodotti e narrazione di più risorse senza suddividere il contenuto in sezioni aggiuntive.
+
+Carica o crea modelli con i campi immagine aggiuntivi, quindi genera varianti on-brand che rispettino la struttura del pod. Consulta [Esperienze e-mail](/help/user-guide/create/email-experiences.md) per il flusso di lavoro e-mail end-to-end.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.05.15
 
 ### Modifica collaborativa nell’area di lavoro Orizzonte
 
@@ -80,7 +112,7 @@ Le organizzazioni che richiedono un **[!UICONTROL Brand Manager]** o versione su
 
 L&#39;intelligenza artificiale per conversazioni è una nuova superficie multimediale a pagamento e [!DNL GenStudio for Performance Marketing] ora porta ChatGPT end to end. [Crea esperienze pubblicitarie ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) con varianti di copia sul brand, esegui controlli del brand e del canale, indirizza il lavoro attraverso le approvazioni e pubblica le esperienze approvate in [!DNL Content] per il riutilizzo e l&#39;attivazione.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2026.04.16
 

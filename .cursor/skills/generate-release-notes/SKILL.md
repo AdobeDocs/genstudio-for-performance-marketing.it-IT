@@ -31,7 +31,7 @@ Se le nuove informazioni appartengono al documento, inserirle nell&#39;intestazi
 
 Lavora in questo ordine. Copia l’elenco di controllo e tieni traccia dell’avanzamento per le modifiche in più passaggi.
 
-0. [ ] Se sono disponibili **Jira** e **Confluence** MCP, esegui [consume-release-sources](../consume-release-sources/SKILL.md) per acquisire prima il ticket di lavoro, i gruppi di funzioni wiki per le cerimonie (GA e Beta) e le pagine KT. Se MCP non è disponibile, utilizza il contenuto KT/wiki incollato e la mappatura del campo [reference.md](reference.md#internal-sources-kt-and-release-wikis).
+&#x200B;0. [ ] Se sono disponibili **Jira** e **Confluence** MCP, esegui [consume-release-sources](../consume-release-sources/SKILL.md) per acquisire prima il ticket di lavoro, i gruppi di funzioni wiki per le cerimonie (GA e Beta) e le pagine KT. Se MCP non è disponibile, utilizza il contenuto KT/wiki incollato e la mappatura del campo [reference.md](reference.md#internal-sources-kt-and-release-wikis).
 1. [ ] Aprire `help/user-guide/release-notes.md` e leggere il blocco `## YYYY.MM {#latest}` corrente. Considera le **note sulla versione precedenti** come **contesto di sola lettura** a meno che non si esegua il passaggio di archiviazione nel passaggio 2.
 2. [ ] Se si aggiunge una versione mensile di **new**: archiviare l&#39;ultima versione corrente (vedere [Archiviare l&#39;ultima versione precedente](#archive-previous-latest)).
 3. [ ] Aggiungi o modifica **solo** la prima sezione `## YYYY.MM {#latest}` (ultimo mese in cima all&#39;elenco delle versioni).

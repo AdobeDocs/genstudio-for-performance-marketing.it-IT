@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +21,39 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**NUOVE FUNZIONALITÀ**
+
+### YouTube Shorts in [!DNL Create] e [!DNL Activate]
+
+Il video in formato breve è ora un canale gestito in [!DNL GenStudio for Performance Marketing]. Crea e attiva on-brand YouTube Shorts nel flusso di lavoro [!DNL Create] con guardrail per brand, prodotto e persona applicati fin dall&#39;inizio.
+
+Activation chiude il ciclo senza uno scambio manuale: invia Shorts alle campagne Google Ads Demand Gen o caricale come video non elencati su YouTube quando il tuo team effettua il traffico degli annunci YouTube tramite DV360.
+
+### Attivazione video CM360
+
+Gli annunci video creati in [!DNL GenStudio for Performance Marketing] non si fermano più al gate di attivazione CM360. Seleziona le esperienze video gestite dal canale di visualizzazione, visualizzale in anteprima nel flusso di lavoro di attivazione e [pubblica creatività direttamente in Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) insieme ai formati immagine e HTML5.
+
+### Campagne di promozione app Meta in [!DNL Activate]
+
+Gli addetti al marketing delle app mobili ora possono [attivare esperienze per campagne Meta](/help/user-guide/activation/activate-meta-ad.md) con l&#39;obiettivo di promozione delle app, inclusi set di annunci destinati a installazioni di app ed eventi app. In precedenza erano supportati solo gli obiettivi delle campagne non-app.
+
+### Traduzione nell’area di lavoro Orizzonte
+
+La traduzione preconfigurata ora si estende alle esperienze multimediali a pagamento nell’area di lavoro Orizzonte, in modo che i team regionali possano localizzare le bozze approvate di Meta, LinkedIn e Display senza esportare la copia in strumenti esterni.
+
+Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md) per un flusso di lavoro di traduzione più ampio.
+
+### Più immagini per pod nei modelli e-mail
+
+I modelli di e-mail in [!DNL Create] possono ora contenere più immagini in un singolo pod, offrendo ai designer spazio per layout eroe più ricchi, gallerie di prodotti e narrazione di più risorse senza suddividere il contenuto in sezioni aggiuntive.
+
+Carica o crea modelli con i campi immagine aggiuntivi, quindi genera varianti on-brand che rispettino la struttura del pod. Consulta [Esperienze e-mail](/help/user-guide/create/email-experiences.md) per il flusso di lavoro e-mail end-to-end.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.05.15
 
 ### Modifica collaborativa nell’area di lavoro Orizzonte
 
@@ -80,7 +83,7 @@ Le organizzazioni che richiedono un **[!UICONTROL Brand Manager]** o versione su
 
 L&#39;intelligenza artificiale per conversazioni è una nuova superficie multimediale a pagamento e [!DNL GenStudio for Performance Marketing] ora porta ChatGPT end to end. [Crea esperienze pubblicitarie ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) con varianti di copia sul brand, esegui controlli del brand e del canale, indirizza il lavoro attraverso le approvazioni e pubblica le esperienze approvate in [!DNL Content] per il riutilizzo e l&#39;attivazione.
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2026.04.16
 

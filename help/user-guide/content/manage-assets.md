@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 1518
-ht-degree: 0%
+source-wordcount: 1546
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’
 
 1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Assets]**.
 
-1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l’archivio predefinito.
+1. Selezionare un repository di risorse dall&#39;elenco **[!UICONTROL Posizione]** oppure verificare che si stia cercando il repository di risorse corretto. `GenStudio assets` è l&#39;archivio predefinito.
 
    >[!IMPORTANT]
    >
@@ -153,6 +153,10 @@ Per impostazione predefinita, quando si aggiungono risorse a [!DNL Content], que
 1. Nella visualizzazione delle risorse, fai clic su **[!UICONTROL Elimina]** (cestino) in alto a destra.
 
 1. Nel popup _Elimina risorsa_, verifica la risorsa e fai clic su **[!UICONTROL Elimina]**.
+
+## Tradurre le esperienze
+
+Puoi tradurre un&#39;esperienza approvata in una o più lingue dalla raccolta _[!UICONTROL Esperienze]_ o da una visualizzazione dei dettagli dell&#39;esperienza. Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md#translate-from-content).
 
 ## Esportare esperienze
 

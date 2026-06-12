@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 337
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Durante la generazione di esperienze Meta, vengono create e visualizzate quattro
 Durante la generazione delle esperienze Meta, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
 GenStudio for Performance Marketing supporta [annunci Meta di dimensioni standard e personalizzate](/help/user-guide/templates/meta-template.md).
+
+
+Nell’area di lavoro di HTML puoi tradurre un’esperienza Meta approvata in più lingue. Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md).
+
 
 Le sezioni modificabili di un’esperienza e-mail includono:
 

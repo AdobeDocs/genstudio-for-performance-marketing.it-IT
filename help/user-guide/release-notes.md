@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 5011
+source-wordcount: 5016
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 
 ### Traduzione preconfigurata per file multimediali a pagamento e e-mail
 
-* Traduci all’istante le esperienze di e-mail e contenuti multimediali a pagamento approvati in oltre 40 lingue direttamente in GenStudio for Performance Marketing.
+* Traduci all’istante le esperienze di e-mail e contenuti multimediali a pagamento approvati in oltre 40 lingue direttamente in GenStudio for Performance Marketing. Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md).
 * Utilizzando i servizi di traduzione Azure Open AI, i team possono tradurre in blocco i contenuti in più lingue di destinazione contemporaneamente.
 
 ### Esportazione PDF per esperienze

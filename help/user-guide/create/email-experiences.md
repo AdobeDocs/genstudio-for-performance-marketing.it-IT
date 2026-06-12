@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -108,3 +108,5 @@ Quando l’organizzazione abilita lo scambio di frammenti di contenuto, è possi
 ![Riquadro interfaccia utente frammenti di contenuto](./cf-pane.png){width="500" zoomable="yes"}
 
 La tua organizzazione sceglie le origini e gli archivi dei frammenti di contenuto disponibili. Per informazioni sulla configurazione delle origini da parte degli amministratori e sul modo in cui gli autori scambiano la copia dall&#39;area di lavoro con **[!UICONTROL Scambia]**, consulta [Trova estensione frammento di contenuto](/help/extensibility/deploy-app.md#find-content-fragment-extension).
+
+Puoi anche tradurre un’esperienza e-mail approvata in più lingue sull’area di lavoro di HTML. Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md).

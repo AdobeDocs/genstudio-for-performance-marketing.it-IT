@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +100,8 @@ Quando si salvano le risorse approvate, [!DNL Content] mantiene i metadati avanz
 ### Utilizzare i modelli
 
 I modelli velocizzano il processo di creazione per generare contenuti coerenti su più canali. Carica il modello personalizzato da utilizzare come punto di partenza nel processo di creazione con layout e elementi di progettazione preconfigurati. Scopri gli elementi e le procedure di base del modello in [Utilizzare i modelli](../templates/use-templates.md). Approfondisci la creazione di modelli con l&#39;argomento [Personalizzare un modello](../templates/customize-template.md).
+
+### Traduci esperienze approvate
+
+Puoi tradurre le esperienze e-mail e media a pagamento approvate in più lingue direttamente dalla galleria [!DNL Content] _[!UICONTROL Esperienze]_ o dalla pagina di destinazione [!DNL Create]. Vedi [Traduci dal contenuto](../create/translate-experiences.md#translate-from-content) o [Traduci dalla creazione](../create/translate-experiences.md#translate-from-create).
+

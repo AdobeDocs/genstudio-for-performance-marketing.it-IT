@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Con Adobe GenStudio for Performance Marketing, puoi utilizzare l&#39;intelligenz
 Durante la generazione di esperienze di annunci di visualizzazione, vengono create e visualizzate quattro varianti nell’area di lavoro.
 
 Consulta [Linee guida per la visualizzazione dei modelli di annunci](/help/user-guide/templates/display-template.md) per informazioni sulle dimensioni supportate, i nomi dei campi riconosciuti e altro ancora.
+
+Nell’area di lavoro di HTML, puoi tradurre un’esperienza di annuncio visivo approvata in più lingue. Consulta [Tradurre e localizzare esperienze](/help/user-guide/create/translate-experiences.md).
 
 Le sezioni modificabili di un’esperienza di annuncio visualizzato includono:
 

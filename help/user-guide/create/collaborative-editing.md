@@ -4,10 +4,10 @@ description: Scopri come condividere le bozze a pagamento con i collaboratori, a
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 4%
+source-wordcount: '469'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ La modifica collaborativa nell’area di lavoro di Horizon offre le seguenti fun
 
 Tutti i collaboratori invitati possono aprire e visualizzare la bozza. Nella tabella seguente sono elencate le azioni di modifica e flusso di lavoro per ruolo.
 
-| Ruolo | Modifica elementi tavola da disegno | Modificare i campi di Chrome | Condividi bozza | Avvia revisione e approvazione | Pubblicazione | Note |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL Proprietario]** | Sì | Sì | Sì | Sì | Sì | Solo autore documento |
-| **[!UICONTROL Editor]** | Sì | Sì | Sì | Sì | Sì | Utenti invitati esplicitamente come **[!UICONTROL Editor]** |
-| **[!UICONTROL Visualizzatore]** | No | No | No | No | No | Utenti invitati come **[!UICONTROL Visualizzatore]** |
+| Ruolo | Modifica elementi tavola da disegno | Modificare i campi di Chrome | Condividi bozza | Elimina bozza | Avvia revisione e approvazione | Pubblicazione | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL Proprietario]** | Sì | Sì | Sì | Sì | Sì | Sì | Solo autore documento |
+| **[!UICONTROL Editor]** | Sì | Sì | Sì | No | Sì | Sì | Utenti invitati esplicitamente come **[!UICONTROL Editor]** |
+| **[!UICONTROL Visualizzatore]** | No | No | No | No | No | No | Utenti invitati come **[!UICONTROL Visualizzatore]** |
 
 ## Prerequisiti
 

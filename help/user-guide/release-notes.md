@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5472
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ Esplora i dettagli in [Utilizzo di modelli Adobe Express in GenStudio for Perfor
 ### Contenuto TikTok in GenStudio for Performance Marketing
 
 Ora puoi creare, approvare e attivare annunci video in-feed di TikTok da GenStudio for Performance Marketing. Genera facilmente annunci nel flusso di lavoro [!DNL Create], quindi pubblica l&#39;esperienza in [!DNL Content]. Utilizza [!DNL Insights] per TikTok per monitorare le prestazioni e informare il prossimo aggiornamento creativo.
+
+### Funzionalità di Content Intelligence V4
+
+La funzionalità V4 rappresenta un aggiornamento completo rispetto alla V3 e introduce un design per la pubblicità con molte nuove funzioni specifiche per i contenuti di tipo immagine, testo e video.
+
+I vantaggi della versione 4 includono:
+
+* **Advertising-First Design**: progettato appositamente per l&#39;analisi pubblicitaria con suite completa di analisi CTA/Offer/Logo (18 funzioni combinate).
+* **Tassonomia granulare**: aumento del 249% delle funzionalità totali con categorizzazione chiara e definizioni di funzionalità coerenti tra immagini, testo e video.
+* **Valutazione della qualità della produzione**: 13 caratteristiche di qualità video per la valutazione della qualità tecnica, l&#39;ottimizzazione mobile e la classificazione del tipo di produzione (CLC/Studio/UGC).
+* **Comprensione semantica migliorata**: nuove funzionalità tra cui Brand Personas, Human Wants, attivatori cognitivi e riconoscimento completo delle entità.
+* **Coerenza cross-channel**: funzioni unificate per tutti i tipi di contenuto che abilitano l&#39;analisi della pubblicità cross-channel.
+* **Ottimizzazione mobile**: funzioni dedicate per le proporzioni, l&#39;adattamento del posizionamento e il rilevamento nativo per dispositivi mobili.
+
+**Aggiunte funzionalità principali:**
+
+* Suite Advertising (oltre 20 funzioni): analisi CTA/Offerta/Logo, Co-branding, Rilevamento influenzatore
+* Contesto della campagna e del prodotto (7 funzioni): prodotto, obiettivo/tema della campagna, pubblico target, paese, area geografica
+* Video Quality Metrics (13 funzioni): qualità tecnica, classificazione di produzione, ottimizzazione per dispositivi mobili
+* Riconoscimento delle entità (9 funzioni): influencer, eventi, eventi, citazioni di marchi/prodotti, media popolari
 
 +++
 

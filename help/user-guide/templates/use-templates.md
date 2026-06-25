@@ -6,26 +6,15 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: 1654
 ht-degree: 1%
 
 ---
@@ -77,7 +66,7 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_&#x200B;viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
 
 ### Cerca modelli
 
@@ -90,7 +79,7 @@ Ad esempio, potrebbe essere utile trovare un modello per un tipo di canale speci
 
 Di seguito viene illustrato come filtrare in base al tipo di canale, ad esempio e-mail, annunci display, annunci Meta e annunci LinkedIn.
 
-![Elenco modelli di contenuto](/help/assets/content-templates-filter.png "Cerca nei modelli LinkedIn"){width="650"}
+![Elenco modelli di contenuto](/help/assets/content-templates-filter.png "Cerca nei modelli LinkedIn"){width="650" zoomable="yes"}
 
 La funzionalità di ricerca dei modelli è disponibile durante [!UICONTROL Crea] quando si seleziona un modello per un supporto di proprietà o a pagamento. Se alcune opzioni di filtro non sono visibili, indica che nessun modello nell’archivio corrisponde ai criteri di metadati corrispondenti. Assicurati che i modelli siano correttamente taggati con metadati per renderli individuabili tramite questi filtri.
 
@@ -100,34 +89,55 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 **Per aggiungere un modello**:
 
-1. In _[!DNL Content]_, selezionare la sezione **[!UICONTROL Modelli]**.
+1. In _[!DNL Content]_, seleziona la sezione **[!UICONTROL Modelli HTML]**nella barra superiore.
 
-2. Fare clic su **[!UICONTROL Aggiungi modello]**.
+1. Fare clic su **[!UICONTROL + Aggiungi modello]**.
 
-3. Nel riquadro _[!UICONTROL Aggiungi il modello approvato]_, individua il file del modello di HTML o trascina il file del modello di HTML nello spazio di rilascio. Fai clic su **[!UICONTROL Next]** (Avanti).
+1. Nel riquadro _[!UICONTROL Aggiungi il modello approvato]_, scegli il tipo di modello. Cercare quindi il file modello di HTML o trascinare il file modello di HTML nello spazio di rilascio. Fai clic su **[!UICONTROL Next]** (Avanti).
 
-4. Nel riquadro _[!UICONTROL Controlla campi rilevati]_, controlla i campi. Verifica di utilizzare il modello corretto e che tutti i dettagli siano come previsto.
+   ![Tipi di modello nel riquadro](/help/assets/template-choose-type.png){width="500" zoomable="yes"}
 
-   Esempio di anteprima per un modello e-mail:
-
-   ![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650"}
+1. Nel riquadro _[!UICONTROL Controlla campi rilevati]_, controlla i campi. Verifica di utilizzare il modello corretto e che tutti i dettagli siano come previsto.
 
    >[!TIP]
    >
-   >Se il modello non è corretto, fare clic su **[!UICONTROL Indietro]** e tornare al passaggio precedente. Carica il file modello corretto. In alternativa, utilizzare l&#39;[editor di codice modello](/help/user-guide/templates/code-editor.md) per apportare semplici correzioni.
+   >Se i dettagli nel modello non sono corretti, fare clic su **[!UICONTROL Indietro]** e tornare al passaggio precedente. Carica il file modello corretto. In alternativa, utilizzare l&#39;[editor di codice modello](/help/user-guide/templates/code-editor.md) per apportare semplici correzioni.
 
-5. Fare clic su **[!UICONTROL Avanti]** quando si è soddisfatti dell&#39;anteprima del modello.
+1. Controlla i campi rilevati automaticamente. Nella vista Anteprima/Codice a due pannelli, il pannello a sinistra mostra un’anteprima live del modello con le zone rilevate evidenziate da colori.La barra laterale a destra mostra l’elenco dei campi rilevati con il relativo stato attuale dello slot. I campi sono contrassegnati con la notazione Handlebars (ad esempio, `{{headline}}`, `{{body}}`, `{{image}}`) visibile nella scheda Code.
 
-6. In _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
+   Esempio di anteprima per un modello e-mail:
+
+   ![Rilevati campi di anteprima](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+
+1. Se una regione non viene rilevata automaticamente, passa il cursore del mouse su di essa nel pannello Anteprima per visualizzare la funzione **passaggio del mouse su tag**. Fate clic su per assegnare un tag Handlebars e impostare lo stato corretto dello slot.
+
+   ![Funzione passaggio del mouse su tag che mostra gli stati degli slot per un campo logo](/help/assets/template-slot-state.png){width="500" zoomable="yes"}
+
+   >[!TIP]
+   >
+   > **Stati slot**
+   >
+   > Per ogni campo rilevato, assegnare lo stato di slot appropriato:
+   >
+   > | **Stato slot** | **Descrizione** | **Usa per** |
+   > |---|---|---|
+   > | **Altro (modificabile)** | IA genera contenuti per questo campo in fase di runtime o consente la modifica manuale di un campo personalizzato. | Titoli, copia del corpo, CTA: ovunque sia necessaria una variante di IA. Oppure campi personalizzati per la modifica manuale o scambi di frammenti di contenuto. |
+   > | **Corretto** | Il campo non può essere modificato dall’intelligenza artificiale o dagli utenti. | Disclaimer legali, note a piè di pagina normative, collegamenti per annullare l’abbonamento. |
+
+1. In alternativa, è possibile modificare manualmente il HTML nella scheda Codice e fare clic sul pulsante **[!UICONTROL Rileva automaticamente campi]** per eseguire nuovamente il rilevamento e aggiornare l&#39;elenco dei campi.
+
+1. Fare clic su **[!UICONTROL Avanti]** quando si è soddisfatti dell&#39;anteprima del modello.
+
+1. In _[!UICONTROL Fornisci dettagli modello e carica]_, assegna un nome al modello e seleziona un tipo **[!UICONTROL Canale]**.
 
    Sono richiesti il nome del modello e il tipo di canale. Ulteriori requisiti possono includere:
 
    - **Meta**: richiede proporzioni
-   - **Banner e annuncio visualizzato**: dimensioni richieste
+   - **Banner e annuncio visualizzato**: richiede dimensioni
 
-7. Aggiungi tutti i dettagli possibili per migliorare l’identificazione dei modelli nelle ricerche e nei filtri.
+1. Aggiungi tutti i dettagli possibili per migliorare l’identificazione dei modelli nelle ricerche e nei filtri.
 
-8. Fai clic su **[!UICONTROL Fine]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ### Aggiorna modello
 

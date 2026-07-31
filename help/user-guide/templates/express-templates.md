@@ -4,9 +4,9 @@ description: Esplora le funzioni di GenStudio for Performance Marketing in grado
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Questa guida descrive i requisiti e le funzionalità con i modelli di [!DNL Adob
 
 ## Informazioni sui modelli in [!DNL Adobe Express]
 
-In [!DNL Adobe Express], è possibile creare [nuovi documenti utilizzando modelli iniziali esistenti](https://helpx.adobe.com/it/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) forniti nell&#39;applicazione o [modelli personalizzati che possono includere utili limitazioni del marchio](https://helpx.adobe.com/it/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) come:
+In [!DNL Adobe Express], è possibile creare [nuovi documenti utilizzando modelli iniziali esistenti](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) forniti nell&#39;applicazione o [modelli personalizzati che possono includere utili limitazioni del marchio](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) come:
 
-- [Elementi bloccati](https://helpx.adobe.com/it/express/web/invite-collaborate/object-locking.html) che non possono essere modificati
+- [Elementi bloccati](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) che non possono essere modificati
 - Blocca le restrizioni che controllano il modo in cui gli utenti possono sbloccare gli elementi quando necessario
 
-Le impostazioni di blocco impostate sul modello in [!DNL Adobe Express] verranno applicate anche in [!DNL GenStudio for Performance Marketing]. Utilizza [le [!DNL Adobe Express] istruzioni per creare un modello personalizzato con restrizioni del brand](https://helpx.adobe.com/it/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+Le impostazioni di blocco impostate sul modello in [!DNL Adobe Express] verranno applicate anche in [!DNL GenStudio for Performance Marketing]. Utilizza [le [!DNL Adobe Express] istruzioni per creare un modello personalizzato con restrizioni del brand](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Per utilizzare font personalizzati in un modello Express, gli amministratori devono prima accettare l’offerta di qualificazione dei font personalizzati nell’Admin Console, inclusa come parte del diritto alla licenza Express.
 
@@ -57,11 +57,11 @@ Quando selezioni un modello [!DNL Express] e fai clic su **[!UICONTROL Usa]**, i
 
 ## Informazioni sulle varianti e [!DNL Experiences] con [!DNL Adobe Express] modelli
 
-I modelli di [!DNL Express] offrono molte delle stesse funzionalità che ti saranno familiari quando [gestisci altre varianti](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Tuttavia, sono disponibili alcune potenti aggiunte per semplificare qualsiasi flusso di lavoro per il contenuto da [!DNL Express]. In questa sezione vengono descritte le funzionalità esclusive dell&#39;implementazione di [!DNL Adobe Express].
+I modelli di [!DNL Express] offrono molte delle stesse funzionalità che ti saranno familiari quando [gestisci altre varianti](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Tuttavia, sono disponibili alcune potenti aggiunte per semplificare qualsiasi flusso di lavoro per il contenuto da [!DNL Express]. In questa sezione vengono descritte le funzionalità esclusive dell&#39;implementazione di [!DNL Adobe Express].
 
 ### Genera automaticamente più dimensioni
 
-Quando sono state create [più pagine per una risorsa in [!DNL Express]](https://helpx.adobe.com/it/express/web/arrange-layers-and-pages/add-pages.html), queste pagine vengono riportate in qualsiasi modello creato da tale risorsa. Ciascuna pagina Express verrà generata in dimensioni diverse del contenuto creativo in [!DNL GenStudio for Performance Marketing].
+Quando sono state create [più pagine per una risorsa in [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), queste pagine vengono riportate in qualsiasi modello creato da tale risorsa. Ciascuna pagina Express verrà generata in dimensioni diverse del contenuto creativo in [!DNL GenStudio for Performance Marketing].
 
 Se per una risorsa in [!DNL Express] esistono più contenuti di dimensione, è possibile generare varianti per tutte le dimensioni in un&#39;unica generazione.
 
@@ -126,6 +126,14 @@ La formattazione del testo disponibile include:
 1. Immettere il nuovo testo.
 1. Per formattare il testo, fare clic su o digitare nell&#39;elemento casella di testo. Le opzioni di formattazione verranno visualizzate in una barra a comparsa. Tenendo premuto Maiusc la barra viene nascosta per visualizzare il testo.
 1. Fai clic lontano dal campo di testo per salvare le modifiche.
+
+### Utilizzare le caselle di testo collegate
+
+[!DNL Adobe Express] supporta il flusso di testo, che consente all&#39;autore di un modello di collegare due caselle di testo in modo che una singola frase scorra in entrambe le caselle. Ad esempio, un titolo può iniziare in una casella e finire in un’altra, oppure parte di una frase può utilizzare uno stile diverso rispetto al resto. Quando un modello con flusso di testo viene importato in [!DNL GenStudio for Performance Marketing], l&#39;area di lavoro riconosce e rispetta tale collegamento. Ulteriori informazioni sulla creazione di caselle di testo collegate in [Flusso di testo in Adobe Express](https://helpx.adobe.com/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+La copia per le caselle di testo collegate viene generata nello stesso modo in cui viene generato qualsiasi altro campo, senza richiedere alcuna configurazione aggiuntiva. Le caselle collegate si comportano come un&#39;unica frase connessa durante la generazione, la modifica e la revisione delle varianti, pertanto non è necessario dividere, copiare o riposizionare il testo tra le caselle.
+
+Se la copia generata è troppo lunga per essere contenuta nelle caselle collegate, nella parte inferiore dell&#39;ultima casella viene visualizzata una linea rossa per indicare l&#39;overflow, corrispondente allo stesso indicatore utilizzato in [!DNL Adobe Express]. Abbreviare la copia o rigenerare il campo per rimuovere l&#39;overflow.
 
 ### Visualizza livelli
 
@@ -192,7 +200,7 @@ Le opzioni di assegnazione tag variano a seconda del tipo di elemento.
 
 ### Restrizioni blocco modello
 
-I modelli possono includere [elementi bloccati](https://helpx.adobe.com/it/express/web/invite-collaborate/object-locking.html) che vengono trasferiti da [!DNL Express] e controllano come alcune funzionalità possono essere modificate. Queste impostazioni vengono rispettate dal modello e possono essere modificate anche nel modello:
+I modelli possono includere [elementi bloccati](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) che vengono trasferiti da [!DNL Express] e controllano come alcune funzionalità possono essere modificate. Queste impostazioni vengono rispettate dal modello e possono essere modificate anche nel modello:
 
 1. Seleziona un elemento bloccato sul modello.
 1. Fai clic sull’icona del lucchetto in alto a sinistra per l’elemento selezionato.
@@ -242,5 +250,5 @@ Consulta [Convalida marchio](/help/user-guide/guidelines/brand-validation.md).
 
 ## Rivedi e approva
 
-Dopo aver modificato e regolato le varianti, approva e pubblica i contenuti con [il flusso di lavoro Recensioni e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Dopo aver modificato e regolato le varianti, approva e pubblica i contenuti con [il flusso di lavoro Recensioni e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
 

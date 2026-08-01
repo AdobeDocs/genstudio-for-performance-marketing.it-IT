@@ -4,9 +4,9 @@ description: Esplora le funzioni di GenStudio for Performance Marketing in grado
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,14 @@ La formattazione del testo disponibile include:
 1. Immettere il nuovo testo.
 1. Per formattare il testo, fare clic su o digitare nell&#39;elemento casella di testo. Le opzioni di formattazione verranno visualizzate in una barra a comparsa. Tenendo premuto Maiusc la barra viene nascosta per visualizzare il testo.
 1. Fai clic lontano dal campo di testo per salvare le modifiche.
+
+### Utilizzare le caselle di testo collegate
+
+[!DNL Adobe Express] supporta il flusso di testo, che consente all&#39;autore di un modello di collegare due caselle di testo in modo che una singola frase scorra in entrambe le caselle. Ad esempio, un titolo può iniziare in una casella e finire in un’altra, oppure parte di una frase può utilizzare uno stile diverso rispetto al resto. Quando un modello con flusso di testo viene importato in [!DNL GenStudio for Performance Marketing], l&#39;area di lavoro riconosce e rispetta tale collegamento. Ulteriori informazioni sulla creazione di caselle di testo collegate in [Flusso di testo in Adobe Express](https://helpx.adobe.com/it/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+La copia per le caselle di testo collegate viene generata nello stesso modo in cui viene generato qualsiasi altro campo, senza richiedere alcuna configurazione aggiuntiva. Le caselle collegate si comportano come un&#39;unica frase connessa durante la generazione, la modifica e la revisione delle varianti, pertanto non è necessario dividere, copiare o riposizionare il testo tra le caselle.
+
+Se la copia generata è troppo lunga per essere contenuta nelle caselle collegate, nella parte inferiore dell&#39;ultima casella viene visualizzata una linea rossa per indicare l&#39;overflow, corrispondente allo stesso indicatore utilizzato in [!DNL Adobe Express]. Abbreviare la copia o rigenerare il campo per rimuovere l&#39;overflow.
 
 ### Visualizza livelli
 

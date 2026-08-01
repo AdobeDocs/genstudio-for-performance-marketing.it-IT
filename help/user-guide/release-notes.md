@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
 workflow-type: tm+mt
-source-wordcount: 5472
+source-wordcount: 5723
 ht-degree: 0%
 
 ---
@@ -50,9 +50,25 @@ ht-degree: 0%
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.06.11 {#latest}
+## 2026.07.16 {#latest}
 
 **NUOVE FUNZIONALITÀ:**
+
+### Modifica in blocco nell’area di lavoro Orizzonte
+
+L’area di lavoro Orizzonte ora collega i campi di testo e immagine correlati tra le dimensioni e le pagine di un modello con più dimensioni o pagine, quindi la modifica dell’ultimo miglio deve essere eseguita una sola volta. Scegliere l&#39;ambito **[!UICONTROL Applica a]** nel pannello Editor Rich Text, ovvero le dimensioni, tutte le dimensioni o tutti i concetti, e la modifica si propaga automaticamente, con la possibilità di regolare manualmente l&#39;assegnazione dei tag dei campi quando necessario.
+
+### Attiva annunci display direttamente al Trade Desk
+
+Gli addetti al marketing possono ora pubblicare il materiale creativo approvato direttamente da [!DNL GenStudio for Performance Marketing] nelle campagne The Trade Desk esistenti. Connetti un account con un token API, avvia l&#39;attivazione da [!DNL Activate] o [!DNL Content] e tieni traccia dello stato di attivazione con collegamenti profondi nuovamente al Trade Desk.
+
+### Scambio di frammenti di contenuto nell’area di lavoro Orizzonte
+
+Ora è possibile sostituire un blocco di testo nell’area di lavoro Orizzonte con un frammento di contenuto preapprovato e riutilizzabile estratto direttamente dalla libreria Frammenti di contenuto di AEM. Gli scambi di frammenti di contenuto funzionano con la modifica in blocco, pertanto uno scambio può essere applicato a una singola dimensione o propagato su tutte le dimensioni e i concetti contemporaneamente, mantenendo una copia regolamentata esattamente come approvato senza il reinserimento manuale.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.06.11
 
 ### YouTube Shorts in [!DNL Create] e [!DNL Activate]
 
@@ -80,7 +96,11 @@ I modelli di e-mail in [!DNL Create] possono ora contenere più immagini in un s
 
 Carica o crea modelli con i campi immagine aggiuntivi, quindi genera varianti on-brand che rispettino la struttura del pod. Consulta [Esperienze e-mail](/help/user-guide/create/email-experiences.md) per il flusso di lavoro e-mail end-to-end.
 
-## Note sulle versioni precedenti
+### Supporto del flusso di testo per i modelli Express
+
+[!DNL Create] ora rispetta Text Flow, la funzionalità di Adobe Express che collega due caselle di testo in modo che una singola frase scorra attraverso entrambe, nell&#39;area di lavoro Orizzonte. La copia generata riempie le caselle collegate come un’unica frase connessa, in modo che le progettazioni di annunci il cui messaggio si divide in due caselle possano essere infine modellate per la generazione senza copia o riposizionamento manuale. Ulteriori informazioni sulle [caselle di testo collegate](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
+
++++
 
 +++Note relative al 2026.05.15
 
@@ -260,9 +280,9 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 ### Approfondimenti estesi per LinkedIn, Meta e TikTok
 
 * GenStudio Insights ora include il reporting sulle prestazioni di LinkedIn Ads, che consente agli addetti al marketing di visualizzare e analizzare le prestazioni delle campagne e degli annunci pubblicitari direttamente nella piattaforma per:
-   * LinkedIn Ads
-   * Meta Ads
-   * TikTok Ads
+  * LinkedIn Ads
+  * Meta Ads
+  * TikTok Ads
 
 ### Attivazione di Amazon Ads
 
@@ -285,10 +305,10 @@ Gli addetti al marketing possono ora scambiare dinamicamente i loghi all&#39;int
 
 * GenStudio for Performance Marketing ora supporta l’integrazione diretta con i sistemi di progettazione e-mail di terze parti tramite un framework di estensibilità. Le funzionalità principali includono:
 
-   * Importa automaticamente modelli da sistemi di progettazione e-mail di terze parti durante la creazione di contenuti
-   * Inserisci i metadati del modello insieme ai modelli importati
-   * Mantenere un’unica fonte di verità collegandosi direttamente a sistemi di terze parti
-   * SDK e app di esempio forniti per la creazione di integrazioni personalizzate
+  * Importa automaticamente modelli da sistemi di progettazione e-mail di terze parti durante la creazione di contenuti
+  * Inserisci i metadati del modello insieme ai modelli importati
+  * Mantenere un’unica fonte di verità collegandosi direttamente a sistemi di terze parti
+  * SDK e app di esempio forniti per la creazione di integrazioni personalizzate
 
 +++
 

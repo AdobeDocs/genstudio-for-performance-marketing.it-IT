@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ba8bbc541c2be32c1b221c1630440a71f3de0ad6
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
 workflow-type: tm+mt
-source-wordcount: 5720
+source-wordcount: 5723
 ht-degree: 0%
 
 ---
@@ -56,7 +27,7 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
 
 ### Modifica in blocco nell’area di lavoro Orizzonte
 
-[!DNL Create] ora collega i campi di testo e immagine correlati tra le dimensioni e le pagine di un modello con più dimensioni o pagine, pertanto la modifica dell&#39;ultimo miglio deve essere eseguita una sola volta. Scegliere l&#39;ambito **[!UICONTROL Applica a]** nel pannello Editor Rich Text, ovvero le dimensioni, tutte le dimensioni o tutti i concetti, e la modifica si propaga automaticamente, con la possibilità di regolare manualmente l&#39;assegnazione dei tag dei campi quando necessario.
+L’area di lavoro Orizzonte ora collega i campi di testo e immagine correlati tra le dimensioni e le pagine di un modello con più dimensioni o pagine, quindi la modifica dell’ultimo miglio deve essere eseguita una sola volta. Scegliere l&#39;ambito **[!UICONTROL Applica a]** nel pannello Editor Rich Text, ovvero le dimensioni, tutte le dimensioni o tutti i concetti, e la modifica si propaga automaticamente, con la possibilità di regolare manualmente l&#39;assegnazione dei tag dei campi quando necessario.
 
 ### Attiva annunci display direttamente al Trade Desk
 
@@ -64,7 +35,7 @@ Gli addetti al marketing possono ora pubblicare il materiale creativo approvato 
 
 ### Scambio di frammenti di contenuto nell’area di lavoro Orizzonte
 
-[!DNL Create] ora consente di sostituire un blocco di testo nell&#39;area di lavoro Orizzonte con un frammento di contenuto preapprovato e riutilizzabile estratto direttamente dalla libreria Frammenti di contenuto di AEM. Gli scambi di frammenti di contenuto funzionano con la modifica in blocco, pertanto uno scambio può essere applicato a una singola dimensione o propagato su tutte le dimensioni e i concetti contemporaneamente, mantenendo una copia regolamentata esattamente come approvato senza il reinserimento manuale.
+Ora è possibile sostituire un blocco di testo nell’area di lavoro Orizzonte con un frammento di contenuto preapprovato e riutilizzabile estratto direttamente dalla libreria Frammenti di contenuto di AEM. Gli scambi di frammenti di contenuto funzionano con la modifica in blocco, pertanto uno scambio può essere applicato a una singola dimensione o propagato su tutte le dimensioni e i concetti contemporaneamente, mantenendo una copia regolamentata esattamente come approvato senza il reinserimento manuale.
 
 ## Note sulle versioni precedenti
 

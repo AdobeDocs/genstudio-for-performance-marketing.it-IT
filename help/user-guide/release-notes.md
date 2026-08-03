@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 0%
@@ -56,7 +56,7 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
 
 ### Modifica in blocco nell’area di lavoro Orizzonte
 
-L’area di lavoro Orizzonte ora collega i campi di testo e immagine correlati tra le dimensioni e le pagine di un modello con più dimensioni o pagine, quindi la modifica dell’ultimo miglio deve essere eseguita una sola volta. Scegliere l&#39;ambito **[!UICONTROL Applica a]** nel pannello Editor Rich Text, ovvero le dimensioni, tutte le dimensioni o tutti i concetti, e la modifica si propaga automaticamente, con la possibilità di regolare manualmente l&#39;assegnazione dei tag dei campi quando necessario.
+L’area di lavoro Orizzonte ora collega i campi di testo e immagine correlati tra le dimensioni e le pagine di un modello con più dimensioni o pagine, quindi la modifica dell’ultimo miglio deve essere eseguita una sola volta. Scegliere l&#39;ambito **[!UICONTROL Applica a]** nel menu di modifica, ovvero le dimensioni, tutte le dimensioni o tutti i concetti, e la modifica si propaga automaticamente, con la possibilità di regolare manualmente l&#39;assegnazione dei tag dei campi quando necessario.
 
 ### Attiva annunci display direttamente al Trade Desk
 

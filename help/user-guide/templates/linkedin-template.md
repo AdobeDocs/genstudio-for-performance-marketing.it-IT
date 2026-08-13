@@ -6,20 +6,13 @@ role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
 TQID: https://experienceleague.adobe.com/YyG3WuMkdVAaACX03qLKzzw-fFA3WfT9K2ohjnQNPcI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: 293
 ht-degree: 2%
 
 ---
@@ -60,7 +53,7 @@ Tutte le larghezze dei modelli LinkedIn sono codificate a 1200 pixel.
 | Quadrato 1:1 | Desktop, dispositivi mobili | 1200 x 1200 | Più versatile. Ideale per un aspetto coerente tra dispositivi e posizionamenti. |
 | Orizzontale 1,91:1 | Desktop | 1200 x 628 | Formato orizzontale standard. Comunemente utilizzato per contenuti sponsorizzati e annunci di news feed. |
 | Verticale 1:1,91 | Dispositivi mobili | 1200 x 2292 | Formato verticale alto. Ottimizzato per la visualizzazione mobile, offre maggiore presenza sullo schermo. |
-| Verticale 2:3 | Dispositivi mobili | 1200 x 1800 | Leggermente meno alto di 1:1,91. Ideale per le campagne mobile-first. |
+| Verticale 2:3 | Dispositivi mobili | 1200 x 1800 | Leggermente meno alta di 1:1.91. Ideale per le campagne mobile-first. |
 | Verticale 4:5 | Dispositivi mobili | 1200 x 1500 | Consigliato per dispositivi mobili. Bilancia visibilità e contenuto, che spesso produce un impatto maggiore. |
 
 <!-- 

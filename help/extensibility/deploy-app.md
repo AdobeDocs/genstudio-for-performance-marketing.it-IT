@@ -4,16 +4,10 @@ description: Distribuisci l’app App Builder, o il componente aggiuntivo, per G
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
 source-wordcount: 622
@@ -86,8 +80,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 Le nuove estensioni si trovano in posizioni diverse nell&#39;interfaccia utente, a seconda del tipo di estensione distribuito. I punti di estensione attualmente disponibili sono:
 
 * Estensione della conformità, che include:
-   * [*punti di estensione prompt*](#find-prompt-extensions), che consentono ai clienti di aggiungere ulteriore contesto alla generazione LLM e
-   * [*punti di estensione di convalida*](#find-validation-extensions), che consentono ai clienti di convalidare il contenuto generato da LLM. La convalida viene spesso associata all’estensione Prompt per assicurarsi che il contenuto generato con un prompt esteso sia in conflitto con i requisiti del cliente (ad esempio, dichiarazioni su medicinali o legali)
+  * [*punti di estensione prompt*](#find-prompt-extensions), che consentono ai clienti di aggiungere ulteriore contesto alla generazione LLM e
+  * [*punti di estensione di convalida*](#find-validation-extensions), che consentono ai clienti di convalidare il contenuto generato da LLM. La convalida viene spesso associata all’estensione Prompt per assicurarsi che il contenuto generato con un prompt esteso sia in conflitto con i requisiti del cliente (ad esempio, dichiarazioni su medicinali o legali)
 * [Estensione Digital Asset Management (DAM)](#find-dam-extensions)
 * [Estensione modello](#find-template-extensions)
 * [Estensione di traduzione](#find-translation-extensions)

@@ -15,7 +15,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 912
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ La tabella seguente confronta le funzioni standard di revisione e approvazione d
 
 | Funzione        | GenStudio for Performance Marketing                                                                 | Workfront Proof                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Ciclo di vita bozza/bozza**        | Il contenuto della bozza scade al momento della pubblicazione. | Catene di approvazione in più fasi basate su ruoli con registri permanenti con marca temporale.<br> Tutte le versioni vengono conservate a tempo indeterminato. |
+| **Ciclo di vita bozza/bozza**        | Il contenuto della bozza scade al momento della pubblicazione. | Catene di approvazione in più fasi basate su ruoli con registri permanenti con marca temporale.<br> Tutte le versioni vengono mantenute indefinitamente. |
 | **Commenti**                | I commenti vengono associati all&#39;ID bozza e vengono eliminati dopo la pubblicazione.                                           | I commenti e le annotazioni persistenti vengono conservati per scopi di audit e conformità.     |
 | **Versioni**           | Le bozze vengono trattate come istanze univoche.<br>Nessun confronto affiancato.                                      | Controllo completo della versione con strumenti di confronto affiancati e sovrapposti.        |
 | **Gestione dei progetti** | Gestione di base delle campagne. | Gestione completa del ciclo di vita delle campagne, compresi personalizzazione, modelli, reporting e audit dettagliati. |
 
 ### Licenze e ruoli utente
 
-Le licenze identificano il set di diritti utente all’interno di un prodotto. Workfront Proof fornisce più tipi di licenza o ruoli utente rispetto a GenStudio for Performance Marketing. [Panoramica sui ruoli di bozza](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) presenta i ruoli utente associati al flusso di lavoro di revisione e approvazione di Workfront Proof.
+Le licenze identificano il set di diritti utente all’interno di un prodotto. Workfront Proof fornisce più tipi di licenza o ruoli utente rispetto a GenStudio for Performance Marketing. [Panoramica sui ruoli di bozza](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introduce i ruoli utente associati al flusso di lavoro di revisione e approvazione di Workfront Proof.
 
 | Licenza GenStudio for Performance Marketing       | Licenza Workfront                 | Descrizione                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -94,4 +94,4 @@ I revisori possono fare clic direttamente su specifiche aree della bozza per las
 ## Notifiche e promemoria
 
 I revisori e gli approvatori ricevono notifiche e-mail quando è disponibile una nuova bozza per la revisione o quando lo stato di una revisione in corso è cambiato.
-[Le notifiche e i promemoria della bozza](https://experienceleague.adobe.com/it/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) includono un collegamento personalizzato alla bozza, dettagli sulla bozza e il relativo avanzamento nel processo di approvazione e informazioni sul controllo delle versioni.
+[Notifiche e promemoria bozza](https://experienceleague.adobe.com/it/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) includono un collegamento personalizzato alla bozza, dettagli sulla bozza e il relativo avanzamento nel processo di approvazione e informazioni sul controllo delle versioni.

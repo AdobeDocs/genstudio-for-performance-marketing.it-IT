@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: 1352
 ht-degree: 0%
 
 ---
@@ -90,9 +90,9 @@ Per determinare le dimensioni e le proporzioni di un&#39;immagine nel browser:
 
 1. Ispezionare l&#39;immagine.
    - Su Windows/Linux:
-      - Premere F12.
+     - Premere F12.
    - Su macOS:
-      - Premere Command + Option + I.
+     - Premere Command + Option + I.
 
 1. Passa il puntatore sull&#39;immagine.
 

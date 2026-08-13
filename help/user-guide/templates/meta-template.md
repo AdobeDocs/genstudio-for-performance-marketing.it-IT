@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 380
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Consulta [Segnaposto di contenuto](/help/user-guide/templates/customize-template
 | Quadrato 1:1 | 1080 x 1080 | Standard per la maggior parte dei posizionamenti Meta; consigliato per un’ampia compatibilità. |
 | Verticale 4:5 | 1080 x 1350 | Ottimizzato per feed mobili; fornisce più spazio verticale. |
 | Storia 9:16 | 1080 x 1920 | Ideale per storie e rulli; riempie l&#39;intero schermo mobile. |
-| Orizzontale 1.91:1 | 1080 x 566 | Consigliato per annunci di collegamento e posizionamenti di feed di notizie; formato ampio. |
+| Orizzontale 1,91:1 | 1080 x 566 | Consigliato per annunci di collegamento e posizionamenti di feed di notizie; formato ampio. |
 | Personalizzato | Minimo 50 x 50 (larghezza) | Usare solo se necessario; può causare ritaglio o ridimensionamento. |
 
 Se l’annuncio non è progettato in uno di questi rapporti di formato, GenStudio for Performance Marketing ritaglia automaticamente l’immagine nelle dimensioni appropriate.

@@ -17,8 +17,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ Di seguito sono riepilogati i modelli iniziali disponibili, i tipi di file multi
 
 ### LinkedIn - Modelli di annunci
 
-Tutte le proporzioni sono supportate per le immagini statiche. Per i video, utilizza 9:16 per Storie di LinkedIn e assicurati che il tuo video sia ottimizzato per formati brevi e verticali.
+Tutte le proporzioni sono supportate per le immagini statiche. Per i video, utilizza 9:16 per Storie di LinkedIn e assicurati che il video sia ottimizzato per formati brevi e verticali.
 
 | Proporzioni | Orientamento | Linee guida |
 |--------------|--------------|------------------------------------------------------------------------------------------------|

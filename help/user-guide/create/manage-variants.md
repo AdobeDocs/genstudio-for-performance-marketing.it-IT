@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Quando [crei esperienze](/help/user-guide/create/overview.md), puoi modificare i
 
 Le bozze di varianti generate hanno un nome predefinito visualizzato nella parte superiore dell’area di lavoro. I nomi bozza predefiniti utilizzano la seguente convenzione che include il tipo di canale, la data e l’ora di generazione.
 
-*Esempio*: &quot;Meta: bozza senza titolo - 09.5.24, 9:56 AM&quot;
+*Esempio*: &quot;Meta: bozza senza titolo - 09.5.24, 09:56&quot;
 
 **Per modificare il nome predefinito**:
 
@@ -181,7 +181,7 @@ Questa funzione di espansione generativa è associata allo strumento di ritaglio
 
 ## Modifica proporzioni
 
-Puoi cambiare rapidamente le proporzioni [degli annunci Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarle al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l&#39;utilizzo di un&#39;immagine quadrata di 1:1 potrebbe tagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
+Puoi cambiare rapidamente le proporzioni [degli annunci Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) per adattarle al dimensionamento desiderato. Scegli proporzioni immagine che corrispondano esattamente alle dimensioni del modello per evitare ritagli o stiramenti indesiderati. Ad esempio, se il modello è di 1200 × 628 pixel (un rettangolo largo), l’utilizzo di un’immagine quadrata 1:1 può ritagliare i lati, tagliando potenzialmente contenuti importanti. La dimensione ottimale dell’immagine è di 628 x 628 pixel, che corrisponde all’altezza del modello.
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Puoi cambiare rapidamente le proporzioni [degli annunci Meta](/help/user-guide/t
 
    [!DNL Create] crea una copia di ogni variante in base alle nuove proporzioni selezionate. Tutte le varianti, comprese quelle nelle proporzioni iniziali, sono presenti nell’area di lavoro.
 
-   Ad esempio, se all&#39;inizio generi quattro varianti con proporzioni 1:1 e poi modifichi le proporzioni in 4:5, nell&#39;area di lavoro sono ora disponibili _otto_ varianti totali.
+   Ad esempio, se all&#39;inizio generi quattro varianti in una proporzione 1:1 e poi modifichi le proporzioni in 4:5, ora nell&#39;area di lavoro sono disponibili _otto_ varianti totali.
 
 ## Scambia immagine
 

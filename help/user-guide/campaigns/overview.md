@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # Campagne Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing [!DNL Campaigns] accelera lo sviluppo e la distribuzione di iniziative di marketing o _campagne_. [!DNL Campaigns] I componenti includono le risorse e le esperienze che si prestano alla creazione, approvazione e gestione da parte dei flussi di lavoro generati dall’intelligenza artificiale di GenStudio for Performance Marketing, inclusi testo e immagini conformi al brand.
+GenStudio for Performance Marketing [!DNL Campaigns] accelera lo sviluppo e la distribuzione di iniziative di marketing o _campagne_. I componenti di [!DNL Campaigns] includono le risorse e le esperienze che si prestano alla creazione, all&#39;approvazione e alla gestione da parte dei flussi di lavoro generati dall&#39;intelligenza artificiale di GenStudio for Performance Marketing, inclusi testo e immagini conformi al marchio.
 
 Il flusso di lavoro [!DNL Campaigns] fornisce:
 

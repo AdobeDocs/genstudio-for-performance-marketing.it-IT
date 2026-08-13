@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -168,7 +168,7 @@ I dettagli dell’esperienza vengono salvati come metadati e aiutano gli utenti 
 | Prodotti | Prodotti associati alla tua organizzazione e identificati in GenStudio for Performance Marketing |
 | Persone | Persone associate alla tua organizzazione e identificate in GenStudio for Performance Marketing |
 | Intervallo temporale | Il trimestre, la stagione, l’anno o un’altra unità di tempo definita dall’organizzazione durante la quale è attiva l’esperienza pubblicitaria |
-| Regione | Area geografica in cui viene avviata l’esperienza |
+| Area geografica | Area geografica in cui viene avviata l’esperienza |
 | Lingua | Lingue per cui viene utilizzata l’esperienza annuncio |
 | Parole chiave | Parole chiave definite dall’utente che facilitano la ricerca e la categorizzazione dell’esperienza dell’annuncio |
 

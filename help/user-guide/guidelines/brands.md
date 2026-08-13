@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,9 +65,9 @@ La tabella seguente mostra ogni categoria di linee guida e di esempi di linee gu
 
 | Categoria di orientamento | Descrizione | Best practice |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Tono di voce] | Personalità del brand espressa attraverso la comunicazione scritta | Utilizza parole descrittive per trasmettere chiaramente l’emozione e il tono del brand. <br>_Esempi_: &quot;genuino&quot;, &quot;giocoso&quot;<br><br>Sii conciso (3-6 linee guida) e concentrati sugli attributi vocali chiave del brand.<br><br>Seleziona parole/frasi coerenti tra i canali di comunicazione per creare un&#39;identità del brand coerente. |
+| [!UICONTROL Tono di voce] | Personalità del brand espressa attraverso la comunicazione scritta | Utilizza parole descrittive per trasmettere chiaramente l’emozione e il tono del brand. <br>_Esempi_: &quot;genuino&quot;, &quot;giocoso&quot;<br><br>Sii conciso (linee guida da 3 a 6) e concentrati sugli attributi vocali chiave del brand.<br><br>Seleziona parole/frasi coerenti tra i diversi canali di comunicazione per creare un&#39;identità del brand coerente. |
 | [!UICONTROL Valori marchio] | Principi che guidano la cultura del brand, l’esperienza del cliente e le strategie aziendali | Utilizza parole descrittive per trasmettere la missione, la visione e le esigenze del pubblico del brand. <br>_Esempi_: &quot;autenticità&quot;, &quot;ispirazione&quot;, &quot;progressivo&quot;<br><br>Sii conciso (3-6 linee guida) e concentrati sui valori/temi principali del brand. |
-| [!UICONTROL Linee guida editoriali] | Linee guida per la comunicazione che definiscono le best practice per la creazione di messaggi di brand | Utilizza frasi positive (5-10 linee guida) per stabilire una solida base.<br>_Esempi_: &quot;Utilizza un linguaggio semplice e accessibile&quot; invece di &quot;Evita di usare il gergo&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempi_: &quot;Mantieni le frasi sotto le 20 parole&quot; invece di &quot;Sii conciso&quot;<br><br>Riflette lo stile del tuo marchio, ad esempio utilizzando preferenze di sintassi specifiche. <br>_Esempi_: &quot;Utilizzare un trattino lungo anziché due punti&quot;, &quot;Utilizzare la frase&quot;<br><br>Elaborare linee guida precise che mantengano la coerenza tra gli output. |
+| [!UICONTROL Linee guida editoriali] | Linee guida per la comunicazione che definiscono le best practice per la creazione di messaggi di brand | Utilizza frasi positive (5-10 linee guida) per stabilire una solida base.<br>_Esempi_: &quot;Utilizza un linguaggio semplice e accessibile&quot; invece di &quot;Evita di usare il gergo&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempi_: &quot;Mantieni le frasi sotto le 20 parole&quot; invece di &quot;Sii conciso&quot;<br><br>Rifletti sullo stile del tuo marchio, ad esempio utilizzando preferenze di sintassi specifiche. <br>_Esempi_: &quot;Utilizza un trattino lungo anziché due punti&quot;, &quot;Utilizza il caso della frase&quot;<br><br>Elabora linee guida precise che mantengono la coerenza tra gli output. |
 | [!UICONTROL Limitazioni editoriali] | Linee guida di comunicazione che definiscono cosa evitare nei messaggi del brand | Utilizzare la formulazione diretta negativa (5-10 linee guida) per specificare cosa deve essere evitato. <br>_Esempio_: &quot;Evita di utilizzare...&quot;<br><br>Fornisci indicazioni chiare e actionable. <br>_Esempio_: &quot;Evita domande retoriche&quot; |
 
 ### Linee guida per le immagini

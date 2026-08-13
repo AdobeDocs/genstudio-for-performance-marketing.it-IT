@@ -13,7 +13,7 @@ role_v2:
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +45,19 @@ I componenti chiave delle app App Builder includono questi file di build e confi
 
 * File app di Servizi terminal:
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * File di configurazione di App Builder:
 
-   * `app.config.yaml`
-   * `ext.config.yaml`: file di configurazione per il componente aggiuntivo.
-   * `app.config.yaml`: file di configurazione per il componente aggiuntivo (include la definizione dell&#39;app come componente aggiuntivo di GenStudio for Performance Marketing).
-   * `.aio`
-   * `.env`: non eseguire il commit del file `.env` nel controllo del codice sorgente.
+  * `app.config.yaml`
+  * `ext.config.yaml`: file di configurazione per il componente aggiuntivo.
+  * `app.config.yaml`: file di configurazione per il componente aggiuntivo (include la definizione dell&#39;app come componente aggiuntivo di GenStudio for Performance Marketing).
+  * `.aio`
+  * `.env`: non eseguire il commit del file `.env` nel controllo del codice sorgente.
 
 ### Codice Source
 

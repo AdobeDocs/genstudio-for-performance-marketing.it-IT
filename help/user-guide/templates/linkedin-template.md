@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: 293
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Tutte le larghezze dei modelli LinkedIn sono codificate a 1200 pixel.
 | Quadrato 1:1 | Desktop, dispositivi mobili | 1200 x 1200 | Più versatile. Ideale per un aspetto coerente tra dispositivi e posizionamenti. |
 | Orizzontale 1,91:1 | Desktop | 1200 x 628 | Formato orizzontale standard. Comunemente utilizzato per contenuti sponsorizzati e annunci di news feed. |
 | Verticale 1:1,91 | Dispositivi mobili | 1200 x 2292 | Formato verticale alto. Ottimizzato per la visualizzazione mobile, offre maggiore presenza sullo schermo. |
-| Verticale 2:3 | Dispositivi mobili | 1200 x 1800 | Leggermente meno alto di 1:1,91. Ideale per le campagne mobile-first. |
+| Verticale 2:3 | Dispositivi mobili | 1200 x 1800 | Leggermente meno alta di 1:1.91. Ideale per le campagne mobile-first. |
 | Verticale 4:5 | Dispositivi mobili | 1200 x 1500 | Consigliato per dispositivi mobili. Bilancia visibilità e contenuto, che spesso produce un impatto maggiore. |
 
 <!-- 

@@ -23,7 +23,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1652
 ht-degree: 0%
 
 ---
@@ -230,7 +230,7 @@ La modifica del testo RTF può essere disponibile per alcuni campi all&#39;inter
 
 ## Sezioni o gruppi
 
-Se il modello e-mail richiede più aree di contenuto, ad esempio più offerte o storie, puoi organizzarle utilizzando sezioni o gruppi. _Le sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
+Se il modello e-mail richiede più aree di contenuto, ad esempio più offerte o storie, puoi organizzarle utilizzando sezioni o gruppi. _Sezioni_ informano GenStudio for Performance Marketing che i campi in questa sezione richiedono un elevato grado di coerenza. Stabilire questa relazione aiuta l’intelligenza artificiale a generare contenuti che corrispondono agli elementi creativi della sezione.
 
 Utilizzare un nome di gruppo scelto come prefisso per indicare che un campo fa parte di una sezione o di un gruppo. Utilizza un nome di campo (ad esempio `headline`, `body`, `image` o `cta`) dopo il carattere di sottolineatura (`_`).
 

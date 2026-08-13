@@ -43,9 +43,9 @@ Connetti l’account del profilo LinkedIn Ads a GenStudio for Performance Market
 
 - _Controllo completo_ sugli account LinkedIn Ad, inclusi:
 
-   - Account manager
-   - Gestire le campagne
-   - Visualizza prestazioni
+  - Account manager
+  - Gestire le campagne
+  - Visualizza prestazioni
 
 - Rimuovere eventuali blocchi popup nel browser
 

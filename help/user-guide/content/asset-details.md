@@ -99,7 +99,7 @@ La tabella seguente descrive i metadati (dettagli risorsa) che puoi definire dur
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) aggiunti a GenStudio for Performance Marketing per l&#39;utilizzo |
 | Canali | Piattaforme per la distribuzione di determinati tipi di contenuto, ad esempio e-mail, banner e annunci di visualizzazione |
 | [!UICONTROL Intervallo temporale] | Intervallo di tempo per il quale viene utilizzata la risorsa, ad esempio trimestre, stagione, anno e così via. Esempio: `Winter 2023` |
-| Regione | Aree per le quali viene utilizzata la risorsa. Esempi: `North America`, `APAC`, `Italy` |
+| Area geografica | Aree per le quali viene utilizzata la risorsa. Esempi: `North America`, `APAC`, `Italy` |
 | Lingua | Lingue per cui viene utilizzata la risorsa. Esempio: `Spanish` |
 | Parole chiave | Le parole chiave definite dall&#39;utente vengono utilizzate per identificare ulteriormente le caratteristiche e lo scopo delle risorse |
 

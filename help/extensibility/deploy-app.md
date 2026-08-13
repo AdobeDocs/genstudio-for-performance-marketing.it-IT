@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 Le nuove estensioni si trovano in posizioni diverse nell&#39;interfaccia utente, a seconda del tipo di estensione distribuito. I punti di estensione attualmente disponibili sono:
 
 * Estensione della conformità, che include:
-   * [*punti di estensione prompt*](#find-prompt-extensions), che consentono ai clienti di aggiungere ulteriore contesto alla generazione LLM e
-   * [*punti di estensione di convalida*](#find-validation-extensions), che consentono ai clienti di convalidare il contenuto generato da LLM. La convalida viene spesso associata all’estensione Prompt per assicurarsi che il contenuto generato con un prompt esteso sia in conflitto con i requisiti del cliente (ad esempio, dichiarazioni su medicinali o legali)
+  * [*punti di estensione prompt*](#find-prompt-extensions), che consentono ai clienti di aggiungere ulteriore contesto alla generazione LLM e
+  * [*punti di estensione di convalida*](#find-validation-extensions), che consentono ai clienti di convalidare il contenuto generato da LLM. La convalida viene spesso associata all’estensione Prompt per assicurarsi che il contenuto generato con un prompt esteso sia in conflitto con i requisiti del cliente (ad esempio, dichiarazioni su medicinali o legali)
 * [Estensione Digital Asset Management (DAM)](#find-dam-extensions)
 * [Estensione modello](#find-template-extensions)
 * [Estensione di traduzione](#find-translation-extensions)

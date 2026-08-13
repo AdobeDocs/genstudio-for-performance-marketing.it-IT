@@ -23,8 +23,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -56,4 +56,4 @@ La tabella seguente mostra ogni categoria di [!DNL Personas] linee guida ed esem
 | ------------------| :---------- |-------------|
 | Nome persona | Rappresenta un segmento di pubblico specifico per il quale vengono personalizzati i materiali di marketing generati | Aggiungi un nome utente chiaro e conciso.<br><br>_Esempi_: &quot;CMOs of Retail&quot;, &quot;Prospective Nursing Students&quot;, &quot;New Savings Acct Clients&quot; |
 | Descrizione | Breve riepilogo che definisce caratteristiche, esigenze e comportamenti chiave | Utilizza un linguaggio conciso per descrivere chiaramente la segmentazione del pubblico (1-2 frasi).<br><br>Concentrati su ciò che guida questo segmento di pubblico (esigenze, caratteristiche principali, ecc.)<br><br>Mantieni la descrizione succinta e priva di dati demografici profondi o informazioni aggiuntive. |
-| Preferenze di messaggistica | Riepilogo chiaro degli stili di comunicazione preferiti che risuonano con un utente tipo specifico | Definisci requisiti di messaggistica e motivazioni univoci dell&#39;utente tipo, in particolare in base a come l&#39;utente preferisce ricevere e interagire con le comunicazioni.<br><br>Fornisci preferenze di messaggistica specifiche nell&#39;elenco (ogni voce di elenco contiene da 1 a 2 frasi).<br><br>Limita l&#39;elenco a un totale di 10 frasi o meno, assicurandoti che vengano evidenziate le informazioni più critiche.<br><br>_Esempio_: &quot;Preferenze di messaggistica per professionisti esperti di tecnologia:<li>Preferisce una comunicazione concisa e priva di gergo.</li><li>Risponde positivamente alle informazioni basate sui dati e ai consigli fruibili.</li><li>Preferisce elementi visivi come infografiche e grafici per acquisire rapidamente informazioni complesse.</li><li>Valori di trasparenza con un approccio onesto e diretto.</li>&quot; |
+| Preferenze di messaggistica | Riepilogo chiaro degli stili di comunicazione preferiti che risuonano con un utente tipo specifico | Definisci i requisiti di messaggistica e le motivazioni dell’utente tipo, concentrandosi su come l’utente preferisce ricevere e interagire con le comunicazioni.<br><br>Fornisci preferenze di messaggistica specifiche nell&#39;elenco (ogni voce di elenco contiene da 1 a 2 frasi).<br><br>Limita l&#39;elenco a un totale di 10 frasi o meno, assicurandoti che le informazioni più importanti vengano evidenziate.<br><br>_Esempio_: &quot;Preferenze di messaggistica per professionisti esperti di tecnologia:<li>Preferisce una comunicazione concisa e priva di gergo.</li><li>Risponde positivamente alle informazioni basate sui dati e ai consigli fruibili.</li><li>Preferisce elementi visivi come infografiche e grafici per acquisire rapidamente informazioni complesse.</li><li>Valori di trasparenza con un approccio onesto e diretto.</li>&quot; |

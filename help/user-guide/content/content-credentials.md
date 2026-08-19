@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # Content Credentials per le organizzazioni
 
 Scopri come le credenziali a prova di manomissione per i contenuti che dimostrano l’autenticità del brand e promuovono la conformità sono incorporate direttamente nel flusso di lavoro di marketing.
-
->[!WARNING]
->
-> Questa funzione è attualmente in versione beta ed è disponibile solo per le organizzazioni a cui è stato concesso l’accesso. Se ti interessa, contatta il rappresentante del team del tuo account Adobe o [utilizza questo collegamento per richiedere l&#39;iscrizione](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 ## Introduzione a Content Credentials {#content-credentials}
 
@@ -39,15 +35,11 @@ Scopri come le credenziali a prova di manomissione per i contenuti che dimostran
 >title="Content Credentials in [!DNL GenStudio for Performance Marketing]"
 >abstract="Le credenziali a prova di manomissione per i contenuti che dimostrano l’autenticità del brand e favoriscono la conformità possono essere incorporate direttamente nel flusso di lavoro di marketing."
 
-Dopo l’attivazione di Content Credentials in Admin Console, gli utenti di GenStudio for Performance Marketing possono attivare Content Credentials per tutte le risorse a livello globale nell’app. Se l’opzione globale per l’applicazione delle credenziali è disattivata, gli utenti possono scegliere di applicare Content Credentials a ogni singola risorsa.
+GenStudio for Performance Marketing applica Content Credentials a livello globale a tutte le risorse in modo automatico. Non esiste un passaggio di configurazione e un’impostazione per risorsa da attivare: le credenziali vengono incorporate, mantenute e aggiornate in tutto il flusso di lavoro di marketing.
 
 Una volta pubblicato il contenuto, Content Credentials sarà visibile su piattaforme esterne, come LinkedIn.
 
-Gli amministratori sono responsabili del caricamento di un certificato X.509 valido all’interno di Admin Console. Questo passaggio garantisce che la firma digitale dell&#39;azienda sia configurata correttamente e pronta per essere utilizzata nelle applicazioni Adobe DX supportate.
-
->[!NOTE]
->
->Il controllo su questa impostazione potrebbe in futuro passare ad Admin Console, semplificando la gestione di Content Credentials tra le applicazioni e migliorando la supervisione amministrativa.
+I Content Credentials compatibili con C2PA non richiedono alcuna configurazione di certificati. La firma del marchio rappresenta un’eccezione: per firmare i contenuti con la firma della tua organizzazione, un amministratore deve caricare un certificato X.509 valido all’interno di Admin Console. Questo passaggio garantisce che la firma digitale dell&#39;azienda sia configurata correttamente e pronta per essere utilizzata nelle applicazioni Adobe DX supportate.
 
 ## Cosa sono i Content Credentials? 
 
@@ -71,7 +63,7 @@ L’applicazione di Content Credentials può essere eseguita direttamente in Gen
 
 Nella raccolta Contenuto, le credenziali vengono visualizzate sulle risorse importate.
 
-Il badge Content Credential nell’angolo superiore destro della miniatura indica il contenuto con firma del marchio.
+Il badge Content Credential nell&#39;angolo superiore destro della miniatura indica il contenuto [!UICONTROL Firmato da marchio].
 
 ![Risorsa importata con credenziali](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ I metadati delle credenziali vengono conservati, poiché le risorse vengono sele
 
 Durante le esportazioni da una bozza, le risorse modificate vengono automaticamente rifirmate e le nuove credenziali vengono collegate all’originale.
 
-![Dati credenziali su una risorsa esportata](./images/edit-and-transformation1.png){width="60%"}
+![Finestra di dialogo Scarica con le opzioni del formato di esportazione](./images/edit-and-transformation2.png){width="60%"}
 
 ### Revisione e approvazione
 
@@ -103,7 +95,7 @@ Nell’anteprima Rivedi e approva, viene visualizzato lo stato delle credenziali
 
 I dettagli delle credenziali per variante vengono visualizzati quando i revisori ispezionano le risorse. Le esperienze approvate vengono rifirmate quando gli utenti fanno clic su **[!UICONTROL Salva nel contenuto]**.
 
-![Dati credenziali in una risorsa approvata](./images/review-and-approve2.png)
+![Finestra di dialogo Conferma dettagli per il contenuto approvato, con il pulsante Salva nel contenuto](./images/review-and-approve3.png)
 
 ### Attivazione ed esportazione
 

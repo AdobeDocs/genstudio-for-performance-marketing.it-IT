@@ -7,29 +7,15 @@ level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
 TQID: https://experienceleague.adobe.com/RPeJQ02q9HXBSpn-uFqjzLCYbbzv5eNnFBXkFn9j5JI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +97,57 @@ Prima di selezionare gli elementi da inviare per l&#39;approvazione o la pubblic
 * **Per [applicare la formattazione del testo](/help/user-guide/create/manage-variants.md#manually-edit-text)** in una variante, fare clic sul testo nell&#39;immagine di una variante e fare clic su **[!UICONTROL Formatta testo]**.
 * **Per [rigenerare una sezione di una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, fare clic su un campo di testo modificabile e utilizzare le _[!UICONTROL opzioni di modifica consigliate]_ oppure immettere un nuovo prompt e fare clic su **[!UICONTROL Genera]**.
 * **Per [aggiungere o scambiare immagini in una variante](/help/user-guide/create/manage-variants.md#swap-image)**, fai clic su una risorsa immagine (o sull&#39;area della risorsa immagine se un&#39;immagine non esiste attualmente) e fai clic sull&#39;icona **[!UICONTROL Scambia da contenuto]**.
+* **Per [modificare un&#39;immagine in una variante](#edit-images-in-the-canvas)**, fare clic su un campo immagine e fare clic su **[!UICONTROL Modifica]** (icona a forma di matita) per ritagliare, riposizionare o espandere l&#39;immagine direttamente nell&#39;area di lavoro.
 * **Per [aggiungere un collegamento a un&#39;immagine in una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, fare clic su una risorsa immagine (o sull&#39;area della risorsa immagine se non esiste attualmente un&#39;immagine) e fare clic sull&#39;icona del collegamento.
 * **Per [aggiungere testo alternativo per le immagini in una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, fare clic su una risorsa immagine e utilizzare l&#39;opzione _Testo alternativo_ per aggiungere o generare manualmente testo alternativo per immagine.
 * **Per [aggiungere etichette di accesso facilitato](/help/user-guide/create/manage-variants.md#add-accessibility-labels) alle varianti**, fai clic su un&#39;immagine o su un collegamento a call-to-action, quindi fornisci una breve descrizione che spieghi il funzionamento del collegamento o del pulsante.
 * **Per [eliminare un&#39;e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, fare clic per selezionare il titolo dell&#39;e-mail (ad esempio, &quot;E-mail 1/4&quot;) e fare clic su **[!UICONTROL Elimina variante]**.
+
+## Modificare le immagini nell’area di lavoro
+
+Regolare le immagini senza uscire dall’area di lavoro o affidarsi a strumenti di progettazione esterni. Potete ritagliare e riposizionare un&#39;immagine per evidenziare un soggetto oppure utilizzare Espandi generativo (Generative Expand) per estendere un&#39;immagine oltre i limiti originali. Le modifiche sono valide solo per la bozza e-mail. Le risorse Source in [!DNL Content] e negli archivi risorse connesse non vengono mai modificate.
+
+Accedi alla modifica delle immagini da qualsiasi campo immagine nell’area di lavoro e-mail. Le immagini modificate sono indicate visivamente in modo da poter tenere traccia delle immagini modificate rispetto alla risorsa originale.
+
+### Ritagliare e riposizionare un&#39;immagine
+
+Ritagliare un&#39;immagine per utilizzare solo l&#39;area desiderata. Il ritaglio nelle e-mail è a forma libera, senza limitazioni di proporzioni, per cui hai il controllo completo su quale parte dell’immagine viene visualizzata e in quale proporzione.
+
+**Per ritagliare e riposizionare un&#39;immagine**:
+
+1. In una bozza e-mail, passa il cursore del mouse e fai clic su un campo immagine.
+1. Fai clic su **[!UICONTROL Modifica]** (icona della matita).
+1. Fare clic su **[!UICONTROL Ritaglia]**.
+1. Regolare l&#39;area di ritaglio e trascinare l&#39;immagine nella posizione desiderata.
+1. Fai clic su **[!UICONTROL Applica]** per ritagliare l&#39;immagine selezionata, oppure su **[!UICONTROL Applica a tutte le immagini]** per applicare il ritaglio a tutti i campi immagine nella bozza.
+
+Per uscire senza salvare le modifiche, fare clic su **[!UICONTROL Annulla]**.
+
+![La visualizzazione Modifica immagine con lo strumento Ritaglio attivo su un&#39;immagine nell&#39;area di lavoro e-mail](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### Espandere un&#39;immagine con Espansione generativa
+
+Utilizza Espandi generativo per estendere un’immagine oltre i limiti originali con l’intelligenza artificiale generativa. L’espansione nelle e-mail non è limitata a dimensioni o proporzioni fisse, pertanto puoi adattare un’immagine allo spazio necessario.
+
+**Per espandere un&#39;immagine**:
+
+1. In una bozza e-mail, passa il cursore del mouse e fai clic su un campo immagine.
+1. Fai clic su **[!UICONTROL Modifica]** (icona della matita).
+1. Fai clic su **[!UICONTROL Espandi]**.
+
+   L&#39;immagine viene aperta nella visualizzazione _[!UICONTROL Modifica immagine]_ su un&#39;area di lavoro espansa e [!DNL GenStudio for Performance Marketing] genera opzioni di espansione.
+
+1. Spostare l&#39;immagine per posizionarla all&#39;interno dell&#39;area espansa.
+1. Seleziona un&#39;opzione generata oppure fai clic su **[!UICONTROL Altro]** (icona +) per visualizzare altre opzioni.
+1. Fai clic su **[!UICONTROL Applica]** per applicare il risultato all&#39;immagine selezionata, oppure su **[!UICONTROL Applica a tutte le immagini]** per applicarlo a tutti i campi immagine nella bozza.
+
+Per uscire senza salvare le modifiche, fare clic su **[!UICONTROL Annulla]**.
+
+>[!NOTE]
+>
+>Le dimensioni dell&#39;output di espansione generativa non sono vincolate, pertanto la qualità può variare in caso di espansioni molto grandi. Fai clic su **[!UICONTROL Altro]** per generare altre opzioni se il risultato non soddisfa le tue esigenze.
+
+![Risultato Espansione generativa selezionato e pronto per essere applicato nella visualizzazione Modifica immagine](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## Invia feedback generazione
 

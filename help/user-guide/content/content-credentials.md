@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 750
 ht-degree: 5%
 
 ---
@@ -105,6 +105,13 @@ Durante l’attivazione, lo stato delle credenziali viene visualizzato nel selet
 
 I file esportati avranno credenziali compatibili con C2PA incorporate.
 
+Anche le risorse esportate mantengono la propria derivazione. Le credenziali incorporate registrano le risorse da cui è stata derivata l’esportazione, in modo che sia possibile risalire all’esperienza esportata attraverso le modifiche apportate alla risorsa importata originale. Poiché la derivazione si sposta all’interno del file, rimane ispezionabile dopo che la risorsa lascia GenStudio for Performance Marketing.
+
 L&#39;integrità delle credenziali viene mantenuta in tutti i formati supportati (JPEG, PNG, MP4).
 
 ![Dati credenziali su una risorsa esportata](./images/activate-export2.png)
+
+## Informazioni correlate
+
+* [Trasparenza dei contenuti](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Content Credentials](https://helpx.adobe.com/it/creative-cloud/help/content-credentials.html) in Adobe

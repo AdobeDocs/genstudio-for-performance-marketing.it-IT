@@ -6,20 +6,12 @@ role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
 TQID: https://experienceleague.adobe.com/fiKHSZ-YFZ2gSD5iZ-aKaZtsC49Mrj1dqHpHqtbXZVM
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ff827501580099c4fc08fa8f59dddcf0fb14f12
 workflow-type: tm+mt
 source-wordcount: 1352
 ht-degree: 0%
@@ -37,7 +29,7 @@ Quando utilizzi i modelli con GenStudio for Performance Marketing, attieniti all
 1. Progettazione con [standard di accessibilità](accessibility-for-templates.md) per un&#39;esperienza ottimale
 1. Segui [linee guida per modelli specifici per canale](#follow-channel-specific-template-guidelines)
 1. Quando utilizzi [Modelli Express](/help/user-guide/templates/express-templates.md), considera i suggerimenti specifici in [Best practice per modelli Express to GenStudio](#express-to-genstudio-template-best-practices).
-&#x200B;>>
+>>
 Scopri le nozioni di base sugli elementi e sulle procedure dei modelli in [Operazioni con i modelli](use-templates.md). Approfondisci [la personalizzazione di un modello](customize-template.md) per istruzioni specifiche da utilizzare nella prossima campagna.
 
 ## Utilizzare gli elementi di modello corretti
@@ -126,6 +118,8 @@ Per prestazioni ottimali, consulta ulteriori suggerimenti e vincoli durante l’
 - [Meta ads](/help/user-guide/templates/meta-template.md)
 
 ## Best practice relative ai modelli da Express a GenStudio
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502403?learn=on&enablevpops)
 
 I suggerimenti seguenti consentono di ottenere risultati affidabili quando si convertono le progettazioni da [!DNL Adobe Express] in modelli per [!DNL GenStudio for Performance Marketing].
 

@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
+source-git-commit: 0ff827501580099c4fc08fa8f59dddcf0fb14f12
 workflow-type: tm+mt
 source-wordcount: 1352
 ht-degree: 0%
@@ -126,6 +126,8 @@ Per prestazioni ottimali, consulta ulteriori suggerimenti e vincoli durante l’
 - [Meta ads](/help/user-guide/templates/meta-template.md)
 
 ## Best practice relative ai modelli da Express a GenStudio
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502403?learn=on&enablevpops)
 
 I suggerimenti seguenti consentono di ottenere risultati affidabili quando si convertono le progettazioni da [!DNL Adobe Express] in modelli per [!DNL GenStudio for Performance Marketing].
 

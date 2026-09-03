@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >In caso di problemi durante la visualizzazione o l&#39;utilizzo di risorse da un archivio [!DNL AEM Assets Content Hub], consultare l&#39;amministratore di sistema e verificare di avere accesso all&#39;organizzazione o al profilo di prodotto corretto. Vedi [Connetti a un [!DNL AEM Assets Content Hub] archivio](/help/user-guide/content/connect-aem-repo.md).
 
-## Suggerimento sul contenuto dell&#39;Academy {#in-academy}
+## Suggerimento sul contenuto dell'Academy {#in-academy}
 
 >[!TIP]
 >

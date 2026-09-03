@@ -17,7 +17,7 @@ Per opzioni di integrazione MFE generiche, proprietà di configurazione ed esemp
 
 ## Funzionamento di questa integrazione
 
->[!VIDEO](https://video.tv.adobe.com/v/3491087?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
 
 Il componente Web Lightning (LWC) `sfgsmfe` carica il bundle UMD di Adobe Experience Selector ed esegue il rendering in un `<dialog>` in modo che gli utenti possano scegliere un&#39;esperienza da [!DNL GenStudio for Performance Marketing].
 

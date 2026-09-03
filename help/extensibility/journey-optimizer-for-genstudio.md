@@ -23,7 +23,7 @@ Questo argomento è destinato a **amministratori e sviluppatori** che installano
 
 ## Installare l’app da Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483307?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. Apri [Adobe Exchange](https://exchange.adobe.com) e passa a **[!UICONTROL CX Enterprise]**.
 1. Apri l&#39;inserzione [Journey Optimizer per GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
@@ -79,9 +79,9 @@ Visualizza l&#39;estensione in **[!UICONTROL Amministratore di Percorso]** in AJ
 
 **Vedere anche** (controllo accesso Journey Optimizer):
 
-* [Controllo degli accessi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/permissions)
-* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Controllo degli accessi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Accedere ai modelli di AJO in GenStudio
 

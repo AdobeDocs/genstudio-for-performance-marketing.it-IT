@@ -5,17 +5,11 @@ level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
 TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
@@ -79,7 +73,7 @@ _I revisori_ possono aggiungere commenti ma non possono approvare il contenuto. 
 
 Le notifiche interne al prodotto di GenStudio for Performance Marketing aggiornano in tempo reale gli approvatori e gli editor di contenuti in merito alle modifiche di stato delle risorse e `@mention` commenti. Le notifiche supportano una rapida iterazione attraverso più cicli di revisione, modifica e approvazione.
 
-Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedere [Abbonarsi ai servizi di CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/subscription).
+Gli editor di contenuti e gli approvatori possono registrarsi per ricevere queste notifiche in Slack. Vedere [Abbonarsi ai servizi di CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
 
 Le azioni intraprese dai partecipanti all’approvazione attivano le notifiche automatiche interne al prodotto e le notifiche e-mail. Quando avvii un processo di approvazione, gli approvatori designati ricevono sia le notifiche e-mail che quelle interne al prodotto. L&#39;utente viene tenuto costantemente aggiornato con notifiche interne ed e-mail ogni volta che un approvatore aggiunge `@mention` commenti o prende una decisione. Le notifiche includono collegamenti alla bozza di contenuto.
 

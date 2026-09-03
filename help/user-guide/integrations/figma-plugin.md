@@ -42,7 +42,7 @@ Le funzioni di questo plug-in includono:
 * Esporta [!DNL Experiences] generato in GenStudio for Performance Marketing.
 * Utilizza le opzioni del plug-in che si adattano agli elementi selezionati nell’area di lavoro di Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478817?captions=ita&learn=on)
 
 ## Creare un modello
 
@@ -220,7 +220,7 @@ Nel pannello del plug-in viene creato un file ZIP oppure viene visualizzato un c
 È possibile utilizzare il plug-in Figma per convertire un frame Figma, più frame o un intero documento in formato Photoshop ed esportarlo per l&#39;utilizzo con [GenStudio Photoshop](photoshop-plugin.md). Attualmente, durante la conversione sono supportate solo le proprietà principali come la visibilità, la dimensione del font e gli attributi di livello di base. Caratteristiche quali barrato, apice, pedice, opacità come percentuali, sfumature e proprietà avanzate simili non sono ancora supportate.
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492277?captions=ita&learn=on)
 
 Il plug-in supporta i seguenti tipi di livelli Figma per la conversione:
 

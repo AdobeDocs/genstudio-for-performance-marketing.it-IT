@@ -61,7 +61,7 @@ I modelli di [!DNL Express] offrono molte delle stesse funzionalità che ti sara
 
 ### Genera automaticamente più dimensioni
 
-Quando sono state create [più pagine per una risorsa in [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), queste pagine vengono riportate in qualsiasi modello creato da tale risorsa. Ciascuna pagina Express verrà generata in dimensioni diverse del contenuto creativo in [!DNL GenStudio for Performance Marketing].
+Quando sono state create [più pagine per una risorsa in [!DNL Express]](https://helpx.adobe.com/it/express/web/arrange-layers-and-pages/add-pages.html), queste pagine vengono riportate in qualsiasi modello creato da tale risorsa. Ciascuna pagina Express verrà generata in dimensioni diverse del contenuto creativo in [!DNL GenStudio for Performance Marketing].
 
 Se per una risorsa in [!DNL Express] esistono più contenuti di dimensione, è possibile generare varianti per tutte le dimensioni in un&#39;unica generazione.
 

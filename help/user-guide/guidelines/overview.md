@@ -34,7 +34,7 @@ ht-degree: 1%
 
 # Linee guida di GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502937?captions=ita&learn=on)
 
 Le linee guida di GenStudio for Performance Marketing possono essere caricate o aggiunte manualmente a GenStudio for Performance Marketing, consentendo agli utenti di stabilire linee guida per il brand che acquisiscono l’essenza dell’identità di un brand.
 

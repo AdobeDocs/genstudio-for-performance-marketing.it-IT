@@ -22,7 +22,7 @@ Prima di creare un annuncio carosello, assicurati di disporre di un modello le c
 
 Dopo aver selezionato un modello e aver aperto l’area di lavoro, scegli il formato del carosello nel cassetto dei prompt.
 
-1. Nel pannello _[!DNL Create your ads]_espandere_[!UICONTROL  Parametri ]_.
+1. Nel pannello _[!DNL Create your ads]_&#x200B;espandere&#x200B;_[!UICONTROL &#x200B; Parametri &#x200B;]_.
 1. Dal menu a discesa **[!UICONTROL Formato]**, selezionare **[!UICONTROL Annuncio carosello]**.
 
    ![Crea il pannello degli annunci con il menu a discesa Formato impostato su Annuncio carosello e un elenco di schede](./carousel-format-cards.png){width="70%" zoomable="yes"}

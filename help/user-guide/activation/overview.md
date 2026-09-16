@@ -44,7 +44,7 @@ Un system manager o editor di GenStudio deve collegare l’account dell’annunc
 
 Utilizza [!DNL Activate] per preparare esperienze pubblicitarie per i loro canali pubblicitari a pagamento target. [Attiva le esperienze in blocco](create-activation.md) su più canali di annunci a pagamento in un&#39;unica tabella di attivazione. Quindi [gestisci le tue attivazioni](manage-activations.md) per visualizzare lo stato e i dettagli di ogni esperienza attivata.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503544?captions=ita&learn=on)
 
 ### Attiva esperienze approvate dal contenuto
 

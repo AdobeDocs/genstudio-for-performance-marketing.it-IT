@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
+source-git-commit: 0844f7407c4b3a3f8eafe248f498ef7fcd51555d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1238'
 ht-degree: 1%
 ---
 # Flusso di lavoro attivazione
@@ -46,7 +46,7 @@ Questi componenti vengono preparati e approvati in [!DNL Content] prima dell&#39
 
 Una singola tabella di attivazione può includere esperienze per più canali di annunci a pagamento e formati di annunci contemporaneamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503544?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Collegare gli account del canale
 
@@ -58,6 +58,8 @@ Avvia un&#39;attivazione da uno dei due punti di ingresso:
 
 * **Da[!DNL Content]**: filtra in esperienze, seleziona una o più esperienze pubblicate, quindi fai clic su **[!UICONTROL Attiva]** nella barra delle azioni superiore.
 * **Da[!DNL Activate]**: nella pagina di destinazione [!DNL Activate], fare clic su **[!UICONTROL + Nuova attivazione]**. Viene aperta la galleria di esperienze, in cui puoi selezionare le esperienze da attivare.
+
+![Selezione di esperienze pubblicate nel contenuto e clic su Attiva per avviare un&#39;attivazione](./images/content-select-activate.png)
 
 In entrambi i casi, cerca per nome esperienza o filtra per più canali per trovare le esperienze desiderate.
 
@@ -99,17 +101,27 @@ Un **ID di tracciamento** è un&#39;etichetta univoca assegnata a una riga di an
 
 Modificare i campi in linea per riga oppure selezionare più righe all&#39;interno della stessa tabella di formato e fare clic su **[!UICONTROL Modifica dettagli]** sulla barra degli strumenti che consente di modificare questi campi in blocco contemporaneamente. Per configurare i campi di installazione della piattaforma per un gruppo di formati di annunci, fai clic su **[!UICONTROL Gestisci impostazioni piattaforma]** e modifica i campi nella finestra di dialogo risultante.
 
+![Selezione di più annunci in una tabella di attivazione per la modifica in blocco di dettagli o impostazioni della piattaforma](./images/bulk-edit-action-bar.png)
+
+![Finestra di dialogo Gestisci impostazioni piattaforma per la scelta di un account Meta, di una campagna e di un set di annunci](./images/manage-platform-settings.png)
+
 Per spostarsi più rapidamente tra i campi **[!UICONTROL ID di tracciamento]**, utilizzare le seguenti scelte rapide da tastiera:
 
 * Premi **Invio** per aprire il campo di modifica per il **[!UICONTROL ID di tracciamento]** selezionato.
 * Premi il tasto freccia **Su** o **Giù** per passare al campo **[!UICONTROL ID di tracciamento]** precedente o successivo nella colonna.
 * Premi di nuovo **Invio** per salvare le modifiche.
 
+![Modifica di un campo ID di tracciamento in linea nella tabella di attivazione](./images/tracking-id-edit.png)
+
 ## Rivedere e pubblicare le esperienze sui loro canali pubblicitari
 
 Verificare che ogni riga mostri [!UICONTROL Pronto per l&#39;attivazione]. [!DNL Activate] flag mancanti o non validi, chiamate all&#39;azione non compatibili e ID di tracciamento duplicati come [!UICONTROL Richiede attenzione]. Quando ogni riga è pronta, fai clic su **[!UICONTROL Invia a Platform]** e conferma nella finestra di dialogo di pubblicazione.
 
+![Tabella di attivazione in cui ogni riga mostra Pronto per l&#39;attivazione, abilitazione dell&#39;invio alle piattaforme](./images/ready-to-activate.png)
+
 [!DNL Activate] segnala lo stato di ogni annuncio quasi in tempo reale: In sospeso, quindi Pubblicato o Non riuscito. Se un annuncio non riesce, passa il cursore del mouse sul relativo stato per visualizzare l’errore della piattaforma. È possibile riprovare contemporaneamente ogni annuncio non riuscito nella tabella facendo clic su **[!UICONTROL Riprova]**, anziché riprovare singolarmente. Le righe pubblicate non possono essere inviate nuovamente e includono un collegamento profondo all’annuncio nel gestore di annunci nativo della piattaforma di destinazione. La revisione finale pre-pubblicazione e l&#39;avvio degli annunci si verificano nel gestore degli annunci del canale di destinazione: [!DNL Activate] distribuisce sempre gli annunci in uno stato inattivo.
+
+![Tabella di attivazione che mostra una combinazione di stati In sospeso e Inviato alle piattaforme dopo la pubblicazione](./images/activation-status-pending.png)
 
 Le tabelle di attivazione vengono visualizzate nella pagina di destinazione [!DNL Activate].
 

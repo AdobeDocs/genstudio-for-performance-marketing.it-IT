@@ -7,35 +7,43 @@ exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
 TQID: https://experienceleague.adobe.com/-D3DGxTpZ-0J-grE5-jKPrptf4C1Z-OE1t0DCoqhRLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Security
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '530'
 ht-degree: 1%
-
 ---
-
 # Ottimizzare le attivazioni
 
 L’attivazione di un’esperienza pubblicitaria per i canali di annunci a pagamento prevede due fasi principali:
 
-* Preparazione dell’esperienza per l’attivazione
+* Configurazione dei dettagli di installazione di annunci e piattaforme per ogni riga nella tabella di attivazione
 
-* Pubblicazione dell’esperienza ai relativi ad manager di canale a pagamento designati
+* Pubblicazione dell’attivazione ai gestori di annunci dei canali di annunci a pagamento designati
 
-Segui le best practice durante la creazione e l’attivazione dell’esperienza pubblicitaria per ridurre al minimo potenziali complicazioni o errori durante la consegna ai canali di destinazione.
+Segui le best practice durante la configurazione e l’attivazione delle esperienze pubblicitarie per ridurre al minimo potenziali complicazioni o errori durante la consegna ai canali di destinazione.
 
 ## Best practice
 
 Di seguito sono riportate alcune best practice comuni e gli errori che possono essere evitati.
+
+* **Utilizza un ID di tracciamento univoco per ogni riga**
+
+  [!DNL Activate] contrassegna gli ID di tracciamento duplicati come [!UICONTROL Richiede attenzione] e non ti consente di pubblicare finché ogni riga nel formato e nella tabella della piattaforma interessati non avrà un ID di tracciamento univoco. Se modifichi in blocco un ID di tracciamento su più righe, conferma di voler applicare lo stesso valore a ogni riga selezionata.
 
 * **Usa URL di destinazione validi e completi**
 
@@ -43,7 +51,7 @@ Di seguito sono riportate alcune best practice comuni e gli errori che possono e
 
 * **Assicurati che l&#39;applicazione gestisca correttamente la scadenza del token**
 
-  Le applicazioni devono richiedere nuovi token in base alle esigenze. Se necessario, ripeti l’autenticazione e ottieni un nuovo token di accesso effettuando di nuovo l’accesso o aggiornando la sessione. Errore di esempio: _Errore durante la convalida del token di accesso: la sessione è stata invalidata perché l&#39;utente ha cambiato la password o Facebook ha modificato la sessione per motivi di sicurezza. (190)_
+  Le applicazioni devono richiedere nuovi token in base alle esigenze. Esegui nuovamente l’autenticazione e ottieni un nuovo token di accesso effettuando di nuovo l’accesso o aggiornando la sessione. Errore di esempio: _Errore durante la convalida del token di accesso: la sessione è stata invalidata perché l&#39;utente ha cambiato la password o Facebook ha modificato la sessione per motivi di sicurezza. (190)_
 
 * **Controlla il set di annunci e assicurati che sia attivo un solo annuncio alla volta**
 

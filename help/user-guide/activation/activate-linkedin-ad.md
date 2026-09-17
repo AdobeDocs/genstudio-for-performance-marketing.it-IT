@@ -6,115 +6,62 @@ exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
 TQID: https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Metadata
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 863
+source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 # Attivare un annuncio LinkedIn
 
-Adobe GenStudio for Performance Marketing supporta l&#39;attivazione di esperienze LinkedIn con singole risorse nelle pagine [LinkedIn Campaign Manager](https://business.linkedin.com/marketing-solutions) e LinkedIn.
+Adobe GenStudio for Performance Marketing supporta l&#39;attivazione delle esperienze degli annunci LinkedIn in [Gestione campagne LinkedIn](https://business.linkedin.com/marketing-solutions).
 
-È possibile [creare un&#39;esperienza LinkedIn](/help/user-guide/create/create-linkedin.md) in GenStudio for Performance Marketing e selezionarla per l&#39;attivazione oppure creare una nuova esperienza dalle risorse approvate in [!DNL Activate].
+**Formati supportati**: immagine singola, video singolo.
 
-L&#39;attivazione di un annuncio LinkedIn segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali a pagamento. Il processo di attivazione supporta la preparazione dell’esperienza pubblicitaria per i requisiti specifici di LinkedIn. Dopo aver attivato un’esperienza LinkedIn in GenStudio for Performance Marketing, utilizza LinkedIn Campaign Manager per perfezionare l’esperienza per posizionamenti di annunci LinkedIn specifici prima della pubblicazione finale.
+Puoi [creare un&#39;esperienza LinkedIn](/help/user-guide/create/create-linkedin.md) in GenStudio for Performance Marketing, quindi selezionarla per l&#39;attivazione.
+
+L&#39;attivazione di un annuncio LinkedIn segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali di annunci a pagamento. Questa pagina descrive i prerequisiti e i campi di configurazione specifici di LinkedIn. Dopo aver attivato un’esperienza LinkedIn in GenStudio for Performance Marketing, utilizza LinkedIn Campaign Manager per rivederla e avviare l’annuncio.
 
 I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
 
-## Passaggio 1: configurare gli account LinkedIn
+## Prerequisiti
 
-Prima di avviare un&#39;attivazione, [accedi a](https://www.linkedin.com/campaignmanager/login) il tuo account LinkedIn Campaign Manager.
-
->[!BEGINSHADEBOX]
-
-**Prerequisiti**:
-
-* Un account LinkedIn Campaign Manager con autorizzazioni complete per la gestione di gruppi di campagne, campagne e annunci. Questo account deve contenere gruppi di campagne e campagne.
-
+* Un account LinkedIn Campaign Manager con autorizzazioni complete per gestire campagne e annunci. Questo account deve contenere campagne esistenti.
 * Account degli annunci LinkedIn con autorizzazioni complete per creare annunci e pubblicare contenuti sulle pagine LinkedIn.
 
->[!ENDSHADEBOX]
+La campagna LinkedIn di destinazione e il set di annunci devono già esistere in LinkedIn Campaign Manager. GenStudio for Performance Marketing non crea campagne o set di annunci.
 
-## Passaggio 2: collegati agli account LinkedIn
+>[!NOTE]
+>
+>LinkedIn ha rinominato la propria gerarchia di campagne: ciò che LinkedIn Campaign Manager in precedenza chiamava **gruppo di campagne** è ora denominato **campagna** e ciò che in precedenza chiamava **campagna** è ora denominato **set di annunci**. I campi di installazione **[!UICONTROL LinkedIn campaign]** e **[!UICONTROL LinkedIn ad set]** in [!DNL Activate] utilizzano la terminologia corrente.
 
-Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema di GenStudio deve collegare gli account LinkedIn a GenStudio for Performance Marketing. Questa connessione consente il flusso dei dati tra GenStudio e strumenti di marketing esterni, come LinkedIn, abilitando il processo di attivazione.
+GenStudio for Performance Marketing attualmente supporta gli annunci LinkedIn per immagine singola e video singolo, ciascuno dei quali presenta una sola immagine o un solo video per post. Se l&#39;esperienza include più proporzioni, [!DNL Activate] genera una riga distinta per ogni proporzione nella tabella di attivazione in modo che ogni riga possa essere eseguita come proprio annuncio; eliminare le righe non necessarie.
+
+## Collegare gli account LinkedIn
+
+Prima che la tua organizzazione possa attivare le esperienze, un manager di sistema o un editor di GenStudio deve collegare gli account degli annunci LinkedIn a GenStudio for Performance Marketing. Per connettersi correttamente, è necessario disporre dell&#39;accesso completo da parte dell&#39;amministratore sia all&#39;account dell&#39;annuncio che alla pagina del profilo LinkedIn. Devi connettere un account annuncio in **[!UICONTROL Impostazioni]** una sola volta. Dopodiché, sarà disponibile per chiunque possa accedere a tale istanza.
+
+Questa connessione consente il flusso dei dati tra GenStudio for Performance Marketing e LinkedIn, abilitando il processo di attivazione.
 
 Al termine della sincronizzazione, puoi visualizzare gli account aggiunti. La sincronizzazione di grandi quantità di dati richiede più tempo.
 
-## Passaggio 3: preparare l’esperienza
+## Campi di impostazione LinkedIn
 
-È possibile avviare un&#39;attivazione selezionando una o più esperienze approvate con impostazioni predefinite da [!DNL Content].
+Le risorse approvate, i titoli e il testo introduttivo sono bloccati e non possono essere modificati durante l&#39;attivazione, poiché sono già stati sottoposti a revisione e approvazione in [!DNL Content]. Puoi modificare:
 
-La visualizzazione _Configurazione esperienza_ è un&#39;area di lavoro per l&#39;elaborazione e la revisione delle esperienze prima dell&#39;attivazione. Se selezioni più di un’esperienza da attivare, questa visualizzazione include una barra laterale a sinistra che mostra le miniature di tutte le esperienze selezionate. Usa questa barra laterale a sinistra per concentrare la visualizzazione _Configurazione esperienza_ sui dettagli dell&#39;esperienza selezionata.
-
-Il _pannello Anteprima_ supporta una visualizzazione interattiva del testo e delle risorse nel contesto di un posizionamento specifico dell&#39;annuncio. Utilizza il menu a discesa _Seleziona posizionamento_ per passare tra i posizionamenti di annunci supportati. Le anteprime offrono l’opportunità di finalizzare le decisioni sugli elementi annuncio per posizionamenti specifici. Quando selezioni un posizionamento nel pannello _Anteprima_, viene interessata solo la visualizzazione dell&#39;annuncio. La selezione del posizionamento nel pannello _Anteprima_ non è stata salvata.
-
-### Attivare un’esperienza approvata dal contenuto
-
-Puoi selezionare una o più esperienze da attivare su un singolo canale a pagamento. Le esperienze possono contenere una sola risorsa. I dettagli vengono caricati dalle esperienze approvate selezionate.
-
-I dettagli dell’esperienza modificabile includono:
-
-* Testo call-to-action (CTA)
-* URL sito Web
-* Visualizza collegamento
-
-**Per selezionare le esperienze**:
-
-1. Utilizza gli strumenti di ricerca e filtro della raccolta [!DNL Content] per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Attiva]**. In alternativa, è possibile selezionare un&#39;esperienza e selezionare **[!UICONTROL Attiva]** dall&#39;altra (...) menu.
-
-   Viene visualizzata la pagina LinkedIn ads _Configurazione esperienza_ per questa esperienza. È precompilato con i dettagli dell’esperienza selezionata. Potrebbe essere richiesto di selezionare una piattaforma prima di continuare con l&#39;attivazione.
-
-1. (Facoltativo) Modifica i valori nei campi modificabili (**[!UICONTROL Call to action]**, **[!UICONTROL URL sito Web]**, *[!UICONTROL Collegamento visualizzazione]**).
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere esperienze a questo gruppo di attivazione.
-
-1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione dell&#39;esperienza.
-
-## Passaggio 4: conferma impostazione account LinkedIn
-
-Dopo aver preparato le esperienze pubblicitarie, devi confermare le informazioni sull’account LinkedIn. La visualizzazione dell&#39;annuncio _LinkedIn_ è compilata con opzioni derivate dagli account LinkedIn configurati.
-
-_I gruppi di campagne_ sono un componente essenziale di LinkedIn Campaign Manager. I gruppi di campagne organizzano campagne discrete nell’ambito di un obiettivo condiviso. Le campagne possono ereditare le limitazioni di budget, gli obiettivi e le pianificazioni dal gruppo di campagne a cui appartengono.
-
-**Per confermare la configurazione dell&#39;account**:
-
-1. Selezionare un account dal menu a discesa **[!UICONTROL Account]**. Le opzioni sono account LinkedIn connessi a GenStudio for Performance Marketing.
-
-1. Selezionare un gruppo di campagne dal menu a discesa **[!UICONTROL Gruppo di campagne]**. Questo è il gruppo della campagna LinkedIn in cui viene pubblicata l’esperienza.
-
-1. Seleziona una campagna dal menu a discesa **[!UICONTROL Campagne]**. Questa è la campagna LinkedIn a cui viene distribuita l’esperienza annuncio.
-
-1. Immetti un nome di annuncio nel campo **[!UICONTROL Nome annuncio]** per ogni esperienza. LinkedIn Campaign Manager identifica l’esperienza con questo nome.
-
-1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione degli annunci LinkedIn.
-
-## Passaggio 5: visualizzare l’anteprima e attivare l’annuncio
-
-La pagina _Revisione_ offre l&#39;ultima opportunità di rivedere l&#39;attivazione prima della pubblicazione.
-
-**Per rivedere e pubblicare la tua esperienza**:
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Modifica sezione]** accanto ai dettagli dell&#39;esperienza o della piattaforma che desideri modificare.
-A seconda della sezione selezionata, verrà aperta la visualizzazione _Configurazione esperienze_ o _Configurazione piattaforma_.
-
-1. (Facoltativo) Modifica i dettagli, quindi fai clic su **[!UICONTROL Avanti]** per tornare alla visualizzazione _Rivedi_.
-
-1. Fai clic su **[!UICONTROL Pubblica]**.
-
-   L’esperienza completa dell’annuncio LinkedIn e i metadati associati vengono inviati direttamente nella campagna LinkedIn Campaigns Manager designata. Le esperienze vengono distribuite in stato inattivo. Da LinkedIn Campaign Manager, puoi gestire i passaggi finali della distribuzione dell’esperienza pubblicitaria e della campagna LinkedIn.
-
-## Passaggio 6: completa la pubblicazione dell’esperienza pubblicitaria
-
-1. [Accedi a](https://www.linkedin.com/campaignmanager/login) il tuo account LinkedIn Campaign Manager per rivedere la tua esperienza pubblicitaria e finalizzare la pubblicazione su pagine LinkedIn specifiche.
+* **Campi di testo**: descrizione, Call-to-action, URL di destinazione, parametri URL, ID di tracciamento (utilizzato come nome dell&#39;annuncio della piattaforma)
+* **Campi installazione piattaforma**: account annuncio LinkedIn, campagna LinkedIn, set annunci LinkedIn

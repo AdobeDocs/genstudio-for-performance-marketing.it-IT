@@ -6,75 +6,54 @@ exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
 TQID: https://experienceleague.adobe.com/pQbT2OC7-jK33HhJWgTBBtJrmEvr48mGkl8v-fTkOLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Troubleshooting
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 # Attivare un annuncio di Google Campaign Manager 360
 
-Adobe GenStudio for Performance Marketing consente ai responsabili di sistema e agli editor di GenStudio di pubblicare esperienze pubblicitarie sulla piattaforma Google Campaign Manager 360.
+Adobe GenStudio for Performance Marketing supporta l’attivazione delle esperienze pubblicitarie in Google Campaign Manager 360.
 
-È possibile avviare la pubblicazione di un&#39;esperienza pubblicitaria di Google Campaign Manager 360 dalla raccolta [!DNL Content] o dalla home page [!DNL Activate].
+**Formati supportati**: visualizzazione statica, visualizzazione video, visualizzazione ZIP HTML5.
 
-## Passaggio 1: configurare gli account Google Campaign Manager 360
+L&#39;attivazione di un annuncio di Google Campaign Manager 360 segue gli [stessi passaggi generali](create-activation.md) richiesti per l&#39;attivazione ad altri canali di annunci a pagamento. Questa pagina descrive i prerequisiti e i campi di configurazione specifici per Google Campaign Manager 360. Dopo aver attivato un’esperienza in GenStudio for Performance Marketing, utilizza Google Campaign Manager 360 per rivederla e avviare l’annuncio.
 
-Prima di avviare un&#39;attivazione, [accedi al tuo account Google Campaign Manager 360](https://campaignmanager.google.com). Conferma di avere accesso agli inserzionisti di Google Campaign Manager 360. Quando pubblichi un’esperienza Campaign Manager 360 da GenStudio for Performance Marketing, questa viene distribuita nella libreria degli inserzionisti selezionata durante la creazione.
+I system manager e gli editor di GenStudio possono attivare le esperienze pubblicitarie.
 
-Campaign Manager 360 consente agli addetti al marketing di organizzare campagne e annunci all&#39;interno di _inserzionisti_ diversi. Ogni inserzionista include una libreria creativa. GenStudio for Performance Marketing pubblica le esperienze pubblicitarie in una libreria creativa.
+## Prerequisiti
 
-## Passaggio 2: collegati al tuo account Google Campaign Manager 360
+* Un account Google Campaign Manager 360 con accesso all’inserzionista target.
+* Accesso amministratore all’inserzionista, per leggere e scrivere in Campaign Manager 360.
 
-Prima che la tua organizzazione possa pubblicare le risorse in una libreria creativa, un manager di sistema di GenStudio deve collegare gli account di Google Campaign Manager 360 a GenStudio for Performance Marketing. Per poter leggere e scrivere in Campaign Manager 360, l’utente deve disporre dell’accesso come amministratore all’inserzionista. Consulta [Connessione di account multimediali a pagamento](/help/user-guide/connectors/connect-channel.md).
+Campaign Manager 360 organizza campagne e annunci all’interno di diversi inserzionisti e ogni inserzionista include una libreria creativa. L’inserzionista di destinazione deve esistere già in Campaign Manager 360; GenStudio for Performance Marketing pubblica esperienze pubblicitarie nella libreria creativa dell’inserzionista, ma non crea annunci.
+
+## Collegare l’account Google Campaign Manager 360
+
+Prima che la tua organizzazione possa pubblicare le risorse in una libreria creativa, un manager o editor di sistema di GenStudio deve collegare il tuo account Google Campaign Manager 360 a GenStudio for Performance Marketing. Per leggere e scrivere in Campaign Manager 360, è necessario disporre dell’accesso come amministratore all’inserzionista. Consulta [Connessione di account multimediali a pagamento](/help/user-guide/connectors/connect-channel.md).
 
 Al termine della sincronizzazione, puoi visualizzare gli account aggiunti.
 
-## Passaggio 3: selezionare i contenuti per l’esperienza pubblicitaria
+## Campi di configurazione di Google Campaign Manager 360
 
-È possibile avviare il processo di pubblicazione dalla raccolta esperienze _[!DNL Content]_&#x200B;o dalla home page&#x200B;_[!DNL Activate]_. Non è possibile modificare le esperienze approvate. Ogni esperienza può contenere una sola risorsa.
+Le risorse approvate sono bloccate e non possono essere modificate durante l&#39;attivazione poiché sono già state sottoposte a revisione e approvazione in [!DNL Content]. Puoi modificare:
 
-**Per selezionare le esperienze**:
+* **Campi di testo**: ID di tracciamento (utilizzato come nome creativo della piattaforma)
+* **Campi di installazione piattaforma**: inserzionista
 
-1. Utilizza gli strumenti di ricerca e filtro della raccolta [!DNL Content] per identificare l&#39;esperienza da attivare, quindi fai clic su **[!UICONTROL Usa]**. In alternativa, è possibile selezionare un&#39;esperienza da [!DNL Activate] facendo clic su **[!UICONTROL Nuovo]** nella scheda prodotto di Google Campaign Manager 360.
-
-   Per questa esperienza viene aperta la pagina Google Campaign Manager 360 _Configurazione esperienza_. È precompilata con i dettagli dell&#39;esperienza, che non è possibile rivedere. Potrebbe essere richiesto di selezionare una piattaforma prima di continuare con l&#39;attivazione.
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere esperienze a questo gruppo di attivazione.
-
-1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione della piattaforma Google Campaign Manager 360.
-Viene aperta la visualizzazione _Configurazione piattaforma_. Questa vista contiene opzioni derivate dagli account configurati di Google Campaign Manager 360.
-
-## Passaggio 4: confermare la configurazione della piattaforma Google Campaign Manager 360
-
-1. Selezionare un inserzionista dal menu a discesa **[!UICONTROL Inserzionista]**. Le impostazioni dell’account Campaign Manager 360 determinano gli inserzionisti disponibili.
-
-   La tua esperienza creativa viene distribuita a questa libreria di inserzionisti in Google Campaign Manager 360 al termine dell’attivazione.
-
-1. Aggiungi un nome al campo **[!UICONTROL Nome Creative]**. Google Campaign Manager 360 identifica l’esperienza con questo nome.
-Ripeti per ogni esperienza selezionata.
-
-1. Fai clic su **[!UICONTROL Avanti]** per confermare la configurazione di Google Campaign Manager 360.
-
-## Passaggio 5: visualizzare l’anteprima e attivare l’annuncio
-
-La pagina _Revisione_ offre l&#39;ultima opportunità di rivedere l&#39;attivazione prima della pubblicazione.
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Modifica sezione]** accanto all&#39;etichetta _Configurazione piattaforma_ per modificare la configurazione della piattaforma. Non è possibile modificare il contenuto dell’esperienza.
-
-1. Fai clic su **[!UICONTROL Pubblica]**.
-Le esperienze pubblicitarie di Campaign Manager 360 vengono inviate direttamente alla libreria creativa nell’inserzionista di Campaign Manager 360 selezionato.
-
-## Passaggio 6: completa la pubblicazione dell’esperienza pubblicitaria
-
-1. [Accedi al tuo account Google Campaign Manager 360](https://campaignmanager.google.com) per gestire i passaggi finali della configurazione e della distribuzione dell&#39;annuncio nell&#39;esperienza pubblicata.
+Al termine dell’attivazione, l’esperienza creativa viene consegnata alla libreria creativa dell’inserzionista selezionato in Google Campaign Manager 360.

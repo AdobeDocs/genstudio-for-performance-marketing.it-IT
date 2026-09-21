@@ -36,8 +36,8 @@ Claude richiede un piano Pro, Max, Team o Enterprise. Lo stesso connettore remot
 1. Accedi con il tuo Adobe ID.
 1. Selezionare l&#39;organizzazione IMS che ha accesso a [!DNL GenStudio for Performance Marketing].
 
-> [!NOTE]
-> In un piano Team o Enterprise, il proprietario di un&#39;organizzazione potrebbe dover aggiungere prima il connettore. Se il connettore è già disponibile, selezionare **[!UICONTROL Connetti]**.
+&#x200B;> [!NOTE]
+&#x200B;> In un piano Team o Enterprise, il proprietario di un&#39;organizzazione potrebbe dover aggiungere prima il connettore. Se il connettore è già disponibile, selezionare **[!UICONTROL Connetti]**.
 
 ## Connetti ChatGPT
 
@@ -52,7 +52,7 @@ ChatGPT richiede un account Plus, Pro, Business, Enterprise o Education. Le conn
 1. Accedi con il tuo Adobe ID.
 1. Selezionare l&#39;organizzazione IMS che ha accesso a [!DNL GenStudio for Performance Marketing].
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 > ChatGPT può modificare la posizione delle impostazioni dello sviluppatore e del connettore. Se queste etichette differiscono nel tuo account, segui le istruzioni OpenAI correnti per l’aggiunta di un connettore MCP remoto.
 
 ## Connetti codice
@@ -106,8 +106,8 @@ Dopo l&#39;installazione, verificare che gli strumenti siano disponibili.
 
 L’assistente restituisce i dati sulle prestazioni disponibili o spiega perché nessun dato corrisponde alla richiesta.
 
-> [!TIP]
-> Se l’autenticazione non riesce, riconnettiti e conferma di aver selezionato l’organizzazione IMS corretta. Se non vengono visualizzati strumenti, verificare che l&#39;account disponga dell&#39;accesso a [!DNL GenStudio for Performance Marketing].
+&#x200B;> [!TIP]
+&#x200B;> Se l’autenticazione non riesce, riconnettiti e conferma di aver selezionato l’organizzazione IMS corretta. Se non vengono visualizzati strumenti, verificare che l&#39;account disponga dell&#39;accesso a [!DNL GenStudio for Performance Marketing].
 
 ## Funzionalità correlate
 

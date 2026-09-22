@@ -2,7 +2,7 @@
 title: Utilizza assistenti IA
 description: Scopri come eseguire query sui dati delle prestazioni, creare bozze e pubblicare annunci approvati utilizzando un assistente AI connesso a [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ Trasforma un consiglio o un modello in una bozza modificabile:
 - &quot;Cosa posso modificare in questo modello?&quot;
 - &quot;Crea un annuncio Meta da questo modello. Utilizzare il titolo Vendita estiva e call to action Shop Now. Ecco il resoconto creativo: [descrivi la campagna, il tono e l&#39;offerta].&quot;
 
-&#x200B;> [!TIP]
-> La creazione di una bozza crea un documento reale in Creative Cloud. Non è un&#39;anteprima. Prepara il resoconto e la copia prima di chiedere.
+>[!TIP]
+>
+>La creazione di una bozza crea un documento reale in Creative Cloud. Non è un&#39;anteprima. Prepara il resoconto e la copia prima di chiedere.
 
 ## Rivedere e condividere una bozza
 
@@ -109,8 +110,9 @@ Dopo che una bozza è stata approvata e pubblicata come esperienza, pubblicala s
 - &quot;Configura questa esperienza per il mio account e la mia campagna Meta Ad.&quot;
 - &quot;Pubblica questa esperienza su LinkedIn.&quot;
 
-&#x200B;> [!IMPORTANT]
-> La pubblicazione crea un posizionamento per annunci live e potrebbe comportare spese pubblicitarie. Non è reversibile tramite l&#39;assistente. Prima di pubblicare, conferma l’account, la campagna e l’esperienza di destinazione. Ripetendo la richiesta viene creato un altro annuncio.
+>[!IMPORTANT]
+>
+>La pubblicazione crea un posizionamento per annunci live e potrebbe comportare spese pubblicitarie. Non è reversibile tramite l&#39;assistente. Prima di pubblicare, conferma l’account, la campagna e l’esperienza di destinazione. Ripetendo la richiesta viene creato un altro annuncio.
 
 ## Interpretare risultati vuoti o non disponibili
 

@@ -46,7 +46,7 @@ Questi componenti vengono preparati e approvati in [!DNL Content] prima dell&#39
 
 Una singola tabella di attivazione può includere esperienze per più piattaforme di annunci a pagamento e formati di annunci.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503544?captions=ita&learn=on)
 
 ## Collegare gli account della piattaforma
 

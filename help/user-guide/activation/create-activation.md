@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1233'
 ht-degree: 1%
 ---
 # Flusso di lavoro attivazione
@@ -46,7 +46,7 @@ Questi componenti vengono preparati e approvati in [!DNL Content] prima dell&#39
 
 Una singola tabella di attivazione può includere esperienze per più piattaforme di annunci a pagamento e formati di annunci.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503544?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Collegare gli account della piattaforma
 
@@ -108,7 +108,7 @@ Per configurare i campi di installazione della piattaforma per un gruppo di form
 
 ![Finestra di dialogo Gestisci impostazioni piattaforma per la scelta di un account Meta, di una campagna e di un set di annunci](./images/manage-platform-settings.png)
 
-I campi **[!UICONTROL ID di tracciamento]** sono inizialmente vuoti. Un ID di tracciamento è uguale al nome dell’annuncio o al nome creativo della piattaforma di annunci e la piattaforma di annunci lo utilizza come nome identificativo dell’annuncio. Utilizza questo campo per identificare l’annuncio per il reporting e la risoluzione dei problemi. Immetti i valori da utilizzare nei campi **[!UICONTROL ID tracciamento]**.
+Ogni campo **[!UICONTROL ID tracciamento]** è precompilato con il nome dell&#39;esperienza: la piattaforma pubblicitaria utilizza questo valore come nome dell&#39;annuncio o della creatività per la generazione di rapporti e la risoluzione dei problemi. Modifica il valore nella stessa posizione se desideri utilizzare qualcos’altro.
 
 ![Modifica di un campo ID di tracciamento in linea nella tabella di attivazione](./images/tracking-id-edit.png)
 

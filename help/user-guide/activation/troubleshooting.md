@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # Ottimizzare le attivazioni
@@ -43,7 +43,7 @@ Di seguito sono riportate alcune best practice comuni e gli errori che possono e
 
 * **Utilizza un ID di tracciamento univoco per ogni riga**
 
-  [!DNL Activate] contrassegna gli ID di tracciamento duplicati come [!UICONTROL Richiede attenzione] e non ti consente di pubblicare finché ogni riga nel formato e nella tabella della piattaforma interessati non avrà un ID di tracciamento univoco. Se modifichi in blocco un ID di tracciamento su più righe, conferma di voler applicare lo stesso valore a ogni riga selezionata.
+  [!DNL Activate] contrassegna gli ID di tracciamento duplicati come [!UICONTROL Richiede attenzione] e non ti consente di pubblicare finché ogni riga nel formato e nella tabella della piattaforma interessati non avrà un ID di tracciamento univoco. Ogni campo **[!UICONTROL ID tracciamento]** è precompilato con il nome dell&#39;esperienza, pertanto le righe che condividono un&#39;esperienza tra formati di annunci o piattaforme iniziano con lo stesso valore. Verifica e risolvi questi duplicati, non solo quelli introdotti dalle modifiche in blocco. Se modifichi in blocco un ID di tracciamento su più righe, conferma di voler applicare lo stesso valore a ogni riga selezionata.
 
 * **Usa URL di destinazione validi e completi**
 

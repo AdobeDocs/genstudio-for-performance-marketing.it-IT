@@ -1,13 +1,12 @@
 ---
 source-git-commit: c9672d8899b54c7998e9cb8b64fe1834339f8010
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 17%
-
+source-wordcount: '443'
+ht-degree: 0%
 ---
-# Codice di condotta Adobe
+# Codice di condotta di Adobe
 
-## La nostra promessa
+## Il nostro impegno
 
 Al fine di promuovere un ambiente aperto e accogliente,
 i collaboratori e i responsabili si impegnano a partecipare al nostro progetto e
@@ -21,17 +20,17 @@ Orientamento.
 Esempi di comportamenti che contribuiscono alla creazione di un ambiente positivo
 include:
 
-* Utilizzo di un linguaggio cordiale e inclusivo
-* Rispetto dei diversi punti di vista e delle diverse esperienze
-* Accettazione con gratitudine di critiche costruttive
-* Concentrazione su ciò che è meglio per la comunità
-* Dimostrazione di empatia verso altri membri della comunità
+* Utilizzare un linguaggio amichevole e inclusivo
+* Rispettare esperienze e punti di vista diversi
+* Accettare con gratitudine le critiche costruttive
+* Concentrarsi su ciò che è meglio per la community
+* Mostrare empatia verso gli altri membri della community
 
-Esempi di comportamenti inaccettabili da parte dei partecipanti includono:
+Alcuni esempi di comportamenti non accettabili da parte dei partecipanti:
 
 * L’uso di linguaggio o immagini a sfondo sessuale e attenzioni sessuali indesiderate o
 anticipi
-* Provocazioni, insulti/commenti dispregiativi e attacchi personali o politici
+* Trolling, commenti offensivi/sprezzanti e attacchi personali o politici
 * Molestie pubbliche o private
 * Pubblicazione di informazioni private altrui, ad esempio in formato fisico o elettronico
 senza autorizzazione esplicita
@@ -75,4 +74,4 @@ membri della direzione del progetto.
 ## Attribuzione
 
 Questo Codice di condotta è stato adattato dal [Contributor Covenant](https://contributor-covenant.org), versione 1.4,
-disponibile in [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/it/version/1/4/code-of-conduct.html)
+disponibile in [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

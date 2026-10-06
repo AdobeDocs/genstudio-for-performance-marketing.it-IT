@@ -53,7 +53,7 @@ Segui le [linee guida per l&#39;accessibilità](accessibility-for-templates.md) 
 
 >[!TIP]
 >
->I segnaposto di contenuto sono **non** uguali al testo segnaposto nel contenuto che deve essere compilato in un secondo momento da un utente. Ulteriori informazioni sull&#39;utilizzo del testo segnaposto nei modelli](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).[
+>I segnaposto di contenuto sono **non** uguali al testo segnaposto nel contenuto che deve essere compilato in un secondo momento da un utente. Ulteriori informazioni sull&#39;utilizzo del testo segnaposto nei modelli[&#128279;](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
 
 GenStudio for Performance Marketing riconosce alcuni tipi di contenuto o [elementi](use-templates.md#template-elements) all&#39;interno di un modello, ma solo se li identifichi con un [nome di campo riconosciuto](#recognized-field-names).
 

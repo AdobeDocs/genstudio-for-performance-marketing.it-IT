@@ -54,7 +54,7 @@ Quando utilizzi i modelli con GenStudio for Performance Marketing, attieniti all
 1. Progettazione con [standard di accessibilità](accessibility-for-templates.md) per un&#39;esperienza ottimale
 1. Segui [linee guida per modelli specifici per canale](#follow-channel-specific-template-guidelines)
 1. Quando utilizzi [Modelli Express](/help/user-guide/templates/express-templates.md), considera i suggerimenti specifici in [Best practice per modelli Express to GenStudio](#express-to-genstudio-template-best-practices).
->>
+&#x200B;>>
 Scopri le nozioni di base sugli elementi e sulle procedure dei modelli in [Operazioni con i modelli](use-templates.md). Approfondisci [la personalizzazione di un modello](customize-template.md) per istruzioni specifiche da utilizzare nella prossima campagna.
 
 ## Utilizzare gli elementi di modello corretti

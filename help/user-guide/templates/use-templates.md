@@ -90,7 +90,7 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+Nella raccolta _[!DNL Templates]_&#x200B;viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
 
 ### Cerca modelli
 
@@ -113,7 +113,7 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 **Per aggiungere un modello**:
 
-1. In _[!DNL Content]_, seleziona la sezione **[!UICONTROL Modelli HTML]**nella barra superiore.
+1. In _[!DNL Content]_, seleziona la sezione **[!UICONTROL Modelli HTML]**&#x200B;nella barra superiore.
 
 1. Fare clic su **[!UICONTROL + Aggiungi modello]**.
 

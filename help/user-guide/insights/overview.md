@@ -110,15 +110,15 @@ Ogni vista mostra una tabella corrispondente, che puoi cercare per parola chiave
 
 ### Campagne
 
-La visualizzazione predefinita [[!DNL Insights] _[!UICONTROL Campagne ]_](campaigns.md) mostra un elenco di dettagli attivi della campagna, quali obiettivi, budget, data di lancio e attività. Assicurati di [collegare un account di canale](/help/user-guide/connectors/connect-channel.md) in modo che GenStudio for Performance Marketing inizi a ricevere i dati statistici.
+La visualizzazione predefinita [[!DNL Insights] _[!UICONTROL Campagne &#x200B;]_](campaigns.md) mostra un elenco di dettagli attivi della campagna, quali obiettivi, budget, data di lancio e attività. Assicurati di [collegare un account di canale](/help/user-guide/connectors/connect-channel.md) in modo che GenStudio for Performance Marketing inizi a ricevere i dati statistici.
 
 ### Esperienze pubblicate
 
-La visualizzazione [[!DNL Insights] _[!UICONTROL Dettagli esperienze pubblicate ]_](published-experiences.md) si concentra sulla valutazione dell&#39;efficacia di un&#39;esperienza. La visualizzazione [!UICONTROL Esperienze pubblicate] consente di analizzare le metriche di un&#39;esperienza in base al suo posizionamento all&#39;interno di un intervallo di date specificato. Facendo clic su un_[!UICONTROL  Nome esperienza ]_, puoi visualizzare le metriche delle prestazioni dell&#39;esperienza, le prestazioni in base al posizionamento e gli attributi.
+La visualizzazione [[!DNL Insights] _[!UICONTROL Dettagli esperienze pubblicate &#x200B;]_](published-experiences.md) si concentra sulla valutazione dell&#39;efficacia di un&#39;esperienza. La visualizzazione [!UICONTROL Esperienze pubblicate] consente di analizzare le metriche di un&#39;esperienza in base al suo posizionamento all&#39;interno di un intervallo di date specificato. Facendo clic su un&#x200B;_[!UICONTROL &#x200B; Nome esperienza &#x200B;]_, puoi visualizzare le metriche delle prestazioni dell&#39;esperienza, le prestazioni in base al posizionamento e gli attributi.
 
 ### Media
 
-La visualizzazione [[!DNL Insights] _[!UICONTROL Media ]_](media.md) è progettata per consentire l&#39;analisi delle prestazioni dei contenuti creativi. Puoi identificare gli attributi multimediali che contribuiscono a migliorare una metrica selezionata, ad esempio clic o impression.
+La visualizzazione [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) è progettata per consentire l&#39;analisi delle prestazioni dei contenuti creativi. Puoi identificare gli attributi multimediali che contribuiscono a migliorare una metrica selezionata, ad esempio clic o impression.
 
 Facendo clic sul contenuto multimediale è possibile ottenere ulteriori informazioni sulle prestazioni tra diversi annunci e posizionamenti di annunci:
 
@@ -130,8 +130,8 @@ Nella visualizzazione dei dettagli dei file multimediali, a sinistra vengono vis
 
 I _attributi_ multimediali consentono di identificare il contenuto creativo in base a dettagli intrinseci, quali colore, tono, composizione (come oggetto, font, elementi visivi) e altri componenti chiave. Gli attributi sono spesso il set di informazioni sul contenuto meno misurato e analizzato.
 
-La visualizzazione [[!DNL Insights] _[!UICONTROL Attributi ]_](attributes.md) può aiutarti a indagare e identificare quali attributi offrono prestazioni migliori con alcuni tipi di pubblico, canali e aree geografiche e può aiutarti a evidenziare le tendenze stagionali. Con queste informazioni, puoi utilizzare gli attributi delle prestazioni per creare varianti, rivolgerti a un pubblico specifico o sperimentare diverse strategie per campagne.
+La visualizzazione [[!DNL Insights] _[!UICONTROL Attributi &#x200B;]_](attributes.md) può aiutarti a indagare e identificare quali attributi offrono prestazioni migliori con alcuni tipi di pubblico, canali e aree geografiche e può aiutarti a evidenziare le tendenze stagionali. Con queste informazioni, puoi utilizzare gli attributi delle prestazioni per creare varianti, rivolgerti a un pubblico specifico o sperimentare diverse strategie per campagne.
 
 ### Aggiunge tag
 
-La visualizzazione [[!DNL Insights] _[!UICONTROL Ads tags ]_](ad-tags.md) mostra un elenco di annunci per l&#39;account dell&#39;annuncio del canale connesso. Un_ annuncio _è una risorsa promozionale che include contenuti visivi e interattivi destinati alla distribuzione a un pubblico specifico nell&#39;ambito di una campagna di marketing.
+La visualizzazione [[!DNL Insights] _[!UICONTROL Ads tags &#x200B;]_](ad-tags.md) mostra un elenco di annunci per l&#39;account dell&#39;annuncio del canale connesso. Un_ annuncio _è una risorsa promozionale che include contenuti visivi e interattivi destinati alla distribuzione a un pubblico specifico nell&#39;ambito di una campagna di marketing.

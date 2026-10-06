@@ -2,13 +2,23 @@
 title: Journey Optimizer per GenStudio
 description: Installa e configura l’app Adobe Exchange Journey Optimizer for GenStudio in modo che la tua organizzazione possa utilizzare i modelli Adobe Journey Optimizer in GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
-
 ---
-
 # Journey Optimizer per GenStudio
 
 Le organizzazioni che utilizzano [!DNL Adobe Journey Optimizer] (AJO) e [!DNL GenStudio for Performance Marketing] nella stessa organizzazione [!DNL IMS] possono installare l&#39;app **Journey Optimizer for GenStudio** da [!DNL Adobe Exchange]. Dopo che un amministratore di sistema ha approvato l&#39;app e completato la distribuzione, gli autori possono scegliere i modelli di contenuto AJO durante la creazione di esperienze e-mail in GenStudio, accanto ai modelli caricati direttamente in [!DNL Content].
@@ -23,7 +33,7 @@ Questo argomento è destinato a **amministratori e sviluppatori** che installano
 
 ## Installare l’app da Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483307?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. Apri [Adobe Exchange](https://exchange.adobe.com) e passa a **[!UICONTROL CX Enterprise]**.
 1. Apri l&#39;inserzione [Journey Optimizer per GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
@@ -79,9 +89,9 @@ Visualizza l&#39;estensione in **[!UICONTROL Amministratore di Percorso]** in AJ
 
 **Vedere anche** (controllo accesso Journey Optimizer):
 
-* [Controllo degli accessi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/permissions)
-* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Controllo degli accessi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Autorizzazioni in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Introduzione per gli amministratori di sistema](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Accedere ai modelli di AJO in GenStudio
 

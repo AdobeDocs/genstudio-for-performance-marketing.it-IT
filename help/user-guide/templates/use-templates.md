@@ -5,31 +5,44 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+TQID: 'https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1654'
 ht-degree: 1%
-
 ---
-
 # Utilizzare i modelli
 
 GenStudio for Performance Marketing consente ai creatori di contenuti di produrre rapidamente contenuti di marketing coerenti nel brand utilizzando _modelli_. Un modello riduce in modo significativo il tempo e l’impegno necessari per generare nuovi contenuti, fornendo un punto di partenza che include layout preconfigurati ed elementi di progettazione. Per iniziare, caricare un modello personalizzato in [!DNL Content] o utilizzare un modello iniziale in [!DNL Create]. I [modelli iniziali](/help/user-guide/templates/starter-templates.md) consentono di iniziare rapidamente con una progettazione standard, mentre un modello personalizzato consente di utilizzare progettazioni e layout univoci.
@@ -77,7 +90,7 @@ Di seguito è riportato un elenco di elementi utilizzati nei modelli e alcuni de
 
 ## Gestire i modelli
 
-Nella raccolta _[!DNL Templates]_&#x200B;viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
+Nella raccolta _[!DNL Templates]_viene visualizzato l&#39;inventario dei modelli personalizzati per la generazione di esperienze in GenStudio for Performance Marketing.
 
 ### Cerca modelli
 
@@ -100,7 +113,7 @@ Prima di caricare un modello, accertarsi che sia completamente preparato e pront
 
 **Per aggiungere un modello**:
 
-1. In _[!DNL Content]_, seleziona la sezione **[!UICONTROL Modelli HTML]**&#x200B;nella barra superiore.
+1. In _[!DNL Content]_, seleziona la sezione **[!UICONTROL Modelli HTML]**nella barra superiore.
 
 1. Fare clic su **[!UICONTROL + Aggiungi modello]**.
 

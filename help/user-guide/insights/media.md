@@ -4,33 +4,48 @@ description: Scopri come valutare le prestazioni multimediali in Adobe GenStudio
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-TQID: https://experienceleague.adobe.com/fSBgN1uvr39dd7AV3Kvr3D5UnSDY2-dE1aX1g2Q7fTc
+TQID: 'https://experienceleague.adobe.com/fSBgN1uvr39dd7AV3Kvr3D5UnSDY2-dE1aX1g2Q7fTc'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+    internal-label: Content attributes
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a29f532b-105a-4aec-8a5d-e7e725214866
+    internal-label: Media performance
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+  - id: e61505eb-ae0c-4fa0-a6cc-9f95313d4431
+    internal-label: Reporting and insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: '647'
 ht-degree: 0%
-
 ---
-
 # Panoramica dei contenuti multimediali
 
 La visualizzazione [!DNL Insights] _[!UICONTROL File multimediali]_ mostra un elenco di file multimediali utilizzati negli annunci e nelle campagne pubblicitarie per l&#39;account selezionato. _Media_ rappresenta un&#39;immagine, un video, un testo o altro contenuto creativo approvato per l&#39;utilizzo nelle iniziative di marketing.
@@ -71,10 +86,10 @@ La tabella seguente fornisce definizioni e informazioni approfondite per le metr
 | **[!UICONTROL ID supporto]** | Il nome associato a un’immagine, un video, un testo o un altro contenuto creativo. | Ordina la tabella facendo clic sull’intestazione di colonna per una qualsiasi delle metriche chiave. |
 | **[!UICONTROL Impression]** | Un conteggio di ogni volta che il contenuto multimediale viene caricato nel canale, indipendentemente dall’interazione o dalla visualizzazione. | Un conteggio elevato delle impression può indicare un’ampia visibilità, ma per insight con prestazioni reali, consideralo in relazione ad altre metriche di coinvolgimento. |
 | **[!UICONTROL Clic]** | Il numero di volte in cui gli utenti interagiscono con un elemento cliccabile, come un collegamento, sul supporto. | Un numero elevato di clic indica un forte interesse e coinvolgimento per il contenuto, che può essere efficace e raggiungere il pubblico giusto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sui contenuti multimediali all&#39;interno di un annuncio.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che i contenuti multimediali sono altamente pertinenti e coinvolgenti per il pubblico. Suggerisce che i messaggi e la progettazione catturino efficacemente l’interesse del pubblico e gli spingano ad agire. Inoltre, un CTR elevato può implicare che i media siano ben mirati e risuonino con il pubblico previsto, portando a migliori prestazioni complessive della campagna. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Costo per mille_ | Il costo medio per ogni mille impression multimediali.<br>**Calcolo**: importo totale `spent` diviso per il numero di impression, quindi moltiplicato per 1000 | Un valore CPM basso può indicare prestazioni multimediali convenienti, soprattutto se associato a un tasso di click-through elevato. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo per azione_ | Costo medio speso per ottenere un&#39;azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni del cliente completate | Consente di identificare i contenuti multimediali che si traducono in azioni utili per i clienti. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo per clic_ | Costo medio associato a ogni clic sul supporto.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
+| **[!UICONTROL CTR ]**<br>_Percentuale di click-through_ | Percentuale (%) di impression che hanno generato clic sui contenuti multimediali all&#39;interno di un annuncio.<br>**Calcolo**: `clicks` diviso per `impressions` | Un elevato tasso di click-through indica che i contenuti multimediali sono altamente pertinenti e coinvolgenti per il pubblico. Suggerisce che i messaggi e la progettazione catturino efficacemente l’interesse del pubblico e gli spingano ad agire. Inoltre, un CTR elevato può implicare che i media siano ben mirati e risuonino con il pubblico previsto, portando a migliori prestazioni complessive della campagna. |
+| **[!UICONTROL CPM ]**<br>_Costo per mille_ | Il costo medio per ogni mille impression multimediali.<br>**Calcolo**: importo totale `spent` diviso per il numero di impression, quindi moltiplicato per 1000 | Un valore CPM basso può indicare prestazioni multimediali convenienti, soprattutto se associato a un tasso di click-through elevato. |
+| **[!UICONTROL CPA ]**<br>_Costo per azione_ | Costo medio speso per ottenere un&#39;azione specifica del cliente, ad esempio un acquisto o un abbonamento.<br>**Calcolo**: importo totale `spent` diviso per il numero di azioni del cliente completate | Consente di identificare i contenuti multimediali che si traducono in azioni utili per i clienti. |
+| **[!UICONTROL CPC ]**<br>_Costo per clic_ | Costo medio associato a ogni clic sul supporto.<br>**Calcolo**: importo totale `spent` diviso per `clicks` | Costi medi più bassi possono indicare una spesa pubblicitaria efficiente in termini di costi, soprattutto se confrontata con un aumento delle conversioni. |
 | **[!UICONTROL Spesa]** | L&#39;importo speso dal bilancio in relazione ai singoli media in un determinato periodo di tempo. | Un importo di spesa elevato in un breve periodo può indicare un utilizzo rapido, che potrebbe portare a un precoce esaurimento delle risorse. Monitora l’importo speso rispetto alle metriche delle prestazioni chiave per monitorare il ritorno complessivo sull’investimento. |
 | **[!UICONTROL Utilizzato in questi annunci]** | Il numero di annunci che utilizzano questo supporto. | |
 | **Attributi** | Elenco delle funzioni intrinseche presenti in questo supporto. | Gli attributi aiutano a identificare gli elementi creativi che risuonano di più con il tuo pubblico. |

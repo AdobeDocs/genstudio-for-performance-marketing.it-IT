@@ -2,7 +2,13 @@
 title: Creare un’esperienza di annunci Meta - Annunci carosello
 description: Scopri come creare esperienze pubblicitarie con carosello Meta a più schede, gestire le schede e generare concetti on-brand in [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -22,7 +28,7 @@ Prima di creare un annuncio carosello, assicurati di disporre di un modello le c
 
 Dopo aver selezionato un modello e aver aperto l’area di lavoro, scegli il formato del carosello nel cassetto dei prompt.
 
-1. Nel pannello _[!DNL Create your ads]_&#x200B;espandere&#x200B;_[!UICONTROL &#x200B; Parametri &#x200B;]_.
+1. Nel pannello _[!DNL Create your ads]_espandere_[!UICONTROL  Parametri ]_.
 1. Dal menu a discesa **[!UICONTROL Formato]**, selezionare **[!UICONTROL Annuncio carosello]**.
 
    ![Crea il pannello degli annunci con il menu a discesa Formato impostato su Annuncio carosello e un elenco di schede](./carousel-format-cards.png){width="70%" zoomable="yes"}

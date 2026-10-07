@@ -3,23 +3,33 @@ title: Revisione e modifica del contenuto
 description: Scopri come rivedere e modificare i contenuti iterativamente con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
+TQID: 'https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Content production
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Rivedere e modificare il contenuto
 
 La fase di revisione e approvazione spesso coinvolge più parti interessate e feedback iterativo, che può rallentare la produzione dei contenuti. GenStudio for Performance Marketing semplifica questo processo con un’intelligenza artificiale generativa che accelera le revisioni dei contenuti, consentendo ai creatori di rispondere rapidamente ai feedback utilizzando modifiche basate su prompt. Più è complesso il ciclo di revisione, maggiori saranno i vantaggi in termini di risparmio di tempo offerti da GenStudio.
@@ -36,7 +46,7 @@ In qualità di approvatore designato, puoi accedere al contenuto per la revision
 
 * **Accedi alla bozza per la revisione direttamente dal collegamento alla bozza nella richiesta di approvazione**. Fai clic sul collegamento della bozza nell’e-mail della richiesta di approvazione o nella notifica interna al prodotto. Viene visualizzata l’area di lavoro contenente la risorsa o l’esperienza. Il pannello _Approvazione_ è visualizzato a destra.
 
-* **Accedi alla bozza per la revisione dall&#39;elenco delle richieste di approvazione**. Se ti viene richiesto di rivedere più bozze di contenuto, l&#39;e-mail di notifica include un pulsante **[!UICONTROL Visualizza tutte le notifiche]**. Fare clic su questo pulsante per passare a una pagina in cui vengono visualizzate tutte le notifiche ricevute, incluse le richieste di approvazione e le notifiche abilitate da altri prodotti Adobe CX Enterprise.
+* **Accedi alla bozza per la revisione dall&#39;elenco delle richieste di approvazione**. Se ti viene richiesto di rivedere più bozze di contenuto, l&#39;e-mail di notifica include un pulsante **[!UICONTROL Visualizza tutte le notifiche]**. Fai clic su questo pulsante per passare a una pagina in cui vengono visualizzate tutte le notifiche ricevute, incluse le richieste di approvazione e le notifiche abilitate da altri prodotti Adobe CX Enterprise.
 
 ## Accedi al contenuto per la revisione
 

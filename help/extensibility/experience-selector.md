@@ -205,7 +205,7 @@ Di seguito è riportato un blocco JSON di esempio che mostra gli schemi.
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/it"
         },
         "description": {
             "fieldName": "description",

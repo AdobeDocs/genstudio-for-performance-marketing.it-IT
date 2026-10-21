@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # Creare modelli accessibili
 
-Adobe si impegna a fornire un’esperienza ottimale per tutti i tipi di pubblico. Consulta [Iniziative per l&#39;accessibilità in Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) per ulteriori informazioni.
+Adobe si impegna a fornire un’esperienza ottimale per tutti i tipi di pubblico. Consulta [Iniziative per l&#39;accessibilità in Adobe](https://www.adobe.com/it/trust/accessibility/initiatives.html) per ulteriori informazioni.
 
 In GenStudio for Performance Marketing, puoi caricare risorse e modelli che consentono la creazione di contenuti per diverse esperienze. Il rispetto degli standard di accessibilità consente ai contenuti di raggiungere il pubblico desiderato.
 

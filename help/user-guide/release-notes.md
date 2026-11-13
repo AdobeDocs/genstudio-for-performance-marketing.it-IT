@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5942'
 ht-degree: 0%
 ---
 # Note sulla versione di GenStudio for Performance Marketing
 
 Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’applicazione GenStudio for Performance Marketing.
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **NUOVE FUNZIONALITÀ:**
+
+### Generazione con conservazione dello stato tramite stampa vocale e segnali visivi
+
+La generazione con conservazione dello stato consente di perfezionare il contenuto a turno in una conversazione invece di ricominciare ogni volta con un nuovo prompt. La generazione ricorda le istruzioni precedenti e le varianti che mantieni, quindi applica solo la modifica richiesta.
+
+La funzionalità di stampa vocale mantiene la copia nella voce del tuo marchio sui canali con [!DNL Insights], ad esempio LinkedIn e Meta. I segnali visivi vengono visualizzati nella copia a terra di un&#39;immagine o di un video selezionato, e puoi aggiungere l&#39;URL di una pagina web come contesto di riferimento nel prompt.
+
+Ulteriori informazioni in [Generare e perfezionare i contenuti con lo stato di generazione](/help/user-guide/create/stateful-generation.md).
+
+### Correzioni di problemi e miglioramenti
+
+* L&#39;ID tracciamento in un&#39;attivazione in blocco ora si compila automaticamente con il nome dell&#39;esperienza.
+
+## Note sulle versioni precedenti
+
++++Note relative al 2026.09.15
 
 ### Attivazione in blocco
 
@@ -87,7 +103,7 @@ Queste informazioni sulla versione forniscono gli ultimi aggiornamenti dell’ap
 
 Ulteriori informazioni nel [flusso di lavoro di attivazione](/help/user-guide/activation/create-activation.md).
 
-## Note sulle versioni precedenti
++++
 
 +++Note relative al 2026.07.16
 

@@ -2,9 +2,9 @@
 title: Genera nomi annunci
 description: Scopri come configurare modelli di denominazione, generare nomi di annunci coerenti e rivedere o personalizzare i nomi prima di inviare annunci alle piattaforme di attivazione supportate.
 role: User
-source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
+source-git-commit: 6db986fefd199181e568e5fbc7a3b23554e5e70d
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1684'
 ht-degree: 1%
 ---
 
@@ -12,21 +12,23 @@ ht-degree: 1%
 
 La denominazione automatica degli annunci in [!DNL GenStudio for Performance Marketing] ti consente di seguire le convenzioni di denominazione della tua organizzazione quando attivi gli annunci. I nomi coerenti supportano il reporting delle prestazioni, l’attribuzione e la riconciliazione della spesa.
 
-Carica la convenzione di denominazione per creare un modello, quindi utilizzalo per generare nomi dai metadati dell&#39;esperienza. Rivedi i risultati e apporta eventuali correzioni prima di inviare annunci alle piattaforme.
+Un modello di denominazione definisce le parti di un nome di annuncio e il loro ordine. Le parti di esempio includono il prodotto, la campagna e il mercato. Per creare un modello, carica un file Excel che descriva la convenzione di denominazione della tua organizzazione.
+
+Utilizza il modello per generare nomi dalle informazioni su ogni esperienza, ad esempio il prodotto o la campagna. Rivedi e correggi i risultati prima di inviare i tuoi annunci. I nomi finali vengono inviati a ciascuna piattaforma di destinazione come nomi degli annunci.
 
 ## Prima di iniziare
 
-La configurazione del modello è un&#39;attività occasionale. Se alla tua piattaforma è già stato assegnato un modello nel progetto corrente, passa a [Genera nomi per un&#39;attivazione](#generate-names-for-an-activation).
+È sufficiente impostare un modello una sola volta. Se alla tua piattaforma è già stato assegnato un modello nel progetto corrente, vai direttamente a [Genera nomi per un&#39;attivazione](#generate-names-for-an-activation).
+
+In caso contrario, crea un modello e chiedi a un manager di sistema di [assegnarlo alle piattaforme](#assign-a-template-to-platforms). Ogni progetto può avere un modello predefinito diverso per la stessa piattaforma.
 
 Per l&#39;impostazione dei modelli, preparare un file Excel di dimensioni non superiori a 3 MB con un solo foglio. I file CSV non sono supportati. Descrivi la convenzione di denominazione per singoli annunci, non campagne o gruppi di annunci.
 
-Includi i campi nell’ordine richiesto, i valori consentiti, i codici corrispondenti e le istruzioni per la scelta dei valori. Se ad esempio si seleziona `Image` per il campo `format`, nel nome verrà restituito `IMG`.
+Elencare i campi nell&#39;ordine richiesto. Per ogni campo, includi i valori consentiti, i codici corrispondenti e le istruzioni per la scelta di un valore. Ad esempio, l&#39;opzione `Image` per il campo `format` utilizza il codice `IMG` nel nome.
 
-Scarica l&#39;esempio della convenzione di denominazione di [WKND Meta (Excel)](assets/wknd-meta-naming-convention.xlsx) per esplorare una struttura di esempio. Include le definizioni dei campi e i valori di esempio per anno, trimestre, marchio, prodotto, campagna, piattaforma, formato, versione creativa, persona, mercato, lingua e CTA.
+Per una struttura di esempio, scaricare l&#39;esempio di convenzione di denominazione di Meta [WKND (Excel)](assets/wknd-meta-naming-convention.xlsx). Il file definisce campi e valori di esempio per prodotto, campagna, mercato e altre parti di un nome di annuncio.
 
 Sostituisci i valori e le regole di esempio con la convenzione della tua organizzazione prima di utilizzare il file per le tue attivazioni. I valori di piattaforma dell’esempio illustrano le scelte di denominazione, non un elenco di destinazioni di attivazione supportate.
-
-Un system manager deve assegnare il modello alle piattaforme. Progetti diversi possono utilizzare modelli predefiniti diversi per la stessa piattaforma.
 
 ## Creare un modello di denominazione
 
@@ -41,7 +43,7 @@ Crea un modello dal file delle convenzioni di denominazione esistente, quindi co
 1. Selezionare **[!UICONTROL Seleziona file]** nella finestra di dialogo **[!UICONTROL Carica file]**.
 1. Scegliere il file di Excel.
 
-   Puoi anche trascinare il file nell’area di caricamento. Durante l&#39;analisi del foglio di calcolo **[!UICONTROL in corso...]**, i campi e i valori sono mappati al modello. L&#39;operazione potrebbe richiedere alcuni minuti.
+   In alternativa, trascina il file nell’area di caricamento. Durante l&#39;analisi del foglio di calcolo **[!UICONTROL in corso...]**, i campi e i valori sono mappati al modello. Attendere alcuni minuti per il completamento dell&#39;analisi.
 
 1. Rivedi i campi, i valori consentiti e **[!UICONTROL Anteprima nome annuncio]**.
 
@@ -58,13 +60,13 @@ Modifica un modello salvato per modificarne il nome, i campi, il separatore o le
 1. Vai a **[!UICONTROL Altro]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Modello nome annuncio]**.
 1. Apri il menu a tre punti accanto al modello.
 1. Seleziona **[!UICONTROL Modifica]**.
-1. Seleziona l’icona a forma di matita accanto al titolo per rinominare il modello.
-1. Imposta il **[!UICONTROL Separatore di campi]** in modo che corrisponda alla convenzione.
+1. Per rinominare il modello, seleziona l’icona a forma di matita accanto al titolo.
+1. Impostare il **[!UICONTROL Separatore di campo]** sul carattere che separa le parti del nome, ad esempio un carattere di sottolineatura (`_`).
 1. Trascinare i campi nell&#39;ordine desiderato.
 
    Utilizza **[!UICONTROL Aggiungi campo]** o l&#39;icona del cestino di un campo per modificare i campi inclusi.
 
-1. Seleziona l’icona a forma di matita di un campo per aprirne le impostazioni.
+1. Per aprire le impostazioni di un campo, selezionare l&#39;icona della matita corrispondente.
 1. Rivedi **[!UICONTROL Tipo]** e **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Modifica campo]**.
 
    Utilizza **[!UICONTROL Elenco a discesa]** per un campo con scelte predefinite o **[!UICONTROL Testo libero]** per un valore immesso.
@@ -73,11 +75,11 @@ Modifica un modello salvato per modificarne il nome, i campi, il separatore o le
 
    **[!UICONTROL Opzioni]** contiene le scelte leggibili. **[!UICONTROL Il codice]** contiene i valori corrispondenti utilizzati nel nome dell&#39;annuncio. Ad esempio, l&#39;opzione `Image` utilizza il codice `IMG`.
 
-   Utilizza **[!UICONTROL Aggiungi opzione]** per aggiungere una scelta o l&#39;icona meno accanto a una scelta per rimuoverla. Non sono consentiti valori duplicati all’interno di un campo.
+   Per aggiungere una scelta, selezionare **[!UICONTROL Aggiungi opzione]**. Per rimuovere una scelta, selezionarne l&#39;icona meno. Non sono consentiti valori duplicati all’interno di un campo.
 
 1. Immetti le **[!UICONTROL regole campo]** necessarie per scegliere o formattare il valore del campo.
 
-   Per il campo di testo libero `creativeVersion` dell&#39;esempio, è possibile immettere `Use the experience name as a starting value, with spaces removed.`
+   Per il campo a testo libero `creativeVersion`, immettere questa regola di esempio: `Use the experience name as a starting value, with spaces removed.`
 
 1. Seleziona **[!UICONTROL Salva]** nella finestra di dialogo del campo.
 
@@ -89,7 +91,7 @@ Modifica un modello salvato per modificarne il nome, i campi, il separatore o le
 
 1. Seleziona **[!UICONTROL Salva]** nella parte superiore della pagina.
 
-L’anteprima riflette l’ordine dei campi e il separatore aggiornati. Riapri il modello per verificare le modifiche salvate.
+L’anteprima riflette l’ordine dei campi e il separatore aggiornati. Per verificare le modifiche salvate, riapri il modello.
 
 L’editor di campi mostra la corrispondenza delle opzioni leggibili con i codici inclusi nei nomi generati:
 
@@ -108,7 +110,7 @@ I System Manager impostano il modello predefinito per ogni piattaforma all&#39;i
 
 Ogni piattaforma ha un modello predefinito per progetto. Puoi assegnare lo stesso modello a diverse piattaforme.
 
-È possibile visualizzare e modificare i modelli in tutti i progetti, ma è possibile modificare le assegnazioni solo per il progetto in cui si è attualmente presenti.
+I modelli sono disponibili per la visualizzazione e la modifica in più progetti. Tuttavia, puoi modificare le assegnazioni della piattaforma solo nel progetto corrente.
 
 La sostituzione dell’impostazione predefinita di una piattaforma non elimina il modello precedente né modifica le assegnazioni di altri progetti.
 
@@ -118,7 +120,7 @@ L&#39;esempio seguente mostra l&#39;anteprima del modello, l&#39;ordine dei camp
 
 ## Generare nomi per un&#39;attivazione
 
-Genera dei nomi dopo aver preparato l’attivazione ed esaminato i metadati dell’esperienza di cui il modello ha bisogno, ad esempio campagna, prodotto o persona.
+Prepara l’attivazione prima di generare i nomi. I metadati di ogni esperienza contengono informazioni quali la campagna, il prodotto o l’utente tipo. Verifica che i metadati forniscano i valori necessari per il modello. Consulta [Flusso di lavoro di attivazione](create-activation.md) per assistenza nella preparazione di un&#39;attivazione.
 
 1. Apri **[!UICONTROL Attiva]** nel progetto previsto.
 1. Aggiungi le tue esperienze a un’attivazione.
@@ -130,9 +132,9 @@ Genera dei nomi dopo aver preparato l’attivazione ed esaminato i metadati dell
 
 1. Rivedi la colonna **[!UICONTROL Nome annuncio]**.
 
-La generazione si applica a tutti gli annunci sulle piattaforme a cui è assegnato un modello, ad eccezione degli annunci con sostituzioni abilitate. I nomi non vengono generati automaticamente all&#39;apertura della tabella.
+La generazione si applica a tutti gli annunci sulle piattaforme a cui è assegnato un modello, ad eccezione degli annunci con [sostituzioni di nomi personalizzate](#use-a-custom-ad-name). I nomi non vengono generati automaticamente all&#39;apertura della tabella.
 
-Inizialmente, ogni annuncio utilizza il nome della propria esperienza. Se a una piattaforma non è assegnato alcun modello, la generazione lascia i nomi invariati e puoi modificarli manualmente.
+Inizialmente, ogni annuncio utilizza il nome della propria esperienza. Se a una piattaforma non è assegnato alcun modello, la generazione ne lascia i nomi invariati. Modifica manualmente i nomi in base alle esigenze.
 
 Se non è stato assegnato alcun modello a nessuna piattaforma, non viene generato alcun nome.
 
@@ -140,7 +142,7 @@ Se non è stato assegnato alcun modello a nessuna piattaforma, non viene generat
 
 Rivedi i nomi generati prima di inviare i tuoi annunci. I valori mancanti vengono visualizzati come segnaposto del campo evidenziato, ad esempio `[market]`, e gli annunci interessati mostrano **[!UICONTROL Richiede attenzione]**.
 
-La tabella di attivazione contrassegna i nomi con valori mancanti in modo da poterli trovare e correggere:
+Per trovare i nomi che richiedono correzioni, cercare i segnaposto evidenziati e gli stati **[!UICONTROL Richiede attenzione]** nella tabella di attivazione:
 
 ![Tabella di attivazione con un&#39;avvertenza per valori mancanti, segnaposto di mercato evidenziati nella colonna Nome annuncio e stati di attenzione necessari.](images/ad-names-missing-values.png)
 
@@ -164,13 +166,13 @@ Nomi di annunci identici sulla stessa piattaforma sono contrassegnati come poten
 
 L’avviso di potenziale duplicazione si cancella dopo che i nomi sono stati resi diversi.
 
-## Modificare più nomi di annunci contemporaneamente
+## Modificare più nomi di annunci {#edit-several-ad-names-at-once}
 
-Utilizza la modifica in serie per applicare una correzione condivisa senza sostituire i valori che devono rimanere diversi per ogni annuncio.
+Utilizza la modifica in serie per applicare una correzione condivisa mantenendo allo stesso tempo valori diversi tra gli annunci.
 
 1. Seleziona gli annunci utilizzando le relative caselle di controllo di riga.
 1. Seleziona **[!UICONTROL Modifica nome annuncio]** dalla barra degli strumenti di selezione.
-1. Modifica solo i campi che devono avere lo stesso valore negli annunci selezionati.
+1. Modifica solo i campi che richiedono lo stesso valore negli annunci selezionati.
 
    **[!UICONTROL I valori misti]** indicano che gli annunci selezionati hanno attualmente valori diversi per un campo. Lascia questo campo intatto per mantenere il valore di ogni annuncio.
 
@@ -192,7 +194,7 @@ Ad esempio, se si modifica solo l&#39;utente tipo da `OutdoorBeginners` a `Adven
 
 ## Utilizza un nome annuncio personalizzato
 
-Sostituisci un nome generato quando un annuncio richiede un nome personalizzato completo.
+Invece di modificare singoli campi modello, utilizza una sostituzione per sostituire l’intero nome generato con un nome personalizzato.
 
 1. Seleziona la riga dell’annuncio.
 1. Seleziona **[!UICONTROL Modifica nome annuncio]**.
@@ -202,7 +204,7 @@ Sostituisci un nome generato quando un annuncio richiede un nome personalizzato 
 
 Il nome personalizzato rimane invariato quando si generano di nuovo i nomi.
 
-Con la sostituzione abilitata, puoi modificare il nome completo anziché i singoli campi modello:
+Con la sostituzione abilitata, modifica il nome completo anziché i singoli campi modello:
 
 ![Finestra di dialogo Modifica nome annuncio con l&#39;opzione Ignora nomi annuncio abilitata e il nome completo dell&#39;annuncio WKND disponibile per la modifica.](images/ad-name-override.png)
 
@@ -213,7 +215,7 @@ Per tornare alla denominazione basata su modello, effettuare le seguenti operazi
 1. Seleziona **[!UICONTROL Salva]**.
 1. Selezionare **[!UICONTROL Genera nome annuncio]** sopra la tabella di attivazione.
 
-Questa azione di generazione si applica anche agli altri annunci idonei nella tabella.
+Questa azione rigenera anche i nomi per altri annunci nella tabella a cui è stato assegnato un modello e a cui non è stata assegnata alcuna sostituzione del nome personalizzato.
 
 ## Rispondi alle modifiche al modello
 
@@ -236,6 +238,6 @@ Rivedi i nomi finali e i campi non risolti dell&#39;indirizzo, i potenziali dupl
 
 Quando l&#39;attivazione è pronta, selezionare **[!UICONTROL Invia a piattaforme]**.
 
-I nomi pubblicati corrispondono esattamente ai nomi finali in [!DNL GenStudio for Performance Marketing], inclusi i nomi generati, i nomi modificati tramite i campi modello e i nomi sostituiti.
+[!DNL GenStudio for Performance Marketing] invia il nome finale di ogni annuncio alla piattaforma di destinazione come nome dell&#39;annuncio. Il nome inviato include eventuali modifiche ai campi modello o alle sostituzioni di nomi personalizzati. I nomi degli annunci sulla piattaforma corrispondono esattamente ai nomi finali rivisti.
 
 Per le destinazioni di visualizzazione come Innovid, i nomi vengono visualizzati come nomi creativi.

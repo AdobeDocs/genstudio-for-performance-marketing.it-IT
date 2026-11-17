@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 0%
 ---
 # Gestire le attivazioni
 
@@ -43,6 +43,10 @@ Le tabelle di attivazione vengono visualizzate nella pagina di destinazione [!DN
 Puoi riprovare automaticamente le attivazioni non riuscite facendo clic su **[!UICONTROL Riprova]** in alto a destra.
 
 Le righe pubblicate non possono essere inviate nuovamente e includono un collegamento profondo all’annuncio nel gestore di annunci nativo della piattaforma di destinazione, in modo da potervi passare direttamente per rivederlo o avviarlo.
+
+## Genera nomi di annunci
+
+Utilizza la convenzione di denominazione della tua organizzazione per generare nomi di annunci coerenti dalle informazioni sull’esperienza. Puoi rivedere, modificare o sostituire i nomi prima di inviare annunci alle piattaforme. Vedere [Generare nomi di annunci](generate-ad-names.md).
 
 ## Visualizzazione dettagli
 

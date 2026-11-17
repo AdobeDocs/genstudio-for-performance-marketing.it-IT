@@ -2,9 +2,9 @@
 title: Genera nomi annunci
 description: Scopri come configurare modelli di denominazione, generare nomi di annunci coerenti e rivedere o personalizzare i nomi prima di inviare annunci alle piattaforme di attivazione supportate.
 role: User
-source-git-commit: 6db986fefd199181e568e5fbc7a3b23554e5e70d
+source-git-commit: 888a9509ed1c3705f67fbf541b38a49b7890ac7d
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1746'
 ht-degree: 1%
 ---
 
@@ -122,6 +122,13 @@ L&#39;esempio seguente mostra l&#39;anteprima del modello, l&#39;ordine dei camp
 
 Prepara l’attivazione prima di generare i nomi. I metadati di ogni esperienza contengono informazioni quali la campagna, il prodotto o l’utente tipo. Verifica che i metadati forniscano i valori necessari per il modello. Consulta [Flusso di lavoro di attivazione](create-activation.md) per assistenza nella preparazione di un&#39;attivazione.
 
+Quando crei un’attivazione per la prima volta, il nome iniziale di ciascun annuncio dipende dall’assegnazione del modello della relativa piattaforma:
+
+| Configurazione della piattaforma | Nome annuncio iniziale |
+| --- | --- |
+| Nel progetto corrente viene assegnato un modello di denominazione. | I campi modello vuoti vengono visualizzati come segnaposto, ad esempio `[market]_[year]`. I nomi vengono generati solo dopo aver selezionato **[!UICONTROL Genera nome annuncio]**. |
+| Nessun modello di denominazione assegnato nel progetto corrente. | L’annuncio utilizza il nome della sua esperienza. La generazione dei nomi lascia invariato il nome. |
+
 1. Apri **[!UICONTROL Attiva]** nel progetto previsto.
 1. Aggiungi le tue esperienze a un’attivazione.
 1. Completa la configurazione della piattaforma e tutte le informazioni richieste, tra cui copia, call-to-action (CTA) e l’URL del sito web.
@@ -134,13 +141,13 @@ Prepara l’attivazione prima di generare i nomi. I metadati di ogni esperienza 
 
 La generazione si applica a tutti gli annunci sulle piattaforme a cui è assegnato un modello, ad eccezione degli annunci con [sostituzioni di nomi personalizzate](#use-a-custom-ad-name). I nomi non vengono generati automaticamente all&#39;apertura della tabella.
 
-Inizialmente, ogni annuncio utilizza il nome della propria esperienza. Se a una piattaforma non è assegnato alcun modello, la generazione ne lascia i nomi invariati. Modifica manualmente i nomi in base alle esigenze.
+Per le piattaforme a cui non è stato assegnato un modello, modifica manualmente i nomi degli annunci basati sull’esperienza in base alle esigenze.
 
 Se non è stato assegnato alcun modello a nessuna piattaforma, non viene generato alcun nome.
 
 ## Correggere un singolo nome annuncio
 
-Rivedi i nomi generati prima di inviare i tuoi annunci. I valori mancanti vengono visualizzati come segnaposto del campo evidenziato, ad esempio `[market]`, e gli annunci interessati mostrano **[!UICONTROL Richiede attenzione]**.
+Rivedi i nomi generati prima di inviare i tuoi annunci. Tutti i campi che rimangono vuoti dopo la generazione vengono visualizzati come segnaposto evidenziati, ad esempio `[market]`. Gli annunci interessati mostrano **[!UICONTROL Richiede attenzione]**.
 
 Per trovare i nomi che richiedono correzioni, cercare i segnaposto evidenziati e gli stati **[!UICONTROL Richiede attenzione]** nella tabella di attivazione:
 
